@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/Centaur" value="Centaur"/>
+	<entry name="AstraMilitarum/CentaurDescription" value="Light utility vehicle mainly used to speed up transport of troops and artillery. Weak but allows for rapid deployment."/>
+	<entry name="AstraMilitarum/CentaurFlavor" value="The Centaur is a lightly-armoured, open-top transport that primarily tows artillery, notably used by the Death Korps of Krieg. The gunner mans a Heavy Stubber to look pretty, and troops can cram themselves into the hold for transport, though the over-sized twin engines and power pack makes the ride uncomfortable. As the old Terran saying goes, 'Tactics win battles; logistics win wars.'"/>
+	
+</language>

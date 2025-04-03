@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <!-- Iron Hands -->
+	<entry name="Difficulty0IronHands" value="Neophyte"/>
+	<entry name="Difficulty1IronHands" value="Battle-Brother"/>
+	<entry name="Difficulty2IronHands" value="Sergeant"/>
+	<entry name="Difficulty3IronHands" value="Captain-"/>
+	<entry name="Difficulty4IronHands" value="Captain"/>
+	<entry name="Difficulty5IronHands" value="Captain+"/>
+	<entry name="Difficulty6IronHands" value="Chapter-Master-"/>
+	<entry name="Difficulty7IronHands" value="Chapter-Master"/>
+	<entry name="Difficulty8IronHands" value="Primarch-"/>
+	<entry name="Difficulty9IronHands" value="Primarch"/>
+	<entry name="Difficulty10IronHands" value="Emperor-"/>
+	<entry name="Difficulty11IronHands" value="Emperor"/>
+	<entry name="Difficulty12IronHands" value="Emperor+"/>
+</language>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/TankTowing" value="Artillery Towing"/>
+	<entry name="AstraMilitarum/TankTowingDescription" value="Movement increased by 2."/>
+	<entry name="AstraMilitarum/TankTowingFlavor" value="Dragged by the Centaur, the static artillery becomes mobile."/>
+</language>

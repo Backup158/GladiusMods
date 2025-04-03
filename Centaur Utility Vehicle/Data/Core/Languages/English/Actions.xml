@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/TankTowing" value="Artillery Towing"/>
+	<entry name="AstraMilitarum/TankTowingDescription" value="Increases movement of adjacent Basilisks and Field Ordnance Batteries by 2."/>
+	<entry name="AstraMilitarum/TankTowingFlavor" value="The Centaur's twin engines give it the power to tow artillery, greatly decreasing travel time."/>
+</language>
