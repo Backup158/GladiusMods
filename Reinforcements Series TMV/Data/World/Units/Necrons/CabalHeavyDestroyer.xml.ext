@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Necrons/NecrodermisRepair" sound="Units/Necrons/TooManyVoices/Vehicles/HeavyDestroyer_Ability_NecrodermisRepair" soundCount="1"/>
+	<action name="Necrons/DimensionalCorridor" sound="Units/Necrons/TooManyVoices/Vehicles/HeavyDestroyer_Ability_DimensionalCorridor" soundCount="1"/>
+    <attack sound="Units/Necrons/TooManyVoices/Vehicles/HeavyDestroyer_Attack" soundCount="8"/>
+    <move sound="Units/Necrons/TooManyVoices/Vehicles/HeavyDestroyer_Move" soundCount="8"/>
+    <select sound="Units/Necrons/TooManyVoices/Vehicles/HeavyDestroyer_Select" soundCount="5"/>
+    <productionCompleted sound="Units/Necrons/TooManyVoices/Vehicles/HeavyDestroyer_Complete" soundCount="1"/>
+  </responses>
+</unit>

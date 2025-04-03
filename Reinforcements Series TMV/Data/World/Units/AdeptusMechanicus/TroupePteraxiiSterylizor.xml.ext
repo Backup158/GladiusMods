@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="JumpPack" sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/PteraxiiSterylizor_Ability_JumpPack" soundCount="3"/>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/PteraxiiSterylizor_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/PteraxiiSterylizor_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/PteraxiiSterylizor_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/PteraxiiSterylizor_Complete" soundCount="3"/>
+  </responses>
+</unit>

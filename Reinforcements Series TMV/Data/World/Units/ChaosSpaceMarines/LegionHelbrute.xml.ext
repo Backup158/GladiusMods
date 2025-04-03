@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement3">
+  <responses>
+    <action name="HammerOfWrath" sound="Units/ChaosSpaceHavocs/TooManyVoices/Vehicles/Helbrute_Attack" soundCount="8"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Helbrute_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Helbrute_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Helbrute_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Helbrute_Complete" soundCount="1"/>
+  </responses>
+</unit>

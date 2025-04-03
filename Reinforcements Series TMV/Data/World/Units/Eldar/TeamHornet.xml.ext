@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+	<action name="Eldar/WebwayTravel" sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Ability_WebwayTravel" soundCount="3"/>
+    <action name="Eldar/CrystalTargetingMatrix" sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Ability_CrystalTargetingMatrix" soundCount="3"/>
+    <action name="Eldar/VectoredEngines" sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Ability_VectoredEngines" soundCount="3"/>
+	<action name="Scout" sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Ability_Scout" soundCount="3"/>
+    <action name="Jink" sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Ability_Jink" soundCount="3"/>
+	<attack sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Attack" soundCount="8"/>
+    <move sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Move" soundCount="8"/>
+    <select sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Eldar/TooManyVoices/Vehicles/Hornet_Complete" soundCount="3"/>
+  </responses>
+</unit>

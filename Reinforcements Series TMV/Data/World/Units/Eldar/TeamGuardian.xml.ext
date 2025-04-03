@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="ThrowGrenade/PlasmaGrenade" sound="Units/Eldar/TooManyVoices/Infantry/Guardian_Ability_PlasmaGrenade" soundCount="3"/>
+	<action name="Eldar/WebwayTravel" sound="Units/Eldar/TooManyVoices/Infantry/Guardian_Ability_WebwayTravel" soundCount="3"/>
+	<attack sound="Units/Eldar/TooManyVoices/Infantry/Guardian_Attack" soundCount="8"/>
+    <move sound="Units/Eldar/TooManyVoices/Infantry/Guardian_Move" soundCount="8"/>
+    <select sound="Units/Eldar/TooManyVoices/Infantry/Guardian_Select" soundCount="12"/>
+    <productionCompleted sound="Units/Eldar/TooManyVoices/Infantry/Guardian_Complete" soundCount="5"/>
+  </responses>
+</unit>

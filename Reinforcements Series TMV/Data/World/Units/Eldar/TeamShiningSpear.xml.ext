@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+	<action name="Eldar/WebwayTravel" sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Ability_WebwayTravel" soundCount="3"/>
+    <action name="HammerOfWrath" sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Ability_HammerOfWrath" soundCount="3"/>
+    <action name="SkilledJink" sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Ability_Jink" soundCount="3"/>
+	<action name="Scout" sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Ability_Scout" soundCount="3"/>
+    <action name="TurboBoost" sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Ability_TurboBoost" soundCount="3"/>
+	<attack sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Attack" soundCount="8"/>
+    <move sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Move" soundCount="8"/>
+    <select sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Eldar/TooManyVoices/Infantry/ShiningSpear_Complete" soundCount="3"/>
+  </responses>
+</unit>

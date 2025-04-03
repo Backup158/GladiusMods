@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Necrons/NecrodermisRepair" sound="Units/Necrons/TooManyVoices/Vehicles/TriarchStalker_Ability_NecrodermisRepair" soundCount="1"/>
+    <action name="HammerOfWrath" sound="Units/Necrons/TooManyVoices/Vehicles/TriarchStalker_Ability_HammerOfWrath" soundCount="2"/>
+    <attack sound="Units/Necrons/TooManyVoices/Vehicles/TriarchStalker_Attack" soundCount="8"/>
+    <move sound="Units/Necrons/TooManyVoices/Vehicles/TriarchStalker_Move" soundCount="10"/>
+    <select sound="Units/Necrons/TooManyVoices/Vehicles/TriarchStalker_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Necrons/TooManyVoices/Vehicles/TriarchStalker_Complete" soundCount="1"/>
+  </responses>
+</unit>

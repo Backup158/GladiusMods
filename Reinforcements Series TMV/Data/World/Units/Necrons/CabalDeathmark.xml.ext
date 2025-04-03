@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Necrons/NecrodermisRepair" sound="Units/Necrons/TooManyVoices/Infantry/Deathmark_Ability_NecrodermisRepair" soundCount="3"/>
+	<action name="Necrons/DimensionalCorridor" sound="Units/Necrons/TooManyVoices/Infantry/Deathmark_Ability_DimensionalCorridor" soundCount="3"/>
+	<action name="Necrons/HuntersFromHyperspace" sound="Units/Necrons/TooManyVoices/Infantry/Deathmark_Ability_HuntersFromHyperspace" soundCount="3"/>
+    <attack sound="Units/Necrons/TooManyVoices/Infantry/Deathmark_Attack" soundCount="8"/>
+    <move sound="Units/Necrons/TooManyVoices/Infantry/Deathmark_Move" soundCount="8"/>
+    <select sound="Units/Necrons/TooManyVoices/Infantry/Deathmark_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Necrons/TooManyVoices/Infantry/Deathmark_Complete" soundCount="3"/>
+  </responses>
+</unit>

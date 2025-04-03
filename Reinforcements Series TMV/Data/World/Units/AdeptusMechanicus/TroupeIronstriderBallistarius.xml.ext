@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement9">
+  <responses>
+  	<action name="HammerOfWrath" sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/IronstriderBallistarius_Ability_HammerOfWrath" soundCount="3"/>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/IronstriderBallistarius_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/IronstriderBallistarius_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/IronstriderBallistarius_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/IronstriderBallistarius_Complete" soundCount="3"/>
+  </responses>
+</unit>

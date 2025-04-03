@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+	<action name="Eldar/WebwayTravel" sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Ability_WebwayTravel" soundCount="3"/>
+    <action name="CleansingFlame/CleansingFlame" sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Ability_CleansingFlame" soundCount="3"/>
+	<action name="GateOfInfinity" sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Ability_GateOfInfinity" soundCount="3"/>
+	<action name="Hammerhand" sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Ability_Hammerhand" soundCount="3"/>
+	<attack sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Attack" soundCount="8"/>
+    <move sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Move" soundCount="8"/>
+    <select sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Select" soundCount="11"/>
+    <productionCompleted sound="Units/Eldar/TooManyVoices/Infantry/Warlock_Complete" soundCount="3"/>
+  </responses>
+</unit>

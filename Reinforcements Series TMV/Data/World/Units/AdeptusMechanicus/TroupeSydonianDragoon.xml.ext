@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+  	<action name="HammerOfWrath" sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/SydonianDragoon_Ability_HammerOfWrath" soundCount="3"/>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/SydonianDragoon_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/SydonianDragoon_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/SydonianDragoon_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Vehicles/SydonianDragoon_Complete" soundCount="3"/>
+  </responses>
+</unit>

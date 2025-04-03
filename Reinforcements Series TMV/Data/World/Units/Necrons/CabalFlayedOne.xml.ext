@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <attack sound="Units/Necrons/TooManyVoices/Infantry/FlayedOne_Aggressive" soundCount="5"/>
+    <move sound="Units/Necrons/TooManyVoices/Infantry/FlayedOne_Neutral" soundCount="5"/>
+    <select sound="Units/Necrons/TooManyVoices/Infantry/FlayedOne_Neutral" soundCount="5"/>
+    <productionCompleted sound="Units/Necrons/TooManyVoices/Infantry/FlayedOne_Neutral" soundCount="5"/>
+  </responses>
+</unit>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Scout" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Sentinel_Ability_Scout" soundCount="1"/>
+    <action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Sentinel_Ability_Smoke" soundCount="1"/>
+    <attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Sentinel_Attack" soundCount="8"/>
+    <move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Sentinel_Move" soundCount="8"/>
+    <select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Sentinel_Select" soundCount="4"/>
+    <productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Sentinel_Complete" soundCount="1"/>
+  </responses>
+</unit>

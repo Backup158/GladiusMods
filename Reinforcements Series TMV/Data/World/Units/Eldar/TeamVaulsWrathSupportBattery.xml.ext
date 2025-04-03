@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="ClearTile" sound="Units/Eldar/TooManyVoices/Vehicles/VaulsWrathSupportBattery_Ability_ClearTile" soundCount="3"/>
+	<action name="Eldar/WebwayTravel" sound="Units/Eldar/TooManyVoices/Vehicles/VaulsWrathSupportBattery_Ability_WebwayTravel" soundCount="3"/>
+	<attack sound="Units/Eldar/TooManyVoices/Vehicles/VaulsWrathSupportBattery_Attack" soundCount="8"/>
+    <move sound="Units/Eldar/TooManyVoices/Vehicles/VaulsWrathSupportBattery_Move" soundCount="8"/>
+    <select sound="Units/Eldar/TooManyVoices/Vehicles/VaulsWrathSupportBattery_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Eldar/TooManyVoices/Vehicles/VaulsWrathSupportBattery_Complete" soundCount="3"/>
+  </responses>
+</unit>

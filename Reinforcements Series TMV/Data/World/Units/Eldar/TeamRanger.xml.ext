@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+	<action name="Eldar/WebwayTravel" sound="Units/Eldar/TooManyVoices/Infantry/Ranger_Ability_WebwayTravel" soundCount="3"/>
+	<attack sound="Units/Eldar/TooManyVoices/Infantry/Ranger_Attack" soundCount="8"/>
+    <move sound="Units/Eldar/TooManyVoices/Infantry/Ranger_Move" soundCount="9"/>
+    <select sound="Units/Eldar/TooManyVoices/Infantry/Ranger_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Eldar/TooManyVoices/Infantry/Ranger_Complete" soundCount="3"/>
+  </responses>
+</unit>
