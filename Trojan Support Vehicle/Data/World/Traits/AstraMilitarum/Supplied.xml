@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/AstraMilitarum/SupplyHaul">
+	<modifiers>
+        <!-- Vehicles don't even take food so idk if this is necessary -->
+        <modifier>
+			<conditions>
+				<unit>
+					<allied/>
+                    <!-- Not checking for AstraMilitarum because I think it'd be neat to feed allies -->
+					<noTrait name="Fortification"/>
+                    <noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<foodUpkeep mul="-0.25"/>
+			</effects>
+		</modifier>
+        <modifier>
+            <conditions>
+				<unit>
+					<allied/>
+				</unit>
+			</conditions>
+			<effects>
+                <morale add="1"/>
+				<healingRate mul="0.25"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

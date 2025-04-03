@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/Supplied" value="Supplied"/>
+	<entry name="AstraMilitarum/SuppliedDescription" value="Units recover more quickly while adjacent to a Trojan."/>
+	<entry name="AstraMilitarum/SuppliedFlavor" value="Guardsmen clamored about the Trojan, eagerly pushing past each other to be the first to get a fresh plate of slop. Quartermasters rifle through the spare parts and ammunition, nabbing any useful bits for repairs and rearmament."/>
+</language>

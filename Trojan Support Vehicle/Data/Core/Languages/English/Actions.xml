@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="AstraMilitarum/SupplyHaul" value="Supply Haul"/>
+	<entry name="AstraMilitarum/SupplyHaulDescription" value="Allows adjacent allied troops to recover more quickly."/>
+	<entry name="AstraMilitarum/SupplyHaulFlavor" value="The Trojan unloads its cargo, distributing rations and ammunition amongst the weary Guardsmen at the back lines. Hot meals offer a moment of reprieve, but they will soon return to the front."/>
+</language>

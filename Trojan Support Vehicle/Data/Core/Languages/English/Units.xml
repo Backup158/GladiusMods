@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/Trojan" value="Trojan"/>
+	<entry name="AstraMilitarum/TrojanDescription" value="Support vehicle carrying supplies for the front line. Helps adjacent troops recover. Faster, but more vulnerable and unable to transport troops."/>
+	<entry name="AstraMilitarum/TrojanFlavor" value="The Trojan, based on the Chimera chassis, is a support vehicle made to ferry supplies. Its armour plating and weapons have been stripped down, making it faster and able to carry supplies and a crane; its sole defence is a hull-mounted Heavy Bolter. When it arrives at the backlines, the resting troops are reinvigorated with extra rations and fresh magazines. As the old Terran saying goes, 'An army marches on its stomach.'"/>
+	
+</language>
