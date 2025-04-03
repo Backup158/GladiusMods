@@ -21,6 +21,7 @@ Preview | Steam Workshop Link
 ![img](https://images.steamusercontent.com/ugc/2914211344493711/024524DF11194E7C280E4AF75532248709C1F695/?imw=268&imh=151&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) | [Foes Without Number - Gladius+ Rescale](https://steamcommunity.com/sharedfiles/filedetails/?id=3405780980)
 ![img](https://images.steamusercontent.com/ugc/2921817808125383/55A4BDE73AE27D6BE471565E47C4E482B771532C/?imw=268&imh=151&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) | [Snap-fire Patches for Custom Factions](https://steamcommunity.com/sharedfiles/filedetails/?id=3452583452)
 ![img](https://images.steamusercontent.com/ugc/2921817812348175/C005B8A1403F1CBAAD38DA391B40AC0278B66EDD/?imw=268&imh=151&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) | [Reinforcements Series TMV](https://steamcommunity.com/sharedfiles/filedetails/?id=3457002753)
+
 Don't have the straight files for my Astra Militarum units Gladius+ patch. Those are only on Steam.
 
 -# Main mod images are taken from preview on the page. Patch images are taken from the smaller preview in the search results.
