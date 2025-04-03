@@ -1,4 +1,5 @@
-These are on the Steam Workshop.
+# [Gladius Mods](https://github.com/Backup158/GladiusMods)
+These are on the Steam Workshop. Descriptions are there because I am not copying that over lol.
 
 # Contents
 Preview | Steam Workshop Link
