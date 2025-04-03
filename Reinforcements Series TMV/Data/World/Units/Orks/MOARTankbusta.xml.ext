@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="ThrowGrenade/Stikkbomb" sound="Units/Orks/TooManyVoices/Infantry/Tankbusta_Ability_Stikkbomb" soundCount="3"/>
+    <action name="ThrowGrenade/TankbustaBomb" sound="Units/Orks/TooManyVoices/Infantry/Tankbusta_Ability_TankbustaBomb" soundCount="4"/>
+    <action name="EreWeGo" sound="Units/Orks/TooManyVoices/Waaagh" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Infantry/Tankbusta_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Infantry/Tankbusta_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Infantry/Tankbusta_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Infantry/Tankbusta_Complete" soundCount="3"/>
+  </responses>
+</unit>

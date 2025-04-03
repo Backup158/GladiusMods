@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Attack" soundCount="8"/>
+    <action name="HammerOfWrath" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Attack" soundCount="8"/>
+    <action name="TurboBoost" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Ability_Boost" soundCount="1"/>
+    <action name="Jink" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Ability_Jink" soundCount="1"/>
+    <action name="ClusterMines" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Ability_Mines" soundCount="1"/>
+    <action name="Scout" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Ability_Scout" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Vehicles/Bike_Complete" soundCount="1"/>
+  </responses>
+</unit>

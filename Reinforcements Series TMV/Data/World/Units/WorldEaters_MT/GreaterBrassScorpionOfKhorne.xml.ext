@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement12">
+  <responses>
+    <action name="HammerOfWrath" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/GreaterBrassScorpion_Aggressive" soundCount="4"/>
+	<action name="UseWeapon/Stomp" sound="Units//ChaosSpaceMarines/TooManyVoices/Vehicles/GreaterBrassScorpion_Aggressive" soundCount="4"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/GreaterBrassScorpion_Aggressive" soundCount="4"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/GreaterBrassScorpion_Neutral" soundCount="4"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/GreaterBrassScorpion_Neutral" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/GreaterBrassScorpion_Complete" soundCount="1"/>
+  </responses>
+</unit>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Jump infantry. Not as mutated as Warp Talons so I'm using default CSM lines. -->
+<unit>
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Attack" soundCount="8"/>
+    <action name="UseWeapon/Meltabomb" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Attack" soundCount="8"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Complete" soundCount="1"/>
+  </responses>
+</unit>

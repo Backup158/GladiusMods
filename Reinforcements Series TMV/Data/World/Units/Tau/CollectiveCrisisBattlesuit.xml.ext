@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Tau/DeployDrone/Tau/GunDrone" sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Ability_GunDrones" soundCount="2"/>
+	<action name="Tau/DeployDrone/Tau/ShieldDrone" sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Ability_ShieldDrones" soundCount="2"/>
+    <action name="Tau/DeployDrone/Tau/MarkerDrone" sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Ability_MarkerDrones" soundCount="2"/>
+	<action name="Tau/BondingKnifeRitual" sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Ability_BondingKnife" soundCount="4"/>
+	<attack sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Attack" soundCount="9"/>
+    <move sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Move" soundCount="8"/>
+    <select sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Select" soundCount="6"/>
+    <productionCompleted sound="Units/Tau/TooManyVoices/Battlesuits/CrisisBattlesuit_Complete" soundCount="1"/>
+  </responses>
+</unit>

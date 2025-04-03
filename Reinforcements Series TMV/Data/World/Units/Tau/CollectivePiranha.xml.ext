@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Tau/DeployDrone/Tau/GunDrone" sound="Units/Tau/TooManyVoices/Vehicles/Piranha_Ability_GunDrones" soundCount="4"/>
+	<action name="Jink" sound="Units/Tau/TooManyVoices/Vehicles/Piranha_Ability_Jink" soundCount="5"/>
+	<action name="UseWeapon/SeekerMissile" sound="Units/Tau/TooManyVoices/Vehicles/Piranha_Ability_SeekerMissile" soundCount="3"/>
+    <attack sound="Units/Tau/TooManyVoices/Vehicles/Piranha_Attack" soundCount="8"/>
+    <move sound="Units/Tau/TooManyVoices/Vehicles/Piranha_Move" soundCount="8"/>
+    <select sound="Units/Tau/TooManyVoices/Vehicles/Piranha_Select" soundCount="5"/>
+    <productionCompleted sound="Units/Tau/TooManyVoices/Vehicles/Piranha_Complete" soundCount="1"/>
+  </responses>
+</unit>

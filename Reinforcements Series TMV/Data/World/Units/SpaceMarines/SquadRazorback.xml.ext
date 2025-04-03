@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="UseWeapon/HunterKillerMissile" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Razorback_Ability_HunterKiller" soundCount="3"/>
+    <action name="CreateSmokeScreen" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Razorback_Ability_Smoke" soundCount="3"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Vehicles/Razorback_Attack" soundCount="10"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Vehicles/Razorback_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Vehicles/Razorback_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Vehicles/Razorback_Complete" soundCount="1"/>
+  </responses>
+</unit>

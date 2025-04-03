@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="TurboBoost" sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_Ability_Turbo" soundCount="1"/>
+    <action name="Jink" sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_Ability_Jink" soundCount="1"/>
+    <action name="Scout" sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_Ability_Scout" soundCount="1"/>
+    <action name="ThrowGrenade/Bigbomm" sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_BigBomm" soundCount="4"/>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_Select" soundCount="5"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/Deffkopta_Complete" soundCount="1"/>
+  </responses>
+</unit>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Attack" soundCount="8"/>
+    <action name="ClearTileUnitAbility" sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Ability_ClearTile" soundCount="1"/>
+    <action name="BlessingsOfTheOmnissiah" sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Ability_Blessings" soundCount="1"/>
+    <action name="BolsterDefences" sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Ability_Bolster" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Infantry/Thunderfire_Complete" soundCount="1"/>
+  </responses>
+</unit>

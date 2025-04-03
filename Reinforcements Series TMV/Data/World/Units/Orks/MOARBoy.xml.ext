@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="ThrowGrenade/Stikkbomb" sound="Units/Orks/TooManyVoices/Infantry/Boyz_Ability_Stikkbomb" soundCount="4"/>
+    <action name="EreWeGo" sound="Units/Orks/TooManyVoices/Waaagh" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Infantry/Boyz_Attack" soundCount="9"/>
+    <move sound="Units/Orks/TooManyVoices/Infantry/Boyz_Move" soundCount="9"/>
+    <select sound="Units/Orks/TooManyVoices/Infantry/Boyz_Select" soundCount="5"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Infantry/Boyz_Complete" soundCount="1"/>
+  </responses>
+</unit>

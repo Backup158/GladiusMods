@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Using Chaos Lord lines --> 
+<unit dlc="Supplement3">
+  <responses>
+    <action name="HealingSurge" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Ability_Ichor" soundCount="1"/>
+    <action name="ProphetOfTheWaaagh" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Ability_Ichor" soundCount="1"/>
+    <action name="PowerStrike" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <action name="UseWeapon/FragGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <action name="UseWeapon/MeltaBomb" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Complete" soundCount="1"/>
+  </responses>
+</unit>

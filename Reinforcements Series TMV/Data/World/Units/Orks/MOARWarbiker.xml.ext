@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Orks/WarbikeTurboBoost" sound="Units/Orks/TooManyVoices/Vehicles/Warbiker_Ability_Turbo" soundCount="1"/>
+    <action name="Jink" sound="Units/Orks/TooManyVoices/Vehicles/Warbiker_Ability_Jink" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/Warbiker_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/Warbiker_Move" soundCount="10"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/Warbiker_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/Warbiker_Complete" soundCount="1"/>
+  </responses>
+</unit>

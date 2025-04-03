@@ -1,0 +1,13 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="Orks/ProphetOfTheWaaagh" sound="Units/Orks/TooManyVoices/Heroes/Warboss_Ability_Prophet" soundCount="2"/>
+    <action name="Orks/BustHeads" sound="Units/Orks/TooManyVoices/Heroes/Warboss_Ability_BustHeads" soundCount="2"/>
+    <action name="ThrowGrenade/Stikkbomb" sound="Units/Orks/TooManyVoices/Heroes/Warboss_Ability_Stikkbomb" soundCount="3"/>
+    <action name="EreWeGo" sound="Units/Orks/TooManyVoices/Waaagh" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Heroes/Warboss_Attack" soundCount="10"/>
+    <move sound="Units/Orks/TooManyVoices/Heroes/Warboss_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Heroes/Warboss_Select" soundCount="6"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Heroes/Warboss_Complete" soundCount="1"/>
+  </responses>
+</unit>

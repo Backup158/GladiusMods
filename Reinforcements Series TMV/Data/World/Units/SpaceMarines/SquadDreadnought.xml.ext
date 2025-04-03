@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="CreateSmokeScreen" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Dreadnought_Ability_Smoke" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Vehicles/Dreadnought_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Vehicles/Dreadnought_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Vehicles/Dreadnought_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Vehicles/Dreadnought_Complete" soundCount="1"/>
+  </responses>
+</unit>

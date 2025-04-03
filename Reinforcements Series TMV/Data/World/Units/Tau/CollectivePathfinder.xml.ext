@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <action name="Tau/DeployDrone/Tau/PulseAcceleratorDrone" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_PulseAcceleratorDrones" soundCount="2"/>
+	<action name="Tau/DeployDrone/Tau/ReconDrone" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_ReconDrones" soundCount="2"/>
+    <action name="Tau/DeployDrone/Tau/GravInhibitorDrone" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_GravInhibitorDrones" soundCount="2"/>
+	<action name="Tau/BondingKnifeRitual" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_BondingKnife" soundCount="4"/>
+	<action name="Tau/Markerlight" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_Markerlight" soundCount="6"/>
+    <action name="Scout" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_Scout" soundCount="4"/>
+    <action name="ThrowGrenade/PhotonGrenade" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_PhotonGrenade" soundCount="4"/>
+	<action name="ThrowGrenade/EMPGrenade" sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Ability_EMPGrenade" soundCount="4"/>
+	<attack sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Attack" soundCount="8"/>
+    <move sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Move" soundCount="8"/>
+    <select sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Select" soundCount="6"/>
+    <productionCompleted sound="Units/Tau/TooManyVoices/Infantry/Pathfinder_Complete" soundCount="1"/>
+  </responses>
+</unit>
