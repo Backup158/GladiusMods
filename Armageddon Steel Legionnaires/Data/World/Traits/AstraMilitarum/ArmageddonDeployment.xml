@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visible="1" >
+	<onUnitDisembarked>
+		<area affects="Unit">
+			<modifiers>
+                <!-- Extra movement and damage on disembark -->
+				<modifier>
+					<effects>
+						<addTrait name="Fleet" duration="2"/>
+						<addTrait name="AstraMilitarum/ArmageddonDeploymentDamage" duration="1"/>
+					</effects>
+				</modifier>
+				<!-- Requires Awaken the Machine vehicle boost tech for disembark invul -->
+				<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+					<effects>
+						<addTrait name="AstraMilitarum/ArmageddonDeploymentDamageReduction" duration="1"/>
+					</effects>	
+				</modifier>
+			</modifiers>
+		</area>
+	</onUnitDisembarked>
+</trait>

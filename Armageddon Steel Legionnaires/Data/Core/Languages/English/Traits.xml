@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/ArmageddonOrks" value="Ork Hunter"/>
+	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Steel Legionnaires are 17% more accurate against Orks."/>
+	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
+	<entry name="AstraMilitarum/ArmageddonDeployment" value="Armageddon Rapid Deployment"/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentDescription" value="Grants bonus traits when this unit disembarks from a transport."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentFlavor" value="Steel Legionnaires are renowned for their swift assaults, where they spill out from their Chimeras"/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentDamage" value="Aggressive Deployment"/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentDamageDescription" value="Increases the damage."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentDamageFlavor" value="The Steel Legion frequently uses rapid deployment from Chimeras to strike the enemy before they can react."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReduction" value="Evasive Deployment"/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionDescription" value="Increases the invulnerable damage reduction."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionFlavor" value="The Steel Legion has learned how to exit an APC swiftly yet safely while under fire."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRate" value="Armageddon Readiness"/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Steel Legion Medics have discovered more efficient packing methods for first aid kits to store inside their transports."/>
+
+</language>

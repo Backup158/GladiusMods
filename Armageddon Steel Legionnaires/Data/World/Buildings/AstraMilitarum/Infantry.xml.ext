@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<produceUnit unit="AstraMilitarum/SteelLegionnaire" requiredUpgrade="AstraMilitarum/Chimera"/>
+		<produceUnit unit="AstraMilitarum/SteelLegionStormTrooper" requiredUpgrade="AstraMilitarum/TempestusScion"/>
+	</actions>
+</building>

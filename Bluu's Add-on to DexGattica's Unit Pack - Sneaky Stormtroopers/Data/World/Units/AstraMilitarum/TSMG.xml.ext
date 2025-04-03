@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement1">
+	<group size="6" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<moraleMax base="8"/> <!-- %moraleMax base leadership=6 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="Infiltrate"/>
+	</traits>
+</unit>
