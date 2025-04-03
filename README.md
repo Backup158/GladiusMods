@@ -23,5 +23,3 @@ Preview | Steam Workshop Link
 ![img](https://images.steamusercontent.com/ugc/2921817812348175/C005B8A1403F1CBAAD38DA391B40AC0278B66EDD/?imw=268&imh=151&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) | [Reinforcements Series TMV](https://steamcommunity.com/sharedfiles/filedetails/?id=3457002753)
 
 Don't have the straight files for my Astra Militarum units Gladius+ patch. Those are only on Steam.
-
--# Main mod images are taken from preview on the page. Patch images are taken from the smaller preview in the search results.
