@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Buff"
+		icon="Attributes/Morale">
+	<modifiers>
+		<!-- Reduced Morale Loss -->
+		<modifier>
+			<effects>
+				<moraleLossFactor add="-0.1"/> <!-- You aren't a Space Marine so -10% instead of -33% -->
+			</effects>
+		</modifier>
+		<!-- Discipline when adjacent to other Praetorians -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="1" range="1">
+                        <allied/>
+						<trait name="AstraMilitarum/Praetorian"/>
+                    </unitsInRange>
+                    <allied/>
+                </unit>
+            </conditions>
+			<effects>
+				<accuracy add="1"/>
+				<morale add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

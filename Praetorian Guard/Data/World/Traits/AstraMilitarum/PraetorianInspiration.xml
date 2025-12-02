@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Buff"
+		icon="Units/AstraMilitarum/LordCommissar">
+	<modifiers>
+		<!-- Buffs Praetorians -->
+		<modifier>
+			<effects>
+				<morale add="1"/>
+				<moraleMax add="2"/>
+				<rangedAccuracy mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

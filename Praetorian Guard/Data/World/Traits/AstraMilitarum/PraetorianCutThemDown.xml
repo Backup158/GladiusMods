@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Making a copy just to change the icon -->
+<trait alwaysVisible="1" 
+		category="Buff"
+		visibilityCategory="Weapon"
+		icon="Traits/Shred">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noTrait name="Fortification"/>
+						<noTrait name="Vehicle"/>
+						<!-- Morale checks copied from Enslavers -->
+						<morale less="6.5"/>
+						<moraleMax greater="0.0"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<meleeAttacks mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

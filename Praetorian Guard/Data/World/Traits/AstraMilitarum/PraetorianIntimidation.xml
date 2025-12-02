@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Debuff"
+		icon="Units/AstraMilitarum/LordCommissar">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<!-- Weaker fear and it can affect allies -->
+			<conditions>
+				<unit>
+					<noTrait name="AstraMilitarum/Praetorian"/>
+					<noTrait name="AndTheyShallKnowNoFear"/>
+					<noTrait name="Fearless"/>
+					<noTrait name="Eldar/KhaineAwakened"/>
+					<noTrait name="Tyranids/SynapseLink"/>
+					<noTrait name="Zealot"/>
+				</unit>
+			</conditions>
+			<effects>
+				<morale add="-1.25"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

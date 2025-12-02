@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Buff"
+		icon="Attributes/PopulationLimit">
+	<modifiers>
+		<!-- Volley Fire -->
+		<modifier>
+			 <conditions>
+                <unit match="Any">
+                    <unitsInRange count="1" range="1">
+                        <allied/>
+						<type name="AstraMilitarum/PraetorianGuardsmen"/>
+                    </unitsInRange>
+                    <allied/>
+                </unit>
+            </conditions>
+			<effects>
+				<rangedAttacks mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

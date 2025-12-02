@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Buff"
+		icon="Traits/ChaosSpaceMarines/VeteransOfTheLongWar"> <!-- Skull with Aquila -->
+	<modifiers>
+		<!-- Increased Damage against Neutrals -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<faction name="Neutral"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<!-- Just increasing dmg is useless against low hp high model units, which feels antithetical to the theme -->
+				<!-- It's not like you're building these specifically to kill Umbra lol -->
+				<!-- <damage mul="0.25"/> -->
+				<accuracy mul="0.17"/>
+				<rangedAttacks mul="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Increased Accuracy against animalistic Xenos -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent match="Any">
+						<faction name="Orks"/>
+						<!-- Custom Factions (crashes without them installed) -->
+						<!-- <faction name="Dreadheadz_MT"/> -->
+						<!-- On second thought, killing Tyranids doesn't feel like Imperialism, so just Orks lol -->
+						<!-- <faction name="Tyranids"/> -->
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<accuracy mul="0.1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Buff"
+		icon="Traits/Stubborn">
+	<modifiers>
+		<!-- Reduced Morale Loss -->
+		<modifier>
+			<effects>
+				<moraleLossFactor add="-0.1"/> <!-- On top of the regular Praetorian buff -->
+			</effects>
+		</modifier>
+		<!-- More RDR after moving to soak overwatch -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <movedThisTurn/>
+                </unit>
+            </conditions>
+			<effects>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
