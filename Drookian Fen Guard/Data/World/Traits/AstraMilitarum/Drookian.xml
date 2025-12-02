@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Buff"
+		icon="Traits/ForestStealth">
+	<modifiers>
+		<!-- Improved Ambush (Copied from CultAmbush) -->
+		<modifier>
+			<conditions>
+				<unit>
+					<overwatching/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy add="2"/>
+			</effects>
+		</modifier>
+		<!-- Improved damage in forests (closest thing to bogs) -->
+		<modifier>
+			<conditions>
+				<tile>
+					<feature name="Forest"/>
+				</tile>
+			</conditions>
+			<effects>
+				<damage mul="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Loses Morale near non-Drookians -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="1" range="1">
+						<allied/>
+						<noTrait name="AstraMilitarum/Drookian"/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+			<effects>
+				<morale add="-1"/>
+			</effects>
+		</modifier>
+		<!-- Gains Morale when somewhat close to Commissars -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="1" range="2">
+						<allied/>
+						<type name="AstraMilitarum/LordCommissar"/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+			<effects>
+				<morale add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="AstraMilitarum/PraetorianGuardsmen" value="Praetorian Guardsman"/>
+    <entry name="AstraMilitarum/PraetorianGuardsmenDescription" value="The Praetorian Guard are tougher and braver than the average Guardsman, and they specialize in wiping out Neutral units (and to a lesser extent, Orks). Praetorians work best when shoulder-to-shoulder with their comrades."/>
+    <entry name="AstraMilitarum/PraetorianGuardsmenFlavor" value="The Praetorian Guard are renowned across the Imperium for their bravery. Their tight discipline and cooperation in the face of insurmountable odds gives Praetorians the grit to carve their mark in the Astra Militarum. With each Guardsman having experienced a lifetime of cruelty and draconian conditions, eliminating the galaxy's savages seem inviting in comparison. The uncivilised barbarians polluting the galaxy shall pay for their sins of survival."/>
+    <entry name="AstraMilitarum/PraetorianGrenadier" value="Praetorian Grenadier"/>
+    <entry name="AstraMilitarum/PraetorianGrenadierDescription" value="Praetorian Grenadiers are shocktroopers with increased proficiency in handling grenades. They are tougher than even the average Praetorian, and they are extra resilient when charging headfirst into enemy lines."/>
+    <entry name="AstraMilitarum/PraetorianGrenadierFlavor" value="Grenadiers are recruited from the tallest, strongest Praetorian Guardsmen. Traditionally, they were trained as siege experts, but the realities of current conflicts led to their specialisation in breaking through enemy lines. Recognisable by their bearskin caps, they can be typically found storming palisades, knowing no doubt nor fear."/>
+    <entry name="AstraMilitarum/PraetorianHeavyGunnerSquad" value="Praetorian Maksim Stubgun Squad"/>
+    <entry name="AstraMilitarum/PraetorianHeavyGunnerSquadDescription" value="Praetorian Maksim Stubgun Squads wield a heavy weapon that specialises in tearing through hordes of enemy infantry."/>
+    <entry name="AstraMilitarum/PraetorianHeavyGunnerSquadFlavor" value="&quot;We don't take kindly to filthy tribals trying to &apos;settle&apos; or &apos;stay alive&apos; in our God-Emperor-given land.&quot;"/>
+    <entry name="AstraMilitarum/PraetorianHussar" value="Praetorian Hussar"/>
+    <entry name="AstraMilitarum/PraetorianHussarDescription" value="Praetorian Hussars are light cavalry, swiftly entering the battlefield to punch a hole into enemy lines. When the enemy flees, they are easily cut down by sabres."/>
+    <entry name="AstraMilitarum/PraetorianHussarFlavor" value="Praetorian Hussars, while relatively recently formed, have their roots in the storied past of the Praetorian Horse Guards. "/>
+    <entry name="AstraMilitarum/PraetorianCommissar" value="Praetorian Commissar"/>
+    <entry name="AstraMilitarum/PraetorianCommissarDescription" value="Praetorian Commissars are exceptionally fierce yet inspiring. They push Praetorians to their limits, but their cruelty often breaks weaker troops."/>
+    <entry name="AstraMilitarum/PraetorianCommissarFlavor" value="Praetorians, while no strangers to disproportionately harsh punishments, have their ironclad discipline forged by their Commissars. Praetorian Commissars typically descend from the more fortunate bloodlines in the hives, but that doesn't stop them from planting a boot or boltshell into a disgraceful soldier."/>
+</language>
