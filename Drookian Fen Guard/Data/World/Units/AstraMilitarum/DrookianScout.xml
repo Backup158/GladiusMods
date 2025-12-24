@@ -33,6 +33,18 @@
 				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
+			</model>		
+		</weapon>
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="AstraMilitarum/LasDamage">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">

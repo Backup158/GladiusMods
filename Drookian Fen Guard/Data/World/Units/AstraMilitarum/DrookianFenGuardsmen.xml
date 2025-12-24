@@ -32,6 +32,11 @@
 				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
+			</model>		
+		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -98,6 +103,15 @@
 		</throwGrenade>
 		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<!-- BlastDamage seems too late. It's T6, when Sisters and Marines get them at T4. -->
+		<!-- CityTier2 and LasDamage are both T4. I think LasDamage seems more natural. -->
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="AstraMilitarum/LasDamage">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"/>
