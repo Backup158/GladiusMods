@@ -79,6 +79,29 @@
 						soundCount="6"/>
 			</model>
 		</move>
+		<createSmokeScreen name="ThrowSmokeGrenade"
+				cooldown="10"
+				icon="Traits/SmokeScreen">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2">
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<!-- Vehicle smoke on self is 3 -->
+										<addFeature duration="2" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</createSmokeScreen>
 	</actions>
 	<traits>
 		<!-- Lictor Traits -->
