@@ -13,7 +13,8 @@
 	</model>
 	<group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="Lasgun">
+		<!-- Laspistol for stats, but Lasgun for appearance for compatibility -->
+		<weapon name="Laspistol">
 			<model>
 				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
 						material="Weapons/AstraMilitarum/GuardsmanLasgun"
