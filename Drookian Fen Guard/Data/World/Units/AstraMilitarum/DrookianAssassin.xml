@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement14">
+<unit>
 	<model>
 		<unit mesh="Units/SistersOfBattle/ArcoFlagellant"
 				material="Units/SistersOfBattle/ArcoFlagellant"
@@ -77,7 +77,20 @@
 		</move>
 	</actions>
 	<traits>
-		<trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
-		<trait name="FeelNoPain"/>
+		<trait name="Stealth"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<trait name="AstraMilitarum/Drookian"/>
+		<trait name="AstraMilitarum/DrookianSaboteur"/>
 	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Complete" soundCount="1"/>
+	</responses>
 </unit>
