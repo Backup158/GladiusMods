@@ -11,7 +11,7 @@
 				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
-	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="Lasgun">
 			<model>
@@ -36,18 +36,18 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="4"/> <!-- %armor base armor=5+ -->
-				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
-				<foodCost base="12.5"/> <!-- 10 %foodCost base tier=4 factor=0.5 -->
-				<hitpointsMax base="2.2"/> <!-- 2 %hitpointsMax base toughness=3 wounds=1 -->
+				<armor base="2"/> <!-- 4 | %armor base armor=5+ -->
+				<foodUpkeep base="0.8"/> <!-- 1 | %foodUpkeep base tier=4 factor=1 -->
+				<foodCost base="8"/> <!-- 10 %foodCost base tier=4 factor=0.5 -->
+				<hitpointsMax base="1.6"/> <!-- 2 %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<!-- <meleeInitiative base="3"/> -->
-				<oreCost base="12.5"/> <!-- 10 %oreCost base tier=4 factor=0.5 -->
+				<oreCost base="8"/> <!-- 10 %oreCost base tier=4 factor=0.5 -->
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
-				<moraleMax base="8"/> <!-- 6 %moraleMax base leadership=6 -->
-				<movementMax base="3"/>
-				<productionCost base="28.0"/> <!-- 24 %productionCost base tier=4 factor=1 -->
+				<moraleMax base="4"/> <!-- 6 %moraleMax base leadership=6 -->
+				<movementMax base="4"/>
+				<productionCost base="22.0"/> <!-- 24 %productionCost base tier=4 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
@@ -129,13 +129,36 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		<!-- Scout Sentinel scans are cd 3 -->
+		<scout consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="4"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Scan"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</scout>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
-		<trait name="AstraMilitarum/Praetorian"/>
-		<trait name="AstraMilitarum/PraetorianLineFormation"/>
-		<trait name="AstraMilitarum/SneeringImperialist"/>
+		<trait name="AstraMilitarum/Drookian"/>
+		<trait name="AstraMilitarum/DrookianSaboteur"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
