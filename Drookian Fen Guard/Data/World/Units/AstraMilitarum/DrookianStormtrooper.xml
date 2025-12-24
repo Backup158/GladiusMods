@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<!-- Grenadiers are tradtionally tall -->
 		<unit mesh="Units/AstraMilitarum/Guardsman"
 				material="Units/AstraMilitarum/Guardsman"
 				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="1 1 1.1"
+				scale="1 1 1"
 				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
-	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<group size="6" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="Lasgun">
+		<weapon name="HotShotLasgun">
 			<model>
 				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
 						material="Weapons/AstraMilitarum/GuardsmanLasgun"
 						bone="RightHandBone"
 						muzzleBone="GuardsmanLasgunMuzzle0"
-						fireInterval="0.5"/>
+						fireInterval="0.3"/>
 			</model>
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
@@ -33,23 +32,28 @@
 				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
+			</model>		
+		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="4"/> <!-- %armor base armor=5+ -->
-				<foodUpkeep base="1.2"/> <!-- %foodUpkeep base tier=4 factor=1 -->
-				<foodCost base="17.5"/> <!-- 10 %foodCost base tier=4 factor=0.5 -->
-				<hitpointsMax base="2.3"/> <!-- 2 %hitpointsMax base toughness=3 wounds=1 -->
+				<armor base="5"/> <!-- Scions get 6 | %armor base armor=5+ -->
+				<foodUpkeep base="1.5"/> <!-- 2 %foodUpkeep base tier=4 factor=1 -->
+				<foodCost base="15"/> <!-- 20 %foodCost base tier=4 factor=0.5 -->
+				<hitpointsMax base="1.8"/> <!-- 2 %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<!-- <meleeInitiative base="3"/> -->
-				<oreCost base="17.5"/> <!-- 10 %oreCost base tier=4 factor=0.5 -->
+				<oreCost base="15"/> <!-- 20 %oreCost base tier=4 factor=0.5 -->
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
-				<moraleMax base="10"/> <!-- 6 %moraleMax base leadership=6 -->
+				<moraleMax base="5"/> <!-- 6 %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="30.0"/> <!-- %productionCost base tier=4 factor=1 -->
-				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+				<productionCost base="30.0"/> <!-- 36 | %productionCost base tier=4 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
 	</modifiers>
@@ -104,6 +108,13 @@
 						beginFire="0.833333333333"/>
 			</model>				
 		</throwGrenade>
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="AstraMilitarum/LasDamage">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
 		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
 			<model>
 				<action bone="ChestBone"
@@ -130,15 +141,37 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		<scout consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="4"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Scan"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</scout>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-		<trait name="MoveThroughCover"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
-		<trait name="AstraMilitarum/Praetorian"/>
-		<trait name="AstraMilitarum/PraetorianShockTroop"/>
-		<trait name="AstraMilitarum/PraetorianLineFormation"/>
-		<trait name="AstraMilitarum/SneeringImperialist"/>
+		<trait name="AstraMilitarum/Drookian"/>
+		<trait name="AstraMilitarum/DrookianSaboteur"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Infilrate"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
