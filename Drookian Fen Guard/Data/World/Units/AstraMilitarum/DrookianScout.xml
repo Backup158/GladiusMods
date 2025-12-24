@@ -159,6 +159,7 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<trait name="AstraMilitarum/Drookian"/>
 		<trait name="AstraMilitarum/DrookianSaboteur"/>
+		<trait name="MoveThroughCover"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
