@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit>
+<unit dlc="Supplement6">
 	<model>		
 		<unit mesh="Units/SpaceMarines/LandSpeeder"
 				material="Units/SpaceMarines/LandSpeeder"

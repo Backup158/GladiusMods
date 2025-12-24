@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <building>
 	<actions>
-		<produceUnit unit="AstraMilitarum/PraetorianGuardsmen"/>
-		<produceUnit unit="AstraMilitarum/PraetorianHeavyGunnerSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad"/>
-		<produceUnit unit="AstraMilitarum/PraetorianGrenadier" requiredUpgrade="AstraMilitarum/FragGrenade"/>
-		<produceUnit unit="AstraMilitarum/PraetorianHussar" requiredUpgrade="AstraMilitarum/AttilanRoughRider"/>
+		<produceUnit unit="AstraMilitarum/DrookianFenGuardsmen"/>
+		<produceUnit unit="AstraMilitarum/DrookianScout"/>
+		<produceUnit unit="AstraMilitarum/DrookianAssassin"/>
+		<produceUnit unit="AstraMilitarum/DrookianStormtrooper" requiredUpgrade="AstraMilitarum/TempestusScion"/>
 	</actions>
 </building>
