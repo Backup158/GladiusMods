@@ -133,6 +133,7 @@
 		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
 		<trait name="Skimmer"/>
 		<trait name="Transport"/>
+		<!-- I think AssaultVehicle would be too much, given the speed and how early this is available -->
 		<trait name="Vehicle"/>
 		<!-- No tank tag bc it doesn't make sense to let the commander buff this -->
 		<!-- Ironically, Infiltrate would hurt more than it helps (unless dropping storm troopers). It won't be able to soak overwatch, so any troops you drop will face the full wrath. Also, I didn't intend for that to be the use case anyways. -->
