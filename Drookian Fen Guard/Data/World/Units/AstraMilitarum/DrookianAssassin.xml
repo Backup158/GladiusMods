@@ -15,7 +15,7 @@
 	<group size="3" rowSize="3" memberDeltaX="64" memberDeltaY="64"/>
 	<weapons>
 		<!-- ArcoFlail -->
-		<weapon name="ArcoFlail" count="2">
+		<weapon name="AstraMilitarum/DrookianDaggers" count="2">
 			<model>
 				<weapon fireInterval="10.0"/>
 			</model>
