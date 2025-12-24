@@ -24,7 +24,7 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="2"/> <!-- 0 | %armor base armor=- -->
+				<armor base="2"/> <!-- 0, guardsmen have 4 | %armor base armor=- -->
 				<hitpointsMax base="1.5"/> <!-- 2 | %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
 				<meleeAttacks base="1"/>
