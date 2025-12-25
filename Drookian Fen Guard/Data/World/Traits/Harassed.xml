@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait  category="Debuff"
+		icon="Actions/Tyranids/ExploitWeaknesses">
+	<modifiers>
+		<!-- Loses Morale and overall Accuracy due to lack of rest -->
+		<modifier>
+			<effects>
+				<morale add="-1"/>
+				<accuracy mul="-0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
