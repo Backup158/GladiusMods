@@ -117,6 +117,47 @@
 						beginFire="0.833333333333"/>
 			</model>				
 		</throwGrenade>
+		<!-- Backline Harassment -->
+		<!-- This is to simulate harassing attacks to psych out and mentally wear down enemy troops. Mostly like night time hit and runs. -->
+		<genericUnitAbility consumedActionPoints="0"
+				consumedMovement="1"
+				cooldown="3"
+				elite="1"
+				name="AstraMilitarum/BacklineHarassment"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+			<beginTargets>
+				<!-- This may seem a bit silly but it's the best I got for practicality. 2 and they just shoot you unless you're behind cover, which is thematically appropriate yet so niche. 3 makes sense, almost as if stepping in, shooting, then running away. -->
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+							<!-- This is like harassing fire from night time raids, so you're still affecting the crew's ability to sleep -->
+							<!--
+							<noTrait name="Vehicle"/>
+							<noTrait name="Fortification"/> -->
+							<!-- Unlike with FUCKING GODZILLA -->
+							<noTrait name="MonstrousCreature"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Harassed" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
 		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
 			<model>
 				<action bone="ChestBone"
