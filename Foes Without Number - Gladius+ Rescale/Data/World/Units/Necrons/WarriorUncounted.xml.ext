@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit icon="Units/Necrons/Warrior">
+	<model>
+		<unit mesh="Units/Necrons/Warrior"
+				material="Units/Necrons/Warrior"
+				idleAnimation="Units/Necrons/WarriorIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.6 0.6 0.6"
+				position="0 0 -4"
+				explosionsBone="BloodBone"
+				walker="1"/>
+	</model>
+</unit>

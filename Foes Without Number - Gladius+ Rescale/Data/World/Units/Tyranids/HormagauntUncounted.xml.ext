@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit icon="Units/Tyranids/Hormagaunt" dlc="Supplement2">
+	<model>
+		<unit mesh="Units/Tyranids/Hormagaunt"
+				material="Units/Tyranids/Hormagaunt"
+				scale="0.48 0.48 0.48"
+				position="0 0 -4"
+				idleAnimation="Units/Tyranids/HormagauntIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				bloodBone="BloodBone"
+				walker="1"/>
+	</model>
+</unit>

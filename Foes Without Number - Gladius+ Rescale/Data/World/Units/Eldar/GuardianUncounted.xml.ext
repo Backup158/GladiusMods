@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit icon="Units/Eldar/Guardian" dlc="Supplement7">
+	<model>
+		<unit mesh="Units/Eldar/Guardian"
+				material="Units/Eldar/Guardian"
+				idleAnimation="Units/Eldar/GuardianIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.45 0.45 0.45"
+				position="0 0 -4"
+				bloodBone="Bloodbone"
+				walker="1"/>
+	</model>
+</unit>

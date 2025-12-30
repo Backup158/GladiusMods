@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit icon="Units/Drukhari/KabaliteWarrior" dlc="Supplement13">
+	<model>
+		<unit mesh="Units/Drukhari/KabaliteWarrior"
+				material="Units/Drukhari/KabaliteWarrior"
+				idleAnimation="Units/Drukhari/KabaliteWarriorIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				portraitZoomModifier="1.1"
+				scale="0.37 0.37 0.37"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+</unit>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit icon="Units/AdeptusMechanicus/SkitariiVanguard" dlc="Supplement9">
+	<model>
+		<unit mesh="Units/AdeptusMechanicus/SkitariiVanguard"
+				material="Units/AdeptusMechanicus/SkitariiVanguard"
+				idleAnimation="Units/AdeptusMechanicus/SkitariiVanguardIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.35 0.35 0.35"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+</unit>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit icon="Units/Tau/FireWarrior" dlc="Supplement5">
+	<model>
+		<unit mesh="Units/Tau/FireWarrior"
+				material="Units/Tau/FireWarrior"
+				idleAnimation="Units/Tau/FireWarriorIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.42 0.42 0.42"
+				position="0 0 -4"
+				bloodBone="BloodBone"
+				walker="1"/>
+	</model>
+</unit>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit icon="Units/SpaceMarines/TacticalSpaceMarine">
+	<model>
+		<unit mesh="Units/SpaceMarines/TacticalSpaceMarine"
+				material="Units/SpaceMarines/TacticalSpaceMarine"
+				idleAnimation="Units/SpaceMarines/TacticalSpaceMarineIdle"
+				idleAnimationCount="5"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.4 0.4 0.4"
+				position="0 0 -4"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+</unit>
