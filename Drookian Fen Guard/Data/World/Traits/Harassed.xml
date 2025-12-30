@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait  category="Debuff"
-		icon="Actions/Tyranids/ExploitWeaknesses">
+		icon="Traits/HellstormTemplate">
 	<modifiers>
 		<!-- Loses Morale and overall Accuracy due to lack of rest -->
 		<modifier>

@@ -168,10 +168,12 @@
 		</scout>
 		<!-- Backline Harassment -->
 		<!-- This is to simulate harassing attacks to psych out and mentally wear down enemy troops. Mostly like night time hit and runs. -->
+		<!-- Scouts can harass more often -->
 		<genericUnitAbility consumedActionPoints="0"
 				consumedMovement="1"
-				cooldown="3"
+				cooldown="2"
 				name="AstraMilitarum/BacklineHarassment"
+				icon="Traits/HellstormTemplate"
 				requiredActionPoints="0">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"

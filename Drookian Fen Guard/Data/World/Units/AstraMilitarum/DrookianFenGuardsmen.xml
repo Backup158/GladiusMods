@@ -123,6 +123,7 @@
 				consumedMovement="1"
 				cooldown="3"
 				name="AstraMilitarum/BacklineHarassment"
+				icon="Traits/HellstormTemplate"
 				requiredActionPoints="0">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
