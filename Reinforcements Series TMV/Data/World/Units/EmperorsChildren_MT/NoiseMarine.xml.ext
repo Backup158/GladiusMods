@@ -1,0 +1,14 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Based on Havoc -->
+<!-- Lines are iffy but eh -->
+<unit dlc="Supplement3">
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/ChaosSpaceHavoces/TooManyVoices/Infantry/Havoc_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/ChaosSpaceHavoces/TooManyVoices/Infantry/Havoc_Attack" soundCount="8"/>
+    <action name="UseWeapon/Meltabomb" sound="Units/ChaosSpaceHavoces/TooManyVoices/Infantry/Havoc_Attack" soundCount="8"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Havoc_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Havoc_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Havoc_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Havoc_Complete" soundCount="1"/>
+  </responses>
+</unit>

@@ -1,0 +1,11 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <!-- Everything is a passive so no CombiPlasma lines lol -->
+    <!-- <action name="UseWeapon/CombiPlasma" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosTerminator_Ability_CombiPlasma" soundCount="3"/> -->
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosTerminator_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosTerminator_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosTerminator_Select" soundCount="8"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosTerminator_Complete" soundCount="3"/>
+  </responses>
+</unit>

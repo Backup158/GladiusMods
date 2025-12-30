@@ -1,0 +1,12 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Based on Forgefiend -->
+<unit dlc="Supplement10">
+  <responses>
+    <action name="HammerOfWrath" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Forgefiend_Aggressive" soundCount="3"/>
+    <action name="ChaosSpaceMarines/Daemonforge" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Forgefiend_Neutral" soundCount="3"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Forgefiend_Aggressive" soundCount="3"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Forgefiend_Neutral" soundCount="3"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Forgefiend_Neutral" soundCount="3"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Forgefiend_Neutral" soundCount="3"/>
+  </responses>
+</unit>

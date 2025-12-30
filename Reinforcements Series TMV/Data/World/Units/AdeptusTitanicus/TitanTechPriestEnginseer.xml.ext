@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+	<action name="ClearTile" sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/CyberneticaDatasmith_Ability_ClearTile" soundCount="3"/>
+	<action name="AdeptusMechanicus/MasterOfMachines" sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/CyberneticaDatasmith_Ability_MasterOfMachines" soundCount="3"/>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/CyberneticaDatasmith_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/CyberneticaDatasmith_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/CyberneticaDatasmith_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/CyberneticaDatasmith_Complete" soundCount="3"/>
+  </responses>
+</unit>

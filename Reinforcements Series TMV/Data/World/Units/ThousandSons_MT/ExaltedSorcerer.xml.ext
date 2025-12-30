@@ -1,0 +1,18 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement3">
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Attack" soundCount="8"/>
+    <!-- ThousandSons_MT/AstralBlast -->
+    <action name="UseWeapon/AstralBlast" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Attack" soundCount="8"/>
+    <action name="ThousandSons_MT/Sacrifice" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Ability_Heal" soundCount="1"/>
+    <action name="ThousandSons_MT/ArcaneShield" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Ability_Heal" soundCount="1"/>
+    <!-- yuor defences ar pathetic... *teleports behind you*. heh... nothing personnel kid.... -->
+    <action name="ThousandSons_MT/Teleport" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Ability_Shatter" soundCount="1"/>
+    <action name="ThousandSons_MT/TeleportLarge" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Ability_Shatter" soundCount="1"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Warpsmith_Complete" soundCount="1"/>
+  </responses>
+</unit>

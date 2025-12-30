@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement3">
+  <responses>
+   	<action name="HeavyBombClusters" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Heldrake_Aggressive" soundCount="3"/>
+	<action name="Supersonic" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Heldrake_Neutral" soundCount="3"/>
+	<action name="Jink" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Heldrake_Neutral" soundCount="3"/>
+	<attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Havoc_Attack" soundCount="8"/>
+	<move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/ChaosMarine_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Havoc_Select" soundCount="3"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Heldrake_Neutral" soundCount="3"/>
+  </responses>
+</unit>

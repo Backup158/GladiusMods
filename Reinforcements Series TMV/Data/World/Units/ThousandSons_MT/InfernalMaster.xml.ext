@@ -1,0 +1,16 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement3">
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Attack" soundCount="8"/>
+    <!-- This shouldn't have a line -->
+    <!-- <action name="ThousandSons_MT/ScreamerInvocation" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Attack" soundCount="8"/>--> 
+    <action name="ThousandSons_MT/WrathOfTheDoomed" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Ability_Sacrifice" soundCount="1"/>
+    <action name="ThousandSons_MT/GlimpseOfEternity" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Ability_Buff" soundCount="1"/>
+    <action name="ThousandSons_MT/ChampionOfTzeentch" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Ability_Summon" soundCount="1"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Master_Complete" soundCount="1"/>
+  </responses>
+</unit>
