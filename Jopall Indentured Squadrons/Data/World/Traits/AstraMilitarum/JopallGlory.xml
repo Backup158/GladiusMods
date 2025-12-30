@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Attributes/Influence">
+	<modifiers>
+		<modifier>
+			<effects>
+				<influencePerCombatFromUpkeepFactor add="4.0"/> <!-- Boyz add 3.0 but have upgrades -->
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

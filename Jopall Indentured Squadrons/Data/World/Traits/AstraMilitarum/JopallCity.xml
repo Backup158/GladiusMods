@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/City">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <!-- Within 3 tiles of an allied city hq -->
+                    <unitsInRange count="1" range="3">
+                        <trait name="Headquarters"/>
+                        <allied/>
+                    </unitsInRange>
+                    <!-- Only if you have moved -->
+                    <movement equal="0"/>
+					<movementMax greater="0"/>
+                </unit>
+            </conditions>
+            <effects>
+                <!-- SlowAndPurposeful: Ignore Heavy penalties. Too bad it doesn't work. -->
+                <!-- Heavy weapons halves accuracy after moving -->
+                <!-- <addTrait name="SlowAndPurposeful"/> -->
+                <!-- Base accuracy: 8 (67%) -->
+                <!-- accuracy mult=2 gave +200% gave 20 (167%)-->
+                <!-- accuracy mult=1 gave +100% gave 10 (100%)-->
+                <!-- accuracy mult=0.5 gave +50% gave 8 (67%), so it's additive?-->
+                <accuracy mul="0.5"/> <!-- Doubles accuracy to cancel out HeavyWeapon trait -->
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/JopallLasgun" value="Jopall Pattern Lasgun"/>
+	<entry name="AstraMilitarum/JopallLasgunDescription" value="Identical to Sniper Rifles."/>
+	<entry name="AstraMilitarum/JopallLasgunFlavor" value="The men of Jopall, needing to make each shot count, take care to arm themselves with precision weapons."/>
+</language>
