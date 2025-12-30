@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/BacklineHarassment" value="Backline Harassment"/>
-    <entry name="AstraMilitarum/BacklineHarassmentDescription" value=""/>
-    <entry name="AstraMilitarum/BacklineHarassmentFlavor" value=""/>
+    <entry name="AstraMilitarum/BacklineHarassmentDescription" value="Disrupt an enemy's combat effectiveness"/>
+    <entry name="AstraMilitarum/BacklineHarassmentFlavor" value="Drookians have mastered the art of nighttime raids, balancing frequency to maximize both self-preservation and psychological damage upon the enemy."/>
     <entry name="ThrowSmokeGrenade" value="Throw Smoke Grenade"/>
-    <entry name="ThrowSmokeGrenadeDescription" value=""/>
-    <entry name="ThrowSmokeGrenadeFlavor" value=""/>
+    <entry name="ThrowSmokeGrenadeDescription" value="Throws a smoke grenade, leaving a cloud that lasts for 2 turns."/>
+    <entry name="ThrowSmokeGrenadeFlavor" value="Popping smoke! Go, go, go!"/>
 </language>
