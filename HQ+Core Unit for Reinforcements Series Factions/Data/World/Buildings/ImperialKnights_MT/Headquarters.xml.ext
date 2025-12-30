@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building disablable="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<produceUnit unit="ImperialKnights_MT/SkitariiVanguard"/>
+	</actions>
+</building>
