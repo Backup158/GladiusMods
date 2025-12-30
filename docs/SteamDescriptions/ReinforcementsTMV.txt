@@ -66,15 +66,15 @@ Most of the time, I just copied over the voices from the original model it was b
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3568319150]Reinforcements - Dreadheadz[/url]
 > Not Covered: Grot, Grot Tank
 > Reused Lines
->> Dakkajet: Attack Fighta
->> Burna Bommer: Blitza Bommer
->> Killa Kan: Junk Bot
->> Deff Dread: Dread Grot, Mega Dread, Meka Dread
->> Burna Boy: Loota (subject to change)
->> Mekatrakk Scrapjet: Grot Bomm Launcha
->> Gorkanaut: Stompa (subject to change)
->> Boy: Stormboyz
 >> Big Mek: Warboss Mega Armor (subject to change)
+>> Boy: Stormboyz
+>> Burna Bommer: Blitza Bommer
+>> Burna Boy: Loota (subject to change)
+>> Dakkajet: Attack Fighta
+>> Deff Dread: Dread Grot, Mega Dread, Meka Dread
+>> Gorkanaut: Stompa (subject to change)
+>> Killa Kan: Junk Bot
+>> Mekatrakk Scrapjet: Grot Bomm Launcha
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3575111512]Reinforcements - Grey Knights[/url]
 > Not Covered: Rhino and Tempest
 >> Most units name themselves
