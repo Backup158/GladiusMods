@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait  category="Debuff"
+		icon="Actions/ChaosSpaceMarines/DirgeCaster">
+	<modifiers>
+		<!-- More upkeep -->
+		<modifier>
+			<effects>
+				<biomassUpkeep mul="0.17"/>
+				<foodUpkeep mul="0.17"/>
+				<oreUpkeep mul="0.17"/>
+				<requisitionsUpkeep mul="0.17"/>
+				<energyUpkeep mul="0.17"/>
+				<influenceUpkeep mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

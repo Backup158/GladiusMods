@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/DrookianFenGuardsmen" value="Drookian Fen Guardsman"/>
-    <entry name="AstraMilitarum/DrookianFenGuardsmenDescription" value=""/>
-    <entry name="AstraMilitarum/DrookianFenGuardsmenFlavor" value=""/>
+    <entry name="AstraMilitarum/DrookianFenGuardsmenDescription" value="Light infantry focussed on scouting and harassing the enemy. Smaller squad size, but faster, more accurate, and can more easily demolish enemy machines."/>
+    <entry name="AstraMilitarum/DrookianFenGuardsmenFlavor" value="After years of trekking through mud while soaking wet, even the typical Drookian Fen Guardsman can scout through land like butter."/>
     <entry name="AstraMilitarum/DrookianStormtrooper" value="Drookian Stormtroper"/>
-    <entry name="AstraMilitarum/DrookianStormtrooperDescription" value=""/>
-    <entry name="AstraMilitarum/DrookianStormtrooperFlavor" value=""/>
+    <entry name="AstraMilitarum/DrookianStormtrooperDescription" value="Elite light infantry. Weaker, but packs a much greater punch than the Guardsmen."/>
+    <entry name="AstraMilitarum/DrookianStormtrooperFlavor" value="With enough firepower, a routine ambush can turn into a decimated enemy division."/>
     <entry name="AstraMilitarum/DrookianScout" value="Drookian Scout"/>
-    <entry name="AstraMilitarum/DrookianScoutDescription" value=""/>
+    <entry name="AstraMilitarum/DrookianScoutDescription" value="Light infantry with greater emphasis on scouting and harassment."/>
     <entry name="AstraMilitarum/DrookianScoutFlavor" value=""/>
     <entry name="AstraMilitarum/DrookianAssassin" value="Drookian Assassin"/>
     <entry name="AstraMilitarum/DrookianAssassinDescription" value=""/>

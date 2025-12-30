@@ -209,6 +209,62 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
+		<!-- Waylay -->
+		<!-- Scouts can cripple the enemy -->
+		<genericUnitAbility consumedActionPoints="0"
+				consumedMovement="1"
+				cooldown="5"
+				name="AstraMilitarum/Waylay"
+				icon="Traits/Sniper"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2">
+					<conditions>
+						<!-- Enemy infantry -->
+						<unit>
+							<enemy/>
+							<noTrait name="Vehicle"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="MonstrousCreature"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<!-- Pinned: broken legs -->
+										<addTrait name="Pinned" duration="3"/>
+										<!-- Increased upkeep: stolen equipment -->
+										<addTrait name="Undersupplied" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<!-- Boost self -->
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/SpoilsOfWar" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
