@@ -122,7 +122,6 @@
 		<genericUnitAbility consumedActionPoints="0"
 				consumedMovement="1"
 				cooldown="3"
-				elite="1"
 				name="AstraMilitarum/BacklineHarassment"
 				requiredActionPoints="0">
 			<model>
