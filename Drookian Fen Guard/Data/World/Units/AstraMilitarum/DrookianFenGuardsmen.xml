@@ -53,7 +53,7 @@
 				<moraleMax base="3"/> <!-- 6 %moraleMax base leadership=6 -->
 				<movementMax base="4"/>
 				<productionCost base="24.0"/> <!-- 24 %productionCost base tier=4 factor=1 -->
-				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+				<rangedAccuracy base="8"/> <!-- 6 | %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
 	</modifiers>
@@ -125,7 +125,8 @@
 				name="AstraMilitarum/BacklineHarassment"
 				requiredActionPoints="0">
 			<model>
-				<action animation="Units/AstraMilitarum/GuardsmanMove"
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"
 						sound="Units/AstraMilitarum/InfantryMove"
 						soundCount="4"/>
 			</model>
