@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building disablable="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<produceUnit unit="Genestealers_MT/NeophyteHybrid"/>
+		<produceUnit unit="Genestealers_MT/Guardsman"/>
+	</actions>
+</building>
