@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Immolator_Select" soundCount="3"/>
+	<move sound="Units/SistersOfBattle/Immolator_Move" soundCount="6"/>
+	<attack sound="Units/SistersOfBattle/Immolator_Attack" soundCount="3"/>
+	<productionCompleted sound="Units/SistersOfBattle/Immolator_Complete" soundCount="2"/>
+  </responses>
+</unit>

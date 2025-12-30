@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/ArcoFlagellant_Select" soundCount="3"/>
+	<move sound="Units/SistersOfBattle/ArcoFlagellant_Move" soundCount="3"/>
+	<attack sound="Units/SistersOfBattle/ArcoFlagellant_Attack" soundCount="3"/>
+	<productionCompleted sound="Units/SistersOfBattle/ArcoFlagellant_Complete" soundCount="1"/>
+  </responses>
+</unit>

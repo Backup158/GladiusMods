@@ -1,0 +1,11 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Based on Saint Celestine -->
+<!-- Her lines actually never name herself so that's easy -->
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/SaintCelestine_Select" soundCount="8"/>
+	<move sound="Units/SistersOfBattle/SaintCelestine_Move" soundCount="5"/>
+	<attack sound="Units/SistersOfBattle/SaintCelestine_Attack" soundCount="10"/>
+	<productionCompleted sound="Units/SistersOfBattle/SaintCelestine_Complete" soundCount="2"/>
+  </responses>
+</unit>

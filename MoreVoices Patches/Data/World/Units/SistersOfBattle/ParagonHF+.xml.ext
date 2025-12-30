@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/ParagonWarsuit_Select" soundCount="16"/>
+	<move sound="Units/SistersOfBattle/ParagonWarsuit_Move" soundCount="17"/>
+	<attack sound="Units/SistersOfBattle/ParagonWarsuit_Attack" soundCount="18"/>
+	<productionCompleted sound="Units/SistersOfBattle/ParagonWarsuit_Complete" soundCount="13"/>
+  </responses>
+</unit>

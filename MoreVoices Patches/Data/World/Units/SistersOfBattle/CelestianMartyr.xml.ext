@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Spawned by a Hero -->
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/CelestianSacresant_Select" soundCount="9"/>
+	  <move sound="Units/SistersOfBattle/CelestianSacresant_Move" soundCount="8"/>
+	  <attack sound="Units/SistersOfBattle/CelestianSacresant_Attack" soundCount="12"/>
+	  <productionCompleted sound="Units/SistersOfBattle/CelestianSacresant_Complete" soundCount="5"/>
+  </responses>
+</unit>

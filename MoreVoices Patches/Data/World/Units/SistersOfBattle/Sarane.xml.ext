@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Hero based on Hospitaller -->
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Hospitaller_Select" soundCount="4"/>
+	<move sound="Units/SistersOfBattle/Hospitaller_Move" soundCount="5"/>
+	<attack sound="Units/SistersOfBattle/Hospitaller_Attack" soundCount="4"/>
+	<productionCompleted sound="Units/SistersOfBattle/Hospitaller_Complete" soundCount="1"/>
+  </responses>
+</unit>

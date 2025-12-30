@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Based on Castigator -->
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Castigator_Select" soundCount="9"/>
+	<move sound="Units/SistersOfBattle/Castigator_Move" soundCount="9"/>
+	<attack sound="Units/SistersOfBattle/Castigator_Attack" soundCount="9"/>
+	<productionCompleted sound="Units/SistersOfBattle/Castigator_Complete" soundCount="7"/>
+  </responses>
+</unit>

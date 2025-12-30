@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- I don't see an appropriate Hero for this -->
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Retributor_Select" soundCount="4"/>
+	<move sound="Units/SistersOfBattle/Retributor_Move" soundCount="6"/>
+	<attack sound="Units/SistersOfBattle/Retributor_Attack" soundCount="5"/>
+	<productionCompleted sound="Units/SistersOfBattle/Retributor_Complete" soundCount="1"/>
+  </responses>
+</unit>

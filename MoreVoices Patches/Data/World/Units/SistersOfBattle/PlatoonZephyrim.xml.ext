@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Zephyrim_Select" soundCount="6"/>
+	<move sound="Units/SistersOfBattle/Zephyrim_Move" soundCount="6"/>
+	<attack sound="Units/SistersOfBattle/Zephyrim_Attack" soundCount="4"/>
+	<productionCompleted sound="Units/SistersOfBattle/Zephyrim_Complete" soundCount="2"/>
+  </responses>
+</unit>

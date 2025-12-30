@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Based on Dialogus -->
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Dialogus_Select" soundCount="5"/>
+	<move sound="Units/SistersOfBattle/Dialogus_Move" soundCount="6"/>
+	<attack sound="Units/SistersOfBattle/Dialogus_Attack" soundCount="7"/>
+	<productionCompleted sound="Units/SistersOfBattle/Dialogus_Complete" soundCount="2"/>
+  </responses>
+</unit>

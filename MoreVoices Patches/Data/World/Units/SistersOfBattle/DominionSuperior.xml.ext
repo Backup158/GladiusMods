@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Don't see appropriate Hero lines for this -->
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Dominion_Select" soundCount="5"/>
+	<move sound="Units/SistersOfBattle/Dominion_Move" soundCount="6"/>
+	<attack sound="Units/SistersOfBattle/Dominion_Attack" soundCount="6"/>
+	<productionCompleted sound="Units/SistersOfBattle/Dominion_Complete" soundCount="1"/>
+  </responses>
+</unit>

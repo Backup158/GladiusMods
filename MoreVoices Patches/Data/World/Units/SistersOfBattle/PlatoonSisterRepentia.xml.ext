@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/SisterRepentia_Select" soundCount="7"/>
+	<move sound="Units/SistersOfBattle/SisterRepentia_Move" soundCount="8"/>
+	<attack sound="Units/SistersOfBattle/SisterRepentia_Attack" soundCount="4"/>
+	<productionCompleted sound="Units/SistersOfBattle/SisterRepentia_Complete" soundCount="2"/>
+  </responses>
+</unit>

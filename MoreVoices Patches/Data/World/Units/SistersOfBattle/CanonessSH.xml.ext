@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+  <responses>
+    <select sound="Units/SistersOfBattle/Canoness_Select" soundCount="6"/>
+	<move sound="Units/SistersOfBattle/Canoness_Move" soundCount="5"/>
+	<attack sound="Units/SistersOfBattle/Canoness_Attack" soundCount="8"/>
+	<action name="LeadTheRighteous" sound="Units/SistersOfBattle/Canoness_LeadTheRighteous" soundCount="1"/>
+	<productionCompleted sound="Units/SistersOfBattle/Canoness_Complete" soundCount="1"/>
+  </responses>
+</unit>
