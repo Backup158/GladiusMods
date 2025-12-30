@@ -9,4 +9,7 @@
     <entry name="Harassed" value="Harassed"/>
     <entry name="HarassedDescription" value=""/>
     <entry name="HarassedFlavor" value=""/>
+    <entry name="AstraMilitarum/DrookianAssassination" value="Drookian Assassination"/>
+    <entry name="AstraMilitarum/DrookianAssassinationDescription" value="Increased attacks against enemies that have moved. Increased damage against Heroes."/>
+    <entry name="AstraMilitarum/DrookianAssassinationFlavor" value="After a long march, there's nothing like a knife to the throat to put you to rest."/>
 </language>

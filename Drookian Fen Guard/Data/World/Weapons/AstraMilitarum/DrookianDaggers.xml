@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Traits/Rampage">
+<weapon icon="Actions/Tau/BondingKnifeRitual">
 	<model>
 		<weapon fireSound="Weapons/CloseCombatWeapon"
 				fireSoundCount="3"/>
@@ -16,5 +16,6 @@
 		<trait name="Melee"/>
 		<!-- Adds poison damage -->
 		<trait name="Poisoned" rank="1"/>
+		<trait name="AstraMilitarum/DrookianAssassination"/>
 	</traits>
 </weapon>

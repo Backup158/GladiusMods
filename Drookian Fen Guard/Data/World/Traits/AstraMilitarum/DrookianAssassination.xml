@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" 
+		category="Buff"
+		visibilityCategory="Weapon"
+		icon="Traits/Rampage">
+	<modifiers>
+		<!-- Interception: Increased attacks against enemies on the move -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<movedThisTurn/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<meleeAttacks mul="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Assassination: Increased damage against heroes -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Hero"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
