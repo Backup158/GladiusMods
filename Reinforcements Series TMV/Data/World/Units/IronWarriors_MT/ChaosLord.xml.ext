@@ -1,0 +1,17 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement3">
+  <responses>
+    <action name="IronWarriors_MT/Fortress" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Ability_Ichor" soundCount="1"/>
+    <action name="IronWarriors_MT/WarpTravel" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Move" soundCount="8"/>
+    <action name="IronWarriors_MT/BrutalAttrition" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Ability_Ichor" soundCount="1"/>
+    <action name="IronWarriors_MT/ColdCalculations" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Ability_Ichor" soundCount="1"/>
+    <action name="OrbitalStrike" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <action name="UseWeapon/FragGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <action name="UseWeapon/MeltaBomb" sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Heroes/Lord_Complete" soundCount="1"/>
+  </responses>
+</unit>

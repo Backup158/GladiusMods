@@ -1,0 +1,12 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement1">
+  <responses>
+    <action name="ThrowGrenade/Stikkbomb" sound="Units/Orks/TooManyVoices/Infantry/FlashGitz_Ability_Stikkbomb" soundCount="5"/>
+    <action name="AmmoRunt" sound="Units/Orks/TooManyVoices/Infantry/FlashGitz_Ability_AmmoRunt" soundCount="5"/>
+    <action name="EreWeGo" sound="Units/Orks/TooManyVoices/Waaagh" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Infantry/FlashGitz_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Infantry/FlashGitz_Move" soundCount="10"/>
+    <select sound="Units/Orks/TooManyVoices/Infantry/FlashGitz_Select" soundCount="6"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Infantry/FlashGitz_Complete" soundCount="1"/>
+  </responses>	
+</unit>

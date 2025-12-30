@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="HammerOfWrath" sound="Units/Orks/TooManyVoices/Vehicles/DeffDread_Ability_HammerOfWrath" soundCount="3"/>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/DeffDread_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/DeffDread_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/DeffDread_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/DeffDread_Complete" soundCount="3"/>
+  </responses>
+</unit>

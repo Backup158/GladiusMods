@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/KillBursta_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/KillBursta_Move" soundCount="12"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/KillBursta_Select" soundCount="9"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/KillBursta_Complete" soundCount="1"/>
+  </responses>
+</unit>

@@ -1,0 +1,16 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="IronWarriors_MT/Fortress" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Ability_FoundCity" soundCount="1"/>
+    <action name="IronWarriors_MT/NoctilithCrown" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Ability_FoundCity" soundCount="1"/>
+    <action name="IronWarriors_MT/Artillery" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Ability_FoundCity" soundCount="1"/>
+    <action name="ClearTile" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Ability_ClearTile" soundCount="1"/>
+    <action name="UseWeapon/FragGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Attack" soundCount="8"/>
+    <action name="UseWeapon/ServoArm" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Attack" soundCount="8"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Cultist_Complete" soundCount="1"/>
+  </responses>
+</unit>

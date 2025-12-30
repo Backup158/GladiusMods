@@ -1,0 +1,12 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+	<action name="AdeptusMechanicus/AggressionOverride" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/SkitariiMarshal_Ability_AggressionOverride" soundCount="3"/>
+	<action name="AdeptusMechanicus/ControlEdict" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/SkitariiMarshal_Ability_ControlEdict" soundCount="3"/>
+	<action name="AdeptusMechanicus/EnrichedRounds" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/SkitariiMarshal_Ability_EnrichedRounds" soundCount="3"/>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/SkitariiMarshal_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/SkitariiMarshal_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/SkitariiMarshal_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/SkitariiMarshal_Complete" soundCount="3"/>
+  </responses>
+</unit>

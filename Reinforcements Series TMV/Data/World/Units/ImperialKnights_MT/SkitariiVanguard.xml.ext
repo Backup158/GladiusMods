@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/SkitariiVanguard_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/SkitariiVanguard_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/SkitariiVanguard_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Infantry/SkitariiVanguard_Complete" soundCount="3"/>
+  </responses>
+</unit>

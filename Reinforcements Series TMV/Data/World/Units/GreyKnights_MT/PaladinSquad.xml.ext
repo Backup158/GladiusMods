@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Terminator -->
+<unit>
+  <responses>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Infantry/Terminator_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Infantry/Terminator_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Infantry/Terminator_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Infantry/Terminator_Complete" soundCount="1"/>
+  </responses>
+</unit>

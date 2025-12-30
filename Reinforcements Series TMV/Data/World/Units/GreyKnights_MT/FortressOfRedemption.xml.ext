@@ -1,0 +1,7 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement4">
+  <responses>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Buildings/FortressOfRedemption_Attack" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Buildings/FortressOfRedemption_Select" soundCount="4"/>
+  </responses>
+</unit>

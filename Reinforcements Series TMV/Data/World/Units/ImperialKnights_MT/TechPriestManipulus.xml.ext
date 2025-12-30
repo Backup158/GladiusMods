@@ -1,0 +1,14 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+	<action name="AdeptusMechanicus/TechAdept" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Ability_TechAdept" soundCount="3"/>
+	<action name="AdeptusMechanicus/MasterOfMachines" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Ability_MasterOfMachines" soundCount="3"/>
+	<action name="AdeptusMechanicus/GalvanicField" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Ability_GalvanicField" soundCount="3"/>
+	<action name="AdeptusMechanicus/DataBlessedAutosermon" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Ability_DataBlessedAutosermon" soundCount="3"/>
+	<action name="AdeptusMechanicus/ElectroShocked" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Ability_ElectroShocked" soundCount="3"/>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestManipulus_Complete" soundCount="3"/>
+  </responses>
+</unit>

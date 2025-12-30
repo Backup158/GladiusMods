@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Killa Kan -->
+<unit>
+  <responses>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/Killa_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/Killa_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/Killa_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/Killa_Complete" soundCount="1"/>
+  </responses>
+</unit>

@@ -1,0 +1,13 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Devestator Space Marine -->
+<unit>
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/SpaceMarines/TooManyVoices/Infantry/Devastator_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/SpaceMarines/TooManyVoices/Infantry/Devastator_Attack" soundCount="8"/>
+    <action name="Signum" sound="Units/SpaceMarines/TooManyVoices/Infantry/Devastator_Ability_Signum" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Infantry/Devastator_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Infantry/Devastator_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Infantry/Devastator_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Infantry/Devastator_Complete" soundCount="1"/>
+  </responses>
+</unit>

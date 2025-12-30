@@ -1,0 +1,7 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <select sound="Units/Tyranids/TooManyVoices/Buildings/City_Neutral" soundCount="1"/>
+	<attack sound="Units/Tyranids/TooManyVoices/Buildings/City_Aggressive" soundCount="1"/>
+  </responses>
+</unit>

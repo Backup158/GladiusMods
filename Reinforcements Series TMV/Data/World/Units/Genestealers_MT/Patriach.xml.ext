@@ -1,0 +1,15 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <!-- Shadow in the Warp is passive -->
+    <action name="Genestealers_MT/MentalOnslaught" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Genestealers_MT/MassHallucination" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Genestealers_MT/FanaticalDevotion" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Genestealers_MT/OurTimeIsNigh" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Genestealers_MT/Catalyst" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <attack sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <move sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <select sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <productionCompleted sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+  </responses>
+</unit>

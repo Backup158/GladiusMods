@@ -1,0 +1,13 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Blitza Bommer lines -->
+<unit>
+  <responses>
+    <action name="Supersonic" sound="Units/Orks/TooManyVoices/Vehicles/Burnabomber_Ability_Supersonic" soundCount="2"/>
+    <action name="Jink" sound="Units/Orks/TooManyVoices/Vehicles/Burnabomber_Ability_Jink" soundCount="2"/>
+    <action name="UseWeapon/BurnaBomb" sound="Units/Orks/TooManyVoices/Vehicles/Burnabomber_Ability_Bomb" soundCount="5"/>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/Burnabomber_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/Burnabomber_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/Burnabomber_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/Burnabomber_Complete" soundCount="1"/>
+  </responses>
+</unit>

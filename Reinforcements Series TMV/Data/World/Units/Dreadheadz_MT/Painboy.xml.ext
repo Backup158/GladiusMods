@@ -1,0 +1,13 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="Orks/DoksTools" sound="Units/Orks/TooManyVoices/Heroes/Painboy_Ability_DoksTools" soundCount="2"/>
+    <action name="Orks/CyborkImplants" sound="Units/Orks/TooManyVoices/Heroes/Painboy_Ability_Cybork" soundCount="3"/>
+    <action name="Orks/ExperimentalProcedure" sound="Units/Orks/TooManyVoices/Heroes/Painboy_Ability_ExperimentalProcedure" soundCount="2"/>
+    <action name="EreWeGo" sound="Units/Orks/TooManyVoices/Waaagh" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Heroes/Painboy_Attack" soundCount="9"/>
+    <move sound="Units/Orks/TooManyVoices/Heroes/Painboy_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Heroes/Painboy_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Heroes/Painboy_Complete" soundCount="1"/>
+  </responses>
+</unit>

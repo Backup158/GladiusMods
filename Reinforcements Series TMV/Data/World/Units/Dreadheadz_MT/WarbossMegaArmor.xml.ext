@@ -1,0 +1,13 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+	<action name="ThrowGrenade/Stikkbomb" sound="Units/Orks/TooManyVoices/Infantry/BigMek_Ability_Stikkbomb" soundCount="3"/>
+    <action name="MeksTools" sound="Units/Orks/TooManyVoices/Infantry/BigMek_Ability_MekTools" soundCount="3"/>
+	<action name="AmmoRunt" sound="Units/Orks/TooManyVoices/Infantry/BigMek_Ability_AmmoRunt" soundCount="2"/>
+    <action name="EreWeGo" sound="Units/Orks/TooManyVoices/Waaagh" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Infantry/BigMek_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Infantry/BigMek_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Infantry/BigMek_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Infantry/BigMek_Complete" soundCount="1"/>
+  </responses>
+</unit>

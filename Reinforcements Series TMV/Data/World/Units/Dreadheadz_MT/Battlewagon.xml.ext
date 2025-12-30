@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="GrabbinKlaw" sound="Units/Orks/TooManyVoices/Vehicles/Battlewagon_Ability_GrabbinKlaw" soundCount="4"/>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/Battlewagon_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/Battlewagon_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/Battlewagon_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/Battlewagon_Complete" soundCount="1"/>
+  </responses>
+</unit>

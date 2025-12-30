@@ -1,0 +1,12 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+	<action name="AdeptusMechanicus/WrathOfMars" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestDominus_Ability_WrathOfMars" soundCount="3"/>
+	<action name="AdeptusMechanicus/MasterOfMachines" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestDominus_Ability_MasterOfMachines" soundCount="3"/>
+	<action name="AdeptusMechanicus/Scryerskull" sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestDominus_Ability_ScryerSkull" soundCount="3"/>
+	<attack sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestDominus_Attack" soundCount="8"/>
+    <move sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestDominus_Move" soundCount="8"/>
+    <select sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestDominus_Select" soundCount="8"/>
+    <productionCompleted sound="Units/AdeptusMechanicus/TooManyVoices/Heroes/TechPriestDominus_Complete" soundCount="3"/>
+  </responses>
+</unit>

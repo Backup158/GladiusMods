@@ -1,0 +1,8 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Noctilith Crown -->
+<unit>
+  <responses>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Buildings/Noctilith_Aggressive" soundCount="1"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Buildings/Noctilith_Neutral" soundCount="1"/>
+  </responses>
+</unit>

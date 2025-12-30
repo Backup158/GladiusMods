@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="AmmoRunt" sound="Units/Orks/TooManyVoices/Vehicles/MekGunz_Ability_AmmoRunt" soundCount="2"/>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/MekGunz_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/MekGunz_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/MekGunz_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/MekGunz_Complete" soundCount="1"/>
+  </responses>
+</unit>

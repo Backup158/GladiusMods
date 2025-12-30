@@ -1,0 +1,14 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit productionWeight="0.01">
+  <responses>
+    <action name="ThrowGrenade/Stikkbomb" sound="Units/Orks/TooManyVoices/Infantry/Mekz_Ability_Stikkbomb" soundCount="4"/>
+    <action name="FoundCity" sound="Units/Orks/TooManyVoices/Infantry/Mekz_Ability_FoundCity" soundCount="2"/>
+    <action name="ClearTile" sound="Units/Orks/TooManyVoices/Infantry/Mekz_Ability_ClearTile" soundCount="2"/>
+    <action name="MeksTools" sound="Units/Orks/TooManyVoices/Infantry/Mekz_Ability_MekTools" soundCount="2"/>
+    <action name="EreWeGo" sound="Units/Orks/TooManyVoices/Waaagh" soundCount="1"/>
+    <attack sound="Units/Orks/TooManyVoices/Infantry/Mekz_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Infantry/Mekz_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Infantry/Mekz_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Infantry/Mekz_Complete" soundCount="1"/>
+  </responses>
+</unit>

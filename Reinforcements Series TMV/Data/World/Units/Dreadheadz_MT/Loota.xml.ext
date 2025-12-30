@@ -1,0 +1,11 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Burna Boy -->
+<unit>
+  <responses>
+    <action name="ThrowGrenade/Stikkbomb" sound="Units/Orks/TooManyVoices/Infantry/BurnaBoy_Ability_Stikkbomb" soundCount="3"/>
+    <attack sound="Units/Orks/TooManyVoices/Infantry/BurnaBoy_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Infantry/BurnaBoy_Move" soundCount="9"/>
+    <select sound="Units/Orks/TooManyVoices/Infantry/BurnaBoy_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Infantry/BurnaBoy_Complete" soundCount="3"/>
+  </responses>
+</unit>

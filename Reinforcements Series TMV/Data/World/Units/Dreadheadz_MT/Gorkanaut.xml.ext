@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/Gorkanaut_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/Gorkanaut_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/Gorkanaut_Select" soundCount="4"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/Gorkanaut_Complete" soundCount="1"/>
+  </responses>
+</unit>

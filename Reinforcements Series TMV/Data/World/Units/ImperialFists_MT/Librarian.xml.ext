@@ -1,0 +1,14 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Attack" soundCount="8"/>
+    <action name="ObjurationMechanicum" sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Attack" soundCount="8"/>
+    <action name="Shockwave" sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Attack" soundCount="8"/>
+    <action name="TelekineDome" sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Ability_Dome" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Heroes/Librarian_Complete" soundCount="1"/>
+  </responses>
+</unit>
