@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building disablable="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<produceUnit unit="EmperorsChildren_MT/Tormentor"/>
+	</actions>
+    <traits>
+		<trait name="Production2" requiredUpgrade="EmperorsChildren_MT/CityTier2"/>
+		<trait name="Production3" requiredUpgrade="EmperorsChildren_MT/CityTier3"/>
+		<trait name="Production4" requiredUpgrade="EmperorsChildren_MT/CityTier4"/>
+	</traits>
+</building>
