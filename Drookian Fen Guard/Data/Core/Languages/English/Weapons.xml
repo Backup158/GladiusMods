@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="AstraMilitarum/MaximGun" value="Maksim Stubgun"/>
-    <entry name="AstraMilitarum/MaximGunDescription" value="An automatic machine gun that shreds infantry, crippling their combat effectiveness. This recoil-operated stubgun is based on an ancient Terran design, which is heavily safeguarded by Adeptus Mechanicus based in the Praetoria System."/>
-    <entry name="AstraMilitarum/MaximGunFlavor" value="&quot;Whatever happens, we have got / The Maksim Gun, and they have not.&quot;"/>
-    <entry name="AstraMilitarum/PraetorianSabre" value="Sabre"/>
-    <entry name="AstraMilitarum/PraetorianSabreDescription" value="A sword that cuts well from horseback and is especially deadly when chasing fleeing troops."/>
-    <entry name="AstraMilitarum/PraetorianSabreFlavor" value="Run them down!"/>
+    <entry name="AstraMilitarum/DrookianDaggers" value="Drookian Poisoned Daggers"/>
+    <entry name="AstraMilitarum/DrookianDaggersDescription" value=""/>
+    <entry name="AstraMilitarum/DrookianDaggersFlavor" value=""/>
 </language>

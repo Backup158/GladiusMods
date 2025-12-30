@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="AstraMilitarum/LanceCharge" value="Lance Attack"/>
-    <entry name="AstraMilitarum/LanceChargeDescription" value="Charges the enemy line with lances. Disengage if possible."/>
-    <!-- <entry name="AstraMilitarum/LanceChargeFlavor" value="Praetorian Guard"/> -->
-    <entry name="AstraMilitarum/PraetorianOfficersDontDuck" value="Praetorian Officers Don't Duck!"/>
-    <entry name="AstraMilitarum/PraetorianOfficersDontDuckDescription" value="Inspired by the bravery of their officers, Praetorians gain morale and accuracy. Weaker-willed troops lose morale."/>
-    <entry name="AstraMilitarum/PraetorianOfficersDontDuckFlavor" value="&quot;They couldn't hit an elephant at this range.&quot;"/>
+    <entry name="AstraMilitarum/BacklineHarassment" value="Backline Harassment"/>
+    <entry name="AstraMilitarum/BacklineHarassment" value=""/>
+    <entry name="AstraMilitarum/BacklineHarassment" value=""/>
 </language>
