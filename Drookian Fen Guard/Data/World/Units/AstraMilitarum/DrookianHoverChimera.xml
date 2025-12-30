@@ -20,7 +20,7 @@
 		</weapon>
 		<weapon name="MultiLaser">
 			<model>
-				<beamWeapon muzzleBone=".HeavyBolterMuzzle" fireInterval="0.2">
+				<beamWeapon muzzleBone=".HeavyBolterMuzzle" fireInterval="0.2"/>
 			</model>
 		</weapon>
 		<weapon name="LasgunArray" count="2">
