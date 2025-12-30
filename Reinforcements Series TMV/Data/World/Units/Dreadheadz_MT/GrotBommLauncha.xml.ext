@@ -1,1 +1,10 @@
 <?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="UseWeapon/GrotGuidedBomms" sound="Units/Orks/TooManyVoices/Vehicles/MegatrakkScrapjet_Attack" soundCount="8"/>
+    <attack sound="Units/Orks/TooManyVoices/Vehicles/MegatrakkScrapjet_Attack" soundCount="8"/>
+    <move sound="Units/Orks/TooManyVoices/Vehicles/MegatrakkScrapjet_Move" soundCount="8"/>
+    <select sound="Units/Orks/TooManyVoices/Vehicles/MegatrakkScrapjet_Select" soundCount="8"/>
+    <productionCompleted sound="Units/Orks/TooManyVoices/Vehicles/MegatrakkScrapjet_Complete" soundCount="1"/>
+  </responses>
+</unit>
