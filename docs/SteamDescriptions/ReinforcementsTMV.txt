@@ -95,6 +95,16 @@ Most of the time, I just copied over the voices from the original model it was b
 >> Lictor (Medium): Neurolictor
 >> Trygon (Heavy): Patriarch
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3589429762]Reinforcements - Iron Warriors[/url]
+> Not Covered: Arquitor, Artillery, Basilisk, Chaos Land Raider, Chaos Rhino, Hunter, Medusa, Predator, Thunderfire Cannon, Vindicator, Warhound TItan. So many loyalist lines.
+> Reused Lines
+>> Chaos Cultist: Techpriest Enginseer
+>> Chaos Space Marine: Chaos Space Marine Flamer
+>> Chaos Terminator: Assault Terminator, Siege Terminator
+>> Havoc: Havoc Multi Melta, Havoc Shrapnel Cannon
+>> Headquarters: Fortress
+>> Noctilith Crown: BastionEnergy, BastionFood, BastionOre, BastionResearch
+>> Warp Talon: Hell Talon
+>> Warpsmith: Warsmith
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3596189688]Reinforcements - Chaos Knights[/url]
 > Not Covered: Knight Abominant, Knight Desecrator, Knight Tyrant, War Dog Brigand, War Dog Karnivore, and War Dog Stalker
 > Reused Lines
