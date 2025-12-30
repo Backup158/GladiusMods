@@ -5,40 +5,40 @@ Most of the time, I just copied over the voices from the original model it was b
 [b]Covers[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3412994727]Reinforcements - Adeptus Mechanicus - Alternate Units[/url]
 > Not covered: Kastelan Bruiser, Kastelan Commander
-> TMV doesn't have voices for Kastelans
+>> TMV doesn't have voices for Kastelans
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417456436]Reinforcements - Chaos Space Marines - New Units[/url]
 > Not covered: Poxwalkers, Lord of Skulls, Tzeentch Librarian, Slaanesh Chaplain, Predator Destructor, Knight Despoiler
-> Neutrals have no lines and traitor variants don't have appropriate Chaos lines (most lines are explicitly loyalist).
+>> Neutrals have no lines and traitor variants don't have appropriate Chaos lines (most lines are explicitly loyalist).
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3411909499]Reinforcements - Raider Orks[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417456262]Reinforcements - Scrapteck Orks[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3413640321]Reinforcements - Tyranid - New Units[/url]
 > Not covered: Neurolictors
-> TMV doesn't have additional sounds for Lictors
+>> TMV doesn't have additional sounds for Lictors
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3418952408]Reinforcements - Astra Militarum - New Units[/url]
 > Not covered: Earthshaker Carriage Battery, Hellhound, Malcador Infernus, Stormlord 
-> TMV doesn't have lines for Field Ordnance Batteries and Devil Dogs
-> There are lines for Rogal Dorns and Baneblades, but they mention the vehicle by name and felt inappropriate to copy over
+>> TMV doesn't have lines for Field Ordnance Batteries and Devil Dogs
+>> There are lines for Rogal Dorns and Baneblades, but they mention the vehicle by name and felt inappropriate to copy over
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for lowcost Units[/url]
 > Not covered; Drukhari, Sisters of Battle, Battalion of Field Ordnance Batteries, Battalion of Ratlings, Squad of Primaris Aggressors, Squad of Primaris Intercessors, Squad of Primaris Invader ATVs, Squad of Scouts, Squad of Storm Speeder Thunderstrikes, Squad of Whirlwinds
-> TMV don't have voices for those factions and units
+>> TMV don't have voices for those factions and units
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434234472]Reinforcements - World Eaters[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3423726015]Reinforcements - Death Guard[/url]
 > Not covered: Beast of Nurgle, Plague Captain, Plague Crawler, Great Unclean One, Hive of Pestilence, Plague Reaper, Plague Surgeon, Poxwalker, Predator Annihilator, Noxious Blightbringer, Putrifier, Restilent Mosquito, Riser Poxwalker, Plagueburst Crawler, Rusteater
-> Neutrals have no lines. 
-> Repurposed loyalist units lack lines because Chaos Land Raiders like to say their name. 
-> Existing Chaos hero lines don't really match the vibes of each unit.
+>> Neutrals have no lines
+>> Repurposed loyalist units lack lines because Chaos Land Raiders like to say their name
+>> Existing Chaos hero lines don't really match the vibes of each unit
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3447684780]Reinforcements - Thousand Sons[/url]
 > Not covered: Aspiring Sorcerer, Cult Guard, Cult Sorcerer, Rubric Devastator, Rubric Havoc, Rubric Marine, Rubric Sorcerer, Predator Destructor, Vindicator, Whirlwind Scorpius
-> Most don't have appropriate Chaos lines (most lines are explicitly loyalist). 
-> Kept Rubric units silent on purpose because I don't see why the sorcerers would command them to talk.
+>> Most don't have appropriate Chaos lines (most lines are explicitly loyalist)
+>> Kept Rubric units silent on purpose because I don't see why the sorcerers would command them to talk
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3460070932]Reinforcements - Collegia Titanica[/url]
 > Not covered: Field Ordnance Batteries, Imperator Titan, Reaver Titan, Warhound Titan, Warlord Titan, Princeps, Princeps Seniores, Ordo Sinster Princeps
-> TMV doesn't have lines for Field Ordnance Batteries.
-> Reusing Knight Crusader lines for everything feels gross. 
-> Princep units could've been Magos Dominatus and Skitarii Marshal but they had too many self-naming lines.
+>> TMV doesn't have lines for Field Ordnance Batteries
+>> Reusing Knight Crusader lines for everything feels gross
+>> Princep units could've been Magos Dominatus and Skitarii Marshal but they had too many self-naming lines
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3472270831]Reinforcements - Emperor's Children[/url]
 > Not covered: Land Speeder, Predator, Scout Bike
-> Most don't have appropriate Chaos lines (most lines are explicitly loyalist). 
+>> Most don't have appropriate Chaos lines (most lines are explicitly loyalist). 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521997549]Reinforcements - Imperial Fists[/url]
 > Not Covered: Tempest, Storm Speeder Thunderstrike, Terminator Void Shield
 >> Most units name themselves
