@@ -38,13 +38,6 @@
 				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>		
 		</weapon>
-		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
-				requiredUpgrade="AstraMilitarum/LasDamage">
-			<model>
-				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
-						beginFire="0.833333333333"/>
-			</model>				
-		</throwGrenade>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -111,6 +104,13 @@
 		</throwGrenade>
 		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="AstraMilitarum/LasDamage">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"/>
