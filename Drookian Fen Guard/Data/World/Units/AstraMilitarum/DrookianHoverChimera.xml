@@ -52,10 +52,11 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="6"/> <!-- Chimera is 7 %armor base armor=10/10/10 -->
+				<cargoSlots base="3"/> <!-- Chimera is 4 | %cargoSlots base capacity=12 -->
 				<energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
 				<hitpointsMax base="20.0"/> <!-- Chimera is 24 %hitpointsMax base armor=10/10/10 wounds=2 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
-				<movementMax base="3"/> <!-- Chimera is 4. Offset by the +1 movement when high hp -->
+				<movementMax base="4"/> <!-- Chimera is 4. Offset by the +1 movement when high hp -->
 				<oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
 				<oreCost base="40.0"/> <!-- %oreCost base tier=6 factor=1 -->
 				<productionCost base="36.0"/> <!-- Chimera is 36 %productionCost base tier=7 factor=1 -->
