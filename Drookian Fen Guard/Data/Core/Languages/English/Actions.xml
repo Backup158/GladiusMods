@@ -3,6 +3,9 @@
     <entry name="AstraMilitarum/BacklineHarassment" value="Backline Harassment"/>
     <entry name="AstraMilitarum/BacklineHarassmentDescription" value="Disrupt an enemy's combat effectiveness"/>
     <entry name="AstraMilitarum/BacklineHarassmentFlavor" value="Drookians have mastered the art of nighttime raids, balancing frequency to maximize both self-preservation and psychological damage upon the enemy."/>
+    <entry name="AstraMilitarum/Waylay" value="Waylay"/>
+    <entry name="AstraMilitarum/WaylayDescription" value="Slow down an enemy and steal their resources."/>
+    <entry name="AstraMilitarum/WaylayFlavor" value="Spending days observing the enemy's movements and habits lends itself quite well to finding gaps in patrols. A few dead guards later, and the camp supplies find their way into Drookian rucksacks, with booby-trapped weapons scattered about."/>
     <entry name="ThrowSmokeGrenade" value="Throw Smoke Grenade"/>
     <entry name="ThrowSmokeGrenadeDescription" value="Throws a smoke grenade, leaving a cloud that lasts for 2 turns."/>
     <entry name="ThrowSmokeGrenadeFlavor" value="Popping smoke! Go, go, go!"/>
