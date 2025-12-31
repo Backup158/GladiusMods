@@ -15,7 +15,7 @@
 	<traits>
 		<trait name="Melee"/>
 		<!-- Adds poison damage -->
-		<trait name="Poisoned" rank="2"/>
+		<trait name="Poisoned" rank="1"/>
 		<trait name="AstraMilitarum/DrookianAssassination"/>
 	</traits>
 </weapon>

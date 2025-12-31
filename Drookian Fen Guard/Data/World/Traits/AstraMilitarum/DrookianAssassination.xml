@@ -27,7 +27,7 @@
 				</encounter>
 			</conditions>
 			<effects>
-				<damage mul="0.33"/>
+				<damage mul="0.25"/>
 			</effects>
 		</modifier>
 	</modifiers>
