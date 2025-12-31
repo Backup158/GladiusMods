@@ -3,7 +3,7 @@
 	<actions>
 		<produceUnit unit="AstraMilitarum/DrookianFenGuardsmen"/>
 		<produceUnit unit="AstraMilitarum/DrookianScout"/>
-		<produceUnit unit="AstraMilitarum/DrookianAssassin"/>
+		<produceUnit unit="AstraMilitarum/DrookianAssassin" requiredUpgrade="AstraMilitarum/Housing"/> <!-- Unlock at Hab Blocks -->
 		<produceUnit unit="AstraMilitarum/DrookianStormtrooper" requiredUpgrade="AstraMilitarum/TempestusScion"/>
 	</actions>
 </building>

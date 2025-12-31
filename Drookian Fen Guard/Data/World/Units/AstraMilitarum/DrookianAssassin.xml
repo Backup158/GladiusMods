@@ -106,8 +106,9 @@
 	<traits>
 		<!-- Lictor Traits -->
 		<trait name="Stealth"/>
-		<trait name="HitAndRun"/>
-		<trait name="Infiltrate"/>
+		<trait name="HitAndRun"/> <!-- Ingore ZoC -->
+		<trait name="MoveThroughCover" requiredUpgrade="AstraMilitarum/MediPack"/> <!-- Move through cover with T3 -->
+		<trait name="Infiltrate" requiredUpgrade="AstraMilitarum/CityTier2"/> <!-- Infiltrate with T4 -->
 		<!-- Drookian Fen Guardsmen Traits -->
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
