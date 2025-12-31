@@ -9,6 +9,9 @@
     <entry name="Harassed" value="Harassed"/>
     <entry name="HarassedDescription" value="Loses Morale and has decreased Accuracy."/>
     <entry name="HarassedFlavor" value="Constant night attacks have left these troops exhausted, decreasing their combat readiness."/>
+    <entry name="Undersupplied" value="Undersupplied"/>
+    <entry name="UndersuppliedDescription" value="Decreased morale. Costs more resources to upkeep."/>
+    <entry name="UndersuppliedFlavor" value="Troops without food and weapons are of little use. Efforts must be spent to resupply them."/>
     <entry name="AstraMilitarum/DrookianAssassination" value="Drookian Assassination"/>
     <entry name="AstraMilitarum/DrookianAssassinationDescription" value="Increased attacks against enemies that have moved. Increased damage against Heroes."/>
     <entry name="AstraMilitarum/DrookianAssassinationFlavor" value="After a long march, there's nothing like a knife to the throat to put you to rest."/>
