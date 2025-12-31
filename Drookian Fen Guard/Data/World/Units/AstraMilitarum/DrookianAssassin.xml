@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit>
+<unit spawnDistanceMin="6">
 	<model>
-		<unit mesh="Units/SistersOfBattle/ArcoFlagellant"
-				material="Units/SistersOfBattle/ArcoFlagellant"
-				idleAnimation="Units/SistersOfBattle/ArcoFlagellantIdle"
+		<unit mesh="Units/ChaosSpaceMarines/ChaosCultist"
+				material="Units/ChaosSpaceMarines/ChaosCultist"
+				idleAnimation="Units/ChaosSpaceMarines/ChaosCultistIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="0.6 0.6 0.6"
-				explosionsBone="Chest"
+				scale="0.8 0.8 0.8"
+				bloodBone="Bone001"
 				walker="1"/>
 	</model>
 	<!-- Group size was 3 -->
@@ -17,7 +17,10 @@
 		<!-- ArcoFlail -->
 		<weapon name="AstraMilitarum/DrookianDaggers" count="2">
 			<model>
-				<weapon fireInterval="10.0"/>
+				<weapon mesh="Weapons/Orks/Choppa"
+						material="Weapons/Orks/ChoppaSlugga"
+						bone="Bone006"
+						fireInterval="1.0"/>
 			</model>
 		</weapon>
 	</weapons>
@@ -50,19 +53,24 @@
 	<actions>
 		<attack>
 			<model>
-				<action	chargeAnimation="Units/SistersOfBattle/ArcoFlagellantCharge"
-						meleeAnimation="Units/SistersOfBattle/ArcoFlagellantMelee"
-						meleeBeginSwing="0.2"
-						meleeEndSwing="1.5"/>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.1"
+						endFire="0.12"
+						chargeAnimation="Units/ChaosSpaceMarines/ChaosCultistCharge"
+						chargeBeginFire="0.1"
+						chargeEndFire="0.11"
+						meleeAnimation="Units/ChaosSpaceMarines/ChaosCultistMelee"
+						meleeBeginSwing="0.14"
+						meleeEndSwing="0.7"/>
 			</model>
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/SistersOfBattle/ArcoFlagellantDie"
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistDie"
 						animationCount="2"
 						sound="Units/MediumUnarmoredDie"
 						soundCount="4"
-						soundDelay="1"
+						soundDelay="0.35"
 						voiceSound="Units/AstraMilitarum/InfantryDie"
 						voiceSoundCount="5"/>
 			</model>		
@@ -74,16 +82,17 @@
 		</idle>
 		<move>
 			<model>
-				<action animation="Units/SistersOfBattle/ArcoFlagellantMove"
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistMove"
 						sound="Units/AstraMilitarum/InfantryMove"
-						soundCount="6"/>
+						soundCount="4"/>
 			</model>
 		</move>
 		<createSmokeScreen name="ThrowSmokeGrenade"
 				cooldown="10"
 				icon="Traits/SmokeScreen">
 			<model>
-				<action sound="Actions/SmokeScreen"/>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistWork"
+						sound="Actions/SmokeScreen"/>
 			</model>
 			<beginTargets>
 				<target rangeMax="2">

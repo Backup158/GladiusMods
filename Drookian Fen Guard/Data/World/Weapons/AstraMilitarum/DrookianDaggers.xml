@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Actions/Tau/BondingKnifeRitual">
 	<model>
-		<weapon fireSound="Weapons/CloseCombatWeapon"
+		<weapon fireSound="Weapons/WhipCoils"
 				fireSoundCount="3"/>
 	</model>
 	<modifiers>
