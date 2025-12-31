@@ -17,8 +17,8 @@
 		<!-- ArcoFlail -->
 		<weapon name="AstraMilitarum/DrookianDaggers" count="2">
 			<model>
-				<weapon mesh="Weapons/Orks/Choppa"
-						material="Weapons/Orks/ChoppaSlugga"
+				<weapon mesh="Weapons/SpaceMarines/RelicBlade"
+						material="Weapons/SpaceMarines/RelicBlade"
 						bone="Bone006"
 						fireInterval="1.0"/>
 			</model>
