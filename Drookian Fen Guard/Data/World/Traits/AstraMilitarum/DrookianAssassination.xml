@@ -4,12 +4,27 @@
 		visibilityCategory="Weapon"
 		icon="Traits/Rampage">
 	<modifiers>
-		<!-- Interception: Increased attacks against enemies on the move -->
+		<!-- Exploit defenses: Increased attacks against enemies -->
+		<!-- Separate so it can stack-->
 		<modifier>
 			<conditions>
 				<encounter>
 					<opponent>
+						<!-- Having just moved. Like attacking while they're tired from marching -->
 						<movedThisTurn/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<meleeAttacks mul="0.17"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<!-- Sentry takedown: Good at clearing outposts-->
+						<trait name="Outpost"/>
 					</opponent>
 				</encounter>
 			</conditions>
