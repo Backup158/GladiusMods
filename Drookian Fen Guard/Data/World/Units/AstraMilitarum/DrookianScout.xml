@@ -178,8 +178,7 @@
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"
-						sound="Units/AstraMilitarum/InfantryMove"
-						soundCount="4"/>
+						sound="Actions/SubvertCity"/>
 			</model>
 			<beginTargets>
 				<!-- This may seem a bit silly but it's the best I got for practicality. 2 and they just shoot you unless you're behind cover, which is thematically appropriate yet so niche. 3 makes sense, almost as if stepping in, shooting, then running away. -->
@@ -220,8 +219,7 @@
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"
-						sound="Units/AstraMilitarum/InfantryMove"
-						soundCount="4"/>
+						sound="Actions/DrawSwordAndReload"/>
 			</model>
 			<beginTargets>
 				<target rangeMax="2">
