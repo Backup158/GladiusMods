@@ -11,7 +11,7 @@
 				<requisitionsUpkeep mul="0.17"/>
 				<energyUpkeep mul="0.17"/>
 				<influenceUpkeep mul="0.17"/>
-
+				<!-- Demoralized and reduced attacks due to lack of weapons -->
 				<morale add="-2"/>
 				<attacks mul="-0.25"/>
 			</effects>
