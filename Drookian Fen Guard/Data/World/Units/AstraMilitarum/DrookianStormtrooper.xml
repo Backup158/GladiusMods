@@ -203,14 +203,14 @@
 						</area>
 					</areas>
 				</target>
-				<!-- Gives Fleet to escape -->
+				<!-- Gives Stealth to escape -->
 				<selfTarget>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="Fleet" duration="2"/>
+										<addTrait name="Stealth" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
