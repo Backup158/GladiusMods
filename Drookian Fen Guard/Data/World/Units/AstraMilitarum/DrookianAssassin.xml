@@ -111,6 +111,84 @@
 				</target>
 			</beginTargets>
 		</createSmokeScreen>
+		<!-- Scout Sentinel scans are cd 3 -->
+		<scout consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="5"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Scan"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</scout>
+		<!-- Waylay -->
+		<!-- Scouts can cripple the enemy -->
+		<genericUnitAbility consumedActionPoints="0"
+				consumedMovement="1"
+				cooldown="5"
+				name="AstraMilitarum/Waylay"
+				icon="Traits/Sniper"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistWork"
+						sound="Actions/DrawSwordAndReload"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2">
+					<conditions>
+						<!-- Enemy infantry -->
+						<unit>
+							<enemy/>
+							<noTrait name="Vehicle"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="MonstrousCreature"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<!-- Pinned: broken legs -->
+										<addTrait name="Pinned" duration="3"/>
+										<!-- Increased upkeep: stolen equipment -->
+										<addTrait name="Undersupplied" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<!-- Boost self -->
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/SpoilsOfWar" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<!-- Lictor Traits -->
