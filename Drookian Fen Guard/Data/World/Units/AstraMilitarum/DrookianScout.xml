@@ -283,6 +283,7 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<trait name="AstraMilitarum/Drookian"/>
 		<trait name="AstraMilitarum/DrookianSaboteur"/>
+		<trait name="Infiltrate" requiredUpgrade="AstraMilitarum/Construction"/> <!-- Infiltrate with T2, Cult Mechanicus -->
 		<trait name="MoveThroughCover"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
