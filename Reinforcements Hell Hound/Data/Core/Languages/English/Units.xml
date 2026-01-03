@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/BattalionHellHound" value="Battalion of Hellhounds"/>
+	<entry name="AstraMilitarum/BattalionHellHoundDescription" value="<string name='Units/AstraMilitarum/HellHoundDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionHellHoundFlavor" value="<string name='Units/AstraMilitarum/HellHoundFlavor'/>"/>
+</language>
