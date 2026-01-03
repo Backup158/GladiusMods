@@ -60,7 +60,7 @@
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseInfantryScore base="1.0"/>
+				<increaseInfantryScore base="0.5"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>

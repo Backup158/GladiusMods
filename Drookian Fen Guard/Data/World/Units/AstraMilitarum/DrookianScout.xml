@@ -61,7 +61,8 @@
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseInfantryScore base="1.0"/>
+				<!-- lower strat mod so the AI won't build these since they're too stupid to use them -->
+				<increaseInfantryScore base="0.3"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>
