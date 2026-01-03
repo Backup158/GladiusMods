@@ -210,6 +210,7 @@
 	<responses>
 		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/MeltaBomb" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
