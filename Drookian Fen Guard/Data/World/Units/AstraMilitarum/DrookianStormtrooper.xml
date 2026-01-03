@@ -203,6 +203,20 @@
 						</area>
 					</areas>
 				</target>
+				<!-- Gives Fleet to escape -->
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fleet" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
 	</actions>

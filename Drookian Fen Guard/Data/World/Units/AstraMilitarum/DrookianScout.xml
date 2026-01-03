@@ -170,7 +170,7 @@
 		<!-- This is to simulate harassing attacks to psych out and mentally wear down enemy troops. Mostly like night time hit and runs. -->
 		<!-- Scouts can harass more often -->
 		<genericUnitAbility consumedActionPoints="0"
-				consumedMovement="1"
+				consumedMovement="0"
 				cooldown="2"
 				name="AstraMilitarum/BacklineHarassment"
 				icon="Traits/HellstormTemplate"
@@ -206,6 +206,20 @@
 						</area>
 					</areas>
 				</target>
+				<!-- Gives Fleet to escape -->
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fleet" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Waylay -->
