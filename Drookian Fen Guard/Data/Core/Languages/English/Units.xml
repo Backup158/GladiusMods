@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/DrookianFenGuardsmen" value="Drookian Fen Guardsman"/>
-    <entry name="AstraMilitarum/DrookianFenGuardsmenDescription" value="Light infantry focussed on harassing the enemy. Smaller squad size, but faster, more accurate, and can more easily demolish enemy machines."/>
-    <entry name="AstraMilitarum/DrookianFenGuardsmenFlavor" value="After years of trekking through mud while soaking wet, even the typical Drookian Fen Guardsman can scout through land like butter."/>
+    <entry name="AstraMilitarum/DrookianFenGuardsmenDescription" value="Light infantry focussed on ambushing and harassing the enemy. Smaller squad size, but faster, more accurate, and can more easily demolish enemy machines."/>
+    <entry name="AstraMilitarum/DrookianFenGuardsmenFlavor" value="After years of being soaked and trekking through mud, even the typical Drookian Fen Guardsman can easily maneuver through tough terrain."/>
     <entry name="AstraMilitarum/DrookianStormtrooper" value="Drookian Stormtroper"/>
     <entry name="AstraMilitarum/DrookianStormtrooperDescription" value="Elite light infantry. Weaker, but sneakier than a regular Tempestus Scion."/>
     <entry name="AstraMilitarum/DrookianStormtrooperFlavor" value="With enough firepower, a routine ambush can turn into a decimated enemy division."/>

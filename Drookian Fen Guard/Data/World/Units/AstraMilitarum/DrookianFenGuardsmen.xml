@@ -204,6 +204,7 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<trait name="AstraMilitarum/Drookian"/>
 		<trait name="AstraMilitarum/DrookianSaboteur"/>
+		<trait name="MoveThroughCover" requiredUpgrade="AstraMilitarum/Construction"/> <!-- Move through cover with T2, Cult Mechanicus -->
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
