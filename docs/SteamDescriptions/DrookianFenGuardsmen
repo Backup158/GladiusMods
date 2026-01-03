@@ -1,0 +1,21 @@
+Adds various units from the Drookian Fen Guard to the Astra Militarum, with emphasis on scouting and harassment. 
+Natives of the bog world of Drook VI, members of the Drookian Fen Guard have become experts at operating behind enemy lines. They work in small squads to move quickly, ambushing unsuspecting foes[spoiler]([i]Drookian[/i]: +2 Accuracy when Overwatching, +17% Damage in Forests)[/spoiler]. Beyond simple ambushes, they also conduct night-time raids to demoralize the enemy[spoiler]([i]Backline Harassment[/i]: Choose an enemy within 3 tiles to give them [i]Harassed[/i] for 3 turns, then gain Ranged Damage Reduction to escape. [i]Harassed[/i]: -1 Morale, -17% Accuracy)[/spoiler]. Instead of merely taking potshots, Drookian Scouts can choose to up the ante by taking the enemy's supplies[spoiler]([i]Waylay[/i]: Choose an enemy within 2 tiles to give them [i]Undersupplied[/i] for 3 turns and to gain [i]Spoils of War[/i] for 3 turns. [i]Undersupplied[/i]: +17% Resource Upkeep, -2 Morale, -25% Attacks. [i]Spoils of War[/i]: -30% Resource Upkeep)[/spoiler].
+Drookians are also adept saboteurs, armed with Melta Bombs[spoiler](Unlocked at T4, Las Damage[/spoiler] and able to spot weaknesses in enemy structures[spoiler]([i]Drookian Saboteur[/i]: +50% Damage against Fortifications, +25% Damage against Vehicles)[/spoiler].
+However, the harsh conditions of Drook VI have shifted Drookian mentality away from that of the wider Imperium. When you're waist-deep in swamp water with deadly fauna and rivals all around, faith in the God-Emperor takes a backseat to loyalty to your clan. They have a deep distrust of foreigners, which makes it difficult for them to work with other Guard regiments[spoiler]([i]Drookian[/i]: -1 Morale when adjacent to non-Drookian allies)[/spoiler] unless properly... motivated[spoiler]([i]Drookian[/i]: +1 Morale when within 2 tiles of an allied Commissar)[/spoiler]. 
+
+No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
+
+[h1]Units and Unlocks[/h1]
+[list]
+[*] T0: [b]Drookian Fen Guardsmen[/b] - Weaker Guardsmen alternative (in squads of 5 instead of 8, with lower health and morale but are slightly cheaper), which can perform [i]Backline Harassment[/i]. Through research, can be upgraded with [i]Move Through Cover[/i] and be equipped with Melta Bombs.
+[*] T0: [b]Drookian Scouts[/b] - Smaller squad of Drookian Fen Guardsmen armed with Laspistols. They also have the ability to [i]Scout[/i] and [i]Waylay[/i], and they have [i]Move Through Cover[/i] by default. Through research, can be upgraded to [i]Infiltrate[/i].
+[*] T0: [b]Drookian Hover-Chimera[/b] - Unlocked at Chimera. Floating, agile troop transport with less protection[spoiler](-1 Armor, -1 Cargo Slot, -4 Health, +1 Movement from [i]Anti-Grav Upwash[/i], has [i]Skimmer[/i])[/spoiler]. 
+[*] T2: [b]Drookian Assassin[/b] - Unlocked at Hab Blocks. Melee unit that exploits and creates weaknesses in the supply chain[spoiler]([i]Drookian Assassination[/i]: +17% Attacks against enemies that have just moved, +17% Attacks against enemies in Outposts, +25% Damage against Heroes)[/spoiler]. Armed with dual daggers dipped in poison. Can throw Smoke Grenades within 2 tiles. Has [i]Stealth[/i] and [i]Hit and Run[/i].
+[*] T2: Cult Mechanicus research - Unlocks [i]Move Through Cover[/i] for Drookians without it. Unlocks Infiltrate for Drookian Scouts.
+[*] T4: [b]Drookian Stormtroopers[/b] - Unlocked at Tempestus Scions.
+[*] T4: Hotshot Power Packs - Unlocks Melta Bombs for Drookians.
+[*] T4: Substructure Extension - Unlocks Infiltrate for Drookian Assassins.
+[/list]
+
+[h1]Further details[/h1]
+Assault Pack DLC: Chimera Tech for Drookian Hover-Chimera
