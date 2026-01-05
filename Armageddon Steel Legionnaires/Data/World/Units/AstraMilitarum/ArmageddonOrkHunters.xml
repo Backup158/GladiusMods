@@ -39,7 +39,22 @@
 						fireInterval="0.5"/>
 			</model>
 		</weapon>
-
+		<!-- Grenades -->
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHand"/>
+			</model>
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHand"/>
+			</model>
+		</weapon>
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHand"/>
+			</model>
+		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
