@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon attributesModifiedByUnit="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<meleeAccuracy max="12" min="12"/>
+				<meleeArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
+				<meleeDamage add="3"/> <!-- %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="Poisoned"/>
+		<trait name="IgnoresCover"/>
+	</traits>
+</weapon>

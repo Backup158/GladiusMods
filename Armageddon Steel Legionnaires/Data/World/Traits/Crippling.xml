@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff">
+	<onCombatOpponentModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+						<noTrait name="Fortification"/>
+						<noTrait name="Vehicle"/>
+						<noTrait name="MonstrousCreature"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<addTrait name="Crippled" duration="2"/>
+			</effects>
+		</modifier>
+	</onCombatOpponentModifiers>
+</trait>

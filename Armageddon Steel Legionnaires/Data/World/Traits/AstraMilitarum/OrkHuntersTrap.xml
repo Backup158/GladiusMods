@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/ChaosSpaceMarines/ShatterDefences">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+                    <!-- Can be triggered by nonskimming vehicles, but will have no effect -->
+					<enemy/>
+					<noTrait name="Flyer"/>
+					<noTrait name="Necrons/ImmuneToNaturalLaw"/>
+					<noTrait name="JetPack"/>
+					<noTrait name="Jetbike"/>
+					<noTrait name="Skimmer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementCost min="100"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<onTileEnteredModifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="OrkHuntersTrap"/>
+				<removeFeature name="OrkHuntersTrap"/>
+			</effects>
+		</modifier>
+	</onTileEnteredModifiers>
+</trait>

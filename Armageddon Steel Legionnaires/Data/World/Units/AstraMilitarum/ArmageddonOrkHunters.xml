@@ -176,6 +176,34 @@
 		</mediPack>
 		-->
 		<!-- Traps -->
+		<genericUnitAbility cooldown="5"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/ShatterDefences">
+			<model>
+				<action sound="Actions/MechanicalBuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyUnit/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="OrkHuntersTrap"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="AstraMilitarum/ArmageddonOrkHunters"/>
