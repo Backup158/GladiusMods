@@ -146,6 +146,8 @@
 			</model>				
 		</throwGrenade>
 		<!-- Medipack -->
+		<!-- with the passive healing, this is overkill -->
+		<!--
 		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
 			<model>
 				<action bone="ChestBone"
@@ -172,6 +174,7 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		-->
 		<!-- Traps -->
 	</actions>
 	<traits>
