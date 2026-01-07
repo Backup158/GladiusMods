@@ -26,7 +26,7 @@
 				-->
 				<projectileWeapon mesh="Weapons/Orks/Snazzgun"
 						material="Units/Orks/FlashGitz"
-						muzzleBone=".Muzzle" 
+						muzzleBone=".muzzle" 
 						bone="Bone006" 
 						fireInterval="0.5"/>
 			</model>
@@ -42,17 +42,17 @@
 		<!-- Grenades -->
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="RightHand"/>
+				<grenadeWeapon/>
 			</model>
 		</weapon>
 		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="RightHand"/>
+				<grenadeWeapon/>
 			</model>
 		</weapon>
 		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="RightHand"/>
+				<grenadeWeapon/>
 			</model>
 		</weapon>
 	</weapons>
