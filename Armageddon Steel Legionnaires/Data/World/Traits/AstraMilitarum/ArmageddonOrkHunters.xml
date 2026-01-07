@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff" icon="Traits/Animosity">
 	<modifiers>
+		<!-- Damage against Orks -->
 		<modifier>
 			<conditions>
 				<encounter>
@@ -11,6 +12,40 @@
 			</conditions>
 			<effects>
 				<damage mul="0.25"/>
+			</effects>
+		</modifier>
+		<!-- Lose Morale and Health if not attacked -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<unit>
+						<notAttackedThisTurn/>
+						<unitsInRange count="0" range="2">
+							<enemy/>
+							<faction name="Orks"/>
+						</unitsInRange>
+					</unit>
+				</encounter>
+			</conditions>
+			<effects>
+				<morale add="-1"/>
+				<health add="-1"/>
+			</effects>
+		</modifier>
+		<!-- Lose more Morale if not near Orks -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<unit>
+						<unitsInRange count="0" range="2">
+							<enemy/>
+							<faction name="Orks"/>
+						</unitsInRange>
+					</unit>
+				</encounter>
+			</conditions>
+			<effects>
+				<morale add="-1"/>
 			</effects>
 		</modifier>
 	</modifiers>
