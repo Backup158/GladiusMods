@@ -15,7 +15,7 @@
 	<group size="6" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<!-- Autopistol to Slugga -->
-		<weapon name="Slugga">
+		<weapon name="Snazzgun">
  			<model>
 				<!--
 				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/Autopistol"
@@ -24,8 +24,8 @@
 						muzzleBone=".Muzzle"
 						fireInterval="0.25"/>
 				-->
-				<projectileWeapon mesh="Weapons/Orks/Slugga" 
-						material="Weapons/Orks/ChoppaSlugga" 
+				<projectileWeapon mesh="Weapons/Orks/Snazzgun"
+						material="Units/Orks/FlashGitz"
 						muzzleBone=".Muzzle" 
 						bone="Bone006" 
 						fireInterval="0.5"/>
