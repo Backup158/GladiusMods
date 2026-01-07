@@ -44,17 +44,17 @@
 		<!-- Grenades -->
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="LeftHandBone"/>
+				<grenadeWeapon muzzleBone="Bone006"/>
 			</model>
 		</weapon>
 		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="LeftHandBone"/>
+				<grenadeWeapon muzzleBone="Bone006"/>
 			</model>
 		</weapon>
 		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="LeftHandBone"/>
+				<grenadeWeapon muzzleBone="Bone006"/>
 			</model>
 		</weapon>
 	</weapons>
