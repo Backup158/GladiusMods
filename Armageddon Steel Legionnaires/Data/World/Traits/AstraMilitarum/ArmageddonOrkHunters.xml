@@ -27,7 +27,7 @@
 			</conditions>
 			<effects>
 				<morale add="-1"/>
-				<health add="-1"/>
+				<hitpoints add="-1"/>
 			</effects>
 		</modifier>
 		<!-- Lose more Morale if not near Orks -->
