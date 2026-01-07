@@ -44,17 +44,17 @@
 		<!-- Grenades -->
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
-				<grenadeWeapon/>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
 		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
 			<model>
-				<grenadeWeapon/>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
 		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
 			<model>
-				<grenadeWeapon>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
 	</weapons>
@@ -123,6 +123,54 @@
 			</model>
 		</move>
 		<!-- Grenades -->
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.833333333333"/>
+			</model>
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="AstraMilitarum/BlastDamage"> <!-- Improved Frag Casing T6 -->
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<!-- Medipack -->
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
 		<!-- Traps -->
 	</actions>
 	<traits>
