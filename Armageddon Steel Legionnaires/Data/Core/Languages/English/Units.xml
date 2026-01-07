@@ -6,4 +6,7 @@
 	<entry name="AstraMilitarum/SteelLegionStormTrooper" value="Steel Legion Storm Trooper"/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperDescription" value="Elite shock infantry unit specialising in close-quarters deployments from transports and in fighting Orks. Has less armour than Tempestus Scions."/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperFlavor" value="Steel Legion Storm Troopers are the Legion's finest soldiers, forged in the Wars for Armageddon. They carry Hellguns and have Carapace Armour underneath their iconic greatcoats. While protective, they aren't as heavily armoured as their counterparts from the Schola Progenium."/>
-</language>
+	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Armageddon Ork Hunters"/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value=""/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value=""/>
+	</language>
