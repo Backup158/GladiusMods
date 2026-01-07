@@ -28,7 +28,7 @@
 				-->
 				<projectileWeapon mesh="Weapons/Orks/Slugga"
 						material="Weapons/Orks/ChoppaSlugga"
-						muzzleBone=".muzzle" 
+						muzzleBone=".Muzzle" 
 						bone="Bone006" 
 						fireInterval="0.5"/>
 			</model>
