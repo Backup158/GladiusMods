@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="AstraMilitarum/ArmageddonOrks" value="Greenskin Expertise"/>
-	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Steel Legionnaires are 17% more accurate against Orks."/>
+	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Steel Legionnaires are more accurate against Orks."/>
 	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
 	<entry name="AstraMilitarum/ArmageddonDeployment" value="Armageddon Rapid Deployment"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentDescription" value="Grants bonus traits when this unit disembarks from a transport."/>
@@ -16,7 +16,7 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Steel Legion Medics have discovered more efficient packing methods for first aid kits to store inside their transports."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
-	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal 25% more Damage against Orks. Lose Morale if not within 2 tiles of Orks. Lose 1 Morale and Health if unit has not attacked this turn and is not within 2 tiles of Orks."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks, lose Morale and Health if unit has not attacked this turn and is not within 2 tiles of Orks, and loses even more Morale if the unit is not within 2 tiles of Orks."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice. However, this leaves them with a thirst for blood that, if gone unquenched, can lead to desertion and infighting. This thirst can be somewhat satiated by fighting."/>
 
 </language>
