@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/Animosity">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<faction name="Orks"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.25"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

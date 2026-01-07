@@ -175,6 +175,7 @@
 		<!-- Traps -->
 	</actions>
 	<traits>
+		<trait name="AstraMilitarum/ArmageddonOrkHunters"/>
 		<!-- Steel Legion Traits -->
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
