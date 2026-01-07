@@ -17,15 +17,13 @@
 		<!-- Lose Morale and Health if not attacked -->
 		<modifier>
 			<conditions>
-				<encounter>
-					<unit>
-						<notAttackedThisTurn/>
-						<unitsInRange count="0" range="2">
-							<enemy/>
-							<faction name="Orks"/>
-						</unitsInRange>
-					</unit>
-				</encounter>
+				<unit>
+					<notAttackedThisTurn/>
+					<unitsInRange count="0" range="2">
+						<enemy/>
+						<faction name="Orks"/>
+					</unitsInRange>
+				</unit>
 			</conditions>
 			<effects>
 				<morale add="-1"/>
@@ -35,18 +33,17 @@
 		<!-- Lose more Morale if not near Orks -->
 		<modifier>
 			<conditions>
-				<encounter>
-					<unit>
-						<unitsInRange count="0" range="2">
-							<enemy/>
-							<faction name="Orks"/>
-						</unitsInRange>
-					</unit>
-				</encounter>
+				<unit>
+					<unitsInRange count="0" range="2">
+						<enemy/>
+						<faction name="Orks"/>
+					</unitsInRange>
+				</unit>
 			</conditions>
 			<effects>
 				<morale add="-1"/>
 			</effects>
 		</modifier>
+		<!-- Copy for custom faction -->
 	</modifiers>
 </trait>
