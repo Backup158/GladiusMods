@@ -14,5 +14,6 @@
 				<damage mul="0.25"/>
 			</effects>
 		</modifier>
+		<!-- This is where I would make them lose health/damage if not -->
 	</modifiers>
 </trait>

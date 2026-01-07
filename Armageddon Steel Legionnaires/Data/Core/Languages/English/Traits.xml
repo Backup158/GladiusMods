@@ -16,7 +16,7 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Steel Legion Medics have discovered more efficient packing methods for first aid kits to store inside their transports."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
-	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and lose Morale and Health if they have not attacked this turn and are not within 2 tiles of Orks."/>
-	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice. However, this leaves them with a thirst for blood that, if gone unquenched, can lead to desertion and infighting. This thirst can be somewhat satiated by fighting."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
 
 </language>
