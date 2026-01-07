@@ -176,7 +176,6 @@
 	</actions>
 	<traits>
 		<trait name="AstraMilitarum/ArmageddonOrkHunters"/>
-		<trait name="AstraMilitarum/ArmageddonOrkHunterBloodthirst"/>
 		<!-- Steel Legion Traits -->
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
