@@ -173,6 +173,52 @@
 			</beginTargets>
 		</mediPack>
 		<!-- Traps -->
+		<!-- Blood Thirst -->
+		<genericUnitAbility passive="1">
+			<model>
+				<action sound="Actions/ChargeUp"/>
+			</model>
+			<conditions>
+				<unit>
+					<notAttackedThisTurn/>
+					<unitsInRange count="0" range="2">
+						<enemy/>
+						<faction name="Orks"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<!-- Lose Morale and Health if not attacked -->
+								<modifier>
+									<effects>
+										<morale add="-1"/>
+										<hitpoints add="-1"/>
+									</effects>
+								</modifier>
+								<!-- Lose more Morale if not near Orks -->
+								<modifier>
+									<conditions>
+										<unit>
+											<unitsInRange count="0" range="2">
+												<enemy/>
+												<faction name="Orks"/>
+											</unitsInRange>
+										</unit>
+									</conditions>
+									<effects>
+										<morale add="-1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="AstraMilitarum/ArmageddonOrkHunters"/>

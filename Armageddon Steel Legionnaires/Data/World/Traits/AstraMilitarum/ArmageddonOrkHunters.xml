@@ -14,35 +14,5 @@
 				<damage mul="0.25"/>
 			</effects>
 		</modifier>
-		<!-- Lose Morale and Health if not attacked -->
-		<!-- I wanted it to only happen if there is also no orks nearby, but it looks like unitsInRange count="0" doesn't work -->
-		<modifier>
-			<conditions>
-				<unit>
-					<notAttackedThisTurn/>
-				</unit>
-			</conditions>
-			<effects>
-				<morale add="-1"/>
-				<hitpoints add="-1"/>
-			</effects>
-		</modifier>
-		<!-- Undoes the previous -->
-		<modifier>
-			<conditions>
-				<unit>
-					<notAttackedThisTurn/>
-					<unitsInRange count="1" range="2">
-						<enemy/>
-						<faction name="Orks"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<morale add="2"/>
-				<hitpoints add="1"/>
-			</effects>
-		</modifier>
-		<!-- Copy for custom faction -->
 	</modifiers>
 </trait>
