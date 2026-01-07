@@ -42,6 +42,7 @@
 			</model>
 		</weapon>
 		<!-- Grenades -->
+		<!-- bone is from the body, where the grenades spawn from -->
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
 				<grenadeWeapon muzzleBone="Bone006"/>
