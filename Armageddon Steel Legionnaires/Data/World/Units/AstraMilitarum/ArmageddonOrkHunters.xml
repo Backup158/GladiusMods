@@ -62,19 +62,19 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="2"/> <!-- %armor base armor=6+ -->
-				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<armor base="2"/> <!-- Guardsman is 4, Kommando is 2 | %armor base armor=6+ -->
+				<hitpointsMax base="2.5"/> <!-- Guardsman is 2, Kommando is 3 | %hitpointsMax base toughness=3 wounds=1 -->
+				<meleeAccuracy base="8"/> <!-- Guardsman is 6, Kommando is 8 | %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<!-- <meleeInitiative base="3"/> -->
-				<moraleMax base="4"/> <!-- %moraleMax base leadership=5 -->
-				<movementMax base="3"/>
-				<productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
+				<moraleMax base="6"/> <!-- Guardsman and Scions are 6 %moraleMax base leadership=5 -->
+				<movementMax base="3"/> <!-- Guardsman and Kommando is 3 -->
+				<productionCost base="30.0"/> <!-- Guardsman is 24, Scions are 36 | %productionCost base tier=4 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
-				<foodCost base="10.0"/> <!-- %foodCost base tier=4 factor=0.5 -->
-				<oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+				<foodCost base="15.0"/> <!-- Guardsman is 10 | %foodCost base tier=4 factor=0.5 -->
+				<oreCost base="15.0"/> <!-- Guardsman is 10 | %oreCost base tier=4 factor=0.5 -->
 			</effects>
 		</modifier>
 	</modifiers>
