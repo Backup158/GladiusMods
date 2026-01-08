@@ -145,11 +145,17 @@
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
+						<!-- Basic things to match all -->
 						<tile>
 							<land/>
 							<noEnemyCity/>
 							<noEnemyPlayer/>
 							<noEnemyUnit/>
+						</tile>
+						<!-- forest/fungus only -->
+						<tile match="Any">
+							<feature name="OrkoidFungus"/>
+							<feature name="Forest"/>
 						</tile>
 					</conditions>
 					<areas>
