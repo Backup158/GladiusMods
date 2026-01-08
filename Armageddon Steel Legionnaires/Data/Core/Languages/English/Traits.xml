@@ -21,4 +21,10 @@
 	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
 	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
 	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+	<entry name="Crippling" value="Crippling"/>
+	<entry name="CripplingDescription" value="Slows down infantry and makes them bleed."/>
+	<entry name="CripplingFlavor" value="Falling down a pit is quite the setback for infantry."/>
+	<entry name="Crippled" value="Crippled"/>
+	<entry name="CrippledDescription" value="Reduced movement and loses health per turn."/>
+	<entry name="CrippledFlavor" value="MY LEG!"/>
 </language>
