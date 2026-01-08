@@ -11,7 +11,8 @@
 				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
-	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<!-- Smaller group from 8 -->
+	<group size="5" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="Flamer">
 			<model>
@@ -130,6 +131,40 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		<!-- Purging Flame to remove Fungus -->
+		<genericUnitAbility cooldown="1"
+							consumedActionPoints="0"
+							name="AstraMilitarum/PurgingFlames"
+							icon="Traits/Flame">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanAttack"
+						beginFire="0.35" endFire="2.5"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyCity/>
+							<noEnemyPlayer/>
+							<noEnemyUnit/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeFeature name="OrkoidFungus"/>
+										<removeFeature name="Forest"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
@@ -143,6 +178,7 @@
 		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
+		<action name="AstraMilitarum/PurgingFlames" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
 		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
