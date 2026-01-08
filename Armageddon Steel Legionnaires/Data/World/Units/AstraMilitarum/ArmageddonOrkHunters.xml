@@ -179,7 +179,7 @@
 		<genericUnitAbility cooldown="5"
 				consumedMovement="0"
 				icon="Actions/ChaosSpaceMarines/ShatterDefences"
-				name="Actions/AstraMilitarum/OrkHuntersTrap">
+				name="AstraMilitarum/OrkHuntersTrap">
 			<model>
 				<action sound="Actions/MechanicalBuff"/>
 			</model>

@@ -9,4 +9,7 @@
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Armageddon Ork Hunters"/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value=""/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value=""/>
-	</language>
+	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
+	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
+	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+</language>
