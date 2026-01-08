@@ -181,7 +181,7 @@
 				icon="Actions/ChaosSpaceMarines/ShatterDefences"
 				name="AstraMilitarum/OrkHuntersTrap">
 			<model>
-				<action sound="Actions/MechanicalBuff"/>
+				<action sound="Weapons/Choppa" soundCount="3"/>
 			</model>
 			<beginTargets>
 				<target rangeMax="1">
