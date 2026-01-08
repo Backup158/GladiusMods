@@ -134,11 +134,13 @@
 		<!-- Purging Flame to remove Fungus -->
 		<genericUnitAbility cooldown="1"
 							consumedActionPoints="0"
+							consumedMovement="0"
 							name="AstraMilitarum/PurgingFlames"
 							icon="Traits/Flame">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanAttack"
-						beginFire="0.35" endFire="2.5"/>
+						beginFire="0.35" endFire="2.5"
+						sound="Weapons/Flamer" soundCount="3"/>
 			</model>
 			<beginTargets>
 				<target rangeMax="1">
