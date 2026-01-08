@@ -2,4 +2,7 @@
 <language>
 	<entry name="VossPatternLasgun" value="Voss Pattern Lasgun"/>
 	<entry name="VossPatternLasgunFlavor" value="Lasgun with a foldable wire stock and shorter barrel, limiting range but being easier to fit inside an APC, exactly what the Steel Legion wants."/>
+	<entry name="OrkHuntersTrap" value="Punji Trap"/>
+	<entry name="OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
+	<entry name="OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
 </language>
