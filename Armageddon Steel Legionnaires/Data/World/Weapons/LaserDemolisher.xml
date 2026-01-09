@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon>
+<weapon icon="Weapons/HeavyLaserDestroyer"> <!-- reusing because im lazy and this is the same thing but not heavy-->
 	<!-- Like an ancient, insane lascannon -->
 	<model>
 		<beamWeapon fireInterval="1.0" 
@@ -12,7 +12,7 @@
 				<attacks add="1"/>
 				<rangedArmorPenetration add="6"/>
 				<!-- %rangedArmorPenetration add armorPiercing=2 -->
-				<rangedDamage add="9.5"/> <!-- 8 dmg -->
+				<rangedDamage add="10"/> <!-- 8 dmg -->
 				<!-- %rangedDamage add strength=9 -->
 				<strengthDamage base="0"/>
 			</effects>
