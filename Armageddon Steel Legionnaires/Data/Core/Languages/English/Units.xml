@@ -26,4 +26,7 @@
 	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimera" value="Armageddon Pattern Heavy Assault Chimera"/>
 	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraDescription" value="Heavily armed troop transport that rapidly deploys infantry behind enemy lines. It uses the standard Multi-laser with a hull-mounted Heavy Flamer and a manned Hotshot Lasgun Array, and additional Heavy Bolters if researched."/>
 	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraFlavor" value=""/>
+	<entry name="AstraMilitarum/ArmageddonBasilisk" value="Armageddon Pattern Basilisk"/>
+	<entry name="AstraMilitarum/ArmageddonBasiliskDescription" value="Tougher, more expensive Basilisk with a closed top."/>
+	<entry name="AstraMilitarum/ArmageddonBasiliskFlavor" value=""/>
 </language>
