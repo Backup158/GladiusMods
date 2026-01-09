@@ -21,7 +21,7 @@
 	<entry name="AstraMilitarum/ArmageddonChimeraDescription" value="Tougher, more expensive Chimera that can easily slip behind enemy lines. Its smoke launcher is improved and can target beyond the vehicle itself. Its heavier armour means it is unable to traverse amphibiously."/>
 	<entry name="AstraMilitarum/ArmageddonChimeraFlavor" value=""/>
 	<entry name="AstraMilitarum/APDS6aDefender" value="APDS-6a Defender"/>
-	<entry name="AstraMilitarum/APDS6aDefenderDescription" value="Improvised tank with a Laser Demolisher, specialising in cutting through tanks."/>
+	<entry name="AstraMilitarum/APDS6aDefenderDescription" value="Improvised tank with a Laser Destroyer, specialising in cutting through tanks. Its powerful weapon causes self damage."/>
 	<entry name="AstraMilitarum/APDS6aDefenderFlavor" value=""/>
 	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimera" value="Armageddon Pattern Heavy Assault Chimera"/>
 	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraDescription" value="Heavily armed troop transport that rapidly deploys infantry behind enemy lines. It uses the standard Multi-laser with a hull-mounted Heavy Flamer and a manned Hotshot Lasgun Array, and additional Heavy Bolters if researched."/>
