@@ -3,5 +3,7 @@
 	<actions>
 		<produceUnit unit="AstraMilitarum/SteelLegionnaire" requiredUpgrade="AstraMilitarum/Chimera"/>
 		<produceUnit unit="AstraMilitarum/SteelLegionStormTrooper" requiredUpgrade="AstraMilitarum/TempestusScion"/>
+		<produceUnit unit="AstraMilitarum/SteelLegionPurgationSquad" requiredUpgrade="AstraMilitarum/Housing"/>
+		<produceUnit unit="AstraMilitarum/ArmageddonOrkHunters" requiredUpgrade="AstraMilitarum/FoodEdict"/>
 	</actions>
 </building>
