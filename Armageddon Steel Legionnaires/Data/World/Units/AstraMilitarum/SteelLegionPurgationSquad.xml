@@ -138,6 +138,8 @@
 							name="AstraMilitarum/PurgingFlames"
 							icon="Traits/Flame">
 			<model>
+				<!-- HOW DO I GET THE FLAMES TO PLAY -->
+				<!-- the useweapon type of actions are locked to require an enemy -->
 				<action animation="Units/AstraMilitarum/GuardsmanAttack"
 						beginFire="0.35" endFire="2.5"
 						sound="Weapons/Flamer" soundCount="3"/>
