@@ -85,29 +85,26 @@
 						soundCount="3"/>
 			</model>
 		</move>
-		<!-- Shorter duration and less cooldown with range-->
-		<createSmokeScreen cooldown="5"
+		<createSmokeScreen cooldown="10"
 				icon="Traits/SmokeScreen"
-				name="AstraMilitarum/LaunchSmokeGrenade"
 				requiredUpgrade="AstraMilitarum/SmokeLauncher">
 			<model>
 				<action sound="Actions/SmokeScreen"/>
 			</model>
 			<beginTargets>
-				<target rangeMax="2">
+				<selfTarget>
 					<areas>
 						<area affects="Tile">
 							<modifiers>
 								<modifier>
 									<effects>
-										<!-- Shorter duration from 3 -->
-										<addFeature duration="1" name="SmokeScreen"/>
+										<addFeature duration="3" name="SmokeScreen"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</target>
+				</selfTarget>
 			</beginTargets>
 		</createSmokeScreen>
 		<useWeapon weaponSlotName="HunterKillerMissile"
