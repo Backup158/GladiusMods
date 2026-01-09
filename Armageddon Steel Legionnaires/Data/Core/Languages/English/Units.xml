@@ -7,11 +7,11 @@
 	<entry name="AstraMilitarum/SteelLegionStormTrooperDescription" value="Elite shock infantry unit specialising in close-quarters deployments from transports and in fighting Orks. Has less armour than Tempestus Scions."/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperFlavor" value="Steel Legion Storm Troopers are the Legion's finest soldiers, forged in the Wars for Armageddon. They carry Hellguns and have Carapace Armour underneath their iconic greatcoats. While protective, they aren't as heavily armoured as their counterparts from the Schola Progenium."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Armageddon Ork Hunters"/>
-	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value=""/>
-	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value=""/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Close-range infantry trained to fight in forests and defeat Orks. Can plant anti-infantry traps. Has Ork-like traits."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="On Armageddon, the strongest survivors from destroyed units are formed into the Armageddon Ork Hunters. They are thrust into dense jungles, where they constantly battle Orks in a futile attempt to quell the tide. Not for a lack of effort, though. They live and breathe warfare and extermination. In fact, they are so accustomed to slaughtering Orks, they have become not so different from the very foe they face."/>
 	<entry name="AstraMilitarum/SteelLegionPurgationSquad" value="Steel Legion Purgation Squad"/>
-	<entry name="AstraMilitarum/SteelLegionPurgationSquadDescription" value=""/>
-	<entry name="AstraMilitarum/SteelLegionPurgationSquadFlavor" value=""/>
+	<entry name="AstraMilitarum/SteelLegionPurgationSquadDescription" value="Small infantry units armed with flamers that can clear Orkoid Fungus and Forests."/>
+	<entry name="AstraMilitarum/SteelLegionPurgationSquadFlavor" value="Clearing an area of Orks is a long, uphill battle, making it all the more important to make sure they can't return. Armageddon has enough Ork-controlled territory; Purgation Squads ensure Imperial lands and cleansed of filthy Xeno spawners."/>
 	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
 	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
 	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
