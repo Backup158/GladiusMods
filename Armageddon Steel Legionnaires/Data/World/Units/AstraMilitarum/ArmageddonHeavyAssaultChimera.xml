@@ -133,7 +133,7 @@
 		<trait name="Vehicle"/>
 		<!-- What makes it better -->
 		<trait name="HitAndRun"/>
-		<trait name="AssaulVehicle"/>
+		<trait name="AssaultVehicle"/>
 		<trait name="AstraMilitarum/ArmageddonOrks"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
