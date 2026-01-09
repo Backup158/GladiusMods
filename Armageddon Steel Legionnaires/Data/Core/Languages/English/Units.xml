@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+	<!-- Infantry -->
 	<entry name="AstraMilitarum/SteelLegionnaire" value="Steel Legionnaire"/>
 	<entry name="AstraMilitarum/SteelLegionnaireDescription" value="Light infantry units specialising in close-quarters deployments from transports and in fighting Orks."/>
 	<entry name="AstraMilitarum/SteelLegionnaireFlavor" value="Steel Legionnaires, hailing from Armageddon, are masters of mechanised warfare. Their doctrine revolves around rapid deployments from APCs, namely Chimeras, to disrupt enemy forces before they can muster a defence. Steel Legionnaires wield Voss Pattern Lasguns, which sacrifice range for a smaller profile that leaves more space in a troop transport. Due to their experience in the Third War for Armageddon, Steel Legionnaires are experts at fighting Orks."/>
@@ -15,4 +16,14 @@
 	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
 	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
 	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+	<!-- Vehicles -->
+	<entry name="AstraMilitarum/ArmageddonChimera" value="Armageddon Pattern Chimera"/>
+	<entry name="AstraMilitarum/ArmageddonChimeraDescription" value="Tougher, more expensive Chimera that can easily slip behind enemy lines. Its smoke launcher is improved and can target beyond the vehicle itself."/>
+	<entry name="AstraMilitarum/ArmageddonChimeraFlavor" value=""/>
+	<entry name="AstraMilitarum/APDS6aDefender" value="APDS-6a Defender"/>
+	<entry name="AstraMilitarum/APDS6aDefenderDescription" value="Improvised tank with a Laser Demolisher, specialising in cutting through tanks."/>
+	<entry name="AstraMilitarum/APDS6aDefenderFlavor" value=""/>
+	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimera" value="Armageddon Pattern Heavy Assault Chimera"/>
+	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraDescription" value=""/>
+	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraFlavor" value=""/>
 </language>
