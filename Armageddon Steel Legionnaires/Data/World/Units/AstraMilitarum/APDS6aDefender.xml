@@ -121,6 +121,7 @@
 		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
 		<trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
 		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
+		<!-- <trait name="MobileCommand"/> -->
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
 		<trait name="Transport"/>

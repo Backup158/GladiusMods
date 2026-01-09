@@ -114,7 +114,7 @@
 		</useWeapon>		
 	</actions>
 	<traits>
-		<trait name="Amphibious"/>
+		<!-- <trait name="Amphibious"/> -->
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
 		<trait name="DozerBlade" requiredUpgrade="AstraMilitarum/DozerBlade"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
