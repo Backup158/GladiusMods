@@ -18,5 +18,20 @@
 				<accuracy addMin="0.7" addMax="2.1"/>
 			</effects>
 		</modifier>
+		<!-- Steel Legion troops get the full buff -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<trait name="AstraMilitarum/ArmageddonOrks">
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy addMin="0.3" addMax="0.9"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
