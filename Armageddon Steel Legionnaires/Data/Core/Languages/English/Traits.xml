@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/ArmageddonOrks" value="Greenskin Expertise"/>
+	<entry name="AstraMilitarum/ArmageddonOrks" value="Ork Exterminators"/>
 	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Steel Legionnaires are more accurate against Orks."/>
 	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
 	<entry name="AstraMilitarum/ArmageddonDeployment" value="Armageddon Rapid Deployment"/>
@@ -16,7 +16,7 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Steel Legion Medics have discovered more efficient packing methods for first aid kits to store inside their transports."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
-	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Attacks while in Forests."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
 	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
 	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
