@@ -7,10 +7,10 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentDescription" value="Grants bonus traits when this unit disembarks from a transport."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentFlavor" value="Steel Legionnaires are renowned for their swift assaults, where they spill out from their Chimeras"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamage" value="Aggressive Deployment"/>
-	<entry name="AstraMilitarum/ArmageddonDeploymentDamageDescription" value="Increases the damage."/>
+	<!-- <entry name="AstraMilitarum/ArmageddonDeploymentDamageDescription" value="Increases the damage."/> -->
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamageFlavor" value="The Steel Legion frequently uses rapid deployment from Chimeras to strike the enemy before they can react."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReduction" value="Evasive Deployment"/>
-	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionDescription" value="Increases the invulnerable damage reduction."/>
+	<!-- <entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionDescription" value="Increases the invulnerable damage reduction."/> -->
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionFlavor" value="The Steel Legion has learned how to exit an APC swiftly yet safely while under fire."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRate" value="Armageddon Readiness"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
@@ -18,6 +18,7 @@
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
+	<!-- Trap Effects -->
 	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
 	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
 	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
@@ -27,4 +28,20 @@
 	<entry name="Crippled" value="Crippled"/>
 	<entry name="CrippledDescription" value="Reduced movement and loses health per turn."/>
 	<entry name="CrippledFlavor" value="MY LEG!"/>
+	<!-- Steel Legion Commissar -->
+	<entry name="AstraMilitarum/SteelLegionDiscipline" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDisciplineDescription" value="<string name='Actions/AstraMilitarum/SteelLegionDisciplineDescription'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDisciplineFlavor" value="<string name='Actions/AstraMilitarum/SteelLegionDisciplineFlavor'/>"/>
+	<entry name="AstraMilitarum/ArmoredFist" value="Armoured Fist"/>
+	<!-- <entry name="AstraMilitarum/ArmoredFistDescription" value=""/> -->
+	<entry name="AstraMilitarum/ArmoredFistFlavor" value="On Armageddon"/>
+	<entry name="AstraMilitarum/AuraOfCommand" value="Aura of Command"/>
+	<entry name="AstraMilitarum/AuraOfCommandDescription" value=""/>
+	<entry name="AstraMilitarum/AuraOfCommandFlavor" value=""/>
+	<entry name="AstraMilitarum/CommandArmor" value=""/>
+	<entry name="AstraMilitarum/CommandArmorDescription" value=""/>
+	<entry name="AstraMilitarum/CommandArmorFlavor" value=""/>
+	<entry name="AstraMilitarum/CombinedArms" value="Combined Arms"/>
+	<entry name="AstraMilitarum/CombinedArmsDescription" value=""/>
+	<entry name="AstraMilitarum/CombinedArmsFlavor" value=""/>
 </language>
