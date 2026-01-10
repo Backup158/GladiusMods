@@ -14,13 +14,13 @@
 					<noTrait name="Fortification"/>
 					<noTrait name="MonstrousCreature"/>
 					<noTrait name="Vehicle"/>
+					<!-- Adjacent to a vehicle -->
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<!-- <faction name="AstraMilitarum"/> -->
+						<trait name="Vehicle"/>
+					</unitsInRange>
 				</unit>
-				<!-- Adjacent to a vehicle -->
-				<unitsInRange count="1" range="1">
-					<allied/>
-					<!-- <faction name="AstraMilitarum"/> -->
-					<trait name="Vehicle"/>
-				</unitsInRange>
 			</conditions>
 			<effects>
 				<rangedDamageReduction add="0.17"/>
@@ -36,13 +36,13 @@
 					<noTrait name="Fortification"/>
 					<noTrait name="MonstrousCreature"/>
 					<noTrait name="Vehicle"/>
+					<!-- Adjacent to infantry -->
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<!--  <faction name="AstraMilitarum"/> -->
+						<trait name="Vehicle"/>
+					</unitsInRange>
 				</unit>
-				<!-- Adjacent to infantry -->
-				<unitsInRange count="1" range="1">
-					<allied/>
-					<!--  <faction name="AstraMilitarum"/> -->
-					<trait name="Vehicle"/>
-				</unitsInRange>
 			</conditions>
 			<effects>
 				<meleeDamageReduction add="0.33"/>
