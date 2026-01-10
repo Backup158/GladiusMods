@@ -236,6 +236,10 @@
 		<trait name="Hero"/>
 		<trait name="RefractorField"/>
 		<trait name="Stubborn"/>
+		<!-- Steel Legion -->
+		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<trait name="AstraMilitarum/ArmageddonDeployment"/>
+		<trait name="AstraMilitarum/ArmageddonDeploymentHealingRate" requiredUpgrade="AstraMilitarum/MediPack"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

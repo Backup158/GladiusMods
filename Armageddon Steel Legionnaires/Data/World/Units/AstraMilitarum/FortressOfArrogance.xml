@@ -192,6 +192,12 @@
 		<trait name="SuperHeavy"/>
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
+		<!-- Commissar -->
+		<trait name="Hero"/>
+		<!-- <trait name="RefractorField"/> --> <!-- 33% RDR is too much on a damn BANEBLADE -->
+		<trait name="Stubborn"/>
+		<!-- Steel Legion -->
+		<trait name="AstraMilitarum/ArmageddonOrks"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
