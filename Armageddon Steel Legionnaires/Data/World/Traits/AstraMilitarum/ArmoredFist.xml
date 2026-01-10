@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2">
+<trait category="Buff" rankMax="2" icon="Traits/SistersOfBattle/AvengingZeal">
 	<modifiers>
 		<modifier>
 			<conditions>

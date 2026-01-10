@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2">
+<trait category="Buff" rankMax="2" icon="Quests/AstraMilitarum/Chapter1">
 	<!-- Buff Infantry/Vehicles if adjacent to the opposite type -->
 	<!-- I'll let it when under other faction vehicles because that's appropriately fluffy -->
 	<!-- But buffing those allies directly doesn't feel appropriate -->
