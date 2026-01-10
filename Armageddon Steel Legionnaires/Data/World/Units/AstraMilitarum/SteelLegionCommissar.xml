@@ -127,6 +127,7 @@
 				rank="-1" 
 				rankMax="2" 
 				levelUpPriority="0.1"
+				name="AstraMilitarum/SteelLegionDiscipline"
 				icon="Actions/AuraOfDiscipline">
 			<beginTargets>
 				<selfTarget>
