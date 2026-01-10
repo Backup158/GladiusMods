@@ -9,14 +9,14 @@
 	<!-- Steel Legion Commissar -->
 	<entry name="AstraMilitarum/SteelLegionDiscipline" value="Steel Legion Discipline"/>
 	<entry name="AstraMilitarum/SteelLegionDisciplineDescription" value="Increased accuracy for infantry and vehicles. Further increased for members of the Armageddon Steel Legion."/>
-	<entry name="AstraMilitarum/SteelLegionDisciplineFlavor" value=""/>
+	<entry name="AstraMilitarum/SteelLegionDisciplineFlavor" value="<string name='Actions/AstraMilitarum/AuraOfDisciplineDescription'/>"/>
 	<entry name="AstraMilitarum/ArmoredFist" value="Armoured Fist"/>
 	<entry name="AstraMilitarum/ArmoredFistDescription" value="Increased armour and reduced upkeep for vehicles."/>
-	<entry name="AstraMilitarum/ArmoredFistFlavor" value="On Armageddon"/>
+	<entry name="AstraMilitarum/ArmoredFistFlavor" value="During the Armageddon Wars, battlefields would be scattered with debris, corpses, and shattered vehicle hulls. The Steel Legion has grown adept at scavenging scraps, and some even turn it into makeshift armour."/>
 	<entry name="AstraMilitarum/AuraOfCommand" value="Aura of Command"/>
 	<entry name="AstraMilitarum/AuraOfCommandDescription" value="Boosts morale of allied infantry and vehicles. Increased ranged damage reduction for the Commissar and any transport they are in."/>
-	<entry name="AstraMilitarum/AuraOfCommandFlavor" value=""/>
+	<entry name="AstraMilitarum/AuraOfCommandFlavor" value="Commissars lead with confidence, with their mere presence inspiring nearby troops. Inexplicably, strutting about the frontlines, exuding a feeling of invicibility, has not lead to a higher casualty rate. It's almost as if they truly are the Emperor's representative."/>
 	<entry name="AstraMilitarum/CombinedArms" value="Combined Arms"/>
 	<entry name="AstraMilitarum/CombinedArmsDescription" value="Grants damage reduction to infantry whom are adjacent to vehicles, and vice-versa. Infantry gain ranged damage reduction; vehicles, melee."/>
-	<entry name="AstraMilitarum/CombinedArmsFlavor" value=""/>
+	<entry name="AstraMilitarum/CombinedArmsFlavor" value="The Steel Legion operates best with a combination of infantry and vehicles. In their advance, infantry use tanks as cover. Symbiotically, tanks are covered by infantry, where any foe running past the tank's effective range is met by a wall of las-fire."/>
 </language>
