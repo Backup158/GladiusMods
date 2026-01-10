@@ -24,7 +24,7 @@
 				</tile>
 			</conditions>
 			<effects>
-				<attack mul="0.17"/>
+				<meleeAttacks mul="0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
