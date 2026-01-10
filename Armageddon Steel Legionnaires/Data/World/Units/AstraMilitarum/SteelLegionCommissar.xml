@@ -193,8 +193,12 @@
 		</auraOfDiscipline>
 		<!-- Elite: Combined Arms -->
 		<!-- Boost Infantry and Vehicles -->
-		<auraOfDiscipline passive="1" elite="1" levelUpPriority="0.1"
-							name="AstraMilitarum/CombinedArms">
+		<auraOfDiscipline passive="1" 
+				elite="1" 
+				rank="-1"
+				rankMax="0"
+				levelUpPriority="1"
+				name="AstraMilitarum/CombinedArms">
 			<beginTargets>
 				<selfTarget>
 					<areas>
