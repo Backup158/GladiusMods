@@ -14,17 +14,70 @@ No custom models. Chances of me making them are slim (because I'm lazy and don't
 [tr]
 [td] T1 Chimera [/td]
 [td] [list]
-[*]Steel Legionnaire
-The Steel Legion are mechanised infantry and are rarely seen without their Chimeras. 
+[*] Steel Legionnaire
+[*] Steel Legion Commissar
+[/list]
+The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
+[/td]
+[/tr]
+[tr]
+[td] T2 Hab Blocks [/td]
+[td] [list]
+[*] Steel Legion Purgation Squad
+[/list]
+[/td]
+[/tr]
+[tr]
+[tr]
+[td] T3 Agronomic Surge [/td]
+[td] [list]
+[*] Armageddon Ork Hunters
+[/list]
+[/td]
+[/tr]
+[td] T3 Awaken the Machine [/td]
+[td] [list]
+[*] [i]Evasive Deployment[/i]: 17% Invulnerable Damage Reduction on disembark
+[*] APDS-6a Defender
+[/list]
+[/td]
+[/tr]
+[tr]
+[td] T3 Medi-Pack [/td]
+[td] [list]
+[*] [i]Armageddon Readiness[/i]: +50% Healing inside transports
+[/list]
+[/td]
+[/tr]
+[tr]
+[td] T4 Tempestus Scions [/td]
+[td] [list]
+[*] Steel Legion Storm Troopers
+[/list]
+[/td]
+[/tr]
+[tr]
+[td] T5 Basilisk [/td]
+[td] [list]
+[*] Armageddon Pattern Basilisk
+[/list]
+[/td]
+[/tr]
+[tr]
+[td] T5 Extra Infantry Armour [/td]
+[td] [list]
+[*] Armageddon Heavy Assault Chimera
+[/list]
+[/td]
+[/tr]
+[tr]
+[td] T10 Baneblade [/td]
+[td] [list]
+[*] The Fortress of Arrogance
 [/list]
 [/td]
 [/tr]
 [/table]
-- T1 Chimera ==> Steel Legionnaire
-The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
-- T3 Awaken the Machine ==> [i]Evasive Deployment[/i]: 17% Invulnerable Damage Reduction on disembark
-- T3 Medi-Pack ==> [i]Armageddon Readiness[/i]: +50% Healing inside transports
-- T4 Tempestus Scions ==> Steel Legion Storm Troopers
 
 [h1]Further details[/h1]
 Assault Pack DLC, [b]Hard Requirement[/b]: Chimera
