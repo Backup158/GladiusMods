@@ -85,6 +85,7 @@
 				<influenceCost base="210.0"/> <!-- Tank Commander is 120 | %influenceCost base tier=8 factor=1.5 -->
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
+				<cargoSlots base="1"/>
 			</effects>
 		</modifier>
 	</modifiers>
@@ -203,8 +204,10 @@
 		<trait name="Stubborn"/>
 		<!-- Steel Legion -->
 		<trait name="AstraMilitarum/ArmageddonOrks"/>
-		<!-- Fortress of Arrogance specific -->
+		<!-- Fortress of Arrogance -->
 		<trait name="Unique"/>
+		<trait name="Transport"/>
+		<trait name="MobileCommand"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
