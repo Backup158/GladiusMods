@@ -1,0 +1,22 @@
+Adds [b]Steel Legionnaires[/b] (Guardsman alternative) and [b]Steel Legion Storm Troopers[/b] (Tempestus Scions alternative) to the Astra Militarum. 
+Steel Legion troopers are experts in rapid deployment from APCs, gaining boosts upon disembark ([i]Armageddon Rapid Deployment[/i]: +1 Movement for 2 turns, +17% damage for 1 turn). Unlocks more boosts through the research tree.
+Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
+Years of fighting Orks on Armageddon has made them more effective against their nemesis ([i]Ork Hunter[/i]: +17% damage vs Orks).
+
+No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
+
+[h1]Research Unlocks[/h1]
+- T1 Chimera ==> Steel Legionnaire
+The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
+- T3 Awaken the Machine ==> [i]Evasive Deployment[/i]: 17% Invulnerable Damage Reduction on disembark
+- T3 Medi-Pack ==> [i]Armageddon Readiness[/i]: +50% Healing inside transports
+- T4 Tempestus Scions ==> Steel Legion Storm Troopers
+
+[h1]Further details[/h1]
+Assault Pack DLC, [b]Hard Requirement[/b]: Chimera
+Reinforcements DLC: Tempestus Scions
+
+Main version is based on squad sizes in vanilla Gladius.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349345480]Extra addon[/url] is based on Extra Militarum and Sneaky Stormtroopers.
+Too Many Voices integrated. Uses Guardsman lines
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386427212]Gladius+ patch[/url]
