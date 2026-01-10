@@ -10,7 +10,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<armor addMin="0" addMax="2"/>
+				<armor addMin="0" addMax="1"/>
 				<oreUpkeep mulMin="-0.15" mulMax="-0.45"/>
 			</effects>
 		</modifier>
