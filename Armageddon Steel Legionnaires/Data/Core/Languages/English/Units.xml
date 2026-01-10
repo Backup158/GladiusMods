@@ -29,4 +29,11 @@
 	<entry name="AstraMilitarum/ArmageddonBasilisk" value="Armageddon Pattern Basilisk"/>
 	<entry name="AstraMilitarum/ArmageddonBasiliskDescription" value="Slower but tougher Basilisk with a closed top. Better suited for defence."/>
 	<entry name="AstraMilitarum/ArmageddonBasiliskFlavor" value="Armageddon, true to its name, is an inhospitable wasteland. As such, vehicles designed to operate on it and other similar planets are enclosed to protect the crew."/>
+	<!-- Heroes -->
+	<entry name="AstraMilitarum/FortressOfArrogance" value="Fortress of Arrogance"/>
+	<entry name="AstraMilitarum/FortressOfArroganceDescription" value=""/>
+	<entry name="AstraMilitarum/FortressOfArroganceFlavor" value=""/>
+	<entry name="AstraMilitarum/SteelLegionCommissar" value="Steel Legion Commissar"/>
+	<entry name="AstraMilitarum/SteelLegionCommissarDescription" value=""/>
+	<entry name="AstraMilitarum/SteelLegionCommissarFlavor" value=""/>
 </language>
