@@ -19,14 +19,14 @@
 	<!-- Vehicles -->
 	<entry name="AstraMilitarum/ArmageddonChimera" value="Armageddon Pattern Chimera"/>
 	<entry name="AstraMilitarum/ArmageddonChimeraDescription" value="Tougher, more expensive Chimera that can easily slip behind enemy lines. Its smoke launcher is improved and can target beyond the vehicle itself. Its heavier armour means it is unable to traverse amphibiously."/>
-	<entry name="AstraMilitarum/ArmageddonChimeraFlavor" value=""/>
+	<entry name="AstraMilitarum/ArmageddonChimeraFlavor" value="The factories of Armageddon work endlessly to arm the forces of the Imperium. With this base of production, the swarms of xenos knocking on Armageddon's door naturally means those factories would be put to work in its defence. The constant waves of enemies have spurred innovation, leading to customised designs for their vehicles. Tying into the Steel Legion's doctrine of Mechanised Infantry, they have custom Chimeras specialising in tactical insertions."/>
 	<entry name="AstraMilitarum/APDS6aDefender" value="APDS-6a Defender"/>
 	<entry name="AstraMilitarum/APDS6aDefenderDescription" value="Improvised tank with a Laser Destroyer, specialising in cutting through tanks. Its powerful weapon causes self damage."/>
-	<entry name="AstraMilitarum/APDS6aDefenderFlavor" value=""/>
+	<entry name="AstraMilitarum/APDS6aDefenderFlavor" value="Armageddon faces a constant barrage of attacks from xenos and heretics. Despite being a major production center, sometimes building a full Leman Russ Main Battle Tank will complete too late. Armageddon's PDF have improvised in these scenarios, by attaching Laser Destroyers onto Chimeras and welding on additional armour."/>
 	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimera" value="Armageddon Pattern Heavy Assault Chimera"/>
 	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraDescription" value="Heavily armed troop transport that rapidly deploys infantry behind enemy lines. It uses the standard Multi-laser with a hull-mounted Heavy Flamer and a manned Hotshot Lasgun Array, and additional Heavy Bolters if researched."/>
-	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraFlavor" value=""/>
+	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraFlavor" value="Steel Legionnaires are well-known for using Chimeras to exploit gaps in enemy lines, widening the gap with rapidly deployed infantry. With heavyily armed enemy forces, the average Chimera can be easily flattened like an annoying insect. However, a gap is a gap, and if it takes a stronger fist to punch through, the Steel Legion will deliver."/>
 	<entry name="AstraMilitarum/ArmageddonBasilisk" value="Armageddon Pattern Basilisk"/>
 	<entry name="AstraMilitarum/ArmageddonBasiliskDescription" value="Slower but tougher Basilisk with a closed top. Better suited for defence."/>
-	<entry name="AstraMilitarum/ArmageddonBasiliskFlavor" value=""/>
+	<entry name="AstraMilitarum/ArmageddonBasiliskFlavor" value="Armageddon, true to its name, is an inhospitable wasteland. As such, vehicles designed to operate on it and other similar planets are enclosed to protect the crew."/>
 </language>
