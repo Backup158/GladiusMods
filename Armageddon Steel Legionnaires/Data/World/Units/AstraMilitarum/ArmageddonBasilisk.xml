@@ -127,4 +127,12 @@
 
 		<trait name="AstraMilitarum/ArmageddonOrks"/>
 	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Ability_Smoke" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Complete" soundCount="1"/>
+	</responses>
 </unit>

@@ -193,6 +193,7 @@
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
 	</traits>
+	<!-- Too Many Voices compatibility -->
 	<responses>
 		<action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Ability_Smoke" soundCount="1"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
