@@ -76,10 +76,15 @@
 				<hitpointsMax base="144.0"/> <!-- %hitpointsMax base armor=14/13/12 wounds=9 -->
 				<oreUpkeep base="16.0"/> <!-- %oreUpkeep base tier=12 factor=1 -->
 				<oreCost base="320.0"/> <!-- %oreCost base tier=12 factor=1 -->
-				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<moraleMax base="12"/> <!-- Baneblade is 10, Lord Commissar is 12 | %moraleMax base leadership=8 -->
 				<movementMax base="3"/>
-				<productionCost base="72.0"/> <!-- %productionCost base tier=12 factor=1 -->
+				<productionCost base="72.0"/> <!-- Baneblade is 72. I won't change this since you don't spam hero buildings, and there's a limit anyways | %productionCost base tier=12 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+				<!-- Making it a hero -->
+				<influenceUpkeep base="9.0"/> <!-- Tank Commander is 6 | %influenceUpkeep base tier=8 factor=1.5 -->
+				<influenceCost base="210.0"/> <!-- Tank Commander is 120 | %influenceCost base tier=8 factor=1.5 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
 			</effects>
 		</modifier>
 	</modifiers>
@@ -198,6 +203,8 @@
 		<trait name="Stubborn"/>
 		<!-- Steel Legion -->
 		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<!-- Fortress of Arrogance specific -->
+		<trait name="Unique"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
