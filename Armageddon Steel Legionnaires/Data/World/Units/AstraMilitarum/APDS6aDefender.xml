@@ -11,7 +11,7 @@
 				uvAnimated="1"/>
 	</model> <!-- from 1.3 scale -->
 	<weapons>
-		<weapon name="LaserDemolisher">
+		<weapon name="LaserDestroyer">
 			<model>
 				<beamWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="1.0"/>
 			</model>
