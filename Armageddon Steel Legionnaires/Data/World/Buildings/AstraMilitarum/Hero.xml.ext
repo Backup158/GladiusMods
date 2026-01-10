@@ -2,6 +2,5 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/SteelLegionCommissar" requiredUpgrade="AstraMilitarum/Chimera"/>
-		<produceUnit unit="AstraMilitarum/FortressOfArrogance" requiredUpgrade="AstraMilitarum/Baneblade"/>
 	</actions>
 </building>
