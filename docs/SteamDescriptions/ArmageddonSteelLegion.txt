@@ -1,11 +1,26 @@
 Adds various infantry and vehicles of the Armageddon Steel Legion to the Astra Militarum. 
 Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from APCs, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree.
 
+[table]
+[tr]
+[th]Units Added[/th]
+[/tr]
+[tr]
 [b]Steel Legionnaires[/b] (Guardsman alternative) are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
+[/tr]
+[tr]
 [b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests[spoiler]([u]Purging Flames[u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests)[/spoiler]. 
+[/tr]
+[tr]
 [b]Armageddon Pattern Chimeras[/b] are tougher and can more easily slip behind enemy lines[spoiler](Ignores enemy Zone of Control)[/spoiler]. As such, they cost a bit more to produce.
-[b]
+[/tr]
+[tr]
+[b]Armageddon Ork Hunters[/b] are close-ranged infantry trained to fight in forests and kill Orks. They can plant anti-infantry traps and be armed with Melta Bombs after further research. Years of battling with the Greenskins have made them not so different from their foe, granting them Ork-like traits and the ability to use Ork weapons.
+[/tr]
+[tr]
 [b]Steel Legion Storm Troopers[/b] (Tempestus Scions alternative)
+[/tr]
+[/table]
 
 No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
 
