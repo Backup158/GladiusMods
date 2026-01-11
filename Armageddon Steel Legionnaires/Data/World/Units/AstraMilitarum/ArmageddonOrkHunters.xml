@@ -43,7 +43,8 @@
 		</weapon>
 		<!-- Grenades -->
 		<!-- bone is from the body, where the grenades spawn from -->
-		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+		<!-- Instead of frags they use Stikkbombs -->
+		<weapon name="Stikkbomb" slotName="FragGrenade" enabled="0">
 			<model>
 				<grenadeWeapon muzzleBone="Bone006"/>
 			</model>
