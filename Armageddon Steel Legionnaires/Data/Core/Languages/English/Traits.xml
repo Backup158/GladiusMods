@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/ArmageddonOrks" value="Member of the Armageddon Steel Legion"/>
-	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Steel Legionnaires are more accurate against Orks."/>
-	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
+	<entry name="AstraMilitarum/SteelLegion" value="Member of the Armageddon Steel Legion"/>
+	<entry name="AstraMilitarum/SteelLegionDescription" value="Steel Legionnaires are more accurate against Orks."/>
+	<entry name="AstraMilitarum/SteelLegionFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
 	<entry name="AstraMilitarum/ArmageddonDeployment" value="Armageddon Rapid Deployment"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentDescription" value="Grants bonus traits when this unit disembarks from a transport."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentFlavor" value="Steel Legionnaires are renowned for their swift assaults, where they spill out from their Chimeras"/>
