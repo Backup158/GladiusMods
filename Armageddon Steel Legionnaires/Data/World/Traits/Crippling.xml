@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff" visibilityCategory="Weapon">
 	<modifiers>
+	<!--
 		<modifier>
 			<conditions>
 				<encounter>
@@ -13,6 +14,21 @@
 			</conditions>
 			<effects>
 				<attacks add="4"/>
+			</effects>
+		</modifier>
+		-->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent match="Any">
+						<trait name="Fortification"/>
+						<trait name="Vehicle"/>
+						<trait name="MonstrousCreature"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="-0.9"/>
 			</effects>
 		</modifier>
 	</modifiers>
