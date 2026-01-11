@@ -12,7 +12,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<damage mulMin="0.8" mulMax="2.4"/>
+				<damage mulMin="0.08" mulMax="0.24"/>
 				<!-- Less RDR because they're on the attack -->
 				<rangedDamageReduction addMin="-0.33" addMax="-0.11"/>
 			</effects>
@@ -29,7 +29,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<damage mulMin="0.3" mulMax="0.9"/>
+				<damage mulMin="0.03" mulMax="0.09"/>
 			</effects>
 		</modifier>
 	</modifiers>

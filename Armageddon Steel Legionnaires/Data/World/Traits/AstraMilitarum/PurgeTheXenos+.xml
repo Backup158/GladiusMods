@@ -12,8 +12,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<damage mulMin="0.8" mulMax="2.4"/>
-				<attacks mulMin="0.8" mulMax="2.4"/>
+				<damage mulMin="0.08" mulMax="0.24"/>
+				<attacks mulMin="0.08" mulMax="0.24"/>
 			</effects>
 		</modifier>
 		<!-- Steel Legion troops more buffs -->
@@ -28,8 +28,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<damage mulMin="0.3" mulMax="0.9"/>
-				<attacks mulMin="0.3" mulMax="0.9"/>
+				<damage mulMin="0.03" mulMax="0.09"/>
+				<attacks mulMin="0.03" mulMax="0.09"/>
 			</effects>
 		</modifier>
 	</modifiers>
