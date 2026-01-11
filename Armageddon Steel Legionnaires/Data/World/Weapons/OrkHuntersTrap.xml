@@ -13,7 +13,7 @@
 		</modifier>
 	</modifiers>
 	<traits>
-		<trait name="Poisoned"/>
+		<trait name="Poisoned" rank="2"/>
 		<trait name="IgnoresCover"/>
 		<trait name="Crippling"/>
 	</traits>
