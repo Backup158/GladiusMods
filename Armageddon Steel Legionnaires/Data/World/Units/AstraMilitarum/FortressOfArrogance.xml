@@ -317,6 +317,21 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<!-- Burn away Orkoid Fungus -->
+						<area affects="Tile" radius="2">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<tile>
+                                            <feature name="OrkoidFungus"/>
+                                        </tile>
+									</conditions>
+									<effects>
+										<removeFeature name="OrkoidFungus"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</selfTarget>
 			</beginTargets>
