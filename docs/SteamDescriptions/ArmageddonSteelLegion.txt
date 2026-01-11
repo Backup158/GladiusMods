@@ -18,9 +18,9 @@ No custom models. Chances of me making them are slim (because I'm lazy and don't
 [tr]
 [td] T1 Chimera [/td]
 [td] [list]
-[*] Steel Legionnaire
-[*] Steel Legion Commissar
-[*] Armageddon Pattern Chimera
+[*] [b]Steel Legionnaire[/b]: Imperial Barracks
+[*] [b]Armageddon Pattern Chimera[/b]: Manufactorum
+[*] [b]Steel Legion Commissar[/b]: Shrine of the Aquila
 [/list]
 The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
 [/td]
@@ -28,7 +28,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T2 Hab Blocks [/td]
 [td] [list]
-[*] Steel Legion Purgation Squad
+[*] [b]Steel Legion Purgation Squad[/b]: Imperial Barracks
 [/list]
 [/td]
 [/tr]
@@ -36,14 +36,14 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T3 Agronomic Surge [/td]
 [td] [list]
-[*] Armageddon Ork Hunters
+[*] [b]Armageddon Ork Hunters[/b]: Imperial Barracks
 [/list]
 [/td]
 [/tr]
 [td] T3 Awaken the Machine [/td]
 [td] [list]
 [*] [i]Evasive Deployment[/i]: 17% Invulnerable Damage Reduction on disembark
-[*] APDS-6a Defender
+[*] [b]APDS-6a Defender[/b]: Manufactorum
 [/list]
 [/td]
 [/tr]
@@ -57,21 +57,21 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T4 Tempestus Scions [/td]
 [td] [list]
-[*] Steel Legion Storm Troopers
+[*] [b]Steel Legion Storm Troopers[/b]: Imperial Barracks
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T5 Basilisk [/td]
 [td] [list]
-[*] Armageddon Pattern Basilisk
+[*] [b]Armageddon Pattern Basilisk[/b]: Manufactorum
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T5 Extra Infantry Armour [/td]
 [td] [list]
-[*] Armageddon Heavy Assault Chimera
+[*] [b]Armageddon Heavy Assault Chimera[/b]: Manufactorum
 [/list]
 [/td]
 [/tr]
@@ -85,7 +85,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T10 Baneblade [/td]
 [td] [list]
-[*] The Fortress of Arrogance
+[*] [b]The Fortress of Arrogance[/b]: Shrine of the Aquila
 [/list]
 [/td]
 [/tr]
