@@ -333,7 +333,7 @@
 		</gunnersKillOnSight>
 		<!-- Elite: Duel of Honour -->
 		<!-- Target enemy super-heavy or hero -->
-		<genericUnitAbility	cooldown="5"
+		<genericUnitAbility	cooldown="10"
 				levelUpPriority="0.01"
 				rank="-1"
 				elite="1"
