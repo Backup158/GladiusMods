@@ -239,6 +239,11 @@
 			</model>
 			<beginTargets>
 				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
@@ -352,6 +357,11 @@
 			</conditions>
 			<beginTargets>
 				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
