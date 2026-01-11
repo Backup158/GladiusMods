@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/InstantDeath" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damageTaken mulMin="0.11" mulMax="0.33"/>
+			</effects>
+		</modifier>
+		<!-- Further if Super-Heavy -->
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="SuperHeavy"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mulMin="0.06" mulMax="0.18"/>
+			</effects>
+		</modifier>
+		<!-- Further if Ork -->
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="Hero"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mulMin="0.06" mulMax="0.18"/>
+			</effects>
+		</modifier>
+		<!-- Further if attacked by Steel Legion -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="AstraMilitarum/ArmageddonOrks"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<rangedDamageReduction mulMin="-0.11" mulMax="-0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -26,4 +26,7 @@
 	<entry name="AstraMilitarum/PurgeTheXenos" value="<string name='Traits/AstraMilitarum/PurgeTheXenos'/>"/>
 	<entry name="AstraMilitarum/PurgeTheXenosDescription" value="<string name='Traits/AstraMilitarum/PurgeTheXenosDescription'/> Burns away Orkoid Fungus within 2 tiles."/>
 	<entry name="AstraMilitarum/PurgeTheXenosFlavor" value="<string name='Traits/AstraMilitarum/PurgeTheXenosFlavor'/>"/>
+	<entry name="AstraMilitarum/FoABringItDown" value="<string name='Traits/FoABringItDown'/>"/>
+	<entry name="AstraMilitarum/FoABringItDownDescription" value="Target an enemy unit. <string name='Traits/FoABringItDown'/>"/>
+	<entry name="AstraMilitarum/FoABringItDownFlavor" value="<string name='Traits/FoABringItDownFlavor'/>"/>
 </language>

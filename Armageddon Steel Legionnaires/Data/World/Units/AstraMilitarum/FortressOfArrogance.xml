@@ -223,48 +223,43 @@
 				</selfTarget>
 			</beginTargets>
 		</auraOfDiscipline>
-		<!-- Bring It Down+ -->
-		<!-- Debuff enemy vehicle/hero. Increased debuff if Ork. Increased debuff if Superheavy. -->
-		<gunnersKillOnSight	cooldown="3"
+		<!-- Bring It Down (Targeted) -->
+		<!-- Debuff enemy vehicle/hero. Increased debuff if Ork. Increased debuff if Super-heavy. -->
+		<genericUnitAbility	cooldown="5"
 				levelUpPriority="0.15"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
 				consumedActionPoints="0" consumedMovement="0"
-				shoutString="Actions/GunnersKillOnSight"
-				name="AstraMilitarum/ArmoredFist"
-				icon="Traits/SistersOfBattle/AvengingZeal">
+				shoutString="Actions/BringItDown"
+				name="AstraMilitarum/FoABringItDown"
+				icon="Quests/AstraMilitarum/Chapter4">
 			<model>
-				<!--
-				<action animation="Units/AstraMilitarum/TankCommanderAbility"
-						bone="Bone016"
-						sound="Actions/AstraMilitarumBuff"/>
-				-->
-				<action bone="Hull"
-						sound="Actions/AstraMilitarumBuff"/>
+				<action sound="Actions/AstraMilitarumBuff"/>
 			</model>
 			<beginTargets>
-				<selfTarget>
+				<target>
 					<areas>
-						<area affects="Unit" radius="1">
+						<area affects="Unit" radius="2">
 							<modifiers>
 								<modifier>
 									<conditions>
 										<unit>
-											<allied/>
-											<trait name="Tank"/>
+											<enemy/>
+											<noTrait name="City"/>
+											<noTrait name="Fortification"/>
 										</unit>
 									</conditions>
 									<effects>
-										<addTrait duration="1" name="GunnersKillOnSight"/>
+										<addTrait duration="5" name="FoABringItDown"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
+				</target>
 			</beginTargets>
-		</gunnersKillOnSight>
+		</genericUnitAbility>
 		<!-- Purge the Xenos -->
 		<!-- Clear enemies and fungus -->
 		<gunnersKillOnSight	cooldown="5"
