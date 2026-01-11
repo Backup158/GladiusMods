@@ -15,5 +15,6 @@
 	<traits>
 		<trait name="Poisoned"/>
 		<trait name="IgnoresCover"/>
+		<trait name="Crippling"/>
 	</traits>
 </weapon>
