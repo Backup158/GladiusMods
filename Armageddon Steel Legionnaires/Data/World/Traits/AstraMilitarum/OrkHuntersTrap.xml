@@ -19,7 +19,7 @@
 		</modifier>
 	</modifiers>
 	<onTileEnteredModifiers>
-		<!-- Trap goes off and damages -->
+		<!-- Trap goes off for infantry and vehicles -->
 		<modifier>
 			<conditions>
 				<unit>
@@ -27,11 +27,10 @@
 				</unit>
 			</conditions>
 			<effects>
-				<weaponDamage weapon="OrkHuntersTrap"/>
 				<removeFeature name="OrkHuntersTrap"/>
 			</effects>
 		</modifier>
-		<!-- Cripples infantry -->
+		<!-- Cripples and damages infantry -->
 		<modifier>
 			<conditions>
 				<unit>
@@ -42,6 +41,7 @@
 				</unit>
 			</conditions>
 			<effects>
+				<weaponDamage weapon="OrkHuntersTrap"/>
 				<addTrait name="Crippled" duration="2"/>
 			</effects>
 		</modifier>
