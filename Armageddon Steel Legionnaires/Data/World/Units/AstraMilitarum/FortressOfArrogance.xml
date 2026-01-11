@@ -92,7 +92,7 @@
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseVehiclesScore base="1.0"/>
+				<increaseHeroesScore base="1.0"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>
@@ -240,7 +240,8 @@
 						bone="Bone016"
 						sound="Actions/AstraMilitarumBuff"/>
 				-->
-				<action sound="Actions/AstraMilitarumBuff"/>
+				<action bone="Hull"
+						sound="Actions/AstraMilitarumBuff"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
@@ -281,7 +282,8 @@
 						bone="Bone016"
 						sound="Actions/AstraMilitarumBuff"/>
 				-->
-				<action sound="Weapons/Flamer" soundCount="3"/>
+				<action bone="Hull"
+						sound="Weapons/Flamer" soundCount="3"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
@@ -315,24 +317,15 @@
 								</modifier>
 							</modifiers>
 						</area>
-						<!-- Burn away Orkoid Fungus -->
-						<area affects="tile" radius="2">
-							<modifiers>
-								<modifier>
-									<effects>
-										<removeFeature name="OrkoidFungus"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
 					</areas>
 				</selfTarget>
 			</beginTargets>
 		</gunnersKillOnSight>
 		<!-- Elite: Duel of Honour -->
-		<genericUnitAbility
-				>
-		</genericUnitAbility>
+		
+		<!-- Hero abilities -->
+		<levelUp/>
+		<shop/>
 	</actions>
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
