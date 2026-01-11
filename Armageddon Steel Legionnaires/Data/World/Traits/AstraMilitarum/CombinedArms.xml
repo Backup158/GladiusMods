@@ -40,7 +40,10 @@
 					<unitsInRange count="1" range="1">
 						<allied/>
 						<!--  <faction name="AstraMilitarum"/> -->
-						<trait name="Vehicle"/>
+						<noTrait name="City"/>
+						<noTrait name="Fortification"/>
+						<noTrait name="MonstrousCreature"/>
+						<noTrait name="Vehicle"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
