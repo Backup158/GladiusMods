@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Actions/AstraMilitarum/DuelOfHonor">
+<trait category="Debuff" icon="Actions/AstraMilitarum/DuelOfHonour">
 	<!-- On Death -->
 	<onUnitDisappeared>
 		<area affects="Unit" radius="4">

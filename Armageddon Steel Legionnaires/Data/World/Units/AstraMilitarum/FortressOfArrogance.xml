@@ -341,7 +341,7 @@
 				requiredActionPoints="1" requiredMovement="0"
 				consumedActionPoints="0" consumedMovement="0"
 				shoutString="Actions/BringItDown"
-				name="AstraMilitarum/DuelOfHonor">
+				name="AstraMilitarum/DuelOfHonour">
 			<model>
 				<action sound="Weapons/Chainsword" soundCount="3"/>
 			</model>
@@ -369,8 +369,8 @@
 										</unit>
 									</conditions>
 									<effects>
-										<addTrait duration="4" name="DuelOfHonor"/>
-										<addTrait duration="1" name="DuelOfHonorShield"/>
+										<addTrait duration="4" name="DuelOfHonour"/>
+										<addTrait duration="1" name="DuelOfHonourShield"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -384,8 +384,8 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait duration="4" name="DuelOfHonor"/>
-										<addTrait duration="1" name="DuelOfHonorShield"/>
+										<addTrait duration="4" name="DuelOfHonour"/>
+										<addTrait duration="1" name="DuelOfHonourShield"/>
 									</effects>
 								</modifier>
 							</modifiers>
