@@ -69,11 +69,13 @@
 		</modifier>
 		<!-- Massively reduced damage from unit that it isn't dueling -->
 		<modifier>
-			<encounter>
-				<opponent>
-					<noTrait name="DuelOfHonour"/>
-				</opponent>
-			</encounter>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noTrait name="DuelOfHonour"/>
+					</opponent>
+				</encounter>
+			</conditions>
 			<effects>
 				<damageTaken mul="-0.99"/>
 			</effects>
