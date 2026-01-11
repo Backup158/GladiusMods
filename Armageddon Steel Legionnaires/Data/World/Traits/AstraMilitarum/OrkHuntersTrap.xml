@@ -38,6 +38,7 @@
 					<enemy/> 
 					<noTrait name="MonstrousCreature"/>
 					<noTrait name="Vehicle"/>
+					<noTrait name="Crippled"/> <!-- It was double applying for some reason-->
 				</unit>
 			</conditions>
 			<effects>
