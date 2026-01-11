@@ -5,7 +5,7 @@
 		<vegetation material="Terrain/Vegetation" depthMaterial="Terrain/VegetationDepth" effectBlueprint="Effects/WireWeedSpores" effectEmitterBlueprint="Effects/WireWeedSporesEmitter"/>
 	</model>
 	<traits>
-		<trait name="OrkHunterTrap"/>
+		<trait name="AstraMilitarum/OrkHuntersTrap"/>
 	</traits>
 	<vegetation>
 		<!-- <trees clusterSizeMin="10" clusterSizeMax="20" scaleMin="0.25" scaleMax="0.75"> -->
