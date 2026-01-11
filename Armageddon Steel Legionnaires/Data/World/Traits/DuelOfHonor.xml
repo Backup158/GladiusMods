@@ -28,6 +28,22 @@
 				</modifier>
 			</modifiers>
 		</area>
+		<!-- Remove duel from the other unit -->
+		<area affects="Unit" radius="999">
+			<modifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<enemy/>
+							<trait name="DuelOfHonour"/>
+						</unit>
+					</conditions>
+					<effects>
+						<removeTrait name="DuelOfHonour"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
 	</onUnitDisappeared>
 	<modifiers>
 		<!-- Massively reduced damage from unit that it isn't dueling -->
