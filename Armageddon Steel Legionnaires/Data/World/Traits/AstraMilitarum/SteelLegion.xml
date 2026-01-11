@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/AstraMilitarum/ArmageddonOrks">
+<trait alwaysVisible="1" category="Buff" icon="Units/AstraMilitarum/SteelLegionnaire">
 <!--<trait alwaysVisible="1" category="Buff"> -->
 	<modifiers>
 		<modifier>

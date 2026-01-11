@@ -24,7 +24,7 @@
 					<faction name="AstraMilitarum"/>
 					<noTrait name="Fortification"/>
 					<noTrait name="MonstrousCreature"/>
-					<trait name="AstraMilitarum/ArmageddonOrks"/>
+					<trait name="AstraMilitarum/SteelLegion"/>
 				</unit>
 			</conditions>
 			<effects>

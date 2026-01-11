@@ -125,7 +125,7 @@
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
 
-		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

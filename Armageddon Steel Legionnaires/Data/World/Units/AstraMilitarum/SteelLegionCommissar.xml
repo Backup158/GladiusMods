@@ -238,7 +238,7 @@
 		<trait name="RefractorField"/>
 		<trait name="Stubborn"/>
 		<!-- Steel Legion -->
-		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
 		<trait name="AstraMilitarum/ArmageddonDeployment"/>
 		<trait name="AstraMilitarum/ArmageddonDeploymentHealingRate" requiredUpgrade="AstraMilitarum/MediPack"/>
 	</traits>

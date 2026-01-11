@@ -33,7 +33,7 @@
 			<conditions>
 				<encounter>
 					<opponent>
-						<trait name="AstraMilitarum/ArmageddonOrks"/>
+						<trait name="AstraMilitarum/SteelLegion"/>
 					</opponent>
 				</encounter>
 			</conditions>

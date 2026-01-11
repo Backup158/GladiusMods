@@ -412,7 +412,7 @@
 		<!-- <trait name="RefractorField"/> --> <!-- 33% RDR is too much on a damn BANEBLADE -->
 		<trait name="Stubborn"/>
 		<!-- Steel Legion -->
-		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
 		<!-- Fortress of Arrogance -->
 		<trait name="Unique"/>
 		<trait name="Transport"/>

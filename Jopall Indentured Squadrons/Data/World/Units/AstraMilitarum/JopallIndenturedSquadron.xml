@@ -233,7 +233,7 @@
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
         <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
-        <trait name="AstraMilitarum/ArmageddonOrks"/>
+        <trait name="AstraMilitarum/SteelLegion"/>
         <trait name="AstraMilitarum/JopallCity"/>
         <trait name="AstraMilitarum/JopallGlory"/>
 		<trait name="Infiltrate"/>

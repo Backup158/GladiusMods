@@ -27,7 +27,7 @@
 					<noTrait name="Fortification"/>
 					<noTrait name="MonstrousCreature"/>
 					<!-- <noTrait name="Vehicle"/> -->
-					<trait name="AstraMilitarum/ArmageddonOrks"/>
+					<trait name="AstraMilitarum/SteelLegion"/>
 				</unit>
 			</conditions>
 			<effects>
@@ -59,7 +59,7 @@
 					<noTrait name="Fortification"/>
 					<noTrait name="MonstrousCreature"/>
 					<noTrait name="Vehicle"/>
-					<trait name="AstraMilitarum/ArmageddonOrks"/>
+					<trait name="AstraMilitarum/SteelLegion"/>
 				</unit>
 			</conditions>
 			<effects>

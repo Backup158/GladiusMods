@@ -126,7 +126,7 @@
 		<trait name="Vehicle"/>
 		<trait name="Transport"/>
 		<!-- What makes it different -->
-		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
 		<trait name="GetsHot"/> <!-- Laser Destroyer cannons are basically forced onto it and are very powerful -->
 	</traits>
 	<!-- Too Many Voices compatibility -->

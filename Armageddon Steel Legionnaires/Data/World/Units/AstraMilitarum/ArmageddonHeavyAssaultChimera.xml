@@ -134,7 +134,7 @@
 		<!-- What makes it better -->
 		<trait name="HitAndRun"/>
 		<trait name="AssaultVehicle"/>
-		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

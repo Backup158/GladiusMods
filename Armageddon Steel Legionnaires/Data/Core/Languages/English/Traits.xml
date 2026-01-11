@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/ArmageddonOrks" value="Ork Exterminators"/>
+	<entry name="AstraMilitarum/ArmageddonOrks" value="Member of the Armageddon Steel Legion"/>
 	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Steel Legionnaires are more accurate against Orks."/>
 	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
 	<entry name="AstraMilitarum/ArmageddonDeployment" value="Armageddon Rapid Deployment"/>
