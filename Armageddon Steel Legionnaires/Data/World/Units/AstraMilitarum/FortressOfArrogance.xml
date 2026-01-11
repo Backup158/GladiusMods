@@ -332,7 +332,62 @@
 			</beginTargets>
 		</gunnersKillOnSight>
 		<!-- Elite: Duel of Honour -->
-		
+		<!-- Target enemy super-heavy or hero -->
+		<genericUnitAbility	cooldown="5"
+				levelUpPriority="0.01"
+				rank="-1"
+				elite="1"
+				rankMax="0"
+				requiredActionPoints="1" requiredMovement="0"
+				consumedActionPoints="0" consumedMovement="0"
+				shoutString="Actions/BringItDown"
+				name="AstraMilitarum/DuelOfHonor">
+			<model>
+				<action sound="Weapons/Chainsword" soundCount="3"/>
+			</model>
+			<beginTargets>
+				<target>
+					<areas>
+						<area affects="Unit" radius="2">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+											<noTrait name="City"/>
+											<noTrait name="Fortification"/>
+										</unit>
+										<unit match="Any">
+											<trait name="SuperHeavy"/>
+											<trait name="Hero"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait name="DuelOfHonor"/>
+										<addTrait duration="1" name="DuelOfHonorShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<!-- Give effect to self -->
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="DuelOfHonor"/>
+										<addTrait duration="1" name="DuelOfHonorShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- Hero abilities -->
 		<levelUp/>
 		<shop/>

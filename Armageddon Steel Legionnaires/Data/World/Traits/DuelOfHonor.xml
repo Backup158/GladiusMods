@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/AstraMilitarum/DuelOfHonor">
+	<!-- On Death -->
+	<onUnitDisappearedModifiers>
+		<area affects="Unit" radius="4">
+			<modifiers>
+				<!-- Morale nuke to allies -->
+				<modifier>
+					<conditions>
+						<unit>
+							<allied/>
+						</unit>
+					</conditions>
+					<effects>
+						<morale add="-16"/>
+					</effects>
+				</modifier>
+				<!-- Morale gain to enemies -->
+				<modifier>
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<effects>
+						<morale add="8"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</onUnitDisappearedModifiers>
+	<modifiers>
+		<!-- Massively reduced damage from unit that it isn't dueling -->
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="DuelOfHonour"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.99"/>
+			</effects>
+		</modifier>
+</trait>
