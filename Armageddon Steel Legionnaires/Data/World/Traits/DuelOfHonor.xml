@@ -44,7 +44,7 @@
 			</modifiers>
 		</area>
 		<!-- Remove duel from the other unit -->
-		<area affects="Unit" radius="999">
+		<area affects="Unit" radius="3">
 			<modifiers>
 				<modifier>
 					<conditions>
@@ -61,6 +61,12 @@
 		</area>
 	</onUnitDisappeared>
 	<modifiers>
+		<!-- Less movement so you can't just run -->
+		<modifier>
+			<effects>
+				<movementMax mul="-0.67"/>
+			</effects>
+		</modifier>
 		<!-- Massively reduced damage from unit that it isn't dueling -->
 		<modifier>
 			<conditions>

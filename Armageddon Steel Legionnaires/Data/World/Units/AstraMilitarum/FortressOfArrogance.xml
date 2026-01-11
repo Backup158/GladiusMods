@@ -345,6 +345,11 @@
 			<model>
 				<action sound="Weapons/Chainsword" soundCount="3"/>
 			</model>
+			<conditions>
+				<unit>
+					<hitpointsFraction greater="0.80"/>
+				</unit>
+			</conditions>
 			<beginTargets>
 				<target>
 					<areas>
@@ -356,6 +361,7 @@
 											<enemy/>
 											<noTrait name="City"/>
 											<noTrait name="Fortification"/>
+											<hitpointsFraction greater="0.80"/>
 										</unit>
 										<unit match="Any">
 											<trait name="SuperHeavy"/>
@@ -363,7 +369,7 @@
 										</unit>
 									</conditions>
 									<effects>
-										<addTrait name="DuelOfHonor"/>
+										<addTrait duration="4" name="DuelOfHonor"/>
 										<addTrait duration="1" name="DuelOfHonorShield"/>
 									</effects>
 								</modifier>
@@ -378,7 +384,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="DuelOfHonor"/>
+										<addTrait duration="4" name="DuelOfHonor"/>
 										<addTrait duration="1" name="DuelOfHonorShield"/>
 									</effects>
 								</modifier>
