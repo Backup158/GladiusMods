@@ -19,6 +19,7 @@
 		</modifier>
 	</modifiers>
 	<onTileEnteredModifiers>
+		<!-- Trap goes off and damages -->
 		<modifier>
 			<conditions>
 				<unit>
@@ -28,6 +29,19 @@
 			<effects>
 				<weaponDamage weapon="OrkHuntersTrap"/>
 				<removeFeature name="OrkHuntersTrap"/>
+			</effects>
+		</modifier>
+		<!-- Cripples infantry -->
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/> 
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="Crippled" duration="2"/>
 			</effects>
 		</modifier>
 	</onTileEnteredModifiers>
