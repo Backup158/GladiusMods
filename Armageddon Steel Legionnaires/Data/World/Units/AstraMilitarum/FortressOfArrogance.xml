@@ -196,7 +196,7 @@
 				rankMax="2" 
 				levelUpPriority="0.1"
 				name="AstraMilitarum/SteelLegionDiscipline+"
-				icon="Actions/AuraOfDiscipline">
+				icon="Units/AstraMilitarum/LordCommissar">
 			<beginTargets>
 				<selfTarget>
 					<areas>
