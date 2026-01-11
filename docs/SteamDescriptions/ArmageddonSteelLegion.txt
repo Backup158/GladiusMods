@@ -71,6 +71,13 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [/td]
 [/tr]
 [tr]
+[td] T6 Improved Frag Casings [/td]
+[td] [list]
+[*] Armageddon Ork Hunters can use Melta Bombs
+[/list]
+[/td]
+[/tr]
+[tr]
 [td] T10 Baneblade [/td]
 [td] [list]
 [*] The Fortress of Arrogance
