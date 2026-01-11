@@ -6,7 +6,7 @@
 				<damageTaken mulMin="0.11" mulMax="0.33"/>
 			</effects>
 		</modifier>
-		<!-- Further if Super-Heavy -->
+		<!-- Further if super-heavy -->
 		<modifier>
 			<conditions>
 				<unit>

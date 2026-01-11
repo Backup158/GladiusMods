@@ -58,6 +58,6 @@
 	<entry name="AstraMilitarum/PurgeTheXenos+Description" value="<string name='Traits/AstraMilitarum/PurgeTheXenosDescription'/>"/>
 	<entry name="AstraMilitarum/PurgeTheXenos+Flavor" value="<string name='Traits/AstraMilitarum/PurgeTheXenosFlavor'/>"/>
 	<entry name="FoABringItDown" value="<string name='Actions/BringItDown'/>"/>
-	<entry name="FoABringItDownDescription" value="Unit takes increased damage, moreso if it's a Superheavy or a Hero, with the effect stacking. Has reduced ranged reduction when being attacked by the Steel Legion."/>
+	<entry name="FoABringItDownDescription" value="Unit takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. Has reduced ranged reduction when being attacked by the Steel Legion."/>
 	<entry name="FoABringItDownFlavor" value="Whenever Old Bale Eye needs a priority target taken down, he only needs to use his Vox Caster."/>
 </language>

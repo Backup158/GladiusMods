@@ -224,7 +224,7 @@
 			</beginTargets>
 		</auraOfDiscipline>
 		<!-- Bring It Down (Targeted) -->
-		<!-- Debuff enemy vehicle/hero. Increased debuff if Ork. Increased debuff if Super-heavy. -->
+		<!-- Debuff enemy vehicle/hero. Increased debuff if Ork. Increased debuff if super-heavy. -->
 		<genericUnitAbility	cooldown="5"
 				levelUpPriority="0.15"
 				rank="-1"
