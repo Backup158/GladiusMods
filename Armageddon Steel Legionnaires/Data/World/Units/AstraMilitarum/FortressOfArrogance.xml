@@ -360,6 +360,9 @@
 					<conditions>
 						<unit>
 							<enemy/>
+							<noTrait name="City"/>
+							<noTrait name="Fortification"/>
+							<hitpointsFraction greater="0.80"/>
 						</unit>
 					</conditions>
 					<areas>
@@ -369,9 +372,6 @@
 									<conditions>
 										<unit>
 											<enemy/>
-											<noTrait name="City"/>
-											<noTrait name="Fortification"/>
-											<hitpointsFraction greater="0.80"/>
 										</unit>
 										<unit match="Any">
 											<trait name="SuperHeavy"/>
