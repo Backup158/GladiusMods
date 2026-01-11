@@ -225,7 +225,7 @@
 		</auraOfDiscipline>
 		<!-- Bring It Down (Targeted) -->
 		<!-- Debuff enemy vehicle/hero. Increased debuff if Ork. Increased debuff if super-heavy. -->
-		<genericUnitAbility	cooldown="5"
+		<exploitWeaknesses	cooldown="5"
 				levelUpPriority="0.15"
 				rank="-1"
 				rankMax="2"
@@ -242,6 +242,8 @@
 					<conditions>
 						<unit>
 							<enemy/>
+							<noTrait name="City"/>
+							<noTrait name="Fortification"/>
 						</unit>
 					</conditions>
 					<areas>
@@ -264,7 +266,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</genericUnitAbility>
+		</exploitWeaknesses>
 		<!-- Purge the Xenos -->
 		<!-- Clear enemies and fungus -->
 		<gunnersKillOnSight	cooldown="5"
@@ -338,7 +340,7 @@
 		</gunnersKillOnSight>
 		<!-- Elite: Duel of Honour -->
 		<!-- Target enemy super-heavy or hero -->
-		<genericUnitAbility	cooldown="10"
+		<exploitWeaknesses	cooldown="10"
 				levelUpPriority="0.01"
 				rank="-1"
 				elite="1"
@@ -403,7 +405,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</genericUnitAbility>
+		</exploitWeaknesses>
 		<!-- Hero abilities -->
 		<levelUp/>
 		<shop/>
