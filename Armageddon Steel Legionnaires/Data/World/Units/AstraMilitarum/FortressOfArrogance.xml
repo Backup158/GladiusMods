@@ -238,9 +238,9 @@
 				<action sound="Actions/AstraMilitarumBuff"/>
 			</model>
 			<beginTargets>
-				<target>
+				<target rangeMax="2">
 					<areas>
-						<area affects="Unit" radius="2">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<conditions>
@@ -351,9 +351,9 @@
 				</unit>
 			</conditions>
 			<beginTargets>
-				<target>
+				<target rangeMax="2">
 					<areas>
-						<area affects="Unit" radius="2">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<conditions>
