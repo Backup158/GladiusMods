@@ -51,4 +51,10 @@
 	<entry name="AstraMilitarum/SteelLegionDiscipline++" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
 	<entry name="AstraMilitarum/SteelLegionDiscipline++Description" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Description'/>"/>
 	<entry name="AstraMilitarum/SteelLegionDiscipline++Flavor" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Flavor'/>"/>
+	<entry name="AstraMilitarum/PurgeTheXenos" value="Purge the Xenos"/>
+	<entry name="AstraMilitarum/PurgeTheXenosDescription" value="Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced ranged damage reduction."/>
+	<entry name="AstraMilitarum/PurgeTheXenosFlavor" value="&quot;Heroes of Armageddon! You have withstood the evil savagery of the Orks, and they having nothing left for you to fear. So raise high the black banners of vengeance - now is our time.&quot; - Commissar Sebastian Yarrick, during the Third War for Armageddon"/>
+	<entry name="AstraMilitarum/PurgeTheXenos+" value="<string name='Traits/AstraMilitarum/PurgeTheXenos'/>"/>
+	<entry name="AstraMilitarum/PurgeTheXenos+Description" value="<string name='Traits/AstraMilitarum/PurgeTheXenosDescription'/>"/>
+	<entry name="AstraMilitarum/PurgeTheXenos+Flavor" value="<string name='Traits/AstraMilitarum/PurgeTheXenosFlavor'/>"/>
 </language>

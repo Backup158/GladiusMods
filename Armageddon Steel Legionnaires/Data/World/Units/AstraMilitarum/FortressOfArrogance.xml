@@ -266,31 +266,61 @@
 		</gunnersKillOnSight>
 		<!-- Purge the Xenos -->
 		<!-- Clear enemies and fungus -->
-		<auraOfDiscipline passive="1" 
-				rank="-1" 
-				rankMax="2" 
-				levelUpPriority="0.1"
-				name="AstraMilitarum/AuraOfCommand"
-				icon="Units/AstraMilitarum/LordCommissar">
+		<gunnersKillOnSight	cooldown="5"
+				levelUpPriority="0.15"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0" consumedMovement="0"
+				shoutString="Actions/GunnersKillOnSight"
+				name="AstraMilitarum/PurgeTheXenos"
+				icon="Traits/Flame">
+			<model>
+				<!--
+				<action animation="Units/AstraMilitarum/TankCommanderAbility"
+						bone="Bone016"
+						sound="Actions/AstraMilitarumBuff"/>
+				-->
+				<action sound="Weapons/Flamer" soundCount="3"/>
+			</model>
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<!-- Morale of allies -->
-						<area affects="Tile" radius="2">
+						<!-- Boost allied troops -->
+						<area affects="Unit" radius="1">
 							<modifiers>
 								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
 									<effects>
-										<addTrait name="AstraMilitarum/AuraOfCommand"/>
+										<addTrait duration="1" name="AstraMilitarum/PurgeTheXenos+"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
-						<!-- RDR for self, including vehicle it's in -->
-						<area affects="Tile" radius="0">
+						<area affects="Unit" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/PurgeTheXenos"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<!-- Burn away Orkoid Fungus -->
+						<area affects="tile" radius="2">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="AstraMilitarum/CommandArmor"/>
+										<removeFeature name="OrkoidFungus"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -298,7 +328,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</auraOfDiscipline>
+		</gunnersKillOnSight>
 		<!-- Elite: Duel of Honour -->
 		<genericUnitAbility
 				>
