@@ -44,4 +44,11 @@
 	<entry name="AstraMilitarum/CombinedArms" value="<string name='Actions/AstraMilitarum/CombinedArms'/>"/>
 	<entry name="AstraMilitarum/CombinedArmsDescription" value="<string name='Actions/AstraMilitarum/CombinedArmsDescription'/>"/>
 	<entry name="AstraMilitarum/CombinedArmsFlavor" value="<string name='Actions/AstraMilitarum/CombinedArmsFlavor'/>"/>
+	<!-- The Fortress of Arrogance -->
+	<entry name="AstraMilitarum/SteelLegionDiscipline+" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDiscipline+Description" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Description'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDiscipline+Flavor" value="<string name='Actions/AstraMilitarum/SteelLegionDisciplineFlavor+'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDiscipline++" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDiscipline++Description" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Description'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDiscipline++Flavor" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Flavor'/>"/>
 </language>

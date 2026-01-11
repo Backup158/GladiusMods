@@ -19,4 +19,8 @@
 	<entry name="AstraMilitarum/CombinedArms" value="Combined Arms"/>
 	<entry name="AstraMilitarum/CombinedArmsDescription" value="Grants damage reduction to infantry whom are adjacent to vehicles, and vice-versa. Infantry gain ranged damage reduction; vehicles, melee."/>
 	<entry name="AstraMilitarum/CombinedArmsFlavor" value="The Steel Legion operates best with a combination of infantry and vehicles. In their advance, infantry use tanks as cover. Symbiotically, tanks are covered by infantry, where any foe running past the tank's effective range is met by a wall of las-fire."/>
+	<!-- The Fortress of Arrogance -->
+	<entry name="AstraMilitarum/SteelLegionDiscipline+" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDiscipline+Description" value="Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain ranged damage reduction, with Steel Legion units gaining armour."/>
+	<entry name="AstraMilitarum/SteelLegionDiscipline+Flavor" value="Commissar Yarrick ordered the construction of an armoured dome on top of The Fortress of Arrogance's turret, where he stands to deliver orders and rousing speeches. He doesn't need threats of execution; his mere presence lifts spirits. Members of the Steel Legion redouble their efforts, eager to serve under their planetary hero."/>
 </language>

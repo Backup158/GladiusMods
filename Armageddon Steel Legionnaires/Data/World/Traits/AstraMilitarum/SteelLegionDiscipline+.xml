@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" rankMax="2" icon="Actions/AuraOfDiscipline">
+	<!-- Steel Legion lets it apply to vehicles too -->
+	<modifiers>
+		<!-- Troop-wide accuracy bonus -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<!-- <noTrait name="Vehicle"/> -->
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy addMin="0.33" addMax="1"/>
+				<morale addMin="1.5" addMax="4.5"/>
+			</effects>
+		</modifier>
+		<!-- Steel Legion troops get the full buff -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<!-- <noTrait name="Vehicle"/> -->
+					<trait name="AstraMilitarum/ArmageddonOrks"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy addMin="0.5" addMax="1.5"/>
+				<moraleLossFactor addMin="-0.11" addMax="-0.33"/>
+			</effects>
+		</modifier>
+		<!-- Infantry RDR -->
+		<!-- Absolutely OP but it's infantry when you got super-heavies running amok -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction mulMin="0.11" mulMax="0.33"/>
+			</effects>
+		</modifier>
+		<!-- Steel Legion troops get further buffs -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<trait name="AstraMilitarum/ArmageddonOrks"/>
+				</unit>
+			</conditions>
+			<effects>
+				<armor addMin="0.7" addMax="2.1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
