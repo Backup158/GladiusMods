@@ -11,8 +11,14 @@
 			</conditions>
 			<effects>
 				<movementMax mul="-0.67"/>
-                <hitpoints add="-3"/>
 			</effects>
 		</modifier>
 	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<hitpoints add="-3"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
 </trait>
