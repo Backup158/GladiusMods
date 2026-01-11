@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon attributesModifiedByUnit="0">
+<weapon attributesModifiedByUnit="0" icon="Actions/ChaosSpaceMarines/ShatterDefences">
 	<modifiers>
 		<modifier>
 			<effects>
