@@ -9,7 +9,7 @@
 	<!-- Steel Legion Commissar -->
 	<entry name="AstraMilitarum/SteelLegionDiscipline" value="Steel Legion Discipline"/>
 	<entry name="AstraMilitarum/SteelLegionDisciplineDescription" value="Increased accuracy for infantry and vehicles. Further increased for members of the Armageddon Steel Legion."/>
-	<entry name="AstraMilitarum/SteelLegionDisciplineFlavor" value="<string name='Actions/AstraMilitarum/AuraOfDisciplineDescription'/>"/>
+	<entry name="AstraMilitarum/SteelLegionDisciplineFlavor" value="<string name='Actions/AuraOfDisciplineDescription'/>"/>
 	<entry name="AstraMilitarum/ArmoredFist" value="Armoured Fist"/>
 	<entry name="AstraMilitarum/ArmoredFistDescription" value="Increased armour and reduced upkeep for vehicles."/>
 	<entry name="AstraMilitarum/ArmoredFistFlavor" value="During the Armageddon Wars, battlefields would be scattered with debris, corpses, and shattered vehicle hulls. The Steel Legion has grown adept at scavenging scraps, and some even turn it into makeshift armour."/>
