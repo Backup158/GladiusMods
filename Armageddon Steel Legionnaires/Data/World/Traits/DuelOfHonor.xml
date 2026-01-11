@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Debuff" icon="Actions/AstraMilitarum/DuelOfHonor">
 	<!-- On Death -->
-	<onUnitDisappearedModifiers>
+	<onUnitDisappeared>
 		<area affects="Unit" radius="4">
 			<modifiers>
 				<!-- Morale nuke to allies -->
@@ -28,7 +28,7 @@
 				</modifier>
 			</modifiers>
 		</area>
-	</onUnitDisappearedModifiers>
+	</onUnitDisappeared>
 	<modifiers>
 		<!-- Massively reduced damage from unit that it isn't dueling -->
 		<modifier>
