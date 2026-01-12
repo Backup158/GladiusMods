@@ -27,9 +27,9 @@
 	<entry name="AstraMilitarum/PurgeTheXenosDescription" value="<string name='Traits/AstraMilitarum/PurgeTheXenosDescription'/> Burns away Orkoid Fungus within 2 tiles."/>
 	<entry name="AstraMilitarum/PurgeTheXenosFlavor" value="<string name='Traits/AstraMilitarum/PurgeTheXenosFlavor'/>"/>
 	<entry name="AstraMilitarum/FoABringItDown" value="<string name='Traits/FoABringItDown'/>"/>
-	<entry name="AstraMilitarum/FoABringItDownDescription" value="Target an enemy unit. Both duellists must have above 80% hitpoints. <string name='Traits/FoABringItDownDescription'/> Duelling units take less damage from each other for one turn each."/>
+	<entry name="AstraMilitarum/FoABringItDownDescription" value="Target an enemy unit. <string name='Traits/FoABringItDownDescription'/>"/>
 	<entry name="AstraMilitarum/FoABringItDownFlavor" value="<string name='Traits/FoABringItDownFlavor'/>"/>
 	<entry name="AstraMilitarum/DuelOfHonour" value="<string name='Traits/DuelOfHonour'/>"/>
-	<entry name="AstraMilitarum/DuelOfHonourDescription" value="Target an enemy unit. <string name='Traits/DuelOfHonourDescription'/>"/>
+	<entry name="AstraMilitarum/DuelOfHonourDescription" value="Target an enemy super-heavy or hero. Both duellists must have above 80% hitpoints. <string name='Traits/DuelOfHonourDescription'/> Duelling units take less damage from each other for one turn each."/>
 	<entry name="AstraMilitarum/DuelOfHonourFlavor" value="<string name='Traits/DuelOfHonourFlavor'/>"/>
 </language>
