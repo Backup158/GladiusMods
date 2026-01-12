@@ -15,7 +15,15 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [b]Armageddon Pattern Chimeras[/b] are tougher and can more easily slip behind enemy lines[spoiler](Ignores enemy Zone of Control)[/spoiler]. As such, they cost a bit more to produce.
 [/tr]
 [tr]
-[b]Armageddon Ork Hunters[/b] are close-ranged infantry trained to fight in forests and kill Orks. They can plant anti-infantry traps and be armed with Melta Bombs after further research. Years of battling with the Greenskins have made them not so different from their foe, granting them Ork-like traits and the ability to use Ork weapons.
+[b]Steel Legion Commissars[/b] lead both infantry and vehicles. They grant passive buffs, which lends well to sitting safely inside a Chimera. Buffs are increased for members of the Steel Legion.
+[u]Steel Legion Discipline[/u]: Adjacent troops gain accuracy. Weaker than the typical Aura of Discipline, unless the affected troop is in the Steel Legion.
+[u]Armoured Fist[/u]: Adjacent vehicles gain armour and have less ore upkeep.
+[u]Aura of Command[/u]: Troops within 2 tiles gain morale and have reduced morale loss. The Commissar and any transport they're in have increased ranged damage reduction. 
+[u]Combined Arms[/u]: Elite. Infantry and vehicles within 2 tiles gain defences. Infantry gain ranged damage reduction when adjacent to vehicles; vehicles, melee damage reduction when adjacent to infantry.
+[/tr]
+[tr]
+[b]Armageddon Ork Hunters[/b] are close-ranged infantry trained to fight in forests and kill Orks. They can plant anti-infantry traps[spoiler]([u]Place Punji Traps[/u]: Place a trap without consuming movement)[/spoiler] and be armed with Melta Bombs after further research. Years of battling with the Greenskins have made them not so different from their foe, granting them Ork-like traits and the ability to use Ork weapons.
+[b]Punji Traps[/b] can be placed on land. Similar to Cluster Mines, they cannot be triggered by skimming units. Any infantry stepping on it will be [i]Crippled[/i], slowing them down and making them bleed [spoiler](for 2 turns, -67% movement and -3 hitpoints per turn)[/spoiler]. Vehicles can stop on traps to destroy them without taking damage.
 [/tr]
 [tr]
 [b]Steel Legion Storm Troopers[/b] (Tempestus Scions alternative)
