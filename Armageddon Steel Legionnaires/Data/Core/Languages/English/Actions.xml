@@ -10,9 +10,9 @@
 	<entry name="AstraMilitarum/YarricksInspiration" value="Steel Legion Discipline"/>
 	<entry name="AstraMilitarum/YarricksInspirationDescription" value="Increased accuracy for infantry and vehicles. Further increased for members of the Armageddon Steel Legion."/>
 	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="<string name='Actions/AuraOfDisciplineDescription'/>"/>
-	<entry name="AstraMilitarum/ArmoredFist" value="Armoured Fist"/>
-	<entry name="AstraMilitarum/ArmoredFistDescription" value="Increased armour and reduced upkeep for vehicles."/>
-	<entry name="AstraMilitarum/ArmoredFistFlavor" value="During the Armageddon Wars, battlefields would be scattered with debris, corpses, and shattered vehicle hulls. The Steel Legion has grown adept at scavenging scraps, and some even turn it into makeshift armour."/>
+	<entry name="AstraMilitarum/ArmouredFist" value="Armoured Fist"/>
+	<entry name="AstraMilitarum/ArmouredFistDescription" value="Increased armour and reduced upkeep for vehicles."/>
+	<entry name="AstraMilitarum/ArmouredFistFlavor" value="During the Armageddon Wars, battlefields would be scattered with debris, corpses, and shattered vehicle hulls. The Steel Legion has grown adept at scavenging scraps, and some even turn it into makeshift armour."/>
 	<entry name="AstraMilitarum/AuraOfCommand" value="Aura of Command"/>
 	<entry name="AstraMilitarum/AuraOfCommandDescription" value="Boosts morale of allied infantry and vehicles. Increased ranged damage reduction for the Commissar and any transport they are in."/>
 	<entry name="AstraMilitarum/AuraOfCommandFlavor" value="Commissars lead with confidence, with their mere presence inspiring nearby troops. Inexplicably, strutting about the frontlines, exuding a feeling of invicibility, has not lead to a higher casualty rate. It's almost as if they truly are the Emperor's representative."/>

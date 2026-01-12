@@ -151,7 +151,7 @@
 				rank="-1" 
 				rankMax="2" 
 				levelUpPriority="0.1"
-				name="AstraMilitarum/ArmoredFist"
+				name="AstraMilitarum/ArmouredFist"
 				icon="Traits/SistersOfBattle/AvengingZeal">
 			<beginTargets>
 				<selfTarget>
@@ -160,7 +160,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="AstraMilitarum/ArmoredFist"/>
+										<addTrait name="AstraMilitarum/ArmouredFist"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -195,7 +195,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="AstraMilitarum/CommandArmor"/>
+										<addTrait name="AstraMilitarum/CommandArmour"/>
 									</effects>
 								</modifier>
 							</modifiers>
