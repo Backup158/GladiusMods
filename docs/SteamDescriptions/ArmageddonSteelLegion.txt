@@ -36,7 +36,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [b]Armageddon Pattern Basilisks[/b] are tougher but slower than the typical Basilisk. The extra protection means they cost more resources to produce.
 [/tr]
 [tr]
-[b]Armageddon Heavy Assault Chimeras[/b] are uparmoured Chimera, built to rapidly deploy infantry[spoiler]([i]Assault Vehicle[/i])[/spoiler].
+[b]Armageddon Heavy Assault Chimeras[/b] are uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry[spoiler]([i]Assault Vehicle[/i])[/spoiler] and provide supporting fire. Its hull-mount bolter has been swapped for a heavy flamer, with additional heavy bolters available with research. The manned lasgun arrays are now hotshot lasguns, suiting its role as an IFV.
 [/tr]
 [tr]
 [b]The Fortress of Arrogance[/b] is a unique, super-heavy tank that rallies the troops, especially infantry and members of the Steel Legion.
