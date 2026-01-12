@@ -18,7 +18,7 @@
 	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
 	<!-- Vehicles -->
 	<entry name="AstraMilitarum/ArmageddonChimera" value="Armageddon Pattern Chimera"/>
-	<entry name="AstraMilitarum/ArmageddonChimeraDescription" value="Tougher, more expensive Chimera that can easily slip behind enemy lines. Its smoke launcher is improved and can target beyond the vehicle itself. Its heavier armour means it is unable to traverse amphibiously."/>
+	<entry name="AstraMilitarum/ArmageddonChimeraDescription" value="Chimera that can ignore enemy zone of control. It is more expensive and is slightly tougher. Its smoke launcher is improved and can target beyond the vehicle itself. It is unable to traverse amphibiously."/>
 	<entry name="AstraMilitarum/ArmageddonChimeraFlavor" value="The factories of Armageddon work endlessly to arm the forces of the Imperium. With this base of production, the swarms of xenos knocking on Armageddon's door naturally means those factories would be put to work in its defence. The constant waves of enemies have spurred innovation, leading to customised designs for their vehicles. Tying into the Steel Legion's doctrine of Mechanised Infantry, they have custom Chimeras specialising in tactical insertions."/>
 	<entry name="AstraMilitarum/APDS6aDefender" value="APDS-6a Defender"/>
 	<entry name="AstraMilitarum/APDS6aDefenderDescription" value="Improvised tank with a Laser Destroyer, specialising in cutting through tanks. Its powerful weapon causes self damage."/>

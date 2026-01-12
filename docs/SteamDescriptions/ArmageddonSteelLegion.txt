@@ -13,7 +13,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests[spoiler]([u]Purging Flames[u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests)[/spoiler]. 
 [/tr]
 [tr]
-[b]Armageddon Pattern Chimeras[/b] are tougher and can more easily slip behind enemy lines[spoiler](Ignores enemy Zone of Control)[/spoiler]. As such, they cost a bit more to produce.
+[b]Armageddon Pattern Chimeras[/b] are specially-built to more easily slip behind enemy lines[spoiler](Ignores enemy Zone of Control)[/spoiler]. As such, they cost a bit more to produce but are slightly tougher. It carries a modified smoke launcher that is able to target tiles beyond the Chimera. With this modifications, it has lost the ability to traverse amphibiously.
 [/tr]
 [tr]
 [b]Steel Legion Commissars[/b] lead both infantry and vehicles. They grant passive buffs, which lends well to sitting safely inside a Chimera. Buffs are increased for members of the Steel Legion.
