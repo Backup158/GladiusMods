@@ -7,7 +7,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 
 [table]
 [tr]
-[b]Steel Legionnaires[/b] (Guardsman alternative) are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
+[b]Steel Legionnaires[/b] are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
 [/tr]
 [tr]
 [b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests[spoiler]([u]Purging Flames[u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests)[/spoiler]. 
@@ -30,7 +30,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [b]APDS-6a Defenders[/b] are improvised tank hunters. They are Chimeras with ancient Laser Destroyers haphazardly attached, giving them excellent armour piercing power, at the cost of self damage.
 [/tr]
 [tr]
-[b]Steel Legion Storm Troopers[/b] (Tempestus Scions alternative) are more heavily armed and armoured Steel Legionnaires. Their carapace armour is slimmed down compared to those worn by Tempestus Scions, to more comfortably fit into armoured transports.
+[b]Steel Legion Storm Troopers[/b] are more heavily armed and armoured Steel Legionnaires. Their carapace armour is slimmed down compared to those worn by Tempestus Scions, to more comfortably fit into armoured transports.
 [/tr]
 [tr]
 [b]Armageddon Pattern Basilisks[/b] are tougher but slower than the typical Basilisk. The extra protection means they cost more resources to produce.
