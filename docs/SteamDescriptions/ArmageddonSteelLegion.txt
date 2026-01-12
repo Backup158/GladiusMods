@@ -73,124 +73,14 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
 
 [h1]Research Unlocks[/h1]
-[table]
-[tr]
-[th] Tier and Research [/th]
-[th] What Gets Unlocked [/th]
-[/tr]
-[tr]
-[td] T1 Chimera [/td]
-[td] [list]
-[*] [b]Steel Legionnaire[/b]: Imperial Barracks
-[*] [b]Armageddon Pattern Chimera[/b]: Manufactorum
-[*] [b]Steel Legion Commissar[/b]: Shrine of the Aquila
-[/list]
-The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
-[/td]
-[/tr]
-[tr]
-[td] T2 Hab Blocks [/td]
-[td] [list]
-[*] [b]Steel Legion Purgation Squad[/b]: Imperial Barracks
-[/list]
-[/td]
-[/tr]
-[tr]
-[td] T3 Agronomic Surge [/td]
-[td] [list]
-[*] [b]Armageddon Ork Hunters[/b]: Imperial Barracks
-[/list]
-[/td]
-[/tr]
-[td] T3 Awaken the Machine [/td]
-[td] [list]
-[*] [i]Evasive Deployment[/i]: 17% Invulnerable Damage Reduction on disembark
-[*] [b]APDS-6a Defender[/b]: Manufactorum
-[/list]
-[/td]
-[/tr]
-[tr]
-[td] T3 Medi-Pack [/td]
-[td] [list]
-[*] [i]Armageddon Readiness[/i]: +50% Healing inside transports
-[/list]
-[/td]
-[/tr]
-[tr]
-[td] T4 Tempestus Scions [/td]
-[td] [list]
-[*] [b]Steel Legion Storm Troopers[/b]: Imperial Barracks
-[/list]
-[/td]
-[/tr]
-[tr]
-[td] T5 Basilisk [/td]
-[td] [list]
-[*] [b]Armageddon Pattern Basilisk[/b]: Manufactorum
-[/list]
-[/td]
-[/tr]
-[tr]
-[td] T5 Extra Infantry Armour [/td]
-[td] [list]
-[*] [b]Armageddon Heavy Assault Chimera[/b]: Manufactorum
-[/list]
-[/td]
-[/tr]
-[tr]
-[td] T6 Improved Frag Casings [/td]
-[td] [list]
-[*] Armageddon Ork Hunters can use Melta Bombs
-[/list]
-[/td]
-[/tr]
-[tr]
-[td] T10 Baneblade [/td]
-[td] [list]
-[*] [b]The Fortress of Arrogance[/b]: Shrine of the Aquila
-[/list]
-[/td]
-[/tr]
-[/table]
+See discussion thread
 
 [h1]Further details[/h1]
 Assault Pack DLC, [b]Hard Requirement[/b]: Chimera
 Reinforcements DLC: Tempestus Scions
 
-Main version is based on squad sizes in vanilla Gladius. The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349345480]Extras addon[/url] is based on Extra Militarum and Sneaky Stormtroopers.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386427212]Gladius+ patch[/url]
-[table]
-[tr]
-Too Many Voices Integration
-[/tr]
-[tr]
-[th] TMV Lines Used [/th]
-[th] Units [/th]
-[/tr]
-[tr]
-[td] Guardsman [/td]
-[td] Steel Legionnaires, Steel Legion Purgation Squad, Armageddon Ork Hunters [/td]
-[/tr]
-[tr]
-[td] Tempestus Scions [/td]
-[td] Steel Legion Storm Troopers [/td]
-[/tr]
-[tr]
-[td] Chimera [/td]
-[td] Armageddon Pattern Chimera, APDS-6a Defender, Armageddon Heavy Assault Chimera [/td]
-[/tr]
-[tr]
-[td] Basilisk [/td]
-[td] Armageddon Pattern Basilisk [/td]
-[/tr]
-[tr]
-[td] Lord Commissar [/td]
-[td] Steel Legion Commissar [/td]
-[/tr]
-[tr]
-[td] Baneblade [/td]
-[td] The Fortress of Arrogance [/td]
-[/tr]
-[/table]
+These units are based on squad sizes in vanilla Gladius. The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349345480]Extras addon[/url] is based on Extra Militarum and Sneaky Stormtroopers.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386427212]Gladius+ patch[/url]. Voices used are listed in the discusion thread.
+
 There is a standalone Fortress of Arrogance mod (from the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3104947090]Rogue Trader unit pack[/url]) on the Workshop already. I wanted to have my own implementation for abilities (and looking at the comments, it has some issues), but that one has a custom model, if you prefer that.
 https://steamcommunity.com/sharedfiles/filedetails/?id=3141151458
