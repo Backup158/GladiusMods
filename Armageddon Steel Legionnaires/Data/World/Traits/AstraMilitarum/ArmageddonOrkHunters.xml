@@ -5,7 +5,11 @@
 		<modifier>
 			<conditions>
 				<encounter>
+					<self>
+						<attacking/>
+					</self>
 					<opponent>
+						<noAttacking/>
 						<faction name="Orks"/>
 					</opponent>
 				</encounter>
