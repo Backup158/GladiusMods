@@ -2,48 +2,71 @@ Adds various infantry and vehicles of the Armageddon Steel Legion to the Astra M
 
 The backbone of Steel Legion doctrine is their usage of mechanised infantry. Armageddon's numerous factories produce waves of vehicles, which means they can readily equip the Steel Legion with plentiful Chimeras and supporting tanks. Steel Legionnaires sit cooped up in the back of Chimeras, following the main armoured force. Leman Russ main battle tanks pour heavy fire into enemy lines, punching a hole in their defences. Before the enemy can close this wound, APCs and IFVs rush through guns blazing, as the tanks continue laying on fire. Before the dust can settle, Steel Legionnaires pour out of their transports to deepen this wound.
 
-[h1]Units added[/h1]
+[h1]Unit Descriptions[/h1]
 Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree.
 
 [table]
 [tr]
+[th]Units Added[/th]
+[/tr]
+[tr]
+[td]
 [b]Steel Legionnaires[/b] are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
+[/td]
 [/tr]
 [tr]
-[b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests[spoiler]([u]Purging Flames[u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests)[/spoiler]. 
+[td]
+[b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests[spoiler]([u]Purging Flames[/u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests)[/spoiler]. 
+[/td]
 [/tr]
 [tr]
+[td]
 [b]Armageddon Pattern Chimeras[/b] are specially-built to more easily slip behind enemy lines[spoiler](Ignores enemy Zone of Control)[/spoiler]. As such, they cost a bit more to produce but are slightly tougher. It carries a modified smoke launcher that is able to target tiles beyond the Chimera. With this modifications, it has lost the ability to traverse amphibiously.
+[/td]
 [/tr]
 [tr]
+[td]
 [b]Steel Legion Commissars[/b] lead both infantry and vehicles. They grant passive buffs, which lends well to sitting safely inside a Chimera. Buffs are increased for members of the Steel Legion.
 [u]Steel Legion Discipline[/u]: Adjacent troops gain accuracy. Weaker than the typical Aura of Discipline, unless the affected troop is in the Steel Legion.
 [u]Armoured Fist[/u]: Adjacent vehicles gain armour and have less ore upkeep.
 [u]Aura of Command[/u]: Troops within 2 tiles gain morale and have reduced morale loss. The Commissar and any transport they're in have increased ranged damage reduction. 
 [u]Combined Arms[/u]: Elite. Infantry and vehicles within 2 tiles gain defences. Infantry gain ranged damage reduction when adjacent to vehicles; vehicles, melee damage reduction when adjacent to infantry.
+[/td]
 [/tr]
 [tr]
+[td]
 [b]Armageddon Ork Hunters[/b] are close-ranged infantry trained to fight in forests and kill Orks. They can plant anti-infantry traps[spoiler]([u]Place Punji Traps[/u]: Place a trap without consuming movement)[/spoiler] and be armed with Melta Bombs after further research. Years of battling with the Greenskins have made them not so different from their foe, granting them Ork-like traits and the ability to use Ork weapons.
 [b]Punji Traps[/b] can be placed on land. Similar to Cluster Mines, they cannot be triggered by skimming units. Any infantry stepping on it will be [i]Crippled[/i], slowing them down and making them bleed [spoiler](for 2 turns, -67% movement and -3 hitpoints per turn)[/spoiler]. Vehicles can stop on traps to destroy them without taking damage.
+[/td]
 [/tr]
 [tr]
+[td]
 [b]APDS-6a Defenders[/b] are improvised tank hunters. They are Chimeras with ancient Laser Destroyers haphazardly attached, giving them excellent armour piercing power, at the cost of self damage.
+[/td]
 [/tr]
 [tr]
+[td]
 [b]Steel Legion Storm Troopers[/b] are more heavily armed and armoured Steel Legionnaires. Their carapace armour is slimmed down compared to those worn by Tempestus Scions, to more comfortably fit into armoured transports.
+[/td]
 [/tr]
 [tr]
+[td]
 [b]Armageddon Pattern Basilisks[/b] are tougher but slower than the typical Basilisk. The extra protection means they cost more resources to produce.
+[/td]
 [/tr]
 [tr]
+[td]
 [b]Armageddon Heavy Assault Chimeras[/b] are uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry[spoiler]([i]Assault Vehicle[/i])[/spoiler] and provide supporting fire. Its hull-mount bolter has been swapped for a heavy flamer, with additional heavy bolters available with research. The manned lasgun arrays are now hotshot lasguns, suiting its role as an IFV.
+[/td]
 [/tr]
 [tr]
+[td]
 [b]The Fortress of Arrogance[/b] is a unique, super-heavy tank that rallies the troops, especially infantry and members of the Steel Legion.
 [u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain ranged damage reduction, with Steel Legion units gaining armour.
 [u]Focus Fire[/u]: Marks an enemy unit which now takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. Has reduced ranged reduction when being attacked by the Steel Legion.
 [u]Purge the Xenos[/u]: Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced ranged damage reduction. Burns away Orkoid Fungus within 2 tiles.
 [u]Duel of Honour[/u]: Elite. Targets an enemy super-heavy or hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
+[/td]
 [/tr]
 [/table]
 
@@ -72,7 +95,6 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [/list]
 [/td]
 [/tr]
-[tr]
 [tr]
 [td] T3 Agronomic Surge [/td]
 [td] [list]
