@@ -127,7 +127,7 @@
 				rank="-1" 
 				rankMax="2" 
 				levelUpPriority="0.1"
-				name="AstraMilitarum/SteelLegionDiscipline"
+				name="AstraMilitarum/YarricksInspiration"
 				icon="Actions/AuraOfDiscipline">
 			<beginTargets>
 				<selfTarget>
@@ -136,7 +136,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="AstraMilitarum/SteelLegionDiscipline"/>
+										<addTrait name="AstraMilitarum/YarricksInspiration"/>
 									</effects>
 								</modifier>
 							</modifiers>

@@ -29,9 +29,9 @@
 	<entry name="CrippledDescription" value="Reduced movement and loses health per turn."/>
 	<entry name="CrippledFlavor" value="MY LEG!"/>
 	<!-- Steel Legion Commissar -->
-	<entry name="AstraMilitarum/SteelLegionDiscipline" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
-	<entry name="AstraMilitarum/SteelLegionDisciplineDescription" value="<string name='Actions/AstraMilitarum/SteelLegionDisciplineDescription'/>"/>
-	<entry name="AstraMilitarum/SteelLegionDisciplineFlavor" value="<string name='Actions/AstraMilitarum/SteelLegionDisciplineFlavor'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration" value="<string name='Actions/AstraMilitarum/YarricksInspiration'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationDescription" value="<string name='Actions/AstraMilitarum/YarricksInspirationDescription'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="<string name='Actions/AstraMilitarum/YarricksInspirationFlavor'/>"/>
 	<entry name="AstraMilitarum/ArmoredFist" value="<string name='Actions/AstraMilitarum/ArmoredFist'/>"/>
 	<!-- <entry name="AstraMilitarum/ArmoredFistDescription" value=""/> -->
 	<entry name="AstraMilitarum/ArmoredFistFlavor" value="<string name='Actions/AstraMilitarum/ArmoredFistFlavor'/>"/>
@@ -45,12 +45,12 @@
 	<entry name="AstraMilitarum/CombinedArmsDescription" value="<string name='Actions/AstraMilitarum/CombinedArmsDescription'/>"/>
 	<entry name="AstraMilitarum/CombinedArmsFlavor" value="<string name='Actions/AstraMilitarum/CombinedArmsFlavor'/>"/>
 	<!-- The Fortress of Arrogance -->
-	<entry name="AstraMilitarum/SteelLegionDiscipline+" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
-	<entry name="AstraMilitarum/SteelLegionDiscipline+Description" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Description'/>"/>
-	<entry name="AstraMilitarum/SteelLegionDiscipline+Flavor" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Flavor'/>"/>
-	<entry name="AstraMilitarum/SteelLegionDiscipline++" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline'/>"/>
-	<entry name="AstraMilitarum/SteelLegionDiscipline++Description" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Description'/>"/>
-	<entry name="AstraMilitarum/SteelLegionDiscipline++Flavor" value="<string name='Actions/AstraMilitarum/SteelLegionDiscipline+Flavor'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration" value="<string name='Actions/AstraMilitarum/YarricksInspiration'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationDescription" value="<string name='Actions/AstraMilitarum/YarricksInspirationDescription'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="<string name='Actions/AstraMilitarum/YarricksInspirationFlavor'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration+" value="<string name='Actions/AstraMilitarum/YarricksInspiration'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration+Description" value="<string name='Actions/AstraMilitarum/YarricksInspirationDescription'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration+Flavor" value="<string name='Actions/AstraMilitarum/YarricksInspirationFlavor'/>"/>
 	<entry name="AstraMilitarum/PurgeTheXenos" value="Purge the Xenos"/>
 	<entry name="AstraMilitarum/PurgeTheXenosDescription" value="Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced ranged damage reduction."/>
 	<entry name="AstraMilitarum/PurgeTheXenosFlavor" value="&quot;Heroes of Armageddon! You have withstood the evil savagery of the Orks, and they having nothing left for you to fear. So raise high the black banners of vengeance - now is our time.&quot; - Commissar Sebastian Yarrick, during the Third War for Armageddon"/>
