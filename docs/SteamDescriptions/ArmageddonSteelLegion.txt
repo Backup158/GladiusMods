@@ -1,10 +1,11 @@
 Adds various infantry and vehicles of the Armageddon Steel Legion to the Astra Militarum. 
+
+The backbone of Steel Legion doctrine is their usage of mechanised infantry. Armageddon's numerous factories produce waves of vehicles, which means they can readily equip the Steel Legion with plentiful Chimeras and supporting tanks. Steel Legionnaires sit cooped up in the back of Chimeras, following the main armoured force. Leman Russ main battle tanks pour heavy fire into enemy lines, punching a hole in their defences. Before the enemy can close this wound, APCs and IFVs rush through guns blazing, as the tanks continue laying on fire. Before the dust can settle, Steel Legionnaires pour out of their transports to deepen this wound.
+
+[h1]Units added[/h1]
 Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from APCs, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree.
 
 [table]
-[tr]
-[th]Units Added[/th]
-[/tr]
 [tr]
 [b]Steel Legionnaires[/b] (Guardsman alternative) are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
 [/tr]
