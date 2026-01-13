@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/Drookian" value="Drookian"/>
-    <entry name="AstraMilitarum/DrookianDescription" value="Drookians gain increased Accuracy while Overwatching and increased Damage when attacking Forests, but lose Morale when near non-Drookians, unless in the prescence of a Commissar."/>
-    <entry name="AstraMilitarum/DrookianFlavor" value="Hardened by the harsh swamps of their homeworld, Drookians are expert ambushers and scouts. With this lifetime of wading through swamps, Drookians have also learned that any lofty ideals of &quot;humanity's brotherhood&quot; are barely worth the paper they're printed on. Drookians find that true loyality and brotherhood is found within your clan, making them greatly distrusting of foreigners. While individually courageous, when the cards on the table, they would much rather flee and live for their clan, rather than die for some distant, uncaring God-Emperor, unless properly... motivated."/>
+    <entry name="AstraMilitarum/DrookianDescription" value="Drookians gain increased accuracy while Overwatching and increased damage when attacking Forests, but lose morale when near non-Drookians unless in the prescence of a Commissar."/>
+    <entry name="AstraMilitarum/DrookianFlavor" value="Hardened by the harsh swamps of their homeworld, Drookians are expert ambushers and scouts. With this lifetime of wading through swamps, Drookians have also learned that any lofty ideals of &quot;humanity's brotherhood&quot; are barely worth the paper they're printed on. Drookians find that true loyality and brotherhood is found within your clan, making them greatly distrusting of foreigners. While individually courageous, when the cards are on the table, they would much rather flee and live for their clan. To die for some distant, uncaring God-Emperor, they need proper... motivation."/>
     <entry name="AstraMilitarum/DrookianSaboteur" value="Drookian Saboteur"/>
     <entry name="AstraMilitarum/DrookianSaboteurDescription" value="Increased damage against vehicles. Greatly increased damage against Fortifications"/>
-    <entry name="AstraMilitarum/DrookianSaboteurFlavor" value="Back on Drook VI, identifying and exploiting even the smallest cracks can send even the greatest walls crashing into the bog."/>
+    <entry name="AstraMilitarum/DrookianSaboteurFlavor" value="Back on Drook VI, identifying and exploiting the smallest cracks can send even the greatest walls crashing into the bog."/>
     <entry name="Harassed" value="Harassed"/>
-    <entry name="HarassedDescription" value="Loses Morale and has decreased Accuracy."/>
+    <entry name="HarassedDescription" value="Loses morale every turn and has decreased accuracy."/>
     <entry name="HarassedFlavor" value="Constant night attacks have left these troops exhausted, decreasing their combat readiness."/>
     <entry name="Undersupplied" value="Undersupplied"/>
-    <entry name="UndersuppliedDescription" value="Decreased morale. Costs more resources to upkeep."/>
+    <entry name="UndersuppliedDescription" value="Loses morale every turn. Costs more resources to upkeep."/>
     <entry name="UndersuppliedFlavor" value="Troops without food and weapons are of little use. Efforts must be spent to resupply them."/>
     <entry name="AstraMilitarum/SpoilsOfWar" value="Spoils of War"/>
     <entry name="AstraMilitarum/SpoilsOfWarDescription" value="Reduced upkeep."/>
-    <entry name="AstraMilitarum/SpoilsOfWarFlavor" value="Troops without food and weapons are of little use. Efforts must be spent to resupply them."/>
+    <entry name="AstraMilitarum/SpoilsOfWarFlavor" value="One man's loss is another man's gain. Tonight, the Drookian lads shall drink!"/>
     <entry name="AstraMilitarum/DrookianAssassination" value="Drookian Assassination"/>
     <entry name="AstraMilitarum/DrookianAssassinationDescription" value="Increased attacks against enemies that have moved. Increased attacks against enemies inside Outposts. Increased damage against Heroes."/>
     <entry name="AstraMilitarum/DrookianAssassinationFlavor" value="After a long march, there's nothing like a knife to the throat to put you to rest."/>
