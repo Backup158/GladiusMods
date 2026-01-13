@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<!-- Infantry -->
-	<entry name="AstraMilitarum/SteelLegionnaire" value="Steel Legionnaire"/>
+	<entry name="AstraMilitarum/SteelLegionnaire" value="Steel Legionnaires"/>
 	<entry name="AstraMilitarum/SteelLegionnaireDescription" value="Light infantry units specialising in close-quarters deployments from transports and in fighting Orks."/>
 	<entry name="AstraMilitarum/SteelLegionnaireFlavor" value="Steel Legionnaires, hailing from Armageddon, are masters of mechanised warfare. Their doctrine revolves around rapid deployments from APCs, namely Chimeras, to disrupt enemy forces before they can muster a defence. Steel Legionnaires wield Voss Pattern Lasguns, which sacrifice range for a smaller profile that leaves more space in a troop transport. Due to their experience in the Third War for Armageddon, Steel Legionnaires are experts at fighting Orks."/>
-	<entry name="AstraMilitarum/SteelLegionStormTrooper" value="Steel Legion Storm Trooper"/>
+	<entry name="AstraMilitarum/SteelLegionStormTrooper" value="Steel Legion Storm Troopers"/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperDescription" value="Elite shock infantry unit specialising in close-quarters deployments from transports and in fighting Orks. Has less armour than Tempestus Scions."/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperFlavor" value="Steel Legion Storm Troopers are the Legion's finest soldiers, forged in the Wars for Armageddon. They carry Hellguns and have Carapace Armour underneath their iconic greatcoats. While protective, they aren't as heavily armoured as their counterparts from the Schola Progenium."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Armageddon Ork Hunters"/>
