@@ -9,7 +9,6 @@
 			</conditions>
 			<effects>
 				<damage mul="-0.25"/>
-				<influence add="8"/>
 			</effects>
 		</modifier>
 	</modifiers>
