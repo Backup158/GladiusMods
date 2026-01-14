@@ -339,6 +339,7 @@
         <trait name="AstraMilitarum/JopallGlory"/>
 		<trait name="Infiltrate"/>
 		<trait name="Stealth"/>
+		<trait name="SniperReposition"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

@@ -14,6 +14,9 @@
 	<entry name="AstraMilitarum/JopallCity" value="Urban Marksman"/>
 	<entry name="AstraMilitarum/JopallCityDescription" value="While near allied cities, ignore accuracy loss from movement."/>
 	<entry name="AstraMilitarum/JopallCityFlavor" value="Troops from Jopall prefer to fight defensively, committing only when necessary. Consequently, they're adept at quickly setting up their weapons to meet an incoming assault."/>
+	<entry name="SniperReposition" value="Reposition"/>
+	<entry name="SniperRepositionDescription" value="Slightly reposition after a shot."/>
+	<entry name="SniperRepositionFlavor" value="Marksmen are trained to reposition after every shot, to avoid enemy counteraction."/>
 	<!-- ============ -->
 	<!-- Actions -->
 	<!-- ============ -->
