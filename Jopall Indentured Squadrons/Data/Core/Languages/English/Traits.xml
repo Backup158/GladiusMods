@@ -5,7 +5,7 @@
 	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Jopall Indentured Squadrons the best ways to exterminate Orks."/>
     <!-- Jopall Glory -->
 	<entry name="AstraMilitarum/JopallGlory" value="Jopall's Cut"/>
-	<entry name="AstraMilitarum/JopallGloryDescription" value="Jopall Indentured Squadrons gain influence in battle."/>
+	<entry name="AstraMilitarum/JopallGloryDescription" value="Jopall Indentured Squadrons gain influence in battle. Gain a large amount if it has killed an enemy Hero."/>
 	<entry name="AstraMilitarum/JopallGloryFlavor" value="Each battle comes with an opportunity to repay their debts. The Jopall Indentured Squadrons are infamously greedy, to the point where they'd track and demand payment for every individual kill."/>
     <entry name="AstraMilitarum/JopallBounty" value="Bounty Claimed"/>
 	<entry name="AstraMilitarum/JopallBountyDescription" value="On killing an enemy hero, gain a large sum of influence."/>
