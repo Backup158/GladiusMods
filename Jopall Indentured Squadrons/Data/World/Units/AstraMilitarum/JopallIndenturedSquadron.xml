@@ -153,7 +153,100 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
-        <!-- Mugging Ability -->
+		<!-- Downgrade or Upcharge Shot -->
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="1"
+				name="AstraMilitarum/JopallChargeDown"
+				icon="Traits/Blinding">
+			<model>
+				<action sound="Actions/InstallSupportSystem"/>
+			</model>
+			<sharedCooldowns>
+				<action name="AstraMilitarum/JopallChargeUp"/>
+			</sharedCooldowns>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/JopallChargeDown" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<!-- Charge up shot -->
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="1"
+				name="AstraMilitarum/JopallChargeUp"
+				icon="Traits/DestroyerWeapon">
+			<model>
+				<action sound="Actions/InstallSupportSystem"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<influenceCost base="10"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<sharedCooldowns>
+				<action name="AstraMilitarum/JopallChargeDown"/>
+			</sharedCooldowns>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/JopallChargeUp" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<!-- Move after shot -->
+		<genericUnitAbility consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="1"
+				name="AstraMilitarum/Reposition"
+				icon="Traits/Fleet">
+			<model>
+				<action sound="Actions/FadeAway"/>
+			</model>
+			<conditions>
+				<unit>
+					<attackedThisTurn/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Fleet"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Mugging Ability -->
         <genericUnitAbility 
                 name="AstraMilitarum/Mugging"
                 icon="Attributes/Morale">
@@ -221,93 +314,6 @@
 									<effects>
 										<!-- <influence add="8"/> --> 
                                         <addTrait name="AstraMilitarum/MuggingSpoils" duration="1"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
-		<!-- Downgrade or Upcharge Shot -->
-		<hammerOfWrath consumedActionPoints="0" 
-				consumedMovement="0"
-				cooldown="1"
-				name="AstraMilitarum/JopallChargeDown"
-				icon="Traits/Blinding">
-			<model>
-				<action sound="Actions/InstallSupportSystem"/>
-			</model>
-			<sharedCooldowns>
-				<action name="AstraMilitarum/JopallChargeUp"/>
-			</sharedCooldowns>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="AstraMilitarum/JopallChargeDown" duration="1"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</hammerOfWrath>
-		<!-- Charge up shot -->
-		<hammerOfWrath consumedActionPoints="0" 
-				consumedMovement="0"
-				cooldown="1"
-				name="AstraMilitarum/JopallChargeUp"
-				icon="Traits/DestroyerWeapon">
-			<model>
-				<action sound="Actions/InstallSupportSystem"/>
-			</model>
-			<modifiers>
-				<modifier visible="1">
-					<effects>
-						<influenceCost base="10"/>
-					</effects>
-				</modifier>
-			</modifiers>
-			<sharedCooldowns>
-				<action name="AstraMilitarum/JopallChargeDown"/>
-			</sharedCooldowns>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="AstraMilitarum/JopallChargeUp" duration="1"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</hammerOfWrath>
-		<!-- Move after shot -->
-		<genericUnitAbility consumedActionPoints="1"
-				cooldown="1"
-				name="AstraMilitarum/Reposition"
-				icon="Traits/Fleet">
-			<model>
-				<action sound="Actions/FadeAway"/>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="1" name="Fleet"/>
 									</effects>
 								</modifier>
 							</modifiers>
