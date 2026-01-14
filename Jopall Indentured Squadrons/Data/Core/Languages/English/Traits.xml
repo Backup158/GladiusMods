@@ -22,7 +22,7 @@
 	<entry name="AstraMilitarum/MuggingSpoilsFlavor" value="The snakes from Jopall gleefully count their ill-gotten gains, without a care for the troopers they left bruised and bloody."/>
 	<!-- Charge up and down -->
 	<entry name="AstraMilitarum/JopallChargeUp" value="Overcharged Weapon"/>
-	<entry name="AstraMilitarum/JopallChargeUpFlavor" value="<string name='Actions/JopallChargeUpFlavor'/>"/>
+	<entry name="AstraMilitarum/JopallChargeUpFlavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
 	<entry name="AstraMilitarum/JopallChargeDown" value="Undercharged Weapon"/>
-	<entry name="AstraMilitarum/JopallChargeDownFlavor" value="<string name='Actions/JopallChargeUpFlavor'/>"/>
+	<entry name="AstraMilitarum/JopallChargeDownFlavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
 </language>
