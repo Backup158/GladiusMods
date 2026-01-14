@@ -14,6 +14,9 @@
 						<noAttacking/>
 						<trait name="Fortification"/>
 					</opponent>
+					<weapon>
+						<noTrait name="Bomb"/>
+					</weapon>
 				</encounter>
 			</conditions>
 			<effects>
@@ -31,6 +34,9 @@
 						<trait name="Vehicle"/>
 					</opponent>
 				</encounter>
+				<weapon>
+					<noTrait name="Bomb"/>
+				</weapon>
 			</conditions>
 			<effects>
 				<damage mul="0.25"/>

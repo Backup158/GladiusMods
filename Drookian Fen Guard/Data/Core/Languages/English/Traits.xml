@@ -4,7 +4,7 @@
     <entry name="AstraMilitarum/DrookianDescription" value="Drookians gain increased accuracy while Overwatching and increased damage when attacking Forests, but lose morale when near non-Drookians unless in the prescence of a Commissar."/>
     <entry name="AstraMilitarum/DrookianFlavor" value="Hardened by the harsh swamps of their homeworld, Drookians are expert ambushers and scouts. With this lifetime of wading through swamps, Drookians have also learned that any lofty ideals of &quot;humanity's brotherhood&quot; are barely worth the paper they're printed on. Drookians find that true loyality and brotherhood is found within your clan, making them greatly distrusting of foreigners. While individually courageous, when the cards are on the table, they would much rather flee and live for their clan. To die for some distant, uncaring God-Emperor, they need proper... motivation."/>
     <entry name="AstraMilitarum/DrookianSaboteur" value="Drookian Saboteur"/>
-    <entry name="AstraMilitarum/DrookianSaboteurDescription" value="Increased damage against vehicles. Greatly increased damage against Fortifications"/>
+    <entry name="AstraMilitarum/DrookianSaboteurDescription" value="Increased damage against vehicles. Greatly increased damage against Fortifications. Does not apply to grenades."/>
     <entry name="AstraMilitarum/DrookianSaboteurFlavor" value="Back on Drook VI, identifying and exploiting the smallest cracks can send even the greatest walls crashing into the bog."/>
     <entry name="Harassed" value="Harassed"/>
     <entry name="HarassedDescription" value="Loses morale every turn and has decreased accuracy."/>
