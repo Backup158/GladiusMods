@@ -217,6 +217,7 @@
 			</beginTargets>
 		</hammerOfWrath>
 		<!-- Move after shot -->
+		<!--
 		<genericUnitAbility consumedActionPoints="0"
 				requiredActionPoints="0"
 				cooldown="1"
@@ -247,6 +248,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
+		-->
 		<!-- Mugging Ability -->
         <genericUnitAbility 
                 name="AstraMilitarum/Mugging"
