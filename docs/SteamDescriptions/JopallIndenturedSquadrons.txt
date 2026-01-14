@@ -1,0 +1,26 @@
+Adds Jopall Indentured Squadrons (Ratling alternative) to the Astra Militarum.
+
+Jopall Indentured Squadrons are marksmen hailing from the agri-world of Jopall, located within the Armageddon Subsector. Every person on Jopall is born into debt, due to the resources used by their birth. Each person's goal is to work until their debt is repaid, which is convenient for Guard recruiters. 
+
+Debts can only be repaid in coin, and killing is paid in coin[spoiler]([i]Jopall's Cut[/i]: Units cost influence upkeep, but gain influence on combat. Gain rate is improved when researching Hotshot Power Packs. Upon killing an enemy hero, gain a lump sum)[/spoiler].
+
+They prefer defensive actions, which has made them adept at quickly setting up their counter-fire positions when in friendly territory[spoiler]([i]Urban Marksman[/i]: Ignores accuracy penalties from moving when near allied cities)[/spoiler]. On the defence, they can move a short distance after firing[spoiler]([i]Reposition[/i]: Shooting only take 2 movement points)[/spoiler].
+As residents of the Armageddon Subsector, they are in close proximity to frequent action against Orks. As such, they've grown to quickly identify weak spots[spoiler]([i]Ork Exterminators[/i]: Increased accuracy against Orks)[/spoiler].
+
+Jopall Indentured Squadrons can use standard Astra Militarum equipment, such as Frag Grenades, but they must pay the Quartermaster before doing so. At times, those grenades are suspiciously available, so they may not have even come from official stockpiles...[spoiler]They can use grenades without needing research.[/spoiler]
+As every shot is another debt to repay, they have become expert marksmen and armed themselves with Designated Marksman Lasguns, which come with the ability to tweak the amount of charge consumed[spoiler]([u]Overcharge[/u] and [u]Undercharge[/u]: Free action to modify damage by 25%)[/spoiler].
+
+Nothing will stop them from repaying their debts, not even their comrades in arms. Jopall Indentured Squadrons can rough up an allied infantry unit to steal their money[spoiler]([u]Shakedown[/u]: Target an adjacent allied infantry and deal 4 hp damage and breaks morale. Gains 4 influence on the next turn.)[/spoiler]. However, if a Commissar witnesses such behavior, the only payment they'll find is a bolt shell to the head[spoiler](Commissar is within 2 tiles)[/spoiler].
+
+[h1]Research[/h1]
+Ratling (T1) ==> Jopall Indentured Squadrons 
+Hotshot Power Packs (T4) ==> Increased penetration for Jopall Pattern Designated Marksman Lasguns. Increased influence gain from combat
+Other research upgrades that affect Guardsmen will also affect Jopall Indentured Squadrons
+
+[h1]Misc Details[/h1]
+Requires [b]Specialist Pack DLC[/b] for Ratling research. They're both Sniper units, so I didn't want to make the Jopall Indentured Squadrons available without that research. 
+
+Reuses default Guardsman models.
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url] is supported. Load order shouldn't matter but I have this above it.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url] is supported. Load order doesn't matter.
