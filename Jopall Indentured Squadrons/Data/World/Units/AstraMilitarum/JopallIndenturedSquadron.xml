@@ -218,7 +218,7 @@
 		</hammerOfWrath>
 		<!-- Move after shot -->
 		<genericUnitAbility consumedActionPoints="0"
-				consumedMovement="0"
+				requiredActionPoints="0"
 				cooldown="1"
 				name="AstraMilitarum/Reposition"
 				icon="Traits/Fleet">
