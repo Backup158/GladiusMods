@@ -12,4 +12,19 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<!-- Grant bounty on Hero killed -->
+	<onEnemyKilledSelfModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Hero"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/JopallBounty" duration="1"/>
+			</effects>
+		</modifier>
+	</onEnemyKilledSelfModifiers>
 </trait>

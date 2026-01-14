@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visibilityCategory="Unit" category="Buff" icon="Actions/Shop">
+	<modifiers>
+		<modifier>
+			<effects>
+				<influence add="30"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
