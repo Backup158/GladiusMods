@@ -89,8 +89,7 @@
 						soundCount="4"/>
 			</model>
 		</move>
-        <throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-				requiredUpgrade="AstraMilitarum/FragGrenade">
+        <throwGrenade weaponSlotName="FragGrenade" cooldown="10">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"/>
@@ -104,8 +103,7 @@
 				</modifier>
 			</modifiers>
 		</throwGrenade>
-		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
-				requiredUpgrade="AstraMilitarum/KrakGrenade">
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"/>
