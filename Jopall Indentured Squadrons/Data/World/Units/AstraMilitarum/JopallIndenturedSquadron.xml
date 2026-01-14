@@ -292,6 +292,30 @@
 				</selfTarget>
 			</beginTargets>
 		</hammerOfWrath>
+		<!-- Move after shot -->
+		<genericUnitAbility consumedActionPoints="1"
+				cooldown="1"
+				name="AstraMilitarum/Reposition"
+				icon="Traits/Fleet">
+			<model>
+				<action sound="Actions/FadeAway"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Fleet"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>

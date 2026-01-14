@@ -3,6 +3,9 @@
 	<entry name="AstraMilitarum/Mugging" value="Shakedown"/>
 	<entry name="AstraMilitarum/MuggingDescription" value="Damages health and morale of an allied unit for influence (granted on the next turn). Executed if done within 2 tiles of a Commissar."/>
 	<entry name="AstraMilitarum/MuggingFlavor" value="The Jopall Indentured Squadrons will take any opportunity to repay their debts, even if it means stealing from their comrades. Of course, it's best to do so away from the watchful eyes of any Commissars..."/>
+	<entry name="AstraMilitarum/Reposition" value="Reposition"/>
+	<entry name="AstraMilitarum/RepositionDescription" value="Slightly reposition after a shot."/>
+	<entry name="AstraMilitarum/RepositionFlavor" value="Marksmen are trained to reposition after every shot, to avoid enemy counteraction."/>
 	<!-- Charge Shots -->
 	<entry name="AstraMilitarum/JopallChargeUp" value="Overcharge"/>
 	<entry name="AstraMilitarum/JopallChargeUpDescription" value="Increase damage dealt and resources spent."/>
