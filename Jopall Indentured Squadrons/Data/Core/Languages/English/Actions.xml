@@ -3,4 +3,11 @@
 	<entry name="AstraMilitarum/Mugging" value="Shakedown"/>
 	<entry name="AstraMilitarum/MuggingDescription" value="Damages health and morale of an allied unit for influence (granted on the next turn). Executed if done within 2 tiles of a Commissar."/>
 	<entry name="AstraMilitarum/MuggingFlavor" value="The Jopall Indentured Squadrons will take any opportunity to repay their debts, even if it means stealing from their comrades. Of course, it's best to do so away from the watchful eyes of any Commissars..."/>
+	<!-- Charge Shots -->
+	<entry name="AstraMilitarum/JopallChargeUp" value="Overcharge"/>
+	<entry name="AstraMilitarum/JopallChargeUpDescription" value="Increase damage dealt and resources spent."/>
+	<entry name="AstraMilitarum/JopallChargeUpFlavor" value="Every shot counts. Literally. Members of the Jopall Indentured Squadrons are even billed for the resources spent from taking a shot. The exact amount of charge used can adjusted, and shrewd marksmen make use of this ability to minimise their costs."/>
+	<entry name="AstraMilitarum/JopallChargeDown" value="Reduce Charge"/>
+	<entry name="AstraMilitarum/JopallChargeDownDescription" value="Decreases damage dealt. Gain Influence next turn."/>
+	<entry name="AstraMilitarum/JopallChargeDownFlavor" value="<string name='Actions/JopallChargeUpFlavor'/>"/>
 </language>
