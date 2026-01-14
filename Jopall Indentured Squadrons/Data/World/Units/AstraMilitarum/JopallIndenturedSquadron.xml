@@ -310,6 +310,29 @@
                                                 <type name="AstraMilitarum/LordCommissarSH"/>
                                                 <allied/>
                                             </unitsInRange>
+											<!-- Heroes of Legend Commissars -->
+											<!-- I don't have it installed so the names are wrong. these are placeholders -->
+											<unitsInRange count="1" range="2">
+                                                <type name="AstraMilitarum/CiaphasCain"/>
+                                                <allied/>
+                                            </unitsInRange>
+											<unitsInRange count="1" range="2">
+                                                <type name="AstraMilitarum/KriegMarshal"/>
+                                                <allied/>
+                                            </unitsInRange>
+											<unitsInRange count="1" range="2">
+                                                <type name="AstraMilitarum/ColonelVargrif"/>
+                                                <allied/>
+                                            </unitsInRange>
+											<!-- Backup158's Commissars -->
+											<unitsInRange count="1" range="2">
+                                                <type name="AstraMilitarum/PraetorianCommissar"/>
+                                                <allied/>
+                                            </unitsInRange>
+											<unitsInRange count="1" range="2">
+                                                <type name="AstraMilitarum/SteelLegionCommissar"/>
+                                                <allied/>
+                                            </unitsInRange>
                                         </unit>
                                     </conditions>
 									<effects>
