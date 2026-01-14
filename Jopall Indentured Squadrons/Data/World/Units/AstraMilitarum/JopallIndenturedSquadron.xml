@@ -233,7 +233,8 @@
 		<hammerOfWrath consumedActionPoints="0" 
 				consumedMovement="0"
 				cooldown="1"
-				name="AstraMilitarum/JopallChargeDown">
+				name="AstraMilitarum/JopallChargeDown"
+				icon="Traits/Blinding">
 			<model>
 				<action sound="Actions/InstallSupportSystem"/>
 			</model>
@@ -260,7 +261,8 @@
 		<hammerOfWrath consumedActionPoints="0" 
 				consumedMovement="0"
 				cooldown="1"
-				name="AstraMilitarum/JopallChargeUp">
+				name="AstraMilitarum/JopallChargeUp"
+				icon="Traits/DestroyerWeapon">
 			<model>
 				<action sound="Actions/InstallSupportSystem"/>
 			</model>
