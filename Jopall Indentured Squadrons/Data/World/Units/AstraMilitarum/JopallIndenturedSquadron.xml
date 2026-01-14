@@ -117,7 +117,7 @@
 				</modifier>
 			</modifiers>				
 		</throwGrenade>
-		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+		<mediPack cooldown="10">
 			<model>
 				<action bone="ChestBone"
 						sound="Actions/Heal"/>
