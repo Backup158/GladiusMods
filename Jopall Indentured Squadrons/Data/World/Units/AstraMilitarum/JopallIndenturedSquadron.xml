@@ -238,7 +238,7 @@
 								<modifier>
 									<effects>
 										<movementMax add="1"/>
-										<movement add="1"/>
+										<movement add="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
