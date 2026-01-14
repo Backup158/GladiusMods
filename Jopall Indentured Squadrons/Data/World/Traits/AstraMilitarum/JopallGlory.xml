@@ -3,7 +3,12 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<influencePerCombatFromUpkeepFactor add="4.0"/> <!-- Boyz add 3.0 but have upgrades -->
+				<influencePerCombatFromUpkeepFactor add="3.0"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/LasDamage"> <!-- T4 instead of T5 -->
+			<effects>
+				<influencePerCombatFromUpkeepFactor mul="0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>
