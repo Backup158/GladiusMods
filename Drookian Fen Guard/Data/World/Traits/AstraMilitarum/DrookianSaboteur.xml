@@ -14,9 +14,6 @@
 						<noAttacking/>
 						<trait name="Fortification"/>
 					</opponent>
-					<weapon>
-						<noTrait name="Bomb"/>
-					</weapon>
 				</encounter>
 			</conditions>
 			<effects>
