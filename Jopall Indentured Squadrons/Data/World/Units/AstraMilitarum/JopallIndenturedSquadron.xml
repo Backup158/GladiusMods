@@ -256,6 +256,7 @@
 				</selfTarget>
 			</beginTargets>
 		</hammerOfWrath>
+		<!-- Charge up shot -->
 		<hammerOfWrath consumedActionPoints="0" 
 				consumedMovement="0"
 				cooldown="1"
@@ -263,6 +264,13 @@
 			<model>
 				<action sound="Actions/InstallSupportSystem"/>
 			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<influenceCost base="10"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<sharedCooldowns>
 				<action name="AstraMilitarum/JopallChargeDown"/>
 			</sharedCooldowns>
