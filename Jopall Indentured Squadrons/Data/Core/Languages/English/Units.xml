@@ -3,4 +3,7 @@
 	<entry name="AstraMilitarum/JopallIndenturedSquadron" value="Jopall Indentured Squadron"/>
 	<entry name="AstraMilitarum/JopallIndenturedSquadronDescription" value="Marksmen specialising in urban defence and fighting Orks. Costs influence, but generates influnce from fighting. Maintains accurancy after moving, if near allied cities."/>
 	<entry name="AstraMilitarum/JopallIndenturedSquadronFlavor" value="Jopall Indentured Squadrons, hailing from the Armageddon Subsector, are born into debt. Every soul's purpose in life is to repay their debt, and it just so happens that the Guard offers an enticing salary. Fellow Guardsmen dislike working with them due to their stinginess and lack of commitment, but most change their tune when their assailants are cut down by precise las-fire."/>
+	<entry name="AstraMilitarum/BattalionJopallIndenturedSquadron" value="Battalion of Jopall Indentured Squadrons"/>
+	<entry name="AstraMilitarum/BattalionJopallIndenturedSquadronDescription" value="<string name='Units/AstraMilitarum/JopallIndenturedSquadronDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionJopallIndenturedSquadronFlavor" value="<string name='Units/AstraMilitarum/JopallIndenturedSquadronFlavor'/>"/>
 </language>
