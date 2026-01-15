@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="MaccabianLasgun" value="Sollex Pattern-IX &quot;Death Light&quot; Lasgun"/>
+	<entry name="MaccabianLasgun" value="Maccabian Anointed Lasgun"/>
 	<entry name="MaccabianLasgunDescription" value="Similar to a bolter."/>
-	<entry name="MaccabianLasgunFlavor" value=""/>
+	<entry name="MaccabianLasgunFlavor" value="Maccabian Jannisaries are armed with anointed lasguns for their crusades. On Maccabeus Quintus, tech-priests of the Adeptus Mechanicus and preachers of the Adeptus Ministorum have crafted a pipeline of prayers for these weapons. Based on the standard M36 Pattern Lasguns, these lasguns are taken through numerous holy rituals in honour of Saint Drusus, which ends in anointing with sacred oils and attaching a third-class relic to the receiver. These blessed weapons, carried by the pious crusaders, shine the Emperor's Light and Wrath upon any unholy forces."/>
 </language>
