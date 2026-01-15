@@ -19,7 +19,7 @@ No custom models. Chances of me making them are slim (because I'm lazy and don't
 [/td]
 [/tr]
 [tr] 
-[td]T2: [b]Praetorian Maksim Stubgun Squads[/b] - Heavy Weapons Squads alternative with a machine gun that chews through enemy infantry (Heavy Stubber that pins enemies and does extra damage against Infantry). Unlocks at [u]Heavy Weapons Squads[/u] but uses the Field Ordnance Battery models.
+[td]T2: [b]Praetorian Maksim Stubgun Squads[/b] - Heavy Weapons Squads alternative with a machine gun that chews through enemy infantry[spoiler](Heavy Stubber that pins enemies and does extra damage against Infantry)[/spoiler]. Unlocks at [u]Heavy Weapons Squads[/u] but uses the Field Ordnance Battery models.
 [/td]
 [/tr]
 [tr] 
