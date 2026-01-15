@@ -36,4 +36,23 @@
 	<entry name="AstraMilitarum/SteelLegionCommissar" value="Steel Legion Commissar"/>
 	<entry name="AstraMilitarum/SteelLegionCommissarDescription" value="<string name='Units/AstraMilitarum/LordCommissar'/> Uses passive buffs that affects infantry and vehicles, especially for members of the Steel Legion."/>
 	<entry name="AstraMilitarum/SteelLegionCommissarFlavor" value="The Steel Legion's operations require stellar cooperation between the infantry and vehicles, leaving little room for undisciplined troops. Steel Legion Commissars have become adept at cracking down on both types of troops. While tankers may feel safe inside their armoured hulls, everyone needs to sleep, and being dragged up the hatch by your hair is quite the unpleasant experience. Once outside, tank crews are flesh and bone like any other, and bolt shells don't discriminate. Rumours even tell of one crew that was flattened by their own Leman Russ tank, with orders given to leave their blood and guts unwashed."/>
+
+	<!-- Reinforcements Integration -->
+	<!-- 	Infantry -->
+	<entry name="AstraMilitarum/BattalionSteelLegionnaire" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionnaire'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionnaireDescription" value="<string name='Units/AstraMilitarum/SteelLegionnaireDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionnaireFlavor" value="<string name='Units/AstraMilitarum/SteelLegionnaireFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquad" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionPurgationSquad'/>s"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadDescription" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadFlavor" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonOrkHunters" value="Battalion of <string name='Units/AstraMilitarum/ArmageddonOrkHunters'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonOrkHuntersDescription" value="<string name='Units/AstraMilitarum/ArmageddonOrkHuntersDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonOrkHuntersFlavor" value="<string name='Units/AstraMilitarum/ArmageddonOrkHuntersFlavor'/>"/>
+	<!-- 	Vehicles -->
+	<entry name="AstraMilitarum/BattalionArmageddonChimera" value="Battalion of <string name='Units/AstraMilitarum/ArmageddonChimera'/>s"/>
+	<entry name="AstraMilitarum/BattalionArmageddonChimeraDescription" value="<string name='Units/AstraMilitarum/ArmageddonChimeraDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonChimeraFlavor" value="<string name='Units/AstraMilitarum/ArmageddonChimeraFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonBasilisk" value="Battalion of <string name='Units/AstraMilitarum/ArmageddonBasilisk'/>s"/>
+	<entry name="AstraMilitarum/BattalionArmageddonBasiliskDescription" value="<string name='Units/AstraMilitarum/ArmageddonBasiliskDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonBasiliskFlavor" value="<string name='Units/AstraMilitarum/ArmageddonBasiliskFlavor'/>"/>
 </language>
