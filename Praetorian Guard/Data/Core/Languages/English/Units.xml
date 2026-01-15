@@ -15,4 +15,14 @@
     <entry name="AstraMilitarum/PraetorianCommissar" value="Praetorian Commissar"/>
     <entry name="AstraMilitarum/PraetorianCommissarDescription" value="Hero unit that provides bonuses to nearby allied units. Increased bonuses for Praetorians, but debuffs other, low morale troops."/>
     <entry name="AstraMilitarum/PraetorianCommissarFlavor" value="Praetorians, while no strangers to disproportionately harsh punishments, have their ironclad discipline forged by their Commissars. Praetorian Commissars typically descend from the more fortunate bloodlines in the hives, but that doesn't stop them from planting a boot or bolt shell into a disgraceful soldier."/>
+    <!-- Reinforcements -->
+    <entry name="AstraMilitarum/BattalionPraetorianGuardsmen" value="Battalion of Praetorian Guardsmen"/>
+    <entry name="AstraMilitarum/BattalionPraetorianGuardsmenDescription" value="<string name='Units/AstraMilitarum/PraetorianGuardsmenDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionPraetorianGuardsmenFlavor" value="<string name='Units/AstraMilitarum/PraetorianGuardsmenFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionPraetorianGrenadier" value="Battalion of Praetorian Grenadiers"/>
+    <entry name="AstraMilitarum/BattalionPraetorianGrenadierDescription" value="<string name='Units/AstraMilitarum/PraetorianGrenadierDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionPraetorianGrenadierFlavor" value="<string name='Units/AstraMilitarum/PraetorianGrenadierFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionPraetorianHeavyGunnerSquad" value="Battalion of Praetorian Maksim Stubgun Squads"/>
+    <entry name="AstraMilitarum/BattalionPraetorianHeavyGunnerSquadDescription" value="<string name='Units/AstraMilitarum/PraetorianHeavyGunnerSquadDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionPraetorianHeavyGunnerSquadFlavor" value="<string name='Units/AstraMilitarum/PraetorianHeavyGunnerSquadFlavor'/>"/>
 </language>
