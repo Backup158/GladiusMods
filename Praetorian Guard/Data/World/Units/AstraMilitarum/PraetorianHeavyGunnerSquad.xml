@@ -11,7 +11,7 @@
 				explosionsBone="Gun"
 				walker="1"/>
 	</model>
-	<group size="2" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
+	<group size="4" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
 	<weapons>
 		<weapon name="AstraMilitarum/MaximGun">
 			<model>
