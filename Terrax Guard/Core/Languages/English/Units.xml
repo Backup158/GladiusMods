@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/TerraxGuardsman" value="Terrax Guardsmen"/>
+	<entry name="AstraMilitarum/TerraxGuardsmanDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxGuardsmanFlavor" value=""/>
+	<entry name="AstraMilitarum/BattalionTerraxGuardsman" value="Battalion of <string name='Units/AstraMilitarum/TerraxGuardsman'/>"/>
+	<entry name="AstraMilitarum/BattalionTerraxGuardsmanDescription" value="<string name='Units/AstraMilitarum/TerraxGuardsmanDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionTerraxGuardsmanFlavor" value="<string name='Units/AstraMilitarum/TerraxGuardsmanFlavor'/>"/>
+</language>
