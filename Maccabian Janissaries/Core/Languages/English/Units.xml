@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/MaccabianJannisary" value="Maccabian Jannisaries"/>
+	<entry name="AstraMilitarum/MaccabianJannisaryDescription" value=""/>
+	<entry name="AstraMilitarum/MaccabianJannisaryFlavor" value=""/>
+	<entry name="AstraMilitarum/BattalionMaccabianJannisary" value="Battalion of <string name='Units/AstraMilitarum/MaccabianJannisary'/>"/>
+	<entry name="AstraMilitarum/BattalionMaccabianJannisaryDescription" value="<string name='Units/AstraMilitarum/MaccabianJannisaryDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionMaccabianJannisaryFlavor" value="<string name='Units/AstraMilitarum/MaccabianJannisaryFlavor'/>"/>
+</language>
