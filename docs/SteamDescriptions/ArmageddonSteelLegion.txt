@@ -80,7 +80,11 @@ Assault Pack DLC, [b]Hard Requirement[/b]: Chimera
 Reinforcements DLC: Tempestus Scions
 
 These units are based on squad sizes in vanilla Gladius. The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349345480]Extras addon[/url] is based on Extra Militarum and Sneaky Stormtroopers.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386427212]Gladius+ patch[/url]. Voices used are listed in the discusion thread.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386427212]Gladius+ patch[/url]. 
 
 There is a standalone Fortress of Arrogance mod (from the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3104947090]Rogue Trader unit pack[/url]) on the Workshop already. I wanted to have my own implementation for abilities (and looking at the comments, it has some issues), but that one has a custom model, if you prefer that.
 https://steamcommunity.com/sharedfiles/filedetails/?id=3141151458
+
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Voices used are listed in the discusion thread.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter. 
