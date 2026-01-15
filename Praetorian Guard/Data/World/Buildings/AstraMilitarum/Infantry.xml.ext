@@ -3,7 +3,7 @@
 	<actions>
 		<produceUnit unit="AstraMilitarum/PraetorianGuardsmen"/>
 		<produceUnit unit="AstraMilitarum/PraetorianHeavyGunnerSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad"/>
-		<produceUnit unit="AstraMilitarum/PraetorianGrenadier" requiredUpgrade="AstraMilitarum/FragGrenade"/>
+		<produceUnit unit="AstraMilitarum/PraetorianGrenadier" requiredUpgrade="AstraMilitarum/KrakGrenade"/>
 		<produceUnit unit="AstraMilitarum/PraetorianHussar" requiredUpgrade="AstraMilitarum/AttilanRoughRider"/>
 	</actions>
 </building>
