@@ -13,7 +13,7 @@
 	</model>
 	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="HotShotLasgun">
+		<weapon name="MaccabianLasgun">
 			<model>
 				<beamWeapon muzzleBone=".Muzzle"
 						fireInterval="0.3"/>
