@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<produceUnit unit="AstraMilitarum/BattalionPraetorianGuardsmen"/>
+		<produceUnit unit="AstraMilitarum/BattalionPraetorianHeavyGunnerSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad"/>
+		<produceUnit unit="AstraMilitarum/BattalionPraetorianGrenadier" requiredUpgrade="AstraMilitarum/KrakGrenade"/>
+	</actions>
+</building>
