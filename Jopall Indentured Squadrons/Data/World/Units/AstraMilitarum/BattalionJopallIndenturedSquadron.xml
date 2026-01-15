@@ -38,7 +38,7 @@
 			<effects>
 				<armor base="4"/> <!-- %armor base armor=5+ -->
 				<foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=5 factor=1 -->
-                <influenceUpkeep base="8.0"/> <!-- Flashgitz-->
+                <influenceUpkeep base="8.0"/> <!-- Flashgitz is 2. Food upkeep is x6 but Direct cost is x4 to get to 60. I'd rather not have 12 upkeep since the gain would be insane -->
 				<foodCost base="60.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
 				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=2 wounds=1 -->
 				<meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
