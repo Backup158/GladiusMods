@@ -22,5 +22,6 @@ Requires [b]Specialist Pack DLC[/b] for Ratling research. They're both Sniper un
 
 Reuses default Guardsman models.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url] is supported. Load order shouldn't matter but I have this above it.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url] is supported. Load order doesn't matter.
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Guardsmen lines.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter.

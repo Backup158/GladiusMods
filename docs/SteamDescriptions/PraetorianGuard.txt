@@ -32,4 +32,6 @@ No custom models. Chances of me making them are slim (because I'm lazy and don't
 Demolition Pack DLC: Field Ordnance Battery models. May not actually be required.
 Onslaught Pack DLC: Atillan Rough Rider tech for Hussars.
 
-I barely get to play this game nowadays so let me know if there's anything wildly unbalanced! I should probably increase the cost even more
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter.
