@@ -37,7 +37,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="4"/> <!-- %armor base armor=5+ -->
-				<foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+				<foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=5 factor=1 -->
                 <influenceUpkeep base="8.0"/> <!-- Flashgitz-->
 				<foodCost base="60.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
 				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=2 wounds=1 -->
