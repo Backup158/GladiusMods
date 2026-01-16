@@ -15,33 +15,25 @@
 	<weapons>
 		<weapon name="MaccabianLasgun" slotName="Lasgun">
 			<model>
-				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
-						material="Weapons/AstraMilitarum/GuardsmanLasgun"
-						muzzleBone="GuardsmanLasgunMuzzle0"
+				<beamWeapon muzzleBone=".Muzzle"
 						fireInterval="0.3"/>
 			</model>
 		</weapon>
 		<weapon name="MaccabianKrakGrenadeLauncher" slotName="KrakGrenadeLauncher" enabled="0">
 			<model>
-				<missileWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
-						material="Weapons/AstraMilitarum/GuardsmanLasgun"
-						muzzleBone="GuardsmanLasgunMuzzle0"
+				<missileWeapon muzzleBone=".Muzzle"
 						fireInterval="1.0"/>
 			</model>			
 		</weapon>
 		<weapon name="MaccabianFragGrenadeLauncher" slotName="FragGrenadeLauncher" enabled="0">
 			<model>
-				<missileWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
-						material="Weapons/AstraMilitarum/GuardsmanLasgun"
-						muzzleBone="GuardsmanLasgunMuzzle0"
+				<missileWeapon muzzleBone=".Muzzle"
 						fireInterval="1.0"/>
 			</model>			
 		</weapon>
 		<weapon name="MaccabianFireGrenadeLauncher" slotName="FireGrenadeLauncher" enabled="0">
 			<model>
-				<missileWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
-						material="Weapons/AstraMilitarum/GuardsmanLasgun"
-						muzzleBone="GuardsmanLasgunMuzzle0"
+				<missileWeapon muzzleBone=".Muzzle"
 						fireInterval="1.0"/>
 			</model>
 		</weapon>
@@ -226,6 +218,7 @@
 		<trait name="MoveThroughCover"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
+		<trait name="AstraMilitarum/MaccabianJannisary"/>
 		<trait name="AstraMilitarum/ShieldOfFaith"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
