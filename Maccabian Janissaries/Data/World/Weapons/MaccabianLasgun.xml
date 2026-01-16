@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
 	<model>
-		<projectileWeapon fireSound="Weapons/Boltgun"
-				fireSoundCount="13"/>
+		<projectileWeapon fireSound="Weapons/Lasgun"
+		 		fireSoundCount="6"/>
 	</model>
 	<modifiers>
 		<modifier>
@@ -16,11 +16,9 @@
 	</modifiers>
 	<target rangeMax="2"/>
 	<traits>
-		<trait name="AstraMilitarum/BoltDamage" requiredUpgrade="AstraMilitarum/BoltDamage"/>
-		<trait name="ChaosSpaceMarines/BoltDamage" requiredUpgrade="ChaosSpaceMarines/BoltDamage"/>
-		<trait name="SpaceMarines/BoltDamage" requiredUpgrade="SpaceMarines/BoltDamage"/>
-		<trait name="SistersOfBattle/AssaultWeaponBonus" requiredUpgrade="SistersOfBattle/AssaultWeaponBonus"/>
-		<trait name="BoltWeapon"/>
+		<trait name="AstraMilitarum/LasDamage" requiredUpgrade="AstraMilitarum/LasDamage"/>
+		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
+		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
 		<trait name="RapidFire"/>
 	</traits>
 </weapon>
