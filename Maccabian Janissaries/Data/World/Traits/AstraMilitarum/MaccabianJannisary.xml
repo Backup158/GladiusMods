@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait icon="Units/AstraMilitarum/MaccabianJannisary">
 	<modifiers>
+		<!-- Ancient Doom -->
 		<modifier>
 			<conditions>
 				<encounter>
@@ -17,6 +18,21 @@
 			<effects>
 				<accuracy mul="0.17"/>
 				<damageTaken mul="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Bolter Discipline -->
+		<modifier>
+			<conditions>
+				<unit>
+					<notMovedThisTurn/>
+				</unit>
+				<weapon>
+					<trait name="RapidFire"/>
+				</weapon>
+				<encounterRange greater="1"/>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="1"/>
 			</effects>
 		</modifier>
 	</modifiers>
