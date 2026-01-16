@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="AstraMilitarum/Pray" value="Pray"/>
-	<entry name="AstraMilitarum/PrayDescription" value=""/>
-	<entry name="AstraMilitarum/PrayFlavor" value=""/>
+	<entry name="AstraMilitarum/PrayDescription" value="Temporarily gains Prayed, which allows the unit to perform normally. Temporarily gains increased defences for one turn. Restores morale."/>
+	<entry name="AstraMilitarum/PrayFlavor" value="&quot;The God-Emperor sacrificed Himself to save us all; in comparison, our offering in prayers is no effort. Come now, my brothers and sisters, offer our salutations to Him on Terra.&quot;"/>
 	<entry name="UseWeapon/KrakGrenadeLauncher" value="Use <string name='Weapons/MaccabianKrakGrenadeLauncher'/>"/>
 	<entry name="UseWeapon/KrakGrenadeLauncherDescription" value="<string name='Weapons/MaccabianKrakGrenadeLauncherDescription'/>"/>
 	<entry name="UseWeapon/KrakGrenadeLauncherFlavor" value="<string name='Weapons/MaccabianKrakGrenadeLauncherFlavor'/>"/>
