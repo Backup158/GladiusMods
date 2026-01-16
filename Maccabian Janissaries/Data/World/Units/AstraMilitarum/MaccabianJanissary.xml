@@ -50,7 +50,7 @@
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
-			<!-- Jannisaries are T8; Scions, T4 -->
+			<!-- Janissaries are T8; Scions, T4 -->
 			<!-- Making sure these stats are still human and less than Space Marines. Stats will be fudged with traits -->
 			<effects>
 				<armor base="6"/> <!-- %armor base armor=4+ -->
@@ -230,7 +230,7 @@
 		<trait name="MoveThroughCover"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
-		<trait name="AstraMilitarum/MaccabianJannisary"/>
+		<trait name="AstraMilitarum/MaccabianJanissary"/>
 		<trait name="AstraMilitarum/ShieldOfFaith"/>
 		<trait name="AstraMilitarum/MaccabianSummoningSickness"/>
 	</traits>

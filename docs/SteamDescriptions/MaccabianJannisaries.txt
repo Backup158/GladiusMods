@@ -1,11 +1,11 @@
-Adds various units from the Maccabian Jannisaries to the Astra Militarum. 
+Adds various units from the Maccabian Janissaries to the Astra Militarum. 
 
 No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
 
 [h1]Units and Unlocks[/h1]
 [table]
 [tr] 
-[td]T: [b]Maccabian Jannisaries[/b] - .
+[td]T: [b]Maccabian Janissaries[/b] - .
 [/td]
 [/tr]
 [/table]

@@ -2,6 +2,6 @@
 <building>
 	<actions>
 		<!-- T8 Infantry -->
-		<produceUnit unit="AstraMilitarum/MaccabianJannisary" requiredUpgrade="AstraMilitarum/RelicPlating"/>
+		<produceUnit unit="AstraMilitarum/MaccabianJanissary" requiredUpgrade="AstraMilitarum/RelicPlating"/>
 	</actions>
 </building>
