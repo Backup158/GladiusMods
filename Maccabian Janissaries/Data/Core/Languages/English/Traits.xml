@@ -9,7 +9,7 @@
 	<entry name="AstraMilitarum/HolyProtection" value="Holy Protection"/>
 	<!-- <entry name="AstraMilitarum/HolyProtectionDescription" value=""/> -->
 	<entry name="AstraMilitarum/HolyProtectionFlavor" value="&quot;My faith is my shield&quot;"/>
-	<entry name="AstraMilitarum/ShieldOfFaith" value="<string name='Traits/SistersOfBattle/ShieldOfFaith'/>"/>
-	<entry name="AstraMilitarum/ShieldOfFaithDescription" value="<string name='Traits/SistersOfBattle/ShieldOfFaithDescription'/>"/>
-	<entry name="AstraMilitarum/ShieldOfFaithFlavor" value="&quot;A prayer a day keeps the archenemy away&quot;"/>
+	<entry name="AstraMilitarum/MaccabianSummoningSickness" value="Warp Travel Sickness"/>
+	<entry name="AstraMilitarum/MaccabianSummoningSicknessDescription" value="Until this unit Prays, combat effectiveness is massively reduced."/>
+	<entry name="AstraMilitarum/MaccabianSummoningSicknessFlavor" value="Warp travel can be perilous, even for the most pious of souls. Ironically, some of the most faithful can be the most affected by this proximity. \"/>
 </language>
