@@ -13,11 +13,21 @@
 	</model>
 	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="MaccabianLasgun">
+		<weapon name="MaccabianLasgun" slotName="Lasgun">
 			<model>
-				<beamWeapon muzzleBone=".Muzzle"
+				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						muzzleBone="GuardsmanLasgunMuzzle0"
 						fireInterval="0.3"/>
 			</model>
+		</weapon>
+		<weapon name="MaccabianKrakGrenadeLauncher" slotName="KrakGrenadeLauncher" enabled="0">
+			<model>
+				<missileWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						muzzleBone="GuardsmanLasgunMuzzle0"
+						fireInterval="1.0"/>
+			</model>			
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
@@ -85,6 +95,8 @@
 						soundCount="4"/>
 			</model>
 		</move>
+		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="Lasgun KrakGrenadeLauncher"/>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
