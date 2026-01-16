@@ -3,9 +3,8 @@
 	<model>
 		<beamWeapon fireSound="Weapons/Lasgun"
 		 		fireSoundCount="6"
-				beamsBlueprint="Effects/YellowBeam"
-				muzzleFlashesBlueprint="Effects/YellowMuzzleFlash"/>
-				<!-- Yellow beam is the default las color. Doing this maintains consistency with Red Lasbeams mods -->
+				beamsBlueprint="Effects/LaserBeams"
+		 		muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes"/>
 	</model>
 	<modifiers>
 		<modifier>
