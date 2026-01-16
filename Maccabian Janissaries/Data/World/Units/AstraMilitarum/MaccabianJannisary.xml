@@ -210,7 +210,7 @@
 									<effects>
 										<addTrait duration="4" name="AstraMilitarum/Prayed"/>
 										<addTrait duration="1" name="AstraMilitarum/HolyProtection"/>
-										<morale add="3"/>
+										<morale add="3"/> <!-- Not enough to recover after a nuke -->
 									</effects>
 								</modifier>
 							</modifiers>
