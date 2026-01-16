@@ -206,6 +206,7 @@
 										<morale add="3"/> <!-- Not enough to recover after a nuke -->
 									</effects>
 								</modifier>
+								<!-- Summoning Sickness cripples unit before it prays -->
 								<modifier>
 									<conditions>
 										<unit>
