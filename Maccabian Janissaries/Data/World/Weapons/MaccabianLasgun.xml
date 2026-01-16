@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Weapons/Lasgun">
+<weapon icon="Weapons/Boltgun">
 	<model>
 		<beamWeapon fireSound="Weapons/Lasgun"
 		 		fireSoundCount="6"
