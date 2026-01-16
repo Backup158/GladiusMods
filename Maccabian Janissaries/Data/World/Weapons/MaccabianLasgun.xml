@@ -5,6 +5,7 @@
 		 		fireSoundCount="6"
 				beamsBlueprint="Effects/LasBeams"
 		 		muzzleFlashesBlueprint="Effects/LasMuzzleFlashes"/>
+				<!-- Las is different from laser. Data/Scene/Blueprints/World/-->
 	</model>
 	<modifiers>
 		<modifier>
