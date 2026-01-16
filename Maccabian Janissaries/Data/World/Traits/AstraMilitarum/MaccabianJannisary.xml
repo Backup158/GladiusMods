@@ -20,6 +20,20 @@
 				<damageTaken mul="0.17"/>
 			</effects>
 		</modifier>
+		<!-- Formation -->
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="AstraMilitarum/MaccabianJannisary"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAccuracy mul="0.17"/>
+			</effects>
+		</modifier>
 		<!-- Bolter Discipline -->
 		<modifier>
 			<conditions>
@@ -33,20 +47,6 @@
 			</conditions>
 			<effects>
 				<rangedAttacks mul="1"/>
-			</effects>
-		</modifier>
-		<!-- Formation -->
-		<modifier>
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="1">
-						<allied/>
-						<trait name="AstraMilitarum/MaccabianJannisary"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<rangedAccuracy mul="0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
