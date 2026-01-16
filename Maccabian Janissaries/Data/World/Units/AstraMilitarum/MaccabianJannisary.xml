@@ -210,6 +210,7 @@
 									<effects>
 										<addTrait duration="4" name="AstraMilitarum/Prayed"/>
 										<addTrait duration="1" name="AstraMilitarum/HolyProtection"/>
+										<morale add="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
