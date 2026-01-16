@@ -231,6 +231,7 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
 		<trait name="AstraMilitarum/MaccabianJannisary"/>
+		<trait name="AstraMilitarum/ShieldOfFaith"/>
 		<trait name="AstraMilitarum/MaccabianSummoningSickness"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
