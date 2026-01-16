@@ -29,6 +29,22 @@
 						fireInterval="1.0"/>
 			</model>			
 		</weapon>
+		<weapon name="MaccabianFragGrenadeLauncher" slotName="FragGrenadeLauncher" enabled="0">
+			<model>
+				<missileWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						muzzleBone="GuardsmanLasgunMuzzle0"
+						fireInterval="1.0"/>
+			</model>			
+		</weapon>
+		<weapon name="MaccabianFireGrenadeLauncher" slotName="FireGrenadeLauncher" enabled="0">
+			<model>
+				<missileWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						muzzleBone="GuardsmanLasgunMuzzle0"
+						fireInterval="1.0"/>
+			</model>			
+		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
 				<grenadeWeapon muzzleBone="BloodBone"/>
@@ -96,7 +112,7 @@
 			</model>
 		</move>
 		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
-				weaponSlotNames="Lasgun KrakGrenadeLauncher"/>
+				weaponSlotNames="Lasgun KrakGrenadeLauncher FragGrenadeLauncher FireGrenadeLauncher"/>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
