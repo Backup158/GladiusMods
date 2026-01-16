@@ -226,7 +226,7 @@
 		<trait name="MoveThroughCover"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
-		<trait name="Prayed" duration="3"/>
+		<trait name="AstraMilitarum/ShieldOfFaith"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
