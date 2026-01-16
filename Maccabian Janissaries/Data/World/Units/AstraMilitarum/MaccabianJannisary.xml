@@ -206,6 +206,16 @@
 										<morale add="3"/> <!-- Not enough to recover after a nuke -->
 									</effects>
 								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="AstraMilitarum/MaccabianSummoningSickness"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="AstraMilitarum/MaccabianSummoningSickness"/>
+									</effects>
+								</modifier>
 							</modifiers>
 						</area>
 					</areas>
@@ -219,7 +229,7 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
 		<trait name="AstraMilitarum/MaccabianJannisary"/>
-		<trait name="AstraMilitarum/ShieldOfFaith"/>
+		<trait name="AstraMilitarum/MaccabianSummoningSickness"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
