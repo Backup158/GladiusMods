@@ -6,7 +6,7 @@
 	<entry name="AstraMilitarum/Prayed" value="Prayed"/>
 	<entry name="AstraMilitarum/PrayedDescription" value="Unit has prayed. On loss of this trait, lose all morale."/>
 	<entry name="AstraMilitarum/PrayedFlavor" value="&quot;A prayer a day keeps the archenemy away&quot;"/>
-	<entry name="AstraMilitarum/HolyProtection" value="Holy Protection"/>
+	<entry name="AstraMilitarum/HolyProtection" value="Intercession of Saint Dresus"/>
 	<!-- <entry name="AstraMilitarum/HolyProtectionDescription" value=""/> -->
 	<entry name="AstraMilitarum/HolyProtectionFlavor" value="&quot;My faith is my shield&quot;"/>
 	<entry name="AstraMilitarum/MaccabianSummoningSickness" value="Warp Travel Sickness"/>
