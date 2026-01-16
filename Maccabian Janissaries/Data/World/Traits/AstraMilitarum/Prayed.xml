@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Actions/AstraMilitarum/Pray">
+    <modifiers>
+		<modifier>
+			<effects>
+				<moraleMax add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
     <!-- When not prayed, morale nuke -->
     <onTraitRemovedModifiers>
 		<modifier>
