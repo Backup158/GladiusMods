@@ -3,8 +3,8 @@
 	<model>
 		<beamWeapon fireSound="Weapons/Lasgun"
 		 		fireSoundCount="6"
-				beamsBlueprint="Effects/LaserBeams"
-		 		muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes"/>
+				beamsBlueprint="Effects/LasBeams"
+		 		muzzleFlashesBlueprint="Effects/LasMuzzleFlashes"/>
 	</model>
 	<modifiers>
 		<modifier>
