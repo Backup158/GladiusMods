@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/AstraMilitarum/Pray">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent match="Any">
+						<faction name="ChaosSpaceMarines"/>
+                        <!-- Somewhat support modded factions-->
+                        <trait name="ChaosSpaceMarines/MarkOfKhorne"/>
+                        <trait name="ChaosSpaceMarines/MarkOfNurgle"/>
+                        <trait name="ChaosSpaceMarines/MarkOfSlaanesh"/>
+                        <trait name="ChaosSpaceMarines/MarkOfTzeentch"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+                <!-- I hope this means some psychic attacks can bypass this -->
+                <rangedDamageReduction add="0.17"/>
+                <meleeDamageReduction add="0.33"/>
+				<damageTaken mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+    <!-- When not prayed, morale nuke -->
+    <onTraitRemovedModifiers>
+		<modifier>
+			<effects>
+				<morale add="-60"/>
+			</effects>
+		</modifier>
+	</onTraitRemovedModifiers>
+</trait>

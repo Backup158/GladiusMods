@@ -3,4 +3,7 @@
 	<entry name="AstraMilitarum/MaccabianJannisary" value=""/>
 	<entry name="AstraMilitarum/MaccabianJannisaryDescription" value=""/>
 	<entry name="AstraMilitarum/MaccabianJannisaryFlavor" value=""/>
+	<entry name="AstraMilitarum/Prayed" value="Prayed"/>
+	<entry name="AstraMilitarum/PrayedDescription" value=""/>
+	<entry name="AstraMilitarum/PrayedFlavor" value=""/>
 </language>
