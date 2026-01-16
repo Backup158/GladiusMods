@@ -21,19 +21,19 @@
 		</weapon>
 		<weapon name="MaccabianKrakGrenadeLauncher" slotName="KrakGrenadeLauncher" enabled="0">
 			<model>
-				<missileWeapon muzzleBone=".Muzzle"
+				<grenadeWeapon muzzleBone=".Muzzle"
 						fireInterval="1.0"/>
 			</model>			
 		</weapon>
 		<weapon name="MaccabianFragGrenadeLauncher" slotName="FragGrenadeLauncher" enabled="0">
 			<model>
-				<missileWeapon muzzleBone=".Muzzle"
+				<grenadeWeapon muzzleBone=".Muzzle"
 						fireInterval="1.0"/>
 			</model>			
 		</weapon>
 		<weapon name="MaccabianFireGrenadeLauncher" slotName="FireGrenadeLauncher" enabled="0">
 			<model>
-				<missileWeapon muzzleBone=".Muzzle"
+				<grenadeWeapon muzzleBone=".Muzzle"
 						fireInterval="1.0"/>
 			</model>
 		</weapon>
