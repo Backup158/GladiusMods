@@ -117,7 +117,8 @@
 		-->
 		<useWeapon cooldown="3"
 				consumedActionPoints="1"
-				weaponSlotName="KrakGrenadeLauncher">
+				weaponSlotName="KrakGrenadeLauncher"
+				icon="Weapons/MaccabianKrakGrenadeLauncher">
 			<model>
 				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
 						beginFire="1.0" endFire="1.5"/>
@@ -129,7 +130,8 @@
 		</useWeapon>
 		<useWeapon cooldown="3"
 				consumedActionPoints="1"
-				weaponSlotName="FragGrenadeLauncher">
+				weaponSlotName="FragGrenadeLauncher"
+				icon="Weapons/MaccabianFragGrenadeLauncher">
 			<model>
 				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
 						beginFire="1.0" endFire="1.5"/>
@@ -141,7 +143,8 @@
 		</useWeapon>
 		<useWeapon cooldown="3"
 				consumedActionPoints="1"
-				weaponSlotName="FireGrenadeLauncher">
+				weaponSlotName="FireGrenadeLauncher"
+				icon="Weapons/MaccabianFireGrenadeLauncher">
 			<model>
 				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
 						beginFire="1.0" endFire="1.5"/>

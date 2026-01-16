@@ -3,4 +3,13 @@
 	<entry name="AstraMilitarum/Pray" value="Pray"/>
 	<entry name="AstraMilitarum/PrayDescription" value=""/>
 	<entry name="AstraMilitarum/PrayFlavor" value=""/>
+	<entry name="UseWeapon/KrakGrenadeLauncher" value="Use <string name='Weapons/MaccabianKrakGrenadeLauncher'/>"/>
+	<entry name="UseWeapon/KrakGrenadeLauncherDescription" value="<string name='Weapons/MaccabianKrakGrenadeLauncherDescription'/>"/>
+	<entry name="UseWeapon/KrakGrenadeLauncherFlavor" value="<string name='Weapons/MaccabianKrakGrenadeLauncherFlavor'/>"/>
+	<entry name="UseWeapon/FragGrenadeLauncher" value="Use <string name='Weapons/MaccabianFragGrenadeLauncher'/>"/>
+	<entry name="UseWeapon/FragGrenadeLauncherDescription" value="<string name='Weapons/MaccabianFragGrenadeLauncherDescription'/>"/>
+	<entry name="UseWeapon/FragGrenadeLauncherFlavor" value="<string name='Weapons/MaccabianFragGrenadeLauncherFlavor'/>"/>
+	<entry name="UseWeapon/FireGrenadeLauncher" value="Use <string name='Weapons/MaccabianFireGrenadeLauncher'/>"/>
+	<entry name="UseWeapon/FireGrenadeLauncherDescription" value="<string name='Weapons/MaccabianFireGrenadeLauncherDescription'/>"/>
+	<entry name="UseWeapon/FireGrenadeLauncherFlavor" value="<string name='Weapons/MaccabianFireGrenadeLauncherFlavor'/>"/>
 </language>
