@@ -115,45 +115,6 @@
 		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
 				weaponSlotNames="Lasgun KrakGrenadeLauncher FragGrenadeLauncher FireGrenadeLauncher"/>
 		-->
-		<useWeapon cooldown="3"
-				consumedActionPoints="1"
-				weaponSlotName="KrakGrenadeLauncher"
-				icon="Weapons/MaccabianKrakGrenadeLauncher">
-			<model>
-				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
-						beginFire="1.0" endFire="1.5"/>
-			</model>
-			<sharedCooldowns>
-				<action name="UseWeapon/FragGrenadeLauncher"/>
-				<action name="UseWeapon/FireGrenadeLauncher"/>
-			</sharedCooldowns>
-		</useWeapon>
-		<useWeapon cooldown="3"
-				consumedActionPoints="1"
-				weaponSlotName="FragGrenadeLauncher"
-				icon="Weapons/MaccabianFragGrenadeLauncher">
-			<model>
-				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
-						beginFire="1.0" endFire="1.5"/>
-			</model>
-			<sharedCooldowns>
-				<action name="UseWeapon/KrakGrenadeLauncher"/>
-				<action name="UseWeapon/FireGrenadeLauncher"/>
-			</sharedCooldowns>
-		</useWeapon>
-		<useWeapon cooldown="3"
-				consumedActionPoints="1"
-				weaponSlotName="FireGrenadeLauncher"
-				icon="Weapons/MaccabianFireGrenadeLauncher">
-			<model>
-				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
-						beginFire="1.0" endFire="1.5"/>
-			</model>
-			<sharedCooldowns>
-				<action name="UseWeapon/KrakGrenadeLauncher"/>
-				<action name="UseWeapon/FragGrenadeLauncher"/>
-			</sharedCooldowns>
-		</useWeapon>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
@@ -194,6 +155,46 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		<!-- Shoot Grenade Launcher -->
+				<useWeapon cooldown="3"
+				consumedActionPoints="1"
+				weaponSlotName="KrakGrenadeLauncher"
+				icon="Weapons/MaccabianKrakGrenadeLauncher">
+			<model>
+				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
+						beginFire="1.0" endFire="1.5"/>
+			</model>
+			<sharedCooldowns>
+				<action name="UseWeapon/FragGrenadeLauncher"/>
+				<action name="UseWeapon/FireGrenadeLauncher"/>
+			</sharedCooldowns>
+		</useWeapon>
+		<useWeapon cooldown="3"
+				consumedActionPoints="1"
+				weaponSlotName="FragGrenadeLauncher"
+				icon="Weapons/MaccabianFragGrenadeLauncher">
+			<model>
+				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
+						beginFire="1.0" endFire="1.5"/>
+			</model>
+			<sharedCooldowns>
+				<action name="UseWeapon/KrakGrenadeLauncher"/>
+				<action name="UseWeapon/FireGrenadeLauncher"/>
+			</sharedCooldowns>
+		</useWeapon>
+		<useWeapon cooldown="3"
+				consumedActionPoints="1"
+				weaponSlotName="FireGrenadeLauncher"
+				icon="Weapons/MaccabianFireGrenadeLauncher">
+			<model>
+				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
+						beginFire="1.0" endFire="1.5"/>
+			</model>
+			<sharedCooldowns>
+				<action name="UseWeapon/KrakGrenadeLauncher"/>
+				<action name="UseWeapon/FragGrenadeLauncher"/>
+			</sharedCooldowns>
+		</useWeapon>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
