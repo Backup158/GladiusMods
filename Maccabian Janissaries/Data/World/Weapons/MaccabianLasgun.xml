@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
 	<model>
-		<projectileWeapon fireSound="Weapons/Lasgun"
-		 		fireSoundCount="6"/>
+		<beamWeapon fireSound="Weapons/Lasgun"
+		 		fireSoundCount="6"
+				beamsBlueprint="Effects/YellowBeam"
+				muzzleFlashesBlueprint="Effects/YellowMuzzleFlash"/>
+				<!-- Yellow beam is the default las color. Doing this maintains consistency with Red Lasbeams mods -->
 	</model>
 	<modifiers>
 		<modifier>
