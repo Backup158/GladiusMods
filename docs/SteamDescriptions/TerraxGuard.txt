@@ -1,0 +1,15 @@
+Adds the Terrax Guard to the Astra Militarum. 
+
+
+[h1]Units and Unlocks[/h1]
+[table]
+[tr] 
+[td]T-: [b]Maccabian Janissaries[/b] - [/td]
+[/tr]
+[/table]
+
+No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
+
+[h1]Further details[/h1]
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Tempestus Scions lines.
