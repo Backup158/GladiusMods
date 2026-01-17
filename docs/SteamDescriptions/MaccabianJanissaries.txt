@@ -1,14 +1,20 @@
-Adds various units from the Maccabian Janissaries to the Astra Militarum. 
+Adds the Maccabian Janissaries to the Astra Militarum. 
 
-No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
+Maccabian Janissaries are selected from the finest warriors of the Shrine World of Maccabeus Quintus. They are clad in enclosed carapace armour, with the helmet carrying a faceplate bearing the visage of Saint Drusus. Every Janissary is a volunteer, fully devoted in surrendering their lives in the Name of the Emperor. So fierce is their devotion that Maccabian Janissaries are known to demand high command to send them far off to the most treacherous battlefields, never expecting to return home. The nightmarish hellscape of war is simply a pilgrimage for these stubborn zealots, and that stubbornness does not stop when the battle begins. The fanatical crusaders march shoulder-to-shoulder, unleashing the holy wrath and judgement of the Emperor upon His foes. Precise las-fire spits from anointed lasguns, which appear like bolters, while grenade launchers rain down a blessed array of ordnance. Unshakeable is their faith; immeasurable, their hatred of Chaos.
 
 [h1]Units and Unlocks[/h1]
 [table]
 [tr] 
-[td]T: [b]Maccabian Janissaries[/b] - .
+[td]T8: [b]Maccabian Janissaries[/b] - Elite infantry equipped with heavy-duty lasguns, with half the squad holstering versatile grenade launchers. Unit needs to pray to remain effective. Specialised against the forces of Chaos. Unlocks at [b]Relic Plating[/b]
+To be a [i]Maccabian Janissary[/i] is to despise the archenemy. When facing the forces of Chaos, Janissaries have steadied aim, though the enemy retaliates with great ferocity[spoiler](+17% accuracy when shooting them, but +17% damage taken)[/spoiler]. In battle, lines of Janissaries march forward, forming a carapace wall of death[spoiler](When adjacent to one unit with [i]Maccabian Janissary[/i], gain +17% ranged accuracy; when adjacent to two, gain +10% ranged attacks)[/spoiler]. 
+[u]Pray[/u]: Spends an action to praise the Emperor. Grants [i]Prayed[/i] for 4 turns, holy protection for one turn[spoiler]([i]Intercession of Saint Drusus[/i]: 67% witchfire damage reduction, 33% ranged damage reduction, and 17% melee damage reduction)[/spoiler], and a small amount of morale. Use this ability to maintain the effects of [i]Prayed[/i], lest you suffer the Emperor's Judgement[spoiler](upon letting [i]Prayed[/i] decay, lose all morale and half the squad)[/spoiler]
+On construction, Janissaries are affected by [i]Warp Travel Sickness[/i][spoiler](-67% movement and -50% accuracy)[/spoiler], which is removed upon praying. This is simply to enforce the prayer requirement. It will not return after the first prayer.
+While praying is its own reward, the God-Emperor rewards His followers with protection[spoiler]([i]Prayed[/i]: 6% Feel No Pain damage reduction and 2 more max morale)[/spoiler].
 [/td]
 [/tr]
 [/table]
+
+No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
 
 [h1]Further details[/h1]
 Reinforcements DLC, [b]Hard Requirement[/b]: Tempestus Scions
