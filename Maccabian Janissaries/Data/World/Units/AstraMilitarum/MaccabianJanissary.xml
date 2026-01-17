@@ -194,7 +194,7 @@
 				consumedActionPoints="1"
 				name="AstraMilitarum/Pray">
 			<model>
-				<action  bone="ChestBone"
+				<action bone="ChestBone"
 						sound="Actions/VerseOfHolyPiety"/>
 			</model>
 			<beginTargets>
