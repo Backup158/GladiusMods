@@ -190,7 +190,8 @@
 			</sharedCooldowns>
 		</useWeapon>
 		<!-- Prayer -->
-		<mediPack consumedActionPoints="1"
+		<mediPack cooldown="1"
+				consumedActionPoints="1"
 				name="AstraMilitarum/Pray">
 			<model>
 				<action  bone="ChestBone"
