@@ -13,6 +13,7 @@
 		<modifier>
 			<effects>
 				<morale add="-60"/>
+				<hitpointsFactorFromMax add="-0.5"/>
 			</effects>
 		</modifier>
 	</onTraitRemovedModifiers>

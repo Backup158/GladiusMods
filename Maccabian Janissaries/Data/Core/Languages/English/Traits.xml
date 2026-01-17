@@ -4,7 +4,7 @@
 	<entry name="AstraMilitarum/MaccabianJanissaryDescription" value="When facing the forces of Chaos, has increased accuracy but takes more damage. When adjacent to another Maccabian Janissary, gain accuracy. <string name='Traits/ChaosSpaceMarines/MaliciousVolleysDescription'/>"/>
 	<entry name="AstraMilitarum/MaccabianJanissaryFlavor" value="On the Shrine World of Maccabeus Quintus, faith is paramount. They hate the archenemy, and this hatred is their primary weapon. Everyone in the Maccabian Militia wields this, but only the cream of the crop may have the honour of joining the Maccabian Janissaries. In battle, these holy warriors can be frequently seen marching forwards in formation, delivering a hail of las-fire, burning away the foes of the Emperor."/>
 	<entry name="AstraMilitarum/Prayed" value="Prayed"/>
-	<entry name="AstraMilitarum/PrayedDescription" value="Unit has prayed. On loss of this trait, lose all morale."/>
+	<entry name="AstraMilitarum/PrayedDescription" value="Unit has prayed. On loss of this trait, lose all morale and half the squad."/>
 	<entry name="AstraMilitarum/PrayedFlavor" value="&quot;A prayer a day keeps the archenemy away&quot;"/>
 	<entry name="AstraMilitarum/HolyProtection" value="Intercession of Saint Drusus"/>
 	<!-- <entry name="AstraMilitarum/HolyProtectionDescription" value=""/> -->
