@@ -19,8 +19,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<invulnerableDamageReduction min="0.17"/>
-				<witchfireDamageReduction min="0.17"/>
+				<invulnerableDamageReduction min="0.09"/>
+				<witchfireDamageReduction min="0.09"/>
 			</effects>
 		</modifier>
 	</modifiers>
