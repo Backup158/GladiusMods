@@ -190,10 +190,11 @@
 			</sharedCooldowns>
 		</useWeapon>
 		<!-- Prayer -->
-		<genericUnitAbility consumedActionPoints="1"
+		<mediPack consumedActionPoints="1"
 				name="AstraMilitarum/Pray">
 			<model>
-				<action sound="Actions/VerseOfHolyPiety"/>
+				<action  bone="ChestBone"
+						sound="Actions/VerseOfHolyPiety"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
@@ -223,7 +224,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</genericUnitAbility>
+		</mediPack>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
