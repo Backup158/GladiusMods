@@ -27,6 +27,8 @@ Ok back to lasguns. I could just make a hotshot lasgun clone, but a lot of art d
 
 With weapons done, I had mentioned I already wanted the prayer gimmick. Implementing that wasn't completely straightforward since I realized you could just build them and never pray, so you never get the malus from losing [i]Prayed[/i], and there was not much reason to start praying. I thought about making the bonuses only apply when [i]Prayed[/i] is active, but grenade launchers were versatile enough that only using that was acceptable. That's why I added the [i]Warp Travel Sickness[/i], which gets removed on the first time you pray. Mechanically, that works. Lorewise, it's a bit odd that the most faithful are the only ones affected by this, so I made up something that may or may not be true.
 
+Finally, they're religious fanatics. I could just copy typical Imperial prayers and leave it at that, but I feel like that'd be a waste of their historical influence. In the real world, Janissaries were the elite infantry of the Ottoman Empire. We can brush past the whole levying children part and skip to the end where they follow Islam. Naturally, I'd give these units a Muslim influence in the flavour text. Now the only problem is that I am woefully uneducated on the specifics of prayers in Islam, and especially in translating them from Arabic to bastardise them into 40k. I have a lot more exposure with Christianity, so the flavour text used here is a blend of both.
+
 [h1]Further details[/h1]
 [h2]Integrated Mod Support[/h2]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Tempestus Scions lines.
