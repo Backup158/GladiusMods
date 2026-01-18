@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/" value=""/>
-	<entry name="AstraMilitarum/Description" value=""/>
-	<entry name="AstraMilitarum/Flavor" value=""/>
+	<entry name="AstraMilitarum/TerraxOverchargePlasma" value="Overcharge Plasma Pistol"/>
+	<entry name="AstraMilitarum/TerraxOverchargePlasmaDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxOverchargePlasmaFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxThrowPlasma" value="Throw Overcharged Plasma Pistol"/>
+	<entry name="AstraMilitarum/TerraxThrowPlasmaDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxThrowPlasmaFlavor" value=""/>
 </language>
