@@ -11,13 +11,14 @@
 				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
+	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="BoltPistol" slotName="BoltPistol">
+		<weapon name="PlasmaPistol" slotName="PlasmaPistol">
 			<model>
-				<projectileWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
-						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordGun"
+						material="Units/ChaosSpaceMarines/ChaosLord"
 						bone="RightHandBone"
-						muzzleBone=".Muzzle0"
+						muzzleBone=".Muzzle"
 						fireInterval="0.35"/>
 			</model>
 		</weapon>
@@ -44,14 +45,14 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<armor base="6"/> <!-- Carapace | %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
 				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-				<influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
-				<influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
-				<itemSlots base="6"/>
-				<levelMax base="9"/>
+				<influenceUpkeep base="2.0"/> <!-- 4 | %influenceUpkeep base tier=6 factor=2 -->
+				<influenceCost base="40.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
+				<!-- <itemSlots base="6"/>
+				<levelMax base="9"/> -->
 				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
 				<meleeAttacks base="3"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
@@ -59,7 +60,7 @@
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
 				<movementMax base="3"/>
 				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
-				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<productionCost base="40.0"/> <!-- 36 for scions | %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
 			</effects>
 		</modifier>
@@ -121,7 +122,34 @@
 						beginFire="0.9"/>
 			</model>
 		</throwGrenade>
-		<auraOfDiscipline passive="1" rank="-1" rankMax="2" levelUpPriority="0.1">
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<auraOfDiscipline passive="1"
+				icon="Traits/MoraleSoak">
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -129,7 +157,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="Discipline"/>
+										<addTrait name="AstraMilitarum/TerraxDiscipline"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -138,49 +166,10 @@
 				</selfTarget>
 			</beginTargets>
 		</auraOfDiscipline>
-		<bringItDown cooldown="3"
-				levelUpPriority="0.1"
-				rank="-1"
-				rankMax="2"
+		<summaryExecution cooldown="3"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
-				consumedMovement="0"
-				shoutString="Actions/BringItDown">
-			<model>
-				<action animation="Units/AstraMilitarum/LordCommissarShout"
-						bone="ChestBone"
-						sound="Actions/AstraMilitarumBuff"/>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit" radius="1">
-							<modifiers>
-								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<faction name="AstraMilitarum"/>
-											<noTrait name="Fortification"/>
-											<noTrait name="MonstrousCreature"/>
-											<noTrait name="Vehicle"/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait duration="1" name="BringItDown"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</bringItDown>
-		<summaryExecution cooldown="3" rank="-1" 
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				rankMax="2">
+				consumedMovement="0">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
@@ -219,7 +208,7 @@
 										</unit>
 									</conditions>
 									<effects>
-										<morale addMin="3" addMax="9"/>
+										<morale addMin="4"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -228,52 +217,9 @@
 				</selfTarget>
 			</beginTargets>			
 		</summaryExecution>
-		<ironWill beginOnDisappear="1"
-				cooldown="10"
-				elite="1"
-				levelUpPriority="1"
-				passive="1"
-				rank="-1"
-				rankMax="0">
-			<model>
-				<action sound="Actions/MysticBuff"
-						soundDelay="0.5"/>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="IronWill"/>
-									</effects>
-								</modifier>
-							</modifiers>
-							<modifiers>
-								<modifier>
-									<conditions>
-										<unit>
-											<destroyed/>
-										</unit>
-									</conditions>
-									<effects>
-										<hitpointsFactorFromMax add="1.0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</ironWill>
-		<levelUp/>
-		<shop/>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-		<trait name="Hero"/>
-		<trait name="RefractorField"/>
 		<trait name="Stubborn"/>
 	</traits>
 </unit>

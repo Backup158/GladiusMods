@@ -3,4 +3,7 @@
 	<entry name="AstraMilitarum/TerraxGuard" value=""/>
 	<entry name="AstraMilitarum/TerraxGuardDescription" value=""/>
 	<entry name="AstraMilitarum/TerraxGuardFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxDiscipline" value="Terrax Discipline"/>
+	<entry name="AstraMilitarum/TerraxDisciplineDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxDisciplineFlavor" value=""/>
 </language>
