@@ -183,7 +183,8 @@
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarGrenade"
 						beginFire="0.9"
-						sound="Explosions/PlasmaGrenade"/>
+						sound="Explosions/PlasmaGrenade"
+						soundDelay="0.2"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
