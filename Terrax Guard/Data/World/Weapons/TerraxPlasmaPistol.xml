@@ -12,7 +12,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="0.5"/> <!-- 1 -->
+				<attacks add="0.67"/> <!-- 1 -->
 				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
 				<rangedDamage add="2"/> <!-- 4 | %rangedDamage add strength=7 -->
 				<strengthDamage base="0"/>
@@ -25,6 +25,7 @@
 		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
 		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
 		<trait name="GetsHot"/>
+		<trait name="Unwieldy"/>
 		<!-- <trait name="Pistol"/> -->
 	</traits>
 </weapon>
