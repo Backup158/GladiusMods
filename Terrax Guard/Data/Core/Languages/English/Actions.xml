@@ -3,7 +3,4 @@
 	<entry name="AstraMilitarum/" value=""/>
 	<entry name="AstraMilitarum/Description" value=""/>
 	<entry name="AstraMilitarum/Flavor" value=""/>
-	<entry name="AstraMilitarum/TerraxSummaryExecution" value="<string name='Actions/SummaryExecution'/>"/>
-	<entry name="AstraMilitarum/TerraxSummaryExecutionDescription" value="<string name='Actions/SummaryExecutionDescription'/>"/>
-	<entry name="AstraMilitarum/TerraxSummaryExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
 </language>

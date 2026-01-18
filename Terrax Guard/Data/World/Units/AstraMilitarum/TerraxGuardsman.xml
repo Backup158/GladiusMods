@@ -212,7 +212,7 @@
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/SummaryExecution"
-				name="AstraMilitarum/TerraxSummaryExecution">
+				name="SummaryExecution">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
