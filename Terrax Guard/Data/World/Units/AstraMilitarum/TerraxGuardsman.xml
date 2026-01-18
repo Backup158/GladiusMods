@@ -15,10 +15,11 @@
 	<weapons>
 		<weapon name="TerraxPlasmaPistol" slotName="PlasmaPistol">
 			<model>
-				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordGun"
-						material="Units/ChaosSpaceMarines/ChaosLord"
+				<!-- Plasma Pistol model appears upside down in commissar-->
+				<projectileWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						bone="RightHandBone"
-						muzzleBone=".Muzzle"
+						muzzleBone=".Muzzle0"
 						fireInterval="0.35"/>
 			</model>
 		</weapon>
