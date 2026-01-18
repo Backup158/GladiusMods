@@ -42,6 +42,13 @@
 			</model>
 		</weapon>
 		<weapon name="TerraxExplodingPlasmaPistol" slotName="ExplodingPistol" enabled="0">
+			<model>
+				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordGun"
+						material="Units/ChaosSpaceMarines/ChaosLord"
+						bone="RightHandBone"
+						muzzleBone=".Muzzle"
+						fireInterval="0.35"/>
+			</model>
 		</weapon>
 	</weapons>
 	<modifiers>
@@ -185,23 +192,7 @@
 						beginFire="0.9"
 						sound="Explosions/PlasmaGrenade"
 						soundDelay="0.2"/>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="5"/>
-										<hitpointsFactorFromMax add="-0.33"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>			
+			</model>		
 		</useWeapon>
 		<auraOfDiscipline passive="1"
 				icon="Traits/MoraleSoak">

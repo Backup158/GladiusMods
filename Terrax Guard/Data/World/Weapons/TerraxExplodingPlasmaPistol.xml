@@ -22,5 +22,7 @@
 		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
 		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
 		<trait name="Grenade"/>
+
+		<trait name="AstraMilitarum/TerraxThrowingPistol"/>
 	</traits>
 </weapon>
