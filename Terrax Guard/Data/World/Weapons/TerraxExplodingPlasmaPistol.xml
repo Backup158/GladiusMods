@@ -9,7 +9,7 @@
 		<modifier>
 			<effects>
 				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
-				<rangedDamage add="3.5"/> <!-- %rangedDamage add strength=4 -->
+				<rangedDamage add="2.5"/> <!-- other one had this nerfed to 2 plus lowered attacks | %rangedDamage add strength=4 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
@@ -22,7 +22,5 @@
 		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
 		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
 		<trait name="Grenade"/>
-
-		<trait name="AstraMilitarum/TerraxThrowingPistol"/>
 	</traits>
 </weapon>

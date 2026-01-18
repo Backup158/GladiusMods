@@ -186,7 +186,16 @@
 						beginFire="0.9"
 						sound="Explosions/PlasmaGrenade"
 						soundDelay="0.2"/>
-			</model>		
+			</model>
+			<!-- ty daemon prince -->
+			<modifiers>
+				<modifier>
+					<effects>
+						<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="5"/>
+						<hitpointsFactorFromMax add="-0.33"/>
+					</effects>
+				</modifier>
+			</modifiers>	
 		</useWeapon>
 		<auraOfDiscipline passive="1"
 				icon="Traits/MoraleSoak">
