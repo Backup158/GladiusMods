@@ -2,16 +2,6 @@
 <trait alwaysVisible="1" category="Debuff" visibilityCategory="Weapon" icon="Traits/BoltDamage">
 	<modifiers>
 		<modifier>
-			<conditions>
-				<encounter>
-					<self>
-						<attacking/>
-					</self>
-					<opponent>
-						<noAttacking/>
-					</opponent>
-				</encounter>
-			</conditions>
 			<effects>
 				<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="5"/>
 				<hitpointsFactorFromMax add="-0.33"/>

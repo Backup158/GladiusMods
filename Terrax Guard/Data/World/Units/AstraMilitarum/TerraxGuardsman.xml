@@ -206,13 +206,13 @@
 				</selfTarget>
 			</beginTargets>
 		</auraOfDiscipline>
-		<!-- I think summary execution is hardcoded to look for .Muzzle0 from the bistol -->
+		<!-- I think summary execution is hardcoded to look for bistol shooting trails and if it mismatches, it explodes -->
 		<genericUnitAbility cooldown="3"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/SummaryExecution"
-				name="Actions/SummaryExecution">
+				name="AstraMilitarum/TerraxSummaryExecution">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
