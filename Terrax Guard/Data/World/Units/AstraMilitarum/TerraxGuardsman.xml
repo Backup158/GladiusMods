@@ -166,15 +166,18 @@
 				</selfTarget>
 			</beginTargets>
 		</auraOfDiscipline>
-		<summaryExecution cooldown="3"
+		<!-- I think summary execution is hardcoded to look for .Muzzle0 from the bistol -->
+		<genericUnitAbility cooldown="3"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
-				consumedMovement="0">
+				consumedMovement="0"
+				icon="Actions/SummaryExecution"
+				name="Actions/SummaryExecution">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
 						endFire="2.53"
-						sound="Actions/Reload"/>
+						sound="Weapons/PlasmaPistol" soundCount="3"/>
 			</model>
 			<beginTargets>
 				<target rangeMax="1" rangeMin="1">
@@ -216,7 +219,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>			
-		</summaryExecution>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
