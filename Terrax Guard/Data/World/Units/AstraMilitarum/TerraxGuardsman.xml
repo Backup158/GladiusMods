@@ -177,7 +177,7 @@
 			</beginTargets>			
 		</genericUnitAbility>
 		<!-- Throw Exploding Plasma Pistol -->
-		<throwGrenade weaponSlotName="ExplodingPistol" cooldown="10"
+		<useWeapon weaponSlotName="ExplodingPistol" cooldown="10"
 				icon="Traits/ApocalypticBarrage"
 				name="Actions/AstraMilitarum/TerraxThrowPlasma">
 			<model>
@@ -201,7 +201,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>			
-		</throwGrenade>
+		</useWeapon>
 		<auraOfDiscipline passive="1"
 				icon="Traits/MoraleSoak">
 			<beginTargets>
