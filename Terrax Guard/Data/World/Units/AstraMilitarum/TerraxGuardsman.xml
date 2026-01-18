@@ -43,13 +43,6 @@
 			</model>
 		</weapon>
 		<weapon name="TerraxExplodingPlasmaPistol" slotName="ExplodingPistol" enabled="0">
-			<model>
-				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordGun"
-						material="Units/ChaosSpaceMarines/ChaosLord"
-						bone="RightHandBone"
-						muzzleBone=".Muzzle"
-						fireInterval="0.35"/>
-			</model>
 		</weapon>
 	</weapons>
 	<modifiers>
