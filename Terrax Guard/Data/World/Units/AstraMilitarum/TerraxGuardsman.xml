@@ -48,7 +48,7 @@
 				<armor base="6"/> <!-- Carapace | %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
 				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
-				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
 				<influenceUpkeep base="2.0"/> <!-- 4 | %influenceUpkeep base tier=6 factor=2 -->
 				<influenceCost base="40.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
 				<!-- <itemSlots base="6"/>
