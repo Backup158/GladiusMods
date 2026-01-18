@@ -13,7 +13,7 @@
 	</model>
 	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="PlasmaPistol" slotName="PlasmaPistol">
+		<weapon name="TerraxPlasmaPistol" slotName="PlasmaPistol">
 			<model>
 				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordGun"
 						material="Units/ChaosSpaceMarines/ChaosLord"
@@ -40,6 +40,8 @@
 			<model>
 				<grenadeWeapon muzzleBone="RightHandBone"/>
 			</model>
+		</weapon>
+		<weapon name="TerraxExplodingPlasmaPistol" slotName="ExplodingPistol" enabled="0">
 		</weapon>
 	</weapons>
 	<modifiers>
@@ -148,6 +150,58 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		<!-- Overcharge Plasma Pistol -->
+		<genericUnitAbility cooldown="3"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Traits/GetsHot"
+				name="Actions/AstraMilitarum/TerraxOverchargePlasma">
+			<model>
+				<action sound="Actions/DeployDrone"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/TerraxOvercharged" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>			
+		</genericUnitAbility>
+		<!-- Throw Exploding Plasma Pistol -->
+		<throwGrenade weaponSlotName="ExplodingPistol" cooldown="10"
+				icon="Traits/ApocalypticBarrage"
+				name="Actions/AstraMilitarum/TerraxThrowPlasma">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarGrenade"
+						beginFire="0.9"
+						sound="Explosions/PlasmaGrenade"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="5"/>
+										<hitpointsFactorFromMax add="-0.33"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>			
+		</throwGrenade>
 		<auraOfDiscipline passive="1"
 				icon="Traits/MoraleSoak">
 			<beginTargets>
@@ -220,6 +274,7 @@
 				</selfTarget>
 			</beginTargets>			
 		</genericUnitAbility>
+		
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>

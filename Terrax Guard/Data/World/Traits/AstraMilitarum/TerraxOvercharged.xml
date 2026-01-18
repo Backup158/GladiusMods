@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/GetsHot">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<weapon>
+					<noTrait name="Melee"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<damageSelfFactor add="0.2"/>
+				<damage mul="0.33"/> <!-- Terrax pistol is 2, from the 4 default value -->
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
