@@ -3,6 +3,12 @@
 	<entry name="AstraMilitarum/TerraxGuardsman" value="Terrax Guardsmen"/>
 	<entry name="AstraMilitarum/TerraxGuardsmanDescription" value=""/>
 	<entry name="AstraMilitarum/TerraxGuardsmanFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxStormTrooper" value="Terrax Storm Trooper"/>
+	<entry name="AstraMilitarum/TerraxStormTrooperDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxStormTrooperFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxLascannonSquad" value="Terrax Lascannon Squad"/>
+	<entry name="AstraMilitarum/TerraxLascannonSquadDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxLascannonSquadFlavor" value=""/>
 	<entry name="AstraMilitarum/BattalionTerraxGuardsman" value="Battalion of <string name='Units/AstraMilitarum/TerraxGuardsman'/>"/>
 	<entry name="AstraMilitarum/BattalionTerraxGuardsmanDescription" value="<string name='Units/AstraMilitarum/TerraxGuardsmanDescription'/>"/>
 	<entry name="AstraMilitarum/BattalionTerraxGuardsmanFlavor" value="<string name='Units/AstraMilitarum/TerraxGuardsmanFlavor'/>"/>
