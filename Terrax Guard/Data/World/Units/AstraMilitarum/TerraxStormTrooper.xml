@@ -13,28 +13,23 @@
 	</model>
 	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="TerraxHotshotLaspistol" slotName="Laspistol">
+		<weapon name="TerraxPlasmaPistol" slotName="PlasmaPistol">
 			<model>
 				<!-- Plasma Pistol model appears upside down in commissar-->
-				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+				<projectileWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						bone="RightHandBone"
 						muzzleBone=".Muzzle0"
 						fireInterval="0.35"/>
 			</model>
 		</weapon>
-		<weapon name="PowerSword" slotName="Laspistol">
+		<weapon name="PowerSword">
 			<model>
 				<powerWeapon effectBoundingVolume="Blade" 
 						mesh="Weapons/AstraMilitarum/LordCommissarSword"
 						material="Weapons/AstraMilitarum/LordCommissarSword"
 						bone="LeftHandBone"
 						fireInterval="1.0"/>
-			</model>
-		</weapon>
-		<weapon name="TerraxMeltagun" slotName="Meltagun" enabled="0">
-			<model>
-				<beamWeapon muzzleBone=".Muzzle0" fireInterval="0.2"/>
 			</model>
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
@@ -116,8 +111,6 @@
 						soundCount="4"/>
 			</model>
 		</move>
-		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
-				weaponSlotNames="Laspistol Meltagun"/>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
@@ -158,6 +151,52 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		<!-- Overcharge Plasma Pistol -->
+		<genericUnitAbility cooldown="3"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Traits/GetsHot"
+				name="AstraMilitarum/TerraxOverchargePlasma">
+			<model>
+				<action sound="Actions/DeployDrone"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/TerraxOvercharged" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>			
+		</genericUnitAbility>
+		<!-- Throw Exploding Plasma Pistol -->
+		<useWeapon weaponSlotName="ExplodingPistol" cooldown="10"
+				icon="Traits/ApocalypticBarrage"
+				name="AstraMilitarum/TerraxThrowPlasma">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarGrenade"
+						beginFire="0.9"
+						sound="Explosions/PlasmaGrenade"
+						soundDelay="0.2"/>
+			</model>
+			<!-- ty daemon prince -->
+			<modifiers>
+				<modifier>
+					<effects>
+						<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="10"/>
+						<hitpointsFactorFromMax add="-0.33"/>
+					</effects>
+				</modifier>
+			</modifiers>	
+		</useWeapon>
 		<auraOfDiscipline passive="1"
 				icon="Traits/MoraleSoak">
 			<beginTargets>
@@ -187,7 +226,7 @@
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
 						endFire="2.53"
-						sound="Weapons/MultiMelta" soundCount="4"/>
+						sound="Weapons/PlasmaPistol" soundCount="3"/>
 			</model>
 			<beginTargets>
 				<target rangeMax="1" rangeMin="1">
@@ -235,6 +274,6 @@
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="Stubborn"/>
-		<trait name="TerraxGuard"/>\
+		<trait name="TerraxGuard"/>
 	</traits>
 </unit>
