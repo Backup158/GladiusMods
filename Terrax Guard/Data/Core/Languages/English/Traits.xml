@@ -6,4 +6,10 @@
 	<entry name="AstraMilitarum/TerraxDiscipline" value="Terrax Discipline"/>
 	<entry name="AstraMilitarum/TerraxDisciplineDescription" value=""/>
 	<entry name="AstraMilitarum/TerraxDisciplineFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxOvercharged" value="Overcharged Weapon"/>
+	<entry name="AstraMilitarum/TerraxOverchargedDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxOverchargedFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxThrownPistol" value="Pistol Thrown"/>
+	<entry name="AstraMilitarum/TerraxThrownPistolDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxThrownPistolFlavor" value=""/>
 </language>
