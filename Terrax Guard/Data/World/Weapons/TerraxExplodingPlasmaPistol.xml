@@ -17,10 +17,13 @@
 	<target rangeMax="1"/>
 	<traits>
 		<trait name="Assault"/>
+		<trait name="Grenade"/>
 		<trait name="Blast"/>
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+
 		<trait name="AstraMilitarum/LasDamage" requiredUpgrade="AstraMilitarum/LasDamage"/>
 		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
 		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
-		<trait name="Grenade"/>
 	</traits>
 </weapon>
