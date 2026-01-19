@@ -3,7 +3,7 @@
 	<entry name="AstraMilitarum/TerraxOverchargePlasma" value="Overcharge Plasma Pistol"/>
 	<entry name="AstraMilitarum/TerraxOverchargePlasmaDescription" value=""/>
 	<entry name="AstraMilitarum/TerraxOverchargePlasmaFlavor" value=""/>
-	<entry name="AstraMilitarum/TerraxThrowPlasma" value="Throw Overcharged Plasma Pistol"/>
+	<entry name="AstraMilitarum/TerraxThrowPlasma" value="Throw Overloaded Plasma Pistol"/>
 	<entry name="AstraMilitarum/TerraxThrowPlasmaDescription" value=""/>
 	<entry name="AstraMilitarum/TerraxThrowPlasmaFlavor" value=""/>
 	<entry name="AstraMilitarum/LascannonExecution" value="<string name='Actions/SummaryExecution'/>"/>
