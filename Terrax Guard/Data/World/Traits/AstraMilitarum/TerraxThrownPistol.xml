@@ -4,6 +4,7 @@
 		<modifier>
 			<effects>
 				<rangedAccuracy mul="-2"/>
+				<rangedAttacks mul="-2"/>
 			</effects>
 		</modifier>
 	</modifiers>
