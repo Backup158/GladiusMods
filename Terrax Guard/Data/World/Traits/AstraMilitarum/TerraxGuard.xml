@@ -15,6 +15,7 @@
 					<allied/>
 					<faction name="AstraMilitarum"/>
 					<trait name="Shaken"/>
+					<noTrait name="Broken"/>
 				</unitsInRange>
 			</conditions>
 			<effects>
@@ -22,11 +23,13 @@
 			</effects>
 		</modifier>
 		<modifier>
-			<unitsInRange count="1" range="1">
-				<allied/>
-				<faction name="AstraMilitarum"/>
-				<trait name="Broken"/>
-			</unitsInRange>
+			<conditions>
+				<unitsInRange count="1" range="1">
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<trait name="Broken"/>
+				</unitsInRange>
+			</conditions>
 			<effects>
 				<rangedAttacks mul="-0.9"/>
 			</effects>
