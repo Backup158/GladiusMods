@@ -7,7 +7,7 @@
 		 		beamsEmitterBlueprint="Effects/MeltaBeamsEmitter"
 		 		muzzleFlashesBlueprint="Effects/MeltaMuzzleFlashes"
 		 		muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter"
-		 		muzzleCount="2"
+		 		muzzleCount="1"
 				fireInterval="0.5"/>
 	</model>
 	<modifiers>
