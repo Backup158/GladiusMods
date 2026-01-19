@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Weapons/PlasmaPistol">
+<weapon icon="Weapons/PlasmaCutter">
 	<model>
 		<projectileWeapon fireSound="Weapons/PlasmaPistol"
 				fireSoundCount="3"

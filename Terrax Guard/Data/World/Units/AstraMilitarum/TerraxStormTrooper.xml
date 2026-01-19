@@ -179,7 +179,6 @@
 		</genericUnitAbility>
 		<!-- Throw Exploding Plasma Pistol -->
 		<useWeapon weaponSlotName="ExplodingPistol" cooldown="10"
-				icon="Traits/ApocalypticBarrage"
 				name="AstraMilitarum/TerraxThrowPlasma">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarGrenade"
