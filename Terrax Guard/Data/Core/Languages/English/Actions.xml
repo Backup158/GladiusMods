@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="AstraMilitarum/TerraxOverchargePlasma" value="Overcharge Plasma Pistol"/>
-	<entry name="AstraMilitarum/TerraxOverchargePlasmaDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxOverchargePlasmaDescription" value="Makes the Plasma Pistol stronger at the cost of increased self-damage."/>
 	<entry name="AstraMilitarum/TerraxOverchargePlasmaFlavor" value=""/>
 	<entry name="AstraMilitarum/TerraxThrowPlasma" value="Throw Overloaded Plasma Pistol"/>
-	<entry name="AstraMilitarum/TerraxThrowPlasmaDescription" value=""/>
-	<entry name="AstraMilitarum/TerraxThrowPlasmaFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxThrowPlasmaDescription" value="Use the pistols as a grenade, dealing massive damage but removing the weapons from use."/>
+	<entry name="AstraMilitarum/TerraxThrowPlasmaFlavor" value="<string name='Weapons/TerraxExplodingPlasmaPistolFlavor'/>"/>
 	<entry name="AstraMilitarum/LascannonExecution" value="<string name='Actions/SummaryExecution'/>"/>
 	<entry name="AstraMilitarum/LascannonExecutionDescription" value="Executes two squad member of an infantry or vehicle unit within three tiles to restore morale of nearby allied units."/>
 	<entry name="AstraMilitarum/LascannonExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
