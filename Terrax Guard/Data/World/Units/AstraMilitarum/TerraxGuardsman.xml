@@ -13,7 +13,7 @@
 	</model>
 	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="TerraxHotshotLaspistol" slotName="Laspistol">
+		<weapon name="TerraxHotshotLaspistol">
 			<model>
 				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
@@ -22,7 +22,7 @@
 						fireInterval="0.35"/>
 			</model>
 		</weapon>
-		<weapon name="Chainsword" slotName="Laspistol">
+		<weapon name="Chainsword">
 			<model>
 				<weapon mesh="Weapons/SpaceMarines/Chainsword"
 						material="Weapons/SpaceMarines/Chainsword"
@@ -116,8 +116,19 @@
 						soundCount="4"/>
 			</model>
 		</move>
-		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+		<!-- Doesn't swap off chainsword -->
+		<!-- <cycleWeapon interfaceSound="Interface/CycleWeapon" 
 				weaponSlotNames="Laspistol Meltagun"/>
+		-->
+		<useWeapon cooldown="1"
+				name="AstraMilitarum/UseMeltagun"
+				weaponSlotName="Meltagun">
+			<model>
+				<action	animation="Units/AstraMilitarum/LordCommissarAttack"
+						beginFire="0.4"
+						endFire="2.53"/>
+			</model>
+		</useWeapon>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
