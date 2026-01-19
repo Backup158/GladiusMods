@@ -191,7 +191,7 @@
 			<modifiers>
 				<modifier>
 					<effects>
-						<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="5"/>
+						<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="10"/>
 						<hitpointsFactorFromMax add="-0.33"/>
 					</effects>
 				</modifier>
