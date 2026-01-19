@@ -10,6 +10,7 @@
 			<effects>
 				<damageSelfFactor add="0.2"/>
 				<damage mul="0.33"/> <!-- Terrax pistol is 2, from the 4 default value -->
+				<rangedArmorPenetration add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>
