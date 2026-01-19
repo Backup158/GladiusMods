@@ -6,4 +6,7 @@
 	<entry name="AstraMilitarum/TerraxThrowPlasma" value="Throw Overcharged Plasma Pistol"/>
 	<entry name="AstraMilitarum/TerraxThrowPlasmaDescription" value=""/>
 	<entry name="AstraMilitarum/TerraxThrowPlasmaFlavor" value=""/>
+	<entry name="AstraMilitarum/LascannonExecution" value="<string name='Actions/SummaryExecution'/>"/>
+	<entry name="AstraMilitarum/LascannonExecutionDescription" value="Executes two squad member of an infantry or vehicle unit within three tiles to restore morale of nearby allied units."/>
+	<entry name="AstraMilitarum/LascannonExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
 </language>

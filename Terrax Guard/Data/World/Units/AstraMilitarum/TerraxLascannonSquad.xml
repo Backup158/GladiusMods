@@ -152,7 +152,7 @@
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/SummaryExecution"
-				name="SummaryExecution">
+				name="AstraMilitarum/LascannonExecution">
 			<model>
 				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
 						beginFire="1.0"
