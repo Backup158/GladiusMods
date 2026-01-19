@@ -11,12 +11,14 @@
 		<!-- If there's broken units in ranged, lose ranged attacks and you turn weapons on your comrades -->
 		<modifier>
 			<conditions>
-				<unitsInRange count="1" range="1">
-					<allied/>
-					<faction name="AstraMilitarum"/>
-					<trait name="Shaken"/>
-					<noTrait name="Broken"/>
-				</unitsInRange>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<faction name="AstraMilitarum"/>
+						<trait name="Shaken"/>
+						<noTrait name="Broken"/>
+					</unitsInRange>
+				</unit>
 			</conditions>
 			<effects>
 				<rangedAttacks mul="-0.5"/>
@@ -24,11 +26,13 @@
 		</modifier>
 		<modifier>
 			<conditions>
-				<unitsInRange count="1" range="1">
-					<allied/>
-					<faction name="AstraMilitarum"/>
-					<trait name="Broken"/>
-				</unitsInRange>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<faction name="AstraMilitarum"/>
+						<trait name="Broken"/>
+					</unitsInRange>
+				</unit>
 			</conditions>
 			<effects>
 				<rangedAttacks mul="-0.9"/>
