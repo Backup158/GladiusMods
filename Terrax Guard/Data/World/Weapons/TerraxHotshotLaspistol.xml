@@ -7,7 +7,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="1.5"/>
+				<attacks add="1"/>
 				<rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
 				<rangedDamage add="2"/> <!-- %rangedDamage add strength=3 -->
 				<strengthDamage base="0"/>
@@ -20,7 +20,5 @@
 		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
 		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
 		<!-- <trait name="Pistol"/> -->
-
-		<trait name="RapidFire"/>
 	</traits>
 </weapon>
