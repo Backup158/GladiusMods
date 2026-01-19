@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/BoltDamage">
+	<onCombatSelfModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+				</encounter>
+			</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/TerraxThrownPistol" duration="10"/>
+				<hitpointsFactorFromMax add="-0.33"/>
+			</effects>
+		</modifier>
+	</onCombatSelfModifiers>
+</trait>
