@@ -154,9 +154,9 @@
 				icon="Actions/SummaryExecution"
 				name="SummaryExecution">
 			<model>
-				<action animation="Units/AstraMilitarum/LordCommissarAttack"
-						beginFire="0.4"
-						endFire="2.53"
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
+						beginFire="1.0"
+						endFire="1.1"
 						sound="Weapons/Lascannon" soundCount="4"/>
 			</model>
 			<beginTargets>
