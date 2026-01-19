@@ -7,5 +7,27 @@
 				<moraleMax add="1"/>
 			</effects>
 		</modifier>
+		<!-- Cowards Die First -->
+		<!-- If there's broken units in ranged, lose ranged attacks and you turn weapons on your comrades -->
+		<modifier>
+			<unitsInRange count="1" range="1">
+				<allied/>
+				<faction name="AstraMilitarum"/>
+				<trait name="Shaken"/>
+			</unitsInRange>
+			<effects>
+				<rangedAttacks mul="-0.5"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<unitsInRange count="1" range="1">
+				<allied/>
+				<faction name="AstraMilitarum"/>
+				<trait name="Broken"/>
+			</unitsInRange>
+			<effects>
+				<rangedAttacks mul="-0.9"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
