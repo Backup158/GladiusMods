@@ -120,7 +120,7 @@
 		<!-- <cycleWeapon interfaceSound="Interface/CycleWeapon" 
 				weaponSlotNames="Laspistol Meltagun"/>
 		-->
-		<useWeapon cooldown="1"
+		<useWeapon cooldown="3"
 				name="AstraMilitarum/UseMeltagun"
 				weaponSlotName="Meltagun">
 			<model>
