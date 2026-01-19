@@ -23,11 +23,10 @@
 						fireInterval="0.35"/>
 			</model>
 		</weapon>
-		<weapon name="PowerSword">
+		<weapon name="Chainsword">
 			<model>
-				<powerWeapon effectBoundingVolume="Blade" 
-						mesh="Weapons/AstraMilitarum/LordCommissarSword"
-						material="Weapons/AstraMilitarum/LordCommissarSword"
+				<weapon mesh="Weapons/SpaceMarines/Chainsword"
+						material="Weapons/SpaceMarines/Chainsword"
 						bone="LeftHandBone"
 						fireInterval="1.0"/>
 			</model>
