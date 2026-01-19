@@ -121,7 +121,7 @@
 				weaponSlotNames="Laspistol Meltagun"/>
 		-->
 		<useWeapon cooldown="3"
-				name="AstraMilitarum/UseMeltagun"
+				name="AstraMilitarum/TerraxUseMeltagun"
 				weaponSlotName="Meltagun">
 			<model>
 				<action	animation="Units/AstraMilitarum/LordCommissarAttack"

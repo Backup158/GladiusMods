@@ -9,4 +9,7 @@
 	<entry name="AstraMilitarum/LascannonExecution" value="<string name='Actions/SummaryExecution'/>"/>
 	<entry name="AstraMilitarum/LascannonExecutionDescription" value="Executes two squad member of an infantry or vehicle unit within three tiles to restore morale of nearby allied units."/>
 	<entry name="AstraMilitarum/LascannonExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
+	<entry name="AstraMilitarum/TerraxUseMeltagun" value="Fire Meltaguns"/>
+	<entry name="AstraMilitarum/TerraxUseMeltagunDescription" value="Half the squad fires Meltaguns."/>
+	<entry name="AstraMilitarum/TerraxUseMeltagunFlavor" value="Terrax Guardsmen prefer to carry Meltaguns as their special weapons. Each squad equips half of its members with them, and they are deployed when enemy armour is too thick for hotshot laspistols."/>
 </language>
