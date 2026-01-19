@@ -3,8 +3,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<rangedAccuracy mul="-2"/>
-				<rangedAttacks mul="-2"/>
+				<rangedAccuracy add="-999"/>
 			</effects>
 		</modifier>
 	</modifiers>
