@@ -49,10 +49,10 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="6"/> <!-- Carapace | %armor base armor=4+ -->
-				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+				<foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
 				<foodCost base="30.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-				<influenceUpkeep base="3.0"/> <!-- 4 | %influenceUpkeep base tier=6 factor=2 -->
+				<!-- <influenceUpkeep base="3.0"/>--> <!-- 4 | %influenceUpkeep base tier=6 factor=2 -->
 				<influenceCost base="60.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
 				<!-- <itemSlots base="6"/>
 				<levelMax base="9"/> -->
