@@ -7,10 +7,10 @@
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="0.8 0.8 0.8"
+				scale="0.6 0.6 0.6"
 				explosionsBone="Gun"
 				walker="1"/>
-	</model>
+	</model> <!-- .8 .8 .8-->
 	<group size="4" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
 	<weapons>
 		<weapon name="Lascannon">
@@ -102,6 +102,104 @@
 						beginFire="0.93"/>
 			</model>				
 		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<auraOfDiscipline passive="1"
+				icon="Traits/MoraleSoak">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/TerraxDiscipline"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfDiscipline>
+		<!-- I think summary execution is hardcoded to look for bistol shooting trails and if it mismatches, it explodes -->
+		<genericUnitAbility cooldown="3"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/SummaryExecution"
+				name="SummaryExecution">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarAttack"
+						beginFire="0.4"
+						endFire="2.53"
+						sound="Weapons/Lascannon" soundCount="4"/>
+			</model>
+			<beginTargets>
+				<target range="3">
+					<conditions>
+						<unit>
+							<allied/>
+							<noTrait name="Fortification"/>
+							<noTrait name="Vehicle"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<groupSize add="-2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale addMin="8"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>			
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="VeryBulky"/>
