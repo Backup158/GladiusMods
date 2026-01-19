@@ -15,7 +15,6 @@
 	<weapons>
 		<weapon name="TerraxHotshotLaspistol" slotName="Laspistol">
 			<model>
-				<!-- Plasma Pistol model appears upside down in commissar-->
 				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						bone="RightHandBone"
@@ -33,7 +32,11 @@
 		</weapon>
 		<weapon name="TerraxMeltagun" slotName="Meltagun" enabled="0">
 			<model>
-				<beamWeapon muzzleBone=".Muzzle0" fireInterval="0.2"/>
+				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						bone="RightHandBone"
+						muzzleBone=".Muzzle0" 
+						fireInterval="0.2"/>
 			</model>
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
@@ -45,8 +48,6 @@
 			<model>
 				<grenadeWeapon muzzleBone="RightHandBone"/>
 			</model>
-		</weapon>
-		<weapon name="TerraxExplodingPlasmaPistol" slotName="ExplodingPistol" enabled="0">
 		</weapon>
 	</weapons>
 	<modifiers>
@@ -234,6 +235,6 @@
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="Stubborn"/>
-		<trait name="TerraxGuard"/>\
+		<trait name="TerraxGuard"/>
 	</traits>
 </unit>
