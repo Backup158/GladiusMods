@@ -160,7 +160,7 @@
 						sound="Weapons/Lascannon" soundCount="4"/>
 			</model>
 			<beginTargets>
-				<target range="3">
+				<target rangeMin="3" rangeMax="3">
 					<conditions>
 						<unit>
 							<allied/>
