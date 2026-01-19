@@ -2,7 +2,7 @@
 <language>
 	<entry name="AstraMilitarum/TerraxOverchargePlasma" value="Overcharge Plasma Pistol"/>
 	<entry name="AstraMilitarum/TerraxOverchargePlasmaDescription" value="Makes the Plasma Pistol stronger at the cost of increased self-damage."/>
-	<entry name="AstraMilitarum/TerraxOverchargePlasmaFlavor" value=""/>
+	<entry name="AstraMilitarum/TerraxOverchargePlasmaFlavor" value="Plasma beams exude intense heat, and handling plasma weapons requires managing this heat. Typically, these weapons are kept in safe mode, where pulling the trigger is limited in the amount of power expulsed. When the adversary is too powerful even for these shots, plasma weapons can be overcharged to remove this limitation, which greatly increases the risk of the weapon overloading and boiling its user alive."/>
 	<entry name="AstraMilitarum/TerraxThrowPlasma" value="Throw Overloaded Plasma Pistol"/>
 	<entry name="AstraMilitarum/TerraxThrowPlasmaDescription" value="Use the pistols as a grenade, dealing massive damage but removing the weapons from use."/>
 	<entry name="AstraMilitarum/TerraxThrowPlasmaFlavor" value="<string name='Weapons/TerraxExplodingPlasmaPistolFlavor'/>"/>
