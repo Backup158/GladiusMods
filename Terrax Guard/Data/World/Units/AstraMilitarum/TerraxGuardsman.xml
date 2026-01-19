@@ -235,6 +235,6 @@
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="Stubborn"/>
-		<trait name="TerraxGuard"/>
+		<trait name="AstraMilitarum/TerraxGuard"/>
 	</traits>
 </unit>

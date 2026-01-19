@@ -104,5 +104,7 @@
 	<traits>
 		<trait name="VeryBulky"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="Stubborn"/>
+		<trait name="AstraMilitarum/TerraxGuard"/>
 	</traits>
 </unit>
