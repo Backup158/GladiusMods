@@ -242,8 +242,7 @@
 		<summaryExecution cooldown="1" rank="2" 
 				requiredActionPoints="0"
 				consumedActionPoints="0"
-				consumedMovement="0"
-				rankMax="2">
+				consumedMovement="0">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
