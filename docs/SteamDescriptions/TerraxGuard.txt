@@ -2,9 +2,22 @@ Adds the Terrax Guard to the Astra Militarum.
 
 
 [h1]Units and Unlocks[/h1]
+[i]Terrax Guard[/i]: Increased morale. Has reduced ranged attacks if adjacent to a Shaken ally, moreso if adjacent to a Broken ally.
+[u]Terrax Discipline[/u]: Grants adjacent infantry units and self increased accuracy and reduced morale loss.
+[u]Summary Execution[/u]: Members of the Terrax Guard can perform Summary Executions.
+
 [table]
 [tr] 
-[td]T-: [b]Maccabian Janissaries[/b] - [/td]
+[td]T4: [b]Terrax Guardsmen[/b] - . Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[/td]
+[/tr]
+[tr] 
+[td]T4: [b]Terrax Lascannon Squad[/b] - . Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[/td]
+[/tr]
+[tr] 
+[td]T8: [b]Terrax Storm Troopers[/b] - . Constructed in the Imperial Barracks after researching [b]Hammer of Wrath[/b].[/td]
+[/tr]
+[tr] 
+[td]T8: [b]Terrax Colonel[/b] - . Constructed in the Shrine of the Aquila after researching [b]Hammer of Wrath[/b].[/td]
 [/tr]
 [/table]
 
