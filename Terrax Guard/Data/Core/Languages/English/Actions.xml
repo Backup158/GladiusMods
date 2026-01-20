@@ -12,6 +12,9 @@
 	<entry name="AstraMilitarum/TerraxUseMeltagun" value="Fire Meltaguns"/>
 	<entry name="AstraMilitarum/TerraxUseMeltagunDescription" value="Half the squad fires Meltaguns."/>
 	<entry name="AstraMilitarum/TerraxUseMeltagunFlavor" value="Terrax Guardsmen prefer to carry Meltaguns as their special weapons. Each squad equips half of its members with them, and they are deployed when enemy armour is too thick for hotshot laspistols."/>
+	<entry name="AstraMilitarum/TerraxColonelDiscipline" value="<string name='Traits/AstraMilitarum/TerraxColonelDiscipline'/>"/>
+	<entry name="AstraMilitarum/TerraxColonelDisciplineDescription" value="Affects adjacent allied infantry. Radius is also increased upon maxxing out this Action's level. <string name='Traits/AstraMilitarum/TerraxColonelDisciplineDescription'/>"/>
+	<entry name="AstraMilitarum/TerraxColonelDisciplineFlavor" value="<string name='Traits/AstraMilitarum/TerraxColonelDisciplineFlavor'/>"/>
 	<entry name="AstraMilitarum/TerraxKillOrBeKilled" value="<string name='Traits/AstraMilitarum/TerraxKillOrBeKilled'/>"/>
 	<entry name="AstraMilitarum/TerraxKillOrBeKilledDescription" value="Target an allied infantry unit. <string name='Traits/AstraMilitarum/TerraxKillOrBeKilledDescription'/>"/>
 	<entry name="AstraMilitarum/TerraxKillOrBeKilledFlavor" value="<string name='Traits/AstraMilitarum/TerraxKillOrBeKilledFlavor'/>"/>

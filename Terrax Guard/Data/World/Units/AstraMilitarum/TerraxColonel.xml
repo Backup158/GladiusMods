@@ -121,7 +121,12 @@
 						beginFire="0.9"/>
 			</model>
 		</throwGrenade>
-		<auraOfDiscipline passive="1" rank="-1" rankMax="2" levelUpPriority="0.1">
+		<auraOfDiscipline passive="1" 
+				rank="-1" 
+				rankMax="2" 
+				levelUpPriority="0.1"
+				icon="Actions/AstraMilitarumPsykerProductionEdict"
+				name="Actins/AstraMilitarum/TerraxColonelDiscipline">
 			<beginTargets>
 				<selfTarget>
 					<areas>
