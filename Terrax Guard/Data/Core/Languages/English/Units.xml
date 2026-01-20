@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+	<!-- Infantry -->
 	<entry name="AstraMilitarum/TerraxGuardsman" value="Terrax Guardsmen"/>
-	<entry name="AstraMilitarum/TerraxGuardsmanDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxGuardsmanDescription" value="Elite infantry geared for close combat. Equipped with Meltaguns as special weapons. Can inspire and execute adjacent troops."/>
 	<entry name="AstraMilitarum/TerraxGuardsmanFlavor" value=""/>
 	<entry name="AstraMilitarum/TerraxStormTrooper" value="Terrax Storm Trooper"/>
-	<entry name="AstraMilitarum/TerraxStormTrooperDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxStormTrooperDescription" value="Elite melee infantry with volatile weapons. Plasma Pistols can be overcharged for further deadly effect. Can inspire and execute adjacent troops."/>
 	<entry name="AstraMilitarum/TerraxStormTrooperFlavor" value=""/>
 	<entry name="AstraMilitarum/TerraxLascannonSquad" value="Terrax Lascannon Squad"/>
-	<entry name="AstraMilitarum/TerraxLascannonSquadDescription" value=""/>
+	<entry name="AstraMilitarum/TerraxLascannonSquadDescription" value="Elite ranged infantry with anti-armour weapons. Can inspire adjacent troops. Can execute troops within 3 tiles, including vehicles."/>
 	<entry name="AstraMilitarum/TerraxLascannonSquadFlavor" value=""/>
+	<!-- Hero -->
+
+	<!-- Reinforcements -->
+	<!-- 
 	<entry name="AstraMilitarum/BattalionTerraxGuardsman" value="Battalion of <string name='Units/AstraMilitarum/TerraxGuardsman'/>"/>
 	<entry name="AstraMilitarum/BattalionTerraxGuardsmanDescription" value="<string name='Units/AstraMilitarum/TerraxGuardsmanDescription'/>"/>
 	<entry name="AstraMilitarum/BattalionTerraxGuardsmanFlavor" value="<string name='Units/AstraMilitarum/TerraxGuardsmanFlavor'/>"/>
+	-->
 </language>
