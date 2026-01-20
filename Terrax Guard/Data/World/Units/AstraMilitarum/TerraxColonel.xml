@@ -150,7 +150,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="TerraxColonelDiscipline"/>
+										<addTrait name="AstraMilitarum/TerraxColonelDiscipline"/>
 									</effects>
 								</modifier>
 							</modifiers>
