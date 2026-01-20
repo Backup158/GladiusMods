@@ -9,7 +9,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<rangedAttacks mulMin="0.11" mulMax="0.11"/>
+				<rangedAttacks mulMin="0.11" mulMax="0.33"/>
 				<meleeAttacks mulMin="0.33" mulMax="1"/>
 				<armorPenetration addMin="1" addMax="3"/>
 			</effects>
