@@ -2,7 +2,7 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/TerraxGuardsman" requiredUpgrade="AstraMilitarum/TempestusScion"/>
+		<produceUnit unit="AstraMilitarum/TerraxLascannonSquad" requiredUpgrade="AstraMilitarum/TempestusScion"/>
 		<produceUnit unit="AstraMilitarum/TerraxStormTrooper" requiredUpgrade="AstraMilitarum/HammerOfWrath"/>
-		<produceUnit unit="AstraMilitarum/TerraxLascannonSquad" requiredUpgrade="AstraMilitarum/HammerOfWrath"/>
 	</actions>
 </building>

@@ -11,7 +11,7 @@
 				explosionsBone="Gun"
 				walker="1"/>
 	</model> <!-- .8 .8 .8-->
-	<group size="4" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
+	<group size="3" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
 	<weapons>
 		<weapon name="Lascannon">
 			<model>
@@ -42,11 +42,11 @@
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<!-- <meleeInitiative base="3"/> -->
 				<!-- <influenceUpkeep base="3.0"/>--> <!-- 4 | %influenceUpkeep base tier=6 factor=2 -->
-				<influenceCost base="60.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
-				<oreCost base="40.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<influenceCost base="50.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
+				<oreCost base="30.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<productionCost base="42.0"/> <!-- %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
