@@ -137,11 +137,12 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radiusMin="1" radiusMax="2">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
 									<effects>
 										<addTrait name="Discipline"/>
+										<addTrait name="AstraMilitarum/TerraxColonelDiscipline"/>
 									</effects>
 								</modifier>
 							</modifiers>
