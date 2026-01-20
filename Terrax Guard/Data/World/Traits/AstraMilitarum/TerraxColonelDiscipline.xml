@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/MoraleSoak" rankMax="2">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy addMin="0.5" addMax="1.5"/>
+				<moraleLossFactor addMin="-0.11" addMax="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<trait name="AstraMilitarum/TerraxGuard"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAttacks addMin="0.11" addMax="0.33"/>
+				<meleeAttacks addMin="0.22" addMax="0.66"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

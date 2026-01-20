@@ -138,7 +138,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="TerraxDiscipline"/>
+										<addTrait name="TerraxColonelDiscipline"/>
 									</effects>
 								</modifier>
 							</modifiers>
