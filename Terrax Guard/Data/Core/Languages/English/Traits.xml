@@ -12,4 +12,10 @@
 	<entry name="AstraMilitarum/TerraxThrownPistol" value="Pistol Thrown"/>
 	<entry name="AstraMilitarum/TerraxThrownPistolDescription" value="Ranged weapon is unavailable."/>
 	<entry name="AstraMilitarum/TerraxThrownPistolFlavor" value="An overloaded plasma pistol's explosion will turn its wielder into a bubbling puddle of flesh. Throwing the weapon away can save the user's life, and it can even take the enemy's. However, guardsmen will have trouble explaining to the commissar why they decided that their life was worth more than a rare, meticulously crafted weapon. Many troopers find themselves handed over to the Adeptus Mechanicus for sentencing, and of those who can still feel, few remain satisfied with the decision they made on the battlefield."/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilled" value="Kill or Be Killed"/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDescription" value="Unit gains increased ranged attacks, further increased melee attacks, and increased armour penetration. Upon killing an enemy, remove the health drain."/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledFlavor" value="<string name='Traits/AstraMilitarum/TerraxKillOrBeKilledFlavor'/>"/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDrain" value="Marked for Execution"/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDrainDescription" value="Lose health every turn"/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDrainFlavor" value="Redouble your efforts, or you'll find a bolt shell tearing you in half."/>
 </language>
