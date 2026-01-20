@@ -133,7 +133,7 @@
 				rankMax="2" 
 				levelUpPriority="0.1"
 				icon="Actions/AstraMilitarumPsykerProductionEdict"
-				name="Actins/AstraMilitarum/TerraxColonelDiscipline">
+				name="AstraMilitarum/TerraxColonelDiscipline">
 			<beginTargets>
 				<selfTarget>
 					<areas>
