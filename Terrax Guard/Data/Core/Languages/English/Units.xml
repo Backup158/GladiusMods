@@ -11,7 +11,9 @@
 	<entry name="AstraMilitarum/TerraxLascannonSquadDescription" value="Elite ranged infantry with anti-armour weapons. Can inspire adjacent troops. Can execute troops within 3 tiles, including vehicles."/>
 	<entry name="AstraMilitarum/TerraxLascannonSquadFlavor" value=""/>
 	<!-- Hero -->
-
+	<entry name="AstraMilitarum/TerraxColonel" value="Terrax Colonel"/>
+	<entry name="AstraMilitarum/TerraxColonelDescription" value="Elite Hero unit that provides bonuses to nearby allied units."/>
+	<entry name="AstraMilitarum/TerraxColonelFlavor" value=""/>
 	<!-- Reinforcements -->
 	<!-- 
 	<entry name="AstraMilitarum/BattalionTerraxGuardsman" value="Battalion of <string name='Units/AstraMilitarum/TerraxGuardsman'/>"/>
