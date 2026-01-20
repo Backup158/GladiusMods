@@ -12,7 +12,7 @@
 				walker="1"/>
 	</model>
 	<weapons>
-		<weapon name="BoltPistol" slotName="BoltPistol">
+		<weapon name="BoltPistol" slotName="BoltPistol" enabled="0">
 			<model>
 				<projectileWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
@@ -21,13 +21,18 @@
 						fireInterval="0.35"/>
 			</model>
 		</weapon>
-		<weapon name="PowerSword">
+		<weapon name="PowerSword" slotName="PowerSword" enabled="0">
 			<model>
 				<powerWeapon effectBoundingVolume="Blade" 
 						mesh="Weapons/AstraMilitarum/LordCommissarSword"
 						material="Weapons/AstraMilitarum/LordCommissarSword"
-						bone="LeftHandBone"
+						bone="RightHandBone"
 						fireInterval="1.0"/>
+			</model>
+		</weapon>
+		<weapon name="PowerFist">
+			<model>
+				<weapon bone="LeftHandBone" fireInterval="10"/>
 			</model>
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
@@ -107,6 +112,8 @@
 						soundCount="4"/>
 			</model>
 		</move>
+		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="BoltPistol PowerSword"/>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
