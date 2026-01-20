@@ -8,4 +8,6 @@
 	<entry name="AstraMilitarum/TerraxMeltagunFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
 	<entry name="AstraMilitarum/TerraxHotshotLaspistol" value="Terrax Mk. IV Hotshot Laspistol"/>
 	<entry name="AstraMilitarum/TerraxHotshotLaspistolFlavor" value="Terrax Guardsmen favour their custom Hotshot Laspistols for general work. Manufactorums on Terrax use a modified build, trading penetration for accuracy and damage. Troopers of Terrax have iron discipline, and this applies to their shooting drills. Their disciplined aim takes advantage of the improved accuracy, granting the same effective range as a Cadian with their standard lasgun."/>
+	<entry name="AstraMilitarum/TerraxColonelBoltPistol" value="Terrax Mk. VII Bolt Pistol"/>
+	<entry name="AstraMilitarum/TerraxColonelBoltPistolFlavor" value="<string name='Weapons/BoltFlavor'/>"/>	
 </language>

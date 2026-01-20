@@ -12,7 +12,7 @@
 				walker="1"/>
 	</model>
 	<weapons>
-		<weapon name="BoltPistol" slotName="BoltPistol" enabled="0">
+		<weapon name="TerraxColonelBoltPistol" slotName="BoltPistol" enabled="0">
 			<model>
 				<projectileWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
