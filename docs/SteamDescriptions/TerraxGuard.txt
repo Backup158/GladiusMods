@@ -1,5 +1,7 @@
 Adds the elite infantry of the Terrax Guard to the Astra Militarum. 
 
+On Terrax, the Schola Excubitos, a massive Schola Progenium, trains all regimental forces. In essence, every Guardsman in the Terrax Guard is trained, equipped, and held to the same standards as Tempestus Scions and Commissars. Even the lowest Guardsman is elite, and they carry this with pride. They're even equipped with carapace armour. When every soldier is instilled with deep discipline and a duty to keep their allies accountable, other regiments have come to refer to the Terrax Guard as a regiment of Commissars. 
+Most flaunted is their discipline, and they hold their peers to these impossible standards. Even in the midst of battle, fleeing troops will find that the Terrax Guard can swiftly turn their weapons on cowards. Cowardice is an affront to Terrax honour, and the thought of letting it go unpunished is unbearable. The Commissariat has given its blessing for these executions, as it's always useful to remind the common soldier that watchful eyes are everywhere.
 
 [h1]Units and Unlocks[/h1]
 [i]Terrax Guard[/i]: Increased morale. Has reduced ranged attacks if adjacent to a Shaken ally, moreso if adjacent to a Broken ally.
