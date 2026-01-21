@@ -19,6 +19,7 @@ Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[
 [/tr]
 [tr] 
 [td]T4: [b]Terrax Lascannon Squad[/b] - Elite ranged infantry with anti-armour weapons. Can execute troops within 3 tiles, including vehicles. 
+[u]Lascannon Execution[/u]: Kills two models instead, but grants the most morale regain of all Terrax infantry squads.
 
 Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[/td]
 [/tr]
