@@ -198,7 +198,7 @@
 				</selfTarget>
 			</beginTargets>
 		</bringItDown>
-		<!-- Move Move Move -->
+		<!-- Kill or Be Killed -->
 		<genericUnitAbility cooldown="3"
 				levelUpPriority="0.1"
 				rank="-1"

@@ -14,6 +14,17 @@
 				<armorPenetration addMin="1" addMax="3"/>
 			</effects>
 		</modifier>
+		<!-- Dealing with the competition -->
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="AstraMilitarum/TerraxGuard"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mul="0.5"/>
+			</effects>
+		</modifier>
 	</modifiers>
 	<!-- BE KILLED -->
 	<onEnemyKilledSelfModifiers>
