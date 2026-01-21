@@ -340,6 +340,7 @@
 		<trait name="Stubborn"/>
 
 		<trait name="AstraMilitarum/TerraxGuard"/>
+		<trait name="BolsterDefences"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
