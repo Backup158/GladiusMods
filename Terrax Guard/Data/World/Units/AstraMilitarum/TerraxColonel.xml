@@ -292,7 +292,7 @@
 			</beginTargets>			
 		</summaryExecution>
 		<ironWill beginOnDisappear="1"
-				cooldown="10"
+				cooldown="5"
 				elite="1"
 				levelUpPriority="1"
 				passive="1"
