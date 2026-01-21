@@ -2,7 +2,7 @@
 <language>
 	<!-- Infantry -->
 	<entry name="AstraMilitarum/TerraxGuardsman" value="Terrax Guardsmen"/>
-	<entry name="AstraMilitarum/TerraxGuardsmanDescription" value="Elite infantry geared for close combat. Equipped with Meltaguns as special weapons. Can inspire and execute adjacent troops."/>
+	<entry name="AstraMilitarum/TerraxGuardsmanDescription" value="Elite infantry geared for close combat. Half the squad is equipped with Meltaguns as special weapons. Can inspire and execute adjacent troops."/>
 	<entry name="AstraMilitarum/TerraxGuardsmanFlavor" value="Even the lowest Guardsman on Terrax is trained at the Schola Progenium, where they are treated as if they were training to be Commissars. They're even equipped with carapace armour. When every soldier is instilled with deep discipline and a duty to keep their allies accountable, other regiments have come to refer to the Terrax Guard as a regiment of Commissars."/>
 	<entry name="AstraMilitarum/TerraxStormTrooper" value="Terrax Storm Trooper"/>
 	<entry name="AstraMilitarum/TerraxStormTrooperDescription" value="Elite close combat infantry with volatile anti-armour weapons. Plasma Pistols can be overcharged for further deadly effect. Can inspire and execute adjacent troops."/>
