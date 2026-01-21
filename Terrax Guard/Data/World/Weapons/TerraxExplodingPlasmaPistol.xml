@@ -9,7 +9,7 @@
 		<modifier>
 			<effects>
 				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
-				<rangedDamage add="2.5"/> <!-- other one had this nerfed to 2 plus lowered attacks | %rangedDamage add strength=4 -->
+				<rangedDamage add="3.33"/> <!-- other one had this nerfed from 3 to 2 plus lowered attacks. +33% dmg of that is 2.67. | %rangedDamage add strength=4 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>

@@ -5,6 +5,7 @@
 			<conditions>
 				<weapon>
 					<noTrait name="Melee"/>
+					<noTrait name="Bomb"/>
 				</weapon>
 			</conditions>
 			<effects>
