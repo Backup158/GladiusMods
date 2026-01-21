@@ -43,8 +43,8 @@ By default, can use max rank [u]Summary Execution[/u].
 [i]Colonel's Gaze[/i]: +[0.5, 1.5] accuracy and -[11%, 33%] morale loss. Terrax Guard gain +[11%, 33%] ranged attacks and +[22%, 66%] melee attacks.
 [u]Bring It Down[/u]: Gets 2 range when fully upgraded.
 [u]Kill or Be Killed[/u]: Motivate a unit to fight harder. If they fail to kill an enemy, execute part of the squad.
-Gives [i]Marked for Execution[/u] until it is removed by [i]Kill or Be Killed[/i]. -50% health at the start of each turn (so the first tick is after the turn rolls over).
-Gives [i]Kill or Be Killed[/u] for 1 turn. Unit gains gain +[11%, 33%] ranged attacks, +[33%, 100%] melee attacks, and +[1, 3] armour penetration. Members of the Terrax Guard take +50% damage from enemies, since Colonels like to use these orders to get rid of up-and-coming competition. Upon killing an enemy, remove [i]Marked for Execution[/u]. If an enemy is not killed before this effect expires, the health drain will remain. When the ability is fully upgraded, this trait will last for 2 turns.
+Gives [i]Marked for Execution[/i] until it is removed by [i]Kill or Be Killed[/i]. -50% health at the start of each turn (so the first tick is after the turn rolls over).
+Gives [i]Kill or Be Killed[/i] for 1 turn. Unit gains gain +[11%, 33%] ranged attacks, +[33%, 100%] melee attacks, and +[1, 3] armour penetration. Members of the Terrax Guard take +50% damage from enemies, since Colonels like to use these orders to get rid of up-and-coming competition. Upon killing an enemy, remove [i]Marked for Execution[/i]. If an enemy is not killed before this effect expires, the health drain will remain. When the ability is fully upgraded, this trait will last for 2 turns.
 [u]Iron Will[/u]: Has a 5 turn cooldown instead.
 
 Constructed in the Shrine of the Aquila after researching [b]Hammer of Wrath[/b].[/td]
@@ -52,22 +52,6 @@ Constructed in the Shrine of the Aquila after researching [b]Hammer of Wrath[/b]
 [/table]
 
 No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
-
-[h1]Lore and Design Philosophy[/h1]
-This is a collection of my thoughts for those interested. Feel free to skip this section.
-[spoiler]
-Based on the Lexicanum, the main sources for lore are one page in the 3rd Edition Imperial Guard Codex, one entry in the Collector's Guide from 2003, and a paragraph in a White Dwarf article in 2012 talking about kitbashes. The only things mentioned were the massive Schola Progenium making them a regiment of Commissars and their usage of Meltaguns and Lascannons. So looks like it's time for more headcanoning.
-
-Starting with tier, I initially considered making them a Tier 1 unit unlocked at Vox Caster, since kitbashes and the one codex drawing shows them using the standard M36 lasgun. It would be a nice support unit without needing to build a Shrine of the Aquila. However, it felt strange taking a regiment that's trained to the level of Scions and Commissars and making them basic infantry but better. I felt it was more appropriate to make the normal Terrax Guardsmen an alternative to Scions. I could've kept the lasguns and compensated for that in other ways, but I like making use of the Commissar model's two weapons, so I made up a laspistol to do the same thing. 
-
-One of the first things I thought of was having a Commissar with a plasma pistol, since the mental image of a Guardsman getting absolutely demolished by a plasma beam for summary execution was too funny. Turns out doing that with 8 units leads to absolutely insane damage, and removing the bolt pistol makes Summary Execution crash. For the first reason, I made the custom plasma pistol so I could have troops blasting plasma and swinging power swords. However, nerfing it to a reasonable level was a bit too much for Tier 4 since it felt like I was losing the point of having a plasma pistol in the first place, so I made the storm troopers and moved them to Tier 8. The custom laspistol is still nerfed, but I added an action to give it the regular damage/penetration at the cost of increased self damage and a cooldown. I also thought throwing them to blow up was a cool idea, even though they'd probably get executed for doing that.
-Basically all lore about them was just my headcanon.
-
-Normally I wouldn't add the lascannon squad, but I thought it'd be funny to have a unit that can execute vehicles. That is all.
-
-Having a regiment of Commissars without a super Commissar hero felt like a waste, so I added the Terrax Colonel. Someone posted a photo of their kitbashed mini on the Internet, and I used that as the main inspiration. Punching people with a power fist is funny, and the idea of having a power fist and power sword is even funnier. Oh yeah and I liked the idea of late-game Commissar buffing more infantry. This may be overpowered as people add more late-game infantry. Really the main point was to have a Commissar that had Summary Execution without needing perk investment, which isn't as big of a deal considering I also added 3 infantry squads with Summary Execution abilities.
-Oh yeah, all the lore was made up for this too.
-[/spoiler]
 
 [h1]Further details[/h1]
 [h2]Integrated Mod Support[/h2]
