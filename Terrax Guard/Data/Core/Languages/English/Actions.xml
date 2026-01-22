@@ -8,9 +8,9 @@
 	<entry name="AstraMilitarum/TerraxOverchargePlasma" value="Overcharge Plasma Pistol"/>
 	<entry name="AstraMilitarum/TerraxOverchargePlasmaDescription" value="Makes the Plasma Pistol stronger at the cost of increased self-damage."/>
 	<entry name="AstraMilitarum/TerraxOverchargePlasmaFlavor" value="Plasma beams exude intense heat, and handling plasma weapons requires managing this heat. Typically, these weapons are kept in safe mode, where pulling the trigger is limited in the amount of power expulsed. When the adversary is too powerful even for these shots, plasma weapons can be overcharged to remove this limitation, which greatly increases the risk of the weapon overloading and boiling its user alive."/>
-	<entry name="AstraMilitarum/TerraxThrowPlasma" value="Throw Overloaded Plasma Pistol"/>
-	<entry name="AstraMilitarum/TerraxThrowPlasmaDescription" value="Use the pistols as a grenade, dealing massive damage but removing the weapons from use."/>
-	<entry name="AstraMilitarum/TerraxThrowPlasmaFlavor" value="<string name='Weapons/TerraxExplodingPlasmaPistolFlavor'/>"/>
+	<entry name="UseWeapon/TerraxThrowPlasma" value="Throw Overloaded Plasma Pistol"/>
+	<entry name="UseWeapon/TerraxThrowPlasmaDescription" value="Use the pistols as a grenade, dealing massive damage but removing the weapons from use."/>
+	<entry name="UseWeapon/TerraxThrowPlasmaFlavor" value="<string name='Weapons/TerraxExplodingPlasmaPistolFlavor'/>"/>
 	<!-- Terrax Lascannon Squad -->
 	<entry name="AstraMilitarum/LascannonExecution" value="<string name='Actions/SummaryExecution'/>"/>
 	<entry name="AstraMilitarum/LascannonExecutionDescription" value="Executes two squad member of an infantry or vehicle unit within three tiles to restore morale of nearby allied units."/>
