@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/TerraxPlasmaPistol" value="Terrax Mk. XI Plasma Pistol"/>
-	<entry name="AstraMilitarum/TerraxPlasmaPistolFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
-	<entry name="AstraMilitarum/TerraxExplodingPlasmaPistol" value="Exploding Plasma Pistol"/>
-	<entry name="AstraMilitarum/TerraxExplodingPlasmaPistolFlavor" value="Overcharging plasma weapons can increase their effectiveness; however, past a certain point, the weapon will overload and explode. This makes for an enticing makeshift grenade, but you'll have to live with the consequences of losing a weapon worth more than your life."/>
-	<entry name="AstraMilitarum/TerraxMeltagun" value="Terrax Mk. II Meltagun"/>
-	<entry name="AstraMilitarum/TerraxMeltagunFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
-	<entry name="AstraMilitarum/TerraxHotshotLaspistol" value="Terrax Mk. IV Hotshot Laspistol"/>
-	<entry name="AstraMilitarum/TerraxHotshotLaspistolFlavor" value="Terrax Guardsmen favour their custom Hotshot Laspistols for general work. Manufactorums on Terrax use a modified build, trading penetration for accuracy and damage. Troopers of Terrax have iron discipline, and this applies to their shooting drills. Their disciplined aim takes advantage of the improved accuracy, granting the same effective range as a Cadian with their standard lasgun."/>
-	<entry name="AstraMilitarum/TerraxColonelBoltPistol" value="Terrax Mk. VII Bolt Pistol"/>
-	<entry name="AstraMilitarum/TerraxColonelBoltPistolFlavor" value="<string name='Weapons/BoltFlavor'/>"/>	
+	<entry name="TerraxPlasmaPistol" value="Terrax Mk. XI Plasma Pistol"/>
+	<entry name="TerraxPlasmaPistolFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
+	<entry name="TerraxExplodingPlasmaPistol" value="Exploding Plasma Pistol"/>
+	<entry name="TerraxExplodingPlasmaPistolFlavor" value="Overcharging plasma weapons can increase their effectiveness; however, past a certain point, the weapon will overload and explode. This makes for an enticing makeshift grenade, but you'll have to live with the consequences of losing a weapon worth more than your life."/>
+	<entry name="TerraxMeltagun" value="Terrax Mk. II Meltagun"/>
+	<entry name="TerraxMeltagunFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
+	<entry name="TerraxHotshotLaspistol" value="Terrax Mk. IV Hotshot Laspistol"/>
+	<entry name="TerraxHotshotLaspistolFlavor" value="Terrax Guardsmen favour their custom Hotshot Laspistols for general work. Manufactorums on Terrax use a modified build, trading penetration for accuracy and damage. Troopers of Terrax have iron discipline, and this applies to their shooting drills. Their disciplined aim takes advantage of the improved accuracy, granting the same effective range as a Cadian with their standard lasgun."/>
+	<entry name="TerraxColonelBoltPistol" value="Terrax Mk. VII Bolt Pistol"/>
+	<entry name="TerraxColonelBoltPistolFlavor" value="<string name='Weapons/BoltFlavor'/>"/>	
 </language>
