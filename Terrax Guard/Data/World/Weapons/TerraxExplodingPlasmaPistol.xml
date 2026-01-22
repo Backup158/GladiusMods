@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon>
+<weapon icon="Actions/AstraMilitarum/TerraxThrowPlasma">
 	<model>
 		<grenadeWeapon effectScale="0.75"
 				fireSound="Weapons/GrenadeThrow"
