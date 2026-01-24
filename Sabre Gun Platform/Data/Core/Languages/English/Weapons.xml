@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="SabreTwinLinkedHeavyStubber" value="Sabre Twin-Linked Heavy Stubber"/>
-	<!-- <entry name="SabreTwinLinkedHeavyStubberDescription" value=""/> -->
-	<entry name="SabreTwinLinkedHeavyStubberFlavor" value=""/>
+	<entry name="SabreTwinLinkedHeavyStubberDescription" value="Manned anti-air weapon."/>
+	<entry name="SabreTwinLinkedHeavyStubberFlavor" value="<string name='Weapons/StubFlavor'/>"/>
 	<entry name="SabreTwinLinkedHeavyStubberAP" value="Sabre Twin-Linked Heavy Stubber (AP)"/>
-	<!-- <entry name="SabreTwinLinkedHeavyStubberAPDescription" value=""/> -->
-	<entry name="SabreTwinLinkedHeavyStubberAPFlavor" value=""/>
+	<entry name="SabreTwinLinkedHeavyStubberAPDescription" value="Manned anti-air weapon loaded with armour-piercing rounds, which reduces range."/>
+	<entry name="SabreTwinLinkedHeavyStubberAPFlavor" value="<string name='Weapons/StubFlavor'/>"/>
+	<entry name="SabreTwinLinkedHeavyBolter" value="Sabre Twin-Linked Heavy Bolter"/>
+	<!-- <entry name="SabreTwinLinkedHeavyBolterDescription" value=""/> -->
+	<entry name="SabreTwinLinkedHeavyBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
 </language>
