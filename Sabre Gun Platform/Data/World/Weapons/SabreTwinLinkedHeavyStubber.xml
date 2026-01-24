@@ -2,7 +2,8 @@
 <weapon icon="Weapons/TwinLinkedCognisHeavyStubber">
 	<model>
 		<projectileWeapon fireSound="Weapons/HeavyStubber"
-				fireSoundCount="3"/>
+				fireSoundCount="3"
+				muzzleCount="2"/>
 	</model>
 	<modifiers>
 		<modifier>
