@@ -21,6 +21,7 @@
 					<conditions>
 						<tile>
 							<noUnit/>
+							<land/>
 							<noFeature name="GravityWaves"/>
 						</tile>
 					</conditions>
@@ -58,6 +59,7 @@
 					<conditions>
 						<tile>
 							<noUnit/>
+							<land/>
 							<noFeature name="GravityWaves"/>
 						</tile>
 					</conditions>
