@@ -39,7 +39,7 @@ Constructed in the Imperial Barracks after researching [b]Hammer of Wrath[/b].[/
 [td]T8: [b]Terrax Colonel[/b] - Elite Hero unit that provides bonuses to nearby allied units, with further effects for members of the Terrax Guard.
 Equipped with a power fist in the left hand. Right hand can swap between a power sword and a 2 range bolt pistol. Has increased ranged damage reduction on top of the Iron Halo.
 By default, can use max rank [u]Summary Execution[/u].
-[u]Colonel's Gaze[/u]: An increased Aura of Discipline. Grants [i]Discipline[/i] to adjacent allied infantry. [/i]Grants Colonel's Gaze[/i] to allied infantry within 2 tiles (3 tiles when the ability is fully upgraded).
+[u]Colonel's Gaze[/u]: An increased Aura of Discipline. Grants [i]Discipline[/i] to adjacent allied infantry. Grants [i]Colonel's Gaze[/i] to allied infantry within 2 tiles (3 tiles when the ability is fully upgraded).
 [i]Colonel's Gaze[/i]: +[0.5, 1.5] accuracy and -[11%, 33%] morale loss. Terrax Guard gain +[11%, 33%] ranged attacks and +[22%, 66%] melee attacks.
 [u]Bring It Down[/u]: Gets 2 range when fully upgraded.
 [u]Kill or Be Killed[/u]: Motivate a unit to fight harder. If they fail to kill an enemy, execute part of the squad.
