@@ -9,8 +9,8 @@
 		<modifier>
 			<effects>
 				<attacks add="2"/>
-				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
-				<rangedDamage add="8"/> <!-- %rangedDamage add strength=9 -->
+				<rangedArmorPenetration add="4"/> <!-- 4 | %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="6"/> <!-- 8 | %rangedDamage add strength=9 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
@@ -24,5 +24,6 @@
 		<trait name="HeavyWeapon"/>
 		<trait name="TwinLinked"/>
 		<trait name="MannedWeapon"/>
+		<trait name="SabreGroundAim"/>
 	</traits>
 </weapon>
