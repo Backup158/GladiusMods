@@ -96,11 +96,7 @@
 	</actions>
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
-		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
-		<trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
-		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
 		<trait name="OpenTopped"/>
-		<trait name="Vehicle"/>
 		<trait name="AssaultVehicle"/>
 		<trait name="Fortification"/>
 		<trait name="Transport"/>
