@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="SabreHeavyStubber" value=""/>
-	<!-- <entry name="SabreHeavyStubberDescription" value=""/> -->
-	<entry name="SabreHeavyStubberFlavor" value=""/>
+	<entry name="SabreTwinLinkedHeavyStubber" value="Sabre Twin-Linked Heavy Stubber"/>
+	<!-- <entry name="SabreTwinLinkedHeavyStubberDescription" value=""/> -->
+	<entry name="SabreTwinLinkedHeavyStubberFlavor" value=""/>
+	<entry name="SabreTwinLinkedHeavyStubberAP" value="Sabre Twin-Linked Heavy Stubber (AP)"/>
+	<!-- <entry name="SabreTwinLinkedHeavyStubberAPDescription" value=""/> -->
+	<entry name="SabreTwinLinkedHeavyStubberAPFlavor" value=""/>
 </language>
