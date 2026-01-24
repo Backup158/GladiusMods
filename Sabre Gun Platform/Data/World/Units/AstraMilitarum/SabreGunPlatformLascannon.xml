@@ -84,8 +84,6 @@
 						soundCount="3"/>
 			</model>		
 		</move>
-		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
-				weaponSlotNames="Main AP"/>
 		<useWeapon weaponSlotName="HunterKillerMissile"
 				cooldown="10"
 				requiredUpgrade="AstraMilitarum/HunterKillerMissile">
