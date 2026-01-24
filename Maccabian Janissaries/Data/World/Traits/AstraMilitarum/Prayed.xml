@@ -5,6 +5,7 @@
 			<effects>
 				<moraleMax add="2"/>
 				<feelNoPainDamageReduction add="0.17"/>
+				<witchfireDamageReduction add="0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>
