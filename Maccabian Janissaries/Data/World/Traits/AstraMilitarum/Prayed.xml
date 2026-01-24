@@ -4,7 +4,7 @@
 		<modifier>
 			<effects>
 				<moraleMax add="2"/>
-				<feelNoPainDamageReduction add="0.06"/>
+				<feelNoPainDamageReduction add="0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
