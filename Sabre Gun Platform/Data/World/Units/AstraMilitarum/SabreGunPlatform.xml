@@ -24,8 +24,8 @@
 						effectFaceWeight="0"/>
 			</model>
 		</weapon>
-		<weapon name="SabreTwinLinkedAutocannon" enabled="0"
-				requiredUpgrade="AstraMilitarum/ImperialStrongpoint">
+		<weapon name="SabreTwinLinkedAutocannon"
+				requiredUpgrade="AstraMilitarum/VoidShieldGenerator">
 			<model>
 				<projectileWeapon muzzleBone=".Muzzle"
 						muzzleCount="4"
