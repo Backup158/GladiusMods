@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/" value=""/>
-	<entry name="AstraMilitarum/Description" value=""/>
-	<entry name="AstraMilitarum/Flavor" value=""/>
+	<entry name="SabreMannedLoader" value="Loading Crew Present"/>
+	<entry name="SabreMannedLoaderDescription" value="When more than one cargo slot is filled, increase attacks and melee damage reduction."/>
+	<entry name="SabreMannedLoaderFlavor" value=""/>
+	<entry name="SabreFullyManned1" value="Fully Manned"/>
+	<entry name="SabreFullyManned1Description" value="Weapon is activated when 3 or more cargo slots are filled."/>
+	<entry name="SabreFullyManned1Flavor" value=""/>
+	<entry name="SabreFullyManned2" value="Fully Manned 2"/>
+	<entry name="SabreFullyManned2Description" value="Hidden helper to kill cargo == 2"/>
+	<entry name="SabreFullyManned2Flavor" value="nyaaaa :3"/>
 </language>

@@ -24,6 +24,14 @@
 						effectFaceWeight="0"/>
 			</model>
 		</weapon>
+		<weapon name="SabreTwinLinkedAutocannon" enabled="0"
+				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						muzzleCount="4"
+						effectFaceWeight="0"/>
+			</model>
+		</weapon>
 		<!-- This should be a twin linked but it has muzzle issues -->
 		<weapon name="HeavyBolter" count="2">
 			<model>
@@ -100,5 +108,6 @@
 		<trait name="AssaultVehicle"/>
 		<trait name="Fortification"/>
 		<trait name="Transport"/>
+		<trait name="SabreMannedLoader"/>
 	</traits>
 </unit>

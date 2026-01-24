@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" icon="Traits/MannedWeapon">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="1"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.1"/>
+				<meleeDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
