@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Weapons/TwinLinkedCognisHeavyStubber">
+<weapon icon="Weapons/TwinIcarusIronhailHeavyStubber">
 	<model>
 		<projectileWeapon fireSound="Weapons/HeavyStubber"
 				fireSoundCount="3"
