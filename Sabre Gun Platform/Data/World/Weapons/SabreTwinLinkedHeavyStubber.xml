@@ -18,5 +18,8 @@
 	<traits>
 		<trait name="HeavyWeapon"/>
 		<trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
+		<trait name="Skyfire"/>
+		<trait name="MannedWeapon"/>
+		<trait name="TwinLinked"/>
 	</traits>
 </weapon>
