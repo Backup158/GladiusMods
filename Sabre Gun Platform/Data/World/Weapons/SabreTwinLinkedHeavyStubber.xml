@@ -15,7 +15,7 @@
 			</effects>
 		</modifier>
 	</modifiers>
-	<target rangeMax="3"/>
+	<target rangeMax="4"/>
 	<traits>
 		<trait name="HeavyWeapon"/>
 		<trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
