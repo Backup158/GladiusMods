@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="AstraMilitarum/ConstructSabreGunPlatform" value="Construct Sabre Gun Platform"/>
-	<entry name="AstraMilitarum/ConstructSabreGunPlatformDescription" value=""/>
-	<entry name="AstraMilitarum/ConstructSabreGunPlatformFlavor" value=""/>
+	<entry name="AstraMilitarum/ConstructSabreGunPlatformDescription" value="Constructs a manned anti-air emplacement."/>
+	<entry name="AstraMilitarum/ConstructSabreGunPlatformFlavor" value="Servitors lug crates of material to the construction site, where tech-priests burn incense and perform rituals blessing the components. When the emplacement is fully built, the crew gathers to recite the Canticle of Ack-Ack, completing its construction."/>
 </language>
