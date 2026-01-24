@@ -14,12 +14,13 @@
 			</effects>
 		</modifier>
 	</modifiers>
-	<target rangeMax="2"/>
+	<target rangeMax="3"/>
 	<traits>
 		<trait name="HeavyWeapon"/>
 		<trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
 		<trait name="Skyfire"/>
 		<trait name="MannedWeapon"/>
 		<trait name="TwinLinked"/>
+		<trait name="RapidFire"/>
 	</traits>
 </weapon>
