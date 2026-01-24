@@ -6,6 +6,10 @@
 				<encounter>
 					<opponent>
 						<trait name="Vehicle"/>
+						<noTrait name="Flyer"/>
+						<noTrait name="JetPack"/>
+						<noTrait name="Jetbike"/>
+						<noTrait name="Skimmer"/>
 					</opponent>
 				</encounter>
 			</conditions>
