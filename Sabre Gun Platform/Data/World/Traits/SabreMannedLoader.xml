@@ -12,5 +12,16 @@
 				<meleeDamageReduction add="0.17"/>
 			</effects>
 		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="2"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAccuracy mul="0.17"/>
+				<meleeDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
