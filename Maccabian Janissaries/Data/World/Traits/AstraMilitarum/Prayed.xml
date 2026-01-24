@@ -10,7 +10,7 @@
 	</modifiers>
     <!-- When not prayed, morale nuke -->
     <onTraitRemovedModifiers>
-		<modifier>
+		<modifier visible="0">
 			<effects>
 				<morale add="-60"/>
 				<hitpointsFactorFromMax add="-0.5"/>
