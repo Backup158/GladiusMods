@@ -32,8 +32,7 @@
 						effectFaceWeight="0"/>
 			</model>
 		</weapon>
-		<!-- This should be a twin linked but it has muzzle issues -->
-		<weapon name="HeavyBolter" count="2">
+		<weapon name="SabreTwinLinkedHeavyBolter">
 			<model>
 				<projectileWeapon mesh="Weapons/AstraMilitarum/HydraHeavyBolter"
 						material="Weapons/AstraMilitarum/HydraHeavyBolter"
