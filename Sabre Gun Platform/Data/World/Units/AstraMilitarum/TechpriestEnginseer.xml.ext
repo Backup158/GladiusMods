@@ -4,7 +4,7 @@
 		<constructTidewallGunrig cooldown="10"
 				name="AstraMilitarum/ConstructSabreGunPlatform"
 				icon="Units/AstraMilitarum/SabreGunPlatform"
-				requiredUpgrade="AstraMilitarum/ImperialStrongpoint">
+				requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery">
 			<model>
 				<action animation="Units/AstraMilitarum/TechpriestEnginseerBuild"
 						sound="Actions/Construct"/>
