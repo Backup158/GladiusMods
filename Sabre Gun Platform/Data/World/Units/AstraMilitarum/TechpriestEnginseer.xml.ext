@@ -38,5 +38,42 @@
 				</target>
 			</beginTargets>
 		</constructTidewallGunrig>
+		<constructTidewallGunrig cooldown="10"
+				name="AstraMilitarum/ConstructSabreGunPlatformLascannon"
+				icon="Units/AstraMilitarum/SabreGunPlatformLascannon"
+				requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerBuild"
+						sound="Actions/Construct"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<oreCost base="35"/> <!-- Bastion is 40 -->
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="AstraMilitarum/SabreGunPlatformLascannon"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructTidewallGunrig>
 	</actions>
 </unit>
