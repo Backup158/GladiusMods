@@ -100,4 +100,9 @@
 		<trait name="Transport"/>
 		<trait name="SabreMannedLoader"/>
 	</traits>
+	<!-- Too Many Voices Integration -->
+	<responses>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Buildings/Bastion_Attack" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Buildings/Bastion_Select" soundCount="4"/>
+	</responses>
 </unit>
