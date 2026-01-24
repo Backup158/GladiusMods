@@ -9,4 +9,7 @@
 	<entry name="SabreTwinLinkedHeavyBolter" value="Sabre Twin-Linked Heavy Bolter"/>
 	<!-- <entry name="SabreTwinLinkedHeavyBolterDescription" value=""/> -->
 	<entry name="SabreTwinLinkedHeavyBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="SabreTwinLinkedAutocannon" value="Sabre Twin-Linked Autocannon"/>
+	<entry name="SabreTwinLinkedAutocannonDescription" value="Manned versatile weapon, requiring a fully-crewed platform."/>
+	<!-- <entry name="SabreTwinLinkedAutocannonFlavor" value=""/> -->
 </language>

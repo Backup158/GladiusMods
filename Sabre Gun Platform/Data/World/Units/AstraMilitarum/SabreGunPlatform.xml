@@ -25,7 +25,7 @@
 			</model>
 		</weapon>
 		<weapon name="SabreTwinLinkedAutocannon" enabled="0"
-				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+				requiredUpgrade="AstraMilitarum/ImperialStrongpoint">
 			<model>
 				<projectileWeapon muzzleBone=".Muzzle"
 						muzzleCount="4"
