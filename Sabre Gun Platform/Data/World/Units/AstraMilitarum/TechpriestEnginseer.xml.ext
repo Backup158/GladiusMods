@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnCountMax="1" productionWeight="0.01">
+	<actions>
+		<constructTidewallGunrig cooldown="10"
+				name="AstraMilitarum/ConstructSabreGunPlatform"
+				icon="Units/AstraMilitarum/SabreGunPlatform"
+				requiredUpgrade="AstraMilitarum/ImperialStrongpoint">
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerBuild"
+						sound="Actions/Construct"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<energyCost base="40"/>
+						<oreCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="AstraMilitarum/SabreGunPlatform"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructTidewallGunrig>
+	</actions>
+</unit>
