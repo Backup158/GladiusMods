@@ -10,7 +10,14 @@
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<weapon name="SabreTwinLinkedHeavyStubber" count="2">
+		<weapon name="SabreTwinLinkedHeavyStubber" count="2" enabled="0" slotName="Main">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						muzzleCount="4"
+						effectFaceWeight="0"/>
+			</model>
+		</weapon>
+		<weapon name="SabreTwinLinkedHeavyStubberAP" count="2" enabled="0" slotName="AP">
 			<model>
 				<projectileWeapon muzzleBone=".Muzzle"
 						muzzleCount="4"
@@ -76,6 +83,8 @@
 						soundCount="3"/>
 			</model>		
 		</move>
+		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="Main AP"/>
 		<useWeapon weaponSlotName="HunterKillerMissile"
 				cooldown="10"
 				requiredUpgrade="AstraMilitarum/HunterKillerMissile">
