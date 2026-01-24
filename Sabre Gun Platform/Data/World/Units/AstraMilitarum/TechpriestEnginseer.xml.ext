@@ -12,8 +12,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<energyCost base="40"/>
-						<oreCost base="40"/>
+						<oreCost base="35"/> <!-- Bastion is 40 -->
 					</effects>
 				</modifier>
 			</modifiers>
