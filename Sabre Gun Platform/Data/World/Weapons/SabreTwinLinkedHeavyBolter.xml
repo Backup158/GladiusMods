@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon>
+<weapon icon="Weapons/TwinLinkedHeavyBolter">
 	<model>
 		<projectileWeapon fireSound="Weapons/HeavyBolter"
-		 		fireSoundCount="4"
-				muzzleCount="2"/>
+		 		fireSoundCount="4"/>
 	</model>	
 	<modifiers>
 		<modifier>
@@ -23,5 +22,6 @@
 		<trait name="BoltWeapon"/>
 		<trait name="HeavyWeapon"/>
 		<trait name="TwinLinked"/>
+		<trait name="MannedWeapon"/>
 	</traits>
 </weapon>
