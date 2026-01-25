@@ -10,8 +10,8 @@ Sabres are manned weapons, requiring a crew in the cargo. There are additional s
 [h1]Units and Unlocks[/h1]
 [table]
 [tr] 
-[td]T3: [b]Sabre Gun Platform (Quad-mounted Heavy Stubbers)[/b] - Anti-air emplacement. Can swap between flak rounds and AP rounds. 
-All firing mods have [i]Rapid Fire[/i] and an enhanced [i]Skyfire[/i][spoiler](+67% accuracy against flyers; -50% accuracy against ground troops)[/spoiler]. Firing flak rounds has 4 range. Swapping to AP rounds only has 3 range and slightly reduced damage but has 3 armour penetration.
+[td]T3: [b]Sabre Gun Platform (Quad-mounted Heavy Stubbers)[/b] - Anti-air emplacement. Can swap between normal rounds and AP rounds. 
+All firing mods have [i]Rapid Fire[/i] and an enhanced [i]Skyfire[/i][spoiler](+67% accuracy against flyers; -50% accuracy against ground troops)[/spoiler]. Firing normal rounds has 4 range. Swapping to AP rounds only has 3 range and slightly reduced damage but has 3 armour penetration.
 Unlocked at [b]Field Ordnance Batteries[/b].
 [/td]
 [/tr]
