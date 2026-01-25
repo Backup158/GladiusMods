@@ -104,7 +104,8 @@
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
 		<trait name="OpenTopped"/>
-		<trait name="AssaultVehicle"/>
+		<!-- assault vehicle makes sense balance wise but doesn't match the lore. MUH LUDONARRATIVE DISSONANCE -->
+		<!-- <trait name="AssaultVehicle"/> -->
 		<trait name="Fortification"/>
 		<trait name="Transport"/>
 		<trait name="SabreMannedLoader"/>
