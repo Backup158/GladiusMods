@@ -7,7 +7,7 @@
 	<entry name="SabreSkyfireDescription" value="<string name='Traits/SkyfireDescription'/>"/>
 	<entry name="SabreSkyfireFlavor" value="<string name='Traits/SkyfireFlavor'/>"/>
 	<entry name="SabreMannedLoader" value="Loading Crew Present"/>
-	<entry name="SabreMannedLoaderDescription" value="When more than one cargo slot is filled, increase attacks and melee damage reduction. When more than two cargo slots are filled, increase accuracy and melee damage reduction."/>
+	<entry name="SabreMannedLoaderDescription" value="When more than one cargo slot is filled, increase attacks and melee damage reduction. When more than two cargo slots are filled, gain an additional action and melee damage reduction."/>
 	<entry name="SabreMannedLoaderFlavor" value="While gunners can load weapons on their own, having a loading crew to handle ammo and barrel maintenance allows them to focus on continuing to lay down fire. Loaders also double as security, as they can deliver suppressing fire upon any approaching enemies from the ground."/>
 	<entry name="SabreFullyManned1" value="Fully Manned"/>
 	<entry name="SabreFullyManned1Description" value="Requires 3 or more cargo to be fired."/>
