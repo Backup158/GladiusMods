@@ -2,7 +2,7 @@ Adds Sabre Gun Platforms armed with anti-air or anti-armour weapons to the Astra
 
 Sabre Gun Platforms are immobile, manned emplacements used to defend strategic points. Constructed by Tech-priest Enginseers, they can be equipped with a variety of typical Imperial weapons, supplemented by a twin-linked heavy bolter. The main appeal is being able to set up anti-air defences without requiring support from Hydras.
 
-[b]Important note for usage[/b]: Due to technical reasons, jumping into the weapons platform means it can't main weapons at first. Fix this by cycling weapons. Why is this a thing? I don't know. It is annoying.
+[b]Important note for usage[/b]: Due to technical reasons, jumping into the weapons platform means it can't fire the main weapons at first. Fix this by cycling weapons. Why is this a thing? I don't know. It is annoying.
 
 [h1]Units added[/h1]
 Sabres are manned weapons, requiring a crew in the cargo. There are additional slots for extra crew, which provides bonuses as more slots are filled. Additional crew members will typically load weapons and work to cool the barrels, but they are still Guardsmen; waves of las-fire keep melee fighters at bay[spoiler]([i]Loading Crew Present[/i]: When more than one cargo slot is filled, +10% attacks and +17% melee damage reduction. When more than two cargo slots are filled, +1 action and +17% melee damage reduction.)[/spoiler]. 
