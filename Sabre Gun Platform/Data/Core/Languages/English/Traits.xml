@@ -9,8 +9,11 @@
 	<entry name="SabreMannedLoader" value="Loading Crew Present"/>
 	<entry name="SabreMannedLoaderDescription" value="When more than one cargo slot is filled, increase attacks and melee damage reduction. When more than two cargo slots are filled, gain an additional action and melee damage reduction."/>
 	<entry name="SabreMannedLoaderFlavor" value="While gunners can load weapons on their own, having a loading crew to handle ammo and barrel maintenance allows them to focus on continuing to lay down fire. Loaders also double as security, as they can deliver suppressing fire upon any approaching enemies from the ground."/>
-	<entry name="SabreFullyManned1" value="Fully Manned"/>
+	<!-- <entry name="SabreFullyManned1" value="Fully Manned"/>
 	<entry name="SabreFullyManned1Description" value="Requires 3 or more cargo to be fired."/>
+	-->
+	<entry name="SabreFullyManned1" value="Loader Present"/>
+	<entry name="SabreFullyManned1Description" value="Requires 2 or more cargo to be fired."/>
 	<entry name="SabreFullyManned1Flavor" value="More weapons require more hands, even when they're all pointed in the same direction. In the Imperium, ammo doesn't load itself; the God-Emperor gifted Man with a high population for a reason."/>
 	<entry name="SabreFullyManned2" value="Fully Manned 2"/>
 	<entry name="SabreFullyManned2Description" value="Hidden helper to kill cargo == 2"/>

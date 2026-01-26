@@ -26,6 +26,6 @@
 		<trait name="TwinLinked"/>
 		<trait name="MannedWeapon"/>
 		<trait name="SabreFullyManned1"/>
-		<trait name="SabreFullyManned2"/>
+		<!-- <trait name="SabreFullyManned2"/> -->
 	</traits>
 </weapon>

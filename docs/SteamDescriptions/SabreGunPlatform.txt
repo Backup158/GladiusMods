@@ -22,8 +22,8 @@ Unlocked at [b]Field Ordnance Batteries[/b].
 [/td]
 [/tr]
 [tr] 
-[td]T5: Equip Twin-linked Autocannons - All Sabre Gun Platforms can fire autocannons if fully manned.
-[i]Fully Manned[/i]: Requires 3 or more cargo to be fired.
+[td]T5: Equip Twin-linked Autocannons - All Sabre Gun Platforms can fire autocannons if a loader is present.
+[i]Loader Present[/i]: Requires 2 or more cargo to be fired.
 Unlocked at [b]Void Shield Generator[/b].
 [/td]
 [/tr]
