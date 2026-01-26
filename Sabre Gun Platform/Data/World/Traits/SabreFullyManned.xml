@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="0" icon="Traits/MannedWeapon">
+<trait alwaysVisible="1" icon="Traits/MannedWeapon">
 	<modifiers>
         <!-- Use with Manned Weapon -->
         <!-- that removes accuracy when slots are 0 -->
+		<modifier>
+			<conditions>
+				<unit>
+					<cargoSlotsTaken equal="1"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy min="-999" max="-999"/>
+			</effects>
+		</modifier>
 		<modifier>
 			<conditions>
 				<unit>
