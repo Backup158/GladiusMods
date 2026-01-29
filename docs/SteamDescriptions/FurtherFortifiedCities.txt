@@ -1,0 +1,19 @@
+Cities are harder to take when there are more units around them.
+
+For each allied unit within 2 tiles, cities gain:
+> +3% City Damage Resistance, up to +34%
+> -0.9% Morale Loss, up to 100%
+> Additional action points, up to 4
+
+That means when there are 11 defending units nearby, the bonuses are maxxed out.
+To make the final calculations nicer for the percentages, the buffs from the 11th unit have an increased effect (e.g. +4% City DR instead of +3%). Additional actions are granted at 3 allies, 7 allies, and 11 allies.
+
+[h1]Heavily inspired by[/h1]
+https://steamcommunity.com/sharedfiles/filedetails/?id=3481326521
+https://steamcommunity.com/sharedfiles/filedetails/?id=3254778715
+
+I like Simple Fortified Cities but found the damage resistance excessive when there were no units nearby. After killing the defending army, I would need to fully surround the enemy city with tanks and bombard the city for a few turns. Very appropriate for a siege, but it made early game aggression nearly impossible in my experience.
+I really like the idea with We Own These Cities, and the only reason I didn't use it was that I liked the increased actions from Simple Fortified Cities a bit more. I had just accepted the grind, but over time I'd rather not have to slog through cities after I had already faced a wave of enemies (which I like to increase the size of with some other mods and game settings). So I combined them here.
+
+I also added the morale loss reduction because I use Squad Broken. What would happen is that there would be a wave of defenders and a city with 3 shots. I'd kill a bunch of defenders, and the city would be broken, making those 3 shots much weaker, even when there's another few waves of defenders behind the city.
+https://steamcommunity.com/sharedfiles/filedetails/?id=2832703933
