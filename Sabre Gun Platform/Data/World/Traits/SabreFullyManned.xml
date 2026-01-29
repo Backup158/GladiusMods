@@ -5,17 +5,8 @@
         <!-- that removes accuracy when slots are 0 -->
 		<modifier>
 			<conditions>
-				<unit>
+				<unit match="Any">
 					<cargoSlotsTaken equal="1"/>
-				</unit>
-			</conditions>
-			<effects>
-				<accuracy min="-999" max="-999"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<conditions>
-				<unit>
 					<cargoSlotsTaken equal="2"/>
 				</unit>
 			</conditions>
