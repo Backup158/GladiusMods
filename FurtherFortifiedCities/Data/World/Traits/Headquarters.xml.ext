@@ -7,7 +7,7 @@
 		<!-- 	Increased action points -->
 		<!-- 		+1 AP at 3, 7, and 11 -->
 		<!-- 	Morale loss reduction -->
-		<!-- 		10 steps of 9%, plus the a final step of 10% -->
+		<!-- 		10 steps of 7%, plus the a final step of 10% -->
 		<!-- Note that the first check won't include itself -->
 		<modifier visible="0">
 			<conditions>
@@ -19,7 +19,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -32,7 +32,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<!-- 	First AP point step at 3 -->
@@ -46,7 +46,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 				<actionPointsMax add="1"/>
 			</effects>
 		</modifier>
@@ -60,7 +60,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -73,7 +73,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -86,7 +86,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<!-- 	Second AP increase at 7 -->
@@ -100,7 +100,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 				<actionPointsMax add="1"/>
 			</effects>
 		</modifier>
@@ -114,7 +114,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -127,7 +127,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -140,7 +140,7 @@
 			</conditions>
 			<effects>
 				<cityDamageReduction add="0.03"/>
-				<moraleLossFactor add="-0.09"/>
+				<moraleLossFactor add="-0.07"/>
 			</effects>
 		</modifier>
 		<!-- 	Final step: last AP increase and 4% DR -->

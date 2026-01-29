@@ -2,11 +2,11 @@ Cities are harder to take when there are more units around them.
 
 For each allied unit within 2 tiles, cities gain:
 > +3% City Damage Resistance, up to +34%
-> -0.9% Morale Loss, up to 100%
+> -0.7% Morale Loss, up to 80%
 > Additional action points, up to 4
 
 That means when there are 11 defending units nearby, the bonuses are maxxed out.
-To make the final calculations nicer for the percentages, the buffs from the 11th unit have an increased effect (e.g. +4% City DR instead of +3%). Additional actions are granted at 3 allies, 7 allies, and 11 allies.
+To make the final calculations nicer for the percentages, the buffs from the 11th unit have an increased effect[spoiler](+4% City DR, +10% morale loss reduction)[/spoiler]. Additional actions are granted at 3 allies, 7 allies, and 11 allies.
 
 [h1]Heavily inspired by[/h1]
 https://steamcommunity.com/sharedfiles/filedetails/?id=3481326521
