@@ -166,7 +166,7 @@
 				<unit>
 					<unitsInRange count="1" range="2">
 						<allied/>
-					<trait name="Hero"/>
+						<trait name="Hero"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -179,7 +179,7 @@
 				<unit>
 					<unitsInRange count="2" range="2">
 						<allied/>
-					<trait name="Hero"/>
+						<trait name="Hero"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -192,7 +192,7 @@
 				<unit>
 					<unitsInRange count="3" range="2">
 						<allied/>
-					<trait name="Hero"/>
+						<trait name="Hero"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
