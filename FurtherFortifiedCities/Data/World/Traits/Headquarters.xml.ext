@@ -8,6 +8,7 @@
 		<!-- 		+1 AP at 3, 7, and 11 -->
 		<!-- 	Morale loss reduction -->
 		<!-- 		10 steps of 9%, plus the a final step of 10% -->
+		<!-- Note that the first check won't include itself -->
 		<modifier visible="0">
 			<conditions>
 				<unit>
