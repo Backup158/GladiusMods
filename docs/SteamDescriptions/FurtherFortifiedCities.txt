@@ -4,6 +4,8 @@ For each allied unit within 2 tiles, cities gain:
 > +3% City Damage Resistance, up to +34%
 > -0.8% Morale Loss, up to 90%
 > Additional action points, up to 4
+For each allied Hero within 2 tiles, cities gain:
+> +3 morale per turn, up to +9
 
 That means when there are 11 defending units nearby, the bonuses are maxxed out.
 To make the final calculations nicer for the percentages, the buffs from the 11th unit have an increased effect[spoiler](+4% City DR, +10% morale loss reduction)[/spoiler]. Additional actions are granted at 3 allies, 7 allies, and 11 allies.
