@@ -5,7 +5,7 @@
 		<produceUnit unit="AstraMilitarum/BattalionValhallanConscripts" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanSharpshooters" requiredUpgrade="AstraMilitarum/Ratlings"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanAntiTankRiflemen" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
-		<produceUnit unit="AstraMilitarum/BattalionValhallanHeavyGunners" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanHeavyGunnerSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanFlameTroopers" requiredUpgrade="AstraMilitarum/Housing"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanMortarTeam" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
 	</actions>

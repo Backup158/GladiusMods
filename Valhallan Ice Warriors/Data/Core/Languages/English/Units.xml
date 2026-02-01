@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="AstraMilitarum/ValhallanGuardsmen" value="Valhallan Guardsmen"/>
+    <entry name="AstraMilitarum/ValhallanGuardsmenDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanGuardsmenFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanConscripts" value="Valhallan Conscripts"/>
+    <entry name="AstraMilitarum/ValhallanConscriptsDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanConscriptsFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanSharpshooters" value="Valhallan Sharpshooters"/>
+    <entry name="AstraMilitarum/ValhallanSharpshootersDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanSharpshootersFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankRiflemen" value="Valhallan Anti-Tank Rifle Squad"/>
+    <entry name="AstraMilitarum/ValhallanAntiTankRiflemenDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankRiflemenFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanHeavyGunnerSquad" value="Valhallan Heavy Stubber Squad"/>
+    <entry name="AstraMilitarum/ValhallanHeavyGunnerSquadDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanHeavyGunnerSquadFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanFlameTroopers" value="Valhallan Flame Troopers"/>
+    <entry name="AstraMilitarum/ValhallanFlameTroopersDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanFlameTroopersFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanMortarTeam" value="Valhallan Mortar Team"/>
+    <entry name="AstraMilitarum/ValhallanMortarTeamDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanMortarTeamFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanShockTroops" value="Valhallan Shock Army Frontovik"/>
+    <entry name="AstraMilitarum/ValhallanShockTroopsDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanShockTroopsFlavor" value=""/>
+    <!-- Heroes -->
+    <entry name="AstraMilitarum/ValhallanCommissar" value="Valhallan Commissar"/>
+    <entry name="AstraMilitarum/ValhallanCommissarDescription" value="Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans."/>
+    <entry name="AstraMilitarum/ValhallanCommissarFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanCommander" value="Valhallan Commander"/>
+    <entry name="AstraMilitarum/ValhallanCommanderDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanCommanderFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanNightWitches" value="Night Witches"/>
+    <entry name="AstraMilitarum/ValhallanNightWitchesDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanNightWitchesFlavor" value=""/>
+    <!-- Reinforcements -->
+    <entry name="AstraMilitarum/BattalionValhallanGuardsmen" value="Battalion of <string name='Units/AstraMilitarum/ValhallanGuardsmen'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanGuardsmenDescription" value="<string name='Units/AstraMilitarum/ValhallanGuardsmenDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanGuardsmenFlavor" value="<string name='Units/AstraMilitarum/ValhallanGuardsmenFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanConscripts" value="Battalion of <string name='Units/AstraMilitarum/ValhallanConscripts'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanConscriptsDescription" value="<string name='Units/AstraMilitarum/ValhallanConscriptsDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanConscriptsFlavor" value="<string name='Units/AstraMilitarum/ValhallanConscriptsFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanSharpshooters" value="Battalion of <string name='Units/AstraMilitarum/ValhallanSharpshooters'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanSharpshootersDescription" value="<string name='Units/AstraMilitarum/ValhallanSharpshootersDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanSharpshootersFlavor" value="<string name='Units/AstraMilitarum/ValhallanSharpshootersFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanAntiTankRiflemen" value="Battalion of <string name='Units/AstraMilitarum/ValhallanAntiTankRiflemen'/>s"/>
+    <entry name="AstraMilitarum/BattalionValhallanAntiTankRiflemenDescription" value="<string name='Units/AstraMilitarum/ValhallanAntiTankRiflemenDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanAntiTankRiflemenFlavor" value="<string name='Units/AstraMilitarum/ValhallanAntiTankRiflemenFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanHeavyGunnerSquad" value="Battalion of <string name='Units/AstraMilitarum/ValhallanHeavyGunnerSquad'/>s"/>
+    <entry name="AstraMilitarum/BattalionValhallanHeavyGunnerSquadDescription" value="<string name='Units/AstraMilitarum/ValhallanHeavyGunnerSquadDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanHeavyGunnerSquadFlavor" value="<string name='Units/AstraMilitarum/ValhallanHeavyGunnerSquadFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanFlameTroopers" value="Battalion of <string name='Units/AstraMilitarum/ValhallanFlameTroopers'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanFlameTroopersDescription" value="<string name='Units/AstraMilitarum/ValhallanFlameTroopersDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanFlameTroopersFlavor" value="<string name='Units/AstraMilitarum/ValhallanFlameTroopersFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanMortarTeam" value="Battalion of <string name='Units/AstraMilitarum/ValhallanMortarTeam'/>s"/>
+    <entry name="AstraMilitarum/BattalionValhallanMortarTeamDescription" value="<string name='Units/AstraMilitarum/ValhallanMortarTeamDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanMortarTeamFlavor" value="<string name='Units/AstraMilitarum/ValhallanMortarTeamFlavor'/>"/>
+</language>
