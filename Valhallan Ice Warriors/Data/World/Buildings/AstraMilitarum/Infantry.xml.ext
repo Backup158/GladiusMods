@@ -8,5 +8,6 @@
 		<produceUnit unit="AstraMilitarum/ValhallanHeavyGunners" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
 		<produceUnit unit="AstraMilitarum/ValhallanFlameTroopers" requiredUpgrade="AstraMilitarum/Housing"/>
 		<produceUnit unit="AstraMilitarum/ValhallanMortarTeam" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
+		<produceUnit unit="AstraMilitarum/ValhallanShockTroops" requiredUpgrade="AstraMilitarum/TempestusScion"/>
 	</actions>
 </building>
