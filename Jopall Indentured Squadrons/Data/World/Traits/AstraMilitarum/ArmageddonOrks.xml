@@ -6,7 +6,8 @@
 			<conditions>
 				<encounter>
 					<opponent>
-						<faction name="Orks"/>
+						<!-- <faction name="Orks"/> -->
+						<trait name="Orks/GreenTideHealing"/>
 					</opponent>
 				</encounter>
 			</conditions>
