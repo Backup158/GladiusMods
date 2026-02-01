@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanGuardsmen"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanConscripts" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanSharpshooters" requiredUpgrade="AstraMilitarum/Ratlings"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanAntiTankRiflemen" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanHeavyGunners" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanFlameTroopers" requiredUpgrade="AstraMilitarum/Housing"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanMortarTeam" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
+	</actions>
+</building>

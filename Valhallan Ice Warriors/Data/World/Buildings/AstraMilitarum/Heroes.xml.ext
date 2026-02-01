@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<produceUnit unit="AstraMilitarum/ValhallanCommissar" requiredUpgrade="AstraMilitarum/LordCommissar"/>
+		<produceUnit unit="AstraMilitarum/ValhallanCommander" requiredUpgrade="AstraMilitarum/TempestusScion"/>
+		<produceUnit unit="AstraMilitarum/ValhallanNightWitches" requiredUpgrade="AstraMilitarum/Valkyrie"/>
+	</actions>
+</building>
