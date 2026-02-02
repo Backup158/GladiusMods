@@ -54,15 +54,16 @@ for mod in */ ; do
           # If unit does not have item slots
           if [[ $greprc -eq 1 ]]; then
             final_destination_ending=${destination_b}${unit_path_middle}${faction}'/'${file_base_name}'.ext'
+
             # Is the unit a battalion?
             if [[ "$file_base_name" == Battalion* ]]; then
-              echo 'battalion'
+              #echo 'battalion'
               template_path_start=${templates_folder}${unit_path_middle}'Battalion_'
-              #echo ${template_path_start}
             else
-              echo 'normal'
+              #echo 'normal'
               template_path_start=${templates_folder}${unit_path_middle}'Normal_'
             fi
+            #echo ${template_path_start}
 
             # Copy over templates
             # for each slot amount
@@ -70,10 +71,10 @@ for mod in */ ; do
                 #echo '____________ amount: '${amount}
                 final_template=${template_path_start}${amount}'.xml.ext'
                 final_destination=${destination_a}${amount}${final_destination_ending}
-                echo ${final_template}
-                echo ${final_destination}
+                #echo ${final_template}
+                #echo ${final_destination}
 
-                #cp "${final_template}" "${final_destionation}"
+                cp "${final_template}" "${final_destination}"
             done
           else
             echo ' >>> HERO SKIPPED'
