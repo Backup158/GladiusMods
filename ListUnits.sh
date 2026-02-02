@@ -1,10 +1,19 @@
 #!/bin/bash
 
+# ######################
+# VARIABLES
+# ######################
 created_units_here='./*/Data/World/Units/*/*.xml'
 each_mod_units_path='./*/Data/World/Units/'
 unit_path_middle='Data/World/Units/'
 wildcard_xml_suffix='/*.xml$'
 all_factions="$(find ./*/Data/World/Units/* -type d -exec basename {}  \; | sort | uniq)"
+# XML Content matching
+comment_start='<!--'
+exclude_comments='[^('${comment_start}'( )*)]'
+has_item_slots='<itemSlots base='
+has_cargo_slots='<cargoSlots base='
+# Templates to copy
 templates_folder='./Backup Units + Inventory for All Units - Templates/'
 destination_1='./Backup Units + Inventory for All Units (1)/'
 
@@ -31,9 +40,26 @@ for mod in */ ; do
           # Gets the file name by itself 
           file_base_name="$(basename "${file}")"
           echo '      '${file_base_name}
+
           # If the file already contains item slots, do not add more
           # This is where you can also check for if it's a transport, but I already had both in the Fortress of Arrogance
-
+          #     grep -w: match whole word
+          #     stores result of grep in greprc
+          #         0: found
+          #         1: not found
+          #         2: error
+          grep -E -w "${exclude_comments}${has_item_slots}" "${file}" ; greprc=$?
+          # If unit does not have item slots
+          if [[ $greprc -eq 1 ]]; then
+            # Is the unit a battalion?
+            if [[ "$file_base_name" == Battalion* ]]; then
+              echo 'battalion'
+            else
+              echo 'normal'
+            fi
+          else
+            echo ' >>> HERO SKIPPED'
+          fi
         fi
       done
     fi
