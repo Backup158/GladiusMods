@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="AstraMilitarum/ValhallanGuardsmen" value="Valhallan Guardsmen"/>
-    <entry name="AstraMilitarum/ValhallanGuardsmenDescription" value=""/>
-    <entry name="AstraMilitarum/ValhallanGuardsmenFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanGuardsman" value="Valhallan Guardsmen"/>
+    <entry name="AstraMilitarum/ValhallanGuardsmanDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanGuardsmanFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanConscripts" value="Valhallan Conscripts"/>
     <entry name="AstraMilitarum/ValhallanConscriptsDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanConscriptsFlavor" value=""/>
