@@ -15,7 +15,9 @@ has_item_slots='<itemSlots base='
 has_cargo_slots='<cargoSlots base='
 # Templates to copy
 templates_folder='./Backup Units + Inventory for All Units - Templates/'
-destination_1='./Backup Units + Inventory for All Units (1)/'
+slot_amounts=("1" "3" "6")
+destination_a='./Backup Units + Inventory for All Units ('
+destination_b=')/'
 
 #echo $all_factions
 
@@ -51,12 +53,28 @@ for mod in */ ; do
           grep -E -w "${exclude_comments}${has_item_slots}" "${file}" ; greprc=$?
           # If unit does not have item slots
           if [[ $greprc -eq 1 ]]; then
+            final_destination_ending=${destination_b}${unit_path_middle}${faction}'/'${file_base_name}'.ext'
             # Is the unit a battalion?
             if [[ "$file_base_name" == Battalion* ]]; then
               echo 'battalion'
+              template_path_start=${templates_folder}${unit_path_middle}'Battalion_'
+              #echo ${template_path_start}
             else
               echo 'normal'
+              template_path_start=${templates_folder}${unit_path_middle}'Normal_'
             fi
+
+            # Copy over templates
+            # for each slot amount
+            for amount in ${slot_amounts[@]}; do
+                #echo '____________ amount: '${amount}
+                final_template=${template_path_start}${amount}'.xml.ext'
+                final_destination=${destination_a}${amount}${final_destination_ending}
+                echo ${final_template}
+                echo ${final_destination}
+
+                #cp "${final_template}" "${final_destionation}"
+            done
           else
             echo ' >>> HERO SKIPPED'
           fi
