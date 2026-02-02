@@ -21,11 +21,13 @@ for mod in */ ; do
     # If path exists
     if [ -e "${path}" ]; then
       #find ${path} ${wildcard_xml_suffix}
-      echo 'Path exists: '${path}
+      #echo 'Path exists: '${path}
+      # Checks each file within path
       for file in ./"${path}"/*; do
-        echo '  Checking file: '${file}
-        if [[ "${file}" =~ '*\.xml$' ]]; then
-          echo '\tXML found: '${file}
+        #echo '  Checking file: '${file}
+        # Checks if that file is an XML file
+        if [[ "$file" == *.xml ]]; then
+          echo '  -o- XML found: '${file}
         fi
       done
     fi
