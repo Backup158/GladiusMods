@@ -28,6 +28,12 @@ for mod in */ ; do
         # Checks if that file is an XML file
         if [[ "$file" == *.xml ]]; then
           echo '  -o- XML found: '${file}
+          # Gets the file name by itself 
+          file_base_name="$(basename "${file}")"
+          echo '      '${file_base_name}
+          # If the file already contains item slots, do not add more
+          # This is where you can also check for if it's a transport, but I already had both in the Fortress of Arrogance
+
         fi
       done
     fi
