@@ -6,7 +6,6 @@ unit_path_middle='Data/World/Units/'
 wildcard_xml_suffix='/*.xml$'
 all_factions="$(find ./*/Data/World/Units/* -type d -exec basename {}  \; | sort | uniq)"
 templates_folder='./Backup Units + Inventory for All Units - Templates/'
-destination_suffx='Data/World/Units/'
 destination_1='./Backup Units + Inventory for All Units (1)/'
 
 #echo $all_factions
@@ -22,7 +21,10 @@ for mod in */ ; do
     # If path exists
     if [ -e "${path}" ]; then
       #find ${path} ${wildcard_xml_suffix}
-      echo ${path}
+      echo "nya"
+    else
+      continue
     fi
+    echo ${path}
   done
 done
