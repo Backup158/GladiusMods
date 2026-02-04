@@ -132,6 +132,6 @@
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3657645592]Reinforcements - Hive Fleet Tiamat[/url]
 > Reused Lines
->> Small: Ripper Swarm
->> Medium: Felltalon
->> Large: Barbed Hierodule, Broodsac, Carnifex, Cerebore, Dominatrix, Exocrine, Nautiloid, Norn Queen
+>> Small: ---
+>> Medium: Felltalon, Wrecker
+>> Large: Barbed Hierodule, Broodsac, Carnifex, Cerebore, Dominatrix, Exocrine, Nautiloid, Norn Queen, Ravener Prime, Stone Crusher, Thornback, Tremor Scythe, Venom Spitter
