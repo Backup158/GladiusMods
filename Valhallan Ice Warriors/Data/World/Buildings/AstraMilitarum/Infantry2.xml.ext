@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <building>
 	<actions>
-		<produceUnit unit="AstraMilitarum/BattalionValhallanGuardsmen"/>
+		<produceUnit unit="AstraMilitarum/BattalionValhallanGuardsman"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanConscripts" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanSharpshooters" requiredUpgrade="AstraMilitarum/Ratlings"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanAntiTankRiflemen" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
