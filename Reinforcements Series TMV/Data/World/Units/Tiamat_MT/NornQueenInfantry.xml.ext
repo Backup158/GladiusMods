@@ -1,1 +1,30 @@
 <?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement2">
+  <responses>
+    <action name="HammerOfWrath" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Tyranids/InstinctiveBehaviourOverride" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <attack sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <move sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <select sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <productionCompleted sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+
+    <action name="UseWeapon/WarpBarrage" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Stomp" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Tiamat_MT/Termagant" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> <!-- Living Incubator -->
+    <action name="Tiamat_MT/Gargoyle" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/Warrior" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/Ravener" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/Zoanthrope" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/Lictor" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/TyranidPrime0" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/TyranidPrime1" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/TyranidPrime2" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/TyranidPrime4" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/TyranidPrime5" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/RavenerPrime0" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/RavenerPrime1" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/RavenerPrime2" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/RavenerPrime4" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+    <action name="Tiamat_MT/RavenerPrime5" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> 
+  </responses>
+</unit>

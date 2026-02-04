@@ -24,6 +24,7 @@ Most of the time, I just copied over the voices from the original model it was b
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3589429762]Reinforcements - Iron Warriors[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3596189688]Reinforcements - Chaos Knights[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606157680]Reinforcements - Imperial Knights[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3657645592]Reinforcements - Hive Fleet Tiamat[/url]
 
 Sisters Reinforcements are not covered because of TMV not having lines for them. I have a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3473597191]patch for them[/url] using MoreVoices instead.
 Dark Mechanicum is not covered because most of the Adeptus Mechanicus lines are clearly loyalist and emphasize soothing the machine over dominating it.

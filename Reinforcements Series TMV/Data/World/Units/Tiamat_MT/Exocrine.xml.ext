@@ -1,1 +1,11 @@
 <?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement2">
+  <responses>
+    <action name="HammerOfWrath" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Tyranids/InstinctiveBehaviourOverride" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <attack sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <move sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <select sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <productionCompleted sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+  </responses>
+</unit>
