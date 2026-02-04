@@ -7,11 +7,13 @@
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="0.8 0.8 0.8"
+				scale="1.0 1.0 1.0"
 				bloodBone="Bone001"
 				walker="1"/>
 	</model>
-	<group size="10" rowSize="5" memberDeltaX="70" memberDeltaY="50"/>
+	<!-- .8 .8 .8 -->
+	<!-- was 10 group -->
+	<group size="12" rowSize="6" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="Autopistol">
  			<model>
@@ -31,8 +33,8 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="2"/> <!-- %armor base armor=6+ -->
-				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+				<armor base="1"/> <!-- 2 | %armor base armor=6+ -->
+				<hitpointsMax base="1.5"/> <!-- 2.0 %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
@@ -44,13 +46,13 @@
 				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
 				<foodCost base="10.0"/> <!-- %foodCost base tier=4 factor=0.5 -->
 				<oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+				<influenceCost base="2.0"/> <!-- steals money unless commissar is near (in trait) -->
 			</effects>
 		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseColonizersScore base="1.0"/>
 				<increaseInfantryScore base="1.0"/>
 			</effects>
 		</modifier>
@@ -92,132 +94,68 @@
 						soundCount="4"/>
 			</model>
 		</move>
-		<foundCity>
+		<!-- nades have higher cd and cost-->
+		<!-- this is to make a price for the higher group size -->
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="15"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
-				<action animation=""
-						sound="Actions/FoundCity"/>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
 			</model>
 			<modifiers>
-				<modifier visible="0">
+				<modifier visible="1">
 					<effects>
-						<influenceCost base="80"/>
-						<oreCost base="80"/>
-					</effects>
-				</modifier>
-				<modifier requiredUpgrade="ChaosSpaceMarines/ChaosRising">
-					<effects>
-						<influenceCost mul="-0.5"/>
-						<oreCost mul="-0.5"/>
+						<oreCost base="20"/>
 					</effects>
 				</modifier>
 			</modifiers>
-		</foundCity>
-		<clearTileUnitAbility cooldown="1"
-				icon="Actions/ClearTile"
-				name="ClearTile">
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="15"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
 			<model>
-				<action animation="Units/ChaosSpaceMarines/ChaosCultistWork"/>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
 			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions/>
-					<areas/>
-				</target>
-			</beginTargets>
 			<modifiers>
-				<modifier visible="0">
+				<modifier visible="1">
 					<effects>
-						<influenceCost base="5"/>
-						<oreCost base="5"/>
+						<oreCost base="20"/>
 					</effects>
 				</modifier>
 			</modifiers>
-		</clearTileUnitAbility>	
-		<cultistSacrifice name="ChaosSpaceMarines/CultistSacrifice">
+		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
 			<model>
-				<action bone="Bone001"/>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
 			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
 			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<unit>
-							<allied/>
-							<type name="ChaosSpaceMarines/Headquarters"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="City">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="ChaosSpaceMarines/CultistSacrifice" duration="10"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<endTargets>
 				<selfTarget>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<effects>
-										<removeUnit/>
+										<hitpointsFactorFromMax add="0.5"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
 				</selfTarget>
-			</endTargets>
-		</cultistSacrifice>
-		<constructNoctilithCrown icon="Units/ChaosSpaceMarines/NoctilithCrown"
-				requiredUpgrade="ChaosSpaceMarines/NoctilithCrown"
-				cooldown="10">
-			<model>
-				<action animation="Units/ChaosSpaceMarines/ChaosCultistWork"
-						sound="Actions/Construct"/>
-			</model>
-			<modifiers>
-				<modifier visible="0">
-					<effects>
-						<energyCost base="20"/>
-						<oreCost base="20"/>
-					</effects>
-				</modifier>
-			</modifiers>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<tile>
-							<noFeatureCategory name="Resource"/>
-							<noFeatureCategory name="WireWeed"/>
-							<land/>
-							<noEnemyCity/>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addUnit name="ChaosSpaceMarines/NoctilithCrown"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
 			</beginTargets>
-		</constructNoctilithCrown>
+		</mediPack>
 	</actions>
 	<traits>
-		<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
-		<trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+
+		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="AstraMilitarum/Conscripts"/>
 	</traits>
 </unit>

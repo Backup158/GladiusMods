@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1" icon="Units/AstraMilitarum/ValhallanConscripts">
+	<modifiers>
+		<!-- No morale loss -->
+		<modifier>
+			<effects>
+				<!-- <deathExperience max="0"/> -->
+				<deathMorale max="0"/>
+			</effects>
+		</modifier>
+		<!-- Desertion -->
+		<!-- Disappears (dies) if they are broken -->
+		<!-- I would make this not happen if a Commissar is nearby, but I can't check for if no Commissar nearby, so we'll just say if the commissar is nearby, they get executed -->
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="Broken"/>
+				</unit>
+			</conditions>
+			<effects>
+				<deathExperience max="0"/>
+				<!-- -100% hp -->
+				<hitpointsFactorFromMax add="-1"/>
+			</effects>
+		</modifier>
+		<!-- If Commissar is nearby, no stealing -->
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="2">
+						<!-- <type name="AstraMilitarum/LordCommissar"/> -->
+						<allied/>
+						<faction name="AstraMilitarum"/>
+						<trait name="Hero"/>
+						<trait name="Stubborn"/> <!-- Every commissar should have this trait -->
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<influenceUpkeep max="0"/>
+			</effects>
+		</modifier>
+</trait>
