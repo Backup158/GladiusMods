@@ -44,7 +44,7 @@ for mod in */ ; do
           echo '      '${file_base_name}
 
           # If the file already contains item slots, do not add more
-          # This is where you can also check for if it's a transport, but I already had both in the Fortress of Arrogance
+          # If the file already contains cargo slots, do not add item slots to avoid the UI bug
           #     grep -w: match whole word
           #     stores result of grep in greprc
           #         0: found
