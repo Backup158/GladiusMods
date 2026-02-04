@@ -61,7 +61,7 @@
                 <unit>
                     <unitsInRange count="1" range="1">
 						<allied/>
-						<trait name="AstraMilitarum/Valhallan"/>
+						<!-- <trait name="AstraMilitarum/Valhallan"/> -->
                     </unitsInRange>
                 </unit>
             </conditions>
@@ -74,7 +74,7 @@
                 <unit>
                     <unitsInRange count="2" range="1">
 						<allied/>
-						<trait name="AstraMilitarum/Valhallan"/>
+						<!-- <trait name="AstraMilitarum/Valhallan"/> -->
                     </unitsInRange>
                 </unit>
             </conditions>
