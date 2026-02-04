@@ -16,7 +16,7 @@ has_cargo_slots='<cargoSlots base='
 # Templates to copy
 templates_folder='./Backup Units + Inventory for All Units - Templates/'
 slot_amounts=("1" "3" "6")
-destination_a='./DexGattaca Units and Factions + Inventory for All Units ('
+destination_a='./Backup Units + Inventory for All Units ('
 destination_b=')/'
 
 #echo $all_factions
@@ -51,9 +51,8 @@ for mod in */ ; do
           #         1: not found
           #         2: error
           grep -E -w "${exclude_comments}${has_item_slots}" "${file}" ; greprc=$?
-          grep -E -w "${exclude_comments}${has_cargo_slots}" "${file}" ; greprc2=$?
           # If unit does not have item slots
-          if [[ $greprc -eq 1 && $greprc2 -eq 1 ]]; then
+          if [[ $greprc -eq 1 ]]; then
             final_destination_ending=${destination_b}${unit_path_middle}${faction}'/'${file_base_name}'.ext'
 
             # Is the unit a battalion?
