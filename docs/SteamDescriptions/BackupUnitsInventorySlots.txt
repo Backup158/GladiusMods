@@ -1,0 +1,63 @@
+Adds inventory slots support for my custom units.
+
+[h1]Based on[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2608756174]Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2608756871]Inventory for All Units (6 Slots)[/url]
+
+My patches will slightly diverge from these. I added the inventory slots regardless of whether the unit was a transport or not, even though that causes the UI to overlap (which means you'll need to click and drag the menus away). I had already decided I was ok with this when I made the Fortress of the Arrogance for the Armageddon Steel Legion.
+
+I also made the decision to handle my units based on [url=https://steamcommunity.com/workshop/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for lowcost Units[/url] differently from regular units. Since these were made to be two units in one, I have given them double the slots. I figured that if you wanted to spend the influence to arm a Battalion of Praetorian Guardsmen with 12 items (which, remember, do not stack if you have duplicates), that would be up to you haha.
+
+[h1]Slots Added[/h1]
+This affects every mod that can be found in my [url=https://steamcommunity.com/workshop/filedetails/?id=3635087368]Backup Units[/url] collection.
+
+[table]
+[tr]
+[th]
+[b]Unit Type[/b]
+[/th]
+[th]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Backup Units + Inventory for All Units (1)[/url]
+[/th]
+[th]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659665312]Backup Units + Inventory for All Units (3)[/url]
+[/th]
+[th]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659665342]Backup Units + Inventory for All Units (6)[/url]
+[/th]
+[/tr]
+[tr]
+[td]
+[b]Normal Units[/b]
+[/td]
+[td]1[/td]
+[td]3[/td]
+[td]6[/td]
+[/tr]
+[tr]
+[td]
+[b]Reinforcements Increased Group Size Units[/b]
+[/td]
+[td]2[/td]
+[td]6[/td]
+[td]12[/td]
+[/tr]
+[/table]
+
+[h1]Load Order and Requirements[/h1]
+This patch should work anywhere, but I recommend placing it before (i.e. visually higher) than my units. You don't need to use all of my units; it will just patch whichever ones you use. If you don't use all my mods, there will be some errors in the logs and Compendium, but you can ignore those.
+This patch's location in relation to Skirata's mod doesn't matter.
+Such as
+[code]
+...
+Backup Units + Inventory for All Units (n)
+...
+Armageddon Steel Legion
+Praetorian Guard
+...
+Inventory for All Units (n Slots)
+...
+[/code]
+
+Technically, this doesn't require Skirata's mods, but using this without them doesn't make sense lol.
