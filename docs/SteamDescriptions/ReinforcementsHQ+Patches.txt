@@ -1,0 +1,33 @@
+Adds core infantry unit production to headquarters for Reinforcements factions. See the HQ+ Core Units Production mod page for more details. 
+
+[b]Supports:[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3423726015]Reinforcements - Death Guard[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434234472]Reinforcements - World Eaters[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3447684780]Reinforcements - Thousand Sons[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456164657]Reinforcements - Dark Mechanicum[/url]
+[strike][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3460070932]Reinforcements - Collegia Titanica[/url][/strike] Not yet
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3472270831]Reinforcements - Emperor's Children[/url] (has stacking Space Marines production buff)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521997549]Reinforcements - Imperial Fists[/url] (has stacking Space Marines production buff)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554496237]Reinforcements - Hive Fleet Cerberus[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3560896089]Reinforcements - Hive Fleet Locust[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3568319150]Reinforcements - Dreadheadz[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3575111512]Reinforcements - Grey Knights[/url] (has stacking Space Marines production buff)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3585678451]Reinforcements - Genestealer Cult[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3589429762]Reinforcements - Iron Warriors[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3596189688]Reinforcements - Chaos Knights[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606157680]Reinforcements - Imperial Knights[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3657645592]Reinforcements - Hive Fleet Tiamat[/url] (Tiamet?)
+
+You don't have to install all of them; it'll only patch the ones you have installed. It will put some messages in the game log for the missing factions, but you can ignore them.
+
+[b]Load Order[/b]
+Shouldn't matter but I have these above (visually higher) the faction mods and HQ+. ex:
+[code]
+HQ+Core Unit for Reinforcements Series Factions
+Reinforcements - World Eaters
+HQ+Core Unit Production
+[/code]
+
+[b]Why Not the Titans?[/b]
+Since the HQ is a unit, it's not as simple as adding the production to it. I'd have to create a custom ability based on the regular infantry ability, which while not difficult, would require more testing to make sure it works and won't crash if you didn't install [i]Reinforcements - Collegia Titanica[/i].
+If that condition is satisfied, I'll update it here. Otherwise, it'll go into a separate mod (if I even make it since I don't even play much Gladius nowadays .-.)
