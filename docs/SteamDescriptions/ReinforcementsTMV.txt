@@ -29,5 +29,7 @@ Most of the time, I just copied over the voices from the original model it was b
 Sisters Reinforcements are not covered because of TMV not having lines for them. I have a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3473597191]patch for them[/url] using MoreVoices instead.
 Dark Mechanicum is not covered because most of the Adeptus Mechanicus lines are clearly loyalist and emphasize soothing the machine over dominating it.
 
+Choices for lines are listed in [url=https://steamcommunity.com/workshop/filedetails/discussion/3457002753/688619343242769541/]this discussion thread[/url].
+
 [b]Installation[/b]
 It'll only affect the ones you have installed. Should work regardless of load order, but I put the patch (visually) above the Reinforcements mods and TMV
