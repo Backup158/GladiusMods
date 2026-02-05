@@ -130,6 +130,51 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
+		<!-- URAAAAAAAAAA -->
+		<genericUnitAbility	cooldown="10"
+				requiredActionPoints="1"
+				consumedActionPoints="0" consumedMovement="0"
+				name="AstraMilitarum/Ura"
+				shoutString="Actions/Ura">
+			<model>
+				<action sound="Actions/ValhallanUra" soundCount="2"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="AstraMilitarum/Valhallan"/>
+											<noTrait name="AstraMilitarum/Ura"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="2" name="AstraMilitarum/Ura"/>
+									</effects>
+								</modifier>
+								<!-- Add CD to the other Valhallans to avoid spam -->
+								<modifier visible="0">
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="AstraMilitarum/Valhallan"/>
+											<cooldownAction name="AstraMilitarum/Ura"/>
+										</unit>
+									</conditions>
+									<effects>
+										<cooldown add="10"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
