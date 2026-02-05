@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff">
 	<modifiers>
+		<!-- For Players -->
 		<!-- +Attacks for each cargo -->
 		<!-- 6 steps of 11% for 67% total -->
 		<modifier visible="0">
@@ -57,6 +58,98 @@
 			<conditions>
 				<unit>
 					<cargoSlotsTaken greater="5"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.12"/>
+			</effects>
+		</modifier>
+		<!-- For AI -->
+		<!-- Since they can't garrison, just count adjacent allies -->
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+				<unit>
+					<unitsInRange range="1" count="1">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+				<unit>
+					<unitsInRange range="1" count="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+				<unit>
+					<unitsInRange range="1" count="3">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+				<unit>
+					<unitsInRange range="1" count="4">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+				<unit>
+					<unitsInRange range="1" count="5">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+				<unit>
+					<unitsInRange range="1" count="6">
+						<allied/>
+					</unitsInRange>
 				</unit>
 			</conditions>
 			<effects>
