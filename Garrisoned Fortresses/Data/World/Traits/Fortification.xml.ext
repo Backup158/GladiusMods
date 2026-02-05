@@ -66,6 +66,7 @@
 		</modifier>
 		<!-- For AI -->
 		<!-- Since they can't garrison, just count adjacent allies -->
+		<!-- This just goes up to 33% -->
 		<modifier visible="0">
 			<conditions>
 				<player>
@@ -78,7 +79,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<attacks mul="0.11"/>
+				<attacks mul="0.05"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -93,7 +94,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<attacks mul="0.11"/>
+				<attacks mul="0.06"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -108,7 +109,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<attacks mul="0.11"/>
+				<attacks mul="0.05"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -123,7 +124,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<attacks mul="0.11"/>
+				<attacks mul="0.06"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -138,7 +139,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<attacks mul="0.11"/>
+				<attacks mul="0.05"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -153,7 +154,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<attacks mul="0.12"/>
+				<attacks mul="0.06"/>
 			</effects>
 		</modifier>
 	</modifiers>
