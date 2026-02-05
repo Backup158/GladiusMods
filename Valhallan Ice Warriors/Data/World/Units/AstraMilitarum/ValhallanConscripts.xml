@@ -158,4 +158,14 @@
 		<trait name="AstraMilitarum/Valhallan"/>
 		<trait name="AstraMilitarum/Conscripts"/>
 	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Complete" soundCount="1"/>
+	</responses>
 </unit>
