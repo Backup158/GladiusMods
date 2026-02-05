@@ -143,6 +143,7 @@
 				<selfTarget>
 					<conditions>
 						<unit>
+							<noTrait name="AstraMilitarum/UraCooldown"/>
 							<unitsInRange count="5" range="3">
 								<allied/>
 								<trait name="AstraMilitarum/Valhallan"/>
@@ -158,23 +159,12 @@
 											<allied/>
 											<trait name="AstraMilitarum/Valhallan"/>
 											<noTrait name="AstraMilitarum/Ura"/>
+											<noTrait name="AstraMilitarum/UraCooldown"/>
 										</unit>
 									</conditions>
 									<effects>
 										<addTrait duration="2" name="AstraMilitarum/Ura"/>
-									</effects>
-								</modifier>
-								<!-- Add CD to the other Valhallans to avoid spam -->
-								<modifier visible="0">
-									<conditions>
-										<unit>
-											<allied/>
-											<trait name="AstraMilitarum/Valhallan"/>
-											<cooldownAction name="AstraMilitarum/Ura"/>
-										</unit>
-									</conditions>
-									<effects>
-										<cooldown add="10"/>
+										<addTrait duration="10" name="AstraMilitarum/UraCooldown"/>
 									</effects>
 								</modifier>
 							</modifiers>

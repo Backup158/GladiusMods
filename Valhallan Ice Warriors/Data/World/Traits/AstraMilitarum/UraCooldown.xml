@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Coldseat">
+	<!-- Does nothing. Just to prevent URAAAA spam -->
+</trait>
