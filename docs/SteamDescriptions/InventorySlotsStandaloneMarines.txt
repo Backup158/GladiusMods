@@ -1,0 +1,22 @@
+Adds inventory slots support to various standalone Space Marine mods which cover Chapters that are included in Chapters of the Imperium.
+
+[h1]Supported Mods[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2265699020]Chapter Approved: White Scars[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2177551285]Apple's Blood Angels[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3568662720]Apple's Blood Angels - Ultima Founding Patch[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2572170398]Proper Space Wolves (Vlka Fenryka)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3569640767]Proper Space Wolves (Vlka Fenryka) - Ultima Founding Patch[/url]
+
+[h1]Based on[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2608756174]Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2608756871]Inventory for All Units (6 Slots)[/url]
+
+[h2]Versions of this Patch[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]Standalone Space Marine Chapters - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]Standalone Space Marine Chapters - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]Standalone Space Marine Chapters - Inventory for All Units (6 Slots)[/url]
+
+[h1]Installation[/h1]
+This patch should work anywhere, but I recommend placing it before (i.e. visually higher) than the patched mods. You don't need to use every patched mod; it will just patch whichever ones you use. If you don't use all my mods, there will be some errors in the logs and Compendium, but you can ignore those.
+This patch's location in relation to Skirata's mod doesn't matter (technically, this doesn't require Skirata's mods, but using this without them doesn't make sense lol).
