@@ -15,9 +15,9 @@
 	<!-- was 10 group -->
 	<group size="12" rowSize="6" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="Autopistol">
+		<weapon name="Laspistol">
  			<model>
-				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/Autopistol"
+				<beamWeapon mesh="Weapons/ChaosSpaceMarines/Autopistol"
 						material="Units/ChaosSpaceMarines/ChaosCultist"
 						bone="Bone006"
 						muzzleBone=".Muzzle"
@@ -42,7 +42,7 @@
 				<moraleMax base="4"/> <!-- %moraleMax base leadership=5 -->
 				<movementMax base="3"/>
 				<productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
-				<rangedAccuracy base="6"/> <!-- 6 | %rangedAccuracy base ballisticSkill=3 -->
+				<rangedAccuracy base="4"/> <!-- 6 | %rangedAccuracy base ballisticSkill=3 -->
 				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
 				<foodCost base="15.0"/> <!-- 10 | %foodCost base tier=4 factor=0.5 -->
 				<oreCost base="5.0"/> <!-- 10 | %oreCost base tier=4 factor=0.5 -->
