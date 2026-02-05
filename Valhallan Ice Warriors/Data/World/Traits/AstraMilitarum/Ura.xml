@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" aicon="Traits/LastStand">
+<trait category="Buff" icon="Traits/LastStand">
 	<modifiers>
 		<!-- Further improved morale -->
 		<modifier>
