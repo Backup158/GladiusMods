@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff">
+	<modifiers>
+		<!-- +Attacks for each cargo -->
+		<!-- 6 steps of 11% for 67% total -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="0"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="1"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="2"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="3"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="4"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.11"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="5"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.12"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
