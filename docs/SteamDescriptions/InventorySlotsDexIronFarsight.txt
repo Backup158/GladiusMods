@@ -6,9 +6,9 @@ Adds inventory slots support to custom factions by DexGattaca.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3566787651]Iron Hands - Ultima Founding Patch[/url]
 
 [h2]For Chapter Approved White Scars[/h2]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]Standalone Space Marine Chapters - Inventory for All Units (1 Slot)[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]Standalone Space Marine Chapters - Inventory for All Units (3 Slots)[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]Standalone Space Marine Chapters - Inventory for All Units (6 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255575]Standalone Space Marine Chapters - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255631]Standalone Space Marine Chapters - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255683]Standalone Space Marine Chapters - Inventory for All Units (6 Slots)[/url]
 
 [h1]Based on[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Inventory for All Units (1 Slot)[/url]
@@ -16,9 +16,9 @@ Adds inventory slots support to custom factions by DexGattaca.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2608756871]Inventory for All Units (6 Slots)[/url]
 
 [h2]Versions of this Patch[/h2]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]DexGattaca Factions - Inventory for All Units (1 Slot)[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]DexGattaca Factions - Inventory for All Units (3 Slots)[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=]DexGattaca Factions - Inventory for All Units (6 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255436]DexGattaca Factions - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255493]DexGattaca Factions - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255527]DexGattaca Factions - Inventory for All Units (6 Slots)[/url]
 
 [h1]Installation[/h1]
 This patch should work anywhere, but I recommend placing it before (i.e. visually higher) than the patched mods. You don't need to use every patched mod; it will just patch whichever ones you use. If you don't use all my mods, there will be some errors in the logs and Compendium, but you can ignore those.
