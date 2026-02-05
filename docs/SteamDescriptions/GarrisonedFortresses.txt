@@ -1,13 +1,13 @@
 Increases attacks of Fortifications when garrisoned with troops.
 
 [h1]Buffs[/h1]
-Affects every unit with the [i]Fortification[/i] trait. The buff increases per unit counted.
+Affects every unit with the [i]Fortification[/i] trait, which includes cities. The buff increases per unit counted.
 For players, it is every cargo slot filled.
-For AI, it is every adjacent allied unit.
+For AI, it is every adjacent allied unit, since AI players don't fill cargo slots.
 
 [table]
 [tr]
-[th]Player Type[/th]
+[th][/th]
 [th]1 Slot[/th]
 [th]2 Slot[/th]
 [th]3 Slot[/th]
