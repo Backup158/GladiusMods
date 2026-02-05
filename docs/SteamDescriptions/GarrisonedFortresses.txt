@@ -1,0 +1,36 @@
+Increases attacks of Fortifications when garrisoned with troops.
+
+[h1]Buffs[/h1]
+Affects every unit with the [i]Fortification[/i] trait. The buff increases per unit counted.
+For players, it is every cargo slot filled.
+For AI, it is every adjacent allied unit.
+
+[table]
+[tr]
+[th]Player Type[/th]
+[th]1 Slot[/th]
+[th]2 Slot[/th]
+[th]3 Slot[/th]
+[th]4 Slot[/th]
+[th]5 Slot[/th]
+[th]6 Slot[/th]
+[/tr]
+[tr]
+[td]Human Player[/td]
+[th]+11% Attacks ([b]+11% Total[/b])[/th]
+[th]+11% Attacks ([b]+22% Total[/b])[/th]
+[th]+11% Attacks ([b]+33% Total[/b])[/th]
+[th]+11% Attacks ([b]+44% Total[/b])[/th]
+[th]+11% Attacks ([b]+55% Total[/b])[/th]
+[th]+12% Attacks ([b]+67% Total[/b])[/th]
+[/tr]
+[tr]
+[td]AI Player[/td]
+[th]+5% Attacks ([b]+5% Total[/b])[/th]
+[th]+6% Attacks ([b]+11% Total[/b])[/th]
+[th]+5% Attacks ([b]+16% Total[/b])[/th]
+[th]+6% Attacks ([b]+22% Total[/b])[/th]
+[th]+5% Attacks ([b]+27% Total[/b])[/th]
+[th]+6% Attacks ([b]+33% Total[/b])[/th]
+[/tr]
+[/table]
