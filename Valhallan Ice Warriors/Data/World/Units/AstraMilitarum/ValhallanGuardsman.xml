@@ -141,6 +141,14 @@
 			</model>
 			<beginTargets>
 				<selfTarget>
+					<conditions>
+						<unit>
+							<unitsInRange count="5" range="3">
+								<allied/>
+								<trait name="AstraMilitarum/Valhallan"/>
+							</unitsInRange>
+						</unit>
+					</conditions>
 					<areas>
 						<area affects="Unit" radius="3">
 							<modifiers>
