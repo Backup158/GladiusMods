@@ -40,4 +40,5 @@
 				<influenceUpkeep max="0"/>
 			</effects>
 		</modifier>
+	</modifiers>
 </trait>
