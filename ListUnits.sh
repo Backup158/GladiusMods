@@ -54,7 +54,8 @@ for mod in */ ; do
           grep -E -w "${exclude_comments}${has_cargo_slots}" "${file}" ; greprc2=$?
           # If unit does not have item slots
           if [[ $greprc -eq 1 && $greprc2 -eq 1 ]]; then
-            final_destination_ending=${destination_b}${unit_path_middle}${faction}'/'${file_base_name}'.ext'
+            final_destination_ending_folders_only=${destination_b}${unit_path_middle}${faction}'/'
+            final_destination_ending=${final_destination_ending_folders_only}${file_base_name}'.ext'
 
             # Is the unit a battalion?
             if [[ "$file_base_name" == Battalion* ]]; then
@@ -75,7 +76,7 @@ for mod in */ ; do
                 #echo ${final_template}
                 #echo ${final_destination}
 
-                cp "${final_template}" "${final_destination}"
+                mkdir -p "${destination_a}${amount}${final_destination_ending_folders_only}" && cp "${final_template}" "${final_destination}"
             done
           else
             echo ' >>> HERO SKIPPED'
