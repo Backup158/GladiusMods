@@ -3,5 +3,11 @@
     <entry name="AstraMilitarum/Valhallan" value="Valhallan"/>
     <entry name="AstraMilitarum/ValhallanDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanFlavor" value=""/>
+    <entry name="AstraMilitarum/Ura" value="Ura!"/>
+    <entry name="AstraMilitarum/UraDescription" value=""/>
+    <entry name="AstraMilitarum/UraFlavor" value=""/>
+    <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
+    <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>
+    <entry name="AstraMilitarum/UraCooldownFlavor" value=""/>
     <!-- For Weapons -->
 </language>
