@@ -57,10 +57,10 @@
 			</effects>
 		</modifier>
 		<!-- Accuracy -->
-		<!--    Debuffed by default -->
+		<!--    Debuffed by default. Bonus when 2 allies -->
 		<modifier>
 			<effects>
-				<rangedAccuracy mul="-0.33"/>
+				<rangedAccuracy mul="-0.17"/>
 			</effects>
 		</modifier>
 		<!-- 	Offset when near allies -->
@@ -87,8 +87,8 @@
                 </unit>
             </conditions>
 			<effects>
-				<rangedAccuracy mul="0.16"/> <!-- 17 + 16 = 33 -->
-				<moraleLossFactor add="-0.16"/>
+				<rangedAccuracy mul="0.17"/> 
+				<moraleLossFactor add="-0.16"/> <!-- 17 + 16 = 33 -->
 			</effects>
 		</modifier>
 		<!-- Ork Nemesis -->
