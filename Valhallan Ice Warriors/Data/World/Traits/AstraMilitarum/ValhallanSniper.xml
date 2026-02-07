@@ -26,5 +26,19 @@
 				<rangedDamageReductionBypass add="0.33"/>
 			</effects>
 		</modifier>
+		<!-- Limited movement after shooting if near allied cities -->
+		<modifier>
+			<conditions>
+                <unit match="Any">
+                    <unitsInRange count="1" range="3">
+						<allied/>
+						<trait name="Headquarters"/>
+                    </unitsInRange>
+				</unit>
+            </conditions>
+			<effects>
+				<consumedMovement max="2"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
