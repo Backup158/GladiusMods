@@ -144,9 +144,15 @@
 					<conditions>
 						<unit>
 							<noTrait name="AstraMilitarum/UraCooldown"/>
-							<unitsInRange count="4" range="3">
+							<!-- 4 Infantry allies, at least 2 of whom are Valhallans -->
+							<unitsInRange count="2" range="3">
 								<allied/>
 								<trait name="AstraMilitarum/Valhallan"/>
+							</unitsInRange>
+							<unitsInRange count="4" range="3">
+								<allied/>
+								<noTrait name="Vehicle"/>
+								<noTrait name="Fortification"/>
 							</unitsInRange>
 						</unit>
 					</conditions>
