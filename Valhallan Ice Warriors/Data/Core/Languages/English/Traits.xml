@@ -3,6 +3,9 @@
     <entry name="AstraMilitarum/Valhallan" value="Valhallan"/>
     <entry name="AstraMilitarum/ValhallanDescription" value="Decreased morale loss. Increased damage resistance when fighting in Arctic and Tundra tiles. Increased armour when in Cities, Imperial Ruins, and Outposts. Movement is increased when within 5 tiles of an allied city, within 2 tiles of allied Hero, or within 3 tiles of 4 other Valhallans. Accuracy is decreased when alone, neutral when adjacent to 1 ally, and improved when adjacent to 2 or more allies. Accuracy is increased when fighting Orks."/>
     <entry name="AstraMilitarum/ValhallanFlavor" value=""/>
+    <entry name="AstraMilitarum/GrowingNumbers" value="Growing Numbers"/>
+    <entry name="AstraMilitarum/GrowingNumbersDescription" value="Increases squad size by: 1 at <string name='Upgrades/AstraMilitarum/FoodEdict'/>, 1 at <string name='Upgrades/AstraMilitarum/GrowthEdict'/>, 2 at <string name='Upgrades/AstraMilitarum/BruteShield'/>, 2 at <string name='Upgrades/AstraMilitarum/HammerOfWrath'/>, and 3 at <string name='Upgrades/AstraMilitarum/LoyaltyEdict'/>."/>
+    <entry name="AstraMilitarum/GrowingNumbersFlavor" value=""/>
     <entry name="AstraMilitarum/Conscripts" value="Conscripted"/>
     <entry name="AstraMilitarum/ConscriptsDescription" value="Allies do not lose morale when this unit is killed. Upon becoming Broken, this unit flees the battlefield. When an allied Commissar is within 2 tiles, this unit has no Influence upkeep."/>
     <entry name="AstraMilitarum/ConscriptsFlavor" value=""/>

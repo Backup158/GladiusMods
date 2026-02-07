@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1" icon="Attributes/PopulationLimit">
+	<modifiers>
+		<!-- Increased Group Size after techs -->
+		<!-- Infantry Production makes sense but is too early and easy to snag -->
+		<!-- 
+		<modifier requiredUpgrade="AstraMilitarum/InfantryProductionEdict">
+			<effects>
+				<groupSize add="1"/>
+			</effects>	
+		</modifier>
+		-->
+		<modifier requiredUpgrade="AstraMilitarum/FoodEdict">
+			<effects>
+				<groupSize add="1"/>
+			</effects>	
+		</modifier>
+		<modifier visible="0" requiredUpgrade="AstraMilitarum/GrowthEdict">
+			<effects>
+				<groupSize add="1"/>
+			</effects>	
+		</modifier>
+		<modifier visible="0" requiredUpgrade="AstraMilitarum/BruteShield">
+			<effects>
+				<groupSize add="2"/>
+			</effects>	
+		</modifier>
+		<modifier visible="0" requiredUpgrade="AstraMilitarum/HammerOfWrath">
+			<effects>
+				<groupSize add="2"/>
+			</effects>	
+		</modifier>
+		<modifier visible="0" requiredUpgrade="AstraMilitarum/LoyaltyEdict">
+			<effects>
+				<groupSize add="3"/>
+			</effects>	
+		</modifier>
+	</modifiers>
+</trait>
