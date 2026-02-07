@@ -63,7 +63,7 @@
 		<attack>
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanAttack"
-						beginFire="0.35" endFire="2.5"/>
+						beginFire="0.35" endFire="0.45"/>
 			</model>
 		</attack>
 		<die>
