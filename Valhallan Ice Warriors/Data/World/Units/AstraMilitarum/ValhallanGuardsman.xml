@@ -185,7 +185,6 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
 		<trait name="AstraMilitarum/Valhallan"/>
-		<trait name="AstraMilitarum/GrowingNumbers"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
