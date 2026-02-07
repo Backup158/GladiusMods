@@ -144,7 +144,7 @@
 					<conditions>
 						<unit>
 							<noTrait name="AstraMilitarum/UraCooldown"/>
-							<unitsInRange count="5" range="3">
+							<unitsInRange count="4" range="3">
 								<allied/>
 								<trait name="AstraMilitarum/Valhallan"/>
 							</unitsInRange>
