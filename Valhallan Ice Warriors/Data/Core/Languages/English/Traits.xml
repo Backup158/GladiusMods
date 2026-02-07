@@ -3,6 +3,9 @@
     <entry name="AstraMilitarum/Valhallan" value="Valhallan"/>
     <entry name="AstraMilitarum/ValhallanDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanFlavor" value=""/>
+    <entry name="AstraMilitarum/Conscripts" value="Conscripted"/>
+    <entry name="AstraMilitarum/ConscriptsDescription" value=""/>
+    <entry name="AstraMilitarum/ConscriptsFlavor" value=""/>
     <entry name="AstraMilitarum/Ura" value="Ura!"/>
     <entry name="AstraMilitarum/UraDescription" value=""/>
     <entry name="AstraMilitarum/UraFlavor" value=""/>
