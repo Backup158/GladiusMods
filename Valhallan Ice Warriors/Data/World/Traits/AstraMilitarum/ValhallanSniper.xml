@@ -29,7 +29,7 @@
 		<!-- Limited movement after shooting if near allied cities -->
 		<modifier>
 			<conditions>
-                <unit match="Any">
+                <unit>
                     <unitsInRange count="1" range="3">
 						<allied/>
 						<trait name="Headquarters"/>
