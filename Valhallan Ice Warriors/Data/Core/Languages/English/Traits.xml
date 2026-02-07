@@ -18,5 +18,11 @@
     <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
     <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>
     <entry name="AstraMilitarum/UraCooldownFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanSniper" value="Urban Marksmen"/>
+    <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts."/>
+    <entry name="AstraMilitarum/ValhallanSniperFlavor" value=""/>
     <!-- For Weapons -->
+    <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
+    <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while in Desert, Savannah, or Volcanic tiles"/>
+    <entry name="ValhallanHotWeaponFlavor" value=""/>
 </language>

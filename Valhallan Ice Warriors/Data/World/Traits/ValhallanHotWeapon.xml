@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/GetsHot">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<weapon>
+					<noTrait name="Melee"/>
+				</weapon>
+				<tile>
+					<feature name="Desert"/>
+					<feature name="Savanna"/>
+					<feature name="Volcanic"/>
+				</tile>
+			</conditions>
+			<effects>
+				<damageSelfFactor add="0.05"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
