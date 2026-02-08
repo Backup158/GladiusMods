@@ -6,7 +6,7 @@
 				<weapon>
 					<noTrait name="Melee"/>
 				</weapon>
-				<tile>
+				<tile match="Any">
 					<feature name="Desert"/>
 					<feature name="Savanna"/>
 					<feature name="Volcanic"/>
