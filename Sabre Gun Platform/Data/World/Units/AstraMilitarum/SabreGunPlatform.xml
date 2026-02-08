@@ -10,7 +10,7 @@
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<weapon name="SabreTwinLinkedHeavyStubber" count="2" enabled="0" slotName="Main">
+		<weapon name="SabreTwinLinkedHeavyStubber" count="2" slotName="Main">
 			<model>
 				<projectileWeapon muzzleBone=".Muzzle"
 						muzzleCount="4"
