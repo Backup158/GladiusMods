@@ -16,8 +16,7 @@
 	<weapons>
 		<weapon name="AntiTankDogsMelta">
 			<model>
-				<weapon fireInterval="1.0"
-						fireSoundCount="0"/>
+				<weapon fireInterval="1.0"/>
 			</model>
 		</weapon>
 	</weapons>
