@@ -83,7 +83,7 @@
 						</unit>
 					</conditions>
 					<areas>
-						<area affects="Tile" radius="2">
+						<area affects="Tile" radius="3">
 							<modifiers>
 								<modifier>
 									<effects>
