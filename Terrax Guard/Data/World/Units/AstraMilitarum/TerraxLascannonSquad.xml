@@ -160,12 +160,12 @@
 						sound="Weapons/Lascannon" soundCount="4"/>
 			</model>
 			<beginTargets>
-				<target rangeMin="3" rangeMax="3">
+				<target rangeMin="1" rangeMax="3">
 					<conditions>
 						<unit>
 							<allied/>
 							<noTrait name="Fortification"/>
-							<noTrait name="Vehicle"/>
+							<!-- <noTrait name="Vehicle"/> -->
 						</unit>
 					</conditions>
 					<areas>
