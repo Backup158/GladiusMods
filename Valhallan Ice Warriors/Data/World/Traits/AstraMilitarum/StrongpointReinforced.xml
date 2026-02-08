@@ -11,6 +11,7 @@
 			</conditions>
 			<effects>
 				<accuracy addMin="1" addMax="3"/>
+				<moraleLossFactor addMin="-0.33" addMax="-0.67"/>
 				<armor add="2"/>
 				<rangeMax add="1"/>
 			</effects>
