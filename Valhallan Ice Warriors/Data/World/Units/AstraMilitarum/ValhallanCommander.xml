@@ -186,7 +186,8 @@
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				name="AstraMilitarum/DefendThisStrongpoint">
+				name="AstraMilitarum/DefendThisStrongpoint"
+				icon="Actions/BolsterDefences">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarShout"
 						bone="ChestBone"
@@ -210,6 +211,15 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="5" name="BolsterDefences"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</target>
 			</beginTargets>
@@ -224,8 +234,9 @@
 				consumedActionPoints="0"
 				consumedMovement="0"
 				name="AstraMilitarum/TheMotherlandCalls"
-				icon="Actions/AstraMilitarumLoyaltyEdict"
+				icon="Actions/DogmaAstrates"
 				shoutString="Actions/BringItDown">
+				<!-- Actions/AstraMilitarumLoyaltyEdict -->
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarShout"
 						bone="ChestBone"

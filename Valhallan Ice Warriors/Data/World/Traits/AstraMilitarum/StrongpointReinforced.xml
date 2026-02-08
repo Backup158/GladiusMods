@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2">
+<trait category="Buff" rankMax="2" icon="Units/AstraMilitarum/ImperialStrongpoint">
 	<modifiers>
 		<modifier>
 			<conditions>
 				<unit>
 					<allied/>
-					<faction name="AstraMilitarum"/>
-					<noTrait name="Fortification"/>
-					<noTrait name="MonstrousCreature"/>
-					<noTrait name="Vehicle"/>
+					<trait name="Fortification"/>
+					<noTrait name="Headquarters"/>
 				</unit>
 			</conditions>
 			<effects>
 				<accuracy addMin="1" addMax="3"/>
+				<armor add="2"/>
+				<rangeMax add="1"/>
+			</effects>
+		</modifier>
+		<!-- With 3 adjacent allies, gain FNP -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<trait name="Fortification"/>
+					<noTrait name="Headquarters"/>
+					<unitsInRange count="1" range="3">
+						<allied/>
+                    </unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<feelNoPainDamageReduction addMin="0.11" addMax="0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>
