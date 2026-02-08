@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="DShK" value="DShK M1938 Heavy Stubber"/>
-    <entry name="DShKDescription" value=""/>
-    <entry name="DShKFlavor" value=""/>
+    <!-- PTRS-41 -->
+    <entry name="ValhallanAntiTankRifle" value="Simonov Mk. 41 Anti-Tank Rifle"/>
+    <entry name="ValhallanAntiTankRifleDescription" value=""/>
+    <entry name="ValhallanAntiTankRifleFlavor" value=""/>
+    <!-- PTRD-41 -->
+    <entry name="ValhallanDisposableAntiTankRifle" value="Degtyaryov Mk. 41 Expendable Anti-Tank Rifle"/>
+    <entry name="ValhallanDisposableAntiTankRifleDescription" value=""/>
+    <entry name="ValhallanDisposableAntiTankRifleFlavor" value=""/>
+    <!-- DShK M1938 -->
+    <entry name="ValhallanHeavyStubber" value="DShK Mk. 38 Heavy Stubber"/>
+    <entry name="ValhallanHeavyStubberDescription" value=""/>
+    <entry name="ValhallanHeavyStubberFlavor" value=""/>
+    <entry name="ValhallanHeavyStubberAir" value="DShK Mk. 38 Heavy Stubber (Anti-Air Deployment)"/>
+    <entry name="ValhallanHeavyStubberAirDescription" value="Decreased range but increased effectiveness against Flyers. <string name='ValhallanHeavyStubberDescription'/>"/>
+    <entry name="ValhallanHeavyStubberAirFlavor" value="<string name='ValhallanHeavyStubberFlavor'/>"/>
 </language>
