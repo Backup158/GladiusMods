@@ -15,4 +15,7 @@
     <entry name="ValhallanHeavyStubberAir" value="DShK Mk. 38 Heavy Stubber (Anti-Air Deployment)"/>
     <entry name="ValhallanHeavyStubberAirDescription" value="Decreased range but increased effectiveness against Flyers. <string name='ValhallanHeavyStubberDescription'/>"/>
     <entry name="ValhallanHeavyStubberAirFlavor" value="<string name='ValhallanHeavyStubberFlavor'/>"/>
+    <!-- Dog Bombs -->
+    <entry name="AntiTankDogsKrak" value="Dog <string name='Weapons/KrakGrenade'/>"/>
+    <entry name="AntiTankDogsMelta" value="Dog <string name='Weapons/MeltaBomb'/>"/>
 </language>
