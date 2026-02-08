@@ -179,7 +179,7 @@
 			</beginTargets>
 		</scout>
 		<!-- Defend This Strongpoint -->
-		<genericUnitAbility cooldown="3"
+		<genericUnitAbility cooldown="10"
 				levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
