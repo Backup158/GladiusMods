@@ -46,10 +46,10 @@
 			<effects>
 				<armor base="6"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
-				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+				<foodCost base="20.0"/> <!-- 20 | %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
 				<influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
-				<influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
+				<influenceCost base="80.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
 				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
@@ -58,7 +58,7 @@
 				<!-- <meleeInitiative base="3"/> -->
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
 				<movementMax base="3"/>
-				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<oreCost base="20.0"/> <!-- 20 | %oreCost base tier=6 factor=0.5 -->
 				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
 			</effects>
