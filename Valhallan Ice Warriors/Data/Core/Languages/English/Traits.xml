@@ -13,7 +13,7 @@
     <entry name="AstraMilitarum/ConscriptsDescription" value="Allies do not lose morale when this unit is killed. Upon becoming Broken, this unit flees the battlefield. When an allied Commissar is within 2 tiles, this unit has no Influence upkeep."/>
     <entry name="AstraMilitarum/ConscriptsFlavor" value=""/>
     <entry name="AstraMilitarum/Ura" value="Ura!"/>
-    <entry name="AstraMilitarum/UraDescription" value="Unit has decreased morale loss, increased damage, and increased damage resistance, plus further damage resistance while the unit has not attacked."/>
+    <entry name="AstraMilitarum/UraDescription" value="Unit has decreased morale loss, increased damage, and increased damage resistance, plus further damage resistance if the unit has moved without attacking."/>
     <entry name="AstraMilitarum/UraFlavor" value=""/>
     <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
     <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>

@@ -13,11 +13,12 @@
 		<modifier>
 			<conditions>
 				<unit>
+					<movedThisTurn/>
 					<actionPoints greater="0"/>
 				</unit>
 			</conditions>
 			<effects>
-				<feelNoPainDamageReduction add="0.23"/>
+				<feelNoPainDamageReduction add="0.23"/> <!-- For 33% FNP -->
 			</effects>
 		</modifier>
 	</modifiers>
