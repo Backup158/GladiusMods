@@ -14,6 +14,7 @@
 				<!-- <deathExperience max="0"/> -->
 				<deathMorale max="0"/>
 				<damageSelfFactor add="1"/>
+				<damage mul="0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
