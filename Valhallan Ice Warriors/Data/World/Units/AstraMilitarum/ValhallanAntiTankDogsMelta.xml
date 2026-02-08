@@ -14,7 +14,7 @@
 	<!-- was 7 -->
 	<group size="8" rowSize="4" memberDeltaX="90" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="AntiTankDogsKrak">
+		<weapon name="AntiTankDogsMelta">
 			<model>
 				<weapon fireInterval="1.0"
 						fireSoundCount="0"/>
@@ -71,6 +71,5 @@
 		<trait name="MoveThroughCover"/>
 
 		<trait name="AstraMilitarum/Valhallan"/>
-		<trait name="SuicideDog"/>
 	</traits>
 </unit>

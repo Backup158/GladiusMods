@@ -7,8 +7,8 @@
 		<produceUnit unit="AstraMilitarum/ValhallanAntiTankRiflemen" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
 		<produceUnit unit="AstraMilitarum/ValhallanHeavyGunnerSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsTeam"/>
 		<produceUnit unit="AstraMilitarum/ValhallanFlameTroopers" requiredUpgrade="AstraMilitarum/Housing"/>
-		<!-- <produceUnit unit="AstraMilitarum/ValhallanHoundMaster" requiredUpgrade="AstraMilitarum/Housing"/>
+		<produceUnit unit="AstraMilitarum/ValhallanHoundMaster" requiredUpgrade="AstraMilitarum/FoodEdict"/>
 		<produceUnit unit="AstraMilitarum/ValhallanMortarTeam" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
-		<produceUnit unit="AstraMilitarum/ValhallanShockTroops" requiredUpgrade="AstraMilitarum/TempestusScion"/> -->
+		<produceUnit unit="AstraMilitarum/ValhallanShockTroops" requiredUpgrade="AstraMilitarum/TempestusScion"/>
 	</actions>
 </building>

@@ -14,7 +14,7 @@
 	<!-- was 7 -->
 	<group size="8" rowSize="4" memberDeltaX="90" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="AntiTankDogsKrak">
+		<weapon name="CloseCombatWeapon">
 			<model>
 				<weapon fireInterval="1.0"
 						fireSoundCount="0"/>
@@ -65,12 +65,43 @@
 						soundCount="4"/>
 			</model>
 		</move>
+		<scout consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="3"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Scan"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<unitsInRange count="1" range="5">
+								<allied/>
+								<type name="AstraMilitarum/ValhallanHoundMaster"/>
+							</unitsInRange>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Tile" radius="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</scout>
 	</actions>
 	<traits>
 		<trait name="Fleet"/>
+		<trait name="Infiltrate"/>
 		<trait name="MoveThroughCover"/>
 
 		<trait name="AstraMilitarum/Valhallan"/>
-		<trait name="SuicideDog"/>
 	</traits>
 </unit>

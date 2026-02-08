@@ -18,6 +18,18 @@
     <entry name="AstraMilitarum/ValhallanFlameTroopers" value="Valhallan Flame Troopers"/>
     <entry name="AstraMilitarum/ValhallanFlameTroopersDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanFlameTroopersFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanHoundMaster" value="Valhallan Hound Masters"/>
+    <entry name="AstraMilitarum/ValhallanHoundMasterDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanHoundMasterFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanDogsScout" value="Valhallan Scout Dogs"/>
+    <entry name="AstraMilitarum/ValhallanDogsScoutDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanDogsScoutFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsKrak" value="Valhallan Anti-Tank Dogs (Krak)"/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsMelta" value="Valhallan Anti-Tank Dogs (Melta)"/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanMortarTeam" value="Valhallan Mortar Team"/>
     <entry name="AstraMilitarum/ValhallanMortarTeamDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanMortarTeamFlavor" value=""/>
