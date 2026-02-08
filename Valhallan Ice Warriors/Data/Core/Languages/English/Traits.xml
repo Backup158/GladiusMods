@@ -21,6 +21,9 @@
     <entry name="AstraMilitarum/ValhallanSniper" value="Urban Marksmen"/>
     <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts."/>
     <entry name="AstraMilitarum/ValhallanSniperFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
+    <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
+    <entry name="AstraMilitarum/ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
