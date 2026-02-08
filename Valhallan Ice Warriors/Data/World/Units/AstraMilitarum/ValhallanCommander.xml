@@ -205,8 +205,16 @@
 						<area affects="Unit">
 							<modifiers>
 								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="Fortification"/>
+											<noTrait name="Headquarters"/>
+										</unit>
+									</conditions>
 									<effects>
-										<addTrait duration="5" name="AstraMilitarum/StrongpointReinforced"/>
+										<addTrait duration="10" name="AstraMilitarum/StrongpointReinforced"/>
+										<hitpointsFactorFromMax addMin="0.03" addMax="0.1"/>
 									</effects>
 								</modifier>
 							</modifiers>
