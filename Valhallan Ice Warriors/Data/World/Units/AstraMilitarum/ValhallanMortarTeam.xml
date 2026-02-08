@@ -41,9 +41,10 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<!-- Reduced armor and movement is offset when in allied cities -->
+				<armor base="5"/> <!-- 6 | %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
-				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+				<foodCost base="22.5"/> <!-- 20 %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="9.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="2"/>
@@ -51,7 +52,7 @@
 				<!-- <meleeInitiative base="3"/> -->
 				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
-				<movementMax base="3"/>
+				<movementMax base="2"/> <!-- 3 -->
 				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
