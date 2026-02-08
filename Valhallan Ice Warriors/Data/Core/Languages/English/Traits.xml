@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+    <!-- Units -->
     <entry name="AstraMilitarum/Valhallan" value="Valhallan"/>
     <entry name="AstraMilitarum/ValhallanDescription" value="Decreased morale loss. Increased damage resistance when fighting in Arctic and Tundra tiles. Increased armour when in Cities, Imperial Ruins, and Outposts. Accuracy is increased when fighting Orks."/>
     <entry name="AstraMilitarum/ValhallanFlavor" value=""/>
@@ -12,21 +13,22 @@
     <entry name="AstraMilitarum/Conscripts" value="Conscripted"/>
     <entry name="AstraMilitarum/ConscriptsDescription" value="Allies do not lose morale when this unit is killed. Upon becoming Broken, this unit flees the battlefield. When an allied Commissar is within 2 tiles, this unit has no Influence upkeep."/>
     <entry name="AstraMilitarum/ConscriptsFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanSniper" value="Urban Marksmen"/>
+    <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts."/>
+    <entry name="AstraMilitarum/ValhallanSniperFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanFrontovik" value="Hardened Veteran"/>
+    <entry name="AstraMilitarum/ValhallanFrontovikDescription" value="Unit has increased damage resistance when adjacent to 2 allies, which is increased if those allies are Valhallans. If the unit has not moved, Rapid Fire applies at all ranges."/>
+    <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value=""/>
+    <!-- From Actions -->
     <entry name="AstraMilitarum/Ura" value="Ura!"/>
     <entry name="AstraMilitarum/UraDescription" value="Unit has decreased morale loss, increased damage, and increased damage resistance, plus further damage resistance if the unit has moved without attacking."/>
     <entry name="AstraMilitarum/UraFlavor" value=""/>
     <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
     <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>
     <entry name="AstraMilitarum/UraCooldownFlavor" value=""/>
-    <entry name="AstraMilitarum/ValhallanSniper" value="Urban Marksmen"/>
-    <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts."/>
-    <entry name="AstraMilitarum/ValhallanSniperFlavor" value=""/>
-    <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
-    <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
-    <entry name="AstraMilitarum/ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
-    <entry name="AstraMilitarum/ValhallanFrontovik" value="Hardened Veteran"/>
-    <entry name="AstraMilitarum/ValhallanFrontovikDescription" value="Unit has increased damage resistance when adjacent to 2 allies, which is increased if those allies are Valhallans. If the unit has not moved, Rapid Fire applies at all ranges."/>
-    <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value=""/>
+    <entry name="AstraMilitarum/BarrierSquadPresent" value="Barrier Squad Present"/>
+    <entry name="AstraMilitarum/BarrierSquadPresentDescription" value="Allied infantry have reduced morale loss and restore more morale every turn."/>
+    <entry name="AstraMilitarum/BarrierSquadPresentFlavor" value=""/>
     <entry name="DisciplineFlat" value="<string name='Traits/Discipline'/>"/>
     <entry name="DisciplineFlatDescription" value="<string name='Traits/DisciplineDescription'/>"/>
     <entry name="DisciplineFlatFlavor" value="<string name='Traits/DisciplineFlavor'/>"/>
@@ -37,10 +39,13 @@
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
     <entry name="ValhallanHotWeaponFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
+    <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
+    <entry name="AstraMilitarum/ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
     <entry name="ValhallanUnwieldy" value="Indirect Fire Inaccuracy"/>
     <entry name="ValhallanUnwieldyDescription" value="Decreased accuracy against units that are not Fortifications."/>
     <entry name="ValhallanUnwieldyFlavor" value=""/>
-    <entry name="Tripod Setup" value="Requires Tripod"/>
-    <entry name="Tripod SetupDescription" value="When wielded by infantry, this weapon cannot be fired immediately after moving."/>
-    <entry name="Tripod SetupFlavor" value=""/>
+    <entry name="TripodSetup" value="Requires Tripod"/>
+    <entry name="TripodSetupDescription" value="When wielded by infantry, this weapon cannot be fired immediately after moving."/>
+    <entry name="TripodSetupFlavor" value=""/>
 </language>

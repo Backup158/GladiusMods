@@ -78,7 +78,9 @@
 						soundCount="4"/>
 			</model>		
 		</move>
-		<auraOfDiscipline passive="1">
+		<auraOfDiscipline passive="1"
+			name="AstraMilitarum/BarrierSquadAura"
+			icon="Weapons/HeavyStubber">
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -95,6 +97,61 @@
 				</selfTarget>
 			</beginTargets>
 		</auraOfDiscipline>
+		<!-- DIY Summary Execution -->
+		<genericUnitAbility cooldown="3"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/SummaryExecution"
+				name="SummaryExecution">
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadAttack"
+						beginFire="0.5"
+						endFire="2.4"
+						sound="Weapons/HeavyBolter"
+						soundCount="4"/>
+			</model>
+			<beginTargets>
+				<target rangeMin="1" rangeMax="3">
+					<conditions>
+						<unit>
+							<allied/>
+							<noTrait name="Fortification"/>
+							<noTrait name="Vehicle"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<groupSize add="-7"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale addMin="8"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>			
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="Bulky"/>

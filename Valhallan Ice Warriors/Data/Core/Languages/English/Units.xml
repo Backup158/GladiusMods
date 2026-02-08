@@ -43,6 +43,9 @@
     <entry name="AstraMilitarum/ValhallanCommissar" value="Valhallan Commissar"/>
     <entry name="AstraMilitarum/ValhallanCommissarDescription" value="Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans."/>
     <entry name="AstraMilitarum/ValhallanCommissarFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanBarrierSquad" value="Valhallan Barrier Squad"/>
+    <entry name="AstraMilitarum/ValhallanBarrierSquadDescription" value="Support infantry unit that buffs allied infantry within 3 tiles. Their combat effectiveness is low."/>
+    <entry name="AstraMilitarum/ValhallanBarrierSquadFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanCommander" value="Valhallan Commander"/>
     <entry name="AstraMilitarum/ValhallanCommanderDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanCommanderFlavor" value=""/>
