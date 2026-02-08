@@ -13,4 +13,8 @@
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMelta" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMelta'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMeltaDescription'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaFlavor" value=""/>
+    <!-- Commissar Deploy -->
+    <entry name="AstraMilitarum/DeployValhallanBarrierSquad" value="Deploy <string name='Units/AstraMilitarum/ValhallanBarrierSquad'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanBarrierSquadDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanBarrierSquadDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanBarrierSquadFlavor" value=""/>
 </language>

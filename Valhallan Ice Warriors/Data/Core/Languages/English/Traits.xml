@@ -27,6 +27,12 @@
     <entry name="AstraMilitarum/ValhallanFrontovik" value="Hardened Veteran"/>
     <entry name="AstraMilitarum/ValhallanFrontovikDescription" value="Unit has increased damage resistance when adjacent to 2 allies, which is increased if those allies are Valhallans. If the unit has not moved, Rapid Fire applies at all ranges."/>
     <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value=""/>
+    <entry name="DisciplineFlat" value="<string name='Traits/Discipline'/>"/>
+    <entry name="DisciplineFlatDescription" value="<string name='Traits/DisciplineDescription'/>"/>
+    <entry name="DisciplineFlatFlavor" value="<string name='Traits/DisciplineFlavor'/>"/>
+    <entry name="BringItDownFlat" value="<string name='Traits/BringItDown'/>"/>
+    <entry name="BringItDownFlatDescription" value="<string name='Traits/BringItDownDescription'/>"/>
+    <entry name="BringItDownFlatFlavor" value="<string name='Traits/BringItDownFlavor'/>"/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
