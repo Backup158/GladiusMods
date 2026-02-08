@@ -21,4 +21,17 @@
     <entry name="AstraMilitarum/BarrierSquadAura" value="Barrier Squad's Watch"/>
     <entry name="AstraMilitarum/BarrierSquadAuraDescription" value="Improves morale for allied infantry within 3 tiles."/>
     <entry name="AstraMilitarum/BarrierSquadAuraFlavor" value=""/>
+    <!-- Commander -->
+    <entry name="AstraMilitarum/HoldTheLine" value="Hold the Line"/>
+    <entry name="AstraMilitarum/HoldTheLineDescription" value=""/>
+    <entry name="AstraMilitarum/HoldTheLineFlavor" value=""/>
+    <entry name="AstraMilitarum/ThePeoplesCommissar" value="The People's Commissar"/>
+    <entry name="AstraMilitarum/ThePeoplesCommissarDescription" value=""/>
+    <entry name="AstraMilitarum/ThePeoplesCommissarFlavor" value=""/>
+    <entry name="AstraMilitarum/DefendThisStrongpoint" value="Defend this Strongpoint"/>
+    <entry name="AstraMilitarum/DefendThisStrongpointDescription" value=""/>
+    <entry name="AstraMilitarum/DefendThisStrongpointFlavor" value=""/>
+    <entry name="AstraMilitarum/TheMotherlandCalls" value="The Motherland Calls"/>
+    <entry name="AstraMilitarum/TheMotherlandCallsDescription" value=""/>
+    <entry name="AstraMilitarum/TheMotherlandCallsFlavor" value=""/>
 </language>

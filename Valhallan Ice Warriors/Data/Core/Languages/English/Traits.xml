@@ -35,6 +35,18 @@
     <entry name="BringItDownFlat" value="<string name='Traits/BringItDown'/>"/>
     <entry name="BringItDownFlatDescription" value="<string name='Traits/BringItDownDescription'/>"/>
     <entry name="BringItDownFlatFlavor" value="<string name='Traits/BringItDownFlavor'/>"/>
+    <entry name="HoldTheLine" value="<string name='Actions/AstraMilitarum/HoldTheLine'/>"/>
+    <entry name="HoldTheLineDescription" value=""/>
+    <entry name="HoldTheLineFlavor" value=""/>
+    <entry name="ThePeoplesCommissar" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissar'/>"/>
+    <entry name="ThePeoplesCommissarDescription" value=""/>
+    <entry name="ThePeoplesCommissarFlavor" value=""/>
+    <entry name="AstraMilitarum/StrongpointReinforced" value=""/>
+    <entry name="AstraMilitarum/StrongpointReinforcedDescription" value=""/>
+    <entry name="AstraMilitarum/StrongpointReinforcedFlavor" value=""/>
+    <entry name="TheMotherlandCalls" value="<string name='Actions/AstraMilitarum/TheMotherlandCalls'/>"/>
+    <entry name="TheMotherlandCallsDescription" value=""/>
+    <entry name="TheMotherlandCallsFlavor" value=""/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
