@@ -31,4 +31,7 @@
     <entry name="ValhallanUnwieldy" value="Indirect Fire Inaccuracy"/>
     <entry name="ValhallanUnwieldyDescription" value="Decreased accuracy against units that are not Fortifications."/>
     <entry name="ValhallanUnwieldyFlavor" value=""/>
+    <entry name="Tripod Setup" value="Requires Tripod"/>
+    <entry name="Tripod SetupDescription" value="When wielded by infantry, this weapon cannot be fired immediately after moving."/>
+    <entry name="Tripod SetupFlavor" value=""/>
 </language>
