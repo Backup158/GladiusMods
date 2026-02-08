@@ -16,12 +16,13 @@
 	</modifiers>
 	<target rangeMax="1"/>
 	<traits>
-		<trait name="HeavyWeapon"/>
+		<!-- <trait name="HeavyWeapon"/> -->
 		<trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
 		<trait name="AstraMilitarum/BoltDamage" requiredUpgrade="AstraMilitarum/BoltDamage"/>
 		<trait name="SpaceMarines/BoltDamage" requiredUpgrade="SpaceMarines/BoltDamage"/>
 		<trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus"/>
 		<trait name="BoltWeapon"/>
+		<trait name="TripodSetup"/>
 		<trait name="Skyfire"/>
 	</traits>
 </weapon>
