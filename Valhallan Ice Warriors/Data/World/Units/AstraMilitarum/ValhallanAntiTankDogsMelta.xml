@@ -71,5 +71,6 @@
 		<trait name="MoveThroughCover"/>
 
 		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="SuicideDog"/>
 	</traits>
 </unit>
