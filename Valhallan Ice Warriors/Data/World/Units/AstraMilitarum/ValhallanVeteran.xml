@@ -13,13 +13,17 @@
 	</model>
 	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="Lasgun">
+		<weapon name="HotShotLasgun">
 			<model>
 				<beamWeapon muzzleBone=".Muzzle"
 						fireInterval="0.3"/>
 			</model>
 		</weapon>
-		<weapon name="ValhallanBayonet">
+		<weapon name="ValhallanDisposableAntiTankRifle" slotName="AntiTank" enabled="0">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						fireInterval="1"/>
+			</model>
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
@@ -35,17 +39,19 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
+				<!-- Janissaries are T8; Scions, T4 -->
+				<!-- Making sure these stats are still human and less than Space Marines. Stats will be fudged with traits -->
 				<armor base="6"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
-				<foodCost base="22.5"/> <!-- 20 | %foodCost base tier=6 factor=0.5 -->
+				<foodCost base="40.0"/> <!-- 20 | %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
-				<oreCost base="22.5"/> <!-- 20 | %oreCost base tier=6 factor=0.5 -->
+				<oreCost base="40.0"/> <!-- 20 | %oreCost base tier=6 factor=0.5 -->
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<productionCost base="42.0"/> <!-- 36 | %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
 			</effects>
 		</modifier>
@@ -87,6 +93,15 @@
 						soundCount="4"/>
 			</model>
 		</move>
+		<useWeapon cooldown="3"
+				consumedActionPoints="1"
+				weaponSlotName="AntiTank"
+				icon="Weapons/ValhallanDisposableAntiTankRifle">
+			<model>
+				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
+						beginFire="1.0" endFire="1.5"/>
+			</model>
+		</useWeapon>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
@@ -183,8 +198,8 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
 		<trait name="AstraMilitarum/Valhallan"/>
-		<!-- They can work alone -->
-		<!-- <trait name="AstraMilitarum/ValhallanHorde"/> -->
+		<trait name="AstraMilitarum/ValhallanHorde"/>
+		<trait name="AstraMilitarum/ValhallanFrontovik"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

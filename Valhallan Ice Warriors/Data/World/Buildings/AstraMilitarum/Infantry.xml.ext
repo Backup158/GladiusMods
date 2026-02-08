@@ -10,5 +10,6 @@
 		<produceUnit unit="AstraMilitarum/ValhallanHoundMaster" requiredUpgrade="AstraMilitarum/FoodEdict"/>
 		<produceUnit unit="AstraMilitarum/ValhallanMortarTeam" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
 		<produceUnit unit="AstraMilitarum/ValhallanShockTroops" requiredUpgrade="AstraMilitarum/TempestusScion"/>
+		<produceUnit unit="AstraMilitarum/ValhallanVeteran" requiredUpgrade="AstraMilitarum/HammerOfWrath"/>
 	</actions>
 </building>

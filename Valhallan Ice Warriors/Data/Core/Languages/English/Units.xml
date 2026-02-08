@@ -33,9 +33,12 @@
     <entry name="AstraMilitarum/ValhallanMortarTeam" value="Valhallan Mortar Team"/>
     <entry name="AstraMilitarum/ValhallanMortarTeamDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanMortarTeamFlavor" value=""/>
-    <entry name="AstraMilitarum/ValhallanShockTroops" value="Valhallan Shock Army Frontovik"/>
+    <entry name="AstraMilitarum/ValhallanShockTroops" value="Valhallan Shock Army Troopers"/>
     <entry name="AstraMilitarum/ValhallanShockTroopsDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanShockTroopsFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanVeteran" value="Valhallan Veteran Frontoviki"/>
+    <entry name="AstraMilitarum/ValhallanVeteranDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanVeteranFlavor" value=""/>
     <!-- Heroes -->
     <entry name="AstraMilitarum/ValhallanCommissar" value="Valhallan Commissar"/>
     <entry name="AstraMilitarum/ValhallanCommissarDescription" value="Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans."/>

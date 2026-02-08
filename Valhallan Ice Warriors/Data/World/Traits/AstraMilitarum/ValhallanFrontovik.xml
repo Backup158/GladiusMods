@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1" icon="Traits/Stubborn">
+	<modifiers>
+		<!-- Hardy Defense -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="2" range="1">
+						<allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+			<effects>
+				<feelNoPainDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="2" range="1">
+						<allied/>
+						<trait name="AstraMilitarum/Valhallan"/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+			<effects>
+				<feelNoPainDamageReduction add="0.08"/>
+			</effects>
+		</modifier>
+		<!-- Bolter Discipline -->
+		<modifier>
+			<conditions>
+				<unit>
+					<notMovedThisTurn/>
+				</unit>
+				<weapon>
+					<trait name="RapidFire"/>
+				</weapon>
+				<encounterRange greater="1"/>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

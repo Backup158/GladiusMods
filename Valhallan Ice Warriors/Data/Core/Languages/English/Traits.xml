@@ -24,6 +24,9 @@
     <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
     <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
     <entry name="AstraMilitarum/ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
+    <entry name="AstraMilitarum/ValhallanFrontovik" value="Hardened Veteran"/>
+    <entry name="AstraMilitarum/ValhallanFrontovikDescription" value="Unit has increased damage resistance when adjacent to 2 allies, which is increased if those allies are Valhallans. If the unit has not moved, Rapid Fire applies at all ranges."/>
+    <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value=""/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
