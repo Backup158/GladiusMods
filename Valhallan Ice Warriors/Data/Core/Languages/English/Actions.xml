@@ -3,4 +3,14 @@
     <entry name="AstraMilitarum/Ura" value="Ura!"/>
     <entry name="AstraMilitarum/UraDescription" value="Inspires Valhallans within 3 tiles to advance with decreased morale loss, increased damage, and increased damage resistance. Requires 4 allied infantry (where at least 2 of those are Valhallans) within 3 tiles to activate."/>
     <entry name="AstraMilitarum/UraFlavor" value=""/>
+    <!-- Hound Master Deploy -->
+    <entry name="AstraMilitarum/DeployValhallanDogsScout" value="Deploy <string name='Units/AstraMilitarum/ValhallanDogsScouts'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanDogsScoutDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanDogsScoutsDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanDogsScoutFlavor" value=""/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrak" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrak'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrakDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsKraksDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrakFlavor" value=""/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMelta" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMelta'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMeltaDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaFlavor" value=""/>
 </language>
