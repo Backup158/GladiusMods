@@ -22,13 +22,13 @@
     <entry name="AstraMilitarum/ValhallanHoundMasterDescription" value=""/>
     <entry name="AstraMilitarum/ValhallanHoundMasterFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanDogsScout" value="Valhallan Scout Dogs"/>
-    <entry name="AstraMilitarum/ValhallanDogsScoutDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanDogsScoutDescription" value="Dogs which can scout when within 5 tiles of an allied <string name='Units/AstraMilitarum/ValhallanHoundMaster'/>"/>
     <entry name="AstraMilitarum/ValhallanDogsScoutFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsKrak" value="Valhallan Anti-Tank Dogs (Krak)"/>
-    <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakDescription" value="Dogs strapped with Krak Grenades. Unit is killed upon attacking."/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsMelta" value="Valhallan Anti-Tank Dogs (Melta)"/>
-    <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaDescription" value="Dogs strapped with Melta Bombs. Unit is killed upon attacking."/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanMortarTeam" value="Valhallan Mortar Team"/>
     <entry name="AstraMilitarum/ValhallanMortarTeamDescription" value=""/>
