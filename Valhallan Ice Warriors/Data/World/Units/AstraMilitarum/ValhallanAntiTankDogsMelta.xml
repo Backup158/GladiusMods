@@ -12,7 +12,7 @@
 				walker="1"/>
 	</model>
 	<!-- was 7 -->
-	<group size="5" rowSize="4" memberDeltaX="90" memberDeltaY="50"/>
+	<group size="7" rowSize="4" memberDeltaX="90" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="AntiTankDogsMelta">
 			<model>
