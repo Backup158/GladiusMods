@@ -23,6 +23,6 @@
     <entry name="AstraMilitarum/ValhallanSniperFlavor" value=""/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
-    <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while in Desert, Savannah, or Volcanic tiles"/>
+    <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
     <entry name="ValhallanHotWeaponFlavor" value=""/>
 </language>
