@@ -44,8 +44,8 @@
 				<productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
 				<rangedAccuracy base="5"/> <!-- 6 | %rangedAccuracy base ballisticSkill=3 -->
 				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
-				<foodCost base="15.0"/> <!-- 10 | %foodCost base tier=4 factor=0.5 -->
-				<oreCost base="5.0"/> <!-- 10 | %oreCost base tier=4 factor=0.5 -->
+				<foodCost base="12.5"/> <!-- 10 | %foodCost base tier=4 factor=0.5 -->
+				<oreCost base="3.0"/> <!-- 10 | %oreCost base tier=4 factor=0.5 -->
 				<influenceUpkeep base="2.0"/> <!-- steals money unless commissar is near (in trait) -->
 			</effects>
 		</modifier>
