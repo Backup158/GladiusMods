@@ -138,7 +138,7 @@
                                 name="AstraMilitarum/Ura"
                                 shoutString="Actions/Ura">
                         <model>
-                                <action sound="Actions/ValhallanUra" soundCount="2"/>
+                                <action sound="Actions/ValhallanUra" soundCount="6"/>
                         </model>
                         <beginTargets>
                                 <selfTarget>
