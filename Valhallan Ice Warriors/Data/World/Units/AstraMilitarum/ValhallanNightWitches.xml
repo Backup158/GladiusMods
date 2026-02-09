@@ -12,9 +12,9 @@
 				scale="1.8 1.8 1.8"/>
 	</model>	
 	<weapons>
-		<weapon name="MultiLaser">
+		<weapon name="HeavyStubber">
 			<model>
-				<beamWeapon mesh="Weapons/AstraMilitarum/ValkyrieMultiLaser"
+				<projectileWeapon mesh="Weapons/AstraMilitarum/ValkyrieMultiLaser"
 						material="Units/AstraMilitarum/Valkyrie"
 						bone=".MultiLaserMuzzle0"
 						muzzleBone=".MultiLaserMuzzle0"/>
@@ -57,9 +57,12 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
-				<cargoSlots base="4"/> <!-- %cargoSlots base capacity=12 -->
 				<energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
 				<energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+				<influenceUpkeep base="2.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+				<influenceCost base="60.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
 				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
 				<oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
@@ -72,7 +75,7 @@
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseAircraftScore base="1.0"/>
+				<increaseHeroesScore base="1.0"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>
@@ -122,13 +125,19 @@
 				</selfTarget>
 			</beginTargets>
 		</jink>
+		<levelUp/>
+		<shop/>
 	</actions>
 	<traits>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
 		<trait name="Flyer"/>
 		<!-- <trait name="Hover"/> -->
-		<trait name="Transport"/>
 		<trait name="Vehicle"/>
+
+		<trait name="Hero"/>
+		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="Stealth"/>
+		<trait name="Infiltrate"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
