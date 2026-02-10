@@ -14,7 +14,10 @@
 	<weapons>
 		<weapon name="HandFlamer" slotName="FlamePistol">
 			<model>
-				<flamerWeapon muzzleBone=".Muzzle0"
+				<flamerWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						bone="RightHandBone"
+						muzzleBone=".Muzzle0"
 						muzzleCount="1"/>
 			</model>
 		</weapon>
