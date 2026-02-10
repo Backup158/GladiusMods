@@ -15,7 +15,7 @@
 		<weapon name="HandFlamer" slotName="FlamePistol">
 			<model>
 				<flamerWeapon muzzleBone=".Muzzle0"
-						muzzleCount="2"/>
+						muzzleCount="1"/>
 			</model>
 		</weapon>
 		<weapon name="BoltPistol" slotName="BoltPistol" enabled="0">
