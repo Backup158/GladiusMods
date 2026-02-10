@@ -176,8 +176,8 @@
 				</selfTarget>
 			</beginTargets>
 		</bringItDown>
-		<!-- Unlocked by Default and can be upgrade twice -->
-		<summaryExecution cooldown="3" rank="0" rankMax="2" 
+		<!-- Unlocked by Default as if it was upgraded once -->
+		<summaryExecution cooldown="3"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0">
@@ -219,7 +219,7 @@
 										</unit>
 									</conditions>
 									<effects>
-										<morale addMin="3" addMax="9"/>
+										<morale add="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
