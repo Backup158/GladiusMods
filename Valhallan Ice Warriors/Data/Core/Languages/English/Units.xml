@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/ValhallanGuardsman" value="Valhallan Guardsmen"/>
-    <entry name="AstraMilitarum/ValhallanGuardsmanDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanGuardsmanDescription" value="Light infantry unit that specialises in defending cities and in mass infantry assaults. This unit is weaker when alone."/>
     <entry name="AstraMilitarum/ValhallanGuardsmanFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanConscripts" value="Valhallan Conscripts"/>
-    <entry name="AstraMilitarum/ValhallanConscriptsDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanConscriptsDescription" value="Weak, cheap infantry unit. Influence upkeep is negated when near a Commissar. This unit is weaker when alone."/>
     <entry name="AstraMilitarum/ValhallanConscriptsFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanSharpshooters" value="Valhallan Sharpshooters"/>
-    <entry name="AstraMilitarum/ValhallanSharpshootersDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanSharpshootersDescription" value="Sniper infantry unit that specialises in urban warfare."/>
     <entry name="AstraMilitarum/ValhallanSharpshootersFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanAntiTankRiflemen" value="Valhallan Anti-Tank Rifle Squad"/>
-    <entry name="AstraMilitarum/ValhallanAntiTankRiflemenDescription" value="Infantry armed with semi-automatic anti-tank rifles."/>
+    <entry name="AstraMilitarum/ValhallanAntiTankRiflemenDescription" value="Infantry unit armed with semi-automatic anti-tank rifles. This unit is weaker when alone."/>
     <entry name="AstraMilitarum/ValhallanAntiTankRiflemenFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanHeavyGunnerSquad" value="Valhallan Heavy Stubber Squad"/>
-    <entry name="AstraMilitarum/ValhallanHeavyGunnerSquadDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanHeavyGunnerSquadDescription" value="Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. This unit is weaker when alone."/>
     <entry name="AstraMilitarum/ValhallanHeavyGunnerSquadFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanFlameTroopers" value="Valhallan Flame Troopers"/>
-    <entry name="AstraMilitarum/ValhallanFlameTroopersDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanFlameTroopersDescription" value="Light infantry unit armed with flamers. This unit is weaker when alone."/>
     <entry name="AstraMilitarum/ValhallanFlameTroopersFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanHoundMaster" value="Valhallan Hound Masters"/>
-    <entry name="AstraMilitarum/ValhallanHoundMasterDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanHoundMasterDescription" value="Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. This unit is weaker when alone."/>
     <entry name="AstraMilitarum/ValhallanHoundMasterFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanDogsScout" value="Valhallan Scout Dogs"/>
     <entry name="AstraMilitarum/ValhallanDogsScoutDescription" value="Dogs which can scout when within 5 tiles of an allied <string name='Units/AstraMilitarum/ValhallanHoundMaster'/>"/>
@@ -31,10 +31,10 @@
     <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaDescription" value="Dogs strapped with Melta Bombs. Unit is killed upon attacking."/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanMortarTeam" value="Valhallan Mortar Team"/>
-    <entry name="AstraMilitarum/ValhallanMortarTeamDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanMortarTeamDescription" value="Infantry unit armed with versatile artillery."/>
     <entry name="AstraMilitarum/ValhallanMortarTeamFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanShockTroops" value="Valhallan Shock Army Troopers"/>
-    <entry name="AstraMilitarum/ValhallanShockTroopsDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanShockTroopsDescription" value="Elite shock infantry unit. Effective against lightly-armoured infantry."/>
     <entry name="AstraMilitarum/ValhallanShockTroopsFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanVeteran" value="Valhallan Veteran Frontoviki"/>
     <entry name="AstraMilitarum/ValhallanVeteranDescription" value=""/>
