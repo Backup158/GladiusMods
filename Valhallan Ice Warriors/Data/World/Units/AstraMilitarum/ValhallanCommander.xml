@@ -380,7 +380,7 @@
 				requiredActionPoints="1"
 				consumedActionPoints="0" consumedMovement="0"
 				name="AstraMilitarum/Ura"
-				shoutString="Actions/Ura">
+				shoutString="Actions/AstraMilitarum/Ura">
 			<model>
 				<action sound="Actions/ValhallanUra" soundCount="6"/>
 			</model>
