@@ -52,13 +52,14 @@
 						muzzleCount="2"/>
 			</model>	
 		</weapon>
+		<weapon name="HeavyBombClusters" slotName="HeavyBombClusters" enabled="0"/>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
 				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
-				<energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
-				<energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+				<energyUpkeep base="2.0"/> <!-- 3 %energyUpkeep base tier=7 factor=1 -->
+				<energyCost base="35.0"/> <!-- 30 %energyCost base tier=7 factor=0.5 -->
 				<influenceUpkeep base="2.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
 				<influenceCost base="60.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
 				<itemSlots base="6"/>
@@ -125,6 +126,101 @@
 				</selfTarget>
 			</beginTargets>
 		</jink>
+		<heavyBombClusters consumedActionPoints="0"
+				requiredActionPoints="0"
+				weaponSlotName="HeavyBombClusters" cooldown="5">
+			<model>
+				<action beginFire="1.4" endFire="1.9"/>
+			</model>		
+		</heavyBombClusters>
+		<!-- Night Bomber -->
+		<!-- RDR. damage against fortifications -->
+		<genericUnitAbility levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				passive="1"
+				name="AstraMilitarum/NightBomber"
+				icon="Traits/Blind">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/NightBomber"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Fly Low -->
+		<!-- Like Jink -->
+		<jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3"
+				levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				name="AstraMilitarum/FlyLow"
+				icon="Traits/Jetpack">
+			<model>
+				<action sound="Units/Neutral/PsychneueinMove"/>
+			</model>
+			<conditions>
+				<unit>
+					<notAttackedThisTurn/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/FlyLow"/>
+										<addTrait duration="1" name="Infiltrate"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</jink>
+		<!-- Harass Enemies -->
+		<genericUnitAbility cooldown="3"
+				levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="1"
+				name="AstraMilitarum/HarassEnemies"
+				icon="Traits/Concussion">
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="3" name="WitchHarrassment"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
 	</actions>
@@ -137,7 +233,6 @@
 		<trait name="Hero"/>
 		<trait name="AstraMilitarum/Valhallan"/>
 		<trait name="Stealth"/>
-		<trait name="Infiltrate"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

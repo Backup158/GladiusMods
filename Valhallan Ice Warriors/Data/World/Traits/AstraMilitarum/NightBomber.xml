@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/Blind" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangedDamageReduction addMin="0.17" addMax="0.33"/>
+			</effects>
+		</modifier>
+		<!-- Damage against Fortifications -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<opponent>
+						<noAttacking/>
+						<trait name="Fortification"/>
+						<noTrait name="Headquarters"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mulMin="0.17" mulMax="0.67"/>
+			</effects>
+		</modifier>
+		<!-- Damage against Cities but less so -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<opponent>
+						<noAttacking/>
+						<trait name="Headquarters"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mulMin="0.11" mulMax="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait  category="Debuff"
+		icon="Traits/HellstormTemplate"
+		rankMax="2">
+	<modifiers>
+		<!-- Loses Morale and overall Accuracy due to lack of rest -->
+		<modifier>
+			<effects>
+				<accuracy mulMin="-0.17" mulMax="-0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<morale addMin="-1" addMax="-3"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>
