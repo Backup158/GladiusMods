@@ -18,4 +18,16 @@
     <!-- Dog Bombs -->
     <entry name="AntiTankDogsKrak" value="Dog <string name='Weapons/KrakGrenade'/>"/>
     <entry name="AntiTankDogsMelta" value="Dog <string name='Weapons/MeltaBomb'/>"/>
+    <!-- Mortars -->
+    <entry name="ValhallanKrakMortar" value="120-PM-38 Mortar (Krak)"/>
+    <entry name="ValhallanKrakMortarFlavor" value=""/>
+    <entry name="ValhallanFragMortar" value="120-PM-38 Mortar (Frag)"/>
+    <entry name="ValhallanFragMortarFlavor" value="<string name='Weapons/ValhallanKrakMortarFlavor'/>"/>
+    <!-- Sniper Rifle -->
+    <entry name="ValhallanSniperRifle" value="Mosina Mk. 1891 Longlas"/>
+    <entry name="ValhallanSniperRifleDescription" value="Sniper Lasgun that deals damage to its user when in hot environments."/>
+    <entry name="ValhallanSniperRifleFlavor" value=""/>
+    <!-- Bayonet -->
+    <entry name="ValhallanBayonet" value="M40 Bayonet"/>
+    <entry name="ValhallanBayonetFlavor" value=""/>
 </language>
