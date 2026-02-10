@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Attributes/Ore" rankMax>
+	<modifiers>
+		<modifier>
+			<effects>
+				<ore addMin="7" addMax="21"/>
+				<influence add="5" addMax="15"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

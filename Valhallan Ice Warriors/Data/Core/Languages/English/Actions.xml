@@ -13,7 +13,10 @@
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMelta" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMelta'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMeltaDescription'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaFlavor" value=""/>
-    <!-- Commissar Deploy -->
+    <!-- Commissar -->
+    <entry name="AstraMilitarum/Gulag" value="Send to Gulag"/>
+    <entry name="AstraMilitarum/GulagDescription" value="Target an infantry unit with less than 10% health, surrounded by 3 Valhallans. Remove this unit and gain Ore and Influence."/>
+    <entry name="AstraMilitarum/GulagFlavor" value=""/>
     <entry name="AstraMilitarum/DeployValhallanBarrierSquad" value="Deploy <string name='Units/AstraMilitarum/ValhallanBarrierSquad'/>"/>
     <entry name="AstraMilitarum/DeployValhallanBarrierSquadDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanBarrierSquadDescription'/>"/>
     <entry name="AstraMilitarum/DeployValhallanBarrierSquadFlavor" value=""/>

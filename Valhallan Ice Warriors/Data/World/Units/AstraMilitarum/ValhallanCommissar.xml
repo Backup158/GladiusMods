@@ -181,31 +181,59 @@
 				levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
 				name="AstraMilitarum/Gulag">
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<foodCost base="2.5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="3">
 					<conditions>
-						<tile>
-							<noUnit/>
-							<land/>
-							<noFeature name="GravityWaves"/>
-						</tile>
+						<unit>
+							<!-- Surrounded by Valhallans -->
+							<unitsInRange count="3" range="1">
+								<allied/>
+								<trait name="AstraMilitarum/Valhallan"/>
+							</unitsInRange>
+							<!-- Low HP -->
+							<hitpointsFraction less="0.1"/>
+							<!-- Forbidden Units -->
+							<noTrait name="Vehicle"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="MonstrousCreature"/>
+						</unit>
 					</conditions>
 					<areas>
-						<area affects="Tile">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addUnit name="AstraMilitarum/ValhallanBarrierSquad"/>
+										<!-- KILL IT but don't affect exp and morale -->
+										<addTrait name="Suicider"/>
+										<hitpointsFactorFromMax add="-1"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
 				</target>
+				<!-- Now that's how I'm getting paid -->
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/GulagGains" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
 		<ironWill beginOnDisappear="1"
