@@ -20,6 +20,7 @@
     <entry name="AstraMilitarum/DeployValhallanBarrierSquad" value="Deploy <string name='Units/AstraMilitarum/ValhallanBarrierSquad'/>"/>
     <entry name="AstraMilitarum/DeployValhallanBarrierSquadDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanBarrierSquadDescription'/>"/>
     <entry name="AstraMilitarum/DeployValhallanBarrierSquadFlavor" value=""/>
+    <entry name="AstraMilitarum/NotOneStepBack" value="Not one step back!"/>
     <!-- Barrier Squad Aura -->
     <entry name="AstraMilitarum/BarrierSquadAura" value="Barrier Squad's Watch"/>
     <entry name="AstraMilitarum/BarrierSquadAuraDescription" value="Improves morale for allied infantry within 3 tiles."/>

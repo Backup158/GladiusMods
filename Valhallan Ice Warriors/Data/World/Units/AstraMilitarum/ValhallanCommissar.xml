@@ -339,7 +339,8 @@
 				consumedActionPoints="0"
 				consumedMovement="0"
 				name="AstraMilitarum/DeployBarrierSquad"
-				icon="Units/AstraMilitarum/ValhallanBarrierSquad">
+				icon="Units/AstraMilitarum/ValhallanBarrierSquad"
+				shoutString="Actions/AstraMilitarum/NotOneStepBack">
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
