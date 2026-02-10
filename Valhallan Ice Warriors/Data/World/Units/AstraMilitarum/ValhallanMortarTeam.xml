@@ -15,7 +15,7 @@
 	<!-- was group size 2 -->
 	<group size="4" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
 	<weapons>
-		<weapon name="ValhallanFragMortar" slotName="KrakMortar" enabled="0">
+		<weapon name="ValhallanKrakMortar" slotName="KrakMortar" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle"
 						fireInterval="0.83"/>
