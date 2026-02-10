@@ -20,6 +20,7 @@
 			</model>
 		</weapon>
 		<weapon name="ValhallanBayonet">
+		</weapon>
 		<weapon name="ValhallanDisposableAntiTankRifle" slotName="AntiTank" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone=".Muzzle"
