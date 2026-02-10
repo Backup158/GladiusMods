@@ -29,12 +29,17 @@
     <entry name="AstraMilitarum/BarrierSquadPresent" value="Barrier Squad Present"/>
     <entry name="AstraMilitarum/BarrierSquadPresentDescription" value="Allied infantry have reduced morale loss and restore more morale every turn."/>
     <entry name="AstraMilitarum/BarrierSquadPresentFlavor" value=""/>
+    <!--    Commissar -->
     <entry name="DisciplineFlat" value="<string name='Traits/Discipline'/>"/>
     <entry name="DisciplineFlatDescription" value="<string name='Traits/DisciplineDescription'/>"/>
     <entry name="DisciplineFlatFlavor" value="<string name='Traits/DisciplineFlavor'/>"/>
     <entry name="BringItDownFlat" value="<string name='Traits/BringItDown'/>"/>
     <entry name="BringItDownFlatDescription" value="<string name='Traits/BringItDownDescription'/>"/>
     <entry name="BringItDownFlatFlavor" value="<string name='Traits/BringItDownFlavor'/>"/>
+    <entry name="AstraMilitarum/GulagGains" value="Sentence Delivered"/>
+    <!-- <entry name="AstraMilitarum/GulagGainsDescription" value=""/> -->
+    <entry name="AstraMilitarum/GulagGainsFlavor" value=""/>
+    <!--    Commander-->
     <entry name="HoldTheLine" value="<string name='Actions/AstraMilitarum/HoldTheLine'/>"/>
     <entry name="HoldTheLineDescription" value=""/>
     <entry name="HoldTheLineFlavor" value=""/>
@@ -47,6 +52,22 @@
     <entry name="TheMotherlandCalls" value="<string name='Actions/AstraMilitarum/TheMotherlandCalls'/>"/>
     <entry name="TheMotherlandCallsDescription" value=""/>
     <entry name="TheMotherlandCallsFlavor" value=""/>
+    <!--    Night Witches-->
+    <entry name="AstraMilitarum/NightBomber" value="<string name='Actions/AstraMilitarum/NightBomber'/>"/>
+    <entry name="AstraMilitarum/NightBomberDescription" value=""/>
+    <entry name="AstraMilitarum/NightBomberFlavor" value="<string name='Actions/AstraMilitarum/NightBomberFlavor'/>"/>
+    <entry name="AstraMilitarum/FlyLow" value="<string name='Actions/AstraMilitarum/FlyLow'/>"/>
+    <entry name="AstraMilitarum/FlyLowDescription" value=""/>
+    <entry name="AstraMilitarum/FlyLowFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
+    <entry name="AstraMilitarum/FlyLowSlowdown" value="<string name='Actions/AstraMilitarum/FlyLow'/> Slowdown"/>
+    <entry name="AstraMilitarum/FlyLowSlowdownDescription" value=""/>
+    <entry name="AstraMilitarum/FlyLowSlowdownFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
+    <entry name="WitchHarassment" value="Harassed"/>
+    <entry name="WitchHarassmentDescription" value=""/>
+    <entry name="WitchHarassmentFlavor" value=""/>
+    <entry name="AstraMilitarum/LoadExtraAmmo" value="<string name='Actions/AstraMilitarum/LoadExtraAmmo'/>"/>
+    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value=""/>
+    <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>

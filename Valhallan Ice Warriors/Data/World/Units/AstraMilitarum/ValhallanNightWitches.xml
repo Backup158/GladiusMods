@@ -222,7 +222,7 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<!-- Elite: Heavy Load -->
+		<!-- Elite: Load Extra Ammo -->
 		<genericUnitAbility levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"

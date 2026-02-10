@@ -37,4 +37,17 @@
     <entry name="AstraMilitarum/TheMotherlandCalls" value="The Motherland Calls"/>
     <entry name="AstraMilitarum/TheMotherlandCallsDescription" value=""/>
     <entry name="AstraMilitarum/TheMotherlandCallsFlavor" value=""/>
+    <!-- Night Witches -->
+    <entry name="AstraMilitarum/NightBomber" value="Night Bomber"/>
+    <entry name="AstraMilitarum/NightBomberDescription" value=""/>
+    <entry name="AstraMilitarum/NightBomberFlavor" value=""/>
+    <entry name="AstraMilitarum/FlyLow" value="Idle Engines"/>
+    <entry name="AstraMilitarum/FlyLowDescription" value=""/>
+    <entry name="AstraMilitarum/FlyLowFlavor" value=""/>
+    <entry name="AstraMilitarum/HarassEnemies" value="Fly Harassment Mission"/>
+    <entry name="AstraMilitarum/HarassEnemiesDescription" value=""/>
+    <entry name="AstraMilitarum/HarassEnemiesFlavor" value=""/>
+    <entry name="AstraMilitarum/LoadExtraAmmo" value="Load Additional Ammo"/>
+    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value=""/>
+    <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value=""/>
 </language>
