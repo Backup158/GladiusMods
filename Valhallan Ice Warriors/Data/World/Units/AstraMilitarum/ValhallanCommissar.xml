@@ -176,6 +176,38 @@
 				</selfTarget>
 			</beginTargets>
 		</bringItDown>
+		<!-- GULAG -->
+		<genericUnitAbility cooldown="10"
+				levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="AstraMilitarum/Gulag">
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<tile>
+							<noUnit/>
+							<land/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="AstraMilitarum/ValhallanBarrierSquad"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
 		<ironWill beginOnDisappear="1"
 				cooldown="10"
 				elite="1"
