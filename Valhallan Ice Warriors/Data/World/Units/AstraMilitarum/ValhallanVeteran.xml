@@ -36,6 +36,11 @@
 				<grenadeWeapon muzzleBone="BloodBone"/>
 			</model>
 		</weapon>
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="BloodBone"/>
+			</model>
+		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -112,6 +117,13 @@
 		</throwGrenade>
 		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="AstraMilitarum/BlastDamage">
 			<model>
 				<action animation="Units/AstraMilitarum/TempestusScionGrenade"
 						beginFire="0.833333333333"/>
@@ -204,8 +216,10 @@
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
+		<action name="UseWeapon/ValhallanDisposableAntiTankRifle" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/MeltaBomb" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
 		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
