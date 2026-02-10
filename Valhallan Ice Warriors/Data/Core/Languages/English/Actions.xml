@@ -45,7 +45,7 @@
     <entry name="AstraMilitarum/FlyLow" value="Idle Engines"/>
     <entry name="AstraMilitarum/FlyLowDescription" value=""/>
     <entry name="AstraMilitarum/FlyLowFlavor" value=""/>
-    <entry name="AstraMilitarum/HarassEnemies" value="Fly Harassment Mission"/>
+    <entry name="AstraMilitarum/HarassEnemies" value="Harassment Sortie"/>
     <entry name="AstraMilitarum/HarassEnemiesDescription" value=""/>
     <entry name="AstraMilitarum/HarassEnemiesFlavor" value=""/>
     <entry name="AstraMilitarum/LoadExtraAmmo" value="Load Additional Ammo"/>
