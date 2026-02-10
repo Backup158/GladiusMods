@@ -176,6 +176,45 @@
 				</selfTarget>
 			</beginTargets>
 		</bringItDown>
+		<ironWill beginOnDisappear="1"
+				cooldown="10"
+				elite="1"
+				levelUpPriority="1"
+				passive="1"
+				rank="-1"
+				rankMax="0">
+			<model>
+				<action sound="Actions/MysticBuff"
+						soundDelay="0.5"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="IronWill"/>
+									</effects>
+								</modifier>
+							</modifiers>
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<destroyed/>
+										</unit>
+									</conditions>
+									<effects>
+										<hitpointsFactorFromMax add="1.0"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</ironWill>
 		<!-- Unlocked by Default as if it was upgraded once -->
 		<summaryExecution cooldown="3"
 				requiredActionPoints="0"
@@ -229,10 +268,8 @@
 			</beginTargets>			
 		</summaryExecution>
 		<!-- Deploy Barrier Squad -->
+		<!-- Unlocked by default-->
 		<genericUnitAbility cooldown="10"
-				levelUpPriority="0.1"
-				rank="-1"
-				rankMax="0"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
@@ -261,45 +298,6 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<ironWill beginOnDisappear="1"
-				cooldown="10"
-				elite="1"
-				levelUpPriority="1"
-				passive="1"
-				rank="-1"
-				rankMax="0">
-			<model>
-				<action sound="Actions/MysticBuff"
-						soundDelay="0.5"/>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="IronWill"/>
-									</effects>
-								</modifier>
-							</modifiers>
-							<modifiers>
-								<modifier>
-									<conditions>
-										<unit>
-											<destroyed/>
-										</unit>
-									</conditions>
-									<effects>
-										<hitpointsFactorFromMax add="1.0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</ironWill>
 		<!-- URAAAAAAAAAA -->
 		<genericUnitAbility	cooldown="10"
 				requiredActionPoints="1"
