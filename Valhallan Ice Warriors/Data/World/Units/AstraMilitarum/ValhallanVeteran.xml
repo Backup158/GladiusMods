@@ -19,6 +19,7 @@
 						fireInterval="0.3"/>
 			</model>
 		</weapon>
+		<weapon name="ValhallanBayonet">
 		<weapon name="ValhallanDisposableAntiTankRifle" slotName="AntiTank" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone=".Muzzle"
