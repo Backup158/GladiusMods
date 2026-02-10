@@ -4,7 +4,8 @@
 		<modifier>
 			<effects>
 				<movementMax addMin="-1" addMax="0"/>
-				<rangedDamageReduction addMin="0.17" addMax="0.33"/>
+				<accuracy mulMin="0.17" mulMax="0.33"/>
+				<rangedDamageReduction addMin="-0.33" addMax="-0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
