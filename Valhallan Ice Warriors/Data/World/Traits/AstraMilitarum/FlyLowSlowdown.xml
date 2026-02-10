@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1" icon="Traits/Slowed" rankMax="1">
+	<modifiers>
+		<modifier>
+			<effects>
+				<movementMax addMin="-1" addMax="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

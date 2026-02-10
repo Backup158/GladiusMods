@@ -181,6 +181,7 @@
 								<modifier>
 									<effects>
 										<addTrait duration="1" name="AstraMilitarum/FlyLow"/>
+										<addTrait duration="1" name="AstraMilitarum/FlyLowSlowdown"/>
 										<addTrait duration="1" name="Infiltrate"/>
 									</effects>
 								</modifier>
