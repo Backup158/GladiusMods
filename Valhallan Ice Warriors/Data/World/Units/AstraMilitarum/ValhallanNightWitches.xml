@@ -159,7 +159,7 @@
 		</genericUnitAbility>
 		<!-- Fly Low -->
 		<!-- Like Jink -->
-		<jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3"
+		<genericUnitAbility consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3"
 				levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
@@ -190,7 +190,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</jink>
+		</genericUnitAbility>
 		<!-- Harass Enemies -->
 		<genericUnitAbility cooldown="3"
 				levelUpPriority="0.1"
@@ -220,6 +220,33 @@
 						</area>
 					</areas>
 				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Elite: Heavy Load -->
+		<genericUnitAbility levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				elite="1"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				requiredMovement="1"
+				consumedMovement="0"
+				name="AstraMilitarum/LoadExtraAmmo"
+				icon="Traits/Assault">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/LoadExtraAmmo"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
 		<levelUp/>

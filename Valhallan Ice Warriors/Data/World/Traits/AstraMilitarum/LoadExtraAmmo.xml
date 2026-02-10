@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1" icon="Traits/Assault">
+	<modifiers>
+		<modifier>
+			<effects>
+				<accuracy mul="0.33"/>
+				<damage mul="0.5"/>
+				<!-- Shooting the bolters twice isn't that crazy -->
+				<actionPointsMax add="1"/>
+				<actionPoints add="1"/>
+			</effects>
+		</modifier>
+		<!-- Reload Heavy Bombs -->
+		<modifier>
+			<conditions>
+				<unit>
+					<cooldownAction name="UseWeapon/HeavyBombClusters"/>
+				</unit>
+			</conditions>
+			<effects>
+				<cooldown add="-5"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
