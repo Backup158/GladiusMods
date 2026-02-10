@@ -182,6 +182,11 @@
 				rank="-1"
 				rankMax="2"
 				name="AstraMilitarum/Gulag">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarShout"
+						bone="ChestBone"
+						sound="Impacts/KineticConcrete" soundCount="5"/>
+			</model>
 			<modifiers>
 				<modifier visible="1">
 					<effects>
