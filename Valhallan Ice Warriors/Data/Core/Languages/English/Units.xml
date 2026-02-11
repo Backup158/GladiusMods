@@ -34,23 +34,23 @@
     <entry name="AstraMilitarum/ValhallanMortarTeamDescription" value="Infantry unit armed with versatile artillery."/>
     <entry name="AstraMilitarum/ValhallanMortarTeamFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanShockTroops" value="Valhallan Shock Army Troopers"/>
-    <entry name="AstraMilitarum/ValhallanShockTroopsDescription" value="Elite shock infantry unit. Effective against lightly-armoured infantry."/>
+    <entry name="AstraMilitarum/ValhallanShockTroopsDescription" value="Elite shock infantry unit. Most effective against light infantry."/>
     <entry name="AstraMilitarum/ValhallanShockTroopsFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanVeteran" value="Valhallan Veteran Frontoviki"/>
-    <entry name="AstraMilitarum/ValhallanVeteranDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanVeteranDescription" value="Elite infantry unit that can use melta bombs and anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving."/>
     <entry name="AstraMilitarum/ValhallanVeteranFlavor" value=""/>
     <!-- Heroes -->
     <entry name="AstraMilitarum/ValhallanCommissar" value="Valhallan Commissar"/>
-    <entry name="AstraMilitarum/ValhallanCommissarDescription" value="Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans."/>
+    <entry name="AstraMilitarum/ValhallanCommissarDescription" value="Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade"/>
     <entry name="AstraMilitarum/ValhallanCommissarFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanBarrierSquad" value="Valhallan Barrier Squad"/>
-    <entry name="AstraMilitarum/ValhallanBarrierSquadDescription" value="Support infantry unit that buffs allied infantry within 3 tiles. Their combat effectiveness is low."/>
+    <entry name="AstraMilitarum/ValhallanBarrierSquadDescription" value="Support infantry unit that buffs allied infantry within 3 tiles. Their combat effectiveness is low, but they can very effectively execute allied infantry."/>
     <entry name="AstraMilitarum/ValhallanBarrierSquadFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanCommander" value="Valhallan Marshal"/>
-    <entry name="AstraMilitarum/ValhallanCommanderDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanCommanderDescription" value="Hero unit that provides defensive buffs to allied infantry, with increased bonuses for Valhallans."/>
     <entry name="AstraMilitarum/ValhallanCommanderFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanNightWitches" value="Night Witches"/>
-    <entry name="AstraMilitarum/ValhallanNightWitchesDescription" value=""/>
+    <entry name="AstraMilitarum/ValhallanNightWitchesDescription" value="Light bomber that harasses enemy infantry and bombards Fortifications and Vehicles."/>
     <entry name="AstraMilitarum/ValhallanNightWitchesFlavor" value=""/>
     <!-- Reinforcements -->
     <entry name="AstraMilitarum/BattalionValhallanGuardsmen" value="Battalion of <string name='Units/AstraMilitarum/ValhallanGuardsmen'/>"/>
