@@ -50,7 +50,7 @@
     <entry name="ThePeoplesCommissarDescription" value="Infantry have less upkeep and restore morale each turn. Valhallans gain melee attacks."/>
     <entry name="ThePeoplesCommissarFlavor" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissarFlavor'/>"/>
     <entry name="AstraMilitarum/StrongpointReinforced" value="Reinforced Strongpoint"/>
-    <entry name="AstraMilitarum/StrongpointReinforcedDescription" value="Fortifications (excluding Headquarters) gain increased offensive capabilities. When adjacent to 3 allies, take less damage."/>
+    <entry name="AstraMilitarum/StrongpointReinforcedDescription" value="The Fortification (excluding Headquarters) gain increased offensive capabilities. When adjacent to 3 allies, it takes less damage."/>
     <entry name="AstraMilitarum/StrongpointReinforcedFlavor" value="<string name='Actions/AstraMilitarum/DefendThisStrongpointFlavor'/>"/>
     <entry name="TheMotherlandCalls" value="<string name='Actions/AstraMilitarum/TheMotherlandCalls'/>"/>
     <entry name="TheMotherlandCallsDescription" value="Infantry gain an additional action and damage reduction. Valhallans gain additional damage reduction."/>
