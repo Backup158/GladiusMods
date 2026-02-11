@@ -44,20 +44,20 @@
     <entry name="AstraMilitarum/GulagGainsFlavor" value=""/>
     <!--    Commander-->
     <entry name="HoldTheLine" value="<string name='Actions/AstraMilitarum/HoldTheLine'/>"/>
-    <entry name="HoldTheLineDescription" value=""/>
-    <entry name="HoldTheLineFlavor" value=""/>
+    <entry name="HoldTheLineDescription" value="Infantry within 5 tiles of an allied city have improved defences and damage. Valhallans within 3 tiles of allied city heal every turn."/>
+    <entry name="HoldTheLineFlavor" value="<string name='Actions/AstraMilitarum/HoldTheLineFlavor'/"/>
     <entry name="ThePeoplesCommissar" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissar'/>"/>
-    <entry name="ThePeoplesCommissarDescription" value=""/>
-    <entry name="ThePeoplesCommissarFlavor" value=""/>
-    <entry name="AstraMilitarum/StrongpointReinforced" value=""/>
-    <entry name="AstraMilitarum/StrongpointReinforcedDescription" value=""/>
-    <entry name="AstraMilitarum/StrongpointReinforcedFlavor" value=""/>
+    <entry name="ThePeoplesCommissarDescription" value="Infantry have less upkeep and restore morale each turn. Valhallans gain melee attacks."/>
+    <entry name="ThePeoplesCommissarFlavor" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissarFlavor'/>"/>
+    <entry name="AstraMilitarum/StrongpointReinforced" value="Reinforced Strongpoint"/>
+    <entry name="AstraMilitarum/StrongpointReinforcedDescription" value="Fortifications (excluding Headquarters) gain increased offensive capabilities. When adjacent to 3 allies, take less damage."/>
+    <entry name="AstraMilitarum/StrongpointReinforcedFlavor" value="<string name='Actions/AstraMilitarum/DefendThisStrongpointFlavor'/>"/>
     <entry name="TheMotherlandCalls" value="<string name='Actions/AstraMilitarum/TheMotherlandCalls'/>"/>
-    <entry name="TheMotherlandCallsDescription" value=""/>
-    <entry name="TheMotherlandCallsFlavor" value=""/>
+    <entry name="TheMotherlandCallsDescription" value="Infantry gain an additional action and damage reduction. Valhallans gain additional damage reduction."/>
+    <entry name="TheMotherlandCallsFlavor" value="<string name='Actions/AstraMilitarum/TheMotherlandCallsFlavor'/>"/>
     <!--    Night Witches-->
     <entry name="AstraMilitarum/NightBomber" value="<string name='Actions/AstraMilitarum/NightBomber'/>"/>
-    <entry name="AstraMilitarum/NightBomberDescription" value=""/>
+    <entry name="AstraMilitarum/NightBomberDescription" value="Unit gains damage reduction, increased damage against Headquarters, and even more damage against Fortifications (excluding Headquarters)"/>
     <entry name="AstraMilitarum/NightBomberFlavor" value="<string name='Actions/AstraMilitarum/NightBomberFlavor'/>"/>
     <entry name="AstraMilitarum/FlyLow" value="<string name='Actions/AstraMilitarum/FlyLow'/>"/>
     <entry name="AstraMilitarum/FlyLowDescription" value=""/>
