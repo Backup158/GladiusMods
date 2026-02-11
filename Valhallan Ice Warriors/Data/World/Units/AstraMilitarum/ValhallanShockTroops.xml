@@ -183,6 +183,7 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 
 		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="AstraMilitarum/ValhallanShockTrooper"/>
 		<!-- They can work alone -->
 		<!-- <trait name="AstraMilitarum/ValhallanHorde"/> -->
 	</traits>

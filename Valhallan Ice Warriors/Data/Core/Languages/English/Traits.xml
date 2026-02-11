@@ -14,8 +14,11 @@
     <entry name="AstraMilitarum/ConscriptsDescription" value="Allies do not lose morale when this unit is killed. Upon becoming Broken, this unit flees the battlefield. When an allied Commissar is within 2 tiles, this unit has no Influence upkeep."/>
     <entry name="AstraMilitarum/ConscriptsFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanSniper" value="Urban Marksmen"/>
-    <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts."/>
+    <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts (not counting grenades)."/>
     <entry name="AstraMilitarum/ValhallanSniperFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanShockTrooper" value="Urban Shock Troops"/>
+    <entry name="AstraMilitarum/ValhallanShockTrooperDescription" value="Takes less damage when moving. Increased effectiveness against enemy units (besides the Headquarters itself) in Cities, Imperial Ruins, or Outposts."/>
+    <entry name="AstraMilitarum/ValhallanShockTrooperFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanFrontovik" value="Hardened Veteran"/>
     <entry name="AstraMilitarum/ValhallanFrontovikDescription" value="Unit has increased damage resistance when adjacent to 2 allies, which is increased if those allies are Valhallans. If the unit has not moved, Rapid Fire applies at all ranges."/>
     <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value=""/>

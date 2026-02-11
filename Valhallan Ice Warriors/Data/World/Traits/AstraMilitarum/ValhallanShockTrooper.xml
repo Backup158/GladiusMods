@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1" icon="Traits/Fleet">
+	<modifiers>
+		<!-- RDR when moving -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <notAttackedThisTurn/>
+					<movedThisTurn/>
+				</unit>
+            </conditions>
+			<effects>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Urban Assault -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<!-- Opponent is in urban environment -->
+					<opponent match="Any">
+						<trait name="City"/>
+						<trait name="ImperialRuin"/>
+						<trait name="Outpost"/>
+					</opponent>
+					<!-- Not city -->
+					<opponent>
+						<noTrait name="Headquarters"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.25"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

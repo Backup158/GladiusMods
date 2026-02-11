@@ -214,6 +214,7 @@
 		<trait name="AstraMilitarum/Valhallan"/>
 		<trait name="AstraMilitarum/ValhallanHorde"/>
 		<trait name="AstraMilitarum/ValhallanFrontovik"/>
+		<trait name="AstraMilitarum/ValhallanShockTrooper"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
