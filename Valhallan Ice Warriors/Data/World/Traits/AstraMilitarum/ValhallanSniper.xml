@@ -21,6 +21,9 @@
 						<noTrait name="Fortification"/>
 					</opponent>
 				</encounter>
+				<weapon>
+					<noTrait name="Bomb"/>
+				</weapon>
 			</conditions>
 			<effects>
 				<rangedDamageReductionBypass add="0.33"/>
