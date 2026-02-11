@@ -57,23 +57,23 @@
     <entry name="TheMotherlandCallsFlavor" value="<string name='Actions/AstraMilitarum/TheMotherlandCallsFlavor'/>"/>
     <!--    Night Witches-->
     <entry name="AstraMilitarum/NightBomber" value="<string name='Actions/AstraMilitarum/NightBomber'/>"/>
-    <entry name="AstraMilitarum/NightBomberDescription" value="Unit gains damage reduction, increased damage against Headquarters, and even more damage against Fortifications (excluding Headquarters)"/>
+    <entry name="AstraMilitarum/NightBomberDescription" value="Unit gains damage reduction, increased damage against Headquarters, and even more damage against Fortifications (excluding Headquarters)."/>
     <entry name="AstraMilitarum/NightBomberFlavor" value="<string name='Actions/AstraMilitarum/NightBomberFlavor'/>"/>
     <entry name="AstraMilitarum/FlyLow" value="<string name='Actions/AstraMilitarum/FlyLow'/>"/>
-    <entry name="AstraMilitarum/FlyLowDescription" value=""/>
+    <entry name="AstraMilitarum/FlyLowDescription" value="Gains accuracy but takes more damage."/>
     <entry name="AstraMilitarum/FlyLowFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
     <entry name="AstraMilitarum/FlyLowSlowdown" value="<string name='Actions/AstraMilitarum/FlyLow'/> Slowdown"/>
-    <entry name="AstraMilitarum/FlyLowSlowdownDescription" value=""/>
+    <entry name="AstraMilitarum/FlyLowSlowdownDescription" value="Reduces movement. Removed after levelling up the action."/>
     <entry name="AstraMilitarum/FlyLowSlowdownFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
     <entry name="WitchHarassment" value="Harassed"/>
-    <entry name="WitchHarassmentDescription" value=""/>
+    <entry name="WitchHarassmentDescription" value="Accuracy is decreased and morale is lost every turn."/>
     <entry name="WitchHarassmentFlavor" value=""/>
     <entry name="AstraMilitarum/LoadExtraAmmo" value="<string name='Actions/AstraMilitarum/LoadExtraAmmo'/>"/>
-    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value=""/>
+    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="Greatly improves offence. Heavy Bomb Clusters are refilled."/>
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
-    <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on Arctic or Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
+    <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on tiles which are neither Arctic nor Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
     <entry name="ValhallanHotWeaponFlavor" value=""/>
     <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
     <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
