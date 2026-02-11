@@ -172,7 +172,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="ThePeoplesCommissar" duration="3"/>
+										<addTrait name="ThePeoplesCommissar" durationMin="1" durationMax="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
