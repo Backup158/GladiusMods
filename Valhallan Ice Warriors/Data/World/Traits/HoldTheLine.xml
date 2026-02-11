@@ -20,6 +20,7 @@
 			<effects>
 				<rangedDamageReduction add="0.17"/>
 				<meleeDamageReduction addMin="0.17" addMax="0.33"/>
+				<damage mulMin="0.17" mulMax="0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>
