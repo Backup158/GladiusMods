@@ -20,13 +20,13 @@
     <entry name="AstraMilitarum/ValhallanFlameTroopersFlavor" value="When you have problems on an ice world, sometimes all you need is a flamer. Entrance is frozen over? Flamer. The gears of machinery are freezing and stopping the assembly line? Flamer. Orks chopping at the gate? Flamer. Political dissidents sowing foment amongst the workers? Flamer!"/>
     <entry name="AstraMilitarum/ValhallanHoundMaster" value="Valhallan Hound Masters"/>
     <entry name="AstraMilitarum/ValhallanHoundMasterDescription" value="Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. This unit is weaker when alone."/>
-    <entry name="AstraMilitarum/ValhallanHoundMasterFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanHoundMasterFlavor" value="Dogs are some of the smartest animals, as proven by their choice to serve the Imperium. Wild dogs prowl the frozen surface of Valhalla, returning to their caves with prey between their jaws. Humans took note of this, and some conscripted these dogs to hunt for them in exchange for treats and fires during the night. The Valhallan Ice Warriors adopted this behavior into regiment, training these dogs as scouts and lethal weapons."/>
     <entry name="AstraMilitarum/ValhallanDogsScout" value="Valhallan Scout Dogs"/>
     <entry name="AstraMilitarum/ValhallanDogsScoutDescription" value="Dogs which can scout when within 5 tiles of an allied <string name='Units/AstraMilitarum/ValhallanHoundMaster'/>"/>
-    <entry name="AstraMilitarum/ValhallanDogsScoutFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanDogsScoutFlavor" value="Despite the cold air suppressing the travel of odours, the nose of a hound is still much stronger than a man's. Additionally, dogs have a lower profile and can slip below the gaze enemy sentries easier than a man can."/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsKrak" value="Valhallan Anti-Tank Dogs (Krak)"/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakDescription" value="Dogs strapped with Krak Grenades. Unit is killed upon attacking."/>
-    <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanAntiTankDogsKrakFlavor" value="Valhallan units experimented with arming dogs with anti-tank explosives. Initial trials were conducted by training dogs to follow the scent of fuel, then being released with timed explosives. It turns out that Guard vehicles also burn fuel, which is even worsened when the enemy uses captured vehicles. Being unable to differentiate between friend and foe led to many allied tankers being blown sky high by the Valhallans, leading to many cases of bad blood and executions. Even without this issue, there were numerous cases where "/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsMelta" value="Valhallan Anti-Tank Dogs (Melta)"/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaDescription" value="Dogs strapped with Melta Bombs. Unit is killed upon attacking."/>
     <entry name="AstraMilitarum/ValhallanAntiTankDogsMeltaFlavor" value=""/>
