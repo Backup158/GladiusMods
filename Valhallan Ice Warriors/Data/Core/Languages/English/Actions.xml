@@ -2,7 +2,7 @@
 <language>
     <entry name="AstraMilitarum/Ura" value="Ura!"/>
     <entry name="AstraMilitarum/UraDescription" value="Inspires Valhallans within 3 tiles to advance with decreased morale loss, increased damage, and increased damage resistance. Requires 4 allied infantry (where at least 2 of those are Valhallans) within 3 tiles to activate."/>
-    <entry name="AstraMilitarum/UraFlavor" value=""/>
+    <entry name="AstraMilitarum/UraFlavor" value="Many foes know what it's like to face a mass infantry charge. Typically, these will be hordes of flesh firing inaccurately, which makes for easy pickings for well-fortified positions. Valhallans are the exception. After hours of being pummelled by artillery, beleaguered defenders will hear a hearty cry of &quot;URAAAAA!&quot; before an endless wave of Valhallans descends upon them. Inexplicably, these mere men and women seem harder to kill, with some reports of prisoners swearing they shot someone thrice in the chest without the Valhallan falling."/>
     <!-- Hound Master Deploy -->
     <entry name="AstraMilitarum/DeployValhallanDogsScout" value="Deploy <string name='Units/AstraMilitarum/ValhallanDogsScout'/>"/>
     <entry name="AstraMilitarum/DeployValhallanDogsScoutDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanDogsScoutDescription'/>"/>
