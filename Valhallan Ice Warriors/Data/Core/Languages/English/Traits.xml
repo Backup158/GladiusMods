@@ -3,7 +3,7 @@
     <!-- Units -->
     <entry name="AstraMilitarum/Valhallan" value="Valhallan"/>
     <entry name="AstraMilitarum/ValhallanDescription" value="Decreased morale loss. Increased damage resistance when fighting in Arctic and Tundra tiles. Increased armour when in Cities, Imperial Ruins, and Outposts. Accuracy is increased when fighting Orks."/>
-    <entry name="AstraMilitarum/ValhallanFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanFlavor" value="Hailing from the frigid ice world of Valhalla, the Valhallan Ice Warriors are stubborn defenders who operate in large numbers and thrive in Arctic conditions. After comets plunged the planet into the cold, humanity retreated underground into caves to survive. Soon after, the Orks landed, and the Valhallans stubbornly held onto every inch to the last. Today, Valhallan doctrine honours the memory of this key point in history by continuing to value resiliency and especially hating the Orks."/>
     <entry name="AstraMilitarum/ValhallanHorde" value="Massed Infantry"/>
     <entry name="AstraMilitarum/ValhallanHordeDescription" value="Movement is increased when within 5 tiles of an allied city, within 2 tiles of allied Hero, or within 3 tiles of 4 other Valhallans. Accuracy is decreased when alone, neutral when adjacent to 1 ally, and improved when adjacent to 2 or more allies."/>
     <entry name="AstraMilitarum/ValhallanHordeFlavor" value=""/>
