@@ -2,7 +2,7 @@
 <language>
     <entry name="AstraMilitarum/ValhallanGuardsman" value="Valhallan Guardsmen"/>
     <entry name="AstraMilitarum/ValhallanGuardsmanDescription" value="Light infantry unit that specialises in defending cities and in mass infantry assaults. This unit is weaker when alone."/>
-    <entry name="AstraMilitarum/ValhallanGuardsmanFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanGuardsmanFlavor" value="Valhallans are a rowdy bunch. While they may not be the best trained and equipped regiment in the Guard, they make up for it in tenacity and sheer numbers. Every Ice Warrior made it through a childhood of living underground in a frozen wasteland, where many families struggled to put food on the table. Therefore, every Valhallan"/>
     <entry name="AstraMilitarum/ValhallanConscripts" value="Valhallan Conscripts"/>
     <entry name="AstraMilitarum/ValhallanConscriptsDescription" value="Weak, cheap infantry unit. Influence upkeep is negated when near a Commissar. This unit is weaker when alone."/>
     <entry name="AstraMilitarum/ValhallanConscriptsFlavor" value=""/>
