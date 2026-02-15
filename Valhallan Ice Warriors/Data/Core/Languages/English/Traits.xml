@@ -9,10 +9,10 @@
     <entry name="AstraMilitarum/ValhallanHordeFlavor" value="Valhallan Ice Warriors primarily operate in mass numbers, with every training exercise involving multiple units. In great numbers, morale is kept high, and the increased confidence makes taking accurate shots easier, plus being able to trust the flanks are watched. When formations are crushed, shots may not always find their marks, but Valhallans can be relied upon to die before surrendering a position."/>
     <entry name="AstraMilitarum/GrowingNumbers" value="Growing Numbers"/>
     <entry name="AstraMilitarum/GrowingNumbersDescription" value="Increases squad size by: 1 at <string name='Upgrades/AstraMilitarum/FoodEdict'/>, 1 at <string name='Upgrades/AstraMilitarum/GrowthEdict'/>, 2 at <string name='Upgrades/AstraMilitarum/BruteShield'/>, 2 at <string name='Upgrades/AstraMilitarum/HammerOfWrath'/>, and 3 at <string name='Upgrades/AstraMilitarum/LoyaltyEdict'/>."/>
-    <entry name="AstraMilitarum/GrowingNumbersFlavor" value=""/>
+    <entry name="AstraMilitarum/GrowingNumbersFlavor" value="o o oh my, lord commissar you're so big"/>
     <entry name="AstraMilitarum/Conscripts" value="Conscripted"/>
     <entry name="AstraMilitarum/ConscriptsDescription" value="Allies do not lose morale when this unit is killed. Upon becoming Broken, this unit flees the battlefield. When an allied Commissar is within 2 tiles, this unit has no Influence upkeep."/>
-    <entry name="AstraMilitarum/ConscriptsFlavor" value=""/>
+    <entry name="AstraMilitarum/ConscriptsFlavor" value="Degenerates and criminals may not be able to produce much value in a manufactorum, but they're still useful as somewhat warm bodies to throw at machine gun nests. Nobody will miss them, but nearby units may find their equipment missing if they don't watch out for conniving conscripts. Even if they don't steal everything that isn't nailed down, conscripts cannot be relied upon to die standing for the Emperor. When the going is rough, they're known to flee, and whether the Commissars can cut them down fast enough or not, the unit is lost either way."/>
     <entry name="AstraMilitarum/ValhallanSniper" value="Urban Marksmen"/>
     <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts (not counting grenades)."/>
     <entry name="AstraMilitarum/ValhallanSniperFlavor" value=""/>
