@@ -18,14 +18,14 @@
     <entry name="AstraMilitarum/ValhallanSniperFlavor" value="Nobody is safe from Valhallan Sharpshooters, and they make sure everyone knows that. Sharpshooters have honed their eyes quickly find the best positions in cities and where to strike from. Officers and weapon specialists are obvious targets, but even typical grunts can find themselves bleeding out with a gut shot. While it's not the best move tactically, fear spreads faster than even promethium-fuelled flames."/>
     <entry name="AstraMilitarum/ValhallanShockTrooper" value="Urban Shock Troops"/>
     <entry name="AstraMilitarum/ValhallanShockTrooperDescription" value="Takes less damage when moving. Increased effectiveness against enemy units (besides the Headquarters itself) in Cities, Imperial Ruins, or Outposts."/>
-    <entry name="AstraMilitarum/ValhallanShockTrooperFlavor" value="Shock Armies are trained and deployed to assault hardened positions in urban environments. "/>
+    <entry name="AstraMilitarum/ValhallanShockTrooperFlavor" value="Shock Armies are trained and deployed to assault hardened positions in urban environments. They are accustomed to clearing winding streets with moderately high casualties."/>
     <entry name="AstraMilitarum/ValhallanFrontovik" value="Hardened Veteran"/>
     <entry name="AstraMilitarum/ValhallanFrontovikDescription" value="Unit has increased damage resistance when adjacent to 2 allies, which is increased if those allies are Valhallans. If the unit has not moved, Rapid Fire applies at all ranges."/>
-    <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value="The most experienced Valhallan grunts know that while dying for the Emperor is glorious, it's more effective to focus on taking as many enemy lives first. The Emperor only asks that we die standing, but it's a lot easier to make that a worthwhile trade when positioned in cover overlooking a kill zone."/>
     <!-- From Actions -->
     <entry name="AstraMilitarum/Ura" value="Ura!"/>
     <entry name="AstraMilitarum/UraDescription" value="Unit has decreased morale loss, increased damage, and increased damage resistance, plus further damage resistance if the unit has moved without attacking."/>
-    <entry name="AstraMilitarum/UraFlavor" value=""/>
+    <entry name="AstraMilitarum/UraFlavor" value="&quot;For the Imperium! For the Emperor! Ura!&quot;"/>
     <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
     <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>
     <entry name="AstraMilitarum/UraCooldownFlavor" value=""/>
