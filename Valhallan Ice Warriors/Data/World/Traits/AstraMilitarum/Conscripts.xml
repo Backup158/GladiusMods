@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" alwaysVisible="1" icon="Units/AstraMilitarum/ValhallanConscripts">
 	<modifiers>
-		<!-- No morale loss -->
 		<modifier>
 			<effects>
+				<!-- No morale loss -->
 				<!-- <deathExperience max="0"/> -->
 				<deathMorale max="0"/>
+
+				<!-- Reduced ranged accuracy to make damage not so op -->
+				<rangedAccuracy mul="-0.33"/>
 			</effects>
 		</modifier>
 		<!-- Desertion -->
