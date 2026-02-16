@@ -45,10 +45,10 @@
     <entry name="AstraMilitarum/ValhallanCommissarFlavor" value="Valhallan Commissars are ruthless and capable of projecting their authority across the frontline, with few (famous) exceptions. While one person cannot monitor multiple platoons, snitches and deputised gunners help plug in the gaps."/>
     <entry name="AstraMilitarum/ValhallanBarrierSquad" value="Valhallan Barrier Squad"/>
     <entry name="AstraMilitarum/ValhallanBarrierSquadDescription" value="Support infantry unit that buffs allied infantry within 3 tiles. Their combat effectiveness is low, but they can very effectively execute allied infantry."/>
-    <entry name="AstraMilitarum/ValhallanBarrierSquadFlavor" value="Order 227"/>
+    <entry name="AstraMilitarum/ValhallanBarrierSquadFlavor" value="When the planetary governor enacted Order 227, the Commissariat was requested to not allow any retreat. While most men feared Commissars, bolt pistols have low magazine capacities. When an entire platoon is retreating, Commissars would find themselves overrun, so the Commissariat looked for more firepower. They would deputise simple-minded loyal soldiers and arm them with heavy machine guns to cut down any trooper caught retreating."/>
     <entry name="AstraMilitarum/ValhallanCommander" value="Valhallan Marshal"/>
     <entry name="AstraMilitarum/ValhallanCommanderDescription" value="Hero unit that provides defensive buffs to allied infantry, with increased bonuses for Valhallans."/>
-    <entry name="AstraMilitarum/ValhallanCommanderFlavor" value=""/>
+    <entry name="AstraMilitarum/ValhallanCommanderFlavor" value="The Marshal oversees all Valhallan forces in a given sector. While multiple regiments may technically fall under another commander's jurisdiction, Valhallans will always defer to their Marshals. The position, while glamourous, proved deadly despite being so far from the front. Failure and sedition meant being targetted by a purge, and many Marshals were found defenestrated from their cushy offices. The most famous are no strangers to returning to their roots by placing boots on the ground, and while this is strategically high unadvised, it's not so easy to reign back these stubborn old dogs."/>
     <entry name="AstraMilitarum/ValhallanNightWitches" value="Night Witches"/>
     <entry name="AstraMilitarum/ValhallanNightWitchesDescription" value="Light bomber that harasses enemy infantry and bombards Fortifications and Vehicles."/>
     <entry name="AstraMilitarum/ValhallanNightWitchesFlavor" value=""/>
