@@ -28,10 +28,10 @@
     <entry name="AstraMilitarum/UraFlavor" value="&quot;For the Imperium! For the Emperor! Ura!&quot;"/>
     <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
     <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>
-    <entry name="AstraMilitarum/UraCooldownFlavor" value=""/>
+    <entry name="AstraMilitarum/UraCooldownFlavor" value="&quot;Incident Report Theta-Whiskey 891: The 371st, 582nd, 948th, and 717th Valhallan regiments charged towards friendly lines, causing significant casualties between themselves and the Coronans. Investigations reveal heavy intoxication, with many Valhallans not even sobering up after beatings. After thorough interrogation, the Inquisition has found not Chaos taint, but simple incompetance. Valhallan commanders were fuelling continuous mass-infantry assaults with alcohol, until the men of these regiments were physically incapable of distinguishing between friend and foe. The offending regiments have been punished by decimation, the commanders have been stripped of rank and servitorised, and the unaffected regiments have been assigned to whipping duty.&quot; - Interrogator Pachek"/>
     <entry name="AstraMilitarum/BarrierSquadPresent" value="Barrier Squad Present"/>
     <entry name="AstraMilitarum/BarrierSquadPresentDescription" value="Allied infantry have reduced morale loss and restore more morale every turn."/>
-    <entry name="AstraMilitarum/BarrierSquadPresentFlavor" value=""/>
+    <entry name="AstraMilitarum/BarrierSquadPresentFlavor" value="&quot;Shut up, Alexey. I don't care if we CAN kill the barrier squads! We can kill the enemy just as easily, and we can do that WITHOUT the Commissariat snatching up our families!&quot; - conversation caught by a nearby vox-recorder of (most likely) Private Ivanov after being ordered to take a fortified T'au position."/>
     <!--    Commissar -->
     <entry name="DisciplineFlat" value="<string name='Traits/Discipline'/>"/>
     <entry name="DisciplineFlatDescription" value="<string name='Traits/DisciplineDescription'/>"/>
