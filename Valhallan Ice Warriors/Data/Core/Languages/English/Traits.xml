@@ -41,7 +41,7 @@
     <entry name="BringItDownFlatFlavor" value="<string name='Traits/BringItDownFlavor'/>"/>
     <entry name="AstraMilitarum/GulagGains" value="Sentence Delivered"/>
     <!-- <entry name="AstraMilitarum/GulagGainsDescription" value=""/> -->
-    <entry name="AstraMilitarum/GulagGainsFlavor" value=""/>
+    <entry name="AstraMilitarum/GulagGainsFlavor" value="Forced labour, while not the most efficient, is overall quite effective when you have a limitless supply of prisoners. Typically, prisoners are sent into dangerous mines, with freedom promised if they can deliver enough ore by the end of the month. Unofficially, backstabbing is overlooked since it helps control the constantly growing traitor population. Anyone who meets these bounties is collected and placed into a soundproof voidship, where they are granted the Emperor's Peace."/>
     <!--    Commander-->
     <entry name="HoldTheLine" value="<string name='Actions/AstraMilitarum/HoldTheLine'/>"/>
     <entry name="HoldTheLineDescription" value="Infantry within 5 tiles of an allied city have improved defences and damage. Valhallans within 3 tiles of allied city heal every turn."/>
