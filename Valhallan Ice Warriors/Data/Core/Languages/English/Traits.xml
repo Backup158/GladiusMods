@@ -67,21 +67,21 @@
     <entry name="AstraMilitarum/FlyLowSlowdownFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
     <entry name="WitchHarassment" value="Harassed"/>
     <entry name="WitchHarassmentDescription" value="Accuracy is decreased and morale is lost every turn."/>
-    <entry name="WitchHarassmentFlavor" value=""/>
+    <entry name="WitchHarassmentFlavor" value="Being awoken by bullets and bolt shells tearing apart the men in the next cot changes a man. Vigilence must be maintained through the night, reducing rest and therefore combat effectiveness for the next day."/>
     <entry name="AstraMilitarum/LoadExtraAmmo" value="<string name='Actions/AstraMilitarum/LoadExtraAmmo'/>"/>
     <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="Greatly improves offence. Heavy Bomb Clusters are refilled."/>
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on tiles which are neither Arctic nor Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
-    <entry name="ValhallanHotWeaponFlavor" value=""/>
+    <entry name="ValhallanHotWeaponFlavor" value="In cold environments, weapons can cool down quicker, and natives of those lands typically modify their weapons to take advantage of this. Of course, this may backfire when they're deployed to environments outside of their preferred."/>
     <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
     <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
     <entry name="AstraMilitarum/ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
     <entry name="ValhallanUnwieldy" value="Indirect Fire Inaccuracy"/>
     <entry name="ValhallanUnwieldyDescription" value="Decreased accuracy against units that are not Fortifications."/>
-    <entry name="ValhallanUnwieldyFlavor" value=""/>
+    <entry name="ValhallanUnwieldyFlavor" value="Hitting a moving target is hard enough. Hitting a moving target by predicting its path of travel and intercepting that with a calculated direct hit from a mortar shell is much harder."/>
     <entry name="TripodSetup" value="Requires Tripod"/>
     <entry name="TripodSetupDescription" value="When wielded by infantry, this weapon cannot be fired immediately after moving."/>
-    <entry name="TripodSetupFlavor" value=""/>
+    <entry name="TripodSetupFlavor" value="Many weapons are meant to be mounted on vehicles, but stubborn infantrymen find a way to make it work. Will the results be cumbersome and painful? Yes. Will that stop them? No."/>
 </language>
