@@ -48,7 +48,7 @@
     <entry name="HoldTheLineFlavor" value="<string name='Actions/AstraMilitarum/HoldTheLineFlavor'/"/>
     <entry name="ThePeoplesCommissar" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissar'/>"/>
     <entry name="ThePeoplesCommissarDescription" value="Infantry have less upkeep and restore morale each turn. Valhallans gain melee attacks."/>
-    <entry name="ThePeoplesCommissarFlavor" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissarFlavor'/>"/>
+    <entry name="ThePeoplesCommissarFlavor" value="Valhallans adore their drinks. Naturally you'll find the usual suspects, alcohol and recaf, but there's one exotic choice: tanna. A leafy plant native to Valhalla, it is often brewed into a tea with a pungent aftertaste. Few offworlders can stomach it; Valhallans crave it."/>
     <entry name="AstraMilitarum/StrongpointReinforced" value="Reinforced Strongpoint"/>
     <entry name="AstraMilitarum/StrongpointReinforcedDescription" value="The Fortification (excluding Headquarters) gain increased offensive capabilities. When adjacent to 3 allies, it takes less damage."/>
     <entry name="AstraMilitarum/StrongpointReinforcedFlavor" value="<string name='Actions/AstraMilitarum/DefendThisStrongpointFlavor'/>"/>
