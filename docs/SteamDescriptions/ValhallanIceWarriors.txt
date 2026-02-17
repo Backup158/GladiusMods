@@ -1,8 +1,4 @@
-[b]Unit names[/b] and [b]Research names[/b] are in bold
-[i]Trait names[/i] are in italics
-[u]Ability names[/u] are underlined
-
-fluffy intro
+Adds various infantry of the Valhallan Ice Warriors to the Astra Militarum. 
 
 [h1]Units added[/h1]
 General overview of shared stats
@@ -19,7 +15,8 @@ table of units
 [h1]Lore and Inspiration[/h1]
 
 [h1]Further details[/h1]
-Reinforcements DLC, [b]Hard Requirement[/b]: Tempestus Scions
+[h2]Lore and Design[/h2]
+While I took inspiration from the existing lore, I leaned a lot more into the World War 2 era Red Army aspects. Further details in the thread.
 
 [h2]Integrated Mod Support[/h2]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it.
