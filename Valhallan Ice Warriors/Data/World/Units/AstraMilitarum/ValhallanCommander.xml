@@ -144,7 +144,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radiusMin="2" radiusMax="3">
+						<area affects="Tile" radiusMin="3" radiusMax="4">
 							<modifiers>
 								<modifier>
 									<effects>
@@ -237,9 +237,9 @@
 		</genericUnitAbility>
 		<!-- Elite: The Motherland Calls -->
 		<bringItDown cooldown="10"
-				levelUpPriority="0.1"
+				levelUpPriority="1"
 				rank="-1"
-				rankMax="2"
+				rankMax="0"
 				elite="1"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
@@ -256,7 +256,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Unit" radiusMin="1" radiusMax="3">
+						<area affects="Unit" radius="4">
 							<modifiers>
 								<modifier>
 									<conditions>
