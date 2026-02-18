@@ -24,6 +24,7 @@ Adds Snap-fire abilities to custom factions. See the Snap-fire mod page for more
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3596189688]Reinforcements - Chaos Knights[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606157680]Reinforcements - Imperial Knights[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3657645592]Reinforcements - Hive Fleet Tiamat[/url] (Tiamet?)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3668349871]Reinforcements - Adeptus Custodes[/url]
 
 You don't have to install all of them; it'll only patch the ones you have installed. It will put some messages in the game log for the missing factions, but you can ignore them.
 
