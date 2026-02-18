@@ -45,7 +45,7 @@
     <!--    Commander-->
     <entry name="HoldTheLine" value="<string name='Actions/AstraMilitarum/HoldTheLine'/>"/>
     <entry name="HoldTheLineDescription" value="Infantry within 5 tiles of an allied city have improved defences and damage. Valhallans within 3 tiles of allied city heal every turn."/>
-    <entry name="HoldTheLineFlavor" value="<string name='Actions/AstraMilitarum/HoldTheLineFlavor'/"/>
+    <entry name="HoldTheLineFlavor" value="<string name='Actions/AstraMilitarum/HoldTheLineFlavor'/>"/>
     <entry name="ThePeoplesCommissar" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissar'/>"/>
     <entry name="ThePeoplesCommissarDescription" value="Infantry have less upkeep and restore morale each turn. Valhallans gain melee attacks."/>
     <entry name="ThePeoplesCommissarFlavor" value="Valhallans adore their drinks. Naturally you'll find the usual suspects, alcohol and recaf, but there's one exotic choice: tanna. A leafy plant native to Valhalla, it is often brewed into a tea with a pungent aftertaste. Few offworlders can stomach it; Valhallans crave it."/>
