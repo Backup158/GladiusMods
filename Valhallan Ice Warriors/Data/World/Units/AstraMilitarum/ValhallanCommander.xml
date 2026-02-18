@@ -277,6 +277,19 @@
 										<addTrait duration="1" name="TheMotherlandCalls"/>
 									</effects>
 								</modifier>
+								<!-- Allows URA again -->
+								<modifier>
+									<conditions>
+										<unit>
+											<!-- Infantry with Ura on cooldown -->
+											<allied/>
+											<trait name="AstraMilitarum/UraCooldown"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="AstraMilitarum/UraCooldown"/>
+									</effects>
+								</modifier>
 							</modifiers>
 						</area>
 					</areas>
