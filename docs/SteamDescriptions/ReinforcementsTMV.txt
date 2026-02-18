@@ -2,7 +2,7 @@ Adds TMV voices to various units from the Reinforcement Series.
 
 Most of the time, I just copied over the voices from the original model it was based on. This may lead to missing voices for certain actions if they don't match the original. Since there's a lot of units, I can't check them all; let me know about any missing voices for abilities, and I'll take a look. 
 
-[b]Covers[/b]
+[h1]Covers[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3412994727]Reinforcements - Adeptus Mechanicus - Alternate Units[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417456436]Reinforcements - Chaos Space Marines - New Units[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3411909499]Reinforcements - Raider Orks[/url]
@@ -26,11 +26,12 @@ Most of the time, I just copied over the voices from the original model it was b
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606157680]Reinforcements - Imperial Knights[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3657645592]Reinforcements - Hive Fleet Tiamat[/url]
 
+Choices for lines are listed in [url=https://steamcommunity.com/workshop/filedetails/discussion/3457002753/688619343242769541/]this discussion thread[/url].
+
+[h1]Unincluded Factions/Units[/h1]
 Sisters Reinforcements are not covered because of TMV not having lines for them. I have a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3473597191]patch for them[/url] using MoreVoices instead.
 The Dark Mechanicum is not covered because most of the Adeptus Mechanicus lines are clearly loyalist and emphasize soothing the machine over dominating it.
 The Adeptus Custodes are not covered because nothing feels appropriate for them, and the Sisters of Silence are... silent.
 
-Choices for lines are listed in [url=https://steamcommunity.com/workshop/filedetails/discussion/3457002753/688619343242769541/]this discussion thread[/url].
-
-[b]Installation[/b]
+[h1]Installation[/h1]
 It'll only affect the ones you have installed. Should work regardless of load order, but I put the patch (visually) above the Reinforcements mods and TMV
