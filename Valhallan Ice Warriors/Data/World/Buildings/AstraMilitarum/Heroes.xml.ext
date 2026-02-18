@@ -3,6 +3,6 @@
 	<actions>
 		<produceUnit unit="AstraMilitarum/ValhallanCommissar"/>
 		<produceUnit unit="AstraMilitarum/ValhallanCommander" requiredUpgrade="AstraMilitarum/CityTier2"/>
-		<produceUnit unit="AstraMilitarum/ValhallanNightWitches" requiredUpgrade="AstraMilitarum/Voidport"/>
+		<produceUnit unit="AstraMilitarum/ValhallanNightWitches" requiredUpgrade="AstraMilitarum/Aircraft"/>
 	</actions>
 </building>
