@@ -58,7 +58,7 @@
     <!--    Night Witches-->
     <entry name="AstraMilitarum/NightBomber" value="<string name='Actions/AstraMilitarum/NightBomber'/>"/>
     <entry name="AstraMilitarum/NightBomberDescription" value="Unit gains damage reduction, increased damage against Headquarters, and even more damage against Fortifications (excluding Headquarters)."/>
-    <entry name="AstraMilitarum/NightBomberFlavor" value="<string name='Actions/AstraMilitarum/NightBomberFlavor'/>"/>
+    <entry name="AstraMilitarum/NightBomberFlavor" value="Undetected, unexpected, bombers slip past enemy defences under the cover of night. Troopers are shaken awake by crashing structures and explosions, only to find their bunkers and turret nests in smoldering ruins. By this handiwork, they know they have been struck by the 588th Night Bombers."/>
     <entry name="AstraMilitarum/FlyLow" value="<string name='Actions/AstraMilitarum/FlyLow'/>"/>
     <entry name="AstraMilitarum/FlyLowDescription" value="Gains accuracy but takes more damage."/>
     <entry name="AstraMilitarum/FlyLowFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
