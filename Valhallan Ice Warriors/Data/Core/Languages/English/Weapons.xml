@@ -13,7 +13,7 @@
     <entry name="ValhallanHeavyStubberDescription" value="Heavy machine gun loaded with boltshells and mounted on a tripod"/>
     <entry name="ValhallanHeavyStubberFlavor" value="Valhallans utilize versatile heavy machines across the infantry and armoured units, based on an ancient design that was restored by enginseer Degtyaryov. The DShK can be mounted on tripods for infantry use or mounted directly on vehicles. It comes with large ring sights to aim at airborne targets, and troops have been known to bring down Deffkoptas with sheer volume of fire."/>
     <entry name="ValhallanHeavyStubberAir" value="DShK Mk. 38 Heavy Stubber (Anti-Air Deployment)"/>
-    <entry name="ValhallanHeavyStubberAirDescription" value="Decreased attacks outside of range 1 but increased effectiveness against Flyers. <string name='ValhallanHeavyStubberDescription'/>"/>
+    <entry name="ValhallanHeavyStubberAirDescription" value="Decreased attacks but increased effectiveness against Flyers, Skimmers, Jetbikes, and Jet Packs. <string name='ValhallanHeavyStubberDescription'/>"/>
     <entry name="ValhallanHeavyStubberAirFlavor" value="<string name='ValhallanHeavyStubberFlavor'/>"/>
     <!-- Dog Bombs -->
     <entry name="AntiTankDogsKrak" value="Dog <string name='Weapons/KrakGrenade'/>"/>

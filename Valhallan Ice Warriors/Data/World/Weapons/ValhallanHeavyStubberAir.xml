@@ -7,7 +7,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="1"/> <!-- This was a vehicle weapon so it had 3. Normal version was 2 -->
+				<attacks add="1.5"/> <!-- This was a vehicle weapon so it had 3. -->
 				<rangedArmorPenetration add="1"/> <!-- 2 | %rangedArmorPenetration add armorPiercing=6 -->
 				<rangedDamage add="2"/> <!-- 2 | %rangedDamage add strength=4 -->
 				<strengthDamage base="0"/>
@@ -24,6 +24,6 @@
 		<trait name="BoltWeapon"/>
 		<trait name="TripodSetup"/>
 		<trait name="Skyfire"/>
-		<trait name="RapidFire"/>
+		<trait name="SavantLock"/>
 	</traits>
 </weapon>
