@@ -4,13 +4,14 @@ From the frozen world of Valhalla, the Ice Warriors arrive on Gladius Prime. A w
 When comets irreversibly shifted the planet climate to an unending winter, Valhallans were forced to adapt, which they did by moving into caves, many of which were connected to sprawling underground caverns. 
 
 [h1]Units added[/h1]
-General overview of shared stats
+[i]Valhallan[/i]: Decreased morale loss. Increased damage resistance when fighting in Arctic and Tundra tiles. Increased armour when in Cities, Imperial Ruins, and Outposts. Accuracy is increased when fighting Orks.
+[i]Massed Infantry[/i]: Movement is increased when within 5 tiles of an allied city, within 2 tiles of allied Hero, or within 3 tiles of 4 other Valhallans. Accuracy is decreased when alone, neutral when adjacent to 1 ally, and improved when adjacent to 2 or more allies.
+All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles to advance with decreased morale loss, increased damage, and increased damage resistance. Requires 4 allied infantry (where at least 2 of those are Valhallans) within 3 tiles to activate. Unit has decreased morale loss, increased damage, increased damage resistance, and increased melee attacks; in addition, they gain further damage resistance if the unit has moved without attacking, to take less damage from Overwatch.
 
-table of units
 [h1]Units and Unlocks[/h1]
 [table]
 [tr] 
-[td]T0: [b]Valhallan Guardsmen[/b] - .
+[td]T0: [b]Valhallan Guardsmen[/b] - Light infantry unit that specialises in defending cities and in mass infantry assaults. Has [i]Massed Infantry[/i].
 [/td]
 [/tr]
 [/table]
