@@ -14,6 +14,42 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [td]T0: [b]Valhallan Guardsmen[/b] - Light infantry unit that specialises in defending cities and in mass infantry assaults. Has [i]Massed Infantry[/i].
 [/td]
 [/tr]
+[tr] 
+[td]T1 [b]Vox-Caster[/b]: [b]Valhallan Conscripts[/b] - Weak, cheap infantry unit available in great numbers. Influence upkeep is negated when near a Commissar. Unit must pay Ore to use grenades. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T1 [b]Ratlings[/b]: [b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare.
+[/td]
+[/tr]
+[tr] 
+[td]T2 [b]Heavy Weapons Squad[/b]: [b]Valhallan Anti-Tank Rifle Squad[/b] - Infantry unit armed with semi-automatic anti-tank rifles. Has [i]Massed Infantry[/i].
+[b]Heavy Weapons Squad[/b]: [b]Valhallan Heavy Stubber Squad[/b] - Light infantry unit armed with flamers. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T2 [b]Hab Block[/b]: [b]Valhallan Flame Troopers[/b] - Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T3 [b]Field Ordnance Batteries[/b]: [b]Valhallan Mortar Team[/b] - Infantry unit armed with versatile artillery. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T3 [b]Agronomic Surge[/b]: [b]Valhallan Hound Masters[/b] - Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. Has [i]Massed Infantry[/i].
+[b]Valhallan Scout Dogs[/b]: Dogs which can scout when within 5 tiles of an allied Valhallan Hound Masters.
+[b]Valhallan Anti-Tank Dogs (Krak)[/b]: Dogs strapped with Krak Grenades. Unit is killed upon attacking.
+[b]Valhallan Anti-Tank Dogs (Melta)[/b]: Dogs strapped with Melta Bombs. Unit is killed upon attacking.
+[/td]
+[/tr]
+[tr] 
+[td]T4 [b]Tempestus Scions[/b]: [b]Valhallan Shock Army Troopers[/b] - Elite shock infantry unit armed with bayonets. Most effective against light infantry.
+[/td]
+[/tr]
+[tr] 
+[td]T8 [b]Hammer of Wrath[/b]: [b]Valhallan Veteran Frontoviki[/b] - Elite infantry unit armed with bayonets that can use melta bombs and anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving.
+[/td]
+[/tr]
 [/table]
 
 [h1]Lore and Inspiration[/h1]
