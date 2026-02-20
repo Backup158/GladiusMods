@@ -34,6 +34,7 @@
 			</conditions>
 			<effects>
 				<damage mul="0.25"/>
+				<meleeAttacks mul="0.1"/>
 			</effects>
 		</modifier>
 	</modifiers>
