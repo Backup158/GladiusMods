@@ -1,5 +1,8 @@
 Adds various infantry of the Valhallan Ice Warriors to the Astra Militarum. 
 
+From the frozen world of Valhalla, the Ice Warriors arrive on Gladius Prime. A wave of men facing the waves of xenos, these troopers are ardent defenders, fighting to the last in the face of insurmountable odds.
+When comets irreversibly shifted the planet climate to an unending winter, Valhallans were forced to adapt, which they did by moving into caves, many of which were connected to sprawling underground caverns. 
+
 [h1]Units added[/h1]
 General overview of shared stats
 
