@@ -47,6 +47,10 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [/td]
 [/tr]
 [tr] 
+[td]T4 [b]Substructure Expansion[/b][/td][td][b]Valhallan Marshal[/b] - Hero unit that provides buffs to allied infantry on the defence, with increased bonuses for Valhallans.
+[/td]
+[/tr]
+[tr] 
 [td]T4 [b]Tempestus Scions[/b][/td][td][b]Valhallan Shock Army Troopers[/b] - Elite shock infantry unit armed with bayonets. Most effective against light infantry.
 [/td]
 [/tr]
