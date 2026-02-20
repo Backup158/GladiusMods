@@ -41,7 +41,7 @@
     <entry name="AstraMilitarum/ValhallanVeteranFlavor" value="In the regiment where lives are thrown away carelessly, fear the veterans. They are the hardiest and deadliest among the Valhallan Ice Warriors, having survived the toughest battles. Only once they have been forged by the frontline may they earn the name Frontovik."/>
     <!-- Heroes -->
     <entry name="AstraMilitarum/ValhallanCommissar" value="Valhallan Commissar"/>
-    <entry name="AstraMilitarum/ValhallanCommissarDescription" value="Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade"/>
+    <entry name="AstraMilitarum/ValhallanCommissarDescription" value="Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade."/>
     <entry name="AstraMilitarum/ValhallanCommissarFlavor" value="Valhallan Commissars are ruthless and capable of projecting their authority across the frontline, with few (famous) exceptions. While one person cannot monitor multiple platoons, snitches and deputised gunners help plug in the gaps."/>
     <entry name="AstraMilitarum/ValhallanBarrierSquad" value="Valhallan Barrier Squad"/>
     <entry name="AstraMilitarum/ValhallanBarrierSquadDescription" value="Support infantry unit that buffs allied infantry within 3 tiles. Their combat effectiveness is low, but they can very effectively execute allied infantry."/>
