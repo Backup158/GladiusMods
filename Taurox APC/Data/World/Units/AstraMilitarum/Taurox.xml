@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement6">
+<unit>
 	<model>
 		<unit mesh="Units/AstraMilitarum/Chimera"
 				material="Units/AstraMilitarum/Chimera"
