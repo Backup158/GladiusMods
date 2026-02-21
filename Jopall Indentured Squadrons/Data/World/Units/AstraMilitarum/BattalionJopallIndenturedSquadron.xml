@@ -331,7 +331,7 @@
 		<trait name="Infiltrate"/>
 		<trait name="Stealth"/>
 		<trait name="SniperReposition"/>
-
+		<!-- Reinforcements -->
 		<trait name="Bulky"/>
 		<trait name="AstraMilitarum/BattalionRatling"/>
 		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
