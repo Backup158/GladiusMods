@@ -36,11 +36,11 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [/tr]
 [tr] 
 [td]T2 [b]Heavy Weapons Squad[/b][/td][td][b]Valhallan Anti-Tank Rifle Squad[/b] - Infantry unit armed with semi-automatic anti-tank rifles. Has [i]Massed Infantry[/i].
-[b]Valhallan Heavy Stubber Squad[/b] - Light infantry unit armed with flamers. Has [i]Massed Infantry[/i].
+[b]Valhallan Heavy Stubber Squad[/b] - Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. Has [i]Massed Infantry[/i].
 [/td]
 [/tr]
 [tr] 
-[td]T2 [b]Hab Block[/b][/td][td][b]Valhallan Flame Troopers[/b] - Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. Has [i]Massed Infantry[/i].
+[td]T2 [b]Hab Block[/b][/td][td][b]Valhallan Flame Troopers[/b] - Light infantry unit armed with flamers. Has [i]Massed Infantry[/i].
 [/td]
 [/tr]
 [tr] 
