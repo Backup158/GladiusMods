@@ -170,8 +170,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="AstraMilitarum/JopallChargeDown" duration="1"/>
-										<addTrait name="AstraMilitarum/JopallChargeDown2Hidden" duration="1"/>
+										<addTrait name="AstraMilitarum/JopallChargeDown2" duration="1"/>
 									</effects>
 								</modifier>
 							</modifiers>
