@@ -11,7 +11,7 @@
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<!-- Twink Autocannon, replacing the multilas -->
+		<!-- Twink Autocannon, replacing the multilas. This does less damage than 2 straight up, so it needs the cargo to be better -->
 		<weapon name="TwinLinkedAutocannon">
 			<model>
 				<projectileWeapon muzzleBone=".MultiLaserMuzzle" muzzleCount="1" fireInterval="0.2"/>
@@ -32,6 +32,7 @@
 						cycleMuzzles="0"/>
 			</model>
 		</weapon>
+		<!-- this also gets double mortars -->
 		<weapon name="TauroxMannedMortar" count="2">
 			<model>
 				<missileWeapon muzzleBone="Bone"/>
