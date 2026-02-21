@@ -24,7 +24,7 @@
     <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value="The most experienced Valhallan grunts know that while dying for the Emperor is glorious, it's more effective to focus on taking as many enemy lives first. The Emperor only asks that we die standing, but it's a lot easier to make that a worthwhile trade when positioned in cover overlooking a kill zone."/>
     <!-- From Actions -->
     <entry name="AstraMilitarum/Ura" value="Ura!"/>
-    <entry name="AstraMilitarum/UraDescription" value="Unit has decreased morale loss, increased damage, increased damage resistance, and increased melee attacks; in addition, they gain further damage resistance if the unit has moved without attacking, to take less damage from Overwatch."/>
+    <entry name="AstraMilitarum/UraDescription" value="Unit has decreased morale loss, increased damage resistance, increased damage, and increased melee attacks; in addition, they gain further damage resistance if the unit has moved without attacking, to take less damage from Overwatch."/>
     <entry name="AstraMilitarum/UraFlavor" value="&quot;For the Imperium! For the Emperor! Ura!&quot;"/>
     <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
     <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>
