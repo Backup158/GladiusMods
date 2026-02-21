@@ -27,6 +27,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [/list]
 [/td]
 [/tr]
+[tr]
 [td] T3 Awaken the Machine [/td]
 [td] [list]
 [*] [i]Evasive Deployment[/i]: 17% Invulnerable Damage Reduction on disembark
