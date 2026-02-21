@@ -71,7 +71,7 @@ These dogs are not temporary.
 [/td]
 [/tr]
 [tr] 
-[td]T7 [b]Voidport[/b][/td][td][b]Night Witches[/b] - Light bomber that harasses enemy infantry and bombards Fortifications and Vehicles.
+[td]T7 [b]Voidport[/b][/td][td][b]Night Witches[/b] - Light bomber Hero that harasses enemy infantry and bombards Fortifications and Vehicles.
 [/td]
 [/tr]
 [tr] 
