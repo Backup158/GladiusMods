@@ -4,4 +4,6 @@
 	<entry name="TauroxMannedMortarFlavor" value="Mortar teams need to be placed behind friendly units to let them work unmolested. Mounting a mortar on a vehicle makes it much safer to use closer to the front."/>
 	<entry name="TauroxHotShotLasgunArray" value="Hot-Shot Lasgun Array"/>
 	<entry name="TauroxHotShotLasgunArrayFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="TauroxGatling" value="Munitorum Gatling Cannon"/>
+	<entry name="TauroxGatlingFlavor" value="Taurox Primes are mounted with Gatling Cannons descended from the Leman Russ Punisher's Gatling Cannons. Other patterns, not intended for the alumni of the Schola Progenium, make do with more primitive variants. Munitorum Gatling Cannons, while not as capable of shredding infantry, can still suppress the enemy to buy enough time for deployments."/>
 </language>

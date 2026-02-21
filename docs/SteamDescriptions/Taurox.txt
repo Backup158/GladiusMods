@@ -7,6 +7,7 @@ Adds vehicles based on the [b]Taurox[/b] to the Astra Militarum. It's a transpor
 [/tr]
 [tr]
 [td]T5 [b]Extra Infantry Armour[/b][/td][td][b]Taurox[/b]: Heavy APC with Health and Armour values between a Chimera and Leman Russ. Armed with dual Autocannons, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array for cargo. Not [i]Amphibious[/i], but still has 4 Cargo Slots.
+[b]Pantera Pattern Assault Taurox[/b]: Medium APC that rapidly deploys infantry. It's more akin to an Assault Vehicle Chimera. Armed with a pinning Gatling Cannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array for cargo. Only has 3 Cargo Slots.
 [/td]
 [/tr]
 [tr]
@@ -14,13 +15,14 @@ Adds vehicles based on the [b]Taurox[/b] to the Astra Militarum. It's a transpor
 [/td]
 [/tr]
 [/table]
-
 No custom models. I'm too lazy to learn Blender and how the bones work here.
-[b]NOTE:[/b] Devian has a Taurox with models (as of at least 2025-02-08) in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3169959149]Heroes of Legend[/url]. I'll leave this up for the people who don't want that implementation and/or the whole Astra Militarum package.
 
 [h1]Additional Notes[/h1]
+[b]NOTE:[/b] Devian has a Taurox with models (as of at least 2025-02-08) in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3169959149]Heroes of Legend[/url]. I'll leave this up for the people who don't want that implementation and/or the whole Astra Militarum package.
+
 The Taurox was based on the 9th Edition Codex.
-The Tortuga Pattern was something I made up, since I wanted to have one that would be encouraged to stick around.
+The Pantera Pattern was something I made up, since I decided the Rapid Deployment ability could be akin to [i]Assault Vehicle[/i]. Even though [i]Pinning[/i] can be counter-productive if you're going to immediately follow it up with infantry assaults, it's flavourful and I prefer to keep assault vehicles weaker in terms of damage output.
+The Tortuga Pattern was also made up, since I wanted to have one that would be encouraged to stick around.
 
 [h2]Integrated Mod Support[/h2]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Chimera voicelines.

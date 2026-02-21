@@ -2,6 +2,7 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/Taurox" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<produceUnit unit="AstraMilitarum/TauroxAssault" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<produceUnit unit="AstraMilitarum/TauroxIFV" requiredUpgrade="AstraMilitarum/BlastDamage"/>
 	</actions>
 </building>
