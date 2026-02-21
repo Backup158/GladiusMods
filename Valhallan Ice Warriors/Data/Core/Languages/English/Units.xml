@@ -53,9 +53,9 @@
     <entry name="AstraMilitarum/ValhallanNightWitchesDescription" value="Light bomber Hero that harasses enemy infantry and bombards Fortifications and Vehicles."/>
     <entry name="AstraMilitarum/ValhallanNightWitchesFlavor" value="Soon after the Ork invasion, many aircraft were unavailable, whether it be from combat damage or simply being left behind when retreating underground. In the cities below, resources were limited, and the only available planes able to be mass produced were of an older civilian model, so Valhallan air support was effectively grounded. Several women volunteered to take these planes and turn them into bombers, and after years of appealing, approval was given. While slower and less well-armed than traditional bombers, the pilots discovered techniques to stealthily strike key positions. They found great success given the conditions, but after the main invasion was repelled, they were primarily relegated to ceremonial duties because of the weather. When Valhallans are deployed off-planet, the Witches itch to join the fight."/>
     <!-- Reinforcements -->
-    <entry name="AstraMilitarum/BattalionValhallanGuardsmen" value="Battalion of <string name='Units/AstraMilitarum/ValhallanGuardsmen'/>"/>
-    <entry name="AstraMilitarum/BattalionValhallanGuardsmenDescription" value="<string name='Units/AstraMilitarum/ValhallanGuardsmenDescription'/>"/>
-    <entry name="AstraMilitarum/BattalionValhallanGuardsmenFlavor" value="<string name='Units/AstraMilitarum/ValhallanGuardsmenFlavor'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanGuardsman" value="Battalion of <string name='Units/AstraMilitarum/ValhallanGuardsman'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanGuardsmanDescription" value="<string name='Units/AstraMilitarum/ValhallanGuardsmanDescription'/>"/>
+    <entry name="AstraMilitarum/BattalionValhallanGuardsmanFlavor" value="<string name='Units/AstraMilitarum/ValhallanGuardsmanFlavor'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanConscripts" value="Battalion of <string name='Units/AstraMilitarum/ValhallanConscripts'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanConscriptsDescription" value="<string name='Units/AstraMilitarum/ValhallanConscriptsDescription'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanConscriptsFlavor" value="<string name='Units/AstraMilitarum/ValhallanConscriptsFlavor'/>"/>
