@@ -2,6 +2,13 @@
 <trait category="Debuff" icon="Traits/Summon">
 	<modifiers>
 		<modifier>
+			<!-- Make it player only -->
+            <conditions>
+				<player>
+                    <!-- <aiControlled/> -->
+                    <notAIControlled/>
+                </player>
+			</conditions>
 			<effects>
 				<movementMax mul="-0.67"/>
 				<accuracy mul="-0.5"/>

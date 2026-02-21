@@ -71,7 +71,7 @@
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseInfantryScore base="0.2"/>
+				<increaseInfantryScore base="1.0"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>
@@ -197,6 +197,13 @@
 				<action bone="ChestBone"
 						sound="Actions/VerseOfHolyPiety"/>
 			</model>
+			<!-- Make it player only -->
+            <conditions>
+				<player>
+                    <!-- <aiControlled/> -->
+                    <notAIControlled/>
+                </player>
+			</conditions>
 			<beginTargets>
 				<selfTarget>
 					<areas>
