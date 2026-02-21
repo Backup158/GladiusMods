@@ -1,0 +1,15 @@
+Adds inventory slots support to the Iron Hands
+
+[h1]Supported Mods[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2353495995]Iron Hands[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3566787651]Iron Hands - Ultima Founding Patch[/url]
+
+[h1]Based on[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255436]DexGattaca Factions - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255493]DexGattaca Factions - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255527]DexGattaca Factions - Inventory for All Units (6 Slots)[/url]
+
+[h1]Versions of This Patch[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735127]Iron Hands - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735660]Iron Hands - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670736222]Iron Hands - Inventory for All Units (6 Slots)[/url]

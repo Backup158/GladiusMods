@@ -1,0 +1,14 @@
+Adds inventory slots support to the Chapter Approved White Scars.
+
+[h1]Supported Mods[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2265699020]Chapter Approved: White Scars[/url]
+
+[h1]Based on[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255575]Standalone Space Marine Chapters - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255631]Standalone Space Marine Chapters - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255683]Standalone Space Marine Chapters - Inventory for All Units (6 Slots)[/url]
+
+[h1]Versions of this Patch[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735355]CA White Scars - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735928]CA White Scars - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670736451]CA White Scars - Inventory for All Units (6 Slots)[/url]
