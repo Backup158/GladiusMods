@@ -19,7 +19,7 @@
 		</weapon>
 		<!-- Storm Bolters, replacing the chimera bolter -->
 		<weapon name="StormBolter"
-                requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">>
+                requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
 			<model>
 				<projectileWeapon muzzleBone=".HeavyBolterMuzzle"/>
 			</model>
