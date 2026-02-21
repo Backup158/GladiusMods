@@ -28,4 +28,6 @@
 	<entry name="AstraMilitarum/JopallChargeUpFlavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
 	<entry name="AstraMilitarum/JopallChargeDown" value="Undercharged Weapon"/>
 	<entry name="AstraMilitarum/JopallChargeDownFlavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
+	<entry name="AstraMilitarum/JopallChargeDown2Hidden" value="Undercharged Weapon 2"/>
+	<entry name="AstraMilitarum/JopallChargeDown2HiddenFlavor" value="ii i hav no money... i'll do aaanything"/>
 </language>

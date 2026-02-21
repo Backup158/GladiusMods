@@ -19,7 +19,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<influence add="-2"/>
+				<influence add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>

@@ -160,13 +160,6 @@
 			<model>
 				<action sound="Actions/InstallSupportSystem"/>
 			</model>
-			<modifiers>
-				<modifier visible="1">
-					<effects>
-						<influenceCost base="-4"/>
-					</effects>
-				</modifier>
-			</modifiers>
 			<sharedCooldowns>
 				<action name="AstraMilitarum/JopallChargeUp"/>
 			</sharedCooldowns>
@@ -178,6 +171,7 @@
 								<modifier>
 									<effects>
 										<addTrait name="AstraMilitarum/JopallChargeDown" duration="1"/>
+										<addTrait name="AstraMilitarum/JopallChargeDown2Hidden" duration="1"/>
 									</effects>
 								</modifier>
 							</modifiers>

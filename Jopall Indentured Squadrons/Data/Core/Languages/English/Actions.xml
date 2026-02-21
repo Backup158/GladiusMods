@@ -11,6 +11,6 @@
 	<entry name="AstraMilitarum/JopallChargeUpDescription" value="Does not consume Action. Increase damage dealt and resources spent."/>
 	<entry name="AstraMilitarum/JopallChargeUpFlavor" value="Every shot counts. Literally. Members of the Jopall Indentured Squadrons are even billed for the resources spent from taking a shot. The exact amount of charge used can adjusted, and shrewd marksmen make use of this ability to minimise their costs."/>
 	<entry name="AstraMilitarum/JopallChargeDown" value="Reduce Charge"/>
-	<entry name="AstraMilitarum/JopallChargeDownDescription" value="Does not consume Action. Decreases damage dealt to gain resources."/>
+	<entry name="AstraMilitarum/JopallChargeDownDescription" value="Does not consume Action. Decreases damage dealt. If the unit attacks this turn, gain resources on the next turn."/>
 	<entry name="AstraMilitarum/JopallChargeDownFlavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
 </language>
