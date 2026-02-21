@@ -1,0 +1,27 @@
+Adds vehicles based on the [b]Taurox[/b] to the Astra Militarum. It's a transport like the Chimera, but more heavily armed and armoured.
+
+[h1]Units Added[/h1]
+[table]
+[tr]
+[th]Units Added[/th]
+[/tr]
+[tr]
+[td]T5 [b]Extra Infantry Armour[/b][/td][td][b]Taurox[/b]: Heavy APC with Health and Armour values between a Chimera and Leman Russ. Armed with dual Autocannons, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array for cargo. Not [i]Amphibious[/i], but still has 4 Cargo Slots.
+[/td]
+[/tr]
+[tr]
+[td]T6 [b]Improved Frag Casings[/b][/td][td][b]Tortuga Pattern Taurox[/b]: Heavy IFV slightly tougher than a typical Taurox. Armed with a Twin-linked Autocannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array and a manned mortar array for cargo. Has fewer Cargo Slots to make space for the weapons[spoiler](Only 3 slots)[/spoiler].
+[/td]
+[/tr]
+[/table]
+
+No custom models. I'm too lazy to learn Blender and how the bones work here.
+[b]NOTE:[/b] Devian has a Taurox with models (as of at least 2025-02-08) in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3169959149]Heroes of Legend[/url]. I'll leave this up for the people who don't want that implementation and/or the whole Astra Militarum package.
+
+[h1]Additional Notes[/h1]
+The Taurox was based on the 9th Edition Codex.
+The Tortuga Pattern was something I made up, since I wanted to have one that would be encouraged to stick around.
+
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Chimera voicelines.
+No Gladius+ patch since it's about the same size as a vanilla Chimera, based on the measurements I saw on various forums.
