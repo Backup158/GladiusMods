@@ -168,11 +168,42 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="2">
+						<area affects="Tile" radius="3">
 							<modifiers>
 								<modifier>
 									<effects>
 										<addTrait name="ThePeoplesCommissar" durationMin="1" durationMax="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<!-- Also heal adjacent allied infantry-->
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<faction name="AstraMilitarum"/>
+											<noTrait name="Fortification"/>
+											<noTrait name="MonstrousCreature"/>
+											<noTrait name="Vehicle"/>
+										</unit>
+									</conditions>
+									<effects>
+										<hitpoints addMin="1" addMax="3"/>
+									</effects>
+								</modifier>
+								<!-- Heal Valhallans more -->
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="AstraMilitarum/Valhallan"/>
+										</unit>
+									</conditions>
+									<effects>
+										<hitpoints addMin="1" addMax="3"/>
 									</effects>
 								</modifier>
 							</modifiers>

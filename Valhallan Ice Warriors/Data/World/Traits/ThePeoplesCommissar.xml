@@ -13,7 +13,6 @@
 				</unit>
 			</conditions>
 			<effects>
-				<hitpoints addMin="1" addMax="3"/>
 				<foodUpkeep mulMin="-0.33" mulMax="-0.67"/>
 			</effects>
 		</modifier>
@@ -26,7 +25,6 @@
 				</unit>
 			</conditions>
 			<effects>
-				<hitpoints addMin="1" addMax="3"/>
 				<meleeAttacks mulMin="0.11" mulMax="0.33"/>
 			</effects>
 		</modifier>
