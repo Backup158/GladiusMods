@@ -7,11 +7,11 @@
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="1.0 1.0 1.0"
+				scale="0.75 0.75 0.75"
 				bloodBone="Bone001"
 				walker="1"/>
 	</model> <!-- Taller than the normal cultists -->
-	<group size="16" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<group size="16" rowSize="4" memberDeltaX="50" memberDeltaY="40"/>
 	<weapons>
 		<!-- Autopistol to Slugga -->
 		<!-- I tried snazzgun since it's a t3 unit, but that's just broken lmao -->
