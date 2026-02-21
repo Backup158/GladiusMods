@@ -11,10 +11,10 @@
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<!-- Autocannon, replacing the multilas -->
-		<weapon name="Autocannon">
+		<!-- Twink Autocannon, replacing the multilas -->
+		<weapon name="TwinLinkedAutocannon">
 			<model>
-				<projectileWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="0.2"/>
+				<projectileWeapon muzzleBone=".MultiLaserMuzzle" muzzleCount="1" fireInterval="0.2"/>
 			</model>
 		</weapon>
 		<!-- Storm Bolters, replacing the chimera bolter -->
@@ -32,7 +32,7 @@
 						cycleMuzzles="0"/>
 			</model>
 		</weapon>
-		<weapon name="TauroxMannedMortar">
+		<weapon name="TauroxMannedMortar" count="2">
 			<model>
 				<missileWeapon muzzleBone="Bone"/>
 			</model>
