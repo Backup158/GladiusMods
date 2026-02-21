@@ -1,0 +1,78 @@
+Some abbreviations are used. They are explained in this thread.
+
+[i]Valhallan[/i]: -17% morale loss. 17% IDR when fighting in Arctic and Tundra tiles. +1 armour when in Cities, Imperial Ruins, and Outposts (most units have -1 armour otherwise). +17% accuracy when fighting Orks.
+[i]Massed Infantry[/i]: +1 movement when within 5 tiles of an allied city, within 2 tiles of allied Hero, or within 3 tiles of 4 other Valhallans (units with this trait have -1 movement otherwise). Accuracy is -17% when alone, neutral when adjacent to 1 ally, and +17% when adjacent to 2 or more allies. -16% morale loss when adjacent to 2 or more allies.
+All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles to advance with -34% morale loss, +10% FNP, +17% damage, and +10% melee attacks. Requires 4 allied infantry (where at least 2 of those are Valhallans) within 3 tiles to activate. Unit has decreased morale loss, increased damage, increased damage resistance, and increased melee attacks; in addition, they gain +23% FNP while the unit moves without attacking, to take less damage from Overwatch.
+[h2]Units and Unlocks[/h2]
+[table]
+[tr] 
+[td]T0[/td][td][b]Valhallan Guardsmen[/b] - Light infantry unit that specialises in defending cities and in mass infantry assaults. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T1 [b]Ratlings[/b][/td][td][b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare ([i]Urban Sniper[/i]: Ignores 33% CDR, can move one tile after shooting).
+[/td]
+[/tr]
+[tr] 
+[td]T1 [b]Shrine of the Aquila[/b][/td][td][b]Valhallan Commissar[/b] - Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade.
+[u]Discipline[/u] and [u]Bring It Down![/u] are the same as the default's first step (+1 accuracy, +2 armor penetration), but the radius increases by 1 every time they are upgraded.
+[u]Summary Execution[/u] is available by default (equivalent to having two upgrades)
+[u]Send to Gulag[/u]: Target an infantry unit with less than 10% health, surrounded by 3 Valhallans. Remove this unit and gain [7, 21] Ore and [5, 15] Influence.
+[u]Deploy Barrier Squad[/u]: Spawns a permanent, mortal unit that supports nearby allies but cannot move. 
+[b]Valhallan Barrier Squad[/b]: Allies within 3 tiles of this unit have improved morale ([i]Barrier Squad Present[/i]: -33% morale loss and +2 morale per turn). Can execute entire squads.
+[/td]
+[/tr]
+[tr] 
+[td]T1 [b]Vox-Caster[/b][/td][td][b]Valhallan Conscripts[/b] - Weak, cheap infantry unit available in great numbers, whose deaths do not affect allied morale. Influence upkeep is negated when within 2 tiles of a Commissar. Unit must pay Ore to use grenades. Has [i]Massed Infantry[/i].
+[i]Conscripted[/i]: No morale loss for allies when this unit dies. -33% ranged accuracy. When this unit is [i]Broken[/i], it dies.
+[/td]
+[/tr]
+[tr] 
+[td]T2 [b]Heavy Weapons Squad[/b][/td][td][b]Valhallan Anti-Tank Rifle Squad[/b] - Infantry unit armed with semi-automatic anti-tank rifles. Has [i]Massed Infantry[/i].
+[b]Valhallan Heavy Stubber Squad[/b] - Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T2 [b]Hab Block[/b][/td][td][b]Valhallan Flame Troopers[/b] - Light infantry unit armed with flamers. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T3 [b]Field Ordnance Batteries[/b][/td][td][b]Valhallan Mortar Team[/b] - Infantry unit armed with versatile artillery. Has [i]Massed Infantry[/i].
+[/td]
+[/tr]
+[tr] 
+[td]T3 [b]Agronomic Surge[/b][/td][td][b]Valhallan Hound Masters[/b] - Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. Has [i]Massed Infantry[/i].
+These dogs are not temporary.
+[b]Valhallan Scout Dogs[/b]: Dogs which can scout when within 5 tiles of an allied Valhallan Hound Masters.
+[b]Valhallan Anti-Tank Dogs (Krak)[/b]: Dogs strapped with Krak Grenades. Unit is killed upon attacking.
+[b]Valhallan Anti-Tank Dogs (Melta)[/b]: Dogs strapped with Melta Bombs. Unit is killed upon attacking.
+[/td]
+[/tr]
+[tr] 
+[td]T4 [b]Substructure Expansion[/b][/td][td][b]Valhallan Marshal[/b] - Hero unit that provides buffs to allied infantry on the defence, with increased bonuses for Valhallans.
+[u]Hold the Line[/u]: Grants bonuses to allied infantry. Radius is increased upon levelling up this ability.
+[i]Hold the Line[/i]: Infantry which have not moved have +[3, 10]% FNP; Valhallans also have +[3, 11]% melee attacks. Infantry within 5 tiles of an allied city have +17% RDR, +[17, 33]% MDR, and +[17, 33]% damage. Valhallans within 3 tiles of allied city heal [1, 3] every turn.
+[u]The People's Commissar[/u]: Grants buffs to allied infantry within 3 tiles; heals +[1, 3] for adjacent allied infantry, with another +[1, 2] if they are Valhallans. Duration and intensity is increased upon levelling up this ability.
+[i]The People's Commissar[/i]: -[33, 67]% food upkeep, +[1, 3] morale per turn. For Valhallans, +[11, 33]% melee attacks
+[u]Defend this Strongpoint[/u]: Target an allied Fortification that is not a Headquarters. The tiles around it grant increased defence (+2 armour), and the Fortification itself is massively buffed.
+[i]Reinforced Strongpoint[/i]: +[1, 3] accuracy, -[33, 67]% morale loss, +2 armour, and +1 range. When adjacent to 3 allies, +[11, 33]% FNP.
+[u]The Motherland Calls[/u]: Removes [i]Recently Charged[/i] from allied infantry within 4 tiles. For allied infantry within 5 tiles of an allied city, grant +1 action point, 10% FNP.
+[/td]
+[/tr]
+[tr] 
+[td]T4 [b]Tempestus Scions[/b][/td][td][b]Valhallan Shock Army Troopers[/b] - Elite shock infantry unit armed with bayonets. Effective against enemies in urban environments, especially light infantry.
+[/td]
+[/tr]
+[tr] 
+[td]T6 [b]Improved Frag Casings[/b][/td][td]Unlocks Melta Bomb related abilities. [b]Valhallan Hound Masters[b] can deploy melta dogs, and [b]Valhallan Veteran Frontoviki[/b] can throw Melta Bombs.
+[/td]
+[/tr]
+[tr] 
+[td]T7 [b]Voidport[/b][/td][td][b]Night Witches[/b] - Light bomber Hero that harasses enemy infantry and bombards Fortifications and Vehicles.
+[/td]
+[/tr]
+[tr] 
+[td]T8 [b]Hammer of Wrath[/b][/td][td][b]Valhallan Veteran Frontoviki[/b] - Elite infantry unit armed with bayonets, melta bombs, and anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving.
+[/td]
+[/tr]
+[/table]
