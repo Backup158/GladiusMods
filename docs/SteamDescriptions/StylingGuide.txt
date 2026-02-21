@@ -7,6 +7,8 @@ Adds various infantry of the ___ to the Astra Militarum.
 fluffy intro
 
 [h1]Units added[/h1]
+Some abbreviations are used. They are explained [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488070/]in this thread[/url].
+
 General overview of shared stats
 
 [h2]Units and Unlocks[/h2]
