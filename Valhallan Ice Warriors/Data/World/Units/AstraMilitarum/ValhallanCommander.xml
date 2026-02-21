@@ -203,7 +203,7 @@
 										</unit>
 									</conditions>
 									<effects>
-										<hitpoints addMin="1" addMax="3"/>
+										<hitpoints addMin="1" addMax="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
