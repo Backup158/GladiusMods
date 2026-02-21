@@ -4,6 +4,6 @@
 	<entry name="AstraMilitarum/TauroxDescription" value="Heavy APC with twin-linked autocannons, extra manned weapons, and communication equipment."/>
 	<entry name="AstraMilitarum/TauroxFlavor" value="The Taurox is a heavily armoured transport that is armed with heavy weapons. While not as flexible as a Chimera, it's more akin to a tank in terms of firepower and armour."/>
 	<entry name="AstraMilitarum/TauroxIFV" value="Tortuga Pattern Taurox"/>
-	<entry name="AstraMilitarum/TauroxIFVDescription" value="Heavy IFV with an autocannon, a multitude of manned weapons, and communication equipment."/>
+	<entry name="AstraMilitarum/TauroxIFVDescription" value="Heavy IFV with an autocannon, a multitude of manned weapons, and communication equipment. Has fewer cargo slots compared to a typical Taurox."/>
 	<entry name="AstraMilitarum/TauroxIFVFlavor" value="Typically, Tauroxes and Taurox Primes are used to breach enemy lines and gain a foothold. Tortuga Pattern Tauroxes turn that foothold into a strongpoint."/>
 </language>

@@ -48,7 +48,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="8"/> <!-- %armor base armor=12/10/10 |||||| Chimera base is 7, Leman Russ is 9 -->
-				<cargoSlots base="4"/> <!-- %cargoSlots base capacity=12 |||||| Chimera base is 4. 9th edition codex says both have capacity of 12 -->
+				<cargoSlots base="3"/> <!-- %cargoSlots base capacity=12 |||||| Chimera base is 4. 9th edition codex says both have capacity of 12 -->
 				<hitpointsMax base="40.0"/> <!-- %hitpointsMax base armor=12/10/10 wounds=3 |||||| Chimera base is 24, Leman Russ is 48; Taurox is 36 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 |||||| Chimera base is 8 -->
 				<movementMax base="4"/> <!-- Chimera base is 4 -->
