@@ -25,15 +25,16 @@
 			</model>
 		</weapon>
 		<!-- Chimera has 2 -->
-		<weapon name="TauroxBoltgunArray" count="2">
+		<weapon name="TauroxBoltgunArray" count="2" 
+				slotName="MannedArray" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6"
 						effectFaceWeight="0"
 						cycleMuzzles="0"/>
 			</model>
 		</weapon>
-		<!-- this also gets double mortars -->
-		<weapon name="TauroxMannedMortar" count="2">
+		<!-- this also gets mortars -->
+		<weapon name="TauroxMannedMortar">
 			<model>
 				<missileWeapon muzzleBone="Bone"/>
 			</model>
@@ -90,6 +91,16 @@
 						soundCount="3"/>
 			</model>
 		</move>
+		<useWeapon cooldown="1"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				weaponSlotName="MannedArray">
+			<model>
+				<action animation="Units/AstraMilitarum/ChimeraAttack"
+						beginFire="0.77"
+						endFire="2.6"/>
+			</model>	
+		</useWeapon>
 		<createSmokeScreen cooldown="10"
 				icon="Traits/SmokeScreen"
 				requiredUpgrade="AstraMilitarum/SmokeLauncher">
