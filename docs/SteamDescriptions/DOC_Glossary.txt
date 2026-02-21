@@ -9,6 +9,7 @@ Some of these phrases carry gameplay implications. If I did things intelligently
 [b]RDR[/b]: Ranged damage reduction
 [b]MDR[/b]: Melee damage reduction
 [b]WDR[/b]: Witchfire damage reduction
+
 [b]CDR[/b]: City damage reduction
 [b]IDR[/b]: Invulnerable damage reduction
 [b]FNP[/b]: Feel No Pain damage reduction
