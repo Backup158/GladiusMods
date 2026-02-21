@@ -21,7 +21,7 @@ No custom models. I'm too lazy to learn Blender and how the bones work here.
 [b]NOTE:[/b] Devian has a Taurox with models (as of at least 2025-02-08) in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3169959149]Heroes of Legend[/url]. I'll leave this up for the people who don't want that implementation and/or the whole Astra Militarum package.
 
 The Taurox was based on the 9th Edition Codex.
-The Pantera Pattern was something I made up, since I decided the Rapid Deployment ability could be akin to [i]Assault Vehicle[/i]. Even though [i]Pinning[/i] can be counter-productive if you're going to immediately follow it up with infantry assaults, it's flavourful and I prefer to keep assault vehicles weaker in terms of damage output.
+The Pantera Pattern was something I made up, since I decided the Rapid Deployment ability could be akin to [i]Assault Vehicle[/i]. Even though [i]Pinning[/i] can be counter-productive if you're going to immediately follow it up with infantry assaults, it's flavourful, and I prefer to keep assault vehicles weaker in terms of damage output.
 The Tortuga Pattern was also made up, since I wanted to have one that would be encouraged to stick around.
 
 [h2]Integrated Mod Support[/h2]
