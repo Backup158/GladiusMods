@@ -1,0 +1,16 @@
+[table]
+[tr] 
+[td][b]DR[/b]: damage reduction
+
+[b]RDR[/b]: Ranged damage reduction
+[b]MDR[/b]: Melee damage reduction
+[b]CDR[/b]: City damage reduction
+[b]IDR[/b]: Invulnerable damage reduction
+[b]FNP[/b]: Feel No Pain damage reduction
+[/td]
+[/tr]
+[tr] 
+[td]
+[/td]
+[/tr]
+[/table]

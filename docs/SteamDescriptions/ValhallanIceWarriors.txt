@@ -4,11 +4,13 @@ From the frozen world of Valhalla, the Ice Warriors arrive on Gladius Prime. A w
 When comets irreversibly shifted the planet climate to an unending winter, Valhallans were forced to adapt, which they did by moving into caves, many of which were connected to sprawling underground caverns. 
 
 [h1]Units added[/h1]
+Some abbreviations are used. They are explained in this thread.
+
 [i]Valhallan[/i]: Decreased morale loss. Increased damage resistance when fighting in Arctic and Tundra tiles. Increased armour when in Cities, Imperial Ruins, and Outposts. Accuracy is increased when fighting Orks.
 [i]Massed Infantry[/i]: Movement is increased when within 5 tiles of an allied city, within 2 tiles of allied Hero, or within 3 tiles of 4 other Valhallans. Accuracy is decreased when alone, neutral when adjacent to 1 ally, and improved when adjacent to 2 or more allies.
 All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles to advance with decreased morale loss, increased damage, and increased damage resistance. Requires 4 allied infantry (where at least 2 of those are Valhallans) within 3 tiles to activate. Unit has decreased morale loss, increased damage, increased damage resistance, and increased melee attacks; in addition, they gain further damage resistance if the unit has moved without attacking, to take less damage from Overwatch.
 
-[h1]Units and Unlocks[/h1]
+[h2]Units and Unlocks[/h2]
 [table]
 [tr] 
 [td]T0[/td][td][b]Valhallan Guardsmen[/b] - Light infantry unit that specialises in defending cities and in mass infantry assaults. Has [i]Massed Infantry[/i].
@@ -54,6 +56,13 @@ These dogs are not temporary.
 [/tr]
 [tr] 
 [td]T4 [b]Substructure Expansion[/b][/td][td][b]Valhallan Marshal[/b] - Hero unit that provides buffs to allied infantry on the defence, with increased bonuses for Valhallans.
+[u]Hold the Line[/u]: Grants bonuses to allied infantry. Radius is increased upon levelling up this ability.
+[i]Hold the Line[/i]: Infantry which have not moved have +[3, 10]% IDR; Valhallans also gain [3, 11]# melee attacks. Infantry within 5 tiles of an allied city have +17% RDR, +[17, 33]% MDR, and +[17, 33]% damage. Valhallans within 3 tiles of allied city heal [1, 3] every turn.
+[u]The People's Commissar[/u]: Grants buffs to allied infantry within 3 tiles; heals +[1, 3] for adjacent allied infantry, with another +[1, 2] if they are Valhallans. Duration and intensity is increased upon levelling up this ability.
+[i]The People's Commissar[/i]: -[33, 67]% food upkeep, +[1, 3] morale per turn. For Valhallans, +[11, 33]% melee attacks
+[u]Defend this Strongpoint[/u]: Target an allied Fortification that is not a Headquarters. The tiles around it grant increased defence (+2 armour), and the Fortification itself is massively buffed.
+[i]Reinforced Strongpoint[/i]: +[1, 3] accuracy, -[33, 67]% morale loss, +2 armour, and +1 range. When adjacent to 3 allies, +[11, 33]% FNP.
+[u]The Motherland Calls[/u]: Removes [i]Recently Charged[/i] from allied infantry within 4 tiles. For allied infantry within 5 tiles of an allied city, grant +1 action point, 10% FNP.
 [/td]
 [/tr]
 [tr] 
