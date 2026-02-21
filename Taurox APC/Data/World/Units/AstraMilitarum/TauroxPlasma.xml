@@ -25,9 +25,9 @@
 			</model>
 		</weapon>
 		<!-- Chimera has 2 -->
-		<weapon name="TauroxHotShotLasgunArray" count="2">
+		<weapon name="TauroxBoltgunArray" count="2">
 			<model>
-				<beamWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6"
+				<projectileWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6"
 						effectFaceWeight="0"
 						cycleMuzzles="0"/>
 			</model>
