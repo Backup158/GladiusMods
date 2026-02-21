@@ -1,5 +1,7 @@
 # Reinforcements
 For icons, go from 160x160 to 100x100 to put two, top left and bottom right. The two icons won't be exactly in the corners; top left is going to be a bit more left, and bottom right is usually a bit more down. The full icon itself will still be 160x160.
+
+If adding a weapon, it can be scaled to 80x80 and put in the top right.
 ## Infantry
 Using the Guardsman is an example
 - Reduce scale (from `1 1 1` to `0.75 0.75 0.75`)
