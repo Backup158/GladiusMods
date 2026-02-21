@@ -20,6 +20,11 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [/tr]
 [tr] 
 [td]T1 [b]Shrine of the Aquila[/b][/td][td][b]Valhallan Commissar[/b] - Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade.
+[u]Discipline[/u] and [u]Bring It Down![/u] are the same as the default's first step (+1 accuracy, +2 armor penetration), but the radius increases by 1 every time they are upgraded.
+[u]Summary Execution[/u] is available by default (equivalent to having two upgrades)
+[u]Send to Gulag[/u]: Target an infantry unit with less than 10% health, surrounded by 3 Valhallans. Remove this unit and gain [7, 21] Ore and [5, 15] Influence.
+[u]Deploy Barrier Squad[/u]: Spawns a permanent, mortal unit that supports nearby allies but cannot move. 
+[b]Valhallan Barrier Squad[/b]: Allies within 3 tiles of this unit have improved morale ([i]Barrier Squad Present[/i]: -33% morale loss and +2 morale per turn). Can execute entire squads.
 [/td]
 [/tr]
 [tr] 
@@ -41,6 +46,7 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [/tr]
 [tr] 
 [td]T3 [b]Agronomic Surge[/b][/td][td][b]Valhallan Hound Masters[/b] - Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. Has [i]Massed Infantry[/i].
+These dogs are not temporary.
 [b]Valhallan Scout Dogs[/b]: Dogs which can scout when within 5 tiles of an allied Valhallan Hound Masters.
 [b]Valhallan Anti-Tank Dogs (Krak)[/b]: Dogs strapped with Krak Grenades. Unit is killed upon attacking.
 [b]Valhallan Anti-Tank Dogs (Melta)[/b]: Dogs strapped with Melta Bombs. Unit is killed upon attacking.
