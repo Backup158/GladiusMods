@@ -16,7 +16,7 @@
 				</tile>
 			</conditions>
 			<effects>
-				<feelNoPainDamageReduction add="0.17"/>
+				<invulnerableDamageReduction min="0.17"/>
 			</effects>
 		</modifier>
 		<!-- Urban Warfare -->

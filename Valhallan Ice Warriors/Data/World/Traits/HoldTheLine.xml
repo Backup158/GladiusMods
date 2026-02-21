@@ -16,7 +16,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<invulnerableDamageReduction mulMin="0.03" addMax="0.1"/>
+				<feelNoPainDamageReduction mulMin="0.03" addMax="0.1"/>
 			</effects>
 		</modifier>
 		<modifier>
