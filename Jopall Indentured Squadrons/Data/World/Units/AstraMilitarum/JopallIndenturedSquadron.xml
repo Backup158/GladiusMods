@@ -160,13 +160,6 @@
 			<model>
 				<action sound="Actions/InstallSupportSystem"/>
 			</model>
-			<modifiers>
-				<modifier visible="1">
-					<effects>
-						<influenceCost base="-2"/>
-					</effects>
-				</modifier>
-			</modifiers>
 			<sharedCooldowns>
 				<action name="AstraMilitarum/JopallChargeUp"/>
 			</sharedCooldowns>

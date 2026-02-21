@@ -11,5 +11,16 @@
 				<damage mul="-0.25"/>
 			</effects>
 		</modifier>
+		<!-- Only gives influence if you shot -->
+		<modifier>
+			<conditions>
+				<unit>
+					<attackedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<influence add="-2"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
