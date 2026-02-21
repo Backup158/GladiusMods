@@ -13,7 +13,7 @@
 	</model>
 	<!-- was 0.8 0.8 0.8, 0.6 0.6 0.6; 0.7 0.7 0.7 -->
 	<!-- was group size 2, 4-->
-	<group size="8" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
+	<group size="8" rowSize="3" memberDeltaX="80" memberDeltaY="100"/>
 	<weapons>
 		<weapon name="ValhallanKrakMortar" slotName="KrakMortar" enabled="0">
 			<model>
