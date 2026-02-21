@@ -1,6 +1,10 @@
+Among my mods, I tend to reuse certain abbreviations and phrases. Explanations for the most common ones are listed here.
+Some of these phrases carry gameplay implications. If I did things intelligently, how it works under the hood should be seamless with what the text implies, but for clarity, I'll put the specific details here.
+
+[h2]Abbreviations[/h2]
 [table]
 [tr] 
-[td][b]DR[/b]: damage reduction
+[td][b]DR[/b]: Damage Reduction
 
 [b]RDR[/b]: Ranged damage reduction
 [b]MDR[/b]: Melee damage reduction
@@ -9,8 +13,15 @@
 [b]FNP[/b]: Feel No Pain damage reduction
 [/td]
 [/tr]
+[/table]
+[h2]Phrases[/h2]
+[table]
 [tr] 
-[td]
+[td][b]When near a Commissar[/b]: Checks for an Astra Militarum unit with the traits [i]Hero[/i] and [i]Stubborn[/i]. This is for better compatibility with modded units.
+[/td]
+[/tr]
+[tr] 
+[td][b]When fighting Orks[/b]: Checks if the enemy unit has [i]Green Tide[/i][spoiler](Orks/GreenTideHealing)[/spoiler]. This is for better compatibility with modded units.
 [/td]
 [/tr]
 [/table]
