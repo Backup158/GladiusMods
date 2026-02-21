@@ -1,7 +1,7 @@
 Adds various infantry of the Valhallan Ice Warriors to the Astra Militarum. 
 
 From the frozen world of Valhalla, the Ice Warriors arrive on Gladius Prime. A wave of men facing the waves of xenos, these troopers are ardent defenders, fighting to the last in the face of insurmountable odds.
-When comets irreversibly shifted the planet climate to an unending winter, Valhallans were forced to adapt, which they did by moving into caves, many of which were connected to sprawling underground caverns. 
+When comets irreversibly shifted the planet climate to an unending winter, Valhallans were forced to adapt. Society moved into mountainous caves, many of which were connected to sprawling underground caverns. However, they had little time to adjust to this new life before the Orks landed, sparking a long, bloody struggle. Valhallans had to fight both the Greenskins and Mother Nature; in the recently emerged harsh winters, they found strength in each other. Fighting shoulder-to-shoulder until the bitter end was their primary strategy against the Orkish hordes, which also happened to be a good strategy for keeping warm.
 
 [h1]Units added[/h1]
 Some abbreviations are used. They are explained in this thread.
