@@ -67,7 +67,7 @@ These dogs are not temporary.
 [/td]
 [/tr]
 [tr] 
-[td]T4 [b]Tempestus Scions[/b][/td][td][b]Valhallan Shock Army Troopers[/b] - Elite shock infantry unit armed with bayonets. Most effective against light infantry.
+[td]T4 [b]Tempestus Scions[/b][/td][td][b]Valhallan Shock Army Troopers[/b] - Elite shock infantry unit armed with bayonets. Effective against enemies in urban environments, especially light infantry.
 [/td]
 [/tr]
 [tr] 
