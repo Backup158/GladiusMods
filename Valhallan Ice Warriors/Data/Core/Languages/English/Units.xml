@@ -37,7 +37,7 @@
     <entry name="AstraMilitarum/ValhallanShockTroopsDescription" value="Elite shock infantry unit armed with bayonets. Effective against enemies in urban environments, especially light infantry."/>
     <entry name="AstraMilitarum/ValhallanShockTroopsFlavor" value="High command noticed that a wave of infantry wasn't always the most efficient method of taking an entrenched position. Many commanders didn't care. A taken position was a taken position afterall. A few, not wanting to waste the Emperor's currency, secretly formulated plans to train specialised units to lead the attack more effectively. These became the Shock Armies, and they were given better equipment and trained to close the distance by using cover."/>
     <entry name="AstraMilitarum/ValhallanVeteran" value="Valhallan Veteran Frontoviki"/>
-    <entry name="AstraMilitarum/ValhallanVeteranDescription" value="Elite infantry unit armed with bayonets that can use melta bombs and anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving."/>
+    <entry name="AstraMilitarum/ValhallanVeteranDescription" value="Elite infantry unit armed with bayonets, use melta bombs, anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving."/>
     <entry name="AstraMilitarum/ValhallanVeteranFlavor" value="In the regiment where lives are thrown away carelessly, fear the veterans. They are the hardiest and deadliest among the Valhallan Ice Warriors, having survived the toughest battles. Only once they have been forged by the frontline may they earn the name Frontovik."/>
     <!-- Heroes -->
     <entry name="AstraMilitarum/ValhallanCommissar" value="Valhallan Commissar"/>
