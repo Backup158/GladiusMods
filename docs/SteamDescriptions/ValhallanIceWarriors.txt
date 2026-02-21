@@ -17,7 +17,7 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [/td]
 [/tr]
 [tr] 
-[td]T1 [b]Ratlings[/b][/td][td][b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare.
+[td]T1 [b]Ratlings[/b][/td][td][b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare ([i]Urban Sniper[/i]: Ignores 33% CDR, can move one tile after shooting).
 [/td]
 [/tr]
 [tr] 
