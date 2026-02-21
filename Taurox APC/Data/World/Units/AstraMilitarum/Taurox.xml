@@ -14,7 +14,7 @@
 		<!-- Dual Autocannons, replacing the multilas -->
 		<weapon name="Autocannon" count="2">
 			<model>
-				<beamWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="0.2"/>
+				<projectileWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="0.2"/>
 			</model>
 		</weapon>
 		<!-- Storm Bolters, replacing the chimera bolter -->
