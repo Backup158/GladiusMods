@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/TauroxMannedMortar" value="Manned Mortar"/>
-	<entry name="AstraMilitarum/TauroxMannedMortarFlavor" value="Mortar teams need to be placed behind friendly units to let them work unmolested. Mounting a mortar on a vehicle makes it much safer to use closer to the front."/>
-	<entry name="AstraMilitarum/TauroxHotShotLasgunArray" value="Hot-Shot Lasgun Array"/>
-	<entry name="AstraMilitarum/TauroxHotShotLasgunArrayFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="TauroxMannedMortar" value="Manned Mortar"/>
+	<entry name="TauroxMannedMortarFlavor" value="Mortar teams need to be placed behind friendly units to let them work unmolested. Mounting a mortar on a vehicle makes it much safer to use closer to the front."/>
+	<entry name="TauroxHotShotLasgunArray" value="Hot-Shot Lasgun Array"/>
+	<entry name="TauroxHotShotLasgunArrayFlavor" value="<string name='Weapons/LasFlavor'/>"/>
 </language>
