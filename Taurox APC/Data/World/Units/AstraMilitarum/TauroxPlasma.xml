@@ -11,17 +11,17 @@
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<!-- Twink Autocannon, replacing the multilas. This does less damage than 2 straight up, so it needs the cargo to be better -->
-		<weapon name="TwinLinkedAutocannon">
+		<!-- One plasma cannon, based on the space marine single gun -->
+		<weapon name="TauroxPlasmaCannon">
 			<model>
-				<projectileWeapon muzzleBone=".MultiLaserMuzzle" muzzleCount="1" fireInterval="0.2"/>
+				<projectileWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="0.2"/>
 			</model>
 		</weapon>
-		<!-- Storm Bolters, replacing the chimera bolter -->
-		<weapon name="StormBolter"
+		<!-- throwing on a heavy flamer instead  -->
+		<weapon name="HeavyFlamer" count="2"
                 requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
 			<model>
-				<projectileWeapon muzzleBone=".HeavyBolterMuzzle"/>
+				<flamerWeapon muzzleBone=".HeavyBolterMuzzle"/>
 			</model>
 		</weapon>
 		<!-- Chimera has 2 -->
