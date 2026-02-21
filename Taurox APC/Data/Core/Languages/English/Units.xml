@@ -9,4 +9,7 @@
 	<entry name="AstraMilitarum/TauroxIFV" value="Tortuga Pattern Taurox"/>
 	<entry name="AstraMilitarum/TauroxIFVDescription" value="Heavy IFV with a twin-linked autocannon, a multitude of manned weapons, and communication equipment. Has fewer cargo slots compared to a typical Taurox."/>
 	<entry name="AstraMilitarum/TauroxIFVFlavor" value="Typically, Tauroxes and Taurox Primes are used to breach enemy lines and gain a foothold. Tortuga Pattern Tauroxes turn that foothold into a strongpoint."/>
+	<entry name="AstraMilitarum/TauroxPlasma" value="Ryza Pattern Taurox Prime"/>
+	<entry name="AstraMilitarum/TauroxPlasmaDescription" value="Heavy IFV that rapidly deploys infantry and supports them with a plasma cannon and a multitude of manned weapons. Has fewer cargo slots compared to a typical Taurox."/>
+	<entry name="AstraMilitarum/TauroxPlasmaFlavor" value="On the ancient Forge World of Ryza, the Adeptus Mechanicus enjoys unleashing the full might of technology upon the indigenous techno-barbarians. Famously, the produce large quantities of high-quality plasma and laser weapons. Ryzan manufactorums also natively produce vehicles armed with these weapons, such as the Leman Russ Executioner. Even among the Tempestus Scions, only the best of the best are granted access to Ryza Pattern Taurox Primes."/>
 </language>
