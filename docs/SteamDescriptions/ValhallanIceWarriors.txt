@@ -30,7 +30,7 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [/td]
 [/tr]
 [tr] 
-[td]T1 [b]Vox-Caster[/b][/td][td][b]Valhallan Conscripts[/b] - Weak, cheap infantry unit available in great numbers. Influence upkeep is negated when near a Commissar. Unit must pay Ore to use grenades. Has [i]Massed Infantry[/i].
+[td]T1 [b]Vox-Caster[/b][/td][td][b]Valhallan Conscripts[/b] - Weak, cheap infantry unit available in great numbers, whose deaths do not affect allied morale. Influence upkeep is negated when near a Commissar. Unit must pay Ore to use grenades. Has [i]Massed Infantry[/i].
 [/td]
 [/tr]
 [tr] 
