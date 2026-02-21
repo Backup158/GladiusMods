@@ -89,4 +89,4 @@ While I took inspiration from the existing lore, I leaned a lot more into the Wo
 
 [h2]Integrated Mod Support[/h2]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter, but putting this above is recommended.
