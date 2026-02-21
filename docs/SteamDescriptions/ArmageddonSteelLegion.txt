@@ -3,7 +3,9 @@ Adds various infantry and vehicles of the Armageddon Steel Legion to the Astra M
 The backbone of Steel Legion doctrine is their usage of mechanised infantry. Armageddon's numerous factories produce waves of vehicles, which means they can readily equip the Steel Legion with plentiful Chimeras and supporting tanks. Steel Legionnaires sit cooped up in the back of Chimeras, following the main armoured force. Leman Russ main battle tanks pour heavy fire into enemy lines, punching a hole in their defences. Before the enemy can close this wound, APCs and IFVs rush through guns blazing, as the tanks continue laying on fire. Before the dust can settle, Steel Legionnaires pour out of their transports to deepen this wound.
 
 [h1]Unit Descriptions[/h1]
-Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree.
+Some abbreviations are used. They are explained [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488070/]in this thread[/url].
+
+Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree[spoiler]([i]Evasive Deployment[/i]: 17% minimum IDR, [i]Armageddon Readiness[/i]: +50% Healing rate inside transports)[/spoiler].
 
 [table]
 [tr]
@@ -29,8 +31,8 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [b]Steel Legion Commissars[/b] lead both infantry and vehicles. They grant passive buffs, which lends well to sitting safely inside a Chimera. Buffs are increased for members of the Steel Legion.
 [u]Steel Legion Discipline[/u]: Adjacent troops gain accuracy. Weaker than the typical Aura of Discipline, unless the affected troop is in the Steel Legion.
 [u]Armoured Fist[/u]: Adjacent vehicles gain armour and have less ore upkeep.
-[u]Aura of Command[/u]: Troops within 2 tiles gain morale and have reduced morale loss. The Commissar and any transport they're in have increased ranged damage reduction. 
-[u]Combined Arms[/u]: Elite. Infantry and vehicles within 2 tiles gain defences. Infantry gain ranged damage reduction when adjacent to vehicles; vehicles, melee damage reduction when adjacent to infantry.
+[u]Aura of Command[/u]: Troops within 2 tiles gain morale and have reduced morale loss. The Commissar and any transport they're in have increased RDR. 
+[u]Combined Arms[/u]: Elite. Infantry and vehicles within 2 tiles gain defences. Infantry gain RDR when adjacent to vehicles; vehicles, MDR when adjacent to infantry.
 [/td]
 [/tr]
 [tr]
@@ -62,9 +64,9 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [tr]
 [td]
 [b]The Fortress of Arrogance[/b] is a unique, super-heavy tank that rallies the troops, especially infantry and members of the Steel Legion.
-[u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain ranged damage reduction, with Steel Legion units gaining armour.
-[u]Focus Fire[/u]: Marks an enemy unit which now takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. Has reduced ranged reduction when being attacked by the Steel Legion.
-[u]Purge the Xenos[/u]: Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced ranged damage reduction. Burns away Orkoid Fungus within 2 tiles.
+[u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain RDR, with Steel Legion units gaining armour.
+[u]Focus Fire[/u]: Marks an enemy unit which now takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. Has reduced RDR when being attacked by the Steel Legion.
+[u]Purge the Xenos[/u]: Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced RDR. Burns away Orkoid Fungus within 2 tiles.
 [u]Duel of Honour[/u]: Elite. Targets an enemy super-heavy or hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
 [/td]
 [/tr]
