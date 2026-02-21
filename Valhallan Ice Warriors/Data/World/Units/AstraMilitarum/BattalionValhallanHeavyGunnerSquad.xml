@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/HeavyWeaponsSquad"
+				material="Units/AstraMilitarum/HeavyWeaponsSquad"
+				idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1 1 1"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+	<!-- HWT was 4 -->
+	<group size="12" rowSize="3" memberDeltaX="60" memberDeltaY="80"/>
+	<weapons>
+		<weapon name="ValhallanHeavyStubberAir" slotName="AntiAir" enabled="0">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle0"
+						fireInterval="0.2"/>
+			</model>	
+		</weapon>
+		<weapon name="ValhallanHeavyStubber" slotName="Main">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle0"
+						fireInterval="0.2"/>
+			</model>	
+		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHandBone1"/>
+			</model>	
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHandBone1"/>
+			</model>		
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<!-- Reduced armor and movement is offset when in allied cities -->
+				<armor base="3"/> <!-- 4 | %armor base armor=5+ -->
+				<foodUpkeep base="6"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+				<foodCost base="75"/> <!-- 15, 17.5; 60 | %foodCost base tier=5 factor=0.5 -->
+				<hitpointsMax base="2.0"/> <!-- 4 | %hitpointsMax base toughness=3 wounds=2 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="2"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<oreCost base="75"/> <!-- 15, 20; 60 | %oreCost base tier=5 factor=0.5 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="2"/> <!-- 3-->
+				<productionCost base="54.0"/> <!-- 30, 33; 54 | %productionCost base tier=5 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadAttack"
+						beginFire="0.5"
+						endFire="2.4"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadDie"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.55"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="Main AntiAir"/>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
+						beginFire="0.666666666667"/>
+			</model>		
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
+						beginFire="0.666666666667"/>
+			</model>				
+		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<!-- URAAAAAAAAAA -->
+		<genericUnitAbility	cooldown="10"
+				requiredActionPoints="1"
+				consumedActionPoints="0" consumedMovement="0"
+				name="AstraMilitarum/Ura"
+				shoutString="Actions/AstraMilitarum/Ura">
+			<model>
+				<action sound="Actions/ValhallanUra" soundCount="6"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<noTrait name="AstraMilitarum/UraCooldown"/>
+							<!-- 4 Infantry allies, at least 2 of whom are Valhallans -->
+							<unitsInRange count="2" range="3">
+								<allied/>
+								<trait name="AstraMilitarum/Valhallan"/>
+							</unitsInRange>
+							<unitsInRange count="4" range="3">
+								<allied/>
+								<noTrait name="Vehicle"/>
+								<noTrait name="Fortification"/>
+							</unitsInRange>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="AstraMilitarum/Valhallan"/>
+											<noTrait name="AstraMilitarum/Ura"/>
+											<noTrait name="AstraMilitarum/UraCooldown"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="2" name="AstraMilitarum/Ura"/>
+										<addTrait duration="10" name="AstraMilitarum/UraCooldown"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<!-- <trait name="Bulky"/> -->
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+
+		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="AstraMilitarum/ValhallanHorde"/>
+		<!-- Reinforcements -->
+		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
+		<trait name="AstraMilitarum/BattalionHeavyWeaponSquad"/>
+		<trait name="VeryBulky"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Complete" soundCount="1"/>
+	</responses>
+</unit>
