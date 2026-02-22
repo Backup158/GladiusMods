@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Weapons/Boltgun">
 	<model>
-		<beamWeapon fireSound="Weapons/HotShotLasgun"
-		 		fireSoundCount="6"/>
+		<projectileWeapon fireSound="Weapons/Boltgun"
+				fireSoundCount="13"/>
 	</model>
 	<modifiers>
 		<modifier>
