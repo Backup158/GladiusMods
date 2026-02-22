@@ -8,6 +8,6 @@
 	<entry name="TauroxGatlingFlavor" value="Taurox Primes are mounted with Gatling Cannons descended from the Leman Russ Punisher's Gatling Cannons. Other patterns, not intended for the alumni of the Schola Progenium, make do with more primitive variants. Munitorum Gatling Cannons, while not as capable of shredding infantry, can still suppress the enemy to buy enough time for deployments."/>
 	<entry name="TauroxPlasmaCannon" value="Plasma Execution Cannon Prime"/>
 	<entry name="TauroxPlasmaCannonFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
-	<entry name="TauroxBoltgunArray" value="Boltgun Array"/>
+	<entry name="TauroxBoltgunArray" value="Storm Bolter Array"/>
 	<entry name="TauroxBoltgunArrayFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
 </language>

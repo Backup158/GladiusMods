@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Weapons/Boltgun">
+<weapon icon="Weapons/StormBolter">
 	<model>
 		<projectileWeapon fireSound="Weapons/Boltgun"
 				fireSoundCount="13"/>
@@ -7,7 +7,8 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="3"/>
+				<!-- 3 attacks ends up being 1.5x lasguns. So vs armour, this is worse than hotshots. THROW MORE SHIT AT THEM (turn into storm bolters for doubled attacks )-->
+				<attacks add="6"/>
 				<rangedArmorPenetration add="1"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
 				<rangedDamage add="1.5"/> <!-- %rangedDamage add strength=3 -->
 				<strengthDamage base="0"/>
