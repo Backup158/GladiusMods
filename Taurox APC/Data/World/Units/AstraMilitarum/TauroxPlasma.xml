@@ -113,7 +113,8 @@
 		<useWeapon cooldown="1"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
-				weaponSlotName="MannedBolterArray">
+				weaponSlotName="MannedBolterArray"
+				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
 			<model>
 				<action animation="Units/AstraMilitarum/ChimeraAttack"
 						beginFire="0.77"
