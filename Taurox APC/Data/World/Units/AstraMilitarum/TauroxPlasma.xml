@@ -25,8 +25,17 @@
 			</model>
 		</weapon>
 		<!-- Chimera has 2 -->
+		<weapon name="TauroxHotShotLasgunArray" count="2"
+				slotName="MannedLasArray" enabled="0">
+			<model>
+				<beamWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6"
+						effectFaceWeight="0"
+						cycleMuzzles="0"/>
+			</model>
+		</weapon>
 		<weapon name="TauroxBoltgunArray" count="2" 
-				slotName="MannedArray" enabled="0">
+				slotName="MannedBolterArray" enabled="0"
+				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
 			<model>
 				<projectileWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6"
 						effectFaceWeight="0"
@@ -94,7 +103,17 @@
 		<useWeapon cooldown="1"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
-				weaponSlotName="MannedArray">
+				weaponSlotName="MannedLasArray">
+			<model>
+				<action animation="Units/AstraMilitarum/ChimeraAttack"
+						beginFire="0.77"
+						endFire="2.6"/>
+			</model>	
+		</useWeapon>
+		<useWeapon cooldown="1"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				weaponSlotName="MannedBolterArray">
 			<model>
 				<action animation="Units/AstraMilitarum/ChimeraAttack"
 						beginFire="0.77"

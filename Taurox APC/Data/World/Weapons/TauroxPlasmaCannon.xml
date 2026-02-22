@@ -12,10 +12,9 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<!-- Based on the Space Marine Plasma Incinerator. Vehicles usually triple the attacks, but human vehicle from Space Marine weapon seems ok to have 2, especially since I'm doubling the range -->
-				<attacks add="2"/>
+				<attacks add="3"/>
 				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=-3 -->
-				<rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
+				<rangedDamage add="6"/> <!-- incinerator was 4 | %rangedDamage add strength=7 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
@@ -29,5 +28,6 @@
 		<trait name="Assault"/>
 		<trait name="Blast"/>
 		<trait name="GetsHot"/>
+		<trait name="AstraMilitarum/TauroxServoTargetter"/>
 	</traits>
 </weapon>

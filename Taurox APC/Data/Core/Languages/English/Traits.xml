@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/TauroxServoTargetter" value="Servo-skull Targetter"/>
+	<entry name="AstraMilitarum/TauroxServoTargetterFlavor" value="With an attached servo-skull, the weapon more easily finds its targets."/>
+</language>
