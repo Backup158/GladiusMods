@@ -58,14 +58,14 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="9"/> <!-- %armor base armor=12/10/10 |||||| Chimera base is 7, Leman Russ is 9; Taurox is 8 -->
+				<armor base="8"/> <!-- %armor base armor=12/10/10 |||||| Chimera base is 7, Leman Russ is 9; Taurox is 8 -->
 				<cargoSlots base="3"/> <!-- %cargoSlots base capacity=12 |||||| Chimera base is 4. 9th edition codex says both have capacity of 12 -->
 				<hitpointsMax base="42.0"/> <!-- %hitpointsMax base armor=12/10/10 wounds=3 |||||| Chimera base is 24, Leman Russ is 48; Taurox is 36 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 |||||| Chimera base is 8 -->
 				<movementMax base="4"/> <!-- Chimera base is 4 -->
 				<oreUpkeep base="4.0"/> <!-- %oreUpkeep base tier=6 factor=1 |||||| Chimera base is 2, Leman Russ is 4 -->
 				<oreCost base="85.0"/> <!-- %oreCost base tier=6 factor=1 |||||| Chimera base is 40, Leman Russ is 80; Taurox is 60 -->
-				<productionCost base="52.0"/> <!-- %productionCost base tier=6 factor=1 |||||| Chimera base is 36,  Leman Russ is 48 on wiki-->
+				<productionCost base="48.0"/> <!-- %productionCost base tier=6 factor=1 |||||| Chimera base is 36,  Leman Russ is 48 on wiki-->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
