@@ -3,16 +3,16 @@ Adds vehicles based on the [b]Taurox[/b] to the Astra Militarum. It's a transpor
 [h1]Units Added[/h1]
 [table]
 [tr]
-[td]T5 [b]Extra Infantry Armour[/b][/td][td][b]Taurox[/b]: Heavy APC with Health and Armour values between a Chimera and Leman Russ. Armed with dual Autocannons, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array. Not [i]Amphibious[/i], but still has 4 Cargo Slots.
+[td]T5 [b]Extra Infantry Armour[/b][/td][td][b]Taurox[/b]: Heavy APC with Health and Armour values between a Chimera and Leman Russ. Armed with dual Autocannons, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus two manned Lasgun Arrays. Not [i]Amphibious[/i], but still has 4 Cargo Slots.
 [b]Pantera Pattern Assault Taurox[/b]: Medium APC that rapidly deploys infantry. Stat-wise, it's more akin to an Assault Vehicle Chimera. Armed with a pinning Gatling Cannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array. Even with less armour, the reduced size makes it harder to fit troops in[spoiler](Only 3 slots)[/spoiler].
 [/td]
 [/tr]
 [tr]
-[td]T6 [b]Improved Frag Casings[/b][/td][td][b]Tortuga Pattern Taurox[/b]: Heavy IFV slightly tougher than a typical Taurox. Armed with a Twin-linked Autocannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Hot-Shot Lasgun Array and a manned mortar array. Has fewer Cargo Slots to make space for the weapons[spoiler](Only 3 slots)[/spoiler].
+[td]T6 [b]Improved Frag Casings[/b][/td][td][b]Tortuga Pattern Taurox[/b]: Heavy IFV slightly tougher than a typical Taurox. Armed with a Twin-linked Autocannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus two manned Hot-Shot Lasgun Arrays and two manned mortar arrays. Has fewer Cargo Slots to make space for the weapons[spoiler](Only 3 slots)[/spoiler].
 [/td]
 [/tr]
 [tr]
-[td]T8 [b]Hammer of Wrath[/b][/td][td][b]Ryza Pattern Taurox Prime[/b]: Heavy IFV that rapidly deploys infantry. Armed with a plasma cannon, dual heavy flamers[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], a manned Hot-Shot Lasgun array, and a manned Storm Bolter array[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler]. Has fewer cargo slots compared to a typical Taurox, but is almost as resilient as a Leman Russ Battle Tank[spoiler](Only 3 slots)[/spoiler].
+[td]T8 [b]Hammer of Wrath[/b][/td][td][b]Ryza Pattern Taurox Prime[/b]: Heavy IFV that rapidly deploys infantry. Armed with a plasma cannon, dual heavy flamers[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], two manned Hot-Shot Lasgun arrays, and two manned Storm Bolter arrays[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler]. Has fewer cargo slots compared to a typical Taurox, but is almost as resilient as a Leman Russ Battle Tank[spoiler](Only 3 slots)[/spoiler].
 [/td]
 [/tr]
 [/table]

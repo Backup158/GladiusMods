@@ -4,7 +4,7 @@
 	<entry name="AstraMilitarum/TauroxDescription" value="Heavy APC with dual autocannons, extra manned weapons, and communication equipment."/>
 	<entry name="AstraMilitarum/TauroxFlavor" value="The Taurox is a heavily armoured transport that is armed with heavy weapons. While not as flexible as a Chimera, it's more akin to a tank in terms of firepower and armour."/>
 	<entry name="AstraMilitarum/TauroxAssault" value="Pantera Pattern Assault Taurox"/>
-	<entry name="AstraMilitarum/TauroxAssaultDescription" value="Medium APC that rapidly deploys infantry. It's armed with a pinning Gatling Cannon."/>
+	<entry name="AstraMilitarum/TauroxAssaultDescription" value="Medium APC that rapidly deploys infantry. It's armed with a pinning Gatling Cannon, but only has one manned Lasgun Array."/>
 	<entry name="AstraMilitarum/TauroxAssaultFlavor" value="While most Taurox patterns are essentially tougher Chimeras, some designs sacrifice this protection for aggression."/>
 	<entry name="AstraMilitarum/TauroxIFV" value="Tortuga Pattern Taurox"/>
 	<entry name="AstraMilitarum/TauroxIFVDescription" value="Heavy IFV with a twin-linked autocannon, a multitude of manned weapons, and communication equipment. Has fewer cargo slots compared to a typical Taurox."/>
