@@ -3,9 +3,6 @@ Adds vehicles based on the [b]Taurox[/b] to the Astra Militarum. It's a transpor
 [h1]Units Added[/h1]
 [table]
 [tr]
-[th]Units Added[/th]
-[/tr]
-[tr]
 [td]T5 [b]Extra Infantry Armour[/b][/td][td][b]Taurox[/b]: Heavy APC with Health and Armour values between a Chimera and Leman Russ. Armed with dual Autocannons, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array. Not [i]Amphibious[/i], but still has 4 Cargo Slots.
 [b]Pantera Pattern Assault Taurox[/b]: Medium APC that rapidly deploys infantry. Stat-wise, it's more akin to an Assault Vehicle Chimera. Armed with a pinning Gatling Cannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array. Only has 3 Cargo Slots.
 [/td]
