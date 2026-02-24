@@ -12,7 +12,7 @@ Adds vehicles based on the [b]Taurox[/b] to the Astra Militarum. It's a transpor
 [/td]
 [/tr]
 [tr]
-[td]T8 [b]Hammer of Wrath[/b][/td][td][b]Ryza Pattern Taurox Prime[/b]: Heavy IFV that rapidly deploys infantry. Armed with a plasma cannon, dual heavy flamers[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], two manned Hot-Shot Lasgun arrays, and two manned Storm Bolter arrays[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler]. Has fewer cargo slots compared to a typical Taurox, but is almost as resilient as a Leman Russ Battle Tank[spoiler](Only 3 slots)[/spoiler].
+[td]T8 [b]Hammer of Wrath[/b][/td][td][b]Ryza Pattern Taurox Prime[/b]: Heavy IFV that rapidly deploys infantry. Armed with a plasma cannon, dual heavy flamers[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], two manned Hot-Shot Lasgun arrays, two manned Storm Bolter arrays[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], and a manned mortar. Has fewer cargo slots compared to a typical Taurox, but is almost as resilient as a Leman Russ Battle Tank[spoiler](Only 3 slots)[/spoiler].
 [/td]
 [/tr]
 [/table]
