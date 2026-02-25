@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1" icon="Traits/City">
+	<modifiers>
+		<!-- Urban Sniper -->
+		<!-- 	so I don't have to check every feature name for city (and this is better for compatibility)-->
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<!-- Opponent is in urban environment -->
+					<opponent match="Any">
+						<trait name="City"/>
+						<trait name="ImperialRuin"/>
+						<trait name="Outpost"/>
+					</opponent>
+					<!-- Is infantry -->
+					<opponent>
+						<noTrait name="Vehicle"/>
+						<noTrait name="Fortification"/>
+					</opponent>
+				</encounter>
+				<weapon>
+					<noTrait name="Bomb"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<rangedDamageReductionBypass add="0.33"/>
+			</effects>
+		</modifier>
+		<!-- Limited movement after shooting if near allied cities -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="1" range="3">
+						<allied/>
+						<trait name="Headquarters"/>
+                    </unitsInRange>
+				</unit>
+            </conditions>
+			<effects>
+				<consumedMovement max="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/ChaosSpaceMarines/ShatterDefences">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+                    <!-- Can be triggered by nonskimming vehicles, but will have no effect -->
+					<enemy/>
+					<noTrait name="Flyer"/>
+					<noTrait name="Necrons/ImmuneToNaturalLaw"/>
+					<noTrait name="JetPack"/>
+					<noTrait name="Jetbike"/>
+					<noTrait name="Skimmer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementCost min="100"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<onTileEnteredModifiers>
+		<!-- Trap goes off for infantry and vehicles -->
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<removeFeature name="OrkHuntersTrap"/>
+			</effects>
+		</modifier>
+		<!-- Cripples and damages infantry -->
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/> 
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<noTrait name="Crippled"/> <!-- It was double applying for some reason-->
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="OrkHuntersTrap"/>
+				<addTrait name="Crippled" duration="2"/>
+			</effects>
+		</modifier>
+	</onTileEnteredModifiers>
+</trait>

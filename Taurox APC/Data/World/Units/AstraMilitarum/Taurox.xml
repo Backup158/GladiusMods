@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement6">
+<unit>
 	<model>
 		<unit mesh="Units/AstraMilitarum/Chimera"
 				material="Units/AstraMilitarum/Chimera"
@@ -14,12 +14,12 @@
 		<!-- Dual Autocannons, replacing the multilas -->
 		<weapon name="Autocannon" count="2">
 			<model>
-				<beamWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="0.2"/>
+				<projectileWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="0.2"/>
 			</model>
 		</weapon>
 		<!-- Storm Bolters, replacing the chimera bolter -->
 		<weapon name="StormBolter"
-                requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">>
+                requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
 			<model>
 				<projectileWeapon muzzleBone=".HeavyBolterMuzzle"/>
 			</model>
@@ -48,8 +48,8 @@
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 |||||| Chimera base is 8 -->
 				<movementMax base="4"/> <!-- Chimera base is 4 -->
 				<oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=6 factor=1 |||||| Chimera base is 2, Leman Russ is 4 -->
-				<oreCost base="60.0"/> <!-- %oreCost base tier=6 factor=1 |||||| Chimera base is 40 (20 on wiki), Leman Russ is 40 on wiki -->
-				<productionCost base="42.0"/> <!-- %productionCost base tier=6 factor=1 |||||| Chimera base is 36 (18 on wiki), Leman Russ is 24 on wiki-->
+				<oreCost base="60.0"/> <!-- %oreCost base tier=6 factor=1 |||||| Chimera base is 40, Leman Russ is 80 -->
+				<productionCost base="42.0"/> <!-- %productionCost base tier=6 factor=1 |||||| Chimera base is 36,  Leman Russ is 48 on wiki-->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>

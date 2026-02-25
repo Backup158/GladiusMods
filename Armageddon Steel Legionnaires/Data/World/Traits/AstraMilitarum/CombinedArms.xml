@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" rankMax="2" icon="Quests/AstraMilitarum/Chapter1">
+	<!-- Buff Infantry/Vehicles if adjacent to the opposite type -->
+	<!-- I'll let it when under other faction vehicles because that's appropriately fluffy -->
+	<!-- But buffing those allies directly doesn't feel appropriate -->
+	<modifiers>
+		<!-- Boosts Infantry -->
+		<!-- RDR to mimic taking cover -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<!-- Adjacent to a vehicle -->
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<!-- <faction name="AstraMilitarum"/> -->
+						<trait name="Vehicle"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Boost Vehicles-->
+		<!-- MDR to mimic covering fire from infantry -->
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<!-- Adjacent to infantry -->
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<!--  <faction name="AstraMilitarum"/> -->
+						<noTrait name="City"/>
+						<noTrait name="Fortification"/>
+						<noTrait name="MonstrousCreature"/>
+						<noTrait name="Vehicle"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<meleeDamageReduction add="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

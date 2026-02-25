@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff">
+	<modifiers>
+		<!-- Radius of 2 -->
+		<!-- 	City DR: Goes up to adding 0.34 for 0.67 total -->
+		<!-- 		10 steps of 3%, plus the a final step of 4%-->
+		<!-- 	Increased action points -->
+		<!-- 		+1 AP at 3, 7, and 11 -->
+		<!-- 	Morale Loss Factor: up to -90% -->
+		<!-- 		10 steps of 8%, plus the a final step of 10% -->
+		<!-- Note that the first check won't include itself -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="2" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<!-- 	First AP point step at 3 -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="3" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+				<actionPointsMax add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="4" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="5" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="6" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<!-- 	Second AP increase at 7 -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="7" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+				<actionPointsMax add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="8" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="9" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="10" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.03"/>
+				<moraleLossFactor add="-0.08"/>
+			</effects>
+		</modifier>
+		<!-- 	Final step: last AP increase and 4% DR -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="11" range="2">
+						<allied/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<cityDamageReduction add="0.04"/>
+				<moraleLossFactor add="-0.1"/>
+				<actionPointsMax add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<!-- Regain even more morale if Heroes are near -->
+	<!-- 	3 morale per hero, up to 3 heroes -->
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="2">
+						<allied/>
+						<trait name="Hero"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<morale add="3"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="2" range="2">
+						<allied/>
+						<trait name="Hero"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<morale add="3"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="3" range="2">
+						<allied/>
+						<trait name="Hero"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<morale add="3"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

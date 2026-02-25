@@ -1,0 +1,28 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement2">
+  <responses>
+    <action name="HammerOfWrath" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Tyranids/InstinctiveBehaviourOverride" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <attack sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <move sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <select sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <productionCompleted sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+
+    <action name="UseWeapon/WarpBarrage" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Stomp" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Tiamat_MT/Thornback" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> <!-- Living Incubator -->
+    <action name="Tiamat_MT/Carnifex" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/StoneCrusher" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Exocrine" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/HiveCrone" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Cerebore" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/BarbedHierodule" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Dominatrix" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Cerebore" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Tervigon0" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Tervigon1" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Tervigon2" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Tervigon3" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/Tervigon4" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+  </responses>
+</unit>

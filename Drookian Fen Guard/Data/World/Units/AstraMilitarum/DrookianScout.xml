@@ -207,20 +207,6 @@
 						</area>
 					</areas>
 				</target>
-				<!-- Gives Stealth to escape -->
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="Stealth" duration="2"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Waylay -->

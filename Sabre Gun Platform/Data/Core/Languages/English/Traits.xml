@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="SabreGroundAim" value="Sabre Heavy Barrels"/>
+	<entry name="SabreGroundAimDescription" value="When attacking vehicles, gain armour penetration and damage. Reduced accuracy against Flyers, Jetpacks, Jetbikes, and Skimmers."/>
+	<entry name="SabreGroundAimFlavor" value="To be mounted on a swivelable platform, twin-linked lascannons have a reduced core charge to prevent excessive overheating. However, specialised heavy barrels can be installed to improve effectiveness against armour. Much to the chagrin of the Adeptus Mechanicus, it is unknown why these barrels have no change in effect against flesh. In addition, the weight of these barrels makes it more difficult to swing the weapon around, making it harder to aim against agile foes."/>
+	<entry name="SabreSkyfire" value="<string name='Traits/Skyfire'/>"/>
+	<entry name="SabreSkyfireDescription" value="<string name='Traits/SkyfireDescription'/>"/>
+	<entry name="SabreSkyfireFlavor" value="<string name='Traits/SkyfireFlavor'/>"/>
+	<entry name="SabreMannedLoader" value="Loading Crew Present"/>
+	<entry name="SabreMannedLoaderDescription" value="When more than one cargo slot is filled, increase attacks and melee damage reduction. When more than two cargo slots are filled, gain an additional action and melee damage reduction."/>
+	<entry name="SabreMannedLoaderFlavor" value="While gunners can load weapons on their own, having a loading crew to handle ammo and barrel maintenance allows them to focus on continuing to lay down fire. Loaders also double as security, as they can deliver suppressing fire upon any approaching enemies from the ground."/>
+	<entry name="SabreLoaderPresent" value="Loader Present"/>
+	<entry name="SabreLoaderPresentDescription" value="Requires 2 or more cargo to be fired."/>
+	<entry name="SabreLoaderPresentFlavor" value="More weapons require more hands, even when they're all pointed in the same direction. In the Imperium, ammo doesn't load itself; the God-Emperor gifted Man with a high population for a reason."/>
+	<entry name="SabreFullyManned" value="Fully Manned"/>
+	<entry name="SabreFullyMannedDescription" value="Requires 3 or more cargo to be fired."/>
+	<entry name="SabreFullyMannedFlavor" value="<string name='SabreLoaderPresentFlavor'/>"/>
+</language>

@@ -25,7 +25,8 @@
 			<conditions>
 				<encounter>
 					<opponent match="Any">
-						<faction name="Orks"/>
+						<!-- <faction name="Orks"/> -->
+						<trait name="Orks/GreenTideHealing"/>
 						<!-- Custom Factions (crashes without them installed) -->
 						<!-- <faction name="Dreadheadz_MT"/> -->
 						<!-- On second thought, killing Tyranids doesn't feel like Imperialism, so just Orks lol -->

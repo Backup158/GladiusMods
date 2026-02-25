@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Units/AstraMilitarum/LordCommissar">
+	<modifiers>
+		<!-- Increased Morale -->
+		<modifier>
+			<effects>
+				<moraleMax add="1"/>
+			</effects>
+		</modifier>
+		<!-- Cowards Die First -->
+		<!-- If there's broken units in ranged, lose ranged attacks and you turn weapons on your comrades -->
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<faction name="AstraMilitarum"/>
+						<trait name="Shaken"/>
+						<noTrait name="Broken"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="-0.5"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<faction name="AstraMilitarum"/>
+						<trait name="Broken"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="-0.9"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

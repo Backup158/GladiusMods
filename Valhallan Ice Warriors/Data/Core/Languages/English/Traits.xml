@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <!-- Units -->
+    <entry name="AstraMilitarum/Valhallan" value="Valhallan"/>
+    <entry name="AstraMilitarum/ValhallanDescription" value="Decreased morale loss. Increased damage resistance when fighting in Arctic and Tundra tiles. Increased armour when in Cities, Imperial Ruins, and Outposts. Accuracy is increased when fighting Orks."/>
+    <entry name="AstraMilitarum/ValhallanFlavor" value="Hailing from the frigid ice world of Valhalla, the Valhallan Ice Warriors are stubborn defenders who operate in large numbers and thrive in Arctic conditions. After comets plunged the planet into the cold, humanity retreated underground into caves to survive. Soon after, the Orks landed, and the Valhallans stubbornly held onto every inch, fighting to the last man. Modern Valhallans honour their history by continuing to value resiliency and especially hating the Orks."/>
+    <entry name="AstraMilitarum/ValhallanHorde" value="Massed Infantry"/>
+    <entry name="AstraMilitarum/ValhallanHordeDescription" value="Movement is increased when within 5 tiles of an allied city, within 2 tiles of allied Hero, or within 3 tiles of 4 other Valhallans. Accuracy is decreased when alone, neutral when adjacent to 1 ally, and improved when adjacent to 2 or more allies."/>
+    <entry name="AstraMilitarum/ValhallanHordeFlavor" value="Valhallan Ice Warriors primarily operate in mass numbers, with every training exercise involving multiple units. In great numbers, morale is kept high, and the increased confidence makes taking accurate shots easier, plus being able to trust the flanks are watched. When formations are crushed, shots may not always find their marks, but Valhallans can be relied upon to die before surrendering a position."/>
+    <entry name="AstraMilitarum/GrowingNumbers" value="Growing Numbers"/>
+    <entry name="AstraMilitarum/GrowingNumbersDescription" value="Increases squad size by: 1 at <string name='Upgrades/AstraMilitarum/FoodEdict'/>, 1 at <string name='Upgrades/AstraMilitarum/GrowthEdict'/>, 2 at <string name='Upgrades/AstraMilitarum/BruteShield'/>, 2 at <string name='Upgrades/AstraMilitarum/HammerOfWrath'/>, and 3 at <string name='Upgrades/AstraMilitarum/LoyaltyEdict'/>."/>
+    <entry name="AstraMilitarum/GrowingNumbersFlavor" value="o o oh my, lord commissar you're so big"/>
+    <entry name="AstraMilitarum/Conscripts" value="Conscripted"/>
+    <entry name="AstraMilitarum/ConscriptsDescription" value="Allies do not lose morale when this unit is killed. Upon becoming Broken, this unit flees the battlefield. When an allied Commissar is within 2 tiles, this unit has no Influence upkeep."/>
+    <entry name="AstraMilitarum/ConscriptsFlavor" value="Degenerates and criminals may not be able to produce much value in a manufactorum, but they're still useful as somewhat warm bodies to throw at machine gun nests. Nobody will miss them, but nearby units may find their equipment missing if they don't watch out for conniving conscripts. Even if they don't steal everything that isn't nailed down, conscripts cannot be relied upon to die standing for the Emperor. When the going is rough, they're known to flee, and whether the Commissars can cut them down fast enough or not, the unit is lost either way."/>
+    <entry name="AstraMilitarum/ValhallanSniper" value="Urban Marksmen"/>
+    <entry name="AstraMilitarum/ValhallanSniperDescription" value="Increased effectiveness against enemy infantry in Cities, Imperial Ruins, or Outposts (not counting grenades)."/>
+    <entry name="AstraMilitarum/ValhallanSniperFlavor" value="Nobody is safe from Valhallan Sharpshooters, and they make sure everyone knows that. Sharpshooters have honed their eyes quickly find the best positions in cities and where to strike from. Officers and weapon specialists are obvious targets, but even typical grunts can find themselves bleeding out with a gut shot. While it's not the best move tactically, fear spreads faster than even promethium-fuelled flames."/>
+    <entry name="AstraMilitarum/ValhallanShockTrooper" value="Urban Shock Troops"/>
+    <entry name="AstraMilitarum/ValhallanShockTrooperDescription" value="Takes less damage when moving. Increased damage and increased melee attacks against enemy units (besides the Headquarters itself) in Cities, Imperial Ruins, or Outposts."/>
+    <entry name="AstraMilitarum/ValhallanShockTrooperFlavor" value="Shock Armies are trained and deployed to assault hardened positions in urban environments. They are accustomed to clearing winding streets with moderately high casualties."/>
+    <entry name="AstraMilitarum/ValhallanFrontovik" value="Hardened Veteran"/>
+    <entry name="AstraMilitarum/ValhallanFrontovikDescription" value="Unit has increased damage resistance when adjacent to 2 allies, which is increased if those allies are Valhallans. If the unit has not moved, Rapid Fire applies at all ranges."/>
+    <entry name="AstraMilitarum/ValhallanFrontovikFlavor" value="The most experienced Valhallan grunts know that while dying for the Emperor is glorious, it's more effective to focus on taking as many enemy lives first. The Emperor only asks that we die standing, but it's a lot easier to make that a worthwhile trade when positioned in cover overlooking a kill zone."/>
+    <!-- From Actions -->
+    <entry name="AstraMilitarum/Ura" value="Ura!"/>
+    <entry name="AstraMilitarum/UraDescription" value="Unit has decreased morale loss, increased damage resistance, increased damage, and increased melee attacks; in addition, they gain further damage resistance if the unit has moved without attacking, to take less damage from Overwatch."/>
+    <entry name="AstraMilitarum/UraFlavor" value="&quot;For the Imperium! For the Emperor! Ura!&quot;"/>
+    <entry name="AstraMilitarum/UraCooldown" value="Recently Charged"/>
+    <entry name="AstraMilitarum/UraCooldownDescription" value="Prevents usage of Ura!"/>
+    <entry name="AstraMilitarum/UraCooldownFlavor" value="&quot;Incident Report Theta-Whiskey 891: The 371st, 582nd, 948th, and 717th Valhallan regiments charged towards friendly lines, causing significant casualties between themselves and the Coronans. Investigations reveal heavy intoxication, with many Valhallans not even sobering up after beatings. After thorough interrogation, the Inquisition has found not Chaos taint, but simple incompetance. Valhallan commanders were fuelling continuous mass-infantry assaults with alcohol, until the men of these regiments were physically incapable of distinguishing between friend and foe. The offending regiments have been punished by decimation, the commanders have been stripped of rank and servitorised, and the unaffected regiments have been assigned to whipping duty.&quot; - Interrogator Pachek"/>
+    <entry name="AstraMilitarum/BarrierSquadPresent" value="Barrier Squad Present"/>
+    <entry name="AstraMilitarum/BarrierSquadPresentDescription" value="Allied infantry have reduced morale loss and restore more morale every turn."/>
+    <entry name="AstraMilitarum/BarrierSquadPresentFlavor" value="&quot;Shut up, Alexey. I don't care if we CAN kill the barrier squads! We can kill the enemy just as easily, and we can do that WITHOUT the Commissariat snatching up our families!&quot; - conversation caught by a nearby vox-recorder of (most likely) Private Ivanov after being ordered to take a fortified T'au position."/>
+    <!--    Commissar -->
+    <entry name="DisciplineFlat" value="<string name='Traits/Discipline'/>"/>
+    <entry name="DisciplineFlatDescription" value="<string name='Traits/DisciplineDescription'/>"/>
+    <entry name="DisciplineFlatFlavor" value="<string name='Traits/DisciplineFlavor'/>"/>
+    <entry name="BringItDownFlat" value="<string name='Traits/BringItDown'/>"/>
+    <entry name="BringItDownFlatDescription" value="<string name='Traits/BringItDownDescription'/>"/>
+    <entry name="BringItDownFlatFlavor" value="<string name='Traits/BringItDownFlavor'/>"/>
+    <entry name="AstraMilitarum/GulagGains" value="Sentence Delivered"/>
+    <!-- <entry name="AstraMilitarum/GulagGainsDescription" value=""/> -->
+    <entry name="AstraMilitarum/GulagGainsFlavor" value="Forced labour, while not the most efficient, is overall quite effective when you have a limitless supply of prisoners. Typically, prisoners are sent into dangerous mines, with freedom promised if they can deliver enough ore by the end of the month. Unofficially, backstabbing is overlooked since it helps control the constantly growing traitor population. Anyone who meets these bounties is collected and placed into a soundproof voidship, where they are granted the Emperor's Peace."/>
+    <!--    Commander-->
+    <entry name="HoldTheLine" value="<string name='Actions/AstraMilitarum/HoldTheLine'/>"/>
+    <entry name="HoldTheLineDescription" value="Infantry which have not moved take less damage; Valhallans also gain increased melee attacks. Infantry within 5 tiles of an allied city have improved defences and damage. Valhallans within 3 tiles of allied city heal every turn."/>
+    <entry name="HoldTheLineFlavor" value="<string name='Actions/AstraMilitarum/HoldTheLineFlavor'/>"/>
+    <entry name="ThePeoplesCommissar" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissar'/>"/>
+    <entry name="ThePeoplesCommissarDescription" value="Infantry have less upkeep and restore morale each turn. Valhallans gain melee attacks."/>
+    <entry name="ThePeoplesCommissarFlavor" value="Valhallans adore their drinks. Naturally you'll find the usual suspects, alcohol and recaf, but there's one exotic choice: tanna. A leafy plant native to Valhalla, it is often brewed into a tea with a pungent aftertaste. Few offworlders can stomach it; Valhallans crave it."/>
+    <entry name="AstraMilitarum/StrongpointReinforced" value="Reinforced Strongpoint"/>
+    <entry name="AstraMilitarum/StrongpointReinforcedDescription" value="The Fortification (excluding Headquarters) gain increased offensive capabilities. When adjacent to 3 allies, it takes less damage."/>
+    <entry name="AstraMilitarum/StrongpointReinforcedFlavor" value="<string name='Actions/AstraMilitarum/DefendThisStrongpointFlavor'/>"/>
+    <entry name="TheMotherlandCalls" value="<string name='Actions/AstraMilitarum/TheMotherlandCalls'/>"/>
+    <entry name="TheMotherlandCallsDescription" value="Infantry gain an additional action and damage reduction. Valhallans gain additional damage reduction."/>
+    <entry name="TheMotherlandCallsFlavor" value="<string name='Actions/AstraMilitarum/TheMotherlandCallsFlavor'/>"/>
+    <!--    Night Witches-->
+    <entry name="AstraMilitarum/NightBomber" value="<string name='Actions/AstraMilitarum/NightBomber'/>"/>
+    <entry name="AstraMilitarum/NightBomberDescription" value="Unit gains damage reduction, increased damage against Headquarters, and even more damage against Fortifications (excluding Headquarters)."/>
+    <entry name="AstraMilitarum/NightBomberFlavor" value="Undetected, unexpected, bombers slip past enemy defences under the cover of night. Troopers are shaken awake by crashing structures and explosions, only to find their bunkers and turret nests in smoldering ruins. By this handiwork, they know they have been struck by the 588th Night Bombers."/>
+    <entry name="AstraMilitarum/FlyLow" value="<string name='Actions/AstraMilitarum/FlyLow'/>"/>
+    <entry name="AstraMilitarum/FlyLowDescription" value="Gains accuracy but takes more damage."/>
+    <entry name="AstraMilitarum/FlyLowFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
+    <entry name="AstraMilitarum/FlyLowSlowdown" value="<string name='Actions/AstraMilitarum/FlyLow'/> Slowdown"/>
+    <entry name="AstraMilitarum/FlyLowSlowdownDescription" value="Reduces movement. Removed after levelling up the action."/>
+    <entry name="AstraMilitarum/FlyLowSlowdownFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
+    <entry name="WitchHarassment" value="Harassed"/>
+    <entry name="WitchHarassmentDescription" value="Accuracy is decreased and morale is lost every turn."/>
+    <entry name="WitchHarassmentFlavor" value="Being awoken by bullets and bolt shells tearing apart the men in the next cot changes a man. Vigilence must be maintained through the night, reducing rest and therefore combat effectiveness for the next day."/>
+    <entry name="AstraMilitarum/LoadExtraAmmo" value="<string name='Actions/AstraMilitarum/LoadExtraAmmo'/>"/>
+    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="Greatly improves offence. Heavy Bomb Clusters are refilled."/>
+    <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
+    <!-- For Weapons -->
+    <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
+    <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on tiles which are neither Arctic nor Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
+    <entry name="ValhallanHotWeaponFlavor" value="In cold environments, weapons can cool down quicker, and natives of those lands typically modify their weapons to take advantage of this. Of course, this may backfire when they're deployed to environments outside of their preferred."/>
+    <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
+    <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
+    <entry name="AstraMilitarum/ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
+    <entry name="ValhallanUnwieldy" value="Indirect Fire Inaccuracy"/>
+    <entry name="ValhallanUnwieldyDescription" value="Decreased accuracy against units that are not Fortifications."/>
+    <entry name="ValhallanUnwieldyFlavor" value="Hitting a moving target is hard enough. Hitting a moving target by predicting its path of travel and intercepting that with a calculated direct hit from a mortar shell is much harder."/>
+    <entry name="TripodSetup" value="Requires Tripod"/>
+    <entry name="TripodSetupDescription" value="When wielded by infantry, this weapon cannot be fired immediately after moving."/>
+    <entry name="TripodSetupFlavor" value="Many weapons are meant to be mounted on vehicles, but stubborn infantrymen find a way to make it work. Will the results be cumbersome and painful? Yes. Will that stop them? No."/>
+</language>

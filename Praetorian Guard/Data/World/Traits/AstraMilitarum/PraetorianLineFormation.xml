@@ -9,7 +9,7 @@
                 <unit match="Any">
                     <unitsInRange count="1" range="1">
                         <allied/>
-						<type name="AstraMilitarum/PraetorianGuardsmen"/>
+						<trait name="AstraMilitarum/PraetorianLineFormation"/>
                     </unitsInRange>
                     <allied/>
                 </unit>

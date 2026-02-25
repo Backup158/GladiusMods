@@ -12,9 +12,17 @@
 				<energyUpkeep mul="0.17"/>
 				<influenceUpkeep mul="0.17"/>
 				<!-- Demoralized and reduced attacks due to lack of weapons -->
-				<morale add="-2"/>
+				<morale add="-4"/>
 				<attacks mul="-0.25"/>
 			</effects>
 		</modifier>
 	</modifiers>
+	<!-- Continues to lose morale -->
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<morale add="-2"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
 </trait>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Actions/AstraMilitarum/TerraxThrowPlasma">
+	<model>
+		<grenadeWeapon effectScale="0.75"
+				fireSound="Weapons/GrenadeThrow"
+				fireSoundCount="6"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
+				<rangedDamage add="3.33"/> <!-- other one had this nerfed from 3 to 2 plus lowered attacks. +33% dmg of that is 2.67. | %rangedDamage add strength=4 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="1"/>
+	<traits>
+		<trait name="Assault"/>
+		<trait name="Grenade"/>
+		<trait name="Blast"/>
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+
+		<trait name="AstraMilitarum/LasDamage" requiredUpgrade="AstraMilitarum/LasDamage"/>
+		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
+		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
+
+		<trait name="AstraMilitarum/TerraxThrowingPistol"/>
+	</traits>
+</weapon>

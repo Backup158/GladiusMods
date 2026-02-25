@@ -1,0 +1,34 @@
+Adds inventory slots support to various standalone Space Marine mods which cover Chapters that are included in Chapters of the Imperium.
+
+[h1]Supported Mods[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2265699020]Chapter Approved: White Scars[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2177551285]Apple's Blood Angels[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3568662720]Apple's Blood Angels - Ultima Founding Patch[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2572170398]Proper Space Wolves (Vlka Fenryka)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3569640767]Proper Space Wolves (Vlka Fenryka) - Ultima Founding Patch[/url]
+
+[h1]Based on[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2608756174]Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2608756871]Inventory for All Units (6 Slots)[/url]
+
+[h2]Versions of this Patch[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255575]Standalone Space Marine Chapters - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255631]Standalone Space Marine Chapters - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255683]Standalone Space Marine Chapters - Inventory for All Units (6 Slots)[/url]
+[h2]Standalone Patches[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735247]Apple's Blood Angels - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735783]Apple's Blood Angels - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670736331]Apple's Blood Angels - Inventory for All Units (6 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735355]CA White Scars - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735928]CA White Scars - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670736451]CA White Scars - Inventory for All Units (6 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735445]Proper Space Wolves - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670736016]Proper Space Wolves - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670736547]Proper Space Wolves - Inventory for All Units (6 Slots)[/url]
+
+[h1]Installation[/h1]
+This patch should work anywhere, but I recommend placing it before (i.e. visually higher) than the patched mods. I've had reports where not using all factions will make you crash, so use the standalone patches if that's the case. 
+It's ok if you don't use the Ultima Founding patches; it will just patch whichever units you use. There will be some errors in the logs and Compendium, but you can ignore those.
+
+This patch's location in relation to Skirata's mod doesn't matter (technically, this doesn't require Skirata's mods, but using this without them doesn't make sense lol).

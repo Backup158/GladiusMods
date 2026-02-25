@@ -1,0 +1,34 @@
+Adds vehicles based on the [b]Taurox[/b] to the Astra Militarum. It's a transport like the Chimera, but more heavily armed and armoured.
+
+[h1]Units Added[/h1]
+[table]
+[tr]
+[th]Units Added[/th]
+[/tr]
+[tr]
+[td]T5 [b]Extra Infantry Armour[/b][/td][td][b]Taurox[/b]: Heavy APC with Health and Armour values between a Chimera and Leman Russ. Armed with dual Autocannons, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array. Not [i]Amphibious[/i], but still has 4 Cargo Slots.
+[b]Pantera Pattern Assault Taurox[/b]: Medium APC that rapidly deploys infantry. It's more akin to an Assault Vehicle Chimera. Armed with a pinning Gatling Cannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Lasgun Array. Only has 3 Cargo Slots.
+[/td]
+[/tr]
+[tr]
+[td]T6 [b]Improved Frag Casings[/b][/td][td][b]Tortuga Pattern Taurox[/b]: Heavy IFV slightly tougher than a typical Taurox. Armed with a Twin-linked Autocannon, a Storm Bolter[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], plus a manned Hot-Shot Lasgun Array and a manned mortar array. Has fewer Cargo Slots to make space for the weapons[spoiler](Only 3 slots)[/spoiler].
+[/td]
+[/tr]
+[tr]
+[td]T8 [b]Hammer of Wrath[/b][/td][td][b]Ryza Pattern Taurox Prime[/b]: Heavy IFV that rapidly deploys infantry. Armed with a plasma cannon, dual heavy flamers[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler], a manned Hot-Shot Lasgun array, and a manned Storm Bolter array[spoiler](Unlocked at T8 [b]Additional Heavy Bolters[/b])[/spoiler]. Has fewer cargo slots compared to a typical Taurox, but is almost as resilient as a Leman Russ Battle Tank.
+[/td]
+[/tr]
+[/table]
+No custom models. I'm too lazy to learn Blender and how the bones work here.
+
+[h1]Additional Notes[/h1]
+[b]NOTE:[/b] Devian has a Taurox with models (as of at least 2025-02-08) in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3169959149]Heroes of Legend[/url]. I'll leave this up for the people who don't want that implementation and/or the whole Astra Militarum package.
+[h2]Lore and Design[/h2]
+The Taurox was based on the 9th Edition Codex. The rest of these are my homebrews.
+The Pantera Pattern was made since even though the Rapid Deployment ability could be akin to [i]Assault Vehicle[/i], I didn't put it on the main one since I didn't want to make an Assault Vehicle so resilient. That's why this one is down-armoured and has its weapon swapped out. Even though [i]Pinning[/i] can be counter-productive if you're going to immediately follow it up with infantry assaults, it's flavourful, and I prefer to keep assault vehicles weaker in terms of damage output.
+The Tortuga Pattern came about because I was looking for something that better fit the IFV role. It felt appropriate for this to sit close to the frontline and lob shells at the enemy.
+The Ryza Pattern Taurox Prime was the product of wanting an analogue to the (Guardsmen --> Tempestus Scions) research path. Hey look, that's literally the Taurox Prime! Making that research path analogous for the Taurox meant the Taurox Prime would be much later in the tech tree. I took that as a reason to let loose and give it more than it probably deserves to have. Mainly, imagining the bright blue glow of a plasma cannon on top of a Scion blue Taurox Prime felt badass as fuck.
+
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Chimera voicelines.
+No Gladius+ patch since it's about the same size as a vanilla Chimera, based on the measurements I saw on various forums.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="Fortification"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="MonstrousCreature"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementMax mul="-0.67"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<hitpoints add="-3"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

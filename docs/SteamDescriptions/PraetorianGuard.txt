@@ -1,0 +1,37 @@
+Adds various units from the Praetorian Guard to the Astra Militarum. 
+Praetorians are renowned for their bravery [spoiler](extra base morale and [i]Praetorian[/i]: 10% more resilient to morale loss)[/spoiler] and expertise in exterminating savages [spoiler]([i]Sneering Imperialist[/i]: +17% Accuracy and +17% Ranged Attacks against Neutral units, and +10% Accuracy against Orks)[/spoiler].
+While they are a bit more expensive, Praetorians operate best alongside each other [spoiler]([i]Praetorian[/i]: +1 Accuracy and +1 Morale when adjacent to another Praetorian)[/spoiler], with further benefits for Praetorian Guardsmen and Praetorian Grenadiers near each other.
+
+No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
+
+[h1]Units and Unlocks[/h1]
+[table]
+[tr] 
+[td]T0: [b]Praetorian Guardsmen[/b] - Stronger Guardsmen alternative, with extra health and morale but slightly higher costs, which gains strength when in formation [spoiler]([i]Line Formation[/i]: +17% Attacks when adjacent to other units with this trait, so Praetorian Guardsmen or Praetorian Grenadiers)[/spoiler].
+[/td]
+[/tr]
+[tr] 
+[td]T0: [b]Praetorian Commissar[/b] - Alternative Commissar who is more effective around Praetorians [spoiler]([i]Praetorian Inspiration[/i]: +1 Morale regeneration and +17% Ranged Accuracy)[/spoiler], but fails to lead troops with... weaker wills [spoiler]([i]Praetorian Intimidation[/i]: -1 Morale regeneration to non-Praetorians with <6.5 morale)[/spoiler]. Their imposing presence and hubris inspires Praetorians, but makes them more vulnerable to enemy fire [spoiler]([i]Praetorian Officers Don't Duck![/i]: -17% Ranged Damage Reduction)[/spoiler]. [i]Summary Execution[/i] kills an additional squad member.
+[/td]
+[/tr]
+[tr] 
+[td]T2: [b]Praetorian Grenadiers[/b] - Even stronger Guarsdmen alternative (extra health and morale but more expensive), which specialises in using grenades [spoiler](halved cooldown)[/spoiler] and assaulting enemy lines [spoiler]([i]Shock Trooper[/i]: +17% Ranged Damage Reduction if the unit has moved this turn)[/spoiler]. Charge through enemy fire then blow them all to Hel! Unlocks at [u]Krak Grenades[/u].
+[/td]
+[/tr]
+[tr] 
+[td]T2: [b]Praetorian Maksim Stubgun Squads[/b] - Heavy Weapons Squads alternative with a machine gun that chews through enemy infantry[spoiler](Heavy Stubber that pins enemies and does extra damage against Infantry)[/spoiler]. Unlocks at [u]Heavy Weapons Squads[/u] but uses the Field Ordnance Battery models.
+[/td]
+[/tr]
+[tr] 
+[td]T5: [b]Praetorian Hussars[/b] - Attilan Rough Riders alternative that are lighter, cheaper, and more focused on exploiting gaps in defences. Instead of explosive lances, they are armed with sabres designed to cut down cowards as they flee [spoiler]([i]Cut Them Down![/i]: +17% Melee Attacks against enemies with <6.5 morale)[/spoiler]. They can start an attack with lances, but must restock them [spoiler]([u]Lance Attack[/u]: Attack an adjacent enemy without consuming movement, with a 3 turn cooldown)[/spoiler]. Unlocks at [u]Atillan Rough Riders[/u].
+[/td]
+[/tr]
+[/table]
+
+[h1]Further details[/h1]
+Demolition Pack DLC: Field Ordnance Battery models. May not actually be required.
+Onslaught Pack DLC: Atillan Rough Rider tech for Hussars.
+
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter.

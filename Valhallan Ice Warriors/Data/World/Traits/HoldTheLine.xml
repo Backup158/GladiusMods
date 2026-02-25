@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" rankMax="2" icon="Traits/Transport">
+	<modifiers>
+		<!-- So it's not useless away from home -->
+		<modifier>
+			<conditions>
+				<unit>
+					<!-- Allied Infantry -->
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<!-- Not Moved -->
+					<notMovedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<feelNoPainDamageReduction mulMin="0.03" addMax="0.1"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<!-- Allied Valhallan Infantry -->
+					<allied/>
+					<trait name="AstraMilitarum/Valhallan"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<!-- Not Moved -->
+					<notMovedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<meleeAttacks mulMin="0.03" addMax="0.11"/>
+			</effects>
+		</modifier>
+		<!-- City Bonuses -->
+		<modifier>
+			<conditions>
+				<unit>
+					<!-- Allied Infantry -->
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<!-- City within 5 tiles -->
+					<unitsInRange count="1" range="5">
+						<allied/>
+						<trait name="Headquarters"/>
+                    </unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.17"/>
+				<meleeDamageReduction addMin="0.17" addMax="0.33"/>
+				<damage mulMin="0.17" mulMax="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<!-- Allied Valhallans -->
+					<allied/>
+					<trait name="AstraMilitarum/Valhallan"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/> 
+					<!-- City within 3 tiles -->
+					<unitsInRange count="1" range="3">
+						<allied/>
+						<trait name="Headquarters"/>
+                    </unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<hitpoints addMin="1" addMin="3"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

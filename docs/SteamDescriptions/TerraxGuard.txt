@@ -1,0 +1,58 @@
+Adds the elite infantry of the Terrax Guard to the Astra Militarum. 
+
+On Terrax, the Schola Excubitos, a massive Schola Progenium, trains all regimental forces. In essence, every Guardsman in the Terrax Guard is trained, equipped, and held to the same standards as Tempestus Scions and Commissars. Even the lowest Guardsman is elite, and they carry this with pride. They're even equipped with carapace armour. When every soldier is instilled with deep discipline and a duty to keep their allies accountable, other regiments have come to refer to the Terrax Guard as a regiment of Commissars. 
+Most flaunted is their discipline, and they hold their peers to these impossible standards. Even in the midst of battle, fleeing troops will find that the Terrax Guard can swiftly turn their weapons on cowards. Cowardice is an affront to Terrax honour, and the thought of letting it go unpunished is unbearable[spoiler]([i]Terrax Guard[/i]: Increased morale. Has reduced ranged attacks if adjacent to a Shaken ally, moreso if adjacent to a Broken ally)[/spoiler]. The Commissariat has given its blessing for these executions, as it's always useful to remind the common soldier that watchful eyes are everywhere.
+
+[h1]Units and Unlocks[/h1]
+All units have: 
+> [i]Terrax Guard[/i]
+> [u]Terrax Discipline[/u]: Grants adjacent infantry units and self increased accuracy and reduced morale loss.
+> [u]Summary Execution[/u]: Members of the Terrax Guard can perform Summary Executions.
+
+[table]
+[tr] 
+[td]T4: [b]Terrax Guardsmen[/b] - Elite infantry geared for close combat. Half the squad is equipped with Meltaguns as special weapons.
+Like a Commissar but without the Iron Halo ranged damage reduction to keep them in line with Scions.
+[u]Fire Meltaguns[/u]: Fires Meltaguns with a 3 turn cooldown. Has decreased attacks to simulate only half the squad carrying them.
+
+Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[/td]
+[/tr]
+[tr] 
+[td]T4: [b]Terrax Lascannon Squad[/b] - Elite ranged infantry with anti-armour weapons. Can execute troops within 3 tiles, including vehicles. 
+[u]Lascannon Execution[/u]: Kills two models instead, but grants the most morale regain of all Terrax infantry squads.
+
+Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[/td]
+[/tr]
+[tr] 
+[td]T8: [b]Terrax Storm Troopers[/b] - Elite close combat infantry with volatile anti-armour weapons. Plasma Pistols can be overcharged for further deadly effect. Can inspire and execute adjacent troops, with greater morale gain from executions.
+Equipped with plasma pistols that are weaker than the Astartes ones[spoiler](-50% damage and -33% attacks, which sounds like a harsh nerf, but remember that you have 8 guys shooting these, compared to the 1 Chaos Lord)[/spoiler].
+[u]Overcharge Plasma Pistol[/u]: Gives [i]Overcharged Weapon[/i] for 1 turn with a 3 turn cooldown.
+[i]Overcharged Weapon[/i]: +33% damage and +2 armour penetration, at the cost of +20% self damage. 
+[u]Throw Overloaded Plasa Pistol[/u]: Use the pistols as a grenade, dealing massive damage but removing the weapons from use for 10 turns.
+These exploding pistols do more damage, have more attacks, and have [i]Blast[/i]. I couldn't make this require [i]Overcharged Weapon[/i], so activating that before using this is just for roleplay reasons.
+[i]Pistol Thrown[/i]: Makes ranged weapon unavailable to use through accuracy debuffs.
+Has increased ranged damage reduction, but not to the extent of the Iron Halo.
+
+Constructed in the Imperial Barracks after researching [b]Hammer of Wrath[/b].[/td]
+[/tr]
+[tr] 
+[td]T8: [b]Terrax Colonel[/b] - Elite Hero unit that provides bonuses to nearby allied units, with further effects for members of the Terrax Guard.
+Equipped with a power fist in the left hand. Right hand can swap between a power sword and a 2 range bolt pistol. Has increased ranged damage reduction on top of the Iron Halo.
+By default, can use max rank [u]Summary Execution[/u].
+[u]Colonel's Gaze[/u]: An increased Aura of Discipline. Grants [i]Discipline[/i] to adjacent allied infantry. Grants [i]Colonel's Gaze[/i] to allied infantry within 2 tiles (3 tiles when the ability is fully upgraded).
+[i]Colonel's Gaze[/i]: +[0.5, 1.5] accuracy and -[11%, 33%] morale loss. Terrax Guard gain +[11%, 33%] ranged attacks and +[22%, 66%] melee attacks.
+[u]Bring It Down[/u]: Gets 2 range when fully upgraded.
+[u]Kill or Be Killed[/u]: Motivate a unit to fight harder. If they fail to kill an enemy, execute part of the squad.
+Gives [i]Marked for Execution[/i] until it is removed by [i]Kill or Be Killed[/i]. -50% health at the start of each turn (so the first tick is after the turn rolls over).
+Gives [i]Kill or Be Killed[/i] for 1 turn. Unit gains gain +[11%, 33%] ranged attacks, +[33%, 100%] melee attacks, and +[1, 3] armour penetration. Members of the Terrax Guard take +50% damage from enemies, since Colonels like to use these orders to get rid of up-and-coming competition. Upon killing an enemy, remove [i]Marked for Execution[/i]. If an enemy is not killed before this effect expires, the health drain will remain. When the ability is fully upgraded, this trait will last for 2 turns.
+[u]Iron Will[/u]: Has a 5 turn cooldown instead.
+
+Constructed in the Shrine of the Aquila after researching [b]Hammer of Wrath[/b].[/td]
+[/tr]
+[/table]
+
+No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
+
+[h1]Further details[/h1]
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Lord Commissar lines.

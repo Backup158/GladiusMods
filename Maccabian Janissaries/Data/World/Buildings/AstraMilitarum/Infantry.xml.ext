@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<!-- T8 Infantry -->
+		<produceUnit unit="AstraMilitarum/MaccabianJanissary" requiredUpgrade="AstraMilitarum/RelicPlating"/>
+	</actions>
+</building>

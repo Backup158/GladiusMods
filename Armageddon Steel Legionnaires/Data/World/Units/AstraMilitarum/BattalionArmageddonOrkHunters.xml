@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnDistanceMin="6">
+	<model>
+		<unit mesh="Units/ChaosSpaceMarines/ChaosCultist"
+				material="Units/ChaosSpaceMarines/ChaosCultist"
+				idleAnimation="Units/ChaosSpaceMarines/ChaosCultistIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.75 0.75 0.75"
+				bloodBone="Bone001"
+				walker="1"/>
+	</model> <!-- Taller than the normal cultists -->
+	<group size="16" rowSize="4" memberDeltaX="50" memberDeltaY="40"/>
+	<weapons>
+		<!-- Autopistol to Slugga -->
+		<!-- I tried snazzgun since it's a t3 unit, but that's just broken lmao -->
+		<!-- traits will make up for it -->
+		<weapon name="Slugga">
+ 			<model>
+				<!--
+				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/Autopistol"
+						material="Units/ChaosSpaceMarines/ChaosCultist"
+						bone="Bone006"
+						muzzleBone=".Muzzle"
+						fireInterval="0.25"/>
+				-->
+				<projectileWeapon mesh="Weapons/Orks/Slugga"
+						material="Weapons/Orks/ChoppaSlugga"
+						muzzleBone=".Muzzle" 
+						bone="Bone006" 
+						fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<!-- Close Combat Weapon to Chainsword -->
+		<weapon name="Chainsword">
+ 			<model>
+				<weapon mesh="Weapons/SpaceMarines/Chainsword" 
+						material="Weapons/SpaceMarines/Chainsword" 
+						fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<!-- Grenades -->
+		<!-- bone is from the body, where the grenades spawn from -->
+		<!-- Instead of frags they use Stikkbombs -->
+		<weapon name="Stikkbomb" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone006"/>
+			</model>
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone006"/>
+			</model>
+		</weapon>
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone006"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="2"/> <!-- Guardsman is 4, Kommando is 2 | %armor base armor=6+ -->
+				<hitpointsMax base="2.5"/> <!-- Guardsman is 2, Kommando is 3 | %hitpointsMax base toughness=3 wounds=1 -->
+				<meleeAccuracy base="8"/> <!-- Guardsman is 6, Kommando is 8 | %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="1"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<moraleMax base="6"/> <!-- Guardsman and Scions are 6 %moraleMax base leadership=5 -->
+				<movementMax base="3"/> <!-- Guardsman and Kommando is 3 -->
+				<productionCost base="58.0"/> <!-- Guardsman is 24, Scions are 36; BattGuard is 54 | %productionCost base tier=4 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+				<foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+				<foodCost base="60.0"/> <!-- Guardsman is 10 | %foodCost base tier=4 factor=0.5 -->
+				<oreCost base="60.0"/> <!-- Guardsman is 10 | %oreCost base tier=4 factor=0.5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseColonizersScore base="1.0"/>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.7"
+						endFire="1.8"
+						chargeAnimation="Units/ChaosSpaceMarines/ChaosCultistCharge"
+						chargeBeginFire="0.7"
+						chargeEndFire="1.2"
+						meleeAnimation="Units/ChaosSpaceMarines/ChaosCultistMelee"
+						meleeBeginSwing="0.2"
+						meleeEndSwing="0.9"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistDie"
+						animationCount="2"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.35"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<!-- Grenades -->
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.833333333333"/>
+			</model>
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="AstraMilitarum/BlastDamage"> <!-- Improved Frag Casing T6 -->
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<!-- Medipack -->
+		<!-- with the passive healing, this is overkill -->
+		<!--
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		-->
+		<!-- Traps -->
+		<genericUnitAbility cooldown="5"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/ShatterDefences"
+				name="AstraMilitarum/OrkHuntersTrap">
+			<model>
+				<action sound="Weapons/Choppa" soundCount="3"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyUnit/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="OrkHuntersTrap"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="AstraMilitarum/ArmageddonOrkHunters"/>
+		<!-- Steel Legion Traits -->
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
+		<trait name="AstraMilitarum/ArmageddonDeployment"/>
+		<trait name="AstraMilitarum/ArmageddonDeploymentHealingRate" requiredUpgrade="AstraMilitarum/MediPack"/>
+		<!-- Kommando Traits -->
+		<trait name="Orks/CreateOrkoidFungusOnDeath"/>
+		<trait name="Orks/GreenTideHealing"/>
+		<trait name="Infiltrate"/>
+		<trait name="MobRule"/>
+		<trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="AstraMilitarum/MediPack"/> <!-- this upgrade is reasonably close enough -->
+		<trait name="Stealth"/>
+		<!-- Reinforcements -->
+		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
+		<trait name="AstraMilitarum/BattalionGuardman"/>
+		<trait name="Bulky"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/MeltaBomb" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="AstraMilitarum/OrkHuntersTrap" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Complete" soundCount="1"/>
+	</responses>
+</unit>

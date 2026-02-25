@@ -11,7 +11,7 @@
 				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
-	<group size="6" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
+	<group size="5" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="HotShotLasgun">
 			<model>
@@ -48,12 +48,12 @@
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<!-- <meleeInitiative base="3"/> -->
-				<oreCost base="15"/> <!-- 20 %oreCost base tier=4 factor=0.5 -->
+				<oreCost base="20"/> <!-- 20 %oreCost base tier=4 factor=0.5 -->
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<moraleMax base="5"/> <!-- 6 %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="30.0"/> <!-- 36 | %productionCost base tier=4 factor=1 -->
-				<rangedAccuracy base="10"/> <!-- 8 | %rangedAccuracy base ballisticSkill=3 -->
+				<productionCost base="36.0"/> <!-- 36 | %productionCost base tier=4 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- 8 | %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
 	</modifiers>
@@ -203,20 +203,6 @@
 						</area>
 					</areas>
 				</target>
-				<!-- Gives Stealth to escape -->
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="Stealth" duration="2"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
 	</actions>

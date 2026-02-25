@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AstraMilitarum/FortressOfArroganceDiffuse"/>
+		<texture name="Units/AstraMilitarum/BanebladeNormal"/>
+		<texture name="Units/AstraMilitarum/BanebladeSIC"/>
+		<texture name="ShadowMapColor"/>
+		<texture name="Units/AstraMilitarum/BanebladeAnimation"/>
+	</textures>
+</material>

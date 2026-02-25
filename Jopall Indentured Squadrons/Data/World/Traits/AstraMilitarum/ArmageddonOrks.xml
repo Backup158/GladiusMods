@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/AstraMilitarum/ArmageddonOrks">
+<trait alwaysVisible="1" category="Buff">
 <!--<trait alwaysVisible="1" category="Buff"> -->
 	<modifiers>
 		<modifier>
 			<conditions>
 				<encounter>
 					<opponent>
-						<faction name="Orks"/>
+						<!-- <faction name="Orks"/> -->
+						<trait name="Orks/GreenTideHealing"/>
 					</opponent>
 				</encounter>
 			</conditions>

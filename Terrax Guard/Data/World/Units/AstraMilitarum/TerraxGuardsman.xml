@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/LordCommissar"
+				material="Units/AstraMilitarum/LordCommissar"
+				idleAnimation="Units/AstraMilitarum/LordCommissarIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1 1 1"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+	<group size="7" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="TerraxHotshotLaspistol">
+			<model>
+				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						bone="RightHandBone"
+						muzzleBone=".Muzzle0"
+						fireInterval="0.35"/>
+			</model>
+		</weapon>
+		<weapon name="Chainsword">
+			<model>
+				<weapon mesh="Weapons/SpaceMarines/Chainsword"
+						material="Weapons/SpaceMarines/Chainsword"
+						bone="LeftHandBone"
+						fireInterval="1.0"/>
+			</model>
+		</weapon>
+		<weapon name="TerraxMeltagun" slotName="Meltagun" enabled="0">
+			<model>
+				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						bone="RightHandBone"
+						muzzleBone=".Muzzle0" 
+						fireInterval="0.2"/>
+			</model>
+		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHandBone"/>
+			</model>		
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHandBone"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- Carapace | %armor base armor=4+ -->
+				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+				<!-- <influenceUpkeep base="2.0"/>--> <!-- 4 | %influenceUpkeep base tier=6 factor=2 -->
+				<influenceCost base="40.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
+				<!-- <itemSlots base="6"/>
+				<levelMax base="9"/> -->
+				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
+				<meleeAttacks base="3"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+				<movementMax base="3"/>
+				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<productionCost base="40.0"/> <!-- 36 for scions | %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarAttack"
+						beginFire="0.4"
+						endFire="2.53"
+						chargeAnimation="Units/AstraMilitarum/LordCommissarCharge"
+						chargeBeginFire="0.25"
+						chargeEndFire="1.1"
+						meleeAnimation="Units/AstraMilitarum/LordCommissarMelee"
+						meleeBeginSwing="0.15"
+						meleeEndSwing="0.5"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarDie"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.5"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<!-- Doesn't swap off chainsword -->
+		<!-- <cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="Laspistol Meltagun"/>
+		-->
+		<useWeapon cooldown="3"
+				name="AstraMilitarum/TerraxUseMeltagun"
+				weaponSlotName="Meltagun">
+			<model>
+				<action	animation="Units/AstraMilitarum/LordCommissarAttack"
+						beginFire="0.4"
+						endFire="2.53"/>
+			</model>
+		</useWeapon>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarGrenade"
+						beginFire="0.9"/>
+			</model>				
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarGrenade"
+						beginFire="0.9"/>
+			</model>
+		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<auraOfDiscipline passive="1"
+				icon="Traits/MoraleSoak">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/TerraxDiscipline"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfDiscipline>
+		<!-- I think summary execution is hardcoded to look for bistol shooting trails and if it mismatches, it explodes -->
+		<genericUnitAbility cooldown="3"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/SummaryExecution"
+				name="SummaryExecution">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarAttack"
+						beginFire="0.4"
+						endFire="2.53"
+						sound="Weapons/MultiMelta" soundCount="4"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="1" rangeMin="1">
+					<conditions>
+						<unit>
+							<allied/>
+							<noTrait name="Fortification"/>
+							<noTrait name="Vehicle"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<groupSize add="-1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale addMin="4"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>			
+		</genericUnitAbility>
+		
+	</actions>
+	<traits>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="Stubborn"/>
+		<trait name="AstraMilitarum/TerraxGuard"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Attack" soundCount="8"/>
+		<action name="UseWeapon/Meltagun" sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Attack" soundCount="8"/>
+		<action name="BringItDown" sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Ability_BringItDown" soundCount="1"/>
+		<action name="SummaryExecution" sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Ability_Execution" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Heroes/Commissar_Complete" soundCount="1"/>
+	</responses>
+</unit>

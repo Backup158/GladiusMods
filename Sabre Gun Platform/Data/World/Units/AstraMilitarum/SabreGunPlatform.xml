@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/AstraMilitarum/Hydra"
+				material="Units/AstraMilitarum/Hydra"
+				idleAnimation="Units/AstraMilitarum/HydraIdle"
+				idleAnimationCount="2"
+				scale="0.8 0.8 0.8"
+				explosionsBone="Hull"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="SabreTwinLinkedHeavyStubber" count="2" slotName="Main">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						muzzleCount="4"
+						effectFaceWeight="0"/>
+			</model>
+		</weapon>
+		<weapon name="SabreTwinLinkedHeavyStubberAP" count="2" enabled="0" slotName="AP">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						muzzleCount="4"
+						effectFaceWeight="0"/>
+			</model>
+		</weapon>
+		<weapon name="SabreTwinLinkedAutocannon"
+				requiredUpgrade="AstraMilitarum/VoidShieldGenerator">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						muzzleCount="4"
+						effectFaceWeight="0"/>
+			</model>
+		</weapon>
+		<weapon name="SabreTwinLinkedHeavyBolter">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/HydraHeavyBolter"
+						material="Weapons/AstraMilitarum/HydraHeavyBolter"
+						bone=".Attachment1"
+						muzzleBone=".BolterMuzzle0"/>
+			</model>
+		</weapon>
+		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
+				enabled="0">
+			<model>
+				<missileWeapon muzzleBone="Hull"/>
+			</model>	
+		</weapon>		
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- hydra is 6, bastion is 10 %armor base armor=12/10/10 -->
+				<cargoSlots base="3"/>
+				<hitpointsMax base="28.0"/> <!-- %hitpointsMax base armor=12/10/10 wounds=3 -->
+				<oreUpkeep base="1.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
+				<oreCost base="40.0"/> <!-- %oreCost base tier=6 factor=1 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=7 -->
+				<movementMax base="0"/>
+				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/HydraAttack"
+						beginFire="0.4" endFire="2.53"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/HydraDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.2"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/HydraMove"
+						sound="Units/AstraMilitarum/TankMove"
+						soundCount="3"/>
+			</model>		
+		</move>
+		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="Main AP"/>
+		<useWeapon weaponSlotName="HunterKillerMissile"
+				cooldown="10"
+				requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+			<model>
+				<action beginFire="0.1" endFire="1.0"/>
+			</model>
+		</useWeapon>
+	</actions>
+	<traits>
+		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
+		<trait name="OpenTopped"/>
+		<!-- assault vehicle makes sense balance wise but doesn't match the lore. MUH LUDONARRATIVE DISSONANCE -->
+		<!-- <trait name="AssaultVehicle"/> -->
+		<trait name="Fortification"/>
+		<trait name="Transport"/>
+		<trait name="SabreMannedLoader"/>
+	</traits>
+	<!-- Too Many Voices Integration -->
+	<responses>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Buildings/Bastion_Attack" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Buildings/Bastion_Select" soundCount="4"/>
+	</responses>
+</unit>

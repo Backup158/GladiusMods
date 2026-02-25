@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/SteelLegionnaire" value="Steel Legionnaire"/>
+	<!-- Infantry -->
+	<entry name="AstraMilitarum/SteelLegionnaire" value="Steel Legionnaires"/>
 	<entry name="AstraMilitarum/SteelLegionnaireDescription" value="Light infantry units specialising in close-quarters deployments from transports and in fighting Orks."/>
 	<entry name="AstraMilitarum/SteelLegionnaireFlavor" value="Steel Legionnaires, hailing from Armageddon, are masters of mechanised warfare. Their doctrine revolves around rapid deployments from APCs, namely Chimeras, to disrupt enemy forces before they can muster a defence. Steel Legionnaires wield Voss Pattern Lasguns, which sacrifice range for a smaller profile that leaves more space in a troop transport. Due to their experience in the Third War for Armageddon, Steel Legionnaires are experts at fighting Orks."/>
-	<entry name="AstraMilitarum/SteelLegionStormTrooper" value="Steel Legion Storm Trooper"/>
+	<entry name="AstraMilitarum/SteelLegionStormTrooper" value="Steel Legion Storm Troopers"/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperDescription" value="Elite shock infantry unit specialising in close-quarters deployments from transports and in fighting Orks. Has less armour than Tempestus Scions."/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperFlavor" value="Steel Legion Storm Troopers are the Legion's finest soldiers, forged in the Wars for Armageddon. They carry Hellguns and have Carapace Armour underneath their iconic greatcoats. While protective, they aren't as heavily armoured as their counterparts from the Schola Progenium."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Armageddon Ork Hunters"/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Close-range infantry trained to fight in forests and defeat Orks. Can plant anti-infantry traps. Has Ork-like traits and can be equipped with <string name='Weapons/MeltaBomb'/>s after researching <string name='Traits/AstraMilitarum/BlastDamage'/>."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="On Armageddon, the strongest survivors from destroyed units are formed into the Armageddon Ork Hunters. They are thrust into dense jungles, where they constantly battle Orks in a futile attempt to quell the tide. Not for a lack of effort, though. They live and breathe warfare and extermination. In fact, they are so accustomed to slaughtering Orks, they have become not so different from the very foe they face."/>
+	<entry name="AstraMilitarum/SteelLegionPurgationSquad" value="Steel Legion Purgation Squad"/>
+	<entry name="AstraMilitarum/SteelLegionPurgationSquadDescription" value="Small infantry units armed with flamers that can clear Orkoid Fungus and Forests."/>
+	<entry name="AstraMilitarum/SteelLegionPurgationSquadFlavor" value="Clearing an area of Orks is a long, uphill battle, making it all the more important to make sure they can't return. Armageddon has enough Ork-controlled territory; Purgation Squads ensure Imperial lands and cleansed of filthy Xeno spawners."/>
+	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
+	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
+	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+	<!-- Vehicles -->
+	<entry name="AstraMilitarum/ArmageddonChimera" value="Armageddon Pattern Chimera"/>
+	<entry name="AstraMilitarum/ArmageddonChimeraDescription" value="Chimera that can ignore enemy zone of control. It is more expensive and is slightly tougher. Its smoke launcher is improved and can target beyond the vehicle itself. It is unable to traverse amphibiously."/>
+	<entry name="AstraMilitarum/ArmageddonChimeraFlavor" value="The factories of Armageddon work endlessly to arm the forces of the Imperium. With this base of production, the swarms of xenos knocking on Armageddon's door naturally means those factories would be put to work in its defence. The constant waves of enemies have spurred innovation, leading to customised designs for their vehicles. Tying into the Steel Legion's doctrine of Mechanised Infantry, they have custom Chimeras specialising in tactical insertions."/>
+	<entry name="AstraMilitarum/APDS6aDefender" value="APDS-6a Defender"/>
+	<entry name="AstraMilitarum/APDS6aDefenderDescription" value="Improvised tank with a Laser Destroyer, specialising in cutting through tanks. Its powerful weapon causes self damage."/>
+	<entry name="AstraMilitarum/APDS6aDefenderFlavor" value="Armageddon faces a constant barrage of attacks from xenos and heretics. Despite being a major production center, sometimes building a full Leman Russ Main Battle Tank will complete too late. Armageddon's PDF have improvised in these scenarios, by attaching Laser Destroyers onto Chimeras and welding on additional armour."/>
+	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimera" value="Armageddon Pattern Heavy Assault Chimera"/>
+	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraDescription" value="Heavily armed troop transport that rapidly deploys infantry behind enemy lines. It uses the standard Multi-laser with a hull-mounted Heavy Flamer and a manned Hotshot Lasgun Array, and additional Heavy Bolters if researched."/>
+	<entry name="AstraMilitarum/ArmageddonHeavyAssaultChimeraFlavor" value="Steel Legionnaires are well-known for using Chimeras to exploit gaps in enemy lines, widening the gap with rapidly deployed infantry. With heavyily armed enemy forces, the average Chimera can be easily flattened like an annoying insect. However, a gap is a gap, and if it takes a stronger fist to punch through, the Steel Legion will deliver."/>
+	<entry name="AstraMilitarum/ArmageddonBasilisk" value="Armageddon Pattern Basilisk"/>
+	<entry name="AstraMilitarum/ArmageddonBasiliskDescription" value="Slower but tougher Basilisk with a closed top. Better suited for defence."/>
+	<entry name="AstraMilitarum/ArmageddonBasiliskFlavor" value="Armageddon, true to its name, is an inhospitable wasteland. As such, vehicles designed to operate on it and other similar planets are enclosed to protect the crew."/>
+	<!-- Heroes -->
+	<entry name="AstraMilitarum/FortressOfArrogance" value="The Fortress of Arrogance"/>
+	<entry name="AstraMilitarum/FortressOfArroganceDescription" value="Unique super-heavy command tank that inspires nearby allies."/>
+	<entry name="AstraMilitarum/FortressOfArroganceFlavor" value="After the Second War for Armageddon, Commissar Sebastian Yarrick requisitioned a Baneblade and dubbed it &quot;The Fortress of Arrogance.&quot; He rode it into battle, spearheading the hunt for Ghazghkull Thraka. However, he was forced to abandon it due to extensive damages. He enacted the successful Operation Thunderstorm to reclaim it. Now reunited with his beloved super-heavy, he ordered the construction of a holy domed stand on the turret, installation of improved communications equipment, and painting of it in the somber blacks of the Commissariat."/>
+	<entry name="AstraMilitarum/SteelLegionCommissar" value="Steel Legion Commissar"/>
+	<entry name="AstraMilitarum/SteelLegionCommissarDescription" value="<string name='Units/AstraMilitarum/LordCommissarDescription'/> Uses passive buffs that affects infantry and vehicles, especially for members of the Steel Legion."/>
+	<entry name="AstraMilitarum/SteelLegionCommissarFlavor" value="The Steel Legion's operations require stellar cooperation between the infantry and vehicles, leaving little room for undisciplined troops. Steel Legion Commissars have become adept at cracking down on both types of troops. While tankers may feel safe inside their armoured hulls, everyone needs to sleep, and being dragged up the hatch by your hair is quite the unpleasant experience. Once outside, tank crews are flesh and bone like any other, and bolt shells don't discriminate. Rumours even tell of one crew that was flattened by their own Leman Russ tank, with orders given to leave their blood and guts unwashed."/>
+
+	<!-- Reinforcements Integration -->
+	<!-- 	Infantry -->
+	<entry name="AstraMilitarum/BattalionSteelLegionnaire" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionnaire'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionnaireDescription" value="<string name='Units/AstraMilitarum/SteelLegionnaireDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionnaireFlavor" value="<string name='Units/AstraMilitarum/SteelLegionnaireFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquad" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionPurgationSquad'/>s"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadDescription" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadFlavor" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonOrkHunters" value="Battalion of <string name='Units/AstraMilitarum/ArmageddonOrkHunters'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonOrkHuntersDescription" value="<string name='Units/AstraMilitarum/ArmageddonOrkHuntersDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonOrkHuntersFlavor" value="<string name='Units/AstraMilitarum/ArmageddonOrkHuntersFlavor'/>"/>
+	<!-- 	Vehicles -->
+	<entry name="AstraMilitarum/BattalionArmageddonChimera" value="Battalion of <string name='Units/AstraMilitarum/ArmageddonChimera'/>s"/>
+	<entry name="AstraMilitarum/BattalionArmageddonChimeraDescription" value="<string name='Units/AstraMilitarum/ArmageddonChimeraDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonChimeraFlavor" value="<string name='Units/AstraMilitarum/ArmageddonChimeraFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonBasilisk" value="Battalion of <string name='Units/AstraMilitarum/ArmageddonBasilisk'/>s"/>
+	<entry name="AstraMilitarum/BattalionArmageddonBasiliskDescription" value="<string name='Units/AstraMilitarum/ArmageddonBasiliskDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionArmageddonBasiliskFlavor" value="<string name='Units/AstraMilitarum/ArmageddonBasiliskFlavor'/>"/>
 </language>

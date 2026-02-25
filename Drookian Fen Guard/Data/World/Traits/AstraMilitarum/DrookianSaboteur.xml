@@ -14,10 +14,32 @@
 						<noAttacking/>
 						<trait name="Fortification"/>
 					</opponent>
+					<weapon>
+						<noTrait name="Bomb"/>
+					</weapon>
 				</encounter>
 			</conditions>
 			<effects>
 				<damage mul="0.5"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<opponent>
+						<noAttacking/>
+						<trait name="Fortification"/>
+					</opponent>
+					<weapon>
+						<trait name="Bomb"/>
+					</weapon>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.25"/>
 			</effects>
 		</modifier>
 		<!-- More (but less so) damage attacking vehicles -->
@@ -28,9 +50,13 @@
 						<attacking/>
 					</self>
 					<opponent>
+						<noAttacking/>
 						<trait name="Vehicle"/>
 					</opponent>
 				</encounter>
+				<weapon>
+					<noTrait name="Bomb"/>
+				</weapon>
 			</conditions>
 			<effects>
 				<damage mul="0.25"/>

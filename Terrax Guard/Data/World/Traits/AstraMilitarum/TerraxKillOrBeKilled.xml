@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/LastStand" rankMax="2">
+	<!-- KILL -->
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="AstraMilitarum/TerraxKillOrBeKilledDrain"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAttacks mulMin="0.11" mulMax="0.33"/>
+				<meleeAttacks mulMin="0.33" mulMax="1"/>
+				<armorPenetration addMin="1" addMax="3"/>
+			</effects>
+		</modifier>
+		<!-- Dealing with the competition -->
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="AstraMilitarum/TerraxGuard"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mul="0.5"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<!-- BE KILLED -->
+	<onEnemyKilledSelfModifiers>
+		<modifier>
+			<effects>
+				<removeTrait name="AstraMilitarum/TerraxKillOrBeKilledDrain"/>
+			</effects>
+		</modifier>
+	</onEnemyKilledSelfModifiers>
+</trait>

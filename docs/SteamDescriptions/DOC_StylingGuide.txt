@@ -1,0 +1,29 @@
+[b]Unit names[/b] and [b]Research names[/b] are in bold
+[i]Trait names[/i] are in italics
+[u]Ability names[/u] are underlined
+
+Adds various infantry of the ___ to the Astra Militarum. 
+
+fluffy intro
+
+[h1]Units added[/h1]
+Some abbreviations are used. They are explained [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488070/]in this thread[/url].
+
+General overview of shared stats
+
+[h2]Units and Unlocks[/h2]
+[table]
+[tr] 
+[td]T8: [b]Maccabian Janissaries[/b] - .
+[/td]
+[/tr]
+[/table]
+No custom models. I don't have the time to put into learning Blender at the moment.
+
+[h1]Further details[/h1]
+Reinforcements DLC, [b]Hard Requirement[/b]: Tempestus Scions
+[h2]Lore and Inspiration[/h2]
+
+[h2]Integrated Mod Support[/h2]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter.

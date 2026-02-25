@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<produceUnit unit="AstraMilitarum/TerraxGuardsman" requiredUpgrade="AstraMilitarum/TempestusScion"/>
+		<produceUnit unit="AstraMilitarum/TerraxLascannonSquad" requiredUpgrade="AstraMilitarum/TempestusScion"/>
+		<produceUnit unit="AstraMilitarum/TerraxStormTrooper" requiredUpgrade="AstraMilitarum/HammerOfWrath"/>
+	</actions>
+</building>

@@ -1,19 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/ArmageddonOrks" value="Ork Hunter"/>
-	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Steel Legionnaires are 17% more accurate against Orks."/>
-	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
+	<entry name="AstraMilitarum/SteelLegion" value="Member of the Armageddon Steel Legion"/>
+	<entry name="AstraMilitarum/SteelLegionDescription" value="Steel Legionnaires are more accurate against Orks."/>
+	<entry name="AstraMilitarum/SteelLegionFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
 	<entry name="AstraMilitarum/ArmageddonDeployment" value="Armageddon Rapid Deployment"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentDescription" value="Grants bonus traits when this unit disembarks from a transport."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentFlavor" value="Steel Legionnaires are renowned for their swift assaults, where they spill out from their Chimeras"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamage" value="Aggressive Deployment"/>
-	<entry name="AstraMilitarum/ArmageddonDeploymentDamageDescription" value="Increases the damage."/>
+	<!-- <entry name="AstraMilitarum/ArmageddonDeploymentDamageDescription" value="Increases the damage."/> -->
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamageFlavor" value="The Steel Legion frequently uses rapid deployment from Chimeras to strike the enemy before they can react."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReduction" value="Evasive Deployment"/>
-	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionDescription" value="Increases the invulnerable damage reduction."/>
+	<!-- <entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionDescription" value="Increases the invulnerable damage reduction."/> -->
 	<entry name="AstraMilitarum/ArmageddonDeploymentDamageReductionFlavor" value="The Steel Legion has learned how to exit an APC swiftly yet safely while under fire."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRate" value="Armageddon Readiness"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Steel Legion Medics have discovered more efficient packing methods for first aid kits to store inside their transports."/>
-
+	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
+	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
+	<!-- Trap Effects -->
+	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
+	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
+	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+	<entry name="Crippling" value="Crippling"/>
+	<entry name="CripplingDescription" value="Slows down infantry and makes them bleed."/>
+	<entry name="CripplingFlavor" value="Falling down a pit is quite the setback for infantry."/>
+	<entry name="Crippled" value="Crippled"/>
+	<entry name="CrippledDescription" value="Reduced movement and loses health per turn."/>
+	<entry name="CrippledFlavor" value="MY LEG!"/>
+	<!-- Steel Legion Commissar -->
+	<entry name="AstraMilitarum/YarricksInspiration" value="<string name='Actions/AstraMilitarum/YarricksInspiration'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationDescription" value="<string name='Actions/AstraMilitarum/YarricksInspirationDescription'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="<string name='Actions/AstraMilitarum/YarricksInspirationFlavor'/>"/>
+	<entry name="AstraMilitarum/ArmouredFist" value="<string name='Actions/AstraMilitarum/ArmouredFist'/>"/>
+	<!-- <entry name="AstraMilitarum/ArmouredFistDescription" value=""/> -->
+	<entry name="AstraMilitarum/ArmouredFistFlavor" value="<string name='Actions/AstraMilitarum/ArmouredFistFlavor'/>"/>
+	<entry name="AstraMilitarum/AuraOfCommand" value="<string name='Actions/AstraMilitarum/AuraOfCommand'/>"/>
+	<!-- <entry name="AstraMilitarum/AuraOfCommandDescription" value=""/> --> <!-- boost for infantry and vehicle. the numbers are self explanatory -->
+	<entry name="AstraMilitarum/AuraOfCommandFlavor" value="<string name='Actions/AstraMilitarum/AuraOfCommandFlavor'/>"/>
+	<entry name="AstraMilitarum/CommandArmour" value="Commander's Confidence"/>
+	<entry name="AstraMilitarum/CommandArmourDescription" value="Increased ranged damage reduction for the Commissar and any transport they are in."/>
+	<entry name="AstraMilitarum/CommandArmourFlavor" value="<string name='Actions/AstraMilitarum/AuraOfCommandFlavor'/>"/>
+	<entry name="AstraMilitarum/CombinedArms" value="<string name='Actions/AstraMilitarum/CombinedArms'/>"/>
+	<entry name="AstraMilitarum/CombinedArmsDescription" value="<string name='Actions/AstraMilitarum/CombinedArmsDescription'/>"/>
+	<entry name="AstraMilitarum/CombinedArmsFlavor" value="<string name='Actions/AstraMilitarum/CombinedArmsFlavor'/>"/>
+	<!-- The Fortress of Arrogance -->
+	<entry name="AstraMilitarum/YarricksInspiration" value="<string name='Actions/AstraMilitarum/YarricksInspiration'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationDescription" value="<string name='Actions/AstraMilitarum/YarricksInspirationDescription'/>"/>
+	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="<string name='Actions/AstraMilitarum/YarricksInspirationFlavor'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration+" value="<string name='Actions/AstraMilitarum/YarricksInspiration'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration+Description" value="<string name='Actions/AstraMilitarum/YarricksInspirationDescription'/>"/>
+	<entry name="AstraMilitarum/YarricksInspiration+Flavor" value="<string name='Actions/AstraMilitarum/YarricksInspirationFlavor'/>"/>
+	<entry name="AstraMilitarum/PurgeTheXenos" value="Purge the Xenos"/>
+	<entry name="AstraMilitarum/PurgeTheXenosDescription" value="Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced ranged damage reduction."/>
+	<entry name="AstraMilitarum/PurgeTheXenosFlavor" value="&quot;Heroes of Armageddon! You have withstood the evil savagery of the Orks, and they having nothing left for you to fear. So raise high the black banners of vengeance - now is our time.&quot; - Commissar Sebastian Yarrick, during the Third War for Armageddon"/>
+	<entry name="AstraMilitarum/PurgeTheXenos+" value="<string name='Traits/AstraMilitarum/PurgeTheXenos'/>"/>
+	<entry name="AstraMilitarum/PurgeTheXenos+Description" value="<string name='Traits/AstraMilitarum/PurgeTheXenosDescription'/>"/>
+	<entry name="AstraMilitarum/PurgeTheXenos+Flavor" value="<string name='Traits/AstraMilitarum/PurgeTheXenosFlavor'/>"/>
+	<entry name="FoABringItDown" value="Focus Fire"/>
+	<entry name="FoABringItDownDescription" value="Unit takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. Has reduced ranged reduction when being attacked by the Steel Legion."/>
+	<entry name="FoABringItDownFlavor" value="Whenever Old Bale Eye needs a priority target taken down, he only needs to use his Vox Caster."/>
+	<entry name="DuelOfHonour" value="Duel of Honour"/>
+	<entry name="DuelOfHonourDescription" value="Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale."/>
+	<entry name="DuelOfHonourFlavor" value="Reminiscent of Yarrick's duel in the defence of Hive Hades, challenging an enemy leader in a duel is a double-edged sword. In victory, it can be what turns the tides, making the enemy tuck tail and run with your troops in hot pursuit. In defeat, it can be what loses a crucial battle, and in turn, an Imperial planet."/>
+	<entry name="DuelOfHonourShield" value="Duel of Honour Standoff"/>
+	<!-- <entry name="DuelOfHonourShieldDescription" value=""/> -->
+	<entry name="DuelOfHonourShieldFlavor" value="A duel that ends in one blow is no duel; it is an execution. Opponents seldom strike with full force in the opening attack, measuring enemy response."/>
 </language>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/TerraxGuard" value="Member of the Terrax Guard"/>
+	<entry name="AstraMilitarum/TerraxGuardDescription" value="Improved morale. Has reduced ranged attacks if adjacent to a Shaken ally, moreso if adjacent to a Broken ally."/>
+	<entry name="AstraMilitarum/TerraxGuardFlavor" value="On Terrax, the Schola Excubitos trains all planetary forces. In essence, every Guardsman in the Terrax Guard is trained, equipped, and held to the same standards as Tempestus Scions and Commissars. Even the lowest Guardsman is elite, and they carry this with pride. Most flaunted is their discipline, and they hold their peers to these impossible standards. Even in the midst of battle, fleeing troops will find that the Terrax Guard can swiftly turn their weapons on cowards. Cowardice is an affront to Terrax honour, and the thought of letting it go unpunished is unbearable. The Commissariat has given its blessing for these executions, as it can be handy to have an entire regiment of commissars on call."/>
+	<entry name="AstraMilitarum/TerraxDiscipline" value="Terrax Discipline"/>
+	<!-- <entry name="AstraMilitarum/TerraxDisciplineDescription" value="Adjacent allies gain increased accuracy and lose less morale."/> -->
+	<entry name="AstraMilitarum/TerraxDisciplineFlavor" value="Being assigned to operate with what is effectively a regiment of commissars is simultaneous inspiring and (much more so) terrifying. Guardsmen find themselves standing straighter and training more often, lest they risk being made an example of. It was bad enough with one pair of eyes, and now there's an entire platoon watching your every move."/>
+	<!-- Terrax Storm Trooper -->
+	<entry name="AstraMilitarum/TerraxOvercharged" value="Overcharged Weapon"/>
+	<!-- <entry name="AstraMilitarum/TerraxOverchargedDescription" value=""/> -->
+	<entry name="AstraMilitarum/TerraxOverchargedFlavor" value="<string name='Actions/AstraMilitarum/TerraxOverchargePlasmaFlavor'/>"/>
+	<entry name="AstraMilitarum/TerraxThrownPistol" value="Pistol Thrown"/>
+	<entry name="AstraMilitarum/TerraxThrownPistolDescription" value="Ranged weapon is unavailable."/>
+	<entry name="AstraMilitarum/TerraxThrownPistolFlavor" value="An overloaded plasma pistol's explosion will turn its wielder into a bubbling puddle of flesh. Throwing the weapon away can save the user's life, and it can even take the enemy's. However, guardsmen will have trouble explaining to the commissar why they decided that their life was worth more than a rare, meticulously crafted weapon. Many troopers find themselves handed over to the Adeptus Mechanicus for sentencing, and of those who can still feel, few remain satisfied with the decision they made on the battlefield."/>
+	<!-- Terrax Colonel -->
+	<entry name="AstraMilitarum/TerraxColonelDiscipline" value="Colonel's Gaze"/>
+	<entry name="AstraMilitarum/TerraxColonelDisciplineDescription" value="Infantry gain increased accuracy and lose less morale. Members of the Terrax Guard gain increased ranged attacks and further increased melee attacks."/>
+	<entry name="AstraMilitarum/TerraxColonelDisciplineFlavor" value="Terrax Colonels lead the best of the best, necessitating the most effective methods. Common soldiers feel fear when seeing the Terrax Guard, but are somewhat inspired. Terrax Colonels know how to mitigate that fear without removing it completely. Balance is maintained between fear and a desire to act with initiative in order to impress their leader."/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilled" value="Kill or Be Killed"/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDescription" value="Unit gains increased ranged attacks, further increased melee attacks, and increased armour penetration. Upon killing an enemy, remove the health drain. Members of the Terrax Guard take more damage."/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledFlavor" value="Terrax Colonels need to have exceptional motivational skills to lead the leaders. Weakness cannot be shown, and any undermining of authority must be quashed swiftly and harshly. The simplest solution is an execution, but ironically, overuse of such undermines confidence in the Colonel. Consequently, Terrax Colonels must eliminate up-and-coming competition in more subtle ways. Men cannot refuse the honour of leading the charge, as refusing would be treason and failing is punished the same way. However, subtlety can backfire. Being sent to a certain death makes men fight with increased ferocity, and this tenacity may truly bring glory. In the end, all is as the Emperor wills."/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDrain" value="Marked for Execution"/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDrainDescription" value="Lose health every turn"/>
+	<entry name="AstraMilitarum/TerraxKillOrBeKilledDrainFlavor" value="&quot;Lads, redouble your efforts! The Colonel is almost finished reloading!&quot;"/>
+</language>

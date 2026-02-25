@@ -130,7 +130,7 @@
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="MoveThroughCover"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
-		<trait name="AstraMilitarum/ArmageddonOrks"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
 		<trait name="AstraMilitarum/ArmageddonDeployment"/>
 		<trait name="AstraMilitarum/ArmageddonDeploymentHealingRate" requiredUpgrade="AstraMilitarum/MediPack"/>
 	</traits>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="SabreTwinLinkedHeavyStubber" value="Quad-mounted Heavy Stubbers"/>
+	<entry name="SabreTwinLinkedHeavyStubberDescription" value="Manned anti-air weapon."/>
+	<entry name="SabreTwinLinkedHeavyStubberFlavor" value="<string name='Weapons/StubFlavor'/>"/>
+	<entry name="SabreTwinLinkedHeavyStubberAP" value="Quad-mounted Heavy Stubber (AP)"/>
+	<entry name="SabreTwinLinkedHeavyStubberAPDescription" value="Manned anti-air weapon loaded with armour-piercing rounds, which reduces range."/>
+	<entry name="SabreTwinLinkedHeavyStubberAPFlavor" value="<string name='Weapons/StubFlavor'/>"/>
+	<entry name="SabreTwinLinkedHeavyBolter" value="Manned Twin-Linked Heavy Bolter"/>
+	<!-- <entry name="SabreTwinLinkedHeavyBolterDescription" value=""/> -->
+	<entry name="SabreTwinLinkedHeavyBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="SabreTwinLinkedAutocannon" value="Manned Twin-Linked Autocannon"/>
+	<entry name="SabreTwinLinkedAutocannonDescription" value="Manned versatile weapon, requiring a fully-crewed platform."/>
+	<!-- <entry name="SabreTwinLinkedAutocannonFlavor" value=""/> -->
+	<entry name="SabreTwinLinkedLascannon" value="Twin-linked Lascannon"/>
+	<entry name="SabreTwinLinkedLascannonDescription" value="Manned anti-armour weapon."/>
+	<entry name="SabreTwinLinkedLascannonFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+</language>

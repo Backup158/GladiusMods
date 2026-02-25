@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/Ratling"
+				material="Units/AstraMilitarum/Ratling"
+				idleAnimation="Units/AstraMilitarum/RatlingIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.0 1.0 1.0"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+	<group size="4" rowSize="2" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="Lasgun">
+			<model>
+				<beamWeapon muzzleBone="Muzzle"
+						fireInterval="0.5"
+						effectScale="0.75"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<!-- Reduced armor is offset when in allied cities -->
+				<armor base="3"/> <!-- 4 | %armor base armor=5+ -->
+				<foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+				<foodCost base="20.0"/> <!-- 15 %foodCost base tier=5 factor=0.5 -->
+				<hitpointsMax base="2.0"/> <!-- 1.5 %hitpointsMax base toughness=2 wounds=1 -->
+				<meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
+				<meleeAttacks base="1"/>
+				<oreCost base="20.0"/> <!-- 15 %oreCost base tier=5 factor=0.5 -->
+				<strengthDamage base="1.0"/> <!-- 0.75 %strengthDamage base strength=2 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="36.0"/> <!-- 30 %productionCost base tier=5 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/RatlingAttack"
+						beginFire="1.3" endFire="2.0"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/RatlingDie"
+						animationCount="2"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.4"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/RatlingMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<genericUnitAbility cooldown="10"
+				name="AstraMilitarum/DeployValhallanDogsScout"
+				requiredActionPoints="1"
+				consumedActionPoints="1"
+				consumedMovement="1"
+				icon="Units/AstraMilitarum/ValhallanDogsScout">
+			<model>
+				<action animation=""
+						sound="Units/Neutral/KrootHoundAttack"
+						soundCount="2"/>
+			</model>
+			<!-- Since it's making a new unit -->
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<foodCost base="15"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noUnit/>
+							<land/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="AstraMilitarum/ValhallanDogsScout"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="AstraMilitarum/DeployValhallanAntiTankDogsMelta"/>
+				<action name="AstraMilitarum/DeployValhallanAntiTankDogsKrak"/>
+			</sharedCooldowns>
+		</genericUnitAbility>
+		<genericUnitAbility cooldown="10"
+				name="AstraMilitarum/DeployValhallanAntiTankDogsKrak"
+				requiredActionPoints="1"
+				consumedActionPoints="1"
+				consumedMovement="1"
+				icon="Units/AstraMilitarum/ValhallanAntiTankDogsKrak">
+			<model>
+				<action animation=""
+						sound="Units/Neutral/KrootHoundAttack"
+						soundCount="2"/>
+			</model>
+			<!-- Since it's making a new unit -->
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<foodCost base="15"/>
+						<oreCost base="5"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noUnit/>
+							<land/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="AstraMilitarum/ValhallanAntiTankDogsKrak"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="AstraMilitarum/DeployValhallanAntiTankDogsMelta"/>
+				<action name="AstraMilitarum/DeployValhallanDogsScout"/>
+			</sharedCooldowns>
+		</genericUnitAbility>
+		<genericUnitAbility cooldown="10"
+				name="AstraMilitarum/DeployValhallanAntiTankDogsMelta"
+				requiredActionPoints="1"
+				consumedActionPoints="1"
+				consumedMovement="1"
+				requiredUpgrade="AstraMilitarum/BlastDamage"
+				icon="Units/AstraMilitarum/ValhallanAntiTankDogsMelta">
+			<model>
+				<action animation=""
+						sound="Units/Neutral/KrootHoundAttack"
+						soundCount="2"/>
+			</model>
+			<!-- Since it's making a new unit -->
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<foodCost base="20"/>
+						<oreCost base="10"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noUnit/>
+							<land/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="AstraMilitarum/ValhallanAntiTankDogsMelta"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="AstraMilitarum/DeployValhallanAntiTankDogsKrak"/>
+				<action name="AstraMilitarum/DeployValhallanDogsScout"/>
+			</sharedCooldowns>
+		</genericUnitAbility>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<!-- URAAAAAAAAAA -->
+		<genericUnitAbility	cooldown="10"
+				requiredActionPoints="1"
+				consumedActionPoints="0" consumedMovement="0"
+				name="AstraMilitarum/Ura"
+				shoutString="Actions/AstraMilitarum/Ura">
+			<model>
+				<action sound="Actions/ValhallanUra" soundCount="6"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<noTrait name="AstraMilitarum/UraCooldown"/>
+							<!-- 4 Infantry allies, at least 2 of whom are Valhallans -->
+							<unitsInRange count="2" range="3">
+								<allied/>
+								<trait name="AstraMilitarum/Valhallan"/>
+							</unitsInRange>
+							<unitsInRange count="4" range="3">
+								<allied/>
+								<noTrait name="Vehicle"/>
+								<noTrait name="Fortification"/>
+							</unitsInRange>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="AstraMilitarum/Valhallan"/>
+											<noTrait name="AstraMilitarum/Ura"/>
+											<noTrait name="AstraMilitarum/UraCooldown"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="2" name="AstraMilitarum/Ura"/>
+										<addTrait duration="10" name="AstraMilitarum/UraCooldown"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+
+		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="AstraMilitarum/ValhallanHorde"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Complete" soundCount="1"/>
+	</responses>
+</unit>

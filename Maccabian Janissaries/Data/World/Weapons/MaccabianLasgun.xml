@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/Boltgun">
+	<model>
+		<beamWeapon fireSound="Weapons/Lasgun"
+		 		fireSoundCount="6"
+				beamsBlueprint="Effects/LasBeams"
+		 		muzzleFlashesBlueprint="Effects/LasMuzzleFlashes"/>
+				<!-- Las is different from laser. Data/Scene/Blueprints/World/-->
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedArmorPenetration add="4"/> <!-- Bolter is 1 pen, hotshots are 4 | %rangedArmorPenetration add armorPiercing=5 -->
+				<rangedDamage add="1.5"/> <!-- Bolter is 1.5, hotshots are 1 %rangedDamage add strength=4 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="2"/>
+	<traits>
+		<trait name="AstraMilitarum/LasDamage" requiredUpgrade="AstraMilitarum/LasDamage"/>
+		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
+		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
+		<trait name="RapidFire"/>
+	</traits>
+</weapon>

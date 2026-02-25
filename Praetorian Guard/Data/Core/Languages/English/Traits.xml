@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/Praetorian" value="Praetorian"/>
-    <entry name="AstraMilitarum/PraetorianDescription" value="Decreased Morale loss. Increased Accuracy and Morale regeneration when adjacent to other Praetorians."/>
+    <entry name="AstraMilitarum/PraetorianDescription" value="Decreased morale loss. Increased accuracy and morale regeneration when adjacent to other Praetorians."/>
     <entry name="AstraMilitarum/PraetorianFlavor" value="The life of a Praetorian prepared them for facing any situation head-on, especially when linked with their brothers-in-arms."/>
     <entry name="AstraMilitarum/SneeringImperialist" value="Sneering Imperialist"/>
-    <entry name="AstraMilitarum/SneeringImperialistDescription" value="Increased Accuracy and Attacks against Neutral enemies. Increased Accuracy against Orks (slightly less so)."/>
+    <entry name="AstraMilitarum/SneeringImperialistDescription" value="Increased accuracy and attacks against Neutral enemies. To a lesser extent, increased accuracy against Orks."/>
     <entry name="AstraMilitarum/SneeringImperialistFlavor" value="&quot;Have mercy?&quot; Whatever. Sergeant major, put a cap in General Gobbledigook over here."/>
     <entry name="AstraMilitarum/PraetorianLineFormation" value="Line Formation"/>
-    <entry name="AstraMilitarum/PraetorianLineFormationDescription" value="Increased Attacks when adjacent to Praetorian Guardsmen or Praetorian Grenadiers."/>
+    <entry name="AstraMilitarum/PraetorianLineFormationDescription" value="Increased attacks when adjacent to Praetorian Guardsmen or Praetorian Grenadiers."/>
     <entry name="AstraMilitarum/PraetorianLineFormationFlavor" value="Colour sergeant, I want half your men. Form two lines, on the double."/>
     <entry name="AstraMilitarum/PraetorianShockTroop" value="Shock Trooper"/>
-    <entry name="AstraMilitarum/PraetorianShockTroopDescription" value="Decreased Morale loss. Receives less Ranged Damage if the unit has moved this turn."/>
+    <entry name="AstraMilitarum/PraetorianShockTroopDescription" value="Decreased morale loss. Receives less ranged damage if the unit has moved this turn."/>
     <entry name="AstraMilitarum/PraetorianShockTroopFlavor" value="&quot;Here come the grenadiers, my boys, who know no doubts or fears!&quot;"/>
     <entry name="AstraMilitarum/PraetorianOfficersDontDuck" value="Praetorian Officers Don't Duck!"/>
     <entry name="AstraMilitarum/PraetorianOfficersDontDuckDescription" value="Brave officers don't need cover."/>
@@ -23,9 +23,9 @@
     <!-- <entry name="AstraMilitarum/PraetorianIntimidationFlavor" value=""/> -->
     <!-- For Weapons -->
     <entry name="AstraMilitarum/PraetorianFleshbane" value="Fleshbane"/>
-    <entry name="AstraMilitarum/PraetorianFleshbaneDescription" value="Increased Damage against infantry."/>
+    <entry name="AstraMilitarum/PraetorianFleshbaneDescription" value="Increased damage against infantry."/>
     <!-- <entry name="AstraMilitarum/PraetorianFleshbaneFlavor" value=""/> -->
     <entry name="AstraMilitarum/PraetorianCutThemDown" value="Cut Them Down!"/>
-    <entry name="AstraMilitarum/PraetorianCutThemDownDescription" value="Increased Attacks against enemies with low morale."/>
+    <entry name="AstraMilitarum/PraetorianCutThemDownDescription" value="Increased attacks against enemies with low morale."/>
     <!-- <entry name="AstraMilitarum/PraetorianCutThemDownFlavor" value=""/> -->
 </language>

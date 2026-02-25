@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="MaccabianLasgun" value="Maccabian Anointed Lasgun"/>
+	<entry name="MaccabianLasgunDescription" value="Armour-penetrating lasgun."/>
+	<entry name="MaccabianLasgunFlavor" value="Maccabian Janissaries are armed with anointed lasguns for their crusades. On Maccabeus Quintus, tech-priests of the Adeptus Mechanicus and preachers of the Adeptus Ministorum have crafted a pipeline of prayers for these weapons. Based on the standard M36 Pattern Lasguns, these lasguns are taken through numerous holy rituals in honour of Saint Drusus, which ends in anointing with sacred oils and attaching a third-class relic to the receiver. The resulting lasgun resembles a boltgun in appearance, in honour of its holy status. These blessed weapons, carried by the pious crusaders, shine the Emperor's Light and Wrath upon any unholy forces."/>
+	<entry name="MaccabianKrakGrenadeLauncher" value="Krak Grenade Launcher"/>
+	<entry name="MaccabianKrakGrenadeLauncherDescription" value="Anti-armour grenades."/>
+	<entry name="MaccabianKrakGrenadeLauncherFlavor" value="Grenade launchers can fire a variety of different grenades, making them incredibly versatile weaponss"/>
+	<entry name="MaccabianFragGrenadeLauncher" value="Frag Grenade Launcher"/>
+	<entry name="MaccabianFragGrenadeLauncherDescription" value="Grenades effective against infantry on open ground."/>
+	<entry name="MaccabianFragGrenadeLauncherFlavor" value="<string name='Weapons/MaccabianKrakGrenadeLauncherFlavor'/>"/>
+	<entry name="MaccabianFireGrenadeLauncher" value="Immolation Grenade Launcher"/>
+	<entry name="MaccabianFireGrenadeLauncherDescription" value="Grenades that burn targets in cover."/>
+	<entry name="MaccabianFireGrenadeLauncherFlavor" value="<string name='Weapons/MaccabianKrakGrenadeLauncherFlavor'/>"/>
+</language>

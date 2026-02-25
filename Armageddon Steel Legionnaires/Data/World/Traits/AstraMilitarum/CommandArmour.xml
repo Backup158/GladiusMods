@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" rankMax="2" icon="Units/AstraMilitarum/LordCommissar">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="City"/> <!-- THIS CANNOT APPLY TO CITIES THAT WOULD BE CANCER -->
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction addMin="0.11" addMax="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

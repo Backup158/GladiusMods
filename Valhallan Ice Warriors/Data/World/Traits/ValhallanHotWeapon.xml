@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/GetsHot" visibilityCategory="Weapon">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<weapon>
+					<noTrait name="Melee"/>
+				</weapon>
+				<tile match="Any">
+					<feature name="Desert"/>
+					<feature name="Savanna"/>
+					<feature name="Volcanic"/>
+				</tile>
+			</conditions>
+			<effects>
+				<damageSelfFactor add="0.15"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<weapon>
+					<noTrait name="Melee"/>
+				</weapon>
+				<tile>
+					<noFeature name="Arctic"/>
+					<noFeature name="Tundra"/>
+				</tile>
+			</conditions>
+			<effects>
+				<damageSelfFactor add="0.1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

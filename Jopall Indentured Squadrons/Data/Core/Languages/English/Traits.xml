@@ -3,13 +3,31 @@
 	<entry name="AstraMilitarum/ArmageddonOrks" value="Ork Hunter"/>
 	<entry name="AstraMilitarum/ArmageddonOrksDescription" value="Jopall Indentured Squadrons are 17% more accurate against Orks."/>
 	<entry name="AstraMilitarum/ArmageddonOrksFlavor" value="Facing the Greentide on Armageddon taught the Jopall Indentured Squadrons the best ways to exterminate Orks."/>
-    <entry name="AstraMilitarum/JopallGlory" value="Jopall's Cut"/>
-	<entry name="AstraMilitarum/JopallGloryDescription" value="Jopall Indentured Squadrons gain influence in battle."/>
+    <!-- Jopall Glory -->
+	<entry name="AstraMilitarum/JopallGlory" value="Jopall's Cut"/>
+	<entry name="AstraMilitarum/JopallGloryDescription" value="Jopall Indentured Squadrons gain influence in battle. Gain a large amount if it has killed an enemy Hero."/>
 	<entry name="AstraMilitarum/JopallGloryFlavor" value="Each battle comes with an opportunity to repay their debts. The Jopall Indentured Squadrons are infamously greedy, to the point where they'd track and demand payment for every individual kill."/>
-    <entry name="AstraMilitarum/JopallCity" value="Urban Marksman"/>
+    <entry name="AstraMilitarum/JopallBounty" value="Bounty Claimed"/>
+	<entry name="AstraMilitarum/JopallBountyDescription" value="On killing an enemy hero, gain a large sum of influence."/>
+	<entry name="AstraMilitarum/JopallBountyFlavor" value="Eliminating a high value target is laudable, and when it comes to the men of Jopall, praise must take the form of currency."/>
+    <!-- City defence -->
+	<entry name="AstraMilitarum/JopallCity" value="Urban Marksman"/>
 	<entry name="AstraMilitarum/JopallCityDescription" value="While near allied cities, ignore accuracy loss from movement."/>
 	<entry name="AstraMilitarum/JopallCityFlavor" value="Troops from Jopall prefer to fight defensively, committing only when necessary. Consequently, they're adept at quickly setting up their weapons to meet an incoming assault."/>
+	<entry name="SniperReposition" value="Reposition"/>
+	<entry name="SniperRepositionDescription" value="Slightly reposition after a shot."/>
+	<entry name="SniperRepositionFlavor" value="Marksmen are trained to reposition after every shot, to avoid enemy counteraction."/>
+	<!-- ============ -->
+	<!-- Actions -->
+	<!-- ============ -->
     <entry name="AstraMilitarum/MuggingSpoils" value="Spoils of Crime"/>
 	<entry name="AstraMilitarum/MuggingSpoilsDescription" value="This unit generates influence after shaking down an ally."/>
 	<entry name="AstraMilitarum/MuggingSpoilsFlavor" value="The snakes from Jopall gleefully count their ill-gotten gains, without a care for the troopers they left bruised and bloody."/>
+	<!-- Charge up and down -->
+	<entry name="AstraMilitarum/JopallChargeUp" value="Overcharged Weapon"/>
+	<entry name="AstraMilitarum/JopallChargeUpFlavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
+	<entry name="AstraMilitarum/JopallChargeDown" value="Undercharged Weapon"/>
+	<entry name="AstraMilitarum/JopallChargeDownFlavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
+	<entry name="AstraMilitarum/JopallChargeDown2" value="Undercharged Weapon"/>
+	<entry name="AstraMilitarum/JopallChargeDown2Flavor" value="<string name='Actions/AstraMilitarum/JopallChargeUpFlavor'/>"/>
 </language>

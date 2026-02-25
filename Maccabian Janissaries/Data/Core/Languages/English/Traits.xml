@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/MaccabianJanissary" value="Maccabian Janissary"/>
+	<entry name="AstraMilitarum/MaccabianJanissaryDescription" value="When facing the forces of Chaos, has increased accuracy but takes more damage. When adjacent to another Maccabian Janissary, gain accuracy; when adjacent to two, gain ranged attacks. <string name='Traits/ChaosSpaceMarines/MaliciousVolleysDescription'/>"/>
+	<entry name="AstraMilitarum/MaccabianJanissaryFlavor" value="On the Shrine World of Maccabeus Quintus, faith is paramount. They hate the archenemy, and this hatred is their primary weapon. Everyone in the Maccabian Militia wields this, but only the cream of the crop may have the honour of joining the Maccabian Janissaries. In battle, these holy warriors can be frequently seen marching forwards in formation, delivering a hail of las-fire, burning away the foes of the Emperor."/>
+	<entry name="AstraMilitarum/Prayed" value="Prayed"/>
+	<entry name="AstraMilitarum/PrayedDescription" value="Unit has prayed. On loss of this trait, lose all morale and half the squad."/>
+	<entry name="AstraMilitarum/PrayedFlavor" value="&quot;I seek the God-Emperor's protection from the Archenemy, the accursed. In His name, the most gracious, the most merciful.&quot;"/>
+	<entry name="AstraMilitarum/HolyProtection" value="Intercession of Saint Drusus"/>
+	<!-- <entry name="AstraMilitarum/HolyProtectionDescription" value=""/> -->
+	<entry name="AstraMilitarum/HolyProtectionFlavor" value="&quot;O Saint Drusus (peace and blessings upon you), defend us in battle, as He on Terra defended you. May the light of the Golden Throne guide us to victory. In His name, the most gracious, the most merciful.&quot;"/>
+	<entry name="AstraMilitarum/MaccabianSummoningSickness" value="Warp Travel Sickness"/>
+	<entry name="AstraMilitarum/MaccabianSummoningSicknessDescription" value="Until this unit Prays, combat effectiveness is massively reduced."/>
+	<entry name="AstraMilitarum/MaccabianSummoningSicknessFlavor" value="Warp travel can be perilous, even for the most pious of souls. Ironically, some of the most faithful can be the most affected by this proximity."/>
+	<entry name="AstraMilitarum/ShieldOfFaith" value="<string name='Traits/SistersOfBattle/ShieldOfFaith'/>"/>
+	<entry name="AstraMilitarum/ShieldOfFaithDescription" value="<string name='Traits/SistersOfBattle/ShieldOfFaithDescription'/>"/>
+	<entry name="AstraMilitarum/ShieldOfFaithFlavor" value="&quot;Even though I walk through the valley of the shadow of death, I fear no evil; for You are with me; Your Sword and Your Bolter &#8211; They comfort me.&quot;"/>
+</language>

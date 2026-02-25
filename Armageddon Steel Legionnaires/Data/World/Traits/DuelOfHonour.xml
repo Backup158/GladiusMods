@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/AstraMilitarum/DuelOfHonour">
+	<!-- On Death -->
+	<onUnitDisappeared>
+		<area affects="Unit" radius="4">
+			<modifiers>
+				<!-- Morale nuke to allies -->
+				<modifier>
+					<conditions>
+						<unit>
+							<allied/>
+						</unit>
+					</conditions>
+					<effects>
+						<morale add="-16"/>
+					</effects>
+				</modifier>
+				<!-- Morale gain to enemies -->
+				<modifier>
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<effects>
+						<morale add="8"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+		<!-- Damage nearby allies (desertion) -->
+		<area affects="Unit" radius="1">
+			<modifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<allied/>
+						</unit>
+					</conditions>
+					<effects>
+						<hitpoints add="-12"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+		<!-- Remove duel from the other unit -->
+		<area affects="Unit" radius="3">
+			<modifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<enemy/>
+							<trait name="DuelOfHonour"/>
+						</unit>
+					</conditions>
+					<effects>
+						<removeTrait name="DuelOfHonour"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</onUnitDisappeared>
+	<modifiers>
+		<!-- Less movement so you can't just run -->
+		<modifier>
+			<effects>
+				<movementMax mul="-0.67"/>
+			</effects>
+		</modifier>
+		<!-- Massively reduced damage from unit that it isn't dueling -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noTrait name="DuelOfHonour"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="-0.99"/>
+				<damageTaken mul="-0.99"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

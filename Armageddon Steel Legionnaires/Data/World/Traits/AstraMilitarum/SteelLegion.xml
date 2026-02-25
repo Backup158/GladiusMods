@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Units/AstraMilitarum/SteelLegionnaire">
+<!--<trait alwaysVisible="1" category="Buff"> -->
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<opponent>
+						<noAttacking/>
+						<!-- <faction name="Orks"/> -->
+						<trait name="Orks/GreenTideHealing"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/OrkHuntersTrap" value="Place Punji Trap"/>
+	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Lays a trap that slows and damages enemy infantry."/>
+	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+	<entry name="AstraMilitarum/PurgingFlames" value="Purging Flames"/>
+	<entry name="AstraMilitarum/PurgingFlamesDescription" value="Burns away Orkoid Fungus and Forests."/>
+	<entry name="AstraMilitarum/PurgingFlamesFlavor" value="Merely killing an Ork isn't enough. Their corpses leave behind fungi, which if left unchecked, will sprout Greenskin monstrosities in the future. Enter: holy prometheum."/>
+	<!-- Steel Legion Commissar -->
+	<entry name="AstraMilitarum/YarricksInspiration" value="Steel Legion Discipline"/>
+	<entry name="AstraMilitarum/YarricksInspirationDescription" value="Increased accuracy for infantry and vehicles. Further increased for members of the Armageddon Steel Legion."/>
+	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="<string name='Actions/AuraOfDisciplineDescription'/>"/>
+	<entry name="AstraMilitarum/ArmouredFist" value="Armoured Fist"/>
+	<entry name="AstraMilitarum/ArmouredFistDescription" value="Increased armour and reduced upkeep for vehicles."/>
+	<entry name="AstraMilitarum/ArmouredFistFlavor" value="During the Armageddon Wars, battlefields would be scattered with debris, corpses, and shattered vehicle hulls. The Steel Legion has grown adept at scavenging scraps, and some even turn it into makeshift armour."/>
+	<entry name="AstraMilitarum/AuraOfCommand" value="Aura of Command"/>
+	<entry name="AstraMilitarum/AuraOfCommandDescription" value="Boosts morale of allied infantry and vehicles. Increased ranged damage reduction for the Commissar and any transport they are in."/>
+	<entry name="AstraMilitarum/AuraOfCommandFlavor" value="Commissars lead with confidence, with their mere presence inspiring nearby troops. Inexplicably, strutting about the frontlines, exuding a feeling of invicibility, has not lead to a higher casualty rate. It's almost as if they truly are the Emperor's representative."/>
+	<entry name="AstraMilitarum/CombinedArms" value="Combined Arms"/>
+	<entry name="AstraMilitarum/CombinedArmsDescription" value="Grants damage reduction to infantry whom are adjacent to vehicles, and vice-versa. Infantry gain ranged damage reduction; vehicles, melee."/>
+	<entry name="AstraMilitarum/CombinedArmsFlavor" value="The Steel Legion operates best with a combination of infantry and vehicles. In their advance, infantry use tanks as cover. Symbiotically, tanks are covered by infantry, where any foe running past the tank's effective range is met by a wall of las-fire."/>
+	<!-- The Fortress of Arrogance -->
+	<entry name="AstraMilitarum/YarricksInspiration" value="Yarrick's Inspiration"/>
+	<entry name="AstraMilitarum/YarricksInspirationDescription" value="Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain ranged damage reduction, with Steel Legion units gaining armour."/>
+	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="Commissar Yarrick ordered the construction of an armoured dome on top of The Fortress of Arrogance's turret, where he stands to deliver orders and rousing speeches. He doesn't need threats of execution; his mere presence lifts spirits. Members of the Steel Legion redouble their efforts, eager to prove their worthiness of serving under The Old Man."/>
+	<entry name="AstraMilitarum/PurgeTheXenos" value="<string name='Traits/AstraMilitarum/PurgeTheXenos'/>"/>
+	<entry name="AstraMilitarum/PurgeTheXenosDescription" value="<string name='Traits/AstraMilitarum/PurgeTheXenosDescription'/> Burns away Orkoid Fungus within 2 tiles."/>
+	<entry name="AstraMilitarum/PurgeTheXenosFlavor" value="<string name='Traits/AstraMilitarum/PurgeTheXenosFlavor'/>"/>
+	<entry name="AstraMilitarum/FoABringItDown" value="<string name='Traits/FoABringItDown'/>"/>
+	<entry name="AstraMilitarum/FoABringItDownDescription" value="Target an enemy unit. <string name='Traits/FoABringItDownDescription'/>"/>
+	<entry name="AstraMilitarum/FoABringItDownFlavor" value="<string name='Traits/FoABringItDownFlavor'/>"/>
+	<entry name="AstraMilitarum/DuelOfHonour" value="<string name='Traits/DuelOfHonour'/>"/>
+	<entry name="AstraMilitarum/DuelOfHonourDescription" value="Target an enemy super-heavy or hero. Both duellists must have above 80% hitpoints. <string name='Traits/DuelOfHonourDescription'/> Duelling units take less damage from each other for one turn each."/>
+	<entry name="AstraMilitarum/DuelOfHonourFlavor" value="<string name='Traits/DuelOfHonourFlavor'/>"/>
+</language>

@@ -1,0 +1,19 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement2">
+  <responses>
+    <action name="HammerOfWrath" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Tyranids/InstinctiveBehaviourOverride" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <attack sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <move sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <select sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <productionCompleted sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+
+    <action name="UseWeapon/WarpBarrage" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Stomp" sound="Units/Tyranids/TooManyVoices/Large/Aggressive" soundCount="5"/>
+    <action name="Tiamat_MT/NautiloidBiomass" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/> <!-- Living Incubator -->
+    <action name="Tiamat_MT/NautiloidInfluence" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/NautiloidLoyalty" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/NautiloidPopulation" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+    <action name="Tiamat_MT/NautiloidResearch" sound="Units/Tyranids/TooManyVoices/Large/Neutral" soundCount="5"/>
+  </responses>
+</unit>

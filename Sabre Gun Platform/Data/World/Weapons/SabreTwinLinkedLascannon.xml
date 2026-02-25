@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/TwinLinkedCognisLascannon">
+	<model>
+		<beamWeapon fireInterval="1.0"
+				fireSound="Weapons/Lascannon"
+		 		fireSoundCount="6"/>
+	</model>	
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="2"/>
+				<rangedArmorPenetration add="4"/> <!-- 6 | %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="6"/> <!-- 8 | %rangedDamage add strength=9 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="3"/>
+	<traits>
+		<trait name="AstraMilitarum/LasDamage" requiredUpgrade="AstraMilitarum/LasDamage"/>
+		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
+		<trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
+		<trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus"/>
+		<trait name="HeavyWeapon"/>
+		<trait name="TwinLinked"/>
+		<trait name="MannedWeapon"/>
+		<trait name="SabreGroundAim"/>
+	</traits>
+</weapon>

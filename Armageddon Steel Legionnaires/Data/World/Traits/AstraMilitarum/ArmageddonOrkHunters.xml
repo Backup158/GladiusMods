@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/Animosity">
+	<modifiers>
+		<!-- Damage against Orks -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<opponent>
+						<noAttacking/>
+						<!-- <faction name="Orks"/> -->
+						<trait name="Orks/GreenTideHealing"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.25"/>
+			</effects>
+		</modifier>
+		<!-- This is where I would make them lose health/damage if not attacking -->
+
+		<!-- Attacks while in Forests -->
+		<modifier>
+			<conditions>
+				<tile>
+					<feature name="Forest"/>
+				</tile>
+			</conditions>
+			<effects>
+				<meleeAttacks mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

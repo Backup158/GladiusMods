@@ -5,9 +5,15 @@
 		<!-- Loses Morale and overall Accuracy due to lack of rest -->
 		<modifier>
 			<effects>
-				<morale add="-1"/>
 				<accuracy mul="-0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<morale add="-1"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
 </trait>

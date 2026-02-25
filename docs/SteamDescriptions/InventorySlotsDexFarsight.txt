@@ -1,0 +1,14 @@
+Adds inventory slots support to the Farsight Enclaves
+
+[h1]Supported Mods[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2825909430]Farsight Enclaves[/url]
+
+[h1]Based on[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255436]DexGattaca Factions - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255493]DexGattaca Factions - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660255527]DexGattaca Factions - Inventory for All Units (6 Slots)[/url]
+
+[h1]Versions of This Patch[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735021]Farsight Enclaves - Inventory for All Units (1 Slot)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670735550]Farsight Enclaves - Inventory for All Units (3 Slots)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3670736122]Farsight Enclaves - Inventory for All Units (6 Slots)[/url]

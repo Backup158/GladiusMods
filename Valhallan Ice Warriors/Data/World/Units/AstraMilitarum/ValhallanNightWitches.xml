@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/Valkyrie"
+				material="Units/AstraMilitarum/Valkyrie"
+				position="0 0 64"
+				idleAnimation="Units/AstraMilitarum/ValkyrieIdle"
+				idleAnimationCount="2"
+				idleContinuously="1"
+				explosionsBone="Hull"
+				normalWeight="1.0"
+				scale="1.8 1.8 1.8"/>
+	</model>	
+	<weapons>
+		<weapon name="HeavyStubber">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/ValkyrieMultiLaser"
+						material="Units/AstraMilitarum/Valkyrie"
+						bone=".MultiLaserMuzzle0"
+						muzzleBone=".MultiLaserMuzzle0"/>
+			</model>
+		</weapon>
+		<weapon name="None" enabled="0">
+			<model>
+				<weapon mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile"
+						material="Units/AstraMilitarum/Valkyrie"
+						bone=".HellstrikeMissile0"/>
+			</model>
+		</weapon>
+		<weapon name="None" enabled="0">
+			<model>
+				<weapon mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile"
+						material="Units/AstraMilitarum/Valkyrie"
+						bone=".HellstrikeMissile1"/>
+			</model>
+		</weapon>
+		<weapon name="HellstrikeMissile">
+			<model>
+				<missileWeapon muzzleBone=".HellstrikeMissile"
+						muzzleCount="2"
+						fireInterval="1.2"
+						missileScale="0.8"/>
+			</model>
+		</weapon>
+		<weapon name="HeavyBolter" count="2"
+				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/ValkyrieHeavyBolters"
+						material="Weapons/AstraMilitarum/HydraHeavyBolter"
+						bone="Hull"
+						muzzleBone=".Muzzle"
+						muzzleCount="2"/>
+			</model>	
+		</weapon>
+		<weapon name="HeavyBombClusters" slotName="HeavyBombClusters" enabled="0"/>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
+				<energyUpkeep base="2.0"/> <!-- 3 %energyUpkeep base tier=7 factor=1 -->
+				<energyCost base="35.0"/> <!-- 30 %energyCost base tier=7 factor=0.5 -->
+				<influenceUpkeep base="2.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+				<influenceCost base="60.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+				<oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+				<movementMax base="6"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/ValkyrieAttack"
+						beginFire="0.1" endFire="2.5"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/ValkyrieDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.2"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action sound="Units/AstraMilitarum/ValkyrieMove"
+						soundCount="3"/>
+			</model>				
+		</move>
+		<jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+			<model>
+				<action sound="Actions/ChargeUp"/>
+			</model>
+			<conditions>
+				<unit>
+					<notAttackedThisTurn/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Jink"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</jink>
+		<heavyBombClusters consumedActionPoints="0"
+				requiredActionPoints="0"
+				weaponSlotName="HeavyBombClusters" cooldown="5">
+			<model>
+				<action beginFire="1.4" endFire="1.9"/>
+			</model>		
+		</heavyBombClusters>
+		<!-- Night Bomber -->
+		<!-- RDR. damage against fortifications -->
+		<genericUnitAbility levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				passive="1"
+				name="AstraMilitarum/NightBomber"
+				icon="Traits/Blind">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/NightBomber"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Fly Low -->
+		<!-- Like Jink -->
+		<genericUnitAbility consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3"
+				levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				name="AstraMilitarum/FlyLow"
+				icon="Traits/Jetpack">
+			<model>
+				<action sound="Units/Neutral/PsychneueinMove"/>
+			</model>
+			<conditions>
+				<unit>
+					<notAttackedThisTurn/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/FlyLow"/>
+										<addTrait duration="1" name="AstraMilitarum/FlyLowSlowdown"/>
+										<addTrait duration="1" name="Infiltrate"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Harass Enemies -->
+		<genericUnitAbility cooldown="3"
+				levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="1"
+				name="AstraMilitarum/HarassEnemies"
+				icon="Traits/Concussion">
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="3" name="WitchHarrassment"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Elite: Load Extra Ammo -->
+		<genericUnitAbility levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				elite="1"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				requiredMovement="1"
+				consumedMovement="0"
+				name="AstraMilitarum/LoadExtraAmmo"
+				icon="Traits/Assault">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/LoadExtraAmmo"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+		<trait name="Flyer"/>
+		<!-- <trait name="Hover"/> -->
+		<trait name="Vehicle"/>
+
+		<trait name="Hero"/>
+		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="Stealth"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="Jink" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Ability_Jink" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Complete" soundCount="1"/>
+	</responses>
+</unit>

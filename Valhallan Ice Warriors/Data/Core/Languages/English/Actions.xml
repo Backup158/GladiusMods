@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="AstraMilitarum/Ura" value="Ura!"/>
+    <entry name="AstraMilitarum/UraDescription" value="Inspires Valhallans within 3 tiles to advance with decreased morale loss, increased damage, and increased damage resistance. Requires 4 allied infantry (where at least 2 of those are Valhallans) within 3 tiles to activate."/>
+    <entry name="AstraMilitarum/UraFlavor" value="Many foes know what it's like to face a mass infantry charge. Typically, these will be uncoordinated hordes of flesh firing inaccurately, which makes for easy pickings for well-fortified positions. Valhallans are the exception. After hours of being pummelled by artillery, beleaguered defenders will hear a hearty cry of &quot;URAAAAA!&quot; before an endless wave of Valhallans descends upon them. Inexplicably, these mere men and women seem harder to kill, with some reports of prisoners swearing they shot someone thrice in the chest without the Valhallan falling."/>
+    <!-- Hound Master Deploy -->
+    <entry name="AstraMilitarum/DeployValhallanDogsScout" value="Deploy <string name='Units/AstraMilitarum/ValhallanDogsScout'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanDogsScoutDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanDogsScoutDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanDogsScoutFlavor" value="<string name='Units/AstraMilitarum/ValhallanDogsScoutFlavor'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrak" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrak'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrakDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsKraksDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrakFlavor" value="<string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrakFlavor'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMelta" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMelta'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMeltaDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaFlavor" value="<string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrakFlavor'/>"/>
+    <!-- Commissar -->
+    <entry name="AstraMilitarum/Gulag" value="Send to Gulag"/>
+    <entry name="AstraMilitarum/GulagDescription" value="Target an infantry unit with less than 10% health, surrounded by 3 Valhallans. Remove this unit and gain Ore and Influence."/>
+    <entry name="AstraMilitarum/GulagFlavor" value="Prisoners, whether they be enemies from within or from without, cost resources to maintain. They must be fed, sheltered, and most importantly, monitored. The only way to make this more worthwhile than simply putting a las-bolt through the head is to find a way to extract value. Valhallan planetary governors established forced labour camps to intern enemies of the state, and while there is no shortage of those, certain prisoners of war or seditious Guardsmen may find their way to these camps, where they dig through the icy ground until they themselves are a part of it."/>
+    <entry name="AstraMilitarum/DeployValhallanBarrierSquad" value="Deploy <string name='Units/AstraMilitarum/ValhallanBarrierSquad'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanBarrierSquadDescription" value="Spawns a permanent, mortal unit that supports nearby allies but cannot move. <string name='Units/AstraMilitarum/ValhallanBarrierSquadDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanBarrierSquadFlavor" value="<string name='Units/AstraMilitarum/ValhallanBarrierSquadFlavor'/>"/>
+    <entry name="AstraMilitarum/NotOneStepBack" value="Not one step back!"/>
+    <!-- Barrier Squad Aura -->
+    <entry name="AstraMilitarum/BarrierSquadAura" value="Barrier Squad's Watch"/>
+    <entry name="AstraMilitarum/BarrierSquadAuraDescription" value="Improves morale for allied infantry within 3 tiles."/>
+    <entry name="AstraMilitarum/BarrierSquadAuraFlavor" value="&quot;Run? Frak that! It'll either be their guns or ours, and I'll be damned if I forfeit my familial compensation!&quot; - Unnamed Valhallan Guardsman"/>
+    <!-- Commander -->
+    <entry name="AstraMilitarum/HoldTheLine" value="Hold the Line"/>
+    <entry name="AstraMilitarum/HoldTheLineDescription" value="Grants bonuses to allied infantry. Radius is increased upon levelling up this ability. <string name='Traits/HoldTheLineDescription'/>"/>
+    <entry name="AstraMilitarum/HoldTheLineFlavor" value="&quot;Side by side with the Astra Militarum, the entire Valhallan people is rising in defence of our native land!&quot;"/>
+    <entry name="AstraMilitarum/ThePeoplesCommissar" value="The People's Commissar"/>
+    <entry name="AstraMilitarum/ThePeoplesCommissarDescription" value="Grants buffs to allied infantry within 3 tiles; heals adjacent allied infantry, moreso if they are Valhallans. Duration and intensity is increased upon levelling up this ability. <string name='Traits/ThePeoplesCommissarDescription'/>"/>
+    <entry name="AstraMilitarum/ThePeoplesCommissarFlavor" value="Typically, Valhallan senior leadership enforce discipline by the point of many bolt pistols. The most experienced among them know when it's better to catch flies with honey; allowing their men to have more luxurious rations can, at times, motivate them better than any threats. Good Marshals know too much honey will fatten the men beyond usefulness; bad ones don't live long enough to internalise this lesson. Gifts must be held by a strong hand, and the men must not forget who is feeding them."/>
+    <entry name="AstraMilitarum/DefendThisStrongpoint" value="Defend this Strongpoint"/>
+    <entry name="AstraMilitarum/DefendThisStrongpointDescription" value="Target an allied Fortification that is not a Headquarters. The tiles around it grant increased defence. <string name='Traits/AstraMilitarum/StrongpointReinforcedDescription'/>"/>
+    <entry name="AstraMilitarum/DefendThisStrongpointFlavor" value="&quot;The enemy cannot take hold of this position! If they gain a foothold here in the bank, they can cross the river and tear our defensive line asunder! Send the 327th with 2 penal battalions as a diversionary attack to the southern flank, while the 791st and 564th move to reinforce Sergeant Pavlov.&quot;"/>
+    <entry name="AstraMilitarum/TheMotherlandCalls" value="The Motherland Calls"/>
+    <entry name="AstraMilitarum/TheMotherlandCallsDescription" value="Removes <string name='Traits/AstraMilitarum/UraCooldown'/> from allied infantry within 4 tiles. Grants bonuses to allied infantry that are within 5 tiles of an allied city. <string name='Traits/TheMotherlandCallsDescription'/>"/>
+    <entry name="AstraMilitarum/TheMotherlandCallsFlavor" value="Be glorified, our free Motherland, lead us to the triumph of the Imperium! The heretic and xenos wish to put us under their yokes, but the Valhallan Ice Warriors are stronger than all!"/>
+    <!-- Night Witches -->
+    <entry name="AstraMilitarum/NightBomber" value="Night Attack"/>
+    <entry name="AstraMilitarum/NightBomberDescription" value="<string name='Traits/AstraMilitarum/NightBomberDescription'/>"/>
+    <entry name="AstraMilitarum/NightBomberFlavor" value="Executing strategic bombing runs during broad daylight makes it easy for bombers to find their marks, but it also makes it easier for the enemy to detect and shoot down your raiding force. Night raids, with pilots prepared for them, offer greater success in preserving manpower. At night, bombers can be shrouded in the sky's darkness; factory furnaces and fortification searchlights, when not completely covered, become enticing targets, beaming in the dark."/>
+    <entry name="AstraMilitarum/FlyLow" value="Idle Engines"/>
+    <entry name="AstraMilitarum/FlyLowDescription" value="<string name='Traits/AstraMilitarum/FlyLowDescription'/> <string name='Traits/AstraMilitarum/FlyLowSlowdownDescription'/>"/>
+    <entry name="AstraMilitarum/FlyLowFlavor" value="Sentries are trained to listen for the sound of engines overhead, distinguishing between friend and foe by ear alone. But what if there is no sound to hear? The Night Witches are known to set their engines to idle, gliding towards their targets, where only then do they make a sound. The only thing heard is the soft wind being pushed away as bombs drop, almost akin to broomsticks in the sky."/>
+    <entry name="AstraMilitarum/HarassEnemies" value="Harassment Sortie"/>
+    <entry name="AstraMilitarum/HarassEnemiesDescription" value="Target an enemy unit. Infantry within 1 tile of that unit have reduced combat effectiveness."/>
+    <entry name="AstraMilitarum/HarassEnemiesFlavor" value="Though limited in arms, bullets are still bullets. Sleeping soldiers will wake and take cover if any strafing run comes, for they have no way of knowing if it's an ancient aircraft with one gun or some insane Mechanicus bullshit beast with bolters sticking out the ass."/>
+    <entry name="AstraMilitarum/LoadExtraAmmo" value="Load Additional Ammo"/>
+    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="<string name='Traits/AstraMilitarum/LoadExtraAmmoDescription'/>"/>
+    <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="There are times when killing the enemy is more important than surviving. Even old machines can be equipped with additional weapons and ammo when long-term performance and speed are of little concern."/>
+</language>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon attributesModifiedByUnit="0" icon="Actions/ChaosSpaceMarines/ShatterDefences">
+	<modifiers>
+		<modifier>
+			<effects>
+				<!-- This would be more appropriate as melee. But it doesn't work like that :D -->
+				<attacks add="5"/>
+				<rangedAccuracy max="12" min="12"/>
+				<rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
+				<rangedDamage add="3"/> <!-- %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="Poisoned" rank="2"/>
+		<trait name="IgnoresCover"/>
+	</traits>
+</weapon>
