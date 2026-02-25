@@ -12,6 +12,7 @@
                         <trait name="ChaosSpaceMarines/MarkOfNurgle"/>
                         <trait name="ChaosSpaceMarines/MarkOfSlaanesh"/>
                         <trait name="ChaosSpaceMarines/MarkOfTzeentch"/>
+						<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
 					</opponent>
 				</encounter>
 			</conditions>
