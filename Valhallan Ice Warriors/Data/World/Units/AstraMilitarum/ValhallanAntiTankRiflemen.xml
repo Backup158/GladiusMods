@@ -187,7 +187,7 @@
 
 		<trait name="AstraMilitarum/Valhallan"/>
 		<trait name="AstraMilitarum/ValhallanHorde"/>
-		<trait name="AstraMilitarum/ValhallanSniper"/>
+		<trait name="AstraMilitarum/UrbanTankAmbush"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

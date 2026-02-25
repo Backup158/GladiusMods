@@ -188,7 +188,7 @@
 
 		<trait name="AstraMilitarum/Valhallan"/>
 		<trait name="AstraMilitarum/ValhallanHorde"/>
-		<trait name="AstraMilitarum/ValhallanSniper"/>
+		<trait name="AstraMilitarum/UrbanTankAmbush"/>
 		<!-- Reinforcements -->
 		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
 		<trait name="AstraMilitarum/BattalionGuardman"/>
