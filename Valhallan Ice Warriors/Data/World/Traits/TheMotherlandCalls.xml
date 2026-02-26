@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Actions/DogmaAstrates">
 	<modifiers>
+		<!-- AP if near cities -->
 		<modifier>
+			<conditions>
+				<unit>
+					<!-- Close to City -->
+					<unitsInRange count="1" range="5">
+						<allied/>
+						<trait name="Headquarters"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
 			<effects>
 				<actionPointsMax add="1"/>
+			</effects>
+		</modifier>
+		<!-- FNP for infantry (checked by the action)-->
+		<modifier>
+			<effects>
 				<feelNoPainDamageReduction add="0.1"/>
 			</effects>
 		</modifier>

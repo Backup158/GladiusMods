@@ -56,7 +56,7 @@
     <entry name="AstraMilitarum/StrongpointReinforcedDescription" value="The Fortification (excluding Headquarters) gain increased offensive capabilities. When adjacent to 3 allies, it takes less damage."/>
     <entry name="AstraMilitarum/StrongpointReinforcedFlavor" value="<string name='Actions/AstraMilitarum/DefendThisStrongpointFlavor'/>"/>
     <entry name="TheMotherlandCalls" value="<string name='Actions/AstraMilitarum/TheMotherlandCalls'/>"/>
-    <entry name="TheMotherlandCallsDescription" value="Infantry gain an additional action and damage reduction. Valhallans gain additional damage reduction."/>
+    <entry name="TheMotherlandCallsDescription" value=" Infantry gains damage reduction, moresof if they are Valhallans. If within 5 tiles of an allied Headquarters, infantry gain an additional action."/>
     <entry name="TheMotherlandCallsFlavor" value="<string name='Actions/AstraMilitarum/TheMotherlandCallsFlavor'/>"/>
     <!--    Night Witches-->
     <entry name="AstraMilitarum/NightBomber" value="<string name='Actions/AstraMilitarum/NightBomber'/>"/>

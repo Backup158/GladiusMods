@@ -56,7 +56,8 @@ These dogs are not temporary.
 [i]The People's Commissar[/i]: -[33, 67]% food upkeep, +[1, 3] morale per turn. For Valhallans, +[11, 33]% melee attacks
 [u]Defend this Strongpoint[/u]: Target an allied Fortification that is not a Headquarters. The tiles around it grant increased defence (+2 armour), and the Fortification itself is massively buffed.
 [i]Reinforced Strongpoint[/i]: +[1, 3] accuracy, -[33, 67]% morale loss, +2 armour, and +1 range. When adjacent to 3 allies, +[11, 33]% FNP.
-[u]The Motherland Calls[/u]: Removes [i]Recently Charged[/i] from allied infantry within 4 tiles. For allied infantry within 5 tiles of an allied city, grant +1 action point, 10% FNP.
+[u]The Motherland Calls[/u]: Buffs allied infantry within 4 tiles and removes [i]Recently Charged[/i] from them.
+[i]The Motherland Calls[/i]: Infantry gain +10% FNP, with another +7% if they are Valhallan. If the unit is within 5 tiles of allied Headquarters, +1 action point max. 
 [/td]
 [/tr]
 [tr] 

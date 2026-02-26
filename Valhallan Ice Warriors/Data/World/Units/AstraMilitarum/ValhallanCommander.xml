@@ -297,11 +297,6 @@
 											<noTrait name="Fortification"/>
 											<noTrait name="MonstrousCreature"/>
 											<noTrait name="Vehicle"/>
-											<!-- Close to City -->
-											<unitsInRange count="1" range="5">
-												<allied/>
-												<trait name="Headquarters"/>
-											</unitsInRange>
 										</unit>
 									</conditions>
 									<effects>

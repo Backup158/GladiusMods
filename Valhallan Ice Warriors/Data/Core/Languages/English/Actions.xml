@@ -36,7 +36,7 @@
     <entry name="AstraMilitarum/DefendThisStrongpointDescription" value="Target an allied Fortification that is not a Headquarters. The tiles around it grant increased defence. <string name='Traits/AstraMilitarum/StrongpointReinforcedDescription'/>"/>
     <entry name="AstraMilitarum/DefendThisStrongpointFlavor" value="&quot;The enemy cannot take hold of this position! If they gain a foothold here in the bank, they can cross the river and tear our defensive line asunder! Send the 327th with 2 penal battalions as a diversionary attack to the southern flank, while the 791st and 564th move to reinforce Sergeant Pavlov.&quot;"/>
     <entry name="AstraMilitarum/TheMotherlandCalls" value="The Motherland Calls"/>
-    <entry name="AstraMilitarum/TheMotherlandCallsDescription" value="Removes <string name='Traits/AstraMilitarum/UraCooldown'/> from allied infantry within 4 tiles. Grants bonuses to allied infantry that are within 5 tiles of an allied city. <string name='Traits/TheMotherlandCallsDescription'/>"/>
+    <entry name="AstraMilitarum/TheMotherlandCallsDescription" value="Grants bonuses to allied infantry within 4 tiles. <string name='Traits/TheMotherlandCallsDescription'/> Removes <string name='Traits/AstraMilitarum/UraCooldown'/> from allied infantry within 4 tiles."/>
     <entry name="AstraMilitarum/TheMotherlandCallsFlavor" value="Be glorified, our free Motherland, lead us to the triumph of the Imperium! The heretic and xenos wish to put us under their yokes, but the Valhallan Ice Warriors are stronger than all!"/>
     <!-- Night Witches -->
     <entry name="AstraMilitarum/NightBomber" value="Night Attack"/>
