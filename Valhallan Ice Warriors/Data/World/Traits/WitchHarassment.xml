@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait  category="Debuff"
-		icon="Traits/HellstormTemplate"
-		rankMax="2">
+<trait category="Debuff" rankMax="2" icon="Traits/HellstormTemplate">
 	<modifiers>
 		<!-- Loses Morale and overall Accuracy due to lack of rest -->
 		<modifier>
