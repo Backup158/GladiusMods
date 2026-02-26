@@ -13,6 +13,7 @@
                         <trait name="ChaosSpaceMarines/MarkOfSlaanesh"/>
                         <trait name="ChaosSpaceMarines/MarkOfTzeentch"/>
 						<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+						<trait name="Daemon"/>
 					</opponent>
 				</encounter>
 			</conditions>
