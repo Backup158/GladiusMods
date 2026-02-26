@@ -14,5 +14,5 @@
 	<entry name="SabreLoaderPresentFlavor" value="More weapons require more hands, even when they're all pointed in the same direction. In the Imperium, ammo doesn't load itself; the God-Emperor gifted Man with a high population for a reason."/>
 	<entry name="SabreFullyManned" value="Fully Manned"/>
 	<entry name="SabreFullyMannedDescription" value="Requires 3 or more cargo to be fired."/>
-	<entry name="SabreFullyMannedFlavor" value="<string name='SabreLoaderPresentFlavor'/>"/>
+	<entry name="SabreFullyMannedFlavor" value="<string name='Traits/SabreLoaderPresentFlavor'/>"/>
 </language>
