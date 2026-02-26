@@ -8,7 +8,7 @@
     <entry name="AstraMilitarum/DeployValhallanDogsScoutDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanDogsScoutDescription'/>"/>
     <entry name="AstraMilitarum/DeployValhallanDogsScoutFlavor" value="<string name='Units/AstraMilitarum/ValhallanDogsScoutFlavor'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrak" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrak'/>"/>
-    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrakDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsKraksDescription'/>"/>
+    <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrakDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrakDescription'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsKrakFlavor" value="<string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrakFlavor'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMelta" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMelta'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMeltaDescription'/>"/>
