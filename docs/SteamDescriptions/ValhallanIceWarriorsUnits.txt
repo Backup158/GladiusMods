@@ -10,7 +10,7 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [/td]
 [/tr]
 [tr] 
-[td]T1 [b]Ratlings[/b][/td][td][b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare ([i]Urban Sniper[/i]: Ignores 33% CDR, can move one tile after shooting).
+[td]T1 [b]Ratlings[/b][/td][td][b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare ([i]Urban Sniper[/i]: Ignores 33% CDR, can move one tile after shooting). Their lasguns are permanently locked to high power[spoiler](15% more damage but has [i]Hot Weapon[/i]: 15% self damage when not in Arctic and Tundra tiles, with an additional 10% self damage when in Desert, Savannah, and Volcanic tiles.)
 [/td]
 [/tr]
 [tr] 
