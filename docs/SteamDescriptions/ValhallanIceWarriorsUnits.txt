@@ -51,7 +51,7 @@ These dogs are not temporary.
 [tr] 
 [td]T4 [b]Substructure Expansion[/b][/td][td][b]Valhallan Marshal[/b] - Hero unit that provides buffs to allied infantry on the defence, with increased bonuses for Valhallans.
 [u]Hold the Line[/u]: Grants bonuses to allied infantry. Radius is increased upon levelling up this ability.
-[i]Hold the Line[/i]: Infantry which have not moved have +[3, 10]% FNP; Valhallans also have +[3, 11]% melee attacks. Infantry within 5 tiles of an allied city have +17% RDR, +[17, 33]% MDR, and +[17, 33]% damage. Valhallans within 3 tiles of allied city heal [1, 3] every turn.
+[i]Hold the Line[/i]: Infantry which have not moved have +[3, 10]% FNP; Valhallans also have +[3, 11]% melee attacks. Infantry within 5 tiles of an allied city have +17% RDR, +[17, 33]% MDR, and +[17, 33]% damage. Valhallans within 3 tiles of allied city have +[33, 100]% heal rate.
 [u]The People's Commissar[/u]: Grants buffs to allied infantry within 3 tiles; heals +[1, 3] for adjacent allied infantry, with another +[1, 2] if they are Valhallans. Duration and intensity is increased upon levelling up this ability.
 [i]The People's Commissar[/i]: -[33, 67]% food upkeep, +[1, 3] morale per turn. For Valhallans, +[11, 33]% melee attacks
 [u]Defend this Strongpoint[/u]: Target an allied Fortification that is not a Headquarters. The tiles around it grant increased defence (+2 armour), and the Fortification itself is massively buffed.

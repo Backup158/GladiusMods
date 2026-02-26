@@ -78,7 +78,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<hitpoints addMin="1" addMin="3"/>
+				<healingRate mulMin="0.33" addMin="1"/>
 			</effects>
 		</modifier>
 	</perTurnModifiers>

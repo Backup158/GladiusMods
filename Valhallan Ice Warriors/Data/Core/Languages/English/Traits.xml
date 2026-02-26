@@ -47,7 +47,7 @@
     <entry name="AstraMilitarum/GulagGainsFlavor" value="Forced labour, while not the most efficient, is overall quite effective when you have a limitless supply of prisoners. Typically, prisoners are sent into dangerous mines, with freedom promised if they can deliver enough ore by the end of the month. Unofficially, backstabbing is overlooked since it helps control the constantly growing traitor population. Anyone who meets these bounties is collected and placed into a soundproof voidship, where they are granted the Emperor's Peace."/>
     <!--    Commander-->
     <entry name="HoldTheLine" value="<string name='Actions/AstraMilitarum/HoldTheLine'/>"/>
-    <entry name="HoldTheLineDescription" value="Infantry which have not moved take less damage; Valhallans also gain increased melee attacks. Infantry within 5 tiles of an allied city have improved defences and damage. Valhallans within 3 tiles of allied city heal every turn."/>
+    <entry name="HoldTheLineDescription" value="Infantry which have not moved take less damage; Valhallans also gain increased melee attacks. Infantry within 5 tiles of an allied city have improved defences and damage. Valhallans within 3 tiles of an allied city have an increased healing rate."/>
     <entry name="HoldTheLineFlavor" value="<string name='Actions/AstraMilitarum/HoldTheLineFlavor'/>"/>
     <entry name="ThePeoplesCommissar" value="<string name='Actions/AstraMilitarum/ThePeoplesCommissar'/>"/>
     <entry name="ThePeoplesCommissarDescription" value="Infantry have less upkeep and restore morale each turn. Valhallans gain melee attacks."/>
