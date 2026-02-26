@@ -22,7 +22,7 @@
 		<!-- <trait name="Sniper"/> -->
 		<trait name="AstraMilitarum/BoltDamage" requiredUpgrade="AstraMilitarum/BoltDamage"/>
 		<trait name="SpaceMarines/BoltDamage" requiredUpgrade="SpaceMarines/BoltDamage"/>
-		<trait name="AstraMilitarum/ValhallanTankHunters"/>
+		<trait name="ValhallanTankHunters"/>
 		<trait name="RapidFire"/> <!-- It's semi auto so JUST GO FUCKING HAM -->
 	</traits>
 </weapon>

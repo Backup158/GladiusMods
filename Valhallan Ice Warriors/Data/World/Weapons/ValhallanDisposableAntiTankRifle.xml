@@ -22,6 +22,6 @@
 		<!-- <trait name="Sniper"/> -->
 		<trait name="AstraMilitarum/BoltDamage" requiredUpgrade="AstraMilitarum/BoltDamage"/>
 		<trait name="SpaceMarines/BoltDamage" requiredUpgrade="SpaceMarines/BoltDamage"/>
-		<trait name="AstraMilitarum/ValhallanTankHunters"/>
+		<trait name="ValhallanTankHunters"/>
 	</traits>
 </weapon>

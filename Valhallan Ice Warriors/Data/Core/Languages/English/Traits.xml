@@ -78,9 +78,9 @@
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on tiles which are neither Arctic nor Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
     <entry name="ValhallanHotWeaponFlavor" value="In cold environments, weapons can cool down quicker, and natives of those lands typically modify their weapons to take advantage of this. Of course, this may backfire when they're deployed to environments outside of their preferred."/>
-    <entry name="AstraMilitarum/ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
-    <entry name="AstraMilitarum/ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
-    <entry name="AstraMilitarum/ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
+    <entry name="ValhallanTankHunters" value="<string name='Traits/AstraMilitarum/Valhallan'/> <string name='Traits/TankHunters'/>"/>
+    <entry name="ValhallanTankHuntersDescription" value="<string name='Traits/TankHuntersDescription'/> Decreased accuracy against Infantry."/>
+    <entry name="ValhallanTankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
     <entry name="ValhallanUnwieldy" value="Indirect Fire Inaccuracy"/>
     <entry name="ValhallanUnwieldyDescription" value="Decreased accuracy against units that are not Fortifications."/>
     <entry name="ValhallanUnwieldyFlavor" value="Hitting a moving target is hard enough. Hitting a moving target by predicting its path of travel and intercepting that with a calculated direct hit from a mortar shell is much harder."/>
