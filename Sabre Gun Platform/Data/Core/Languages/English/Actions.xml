@@ -5,5 +5,5 @@
 	<entry name="AstraMilitarum/ConstructSabreGunPlatformFlavor" value="Servitors lug crates of material to the construction site, where tech-priests burn incense and perform rituals blessing the components. When the emplacement is fully built, the crew gathers to recite the Canticle of Ack-Ack, completing its construction."/>
 	<entry name="AstraMilitarum/ConstructSabreGunPlatformLascannon" value="Construct <string name='Units/AstraMilitarum/SabreGunPlatformLascannon'/>"/>
 	<entry name="AstraMilitarum/ConstructSabreGunPlatformLascannonDescription" value="Constructs an immobile, manned anti-armour emplacement."/>
-	<entry name="AstraMilitarum/ConstructSabreGunPlatformLascannonFlavor" value="<string name='AstraMilitarum/ConstructSabreGunPlatformLascannonFlavor'/>"/>
+	<entry name="AstraMilitarum/ConstructSabreGunPlatformLascannonFlavor" value="<string name='AstraMilitarum/ConstructSabreGunPlatformFlavor'/>"/>
 </language>
