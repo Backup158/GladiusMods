@@ -213,7 +213,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait duration="3" name="WitchHarrassment"/>
+										<addTrait duration="3" name="WitchHarassment"/>
 									</effects>
 								</modifier>
 							</modifiers>
