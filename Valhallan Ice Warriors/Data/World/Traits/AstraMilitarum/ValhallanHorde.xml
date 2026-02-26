@@ -25,10 +25,10 @@
 			</effects>
 		</modifier>
 		<!-- Accuracy -->
-		<!--    Debuffed by default. Bonus when 2 allies -->
+		<!--    Debuffed by default, until there are 2 allies -->
 		<modifier>
 			<effects>
-				<rangedAccuracy mul="-0.17"/>
+				<rangedAccuracy mul="-0.33"/>
 			</effects>
 		</modifier>
 		<!-- 	Offset when near allies -->
@@ -42,7 +42,7 @@
                 </unit>
             </conditions>
 			<effects>
-				<rangedAccuracy mul="0.17"/>
+				<rangedAccuracy mul="0.16"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
