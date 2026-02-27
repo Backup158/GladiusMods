@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/Guardsman"
+		<unit mesh="Units/AstraMilitarum/SteelLegionnaire"
 				material="Units/AstraMilitarum/SteelLegionnaire"
 				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
@@ -15,7 +15,7 @@
 	<weapons>
 		<weapon name="VossPatternLasgun">
 			<model>
-				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+				<beamWeapon mesh="Weapons/AstraMilitarum/SteelLegionLasgun"
 						material="Weapons/AstraMilitarum/GuardsmanLasgun"
 						bone="RightHandBone"
 						muzzleBone="GuardsmanLasgunMuzzle0"

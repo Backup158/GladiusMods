@@ -15,7 +15,7 @@
 	<weapons>
 		<weapon name="VossPatternLasgun">
 			<model>
-				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+				<beamWeapon mesh="Weapons/AstraMilitarum/SteelLegionLasgun"
 						material="Weapons/AstraMilitarum/GuardsmanLasgun"
 						bone="RightHandBone"
 						muzzleBone="GuardsmanLasgunMuzzle0"
