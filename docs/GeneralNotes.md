@@ -11,7 +11,7 @@ Use Blender 4.0 to be able to import and export. The import script only works on
 4. Export as Proxy mesh .xml
 5. Put into appropriate mod folder
 6. Open it
-  - If it has `normal id="xxx" x=0.00000 y=0.00000 z=0.00000` it's fucked
+  - If it has `normal id="xxx" x="0.000000" y="0.000000" z="0.000000"` it's fucked
   - Normal values need to add up to 1
-  - Copy the values if there are any. Temporarily, you can just do x=1.0 and make everyone oily
+  - Copy the values if there are any. Temporarily, you can just do x="1.0" and make everyone oily
 7. Start game to convert the xml into a msh
