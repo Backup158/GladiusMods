@@ -12,7 +12,7 @@
 				walker="1"/>
 	</model>
 	<!-- Smaller group from 16 -->
-	<group size="10" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
+	<group size="12" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="Flamer">
 			<model>
