@@ -16,7 +16,7 @@
 	<weapons>
 		<weapon name="Flamer">
 			<model>
-				<projectileWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+				<projectileWeapon mesh="Weapons/AstraMilitarum/SteelLegionFlamer"
 						material="Weapons/AstraMilitarum/GuardsmanLasgun"
 						bone="RightHandBone"
 						muzzleBone="GuardsmanLasgunMuzzle0"
