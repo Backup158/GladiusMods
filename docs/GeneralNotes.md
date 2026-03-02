@@ -51,3 +51,8 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
   4. set weight to like 0.01
   5. click Assign
 5. Export
+
+## Resetting Weights
+1. Select all vertices
+2. Shift click al bones
+3. Press `Ctrl + X`
