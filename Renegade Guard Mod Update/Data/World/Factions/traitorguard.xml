@@ -417,7 +417,7 @@
 
 
 
-<deployFortress cooldown="20"
+	<deployFortress cooldown="20"
 				cooldownScalesWithPace="1"
 				icon="Units/ChaosGuard/ImperialStrongpoint"
 				scaleInfluenceCost="1"
@@ -447,7 +447,7 @@
 				</target>
 			</beginTargets>
 		</deployFortress>
-<purchaseResearch cooldown="1"
+	<purchaseResearch cooldown="1"
 				costScalesWithPace="0"
 				durationInSeconds="0.1"
 				interfaceSound="Interface/TradeGoods"
@@ -570,7 +570,7 @@
 		</purchaseEnergy>
 
 
-		</actions>
+	</actions>
 	<startingUnits>
 		<unit type="traitorguard/Guardsman2" count="2"/>
 		<unit type="traitorguard/TechpriestBetrayer" count="1"/>
