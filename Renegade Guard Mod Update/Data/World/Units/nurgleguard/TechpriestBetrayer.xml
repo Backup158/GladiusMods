@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit visible="0">
+	<model>
+		<unit mesh="Units/AstraMilitarum/TechpriestEnginseer"
+				material="Units/ChaosGuard/TechpriestEnginseer"
+				idleAnimation="Units/AstraMilitarum/TechpriestEnginseerIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.25 1.25 1.25"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="PowerAxe">
+			<model>
+				<powerWeapon effectBoundingVolume="Blade"
+						mesh="Weapons/AstraMilitarum/TechpriestEnginseerPowerAxe"
+						material="Units/AstraMilitarum/TechpriestEnginseer"
+						bone="Axe"
+						fireInterval="1.0"/>
+			</model>
+		</weapon>
+		<weapon name="ServoArm" slotName="ServoArm" enabled="0">
+			<model>
+				<weapon fireInterval="1.0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="9"/> <!-- %armor base armor=3+ -->
+				<influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
+				<foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=7 factor=2 -->
+
+				<influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+				<hitpointsMax base="12.0"/> <!-- %hitpointsMax base toughness=5 wounds=3 -->
+				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
+				<meleeAttacks base="6"/>
+				<strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
+				<!-- <meleeInitiative base="5"/> -->
+				<moraleMax base="15"/> <!-- %moraleMax base leadership=9 -->
+				<movementMax base="3"/>
+				<oreCost base="40.0"/> <!-- %oreCost base tier=12 factor=0.5 -->
+				<productionCost base="25.0"/> <!-- %productionCost base tier=12 factor=1 -->
+				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/AstraMilitarum/TechpriestEnginseerMeleeAttack0"
+						chargeAnimation="Units/AstraMilitarum/TechpriestEnginseerCharge0"
+						meleeAnimation="Units/AstraMilitarum/TechpriestEnginseerMeleeAttack0"
+						meleeBeginSwing="0.5"
+						meleeEndSwing="1.0"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerDie"
+						animationCount="2"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="0.5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<useWeapon cooldown="3" weaponSlotName="ServoArm">
+			<model>
+				<action	chargeAnimation="Units/AstraMilitarum/TechpriestEnginseerCharge0"
+						meleeAnimation="Units/AstraMilitarum/TechpriestEnginseerServoArm"
+						meleeBeginSwing="0.5"
+						meleeEndSwing="1.0"/>
+			</model>	
+		</useWeapon>
+		<awakenTheMachine cooldown="5"
+				requiredUpgrade="nurgleguard/AwakenTheMachine">
+
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerAbility"
+						sound="Actions/MechanicalBuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<unit>
+							<allied/>
+						</unit>
+						<unit match="Any">
+							<trait name="Fortification"/>
+							<trait name="Vehicle"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="3" name="PowerOfTheMachineSpirit"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</awakenTheMachine>
+		<constructNoctilithCrown icon="Units/ChaosGuard/NoctilithCrown" cooldown="2">
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerAbility"
+						sound="Actions/Construct"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<energyCost base="5"/>
+						<influenceCost base="10"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="2">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosGuard/NoctilithCrown"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructNoctilithCrown>
+	<constructImperialStrongpoint icon="Units/AstraMilitarum/ImperialStrongpoint"
+				
+				cooldown="5">
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerBuild"
+						sound="Actions/Construct"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<oreCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosGuard/ImperialStrongpoint"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructImperialStrongpoint>
+<mediPack cooldown="10">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<damaged/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+<masterOfMechanisms cooldown="1"
+				name="ChaosSpaceMarines/MasterOfMechanisms"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerAbility"
+						sound="Actions/Heal"/>
+			</model>
+			<beginTargets>
+				<target rangeMin="1" rangeMax="1">
+					<conditions>
+						<unit>
+							<allied/>
+							<damaged/>
+						</unit>
+						<unit match="Any">
+							<trait name="Fortification"/>
+							<trait name="Vehicle"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpoints addMin="8" addMax="24"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</masterOfMechanisms>
+		<shatterDefences cooldownMin="3"
+				cooldownMax="1"
+				name="ChaosSpaceMarines/ShatterDefences"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerAbility"
+						sound="Actions/ChaosDebuff"/>
+			</model>			
+			<beginTargets>
+				<target rangeMax="2">
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="ShatterDefences" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</shatterDefences>
+	<genericUnitAbility elite="1"
+				levelUpPriority="1"
+				name="ChaosSpaceMarines/InfernalIndustry"
+				passive="1"
+				rank="-1"
+				rankMax="0">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosGuard/InfernalIndustry"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+<genericUnitAbility name="ChaosSpaceMarines/DarkGlory"
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosSpaceMarines/DarkGlory"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+<levelUp/>
+
+	</actions>
+	<traits>
+		<trait name="FeelNoPain"/>
+		<trait name="Unique"/>
+		<trait name="RefractorField"/>
+		<trait name="nurgleguard/PlagueCurse"/>
+		<trait name="ChaosGuard/MarkOfNurgle"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="nurgleguard/ExtraInfantryArmour"/>
+	 	<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="nurgleguard/VeteransOfTheLongWar"/>
+		<trait name="ChaosGuard/VeteransOfTheLongWar2" requiredUpgrade="nurgleguard/VeteransOfTheLongWar2"/>
+	</traits>
+</unit>

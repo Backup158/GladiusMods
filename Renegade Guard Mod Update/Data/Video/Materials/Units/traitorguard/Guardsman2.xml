@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/Guardsman2Diffuse"/>
+		<texture name="Units/ChaosGuard/Guardsman2Normal"/>
+		<texture name="Units/ChaosGuard/Guardsman2SIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

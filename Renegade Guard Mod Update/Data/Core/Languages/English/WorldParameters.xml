@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	
+	<entry name="Difficulty0LostGuard" value="Traitor Guard"/>
+	<entry name="Difficulty1LostGuard" value="Spawn"/>
+	<entry name="Difficulty2LostGuard" value="Fallen Brother"/>
+	<entry name="Difficulty3LostGuard" value="Champion of Chaos"/>
+	<entry name="Difficulty4LostGuard" value="Chaos Lord"/>
+	<entry name="Difficulty5LostGuard" value="Daemon Prince"/>
+	<entry name="Difficulty6LostGuard" value="Dark God"/>
+
+	<entry name="Difficulty0ChaosGuard" value="Traitor Guard"/>
+	<entry name="Difficulty1ChaosGuard" value="Spawn"/>
+	<entry name="Difficulty2ChaosGuard" value="Fallen Brother"/>
+	<entry name="Difficulty3ChaosGuard" value="Champion of Chaos"/>
+	<entry name="Difficulty4ChaosGuard" value="Chaos Lord"/>
+	<entry name="Difficulty5ChaosGuard" value="Daemon Prince"/>
+	<entry name="Difficulty6ChaosGuard" value="Dark God"/>
+
+	<entry name="Difficulty0nurgleguard" value="Traitor Guard"/>
+	<entry name="Difficulty1nurgleguard" value="Spawn"/>
+	<entry name="Difficulty2nurgleguard" value="Fallen Brother"/>
+	<entry name="Difficulty3nurgleguard" value="Champion of Chaos"/>
+	<entry name="Difficulty4nurgleguard" value="Chaos Lord"/>
+	<entry name="Difficulty5nurgleguard" value="Daemon Prince"/>
+	<entry name="Difficulty6nurgleguard" value="Dark God"/>
+
+	<entry name="Difficulty0traitorguard" value="Traitor Guard"/>
+	<entry name="Difficulty1traitorguard" value="Spawn"/>
+	<entry name="Difficulty2traitorguard" value="Fallen Brother"/>
+	<entry name="Difficulty3traitorguard" value="Champion of Chaos"/>
+	<entry name="Difficulty4traitorguard" value="Chaos Lord"/>
+	<entry name="Difficulty5traitorguard" value="Daemon Prince"/>
+	<entry name="Difficulty6traitorguard" value="Dark God"/>
+	
+	<entry name="Difficulty0khorneguard" value="Traitor Guard"/>
+	<entry name="Difficulty1khorneguard" value="Spawn"/>
+	<entry name="Difficulty2khorneguard" value="Fallen Brother"/>
+	<entry name="Difficulty3khorneguard" value="Champion of Chaos"/>
+	<entry name="Difficulty4khorneguard" value="Chaos Lord"/>
+	<entry name="Difficulty5khorneguard" value="Daemon Prince"/>
+	<entry name="Difficulty6khorneguard" value="Dark God"/>
+
+	<entry name="Difficulty0slaguard" value="Traitor Guard"/>
+	<entry name="Difficulty1slaguard" value="Spawn"/>
+	<entry name="Difficulty2slaguard" value="Fallen Brother"/>
+	<entry name="Difficulty3slaguard" value="Champion of Chaos"/>
+	<entry name="Difficulty4slaguard" value="Chaos Lord"/>
+	<entry name="Difficulty5slaguard" value="Daemon Prince"/>
+	<entry name="Difficulty6slaguard" value="Dark God"/>
+	
+	<entry name="Difficulty0tzeguard" value="Traitor Guard"/>
+	<entry name="Difficulty1tzeguard" value="Spawn"/>
+	<entry name="Difficulty2tzeguard" value="Fallen Brother"/>
+	<entry name="Difficulty3tzeguard" value="Champion of Chaos"/>
+	<entry name="Difficulty4tzeguard" value="Chaos Lord"/>
+	<entry name="Difficulty5tzeguard" value="Daemon Prince"/>
+	<entry name="Difficulty6tzeguard" value="Dark God"/>
+</language>

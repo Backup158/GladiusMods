@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Weapons/ChaosGuard/WyrdvanePsykerLaspistolDiffuse"/>
+		<texture name="Weapons/ChaosGuard/WyrdvanePsykerLaspistolNormal"/>
+		<texture name="Weapons/ChaosGuard/WyrdvanePsykerLaspistolSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

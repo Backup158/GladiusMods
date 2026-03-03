@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/HeavyWeaponsSquadDiffuse"/>
+		<texture name="Units/ChaosGuard/HeavyWeaponsSquadNormal"/>
+		<texture name="Units/ChaosGuard/HeavyWeaponsSquadSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

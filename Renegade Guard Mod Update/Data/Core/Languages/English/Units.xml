@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<!------------------------------------------------------------------------------------>
+	<!------------------ |       Name Factions      |      S E A R C H     | ------------->
+	<!------------------------------------------------------------------------------------>
+	<!------------------ | Blackbloods of Malice    | Faction_LostGuard    | ------------->
+	<!------------------ | Gathalamor 24th Regiment | Faction_khorneguard  | ------------->
+	<!------------------ | Gladius Renegade Militia | Faction_traitorguard | ------------->
+	<!------------------ | Hazakh Plaguetakers      | Faction_nurgleguard  | ------------->
+	<!------------------ | Kardone Changeseekers    | Faction_tzeguard     | ------------->
+	<!------------------ | Renegade Imperial Guard  | Faction_ChaosGuard   | ------------->
+	<!------------------ | Vanitine Hedonites       | Faction_slaguard     | ------------->
+	<!------------------------------------------------------------------------------------>
+
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Renegade Imperial Guard (Faction_ChaosGuard) ------------>
+	<!--------------------------------------------------------------------------------->
+	
+	<entry name="ChaosGuard/Baneblade" value="Baneblade"/>
+	<entry name="ChaosGuard/BanebladeDescription" value="Super-heavy tank unit with devastating firepower."/>
+	<entry name="ChaosGuard/BanebladeFlavor" value="The Baneblade is an unmistakable icon of the Imperium's armoured supremacy, and many of these honoured machines have served in countless war zones across several millennia of war. Possessed of overwhelming firepower, exceptionally thick armour, and a roaring power-plant that allows it to surge into battle with surprising speed, the Baneblade is a truly deadly foe in any conflict."/>
+	<entry name="ChaosGuard/Basilisk" value="Basilisk"/>
+	<entry name="ChaosGuard/BasiliskDescription" value="Long-range artillery tank unit."/>
+	<entry name="ChaosGuard/BasiliskFlavor" value="When the Imperial Guard go to war, they march to the thunderous report of batteries of Basilisks whose guns can flatten cities and end worlds. Instantly recognisable for the long, looming barrel of its earthshaker cannon, the Basilisk boasts a prodigious range."/>
+	<entry name="ChaosGuard/Bullgryn" value="Renegade Ogryn"/>
+	<entry name="ChaosGuard/BullgrynDescription" value="Heavy melee infantry unit."/>
+	<entry name="ChaosGuard/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+	<entry name="ChaosGuard/ChaosCultist" value="Chaos Cultists"/>
+	<entry name="ChaosGuard/ChaosCultistDescription" value="Mass infantry unit that can found cities and sacrifice itself to the Dark Gods."/>
+	<entry name="ChaosGuard/ChaosCultistFlavor" value="The cultists of Chaos can be found, in one form or another, almost anywhere the Imperium has spread. At first glance, they are indistinguishable from normal men, but under their clothes, their flesh is tattooed and branded with sigils that hurt the eyes of any faithful who look upon them. When the Chaos Space Marines come to a planet, the true colours of the cultists are revealed. The powers of darkness are ever quick to promise glory, and even the lowliest initiate knows that to fight alongside such legendary warriors is to court the gaze of the gods."/>
+<!--	<entry name="ChaosGuard/ChaosLandRaider" value="Chaos Land Raider"/>
+	<entry name="ChaosGuard/ChaosLandRaiderDescription" value="Massively armoured and heavily armed transport unit."/>
+	<entry name="ChaosGuard/ChaosLandRaiderFlavor" value="The Chaos Land Raider is the heaviest ground vehicle in a Chaos Space Marine army. Its adamantine and ceramite plates can withstand all but the deadliest anti-tank weaponry, and the blessings of the Warpsmiths keep it at peak efficiency. The twin lascannons mounted in each sponson make short work of other vehicles that would dare to attempt to stop its rampage."/>-->
+<!--	<entry name="ChaosGuard/ChaosLord" value="Chaos Lord"/>
+	<entry name="ChaosGuard/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="ChaosGuard/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/> -->
+	<entry name="ChaosGuard/ChaosRhino" value="Chaos Rhino"/>
+	<entry name="ChaosGuard/ChaosRhinoDescription" value="Armoured transport vehicle that can self-repair."/>
+	<entry name="ChaosGuard/ChaosRhinoFlavor" value="The Rhino is the most common transport of the Space Marines, and the same can be said of the Heretic Astartes, for this machine is so ruggedly constructed it can see hundreds of years of warfare and still function at peak efficiency. The tank's chassis is based upon a Standard Template Construct, meaning that it is relatively simple to build, maintain and repair. Over the ten thousand years since the Long War began, the Rhino has seen continued use as the favoured transport of the Chaos Space Marines. They will even go so far as to loot them from defeated Imperial armies, though they will burn them clean of Imperial insignia as quickly as possible and festoon the stolen vehicles with spikes, blades and gory trophies taken from the dismembered bodies of their previous owners."/>
+	<entry name="ChaosGuard/ChaosSpaceMarine" value="Plague Marines"/>
+	<entry name="ChaosGuard/ChaosSpaceMarineDescription" value="Versatile infantry unit."/>
+	<entry name="ChaosGuard/ChaosSpaceMarineFlavor" value="Plague Marines are those Chaos Space Marines who have wholly dedicated their lives and souls to the service of the Chaos God Nurgle."/>
+<!--	<entry name="ChaosGuard/ChaosSpawn" value="Chaos Spawns"/>
+	<entry name="ChaosGuard/ChaosSpawnDescription" value="Fast melee infantry unit that mutates each turn."/>
+	<entry name="ChaosGuard/ChaosSpawnFlavor" value="Although physically powerful and extremely resilient, Chaos Spawn are insane, mewling creatures with no mental powers or self-awareness. Their former intelligence has been sacrificed to their failed ambition. Many a champion of great promise has ended up as a seething mound of bone and blubber, monstrous and screaming with lunatic rage."/> -->
+	<entry name="ChaosGuard/Chaplain" value="Dark Apostle"/>
+	<entry name="ChaosGuard/ChaplainDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="ChaosGuard/ChaplainFlavor" value=" Dark Apostles are the corrupted Chaplains of the Word Bearers Chaos Space Marines Legion, who gleefully redirected the Legion's fanatical zeal from preaching of the Imperial faith to howling the praises of Chaos. Dark Apostles are impassioned and charismatic preachers, capable of causing entire Regiments of the Imperial Guard or even loyalist Space Marines to defect to the forces of Chaos."/>
+<!--	<entry name="ChaosGuard/Chimera" value="Chimera"/>
+	<entry name="ChaosGuard/ChimeraDescription" value="Amphibious transport unit with manned weaponry and communication equipment."/>
+	<entry name="ChaosGuard/ChimeraFlavor" value="The Chimera is the most prolific and popular armoured transport used by the Imperial Guard. It is rugged, versatile, and easy to produce in huge numbers. For thousands of years it has been accepted wisdom that the Chimera punches well above its weight in a firefight; the tank itself mounts a variety of punishing anti-personnel weaponry, while passengers can lay down additional fire from its spacious top hatch and flank-mounted lasgun arrays."/> -->
+<!--	<entry name="ChaosGuard/DaemonPrince" value="Daemon Prince"/>
+	<entry name="ChaosGuard/DaemonPrinceDescription" value="Monstrous hero that cripples foes with psychic powers before clawing them to death."/>
+	<entry name="ChaosGuard/DaemonPrinceFlavor" value="Daemon Princes are infernal monsters that tower over the mortals they lead to battle. These paragons of evil take many forms, though all exude a palpable aura of terror and power. In battle, a Daemon Prince strides through the pitiful bullets of the enemy without pause, his unnatural laughter driving men to the edge of fear. Warp energy sizzles from his eyes, and black flames curl from his mouth as he speaks dread phrases that kill as sure as any blade. These are creatures of nightmare—a living expression of Chaos given form."/> -->
+	<entry name="ChaosGuard/DarkDisciple" value="Dark Disciples"/>
+	<entry name="ChaosGuard/DarkDiscipleDescription" value="Infantry unit that increases the defenses of Chaos units."/>
+	<entry name="ChaosGuard/DarkDiscipleFlavor" value="Dark Disciples carry profane accoutrements of their masters’ worship and parrot the fell words spoken in his baleful prayers. Many such disciples have been augmented to better serve in their role–their skin stretched out and inked with grim litanies, or their mouths fitted with Daemon-touched vox-grilles to project their voices into the warp. Amidst the din of combat they join their Dark Apostle’s chants, crying out for the Chaos Gods to manifest their blessings."/>
+	<entry name="ChaosGuard/Defiler" value="Tzeentch Defiler"/>
+	<entry name="ChaosGuard/DefilerDescription" value="Enormous walker unit with devastating melee and ranged weaponry."/>
+	<entry name="ChaosGuard/DefilerFlavor" value="Defilers are truly massive beasts of war, twice the size of most other Daemon Engines and with a temperament to match. The ground shivers and melts as they stalk towards their foes on six massive, segmented legs, their great pincer-arms twitching and snipping with an impatient need to slice through warm flesh. The Defiler's crab-like body supports a daemonic torso that carries an array of deadly weaponry, ranging from reaper autocannons to racks of highly explosive missiles. It is the battle cannon mounted in its chest turret, however, that is undoubtedly its most potent armament. Each hell-forged shell that thunders out from its growling muzzle is capable of crippling a squad of Space Marines in a single earth-shaking blast."/>
+	<entry name="ChaosGuard/Guardsman" value="Renegade Guardsmen"/>
+	<entry name="ChaosGuard/Guardsman2" value="Traitor Guardsmen"/>
+	<entry name="ChaosGuard/Guardsman2Description" value="Light infantry unit."/>
+	<entry name="ChaosGuard/Guardsman2Flavor" value="Traitor Guard (or guardsmen) is a term given to the vast majority of disloyal mortals who have left the Imperial Guard and Planetary Defence Forces in order to fight for Chaos. They are not a single coherent force, but rather a faction of the infinite collection of warbands and hosts under the leadership of Chaos Champions and part of the The Lost and the Damned."/>
+	<entry name="ChaosGuard/Guardsman3" value="Renegade Guardsmen"/>
+	<entry name="ChaosGuard/Guardsman3Description" value="Light infantry unit that can found cities."/>
+	<entry name="ChaosGuard/Guardsman3Flavor" value="."/>
+	<entry name="ChaosGuard/GuardsmanDescription" value="Light infantry unit that can found cities on imperial ruins tiles and sacrifice itself to the Dark Gods."/>
+	<entry name="ChaosGuard/GuardsmanFlavor" value="."/>
+	<entry name="ChaosGuard/Guardsmankhorne" value="Blood Pact Troopers"/>
+	<entry name="ChaosGuard/GuardsmankhorneDescription" value="Light infantry unit dedicated to the service of the Chaos God Khorne."/>
+	<entry name="ChaosGuard/GuardsmankhorneFlavor" value="."/>
+	<entry name="ChaosGuard/Guardsmannurgle" value="Followers of the Death God"/>
+	<entry name="ChaosGuard/GuardsmannurgleDescription" value="Light infantry unit dedicated to the service of the Chaos God Nurgle."/>
+	<entry name="ChaosGuard/GuardsmannurgleFlavor" value="."/>
+	<entry name="ChaosGuard/Guardsmanslaa" value="Slaanesh Guardsmen"/>
+	<entry name="ChaosGuard/GuardsmanslaaDescription" value="Light infantry unit dedicated to the service of the Chaos God Slaanesh."/>
+	<entry name="ChaosGuard/GuardsmanslaaFlavor" value="."/>
+	<entry name="ChaosGuard/Guardsmantzee" value="Benedictian Guardsmen"/>
+	<entry name="ChaosGuard/GuardsmantzeeDescription" value="Light infantry unit dedicated to the service of the Chaos God Tzeentch."/>
+	<entry name="ChaosGuard/GuardsmantzeeFlavor" value="The Benedictian Guard are Traitor Guard Regiments, that are dedicated to the Chaos God Tzeentch. 13 of the Guard's Regiments took part in the Invasion of the Stygius Sector and they were among Tzeentch's forces that invaded the Imperial world Mordian."/>
+	<entry name="ChaosGuard/Havoc" value="Nurgle Havocs"/>
+	<entry name="ChaosGuard/HavocDescription" value="Long range infantry unit that is more accurate while stationary."/>
+	<entry name="ChaosGuard/HavocFlavor" value="Some Chaos Space Marine squads carry a high proportion of heavy weapons, the better to annihilate the hated foe. Known as Havocs, these squads provide devastating anti-infantry and anti-armour firepower, dominating large swathes of the battlefield with volley after punishing volley."/>
+	<entry name="ChaosGuard/Headquarters" value="<string name='Buildings/ChaosGuard/Headquarters'/>"/>
+	<entry name="ChaosGuard/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="ChaosGuard/HeadquartersFlavor" value="<string name='Buildings/ChaosGuard/HeadquartersFlavor'/>"/>
+	<entry name="ChaosGuard/HeavyWeaponsSquad" value="Renegade  Heavy Weapons Squad"/>
+	<entry name="ChaosGuard/HeavyWeaponsSquadDescription" value="Infantry unit equipped to deal with heavily armoured targets."/>
+	<entry name="ChaosGuard/HeavyWeaponsSquadFlavor" value="Infantry heavy weapons are typically crewed by a team of two men; one fires the weapon while the other supplies the ammunition, and between them they can relocate their weapon if needs be."/>
+	<entry name="ChaosGuard/Helbrute" value="Slaanesh Helbrute"/>
+	<entry name="ChaosGuard/HelbruteDescription" value="Walker unit that goes crazed when damaged."/>
+	<entry name="ChaosGuard/HelbruteFlavor" value="Helbrutes are twisted mockeries of the Space Marine Dreadnoughts they used to be, combining the firepower of a small tank with the mind of a frenzied maniac. Each Helbrute holds a living creature within its plated metal chest—a Chaos Space Marine driven over the edge of madness by a never-ending cycle of war."/>
+<!--	<entry name="ChaosGuard/Heldrake" value="Heldrake"/>
+	<entry name="ChaosGuard/HeldrakeDescription" value="Flying vehicle that excels against enemy aircraft."/>
+	<entry name="ChaosGuard/HeldrakeFlavor" value="Heldrakes are winged Daemon Engines that plummet out of the skies like living comets, hurtling towards enemy aircraft and crashing claws-first into them from above. Each is a vicious, hell-forged predator; a Heldrake takes cruel joy in diving down upon the unsuspecting air support of the enemy in order to shred them to pieces with its scything wings and rune-carved talons."/>
+	<entry name="ChaosGuard/Hydra" value="Hydra"/> -->
+<!--	<entry name="ChaosGuard/HydraDescription" value="Fast tank unit that excels against airborne targets."/>
+	<entry name="ChaosGuard/HydraFlavor" value="Whether faced by lightning-fast xenos fighters or daemonic, leather-winged monstrosities, the Hydra Flak Tank is ideally equipped to blow aerial foes out of the sky. The Hydra's predictive logic-spirit singles out and locks onto its targets with the tenacity of a predatory beast."/> -->
+	<entry name="ChaosGuard/ImperialStrongpoint" value="Renegade Imperial Bastion"/>
+	<entry name="ChaosGuard/ImperialStrongpointDescription" value="Fortification with heavy bolters that can shelter infantry."/>
+	<entry name="ChaosGuard/ImperialStrongpointFlavor" value="An Renegade Imperial Bastion is an imposing edifice built from foot-thick ferrocrete and the remains of faithful servants of the Imperium. As they are relatively easy to construct, some planets boast networks of Bastions that span entire continents. Built to withstand orbital strikes and artillery bombardments, there are few weapons capable of razing them in a single blow. It is with good reason that such fortresses often form the cornerstone of a planet's defensive strategy."/>
+	<entry name="ChaosGuard/KhorneBerzerker" value="Khorne Berzerkers"/>
+	<entry name="ChaosGuard/KhorneBerzerkerDescription" value="Melee infantry unit."/>
+	<entry name="ChaosGuard/KhorneBerzerkerFlavor" value="It was the gruesome experiments of Angron, Primarch of the World Eaters, that led to the creation of the first Berzerkers. By the ritual lobotomisation of his warriors, he removed all sense of fear and danger and then heightened the rush his soldiers experienced in combat. When the Legion swore itself to Khorne, the Berzerkers were no longer bound by Imperial battle doctrine and were given full rein to exercise their bloodthirsty skills. They have since become the ultimate close combat shock troops, entering an uncontrollable frenzy in the heat of battle."/>
+	<entry name="ChaosGuard/KrootHound" value="Khorne Hounds"/>
+	<entry name="ChaosGuard/KrootHoundDescription" value="Agile predator unit that is particularly dangerous in forests."/>
+	<entry name="ChaosGuard/KrootHoundFlavor" value=""/>
+	<entry name="ChaosGuard/LemanRussBattleTank" value="Renegade Leman Russ Battle Tank"/>
+	<entry name="ChaosGuard/LemanRussBattleTankDescription" value="Heavily armoured main battle tank unit."/>
+	<entry name="ChaosGuard/LemanRussBattleTankFlavor" value="The Leman Russ battle tank is an ironclad declaration of might made manifest. They are the mainstay of the Imperial Guard's armoured forces, lumbering slabs of armour and intolerance whose inexorable advance has ground a billion foes of the Imperium to bloody ruin."/>
+	<entry name="ChaosGuard/Librarian" value="Chaos Librarian"/>
+	<entry name="ChaosGuard/LibrarianDescription" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="ChaosGuard/LibrarianFlavor" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="ChaosGuard/LordCommissar" value="Traitor Commissar"/>
+	<entry name="ChaosGuard/LordCommissarDescription" value="Hero unit that provides bonuses to nearby allied units."/>
+	<entry name="ChaosGuard/LordCommissarFlavor" value="Traitor Commissars are Imperial Commissars that have fallen to Heresy and now fight for the forces of Chaos."/>
+	<entry name="ChaosGuard/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="ChaosGuard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="ChaosGuard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="ChaosGuard/MarauderBomber" value="Marauder Bomber"/>
+	<entry name="ChaosGuard/MarauderBomberDescription" value="Super-heavy bomber unit that obliterates ground targets."/>
+	<entry name="ChaosGuard/MarauderBomberFlavor" value="Sturdily built and boasting a colossal payload for its size, the Marauder is the archetypal heavy bomber of the Imperium. Powerful engines and capacious fuel tanks give the Marauder a substantial operational reach and, furthermore, allow bomber squadrons to operate effectively in times of sporadic resupply."/>
+	<entry name="ChaosGuard/MasterOfPossession" value="Master of Possession"/>
+<!--	<entry name="ChaosGuard/MasterOfPossessionDescription" value="Psyker hero unit that summons Daemons and supports allies."/>
+	<entry name="ChaosGuard/MasterOfPossessionFlavor" value="Masters of Possession lead warbands of devoted warriors in pursuit of untold power. These sorcerous figures have mastered the darkest and most blasphemous lore: the art of using hosts of living flesh to house daemonic spirits. It is they who perform the profane ceremonies of binding that imbue the Daemonkin with their warp-born power. Gouging a breach in the fabric of realspace, the Master of Possession draws a willing entity from the immaterium, channelling its terrible energies into the body of a supplicant or the chassis of a war machine. So thoroughly are these dread figures steeped in blasphemous sorcery that where they walk, reality itself recoils."/> -->
+<!--	<entry name="ChaosGuard/Maulerfiend" value="Maulerfiend"/>
+	<entry name="ChaosGuard/MaulerfiendDescription" value="Fast walker unit that reduces the melee attacks of adjacent units."/>
+	<entry name="ChaosGuard/MaulerfiendFlavor" value="The Daemon Engines known as Maulerfiends thunder towards the foe like monstrous attack dogs loosed from the leash. Their eyes glow with balefire as ectoplasmic drool drizzles from their fanged maws. Their thick front limbs end in articulated claws powerful enough to tear a Dreadnought limb from limb. Should they catch a squad of infantry, they will scissor them apart or crush them into paste with a flex of their massive talons."/> -->
+	<entry name="ChaosGuard/NoctilithCrown" value="Noctilith Crown"/>
+	<entry name="ChaosGuard/NoctilithCrownDescription" value="Fortification that shields allied Chaos units and damages enemy psykers."/>
+	<entry name="ChaosGuard/NoctilithCrownFlavor" value="Noctilith Crowns form vital strongpoints, for these arcane devices can draw in the raw energy of Chaos itself."/>
+<!--	<entry name="ChaosGuard/Obliterator" value="Obliterators"/>
+	<entry name="ChaosGuard/ObliteratorDescription" value="Elite infantry unit with cyclable weapons."/>
+	<entry name="ChaosGuard/ObliteratorFlavor" value="The monstrous warriors of the Obliterator cults are a blasphemy against nature and Machine God alike. Their forms are so altered, so thoroughly conjoined with the tools of war, that every cell in their bodies thrills with a spark of mechanical life. Only the Dark Mechanicum have mastered the complete fusion of metal and flesh, melding the inert and the animate together on a spiritual level in order to form something far greater than mere cybernetics. Because of their Chaos-born powers, Obliterators are capable of not only absorbing weaponry into themselves, but also of manifesting munitions from their titanium-laced flesh."/> -->
+	<entry name="ChaosGuard/PrimarisPsyker" value="Rogue Psyker"/>
+	<entry name="ChaosGuard/PrimarisPsykerDescription" value="Hero unit with destructive psychic powers."/>
+	<entry name="ChaosGuard/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+<!--	<entry name="ChaosGuard/Psychneuein" value="Psychneuein"/>
+	<entry name="ChaosGuard/PsychneueinDescription" value="Airborne elusive warp unit that infests its victims."/>
+	<entry name="ChaosGuard/PsychneueinFlavor" value="A rare Warp-sensitive creature apparently native to Prospero, the Psychneuein seems capable of travel through the Old One's Webways, meaning they're widely distributed around the galaxy. Parallel evolution has resulted in a wasp-like appearance, but a mature adult's significant strength, speed, toughness and rumoured ability to turn insubstantial at will makes them a threat to any sentient being."/> -->
+<!--	<entry name="ChaosGuard/Ratling" value="Renegade Ratlings"/>
+	<entry name="ChaosGuard/RatlingDescription" value="Sniper infantry unit that can move after shooting."/>
+	<entry name="ChaosGuard/RatlingFlavor" value="<string name='Units/AstraMilitarum/RatlingFlavor'/>"/> -->
+	<entry name="ChaosGuard/ScoutSentinel" value="Scout Sentinels"/>
+	<entry name="ChaosGuard/ScoutSentinelDescription" value="Light armoured walker unit specialized in reconnaissance."/>
+	<entry name="ChaosGuard/ScoutSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The lighter-armoured Scout Sentinels, in particular, are used to range ahead of the main battle line, setting up brutal ambushes or launching pin-point raids."/>
+<!--	<entry name="ChaosGuard/TankCommander" value="Tank Commander"/>
+	<entry name="ChaosGuard/TankCommanderDescription" value="Tank hero unit with formidable strength that also boosts nearby allied tank units."/>
+	<entry name="ChaosGuard/TankCommanderFlavor" value="A Tank Commander rides to battle in the cupola of a mighty Leman Russ battle tank. These grizzled men are virtually one with their machine, possessing an implicit knowledge of armoured warfare in all its forms. The average Tank Commander is a steely eyed ace, heading up a crew of the very best their regiment has to offer."/> -->
+	<entry name="ChaosGuard/TechpriestBetrayer" value="Heretek"/>
+	<entry name="ChaosGuard/TechpriestBetrayerDescription" value="A renegade hero with powerful support and abilities."/>
+	<entry name="ChaosGuard/TechpriestBetrayerFlavor" value="A Heretek is a member of the Adeptus Mechanicus who has strayed from its strictures and dictates, and betrayed the Cult Mechanicus by, for instance, weakening the Adeptus' stranglehold on the knowledge of the Imperium's technology, or embracing individual experimentation and innovation."/>
+<!--	<entry name="ChaosGuard/TechpriestEnginseer" value="Heretek"/>
+	<entry name="ChaosGuard/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles and founds new cities."/>
+	<entry name="ChaosGuard/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/> -->
+	<entry name="ChaosGuard/TempestusScion" value="Renegade Scions"/>
+	<entry name="ChaosGuard/TempestusScionDescription" value="Elite shock infantry unit."/>
+	<entry name="ChaosGuard/TempestusScionFlavor" value="Renegade Militarum Tempestus Scions."/>
+	<entry name="ChaosGuard/Thunderbolt" value="Thunderbolt"/>
+	<entry name="ChaosGuard/ThunderboltDescription" value="Fast and heavy fighter unit."/>
+	<entry name="ChaosGuard/ThunderboltFlavor" value="A heavy fighter that combines devastating strike potential with graceful speed and manoeuvrability, the Thunderbolt forms the bulk of the Imperial Navy's intra-atmosphere fighter aircraft. The Thunderbolt is a true workhorse, with a rugged and reliable design both venerated by its crews and respected by its enemies."/>
+<!--	<entry name="ChaosGuard/Umbra" value="Umbra"/>
+	<entry name="ChaosGuard/UmbraDescription" value="Terrifying flying monstrous creature that is vulnerable to light."/>
+	<entry name="ChaosGuard/UmbraFlavor" value="The Umbra are an alien species appearing as smooth black spheres that live in the void of space, often observed attracted to areas resonant of the warp such as starship hulls and warp engines or suspected entrances to the Aeldari Webway. They can manipulate and control shadows to form terrifying limbs of hooks, blades, teeth and other nightmarish shapes."/>
+	<entry name="ChaosGuard/Valkyrie" value="Valkyrie"/>
+	<entry name="ChaosGuard/ValkyrieDescription" value="Versatile airborne transport unit."/>
+	<entry name="ChaosGuard/ValkyrieFlavor" value="The Valkyrie Assault Carrier is a well-armed, twin-engine attack craft. The durable armour and versatile payload of the Valkyrie chassis combine with the aircraft's powerful engines and stable handling to make it a popular choice for a broad spectrum of battlefield roles."/>
+	<entry name="ChaosGuard/Venomcrawler" value="Venomcrawler"/>
+	<entry name="ChaosGuard/VenomcrawlerDescription" value="Terrifying walker unit that consumes the souls of its enemies to restore its hitpoints."/>
+	<entry name="ChaosGuard/VenomcrawlerFlavor" value="Pounding forwards upon bladed limbs come the horrors known as Venomcrawlers. Grotesque amalgams of metal, flesh and daemonic entities, these monstrosities hiss and snarl as they scuttle towards their prey. Fleshy tongues flap from snarling maws and soulflayer tendrils lash back and forth, all tasting the air for the scent of their enemies' fear. As the Venomcrawlers continue to butcher, their fanged mouths gape ever wider, drawing the souls of those slain into their vast mechanical abdomens."/>
+	<entry name="ChaosGuard/VoidShieldGenerator" value="Void Shield Generator"/>
+	<entry name="ChaosGuard/VoidShieldGeneratorDescription" value="Fortification that shields units in range."/>
+	<entry name="ChaosGuard/VoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/>
+	<entry name="ChaosGuard/WarpTalon" value="Warp Talons"/>
+	<entry name="ChaosGuard/WarpTalonDescription" value="Melee infantry unit that can warp across difficult terrain and blind unsuspecting enemies."/>
+	<entry name="ChaosGuard/WarpTalonFlavor" value="When a pack of Warp Talons emerges from the warp, it appears to those on the battlefield below as if daemonic warriors have burst out from nothingness into fiery, vengeful life. Like the stuff of nightmares, they plummet downwards in an explosion of warp fire, tearing into the foe with murderous intent."/>
+	<entry name="ChaosGuard/Warpsmith" value="Warpsmith"/>
+	<entry name="ChaosGuard/WarpsmithDescription" value="Hero unit that supports vehicles and boosts the economy."/>
+	<entry name="ChaosGuard/WarpsmithFlavor" value="Warpsmiths are the masters of the machine. Most can trace their origins back to the priesthood of Mars, whether through the schisms of the Magi or the rigid doctrine of the Techmarines. However, where the Adeptus Mechanicus regard technology as sacrosanct, the Warpsmiths seek to subjugate and control it."/>
+	<entry name="ChaosGuard/WyrdvanePsyker" value="Wyrdvane Psykers"/>
+	<entry name="ChaosGuard/WyrdvanePsykerDescription" value="Psyker unit that specializes in debuffs."/>
+	<entry name="ChaosGuard/WyrdvanePsykerFlavor" value="Wyrdvane Psykers transform the howling might of the Warp into a deadly weapon of Imperial supremacy. They are formed from those Scholastica Psykana inductees not able to control their burgeoning powers without guidance and aid. As individuals, such psykers are unpredictable and unsafe. Yet working in concert, these deadly mutants can be a valuable asset."/> -->
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Blackbloods of Malice (Faction_LostGuard) --------------->
+	<!--------------------------------------------------------------------------------->
+<!--
+	<entry name="LostGuard/Baneblade" value="Baneblade"/>
+	<entry name="LostGuard/BanebladeDescription" value="Super-heavy tank unit with devastating firepower."/>
+	<entry name="LostGuard/BanebladeFlavor" value="The Baneblade is an unmistakable icon of the Imperium's armoured supremacy, and many of these honoured machines have served in countless war zones across several millennia of war. Possessed of overwhelming firepower, exceptionally thick armour, and a roaring power-plant that allows it to surge into battle with surprising speed, the Baneblade is a truly deadly foe in any conflict."/>
+	<entry name="LostGuard/Basilisk" value="Basilisk"/>
+	<entry name="LostGuard/BasiliskDescription" value="Long-range artillery tank unit."/>
+	<entry name="LostGuard/BasiliskFlavor" value="When the Imperial Guard go to war, they march to the thunderous report of batteries of Basilisks whose guns can flatten cities and end worlds. Instantly recognisable for the long, looming barrel of its earthshaker cannon, the Basilisk boasts a prodigious range."/>
+	<entry name="LostGuard/Bullgryn" value="Renegade Ogryn"/>
+	<entry name="LostGuard/BullgrynDescription" value="Heavy melee infantry unit."/>
+	<entry name="LostGuard/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+	<entry name="LostGuard/CatachanDevil" value="Beast of Malal"/>
+	<entry name="LostGuard/CatachanDevilDescription" value="Devastating native unit that frightens enemies and fights in a reckless rage."/>
+	<entry name="LostGuard/CatachanDevilFlavor" value="Devastating unit devoted to the renegade Chaos God Malice that frightens enemies and fights in a reckless rage."/>
+	<entry name="LostGuard/ChaosCultist" value="Chaos Cultists"/>
+	<entry name="LostGuard/ChaosCultistDescription" value="Mass infantry unit that can found cities and sacrifice itself to the Dark Gods."/>
+	<entry name="LostGuard/ChaosCultistFlavor" value="The cultists of Chaos can be found, in one form or another, almost anywhere the Imperium has spread. At first glance, they are indistinguishable from normal men, but under their clothes, their flesh is tattooed and branded with sigils that hurt the eyes of any faithful who look upon them. When the Chaos Space Marines come to a planet, the true colours of the cultists are revealed. The powers of darkness are ever quick to promise glory, and even the lowliest initiate knows that to fight alongside such legendary warriors is to court the gaze of the gods."/>
+	<entry name="LostGuard/ChaosLandRaider" value="Chaos Land Raider"/>
+	<entry name="LostGuard/ChaosLandRaiderDescription" value="Massively armoured and heavily armed transport unit."/>
+	<entry name="LostGuard/ChaosLandRaiderFlavor" value="The Chaos Land Raider is the heaviest ground vehicle in a Chaos Space Marine army. Its adamantine and ceramite plates can withstand all but the deadliest anti-tank weaponry, and the blessings of the Warpsmiths keep it at peak efficiency. The twin lascannons mounted in each sponson make short work of other vehicles that would dare to attempt to stop its rampage."/>
+	<entry name="LostGuard/ChaosLord" value="Chaos Lord"/>
+	<entry name="LostGuard/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="LostGuard/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
+	<entry name="LostGuard/ChaosRhino" value="Chaos Rhino"/>
+	<entry name="LostGuard/ChaosRhinoDescription" value="Armoured transport vehicle that can self-repair."/>
+	<entry name="LostGuard/ChaosRhinoFlavor" value="The Rhino is the most common transport of the Space Marines, and the same can be said of the Heretic Astartes, for this machine is so ruggedly constructed it can see hundreds of years of warfare and still function at peak efficiency. The tank's chassis is based upon a Standard Template Construct, meaning that it is relatively simple to build, maintain and repair. Over the ten thousand years since the Long War began, the Rhino has seen continued use as the favoured transport of the Chaos Space Marines. They will even go so far as to loot them from defeated Imperial armies, though they will burn them clean of Imperial insignia as quickly as possible and festoon the stolen vehicles with spikes, blades and gory trophies taken from the dismembered bodies of their previous owners."/>
+	<entry name="LostGuard/ChaosSpaceMarine" value="Plague Marines"/>
+	<entry name="LostGuard/ChaosSpaceMarineDescription" value="Versatile infantry unit."/>
+	<entry name="LostGuard/ChaosSpaceMarineFlavor" value="Plague Marines are those Chaos Space Marines who have wholly dedicated their lives and souls to the service of the Chaos God Nurgle."/>
+	<entry name="LostGuard/ChaosSpawn" value="Chaos Spawns"/>
+	<entry name="LostGuard/ChaosSpawnDescription" value="Fast melee infantry unit that mutates each turn."/>
+	<entry name="LostGuard/ChaosSpawnFlavor" value="Although physically powerful and extremely resilient, Chaos Spawn are insane, mewling creatures with no mental powers or self-awareness. Their former intelligence has been sacrificed to their failed ambition. Many a champion of great promise has ended up as a seething mound of bone and blubber, monstrous and screaming with lunatic rage."/>
+	<entry name="LostGuard/Chaplain" value="Dark Apostle"/>
+	<entry name="LostGuard/ChaplainDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="LostGuard/ChaplainFlavor" value=" Dark Apostles are the corrupted Chaplains of the Word Bearers Chaos Space Marines Legion, who gleefully redirected the Legion's fanatical zeal from preaching of the Imperial faith to howling the praises of Chaos. Dark Apostles are impassioned and charismatic preachers, capable of causing entire Regiments of the Imperial Guard or even loyalist Space Marines to defect to the forces of Chaos."/>
+	<entry name="LostGuard/Chimera" value="Chimera"/>
+	<entry name="LostGuard/ChimeraDescription" value="Amphibious transport unit with manned weaponry and communication equipment."/>
+	<entry name="LostGuard/ChimeraFlavor" value="The Chimera is the most prolific and popular armoured transport used by the Imperial Guard. It is rugged, versatile, and easy to produce in huge numbers. For thousands of years it has been accepted wisdom that the Chimera punches well above its weight in a firefight; the tank itself mounts a variety of punishing anti-personnel weaponry, while passengers can lay down additional fire from its spacious top hatch and flank-mounted lasgun arrays."/>
+	<entry name="LostGuard/DaemonPrince" value="Daemon Prince"/>
+	<entry name="LostGuard/DaemonPrinceDescription" value="Monstrous hero that cripples foes with psychic powers before clawing them to death."/>
+	<entry name="LostGuard/DaemonPrinceFlavor" value="Daemon Princes are infernal monsters that tower over the mortals they lead to battle. These paragons of evil take many forms, though all exude a palpable aura of terror and power. In battle, a Daemon Prince strides through the pitiful bullets of the enemy without pause, his unnatural laughter driving men to the edge of fear. Warp energy sizzles from his eyes, and black flames curl from his mouth as he speaks dread phrases that kill as sure as any blade. These are creatures of nightmare—a living expression of Chaos given form."/>
+	<entry name="LostGuard/DarkDisciple" value="Dark Disciples"/>
+	<entry name="LostGuard/DarkDiscipleDescription" value="Infantry unit that increases the defenses of Chaos units."/>
+	<entry name="LostGuard/DarkDiscipleFlavor" value="Dark Disciples carry profane accoutrements of their masters’ worship and parrot the fell words spoken in his baleful prayers. Many such disciples have been augmented to better serve in their role–their skin stretched out and inked with grim litanies, or their mouths fitted with Daemon-touched vox-grilles to project their voices into the warp. Amidst the din of combat they join their Dark Apostle’s chants, crying out for the Chaos Gods to manifest their blessings."/>
+	<entry name="LostGuard/Defiler" value="Tzeentch Defiler"/>
+	<entry name="LostGuard/DefilerDescription" value="Enormous walker unit with devastating melee and ranged weaponry."/>
+	<entry name="LostGuard/DefilerFlavor" value="Defilers are truly massive beasts of war, twice the size of most other Daemon Engines and with a temperament to match. The ground shivers and melts as they stalk towards their foes on six massive, segmented legs, their great pincer-arms twitching and snipping with an impatient need to slice through warm flesh. The Defiler's crab-like body supports a daemonic torso that carries an array of deadly weaponry, ranging from reaper autocannons to racks of highly explosive missiles. It is the battle cannon mounted in its chest turret, however, that is undoubtedly its most potent armament. Each hell-forged shell that thunders out from its growling muzzle is capable of crippling a squad of Space Marines in a single earth-shaking blast."/>
+	<entry name="LostGuard/Guardsman" value="Renegade Guardsmen"/>
+	<entry name="LostGuard/Guardsman2" value="Traitor Guardsmen"/>
+	<entry name="LostGuard/Guardsman2Description" value="Light infantry unit."/>
+	<entry name="LostGuard/Guardsman2Flavor" value="Traitor Guard (or guardsmen) is a term given to the vast majority of disloyal mortals who have left the Imperial Guard and Planetary Defence Forces in order to fight for Chaos. They are not a single coherent force, but rather a faction of the infinite collection of warbands and hosts under the leadership of Chaos Champions and part of the The Lost and the Damned."/>
+	<entry name="LostGuard/Guardsman3" value="Renegade Guardsmen"/>
+	<entry name="LostGuard/Guardsman3Description" value="Light infantry unit that can found cities."/>
+	<entry name="LostGuard/Guardsman3Flavor" value="."/>
+	<entry name="LostGuard/GuardsmanDescription" value="Light infantry unit that can found cities on imperial ruins tiles and sacrifice itself to the Dark Gods."/>
+	<entry name="LostGuard/GuardsmanFlavor" value="."/>
+	<entry name="LostGuard/Guardsmankhorne" value="Blood Pact Troopers"/>
+	<entry name="LostGuard/GuardsmankhorneDescription" value="Light infantry unit dedicated to the service of the Chaos God Khorne."/>
+	<entry name="LostGuard/GuardsmankhorneFlavor" value="."/>
+	<entry name="LostGuard/Guardsmannurgle" value="Followers of the Death God"/>
+	<entry name="LostGuard/GuardsmannurgleDescription" value="Light infantry unit dedicated to the service of the Chaos God Nurgle."/>
+	<entry name="LostGuard/GuardsmannurgleFlavor" value="."/>
+	<entry name="LostGuard/Guardsmanslaa" value="Slaanesh Guardsmen"/>
+	<entry name="LostGuard/GuardsmanslaaDescription" value="Light infantry unit dedicated to the service of the Chaos God Slaanesh."/>
+	<entry name="LostGuard/GuardsmanslaaFlavor" value="."/>
+	<entry name="LostGuard/Guardsmantzee" value="Benedictian Guardsmen"/>
+	<entry name="LostGuard/GuardsmantzeeDescription" value="Light infantry unit dedicated to the service of the Chaos God Tzeentch."/>
+	<entry name="LostGuard/GuardsmantzeeFlavor" value="The Benedictian Guard are Traitor Guard Regiments, that are dedicated to the Chaos God Tzeentch. 13 of the Guard's Regiments took part in the Invasion of the Stygius Sector and they were among Tzeentch's forces that invaded the Imperial world Mordian."/>
+	<entry name="LostGuard/Havoc" value="Nurgle Havocs"/>
+	<entry name="LostGuard/HavocDescription" value="Long range infantry unit that is more accurate while stationary."/>
+	<entry name="LostGuard/HavocFlavor" value="Some Chaos Space Marine squads carry a high proportion of heavy weapons, the better to annihilate the hated foe. Known as Havocs, these squads provide devastating anti-infantry and anti-armour firepower, dominating large swathes of the battlefield with volley after punishing volley."/>
+	<entry name="LostGuard/Headquarters" value="<string name='Buildings/LostGuard/Headquarters'/>"/>
+	<entry name="LostGuard/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="LostGuard/HeadquartersFlavor" value="<string name='Buildings/LostGuard/HeadquartersFlavor'/>"/>
+	<entry name="LostGuard/HeavyWeaponsSquad" value="Renegade  Heavy Weapons Squad"/>
+	<entry name="LostGuard/HeavyWeaponsSquadDescription" value="Infantry unit equipped to deal with heavily armoured targets."/>
+	<entry name="LostGuard/HeavyWeaponsSquadFlavor" value="Infantry heavy weapons are typically crewed by a team of two men; one fires the weapon while the other supplies the ammunition, and between them they can relocate their weapon if needs be."/>
+	<entry name="LostGuard/Helbrute" value="Slaanesh Helbrute"/>
+	<entry name="LostGuard/HelbruteDescription" value="Walker unit that goes crazed when damaged."/>
+	<entry name="LostGuard/HelbruteFlavor" value="Helbrutes are twisted mockeries of the Space Marine Dreadnoughts they used to be, combining the firepower of a small tank with the mind of a frenzied maniac. Each Helbrute holds a living creature within its plated metal chest—a Chaos Space Marine driven over the edge of madness by a never-ending cycle of war."/>
+	<entry name="LostGuard/Heldrake" value="Heldrake"/>
+	<entry name="LostGuard/HeldrakeDescription" value="Flying vehicle that excels against enemy aircraft."/>
+	<entry name="LostGuard/HeldrakeFlavor" value="Heldrakes are winged Daemon Engines that plummet out of the skies like living comets, hurtling towards enemy aircraft and crashing claws-first into them from above. Each is a vicious, hell-forged predator; a Heldrake takes cruel joy in diving down upon the unsuspecting air support of the enemy in order to shred them to pieces with its scything wings and rune-carved talons."/>
+	<entry name="LostGuard/Hydra" value="Hydra"/>
+	<entry name="LostGuard/HydraDescription" value="Fast tank unit that excels against airborne targets."/>
+	<entry name="LostGuard/HydraFlavor" value="Whether faced by lightning-fast xenos fighters or daemonic, leather-winged monstrosities, the Hydra Flak Tank is ideally equipped to blow aerial foes out of the sky. The Hydra's predictive logic-spirit singles out and locks onto its targets with the tenacity of a predatory beast."/>
+	<entry name="LostGuard/ImperialStrongpoint" value="Renegade Imperial Bastion"/>
+	<entry name="LostGuard/ImperialStrongpointDescription" value="Fortification with heavy bolters that can shelter infantry."/>
+	<entry name="LostGuard/ImperialStrongpointFlavor" value="An Renegade Imperial Bastion is an imposing edifice built from foot-thick ferrocrete and the remains of faithful servants of the Imperium. As they are relatively easy to construct, some planets boast networks of Bastions that span entire continents. Built to withstand orbital strikes and artillery bombardments, there are few weapons capable of razing them in a single blow. It is with good reason that such fortresses often form the cornerstone of a planet's defensive strategy."/>
+	<entry name="LostGuard/KhorneBerzerker" value="Khorne Berzerkers"/>
+	<entry name="LostGuard/KhorneBerzerkerDescription" value="Melee infantry unit."/>
+	<entry name="LostGuard/KhorneBerzerkerFlavor" value="It was the gruesome experiments of Angron, Primarch of the World Eaters, that led to the creation of the first Berzerkers. By the ritual lobotomisation of his warriors, he removed all sense of fear and danger and then heightened the rush his soldiers experienced in combat. When the Legion swore itself to Khorne, the Berzerkers were no longer bound by Imperial battle doctrine and were given full rein to exercise their bloodthirsty skills. They have since become the ultimate close combat shock troops, entering an uncontrollable frenzy in the heat of battle."/>
+	<entry name="LostGuard/KrootHound" value="Chaos Hounds"/>
+	<entry name="LostGuard/KrootHoundDescription" value="Agile predator unit that is particularly dangerous in forests."/>
+	<entry name="LostGuard/KrootHoundFlavor" value="."/>
+	<entry name="LostGuard/LemanRussBattleTank" value="Renegade Leman Russ Battle Tank"/>
+	<entry name="LostGuard/LemanRussBattleTankDescription" value="Heavily armoured main battle tank unit."/>
+	<entry name="LostGuard/LemanRussBattleTankFlavor" value="The Leman Russ battle tank is an ironclad declaration of might made manifest. They are the mainstay of the Imperial Guard's armoured forces, lumbering slabs of armour and intolerance whose inexorable advance has ground a billion foes of the Imperium to bloody ruin."/>
+	<entry name="LostGuard/Librarian" value="Chaos Librarian"/>
+	<entry name="LostGuard/LibrarianDescription" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="LostGuard/LibrarianFlavor" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="LostGuard/LordCommissar" value="Traitor Commissar"/>
+	<entry name="LostGuard/LordCommissarDescription" value="Hero unit that provides bonuses to nearby allied units."/>
+	<entry name="LostGuard/LordCommissarFlavor" value="Traitor Commissars are Imperial Commissars that have fallen to Heresy and now fight for the forces of Chaos."/>
+	<entry name="LostGuard/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="LostGuard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="LostGuard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="LostGuard/MarauderBomber" value="Marauder Bomber"/>
+	<entry name="LostGuard/MarauderBomberDescription" value="Super-heavy bomber unit that obliterates ground targets."/>
+	<entry name="LostGuard/MarauderBomberFlavor" value="Sturdily built and boasting a colossal payload for its size, the Marauder is the archetypal heavy bomber of the Imperium. Powerful engines and capacious fuel tanks give the Marauder a substantial operational reach and, furthermore, allow bomber squadrons to operate effectively in times of sporadic resupply."/>
+	<entry name="LostGuard/MasterOfPossession" value="Master of Possession"/>
+	<entry name="LostGuard/MasterOfPossessionDescription" value="Psyker hero unit that summons Daemons and supports allies."/>
+	<entry name="LostGuard/MasterOfPossessionFlavor" value="Masters of Possession lead warbands of devoted warriors in pursuit of untold power. These sorcerous figures have mastered the darkest and most blasphemous lore: the art of using hosts of living flesh to house daemonic spirits. It is they who perform the profane ceremonies of binding that imbue the Daemonkin with their warp-born power. Gouging a breach in the fabric of realspace, the Master of Possession draws a willing entity from the immaterium, channelling its terrible energies into the body of a supplicant or the chassis of a war machine. So thoroughly are these dread figures steeped in blasphemous sorcery that where they walk, reality itself recoils."/>
+	<entry name="LostGuard/Maulerfiend" value="Maulerfiend"/>
+	<entry name="LostGuard/MaulerfiendDescription" value="Fast walker unit that reduces the melee attacks of adjacent units."/>
+	<entry name="LostGuard/MaulerfiendFlavor" value="The Daemon Engines known as Maulerfiends thunder towards the foe like monstrous attack dogs loosed from the leash. Their eyes glow with balefire as ectoplasmic drool drizzles from their fanged maws. Their thick front limbs end in articulated claws powerful enough to tear a Dreadnought limb from limb. Should they catch a squad of infantry, they will scissor them apart or crush them into paste with a flex of their massive talons."/>
+	<entry name="LostGuard/NoctilithCrown" value="Noctilith Crown"/>
+	<entry name="LostGuard/NoctilithCrownDescription" value="Fortification that shields allied Chaos units and damages enemy psykers."/>
+	<entry name="LostGuard/NoctilithCrownFlavor" value="Noctilith Crowns form vital strongpoints, for these arcane devices can draw in the raw energy of Chaos itself."/>
+	<entry name="LostGuard/Obliterator" value="Obliterators"/>
+	<entry name="LostGuard/ObliteratorDescription" value="Elite infantry unit with cyclable weapons."/>
+	<entry name="LostGuard/ObliteratorFlavor" value="The monstrous warriors of the Obliterator cults are a blasphemy against nature and Machine God alike. Their forms are so altered, so thoroughly conjoined with the tools of war, that every cell in their bodies thrills with a spark of mechanical life. Only the Dark Mechanicum have mastered the complete fusion of metal and flesh, melding the inert and the animate together on a spiritual level in order to form something far greater than mere cybernetics. Because of their Chaos-born powers, Obliterators are capable of not only absorbing weaponry into themselves, but also of manifesting munitions from their titanium-laced flesh."/>
+	<entry name="LostGuard/PrimarisPsyker" value="Rogue Psyker"/>
+	<entry name="LostGuard/PrimarisPsykerDescription" value="Hero unit with destructive psychic powers."/>
+	<entry name="LostGuard/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+	<entry name="LostGuard/Ratling" value="Renegade Ratlings"/>
+	<entry name="LostGuard/RatlingDescription" value="Sniper infantry unit that can move after shooting."/>
+	<entry name="LostGuard/RatlingFlavor" value="<string name='Units/AstraMilitarum/RatlingFlavor'/>"/>
+	<entry name="LostGuard/ScoutSentinel" value="Scout Sentinels"/>
+	<entry name="LostGuard/ScoutSentinelDescription" value="Light armoured walker unit specialized in reconnaissance."/>
+	<entry name="LostGuard/ScoutSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The lighter-armoured Scout Sentinels, in particular, are used to range ahead of the main battle line, setting up brutal ambushes or launching pin-point raids."/>
+	<entry name="LostGuard/TankCommander" value="Tank Commander"/>
+	<entry name="LostGuard/TankCommanderDescription" value="Tank hero unit with formidable strength that also boosts nearby allied tank units."/>
+	<entry name="LostGuard/TankCommanderFlavor" value="A Tank Commander rides to battle in the cupola of a mighty Leman Russ battle tank. These grizzled men are virtually one with their machine, possessing an implicit knowledge of armoured warfare in all its forms. The average Tank Commander is a steely eyed ace, heading up a crew of the very best their regiment has to offer."/>
+	<entry name="LostGuard/TechpriestBetrayer" value="Heretek"/>
+	<entry name="LostGuard/TechpriestBetrayerDescription" value="A renegade hero with powerful support and abilities."/>
+	<entry name="LostGuard/TechpriestBetrayerFlavor" value="A Heretek is a member of the Adeptus Mechanicus who has strayed from its strictures and dictates, and betrayed the Cult Mechanicus by, for instance, weakening the Adeptus' stranglehold on the knowledge of the Imperium's technology, or embracing individual experimentation and innovation."/>
+	<entry name="LostGuard/TechpriestEnginseer" value="Heretek"/>
+	<entry name="LostGuard/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles and founds new cities."/>
+	<entry name="LostGuard/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+	<entry name="LostGuard/TempestusScion" value="Renegade Scions"/>
+	<entry name="LostGuard/TempestusScionDescription" value="Elite shock infantry unit."/>
+	<entry name="LostGuard/TempestusScionFlavor" value="Renegade Militarum Tempestus Scions."/>
+	<entry name="LostGuard/Thunderbolt" value="Thunderbolt"/>
+	<entry name="LostGuard/ThunderboltDescription" value="Fast and heavy fighter unit."/>
+	<entry name="LostGuard/ThunderboltFlavor" value="A heavy fighter that combines devastating strike potential with graceful speed and manoeuvrability, the Thunderbolt forms the bulk of the Imperial Navy's intra-atmosphere fighter aircraft. The Thunderbolt is a true workhorse, with a rugged and reliable design both venerated by its crews and respected by its enemies."/>
+	<entry name="LostGuard/Umbra" value="Umbra"/>
+	<entry name="LostGuard/UmbraDescription" value="Terrifying flying monstrous creature that is vulnerable to light."/>
+	<entry name="LostGuard/UmbraFlavor" value="The Umbra are an alien species appearing as smooth black spheres that live in the void of space, often observed attracted to areas resonant of the warp such as starship hulls and warp engines or suspected entrances to the Aeldari Webway. They can manipulate and control shadows to form terrifying limbs of hooks, blades, teeth and other nightmarish shapes."/>
+	<entry name="LostGuard/Valkyrie" value="Valkyrie"/>
+	<entry name="LostGuard/ValkyrieDescription" value="Versatile airborne transport unit."/>
+	<entry name="LostGuard/ValkyrieFlavor" value="The Valkyrie Assault Carrier is a well-armed, twin-engine attack craft. The durable armour and versatile payload of the Valkyrie chassis combine with the aircraft's powerful engines and stable handling to make it a popular choice for a broad spectrum of battlefield roles."/>
+	<entry name="LostGuard/Venomcrawler" value="Venomcrawler"/>
+	<entry name="LostGuard/VenomcrawlerDescription" value="Terrifying walker unit that consumes the souls of its enemies to restore its hitpoints."/>
+	<entry name="LostGuard/VenomcrawlerFlavor" value="Pounding forwards upon bladed limbs come the horrors known as Venomcrawlers. Grotesque amalgams of metal, flesh and daemonic entities, these monstrosities hiss and snarl as they scuttle towards their prey. Fleshy tongues flap from snarling maws and soulflayer tendrils lash back and forth, all tasting the air for the scent of their enemies' fear. As the Venomcrawlers continue to butcher, their fanged mouths gape ever wider, drawing the souls of those slain into their vast mechanical abdomens."/>
+	<entry name="LostGuard/VoidShieldGenerator" value="Void Shield Generator"/>
+	<entry name="LostGuard/VoidShieldGeneratorDescription" value="Fortification that shields units in range."/>
+	<entry name="LostGuard/VoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/>
+	<entry name="LostGuard/WarpTalon" value="Warp Talons"/>
+	<entry name="LostGuard/WarpTalonDescription" value="Melee infantry unit that can warp across difficult terrain and blind unsuspecting enemies."/>
+	<entry name="LostGuard/WarpTalonFlavor" value="When a pack of Warp Talons emerges from the warp, it appears to those on the battlefield below as if daemonic warriors have burst out from nothingness into fiery, vengeful life. Like the stuff of nightmares, they plummet downwards in an explosion of warp fire, tearing into the foe with murderous intent."/>
+	<entry name="LostGuard/Warpsmith" value="Warpsmith"/>
+	<entry name="LostGuard/WarpsmithDescription" value="Hero unit that supports vehicles and boosts the economy."/>
+	<entry name="LostGuard/WarpsmithFlavor" value="Warpsmiths are the masters of the machine. Most can trace their origins back to the priesthood of Mars, whether through the schisms of the Magi or the rigid doctrine of the Techmarines. However, where the Adeptus Mechanicus regard technology as sacrosanct, the Warpsmiths seek to subjugate and control it."/>
+	<entry name="LostGuard/WyrdvanePsyker" value="Wyrdvane Psykers"/>
+	<entry name="LostGuard/WyrdvanePsykerDescription" value="Psyker unit that specializes in debuffs."/>
+	<entry name="LostGuard/WyrdvanePsykerFlavor" value="Wyrdvane Psykers transform the howling might of the Warp into a deadly weapon of Imperial supremacy. They are formed from those Scholastica Psykana inductees not able to control their burgeoning powers without guidance and aid. As individuals, such psykers are unpredictable and unsafe. Yet working in concert, these deadly mutants can be a valuable asset."/>
+-->
+
+	<!--------------------------------------------------------------------------------->
+	<!------------------- Gathalamor 24th Regiment (Faction_khorneguard) -------------->
+	<!--------------------------------------------------------------------------------->
+	
+	<entry name="khorneguard/Bullgryn" value="Ogryn Berserkers"/>
+	<entry name="khorneguard/BullgrynDescription" value="Heavy melee infantry unit."/>
+	<entry name="khorneguard/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+	<entry name="khorneguard/ChaosCultist" value="Khorne Cultists"/>
+	<entry name="khorneguard/ChaosCultistDescription" value="Mass infantry unit that can found cities and ?."/>
+	<entry name="khorneguard/ChaosCultistFlavor" value=" To embrace Khorne is also to embrace your own doom, and to gain the Mark of Khorne is to lose all fear of death, disease and mutation."/>
+	<entry name="khorneguard/ChaosLandRaider" value="Chaos Land Raider"/>
+	<entry name="khorneguard/ChaosLandRaiderDescription" value="Massively armoured and heavily armed transport unit."/>
+	<entry name="khorneguard/ChaosLandRaiderFlavor" value="The Chaos Land Raider is the heaviest ground vehicle in a Chaos Space Marine army. Its adamantine and ceramite plates can withstand all but the deadliest anti-tank weaponry, and the blessings of the Warpsmiths keep it at peak efficiency. The twin lascannons mounted in each sponson make short work of other vehicles that would dare to attempt to stop its rampage."/>
+	<entry name="khorneguard/ChaosLord" value="Chaos Lord of Khorne"/>
+	<entry name="khorneguard/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="khorneguard/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
+	<entry name="khorneguard/ChaosRhino" value="Chaos Rhino"/>
+	<entry name="khorneguard/ChaosRhinoDescription" value="Armoured transport vehicle that can self-repair."/>
+	<entry name="khorneguard/ChaosRhinoFlavor" value="The Rhino is the most common transport of the Space Marines, and the same can be said of the Heretic Astartes, for this machine is so ruggedly constructed it can see hundreds of years of warfare and still function at peak efficiency. The tank's chassis is based upon a Standard Template Construct, meaning that it is relatively simple to build, maintain and repair. Over the ten thousand years since the Long War began, the Rhino has seen continued use as the favoured transport of the Chaos Space Marines. They will even go so far as to loot them from defeated Imperial armies, though they will burn them clean of Imperial insignia as quickly as possible and festoon the stolen vehicles with spikes, blades and gory trophies taken from the dismembered bodies of their previous owners."/>
+	<entry name="khorneguard/ChaosSpaceMarine" value="Chaos Space Marines"/>
+	<entry name="khorneguard/ChaosSpaceMarineDescription" value="Versatile infantry unit."/>
+	<entry name="khorneguard/ChaosSpaceMarineFlavor" value="Ever since the Horus Heresy, Space Marines have been tempted by the path of Chaos, whether for selfish reasons or great ideals. Sundered from the Imperium, having turned their backs on the Emperor, these warriors know that there can be no peace for them, neither forgiveness nor absolution. They are wholly committed to the path they now tread, for good or ill, and they can expect no quarter from former battle-brothers."/>
+	<entry name="khorneguard/Chaplain" value="Dark Apostle"/>
+	<entry name="khorneguard/ChaplainDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="khorneguard/ChaplainFlavor" value=" Dark Apostles are the corrupted Chaplains of the Word Bearers Chaos Space Marines Legion, who gleefully redirected the Legion's fanatical zeal from preaching of the Imperial faith to howling the praises of Chaos. Dark Apostles are impassioned and charismatic preachers, capable of causing entire Regiments of the Imperial Guard or even loyalist Space Marines to defect to the forces of Chaos."/>
+	<entry name="khorneguard/DaemonPrince" value="Daemon Prince of Khorne"/>
+	<entry name="khorneguard/DaemonPrinceDescription" value="Monstrous hero that cripples foes with psychic powers before clawing them to death."/>
+	<entry name="khorneguard/DaemonPrinceFlavor" value="Daemon Princes are infernal monsters that tower over the mortals they lead to battle. These paragons of evil take many forms, though all exude a palpable aura of terror and power. In battle, a Daemon Prince strides through the pitiful bullets of the enemy without pause, his unnatural laughter driving men to the edge of fear. Warp energy sizzles from his eyes, and black flames curl from his mouth as he speaks dread phrases that kill as sure as any blade. These are creatures of nightmare—a living expression of Chaos given form."/>
+	<entry name="khorneguard/DarkDisciple" value="Dark Disciples"/>
+	<entry name="khorneguard/DarkDiscipleDescription" value="Infantry unit that increases the defenses of Chaos units."/>
+	<entry name="khorneguard/DarkDiscipleFlavor" value="Dark Disciples carry profane accoutrements of their masters’ worship and parrot the fell words spoken in his baleful prayers. Many such disciples have been augmented to better serve in their role–their skin stretched out and inked with grim litanies, or their mouths fitted with Daemon-touched vox-grilles to project their voices into the warp. Amidst the din of combat they join their Dark Apostle’s chants, crying out for the Chaos Gods to manifest their blessings."/>
+	<entry name="khorneguard/GreaterBrassScorpionOfKhorne" value="Greater Brass Scorpion of Khorne"/>
+	<entry name="khorneguard/GreaterBrassScorpionOfKhorneDescription" value="Super-heavy walker vehicle that can devastate any enemy frontline with its powerful weapons."/>
+	<entry name="khorneguard/GreaterBrassScorpionOfKhorneFlavor" value="A towering monster of armour plating and hellish metal flesh, powered by burning souls and bearing an arsenal of murderous weapons, a brass scorpion is an animate altar to Khorne, chaos god of bloodshed and battle. They are devastating, half-crazed entities, more rampaging beast than war machine, and they take evident delight in the slaughter of the enemy, tossing aside wrecked vehicles in their path and skewering the bodies of the slain beneath their hydraulic claws. They are especially feared for the evident predilection with which they use their huge claws to wrinkle enemy troops out of cover, plucking screaming victims from trenches and bastions before tearing them apart in a welter of blood."/>
+	<entry name="khorneguard/Guardsmankhorne" value="Blood Pact Troopers"/>
+	<entry name="khorneguard/GuardsmankhorneDescription" value="Light infantry unit dedicated to the service of the Chaos God Khorne."/>
+	<entry name="khorneguard/Havoc" value="Teeth of Khorne Havoc"/>
+	<entry name="khorneguard/HavocDescription" value="Long range infantry unit that is more accurate while stationary."/>
+	<entry name="khorneguard/HavocFlavor" value="Some Chaos Space Marine squads carry a high proportion of heavy weapons, the better to annihilate the hated foe. Known as Havocs, these squads provide devastating anti-infantry and anti-armour firepower, dominating large swathes of the battlefield with volley after punishing volley."/>
+	<entry name="khorneguard/Headquarters" value="<string name='Buildings/khorneguard/Headquarters'/>"/>
+	<entry name="khorneguard/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="khorneguard/HeadquartersFlavor" value="<string name='Buildings/khorneguard/HeadquartersFlavor'/>"/>
+	<entry name="khorneguard/HeavyWeaponsSquad" value="Renegade  Heavy Weapons Squad"/>
+	<entry name="khorneguard/HeavyWeaponsSquadDescription" value="Infantry unit equipped to deal with heavily armoured targets."/>
+	<entry name="khorneguard/HeavyWeaponsSquadFlavor" value="Infantry heavy weapons are typically crewed by a team of two men; one fires the weapon while the other supplies the ammunition, and between them they can relocate their weapon if needs be."/>
+	<entry name="khorneguard/Heldrake" value="Heldrake"/>
+	<entry name="khorneguard/HeldrakeDescription" value="Flying vehicle that excels against enemy aircraft."/>
+	<entry name="khorneguard/HeldrakeFlavor" value="Heldrakes are winged Daemon Engines that plummet out of the skies like living comets, hurtling towards enemy aircraft and crashing claws-first into them from above. Each is a vicious, hell-forged predator; a Heldrake takes cruel joy in diving down upon the unsuspecting air support of the enemy in order to shred them to pieces with its scything wings and rune-carved talons."/>
+	<entry name="khorneguard/KhorneBerzerker" value="Khorne Berzerkers"/>
+	<entry name="khorneguard/KhorneBerzerkerDescription" value="Melee infantry unit."/>
+	<entry name="khorneguard/KhorneBerzerkerFlavor" value="It was the gruesome experiments of Angron, Primarch of the World Eaters, that led to the creation of the first Berzerkers. By the ritual lobotomisation of his warriors, he removed all sense of fear and danger and then heightened the rush his soldiers experienced in combat. When the Legion swore itself to Khorne, the Berzerkers were no longer bound by Imperial battle doctrine and were given full rein to exercise their bloodthirsty skills. They have since become the ultimate close combat shock troops, entering an uncontrollable frenzy in the heat of battle."/>
+	<entry name="khorneguard/KrootHound" value="Flesh Hound of Khorne"/>
+	<entry name="khorneguard/KrootHoundDescription" value="A Flesh Hound of Khorne is a powerful and bloody-minded Daemonic Beast in service to the Blood God Khorne that is particularly dangerous in forests."/>
+	<entry name="khorneguard/KrootHoundFlavor" value="Flesh Hounds are implacable when on the hunt and pursue their target across vast -- even interstellar -- distances. Constantly closing in, their howling often drives their target to madness before the Hound's own razor sharp teeth sink into flesh."/>
+	<entry name="khorneguard/Librarian" value="Chaos Librarian"/>
+	<entry name="khorneguard/LibrarianDescription" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="khorneguard/LibrarianFlavor" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="khorneguard/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="khorneguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="khorneguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="khorneguard/Obliterator" value="Obliterators"/>
+	<entry name="khorneguard/ObliteratorDescription" value="Elite infantry unit with cyclable weapons."/>
+	<entry name="khorneguard/ObliteratorFlavor" value="The monstrous warriors of the Obliterator cults are a blasphemy against nature and Machine God alike. Their forms are so altered, so thoroughly conjoined with the tools of war, that every cell in their bodies thrills with a spark of mechanical life. Only the Dark Mechanicum have mastered the complete fusion of metal and flesh, melding the inert and the animate together on a spiritual level in order to form something far greater than mere cybernetics. Because of their Chaos-born powers, Obliterators are capable of not only absorbing weaponry into themselves, but also of manifesting munitions from their titanium-laced flesh."/>
+	<entry name="khorneguard/PrimarisPsyker" value="Rogue Psyker"/>
+	<entry name="khorneguard/PrimarisPsykerDescription" value="Hero unit with destructive psychic powers."/>
+	<entry name="khorneguard/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+	<entry name="khorneguard/SisterRepentia" value="Blood Cult Assassin"/>
+	<entry name="khorneguard/SisterRepentiaDescription" value="Versatile infantry unit."/>
+	<entry name="khorneguard/SisterRepentiaFlavor" value="Blood Cult Assassins are nameless mercenaries who work at the behest of a Blood Cult Master. These assassins specialize in the dark arts of Blood Magic, and are the most feared and effective assassins in all of the Kingdoms. Blood Cult Assassins spend years training in their craft and many more years inundated in an environment filled with Blood Magic. As a result, when they emerge from their training as master assassins, they are all but super human in speed, agility, and strength.."/>
+	<entry name="khorneguard/TechpriestBetrayer" value="Heretek"/>
+	<entry name="khorneguard/TechpriestBetrayerDescription" value="A renegade hero with powerful support and abilities."/>
+	<entry name="khorneguard/TechpriestBetrayerFlavor" value="A Heretek is a member of the Adeptus Mechanicus who has strayed from its strictures and dictates, and betrayed the Cult Mechanicus by, for instance, weakening the Adeptus' stranglehold on the knowledge of the Imperium's technology, or embracing individual experimentation and innovation."/>
+	<entry name="khorneguard/WarpTalon" value="Warp Talons"/>
+	<entry name="khorneguard/WarpTalonDescription" value="Melee infantry unit that can warp across difficult terrain and blind unsuspecting enemies."/>
+	<entry name="khorneguard/WarpTalonFlavor" value="When a pack of Warp Talons emerges from the warp, it appears to those on the battlefield below as if daemonic warriors have burst out from nothingness into fiery, vengeful life. Like the stuff of nightmares, they plummet downwards in an explosion of warp fire, tearing into the foe with murderous intent."/>
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Hazakh Plaguetakers (Faction_nurgleguard) --------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="nurgleguard/Baneblade" value="Baneblade"/>
+	<entry name="nurgleguard/BanebladeDescription" value="Super-heavy tank unit with devastating firepower."/>
+	<entry name="nurgleguard/BanebladeFlavor" value="The Baneblade is an unmistakable icon of the Imperium's armoured supremacy, and many of these honoured machines have served in countless war zones across several millennia of war. Possessed of overwhelming firepower, exceptionally thick armour, and a roaring power-plant that allows it to surge into battle with surprising speed, the Baneblade is a truly deadly foe in any conflict."/>
+	<entry name="nurgleguard/Bullgryn" value="Renegade Ogryn"/>
+	<entry name="nurgleguard/BullgrynDescription" value="Heavy melee infantry unit."/>
+	<entry name="nurgleguard/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+	<entry name="nurgleguard/ChaosCultist" value="Nurgle Cultists"/>
+	<entry name="nurgleguard/ChaosCultistDescription" value="Mass infantry unit that can found cities and spread plague."/>
+	<entry name="nurgleguard/ChaosCultistFlavor" value=" To embrace Nurgle is also to embrace your own doom, and to gain the Mark of Nurgle is to lose all fear of death, disease and mutation."/>
+	<entry name="nurgleguard/ChaosSpaceMarine" value="Plague Marines"/>
+	<entry name="nurgleguard/ChaosSpaceMarineDescription" value="Versatile infantry unit."/>
+	<entry name="nurgleguard/ChaosSpaceMarineFlavor" value="Plague Marines are those Chaos Space Marines who have wholly dedicated their lives and souls to the service of the Chaos God Nurgle."/>
+	<entry name="nurgleguard/Chaplain" value="Dark Apostle"/>
+	<entry name="nurgleguard/ChaplainDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="nurgleguard/ChaplainFlavor" value=" Dark Apostles are the corrupted Chaplains of the Word Bearers Chaos Space Marines Legion, who gleefully redirected the Legion's fanatical zeal from preaching of the Imperial faith to howling the praises of Chaos. Dark Apostles are impassioned and charismatic preachers, capable of causing entire Regiments of the Imperial Guard or even loyalist Space Marines to defect to the forces of Chaos."/>
+	<entry name="nurgleguard/Chimera" value="Renegade Chimera"/>
+	<entry name="nurgleguard/ChimeraDescription" value="Amphibious transport unit with manned weaponry and communication equipment."/>
+	<entry name="nurgleguard/ChimeraFlavor" value="The Chimera is the most prolific and popular armoured transport used by the Imperial Guard. It is rugged, versatile, and easy to produce in huge numbers. For thousands of years it has been accepted wisdom that the Chimera punches well above its weight in a firefight; the tank itself mounts a variety of punishing anti-personnel weaponry, while passengers can lay down additional fire from its spacious top hatch and flank-mounted lasgun arrays."/>
+<!--	<entry name="nurgleguard/DaemonPrince" value="Daemon Prince of Nurgle"/>
+	<entry name="nurgleguard/DaemonPrinceDescription" value="Monstrous hero that cripples foes with psychic powers before clawing them to death."/>
+	<entry name="nurgleguard/DaemonPrinceFlavor" value="Daemon Princes are infernal monsters that tower over the mortals they lead to battle. These paragons of evil take many forms, though all exude a palpable aura of terror and power. In battle, a Daemon Prince strides through the pitiful bullets of the enemy without pause, his unnatural laughter driving men to the edge of fear. Warp energy sizzles from his eyes, and black flames curl from his mouth as he speaks dread phrases that kill as sure as any blade. These are creatures of nightmare—a living expression of Chaos given form."/> -->
+	<entry name="nurgleguard/Defiler" value="Plague Hulk "/>
+	<entry name="nurgleguard/DefilerDescription" value="Enormous walker unit with devastating melee and ranged weaponry."/>
+	<entry name="nurgleguard/DefilerFlavor" value="Plague Hulk is a Daemon Engine of Nurgle, twice the size of most other Daemon Engines and with a temperament to match. The ground shivers and melts as they stalk towards their foes on six massive, segmented legs, their great pincer-arms twitching and snipping with an impatient need to slice through warm flesh. The Defiler's crab-like body supports a daemonic torso that carries an array of deadly weaponry, ranging from reaper autocannons to racks of highly explosive missiles. It is the battle cannon mounted in its chest turret, however, that is undoubtedly its most potent armament. Each hell-forged shell that thunders out from its growling muzzle is capable of crippling a squad of Space Marines in a single earth-shaking blast."/>
+	<entry name="nurgleguard/DevilDog" value="Renegade Devil Dog"/>
+	<entry name="nurgleguard/DevilDogDescription" value="Fast tank unit with a deadly armour-melting cannon."/>
+	<entry name="nurgleguard/DevilDogFlavor" value="Acquiring its name from the high-pitched howl this weapon makes upon firing, the Devil Dog is capable of punching far above its weight in armoured combat. Indeed, many Devil Dog crews style themselves as big game hunters or monster slayers, excelling in the eradication of enemy armour and exceptionally heavy infantry assets. A foe forced to fight protracted campaigns in dense terrain against the Imperial Guard soon learns to dread the hunched silhouette of the Devil Dog – those who don’t soon find their vehicles reduced to molten slag by this aggressive and fast moving tank hunter."/>
+<!--	<entry name="nurgleguard/Guardsman2" value="Traitor Guardsmen"/>
+	<entry name="nurgleguard/Guardsman2Description" value="Light infantry unit."/>
+	<entry name="nurgleguard/Guardsman2Flavor" value="Traitor Guard (or guardsmen) is a term given to the vast majority of disloyal mortals who have left the Imperial Guard and Planetary Defence Forces in order to fight for Chaos. They are not a single coherent force, but rather a faction of the infinite collection of warbands and hosts under the leadership of Chaos Champions and part of the The Lost and the Damned."/> -->
+	<entry name="nurgleguard/Guardsmannurgle" value="Followers of the Death God"/>
+	<entry name="nurgleguard/GuardsmannurgleDescription" value="Light infantry unit dedicated to the service of the Chaos God Nurgle."/>
+	<entry name="nurgleguard/GuardsmannurgleFlavor" value=""/>
+	<entry name="nurgleguard/Havoc" value="Nurgle Havocs"/>
+	<entry name="nurgleguard/HavocDescription" value="Long range infantry unit that is more accurate while stationary."/>
+	<entry name="nurgleguard/HavocFlavor" value="Some Chaos Space Marine squads carry a high proportion of heavy weapons, the better to annihilate the hated foe. Known as Havocs, these squads provide devastating anti-infantry and anti-armour firepower, dominating large swathes of the battlefield with volley after punishing volley."/>
+	<entry name="nurgleguard/Headquarters" value="<string name='Buildings/nurgleguard/Headquarters'/>"/>
+	<entry name="nurgleguard/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="nurgleguard/HeadquartersFlavor" value="<string name='Buildings/nurgleguard/HeadquartersFlavor'/>"/>
+	<entry name="nurgleguard/HeavyWeaponsSquad" value="Renegade  Heavy Weapons Squad"/>
+	<entry name="nurgleguard/HeavyWeaponsSquadDescription" value="Infantry unit equipped to deal with heavily armoured targets."/>
+	<entry name="nurgleguard/HeavyWeaponsSquadFlavor" value="Infantry heavy weapons are typically crewed by a team of two men; one fires the weapon while the other supplies the ammunition, and between them they can relocate their weapon if needs be."/>
+<!--
+	<entry name="nurgleguard/ImperialStrongpoint" value="Renegade Imperial Bastion"/>
+	<entry name="nurgleguard/ImperialStrongpointDescription" value="Fortification with heavy bolters that can shelter infantry."/>
+	<entry name="nurgleguard/ImperialStrongpointFlavor" value="An Renegade Imperial Bastion is an imposing edifice built from foot-thick ferrocrete and the remains of faithful servants of the Imperium. As they are relatively easy to construct, some planets boast networks of Bastions that span entire continents. Built to withstand orbital strikes and artillery bombardments, there are few weapons capable of razing them in a single blow. It is with good reason that such fortresses often form the cornerstone of a planet's defensive strategy."/>
+-->
+	<entry name="nurgleguard/Librarian" value="Chaos Librarian"/>
+	<entry name="nurgleguard/LibrarianDescription" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="nurgleguard/LibrarianFlavor" value="During the Horus Heresy, some Librarians betrayed the Space Marine cause and defected to the side of Chaos. Now they religiously serve the god of Chaos and believe that they have chosen the right path."/>
+	<entry name="nurgleguard/LordCommissar" value="Traitor Commissar"/>
+	<entry name="nurgleguard/LordCommissarDescription" value="Hero unit that provides bonuses to nearby allied units."/>
+	<entry name="nurgleguard/LordCommissarFlavor" value="Traitor Commissars are Imperial Commissars that have fallen to Heresy and now fight for the forces of Chaos."/>
+<!--	<entry name="nurgleguard/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="nurgleguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="nurgleguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/> -->
+	<entry name="nurgleguard/MarauderBomber" value="Marauder Bomber"/>
+	<entry name="nurgleguard/MarauderBomberDescription" value="Super-heavy bomber unit that obliterates ground targets."/>
+	<entry name="nurgleguard/MarauderBomberFlavor" value="Sturdily built and boasting a colossal payload for its size, the Marauder is the archetypal heavy bomber of the Imperium. Powerful engines and capacious fuel tanks give the Marauder a substantial operational reach and, furthermore, allow bomber squadrons to operate effectively in times of sporadic resupply."/>
+<!--	<entry name="nurgleguard/NoctilithCrownDescription" value="Fortification that shields allied Chaos units and damages enemy psykers."/>
+	<entry name="nurgleguard/NoctilithCrownFlavor" value="Noctilith Crowns form vital strongpoints, for these arcane devices can draw in the raw energy of Chaos itself."/> -->
+	<entry name="nurgleguard/Poxwalker" value="Poxwalkers"/>
+	<entry name="nurgleguard/PoxwalkerDescription" value="Light melee infantry unit able to regenerate in combat."/>
+	<entry name="nurgleguard/PoxwalkerFlavor" value="Poxwalkers are victims of the Walking Pox, a cruel virulence that rots the infected to death whilst keeping them conscious. They are terror troops, their ceaseless groaning the vector by which they infect the living. In battle they drown their foes in a sea of decaying flesh, clawing hands and gnashing teeth."/>
+	<entry name="nurgleguard/PrimarisPsyker" value="Rogue Psyker"/>
+	<entry name="nurgleguard/PrimarisPsykerDescription" value="Hero unit with destructive psychic powers."/>
+	<entry name="nurgleguard/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+	<entry name="nurgleguard/Psychneuein" value="Nurgle Rot Flies"/>
+	<entry name="nurgleguard/PsychneueinDescription" value="Airborne elusive Nurgle unit that infests its victims."/>
+	<entry name="nurgleguard/PsychneueinFlavor" value="Rot Flies are created from Beasts of Nurgle who had become resentful after their displays of affection are rebuffed many times by their victims."/>
+<!--	<entry name="nurgleguard/Ratling" value="Renegade Ratlings"/>
+	<entry name="nurgleguard/RatlingDescription" value="Sniper infantry unit that can move after shooting."/>
+	<entry name="nurgleguard/RatlingFlavor" value="<string name='Units/AstraMilitarum/RatlingFlavor'/>"/> -->
+	<entry name="nurgleguard/ScoutSentinel" value="Scout Sentinels"/>
+	<entry name="nurgleguard/ScoutSentinelDescription" value="Light armoured walker unit specialized in reconnaissance."/>
+	<entry name="nurgleguard/ScoutSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The lighter-armoured Scout Sentinels, in particular, are used to range ahead of the main battle line, setting up brutal ambushes or launching pin-point raids."/>
+<!--	<entry name="nurgleguard/TankCommander" value="Tank Commander"/>
+	<entry name="nurgleguard/TankCommanderDescription" value="Tank hero unit with formidable strength that also boosts nearby allied tank units."/>
+	<entry name="nurgleguard/TankCommanderFlavor" value="A Tank Commander rides to battle in the cupola of a mighty Leman Russ battle tank. These grizzled men are virtually one with their machine, possessing an implicit knowledge of armoured warfare in all its forms. The average Tank Commander is a steely eyed ace, heading up a crew of the very best their regiment has to offer."/> -->
+	<entry name="nurgleguard/TechpriestBetrayer" value="Heretek"/>
+	<entry name="nurgleguard/TechpriestBetrayerDescription" value="A renegade hero with powerful support and abilities."/>
+	<entry name="nurgleguard/TechpriestBetrayerFlavor" value="A Heretek is a member of the Adeptus Mechanicus who has strayed from its strictures and dictates, and betrayed the Cult Mechanicus by, for instance, weakening the Adeptus' stranglehold on the knowledge of the Imperium's technology, or embracing individual experimentation and innovation."/>
+<!--	<entry name="nurgleguard/TechpriestEnginseer" value="Heretek"/>
+	<entry name="nurgleguard/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles and founds new cities."/>
+	<entry name="nurgleguard/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/> -->
+<!--	<entry name="nurgleguard/TempestusScion" value="Renegade Scions"/>
+	<entry name="nurgleguard/TempestusScionDescription" value="Elite shock infantry unit."/>
+	<entry name="nurgleguard/TempestusScionFlavor" value="Renegade Militarum Tempestus Scions."/> -->
+	<entry name="nurgleguard/Terminator" value="Blightlord Terminators "/>
+	<entry name="nurgleguard/TerminatorDescription" value="Blightlord Terminators are an elite formation of Chaos Terminators."/>
+	<entry name="nurgleguard/TerminatorFlavor" value="You cower from Nurgle's gifts, revolted by his touch. Fear not! Nurgle forgives your ignorance, for he is a generous god and will bless you all the same. Soon your fear will melt away before the Plague Lord's generosity, and with blinded eyes you will see the glorious truth."/>
+	<entry name="nurgleguard/Thunderbolt" value="Thunderbolt"/>
+	<entry name="nurgleguard/ThunderboltDescription" value="Fast and heavy fighter unit."/>
+	<entry name="nurgleguard/ThunderboltFlavor" value="A heavy fighter that combines devastating strike potential with graceful speed and manoeuvrability, the Thunderbolt forms the bulk of the Imperial Navy's intra-atmosphere fighter aircraft. The Thunderbolt is a true workhorse, with a rugged and reliable design both venerated by its crews and respected by its enemies."/>
+<!--	<entry name="nurgleguard/Valkyrie" value="Valkyrie"/>
+	<entry name="nurgleguard/ValkyrieDescription" value="Versatile airborne transport unit."/>
+	<entry name="nurgleguard/ValkyrieFlavor" value="The Valkyrie Assault Carrier is a well-armed, twin-engine attack craft. The durable armour and versatile payload of the Valkyrie chassis combine with the aircraft's powerful engines and stable handling to make it a popular choice for a broad spectrum of battlefield roles."/>
+	<entry name="nurgleguard/VoidShieldGenerator" value="Void Shield Generator"/>
+	<entry name="nurgleguard/VoidShieldGeneratorDescription" value="Fortification that shields units in range."/>
+	<entry name="nurgleguard/VoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/> -->
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Vanitine Hedonites (Faction_slaguard) ------------------->
+	<!--------------------------------------------------------------------------------->
+
+<!--	<entry name="slaguard/Baneblade" value="Baneblade"/>
+	<entry name="slaguard/BanebladeDescription" value="Super-heavy tank unit with devastating firepower."/>
+	<entry name="slaguard/BanebladeFlavor" value="The Baneblade is an unmistakable icon of the Imperium's armoured supremacy, and many of these honoured machines have served in countless war zones across several millennia of war. Possessed of overwhelming firepower, exceptionally thick armour, and a roaring power-plant that allows it to surge into battle with surprising speed, the Baneblade is a truly deadly foe in any conflict."/> -->
+	<entry name="slaguard/Basilisk" value="Basilisk"/>
+	<entry name="slaguard/BasiliskDescription" value="Long-range artillery tank unit."/>
+	<entry name="slaguard/BasiliskFlavor" value="When the Imperial Guard go to war, they march to the thunderous report of batteries of Basilisks whose guns can flatten cities and end worlds. Instantly recognisable for the long, looming barrel of its earthshaker cannon, the Basilisk boasts a prodigious range."/>
+	<entry name="slaguard/Bullgryn" value="Renegade Ogryn"/>
+	<entry name="slaguard/BullgrynDescription" value="Heavy melee infantry unit."/>
+	<entry name="slaguard/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+	<entry name="slaguard/ChaosCultist" value="Slaanesh Cultists"/>
+	<entry name="slaguard/ChaosCultistDescription" value="Mass infantry unit that can found cities and ?."/>
+	<entry name="slaguard/ChaosCultistFlavor" value=" To embrace Khorne is also to embrace your own doom, and to gain the Mark of Khorne is to lose all fear of death, disease and mutation."/>
+	<entry name="slaguard/ChaosLandRaider" value="Chaos Land Raider"/>
+	<entry name="slaguard/ChaosLandRaiderDescription" value="Massively armoured and heavily armed transport unit."/>
+	<entry name="slaguard/ChaosLandRaiderFlavor" value="The Chaos Land Raider is the heaviest ground vehicle in a Chaos Space Marine army. Its adamantine and ceramite plates can withstand all but the deadliest anti-tank weaponry, and the blessings of the Warpsmiths keep it at peak efficiency. The twin lascannons mounted in each sponson make short work of other vehicles that would dare to attempt to stop its rampage."/>
+	<entry name="slaguard/ChaosLord" value="Chaos Lord of Slaanesh"/>
+	<entry name="slaguard/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="slaguard/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
+	<entry name="slaguard/ChaosSpawn" value="Spawn of Slaanesh"/>
+	<entry name="slaguard/ChaosSpawnDescription" value="Fast melee infantry unit that mutates each turn."/>
+	<entry name="slaguard/ChaosSpawnFlavor" value="Although physically powerful and extremely resilient, Chaos Spawn are insane, mewling creatures with no mental powers or self-awareness. Their former intelligence has been sacrificed to their failed ambition. Many a champion of great promise has ended up as a seething mound of bone and blubber, monstrous and screaming with lunatic rage."/>
+<!--	<entry name="slaguard/Chaplain" value="Dark Apostle"/>
+	<entry name="slaguard/ChaplainDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="slaguard/ChaplainFlavor" value=" Dark Apostles are the corrupted Chaplains of the Word Bearers Chaos Space Marines Legion, who gleefully redirected the Legion's fanatical zeal from preaching of the Imperial faith to howling the praises of Chaos. Dark Apostles are impassioned and charismatic preachers, capable of causing entire Regiments of the Imperial Guard or even loyalist Space Marines to defect to the forces of Chaos."/> -->
+	<entry name="slaguard/Chimera" value="Chimera"/>
+	<entry name="slaguard/ChimeraDescription" value="Amphibious transport unit with manned weaponry and communication equipment."/>
+	<entry name="slaguard/ChimeraFlavor" value="The Chimera is the most prolific and popular armoured transport used by the Imperial Guard. It is rugged, versatile, and easy to produce in huge numbers. For thousands of years it has been accepted wisdom that the Chimera punches well above its weight in a firefight; the tank itself mounts a variety of punishing anti-personnel weaponry, while passengers can lay down additional fire from its spacious top hatch and flank-mounted lasgun arrays."/>
+	<entry name="slaguard/DaemonPrince" value="Daemon Prince of Slaanesh"/>
+	<entry name="slaguard/DaemonPrinceDescription" value="Monstrous hero that cripples foes with psychic powers before clawing them to death."/>
+	<entry name="slaguard/DaemonPrinceFlavor" value="Daemon Princes are infernal monsters that tower over the mortals they lead to battle. These paragons of evil take many forms, though all exude a palpable aura of terror and power. In battle, a Daemon Prince strides through the pitiful bullets of the enemy without pause, his unnatural laughter driving men to the edge of fear. Warp energy sizzles from his eyes, and black flames curl from his mouth as he speaks dread phrases that kill as sure as any blade. These are creatures of nightmare—a living expression of Chaos given form."/>
+	<entry name="slaguard/Defiler" value="Defiler"/>
+	<entry name="slaguard/DefilerDescription" value="Enormous walker unit with devastating melee and ranged weaponry."/>
+	<entry name="slaguard/DefilerFlavor" value="Defilers are truly massive beasts of war, twice the size of most other Daemon Engines and with a temperament to match. The ground shivers and melts as they stalk towards their foes on six massive, segmented legs, their great pincer-arms twitching and snipping with an impatient need to slice through warm flesh. The Defiler's crab-like body supports a daemonic torso that carries an array of deadly weaponry, ranging from reaper autocannons to racks of highly explosive missiles. It is the battle cannon mounted in its chest turret, however, that is undoubtedly its most potent armament. Each hell-forged shell that thunders out from its growling muzzle is capable of crippling a squad of Space Marines in a single earth-shaking blast."/>
+	<entry name="slaguard/DevilDog" value="Renegade Devil Dog"/>
+	<entry name="slaguard/DevilDogDescription" value="Fast tank unit with a deadly armour-melting cannon."/>
+	<entry name="slaguard/DevilDogFlavor" value="Acquiring its name from the high-pitched howl this weapon makes upon firing, the Devil Dog is capable of punching far above its weight in armoured combat. Indeed, many Devil Dog crews style themselves as big game hunters or monster slayers, excelling in the eradication of enemy armour and exceptionally heavy infantry assets. A foe forced to fight protracted campaigns in dense terrain against the Imperial Guard soon learns to dread the hunched silhouette of the Devil Dog – those who don’t soon find their vehicles reduced to molten slag by this aggressive and fast moving tank hunter."/>
+	<entry name="slaguard/Guardsmanslaa" value="Slaanesh Guardsmen"/>
+	<entry name="slaguard/GuardsmanslaaDescription" value="Light infantry unit dedicated to the service of the Chaos God Slaanesh."/>
+	<entry name="slaguard/GuardsmanslaaFlavor" value=""/>
+	<entry name="slaguard/Headquarters" value="<string name='Buildings/slaguard/Headquarters'/>"/>
+	<entry name="slaguard/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="slaguard/HeadquartersFlavor" value="<string name='Buildings/slaguard/HeadquartersFlavor'/>"/>
+	<entry name="slaguard/HeavyWeaponsSquad" value="Renegade  Heavy Weapons Squad"/>
+	<entry name="slaguard/HeavyWeaponsSquadDescription" value="Infantry unit equipped to deal with heavily armoured targets."/>
+	<entry name="slaguard/HeavyWeaponsSquadFlavor" value="Infantry heavy weapons are typically crewed by a team of two men; one fires the weapon while the other supplies the ammunition, and between them they can relocate their weapon if needs be."/>
+	<entry name="slaguard/Helbrute" value="Slaanesh Helbrute"/>
+	<entry name="slaguard/HelbruteDescription" value="Walker unit that goes crazed when damaged."/>
+	<entry name="slaguard/HelbruteFlavor" value="Helbrutes are twisted mockeries of the Space Marine Dreadnoughts they used to be, combining the firepower of a small tank with the mind of a frenzied maniac. Each Helbrute holds a living creature within its plated metal chest—a Chaos Space Marine driven over the edge of madness by a never-ending cycle of war."/>
+<!--
+	<entry name="slaguard/ImperialStrongpoint" value="Renegade Imperial Bastion"/>
+	<entry name="slaguard/ImperialStrongpointDescription" value="Fortification with heavy bolters that can shelter infantry."/>
+	<entry name="slaguard/ImperialStrongpointFlavor" value="An Renegade Imperial Bastion is an imposing edifice built from foot-thick ferrocrete and the remains of faithful servants of the Imperium. As they are relatively easy to construct, some planets boast networks of Bastions that span entire continents. Built to withstand orbital strikes and artillery bombardments, there are few weapons capable of razing them in a single blow. It is with good reason that such fortresses often form the cornerstone of a planet's defensive strategy."/> -->
+	<entry name="slaguard/LemanRussBattleTank" value="Renegade Leman Russ Battle Tank"/>
+	<entry name="slaguard/LemanRussBattleTankDescription" value="Heavily armoured main battle tank unit."/>
+	<entry name="slaguard/LemanRussBattleTankFlavor" value="The Leman Russ battle tank is an ironclad declaration of might made manifest. They are the mainstay of the Imperial Guard's armoured forces, lumbering slabs of armour and intolerance whose inexorable advance has ground a billion foes of the Imperium to bloody ruin."/>
+<!--	<entry name="slaguard/LordCommissar" value="Traitor Commissar"/>
+	<entry name="slaguard/LordCommissarDescription" value="Hero unit that provides bonuses to nearby allied units."/>
+	<entry name="slaguard/LordCommissarFlavor" value="Traitor Commissars are Imperial Commissars that have fallen to Heresy and now fight for the forces of Chaos."/>
+	<entry name="slaguard/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="slaguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="slaguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>	-->
+	<entry name="slaguard/MarauderBomber" value="Marauder Bomber"/>
+	<entry name="slaguard/MarauderBomberDescription" value="Super-heavy bomber unit that obliterates ground targets."/>
+	<entry name="slaguard/MarauderBomberFlavor" value="Sturdily built and boasting a colossal payload for its size, the Marauder is the archetypal heavy bomber of the Imperium. Powerful engines and capacious fuel tanks give the Marauder a substantial operational reach and, furthermore, allow bomber squadrons to operate effectively in times of sporadic resupply."/>
+	<entry name="slaguard/MasterOfPossession" value="Master of Possession"/>
+	<entry name="slaguard/MasterOfPossessionDescription" value="Psyker hero unit that summons Daemons and supports allies."/>
+	<entry name="slaguard/MasterOfPossessionFlavor" value="Masters of Possession lead warbands of devoted warriors in pursuit of untold power. These sorcerous figures have mastered the darkest and most blasphemous lore: the art of using hosts of living flesh to house daemonic spirits. It is they who perform the profane ceremonies of binding that imbue the Daemonkin with their warp-born power. Gouging a breach in the fabric of realspace, the Master of Possession draws a willing entity from the immaterium, channelling its terrible energies into the body of a supplicant or the chassis of a war machine. So thoroughly are these dread figures steeped in blasphemous sorcery that where they walk, reality itself recoils."/>
+<!--	<entry name="slaguard/NoctilithCrownDescription" value="Fortification that shields allied Chaos units and damages enemy psykers."/>
+	<entry name="slaguard/NoctilithCrownFlavor" value="Noctilith Crowns form vital strongpoints, for these arcane devices can draw in the raw energy of Chaos itself."/>
+	<entry name="slaguard/PrimarisPsyker" value="Rogue Psyker"/>
+	<entry name="slaguard/PrimarisPsykerDescription" value="Hero unit with destructive psychic powers."/>
+	<entry name="slaguard/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+	<entry name="slaguard/Ratling" value="Renegade Ratlings"/>
+	<entry name="slaguard/RatlingDescription" value="Sniper infantry unit that can move after shooting."/>
+	<entry name="slaguard/RatlingFlavor" value="<string name='Units/AstraMilitarum/RatlingFlavor'/>"/> -->
+	<entry name="slaguard/ScoutSentinel" value="Scout Sentinels"/>
+	<entry name="slaguard/ScoutSentinelDescription" value="Light armoured walker unit specialized in reconnaissance."/>
+	<entry name="slaguard/ScoutSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The lighter-armoured Scout Sentinels, in particular, are used to range ahead of the main battle line, setting up brutal ambushes or launching pin-point raids."/>
+<!--	<entry name="slaguard/TankCommander" value="Tank Commander"/>
+	<entry name="slaguard/TankCommanderDescription" value="Tank hero unit with formidable strength that also boosts nearby allied tank units."/>
+	<entry name="slaguard/TankCommanderFlavor" value="A Tank Commander rides to battle in the cupola of a mighty Leman Russ battle tank. These grizzled men are virtually one with their machine, possessing an implicit knowledge of armoured warfare in all its forms. The average Tank Commander is a steely eyed ace, heading up a crew of the very best their regiment has to offer."/> -->
+	<entry name="slaguard/TechpriestBetrayer" value="Heretek"/>
+	<entry name="slaguard/TechpriestBetrayerDescription" value="A renegade hero with powerful support and abilities."/>
+	<entry name="slaguard/TechpriestBetrayerFlavor" value="A Heretek is a member of the Adeptus Mechanicus who has strayed from its strictures and dictates, and betrayed the Cult Mechanicus by, for instance, weakening the Adeptus' stranglehold on the knowledge of the Imperium's technology, or embracing individual experimentation and innovation."/>
+<!--	<entry name="slaguard/TechpriestEnginseer" value="Heretek"/>
+	<entry name="slaguard/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles and founds new cities."/>
+	<entry name="slaguard/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/> -->
+	<entry name="slaguard/TempestusScion" value="Renegade Scions"/>
+	<entry name="slaguard/TempestusScionDescription" value="Elite shock infantry unit."/>
+	<entry name="slaguard/TempestusScionFlavor" value="Renegade Militarum Tempestus Scions."/>
+	<entry name="slaguard/Thunderbolt" value="Thunderbolt"/>
+	<entry name="slaguard/ThunderboltDescription" value="Fast and heavy fighter unit."/>
+	<entry name="slaguard/ThunderboltFlavor" value="A heavy fighter that combines devastating strike potential with graceful speed and manoeuvrability, the Thunderbolt forms the bulk of the Imperial Navy's intra-atmosphere fighter aircraft. The Thunderbolt is a true workhorse, with a rugged and reliable design both venerated by its crews and respected by its enemies."/>
+<!--	<entry name="slaguard/Valkyrie" value="Valkyrie"/>
+	<entry name="slaguard/ValkyrieDescription" value="Versatile airborne transport unit."/>
+	<entry name="slaguard/ValkyrieFlavor" value="The Valkyrie Assault Carrier is a well-armed, twin-engine attack craft. The durable armour and versatile payload of the Valkyrie chassis combine with the aircraft's powerful engines and stable handling to make it a popular choice for a broad spectrum of battlefield roles."/> -->
+	<entry name="slaguard/Venomcrawler" value="Venomcrawler"/>
+	<entry name="slaguard/VenomcrawlerDescription" value="Terrifying walker unit that consumes the souls of its enemies to restore its hitpoints."/>
+	<entry name="slaguard/VenomcrawlerFlavor" value="Pounding forwards upon bladed limbs come the horrors known as Venomcrawlers. Grotesque amalgams of metal, flesh and daemonic entities, these monstrosities hiss and snarl as they scuttle towards their prey. Fleshy tongues flap from snarling maws and soulflayer tendrils lash back and forth, all tasting the air for the scent of their enemies' fear. As the Venomcrawlers continue to butcher, their fanged mouths gape ever wider, drawing the souls of those slain into their vast mechanical abdomens."/>
+<!--	<entry name="slaguard/VoidShieldGenerator" value="Void Shield Generator"/>
+	<entry name="slaguard/VoidShieldGeneratorDescription" value="Fortification that shields units in range."/>
+	<entry name="slaguard/VoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/> -->
+	<entry name="slaguard/Warpsmith" value="Warpsmith"/>
+	<entry name="slaguard/WarpsmithDescription" value="Hero unit that supports vehicles and boosts the economy."/>
+	<entry name="slaguard/WarpsmithFlavor" value="Warpsmiths are the masters of the machine. Most can trace their origins back to the priesthood of Mars, whether through the schisms of the Magi or the rigid doctrine of the Techmarines. However, where the Adeptus Mechanicus regard technology as sacrosanct, the Warpsmiths seek to subjugate and control it."/>
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------- Gladius Renegade Militia (Faction_traitorguard) --------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="traitorguard/Baneblade" value="Baneblade"/>
+	<entry name="traitorguard/BanebladeDescription" value="Super-heavy tank unit with devastating firepower."/>
+	<entry name="traitorguard/BanebladeFlavor" value="The Baneblade is an unmistakable icon of the Imperium's armoured supremacy, and many of these honoured machines have served in countless war zones across several millennia of war. Possessed of overwhelming firepower, exceptionally thick armour, and a roaring power-plant that allows it to surge into battle with surprising speed, the Baneblade is a truly deadly foe in any conflict."/>
+	<entry name="traitorguard/Basilisk" value="Basilisk"/>
+	<entry name="traitorguard/BasiliskDescription" value="Long-range artillery tank unit."/>
+	<entry name="traitorguard/BasiliskFlavor" value="When the Imperial Guard go to war, they march to the thunderous report of batteries of Basilisks whose guns can flatten cities and end worlds. Instantly recognisable for the long, looming barrel of its earthshaker cannon, the Basilisk boasts a prodigious range."/>
+	<entry name="traitorguard/Bullgryn" value="Renegade Ogryn"/>
+	<entry name="traitorguard/BullgrynDescription" value="Heavy melee infantry unit."/>
+	<entry name="traitorguard/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+	<entry name="traitorguard/ChaosCultist" value="Chaos Cultists"/>
+	<entry name="traitorguard/ChaosCultistDescription" value="Mass infantry unit that can found cities and sacrifice itself to the Dark Gods."/>
+	<entry name="traitorguard/ChaosCultistFlavor" value="The cultists of Chaos can be found, in one form or another, almost anywhere the Imperium has spread. At first glance, they are indistinguishable from normal men, but under their clothes, their flesh is tattooed and branded with sigils that hurt the eyes of any faithful who look upon them. When the Chaos Space Marines come to a planet, the true colours of the cultists are revealed. The powers of darkness are ever quick to promise glory, and even the lowliest initiate knows that to fight alongside such legendary warriors is to court the gaze of the gods."/>
+	<entry name="traitorguard/Chaplain" value="Dark Apostle"/>
+	<entry name="traitorguard/ChaplainDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="traitorguard/ChaplainFlavor" value=" Dark Apostles are the corrupted Chaplains of the Word Bearers Chaos Space Marines Legion, who gleefully redirected the Legion's fanatical zeal from preaching of the Imperial faith to howling the praises of Chaos. Dark Apostles are impassioned and charismatic preachers, capable of causing entire Regiments of the Imperial Guard or even loyalist Space Marines to defect to the forces of Chaos."/>
+	<entry name="traitorguard/Chimera" value="Chimera"/>
+	<entry name="traitorguard/ChimeraDescription" value="Amphibious transport unit with manned weaponry and communication equipment."/>
+	<entry name="traitorguard/ChimeraFlavor" value="The Chimera is the most prolific and popular armoured transport used by the Imperial Guard. It is rugged, versatile, and easy to produce in huge numbers. For thousands of years it has been accepted wisdom that the Chimera punches well above its weight in a firefight; the tank itself mounts a variety of punishing anti-personnel weaponry, while passengers can lay down additional fire from its spacious top hatch and flank-mounted lasgun arrays."/>
+	<entry name="traitorguard/DevilDog" value="Renegade Devil Dog"/>
+	<entry name="traitorguard/DevilDogDescription" value="Fast tank unit with a deadly armour-melting cannon."/>
+	<entry name="traitorguard/DevilDogFlavor" value="Acquiring its name from the high-pitched howl this weapon makes upon firing, the Devil Dog is capable of punching far above its weight in armoured combat. Indeed, many Devil Dog crews style themselves as big game hunters or monster slayers, excelling in the eradication of enemy armour and exceptionally heavy infantry assets. A foe forced to fight protracted campaigns in dense terrain against the Imperial Guard soon learns to dread the hunched silhouette of the Devil Dog – those who don’t soon find their vehicles reduced to molten slag by this aggressive and fast moving tank hunter."/>
+	<entry name="traitorguard/Guardsman2" value="Traitor Guardsmen"/>
+	<entry name="traitorguard/Guardsman2Description" value="Light infantry unit."/>
+	<entry name="traitorguard/Guardsman2Flavor" value="Traitor Guard (or guardsmen) is a term given to the vast majority of disloyal mortals who have left the Imperial Guard and Planetary Defence Forces in order to fight for Chaos. They are not a single coherent force, but rather a faction of the infinite collection of warbands and hosts under the leadership of Chaos Champions and part of the The Lost and the Damned."/>
+<!--	<entry name="traitorguard/Havoc" value="Nurgle Havocs"/>
+	<entry name="traitorguard/HavocDescription" value="Long range infantry unit that is more accurate while stationary."/>
+	<entry name="traitorguard/HavocFlavor" value="Some Chaos Space Marine squads carry a high proportion of heavy weapons, the better to annihilate the hated foe. Known as Havocs, these squads provide devastating anti-infantry and anti-armour firepower, dominating large swathes of the battlefield with volley after punishing volley."/> -->
+	<entry name="traitorguard/Headquarters" value="<string name='Buildings/traitorguard/Headquarters'/>"/>
+	<entry name="traitorguard/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="traitorguard/HeadquartersFlavor" value="<string name='Buildings/traitorguard/HeadquartersFlavor'/>"/>
+	<entry name="traitorguard/HeavyWeaponsSquad" value="Renegade  Heavy Weapons Squad"/>
+	<entry name="traitorguard/HeavyWeaponsSquadDescription" value="Infantry unit equipped to deal with heavily armoured targets."/>
+	<entry name="traitorguard/HeavyWeaponsSquadFlavor" value="Infantry heavy weapons are typically crewed by a team of two men; one fires the weapon while the other supplies the ammunition, and between them they can relocate their weapon if needs be."/>
+	<entry name="traitorguard/Hydra" value="Hydra"/>
+	<entry name="traitorguard/HydraDescription" value="Fast tank unit that excels against airborne targets."/>
+	<entry name="traitorguard/HydraFlavor" value="Whether faced by lightning-fast xenos fighters or daemonic, leather-winged monstrosities, the Hydra Flak Tank is ideally equipped to blow aerial foes out of the sky. The Hydra's predictive logic-spirit singles out and locks onto its targets with the tenacity of a predatory beast."/>
+	<entry name="traitorguard/ImperialStrongpoint" value="Renegade Imperial Bastion"/>
+	<entry name="traitorguard/ImperialStrongpointDescription" value="Fortification with heavy bolters that can shelter infantry."/>
+	<entry name="traitorguard/ImperialStrongpointFlavor" value="An Renegade Imperial Bastion is an imposing edifice built from foot-thick ferrocrete and the remains of faithful servants of the Imperium. As they are relatively easy to construct, some planets boast networks of Bastions that span entire continents. Built to withstand orbital strikes and artillery bombardments, there are few weapons capable of razing them in a single blow. It is with good reason that such fortresses often form the cornerstone of a planet's defensive strategy."/>
+	<entry name="traitorguard/LemanRussBattleTank" value="Renegade Leman Russ Battle Tank"/>
+	<entry name="traitorguard/LemanRussBattleTankDescription" value="Heavily armoured main battle tank unit."/>
+	<entry name="traitorguard/LemanRussBattleTankFlavor" value="The Leman Russ battle tank is an ironclad declaration of might made manifest. They are the mainstay of the Imperial Guard's armoured forces, lumbering slabs of armour and intolerance whose inexorable advance has ground a billion foes of the Imperium to bloody ruin."/>
+	<entry name="traitorguard/Librarian" value="Chaos Librarian"/>
+	<entry name="traitorguard/LibrarianDescription" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="traitorguard/LibrarianFlavor" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="traitorguard/LordCommissar" value="Traitor Commissar"/>
+	<entry name="traitorguard/LordCommissarDescription" value="Hero unit that provides bonuses to nearby allied units."/>
+	<entry name="traitorguard/LordCommissarFlavor" value="Traitor Commissars are Imperial Commissars that have fallen to Heresy and now fight for the forces of Chaos."/>
+	<entry name="traitorguard/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="traitorguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="traitorguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="traitorguard/MarauderBomber" value="Marauder Bomber"/>
+	<entry name="traitorguard/MarauderBomberDescription" value="Super-heavy bomber unit that obliterates ground targets."/>
+	<entry name="traitorguard/MarauderBomberFlavor" value="Sturdily built and boasting a colossal payload for its size, the Marauder is the archetypal heavy bomber of the Imperium. Powerful engines and capacious fuel tanks give the Marauder a substantial operational reach and, furthermore, allow bomber squadrons to operate effectively in times of sporadic resupply."/>
+	<entry name="traitorguard/NoctilithCrown" value="Noctilith Crown"/>
+	<entry name="traitorguard/NoctilithCrownDescription" value="Fortification that shields allied Chaos units and damages enemy psykers."/>
+	<entry name="traitorguard/NoctilithCrownFlavor" value="Noctilith Crowns form vital strongpoints, for these arcane devices can draw in the raw energy of Chaos itself."/>
+	<entry name="traitorguard/PrimarisPsyker" value="Rogue Psyker"/>
+	<entry name="traitorguard/PrimarisPsykerDescription" value="Hero unit with destructive psychic powers."/>
+	<entry name="traitorguard/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+	<entry name="traitorguard/Ratling" value="Renegade Ratlings"/>
+	<entry name="traitorguard/RatlingDescription" value="Sniper infantry unit that can move after shooting."/>
+	<entry name="traitorguard/RatlingFlavor" value="<string name='Units/AstraMilitarum/RatlingFlavor'/>"/>
+	<entry name="traitorguard/ScoutSentinel" value="Scout Sentinels"/>
+	<entry name="traitorguard/ScoutSentinelDescription" value="Light armoured walker unit specialized in reconnaissance."/>
+	<entry name="traitorguard/ScoutSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The lighter-armoured Scout Sentinels, in particular, are used to range ahead of the main battle line, setting up brutal ambushes or launching pin-point raids."/>
+<!--	<entry name="traitorguard/TankCommander" value="Tank Commander"/>
+	<entry name="traitorguard/TankCommanderDescription" value="Tank hero unit with formidable strength that also boosts nearby allied tank units."/>
+	<entry name="traitorguard/TankCommanderFlavor" value="A Tank Commander rides to battle in the cupola of a mighty Leman Russ battle tank. These grizzled men are virtually one with their machine, possessing an implicit knowledge of armoured warfare in all its forms. The average Tank Commander is a steely eyed ace, heading up a crew of the very best their regiment has to offer."/> -->
+	<entry name="traitorguard/TechpriestBetrayer" value="Heretek"/>
+	<entry name="traitorguard/TechpriestBetrayerDescription" value="A renegade hero with powerful support and abilities."/>
+	<entry name="traitorguard/TechpriestBetrayerFlavor" value="A Heretek is a member of the Adeptus Mechanicus who has strayed from its strictures and dictates, and betrayed the Cult Mechanicus by, for instance, weakening the Adeptus' stranglehold on the knowledge of the Imperium's technology, or embracing individual experimentation and innovation."/>
+<!--	<entry name="traitorguard/TechpriestEnginseer" value="Heretek"/>
+	<entry name="traitorguard/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles and founds new cities."/>
+	<entry name="traitorguard/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/> -->
+	<entry name="traitorguard/TempestusScion" value="Renegade Scions"/>
+	<entry name="traitorguard/TempestusScionDescription" value="Elite shock infantry unit."/>
+	<entry name="traitorguard/TempestusScionFlavor" value="Renegade Militarum Tempestus Scions."/>
+	<entry name="traitorguard/Thunderbolt" value="Thunderbolt"/>
+	<entry name="traitorguard/ThunderboltDescription" value="Fast and heavy fighter unit."/>
+	<entry name="traitorguard/ThunderboltFlavor" value="A heavy fighter that combines devastating strike potential with graceful speed and manoeuvrability, the Thunderbolt forms the bulk of the Imperial Navy's intra-atmosphere fighter aircraft. The Thunderbolt is a true workhorse, with a rugged and reliable design both venerated by its crews and respected by its enemies."/>
+<!--	<entry name="traitorguard/Valkyrie" value="Valkyrie"/>
+	<entry name="traitorguard/ValkyrieDescription" value="Versatile airborne transport unit."/>
+	<entry name="traitorguard/ValkyrieFlavor" value="The Valkyrie Assault Carrier is a well-armed, twin-engine attack craft. The durable armour and versatile payload of the Valkyrie chassis combine with the aircraft's powerful engines and stable handling to make it a popular choice for a broad spectrum of battlefield roles."/>
+	<entry name="traitorguard/VoidShieldGenerator" value="Void Shield Generator"/>
+	<entry name="traitorguard/VoidShieldGeneratorDescription" value="Fortification that shields units in range."/>
+	<entry name="traitorguard/VoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/> -->
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Kardone Changeseekers (Faction_tzeguard) ---------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="tzeguard/Baneblade" value="Baneblade"/>
+	<entry name="tzeguard/BanebladeDescription" value="Super-heavy tank unit with devastating firepower."/>
+	<entry name="tzeguard/BanebladeFlavor" value="The Baneblade is an unmistakable icon of the Imperium's armoured supremacy, and many of these honoured machines have served in countless war zones across several millennia of war. Possessed of overwhelming firepower, exceptionally thick armour, and a roaring power-plant that allows it to surge into battle with surprising speed, the Baneblade is a truly deadly foe in any conflict."/>
+	<entry name="tzeguard/Basilisk" value="Basilisk"/>
+	<entry name="tzeguard/BasiliskDescription" value="Long-range artillery tank unit."/>
+	<entry name="tzeguard/BasiliskFlavor" value="When the Imperial Guard go to war, they march to the thunderous report of batteries of Basilisks whose guns can flatten cities and end worlds. Instantly recognisable for the long, looming barrel of its earthshaker cannon, the Basilisk boasts a prodigious range."/>
+	<entry name="tzeguard/Bullgryn" value="Renegade Ogryn"/>
+	<entry name="tzeguard/BullgrynDescription" value="Heavy melee infantry unit."/>
+	<entry name="tzeguard/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+	<entry name="tzeguard/ChaosCultist" value="Cultists of Tzeentch"/>
+	<entry name="tzeguard/ChaosCultistDescription" value="Mass infantry unit that can found cities and sacrifice itself to Tzeentch."/>
+	<entry name="tzeguard/ChaosCultistFlavor" value="The cultists of Tzeentch can be found, in one form or another, almost anywhere Imperium has spread. At first glance, they are indistinguishable from normal men, but under their clothes, their flesh is tattooed and branded with sigils that hurt the eyes of any faithful who look upon them. When the Chaos Space Marines come to a planet, the true colours of the cultists are revealed. The powers of darkness are ever quick to promise glory, and even the lowliest initiate knows that to fight alongside such legendary warriors is to court the gaze of the gods."/>
+<!--	<entry name="tzeguard/ChaosLandRaider" value="Chaos Land Raider"/>
+	<entry name="tzeguard/ChaosLandRaiderDescription" value="Massively armoured and heavily armed transport unit."/>
+	<entry name="tzeguard/ChaosLandRaiderFlavor" value="The Chaos Land Raider is the heaviest ground vehicle in a Chaos Space Marine army. Its adamantine and ceramite plates can withstand all but the deadliest anti-tank weaponry, and the blessings of the Warpsmiths keep it at peak efficiency. The twin lascannons mounted in each sponson make short work of other vehicles that would dare to attempt to stop its rampage."/>
+	<entry name="tzeguard/ChaosLord" value="Chaos Lord"/>
+	<entry name="tzeguard/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="tzeguard/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/> -->
+	<entry name="tzeguard/ChaosRhino" value="Chaos Rhino"/>
+	<entry name="tzeguard/ChaosRhinoDescription" value="Armoured transport vehicle that can self-repair."/>
+	<entry name="tzeguard/ChaosRhinoFlavor" value="The Rhino is the most common transport of the Space Marines, and the same can be said of the Heretic Astartes, for this machine is so ruggedly constructed it can see hundreds of years of warfare and still function at peak efficiency. The tank's chassis is based upon a Standard Template Construct, meaning that it is relatively simple to build, maintain and repair. Over the ten thousand years since the Long War began, the Rhino has seen continued use as the favoured transport of the Chaos Space Marines. They will even go so far as to loot them from defeated Imperial armies, though they will burn them clean of Imperial insignia as quickly as possible and festoon the stolen vehicles with spikes, blades and gory trophies taken from the dismembered bodies of their previous owners."/>
+	<entry name="tzeguard/ChaosSpaceMarine" value="Chaos Space Marines"/>
+	<entry name="tzeguard/ChaosSpaceMarine" value="Plague Marines"/>
+	<entry name="tzeguard/ChaosSpaceMarineDescription" value="Versatile infantry unit."/>
+	<entry name="tzeguard/ChaosSpaceMarineFlavor" value="Plague Marines are those Chaos Space Marines who have wholly dedicated their lives and souls to the service of the Chaos God Nurgle."/>
+<!--	<entry name="tzeguard/ChaosSpawn" value="Chaos Spawns"/>
+	<entry name="tzeguard/ChaosSpawnDescription" value="Fast melee infantry unit that mutates each turn."/>
+	<entry name="tzeguard/ChaosSpawnFlavor" value="Although physically powerful and extremely resilient, Chaos Spawn are insane, mewling creatures with no mental powers or self-awareness. Their former intelligence has been sacrificed to their failed ambition. Many a champion of great promise has ended up as a seething mound of bone and blubber, monstrous and screaming with lunatic rage."/> -->
+	<entry name="tzeguard/Chaplain" value="Dark Apostle"/>
+	<entry name="tzeguard/ChaplainDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="tzeguard/ChaplainFlavor" value=" Dark Apostles are the corrupted Chaplains of the Word Bearers Chaos Space Marines Legion, who gleefully redirected the Legion's fanatical zeal from preaching of the Imperial faith to howling the praises of Chaos. Dark Apostles are impassioned and charismatic preachers, capable of causing entire Regiments of the Imperial Guard or even loyalist Space Marines to defect to the forces of Chaos."/>
+<!--	<entry name="tzeguard/Chimera" value="Chimera"/>
+	<entry name="tzeguard/ChimeraDescription" value="Amphibious transport unit with manned weaponry and communication equipment."/>
+	<entry name="tzeguard/ChimeraFlavor" value="The Chimera is the most prolific and popular armoured transport used by the Imperial Guard. It is rugged, versatile, and easy to produce in huge numbers. For thousands of years it has been accepted wisdom that the Chimera punches well above its weight in a firefight; the tank itself mounts a variety of punishing anti-personnel weaponry, while passengers can lay down additional fire from its spacious top hatch and flank-mounted lasgun arrays."/> -->
+	<entry name="tzeguard/DaemonPrince" value="Daemon Prince of Tzeentch"/>
+	<entry name="tzeguard/DaemonPrince" value="Daemon Prince"/>
+	<entry name="tzeguard/DaemonPrinceDescription" value="Monstrous hero that cripples foes with psychic powers before clawing them to death."/>
+	<entry name="tzeguard/DaemonPrinceFlavor" value="Daemon Princes are infernal monsters that tower over the mortals they lead to battle. These paragons of evil take many forms, though all exude a palpable aura of terror and power. In battle, a Daemon Prince strides through the pitiful bullets of the enemy without pause, his unnatural laughter driving men to the edge of fear. Warp energy sizzles from his eyes, and black flames curl from his mouth as he speaks dread phrases that kill as sure as any blade. These are creatures of nightmare—a living expression of Chaos given form."/>
+<!--	<entry name="tzeguard/DarkDisciple" value="Dark Disciples"/>
+	<entry name="tzeguard/DarkDiscipleDescription" value="Infantry unit that increases the defenses of Chaos units."/>
+	<entry name="tzeguard/DarkDiscipleFlavor" value="Dark Disciples carry profane accoutrements of their masters’ worship and parrot the fell words spoken in his baleful prayers. Many such disciples have been augmented to better serve in their role–their skin stretched out and inked with grim litanies, or their mouths fitted with Daemon-touched vox-grilles to project their voices into the warp. Amidst the din of combat they join their Dark Apostle’s chants, crying out for the Chaos Gods to manifest their blessings."/> -->
+	<entry name="tzeguard/Defiler" value="Tzeentch Defiler"/>
+	<entry name="tzeguard/DefilerDescription" value="Enormous walker unit with devastating melee and ranged weaponry."/>
+	<entry name="tzeguard/DefilerFlavor" value="Defilers are truly massive beasts of war, twice the size of most other Daemon Engines and with a temperament to match. The ground shivers and melts as they stalk towards their foes on six massive, segmented legs, their great pincer-arms twitching and snipping with an impatient need to slice through warm flesh. The Defiler's crab-like body supports a daemonic torso that carries an array of deadly weaponry, ranging from reaper autocannons to racks of highly explosive missiles. It is the battle cannon mounted in its chest turret, however, that is undoubtedly its most potent armament. Each hell-forged shell that thunders out from its growling muzzle is capable of crippling a squad of Space Marines in a single earth-shaking blast."/>
+<!--	<entry name="tzeguard/Guardsman" value="Renegade Guardsmen"/>
+	<entry name="tzeguard/Guardsman2" value="Traitor Guardsmen"/>
+	<entry name="tzeguard/Guardsman2Description" value="Light infantry unit."/>
+	<entry name="tzeguard/Guardsman2Flavor" value="Traitor Guard (or guardsmen) is a term given to the vast majority of disloyal mortals who have left the Imperial Guard and Planetary Defence Forces in order to fight for Chaos. They are not a single coherent force, but rather a faction of the infinite collection of warbands and hosts under the leadership of Chaos Champions and part of the The Lost and the Damned."/>
+	<entry name="tzeguard/Guardsman3" value="Renegade Guardsmen"/>
+	<entry name="tzeguard/Guardsman3Description" value="Light infantry unit that can found cities."/>
+	<entry name="tzeguard/Guardsman3Flavor" value="."/>
+	<entry name="tzeguard/GuardsmanDescription" value="Light infantry unit that can found cities on imperial ruins tiles and sacrifice itself to the Dark Gods."/>
+	<entry name="tzeguard/GuardsmanFlavor" value="."/>
+	<entry name="tzeguard/Guardsmankhorne" value="Blood Pact Troopers"/>
+	<entry name="tzeguard/GuardsmankhorneDescription" value="Light infantry unit dedicated to the service of the Chaos God Khorne."/>
+	<entry name="tzeguard/GuardsmankhorneFlavor" value="."/>
+	<entry name="tzeguard/Guardsmannurgle" value="Followers of the Death God"/>
+	<entry name="tzeguard/GuardsmannurgleDescription" value="Light infantry unit dedicated to the service of the Chaos God Nurgle."/>
+	<entry name="tzeguard/GuardsmannurgleFlavor" value="."/>
+	<entry name="tzeguard/Guardsmanslaa" value="Slaanesh Guardsmen"/>
+	<entry name="tzeguard/GuardsmanslaaDescription" value="Light infantry unit dedicated to the service of the Chaos God Slaanesh."/>
+	<entry name="tzeguard/GuardsmanslaaFlavor" value="."/> -->
+	<entry name="tzeguard/Guardsmantzee" value="Benedictian Guardsmen"/>
+	<entry name="tzeguard/GuardsmantzeeDescription" value="Light infantry unit dedicated to the service of the Chaos God Tzeentch."/>
+	<entry name="tzeguard/GuardsmantzeeFlavor" value="The Benedictian Guard are Traitor Guard Regiments, that are dedicated to the Chaos God Tzeentch. 13 of the Guard's Regiments took part in the Invasion of the Stygius Sector and they were among Tzeentch's forces that invaded the Imperial world Mordian."/>
+<!--	<entry name="tzeguard/Havoc" value="Nurgle Havocs"/>
+	<entry name="tzeguard/HavocDescription" value="Long range infantry unit that is more accurate while stationary."/>
+	<entry name="tzeguard/HavocFlavor" value="Some Chaos Space Marine squads carry a high proportion of heavy weapons, the better to annihilate the hated foe. Known as Havocs, these squads provide devastating anti-infantry and anti-armour firepower, dominating large swathes of the battlefield with volley after punishing volley."/> -->
+	<entry name="tzeguard/Headquarters" value="<string name='Buildings/tzeguard/Headquarters'/>"/>
+	<entry name="tzeguard/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="tzeguard/HeadquartersFlavor" value="<string name='Buildings/tzeguard/HeadquartersFlavor'/>"/>
+	<entry name="tzeguard/HeavyWeaponsSquad" value="Renegade  Heavy Weapons Squad"/>
+	<entry name="tzeguard/HeavyWeaponsSquadDescription" value="Infantry unit equipped to deal with heavily armoured targets."/>
+	<entry name="tzeguard/HeavyWeaponsSquadFlavor" value="Infantry heavy weapons are typically crewed by a team of two men; one fires the weapon while the other supplies the ammunition, and between them they can relocate their weapon if needs be."/>
+<!--	<entry name="tzeguard/Helbrute" value="Slaanesh Helbrute"/>
+	<entry name="tzeguard/HelbruteDescription" value="Walker unit that goes crazed when damaged."/>
+	<entry name="tzeguard/HelbruteFlavor" value="Helbrutes are twisted mockeries of the Space Marine Dreadnoughts they used to be, combining the firepower of a small tank with the mind of a frenzied maniac. Each Helbrute holds a living creature within its plated metal chest—a Chaos Space Marine driven over the edge of madness by a never-ending cycle of war."/>
+	<entry name="tzeguard/Heldrake" value="Heldrake"/>
+	<entry name="tzeguard/HeldrakeDescription" value="Flying vehicle that excels against enemy aircraft."/>
+	<entry name="tzeguard/HeldrakeFlavor" value="Heldrakes are winged Daemon Engines that plummet out of the skies like living comets, hurtling towards enemy aircraft and crashing claws-first into them from above. Each is a vicious, hell-forged predator; a Heldrake takes cruel joy in diving down upon the unsuspecting air support of the enemy in order to shred them to pieces with its scything wings and rune-carved talons."/> -->
+	<entry name="tzeguard/Hydra" value="Hydra"/>
+	<entry name="tzeguard/HydraDescription" value="Fast tank unit that excels against airborne targets."/>
+	<entry name="tzeguard/HydraFlavor" value="Whether faced by lightning-fast xenos fighters or daemonic, leather-winged monstrosities, the Hydra Flak Tank is ideally equipped to blow aerial foes out of the sky. The Hydra's predictive logic-spirit singles out and locks onto its targets with the tenacity of a predatory beast."/>
+<!--	<entry name="tzeguard/ImperialStrongpoint" value="Renegade Imperial Bastion"/>
+	<entry name="tzeguard/ImperialStrongpointDescription" value="Fortification with heavy bolters that can shelter infantry."/>
+	<entry name="tzeguard/ImperialStrongpointFlavor" value="An Renegade Imperial Bastion is an imposing edifice built from foot-thick ferrocrete and the remains of faithful servants of the Imperium. As they are relatively easy to construct, some planets boast networks of Bastions that span entire continents. Built to withstand orbital strikes and artillery bombardments, there are few weapons capable of razing them in a single blow. It is with good reason that such fortresses often form the cornerstone of a planet's defensive strategy."/>
+	<entry name="tzeguard/KhorneBerzerker" value="Khorne Berzerkers"/>
+	<entry name="tzeguard/KhorneBerzerkerDescription" value="Melee infantry unit."/>
+	<entry name="tzeguard/KhorneBerzerkerFlavor" value="It was the gruesome experiments of Angron, Primarch of the World Eaters, that led to the creation of the first Berzerkers. By the ritual lobotomisation of his warriors, he removed all sense of fear and danger and then heightened the rush his soldiers experienced in combat. When the Legion swore itself to Khorne, the Berzerkers were no longer bound by Imperial battle doctrine and were given full rein to exercise their bloodthirsty skills. They have since become the ultimate close combat shock troops, entering an uncontrollable frenzy in the heat of battle."/>
+	<entry name="tzeguard/KrootHound" value="Chaos Hounds"/>
+	<entry name="tzeguard/KrootHoundDescription" value="Agile predator unit that is particularly dangerous in forests."/>
+	<entry name="tzeguard/KrootHoundFlavor" value="."/> -->
+	<entry name="tzeguard/LemanRussBattleTank" value="Renegade Leman Russ Battle Tank"/>
+	<entry name="tzeguard/LemanRussBattleTankDescription" value="Heavily armoured main battle tank unit."/>
+	<entry name="tzeguard/LemanRussBattleTankFlavor" value="The Leman Russ battle tank is an ironclad declaration of might made manifest. They are the mainstay of the Imperial Guard's armoured forces, lumbering slabs of armour and intolerance whose inexorable advance has ground a billion foes of the Imperium to bloody ruin."/>
+	<entry name="tzeguard/Librarian" value="Chaos Librarian"/>
+	<entry name="tzeguard/LibrarianDescription" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="tzeguard/LibrarianFlavor" value="A Librarian who defected to Chaos during the Horus Heresy."/>
+	<entry name="tzeguard/LordCommissar" value="Traitor Commissar"/>
+	<entry name="tzeguard/LordCommissar" value="Tzeentch Traitor Commissar"/>
+	<entry name="tzeguard/LordCommissarDescription" value="Hero unit that provides bonuses to nearby allied units."/>
+	<entry name="tzeguard/LordCommissarFlavor" value="Traitor Commissars are Imperial Commissars that have fallen to Heresy and now fight for the forces of Chaos."/>
+<!--	<entry name="tzeguard/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="tzeguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="tzeguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/> -->
+	<entry name="tzeguard/MarauderBomber" value="Marauder Bomber"/>
+	<entry name="tzeguard/MarauderBomberDescription" value="Super-heavy bomber unit that obliterates ground targets."/>
+	<entry name="tzeguard/MarauderBomberFlavor" value="Sturdily built and boasting a colossal payload for its size, the Marauder is the archetypal heavy bomber of the Imperium. Powerful engines and capacious fuel tanks give the Marauder a substantial operational reach and, furthermore, allow bomber squadrons to operate effectively in times of sporadic resupply."/>
+<!--	<entry name="tzeguard/MasterOfPossession" value="Master of Possession"/>
+	<entry name="tzeguard/MasterOfPossessionDescription" value="Psyker hero unit that summons Daemons and supports allies."/>
+	<entry name="tzeguard/MasterOfPossessionFlavor" value="Masters of Possession lead warbands of devoted warriors in pursuit of untold power. These sorcerous figures have mastered the darkest and most blasphemous lore: the art of using hosts of living flesh to house daemonic spirits. It is they who perform the profane ceremonies of binding that imbue the Daemonkin with their warp-born power. Gouging a breach in the fabric of realspace, the Master of Possession draws a willing entity from the immaterium, channelling its terrible energies into the body of a supplicant or the chassis of a war machine. So thoroughly are these dread figures steeped in blasphemous sorcery that where they walk, reality itself recoils."/>
+	<entry name="tzeguard/Maulerfiend" value="Maulerfiend"/>
+	<entry name="tzeguard/MaulerfiendDescription" value="Fast walker unit that reduces the melee attacks of adjacent units."/>
+	<entry name="tzeguard/MaulerfiendFlavor" value="The Daemon Engines known as Maulerfiends thunder towards the foe like monstrous attack dogs loosed from the leash. Their eyes glow with balefire as ectoplasmic drool drizzles from their fanged maws. Their thick front limbs end in articulated claws powerful enough to tear a Dreadnought limb from limb. Should they catch a squad of infantry, they will scissor them apart or crush them into paste with a flex of their massive talons."/>
+	<entry name="tzeguard/NoctilithCrown" value="Noctilith Crown"/>
+	<entry name="tzeguard/NoctilithCrownDescription" value="Fortification that shields allied Chaos units and damages enemy psykers."/>
+	<entry name="tzeguard/NoctilithCrownFlavor" value="Noctilith Crowns form vital strongpoints, for these arcane devices can draw in the raw energy of Chaos itself."/>
+	<entry name="tzeguard/Obliterator" value="Obliterators"/>
+	<entry name="tzeguard/ObliteratorDescription" value="Elite infantry unit with cyclable weapons."/>
+	<entry name="tzeguard/ObliteratorFlavor" value="The monstrous warriors of the Obliterator cults are a blasphemy against nature and Machine God alike. Their forms are so altered, so thoroughly conjoined with the tools of war, that every cell in their bodies thrills with a spark of mechanical life. Only the Dark Mechanicum have mastered the complete fusion of metal and flesh, melding the inert and the animate together on a spiritual level in order to form something far greater than mere cybernetics. Because of their Chaos-born powers, Obliterators are capable of not only absorbing weaponry into themselves, but also of manifesting munitions from their titanium-laced flesh."/> -->
+	<entry name="tzeguard/PrimarisPsyker" value="Rogue Psyker"/>
+	<entry name="tzeguard/PrimarisPsykerDescription" value="Hero unit with destructive psychic powers."/>
+	<entry name="tzeguard/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+<!--	<entry name="tzeguard/Psychneuein" value="Psychneuein"/>
+	<entry name="tzeguard/PsychneueinDescription" value="Airborne elusive warp unit that infests its victims."/>
+	<entry name="tzeguard/PsychneueinFlavor" value="A rare Warp-sensitive creature apparently native to Prospero, the Psychneuein seems capable of travel through the Old One's Webways, meaning they're widely distributed around the galaxy. Parallel evolution has resulted in a wasp-like appearance, but a mature adult's significant strength, speed, toughness and rumoured ability to turn insubstantial at will makes them a threat to any sentient being."/> -->
+<!--	<entry name="tzeguard/Ratling" value="Renegade Ratlings"/>
+	<entry name="tzeguard/Ratling" value="Renegade Ratlings"/>
+	<entry name="tzeguard/RatlingDescription" value="Sniper infantry unit that can move after shooting."/>
+	<entry name="tzeguard/RatlingFlavor" value="<string name='Units/AstraMilitarum/RatlingFlavor'/>"/> -->
+	<entry name="tzeguard/RogalDornBattleTank" value="Renegade Rogal Dorn"/>
+	<entry name="tzeguard/RogalDornBattleTankDescription" value="Heavily armoured battle tank fitted with powerful weapons."/>
+	<entry name="tzeguard/RogalDornBattleTankFlavor" value="The Rogal Dorn Battle Tank is a lumbering behemoth, equally suited to anchoring a battle line, or grinding forward in support of an assault. Bristling with thunderous guns, these hulking armoured fighting vehicles pound breaches in enemy’s defences with enormous shells, and tear apart infantry with raucous storms of fire."/>
+	<entry name="tzeguard/ScoutSentinel" value="Renegade Scout Sentinels"/>
+	<entry name="tzeguard/ScoutSentinelDescription" value="Light armoured walker unit specialized in reconnaissance."/>
+	<entry name="tzeguard/ScoutSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The lighter-armoured Scout Sentinels, in particular, are used to range ahead of the main battle line, setting up brutal ambushes or launching pin-point raids."/>
+<!--	<entry name="tzeguard/TankCommander" value="Tank Commander"/>
+	<entry name="tzeguard/TankCommanderDescription" value="Tank hero unit with formidable strength that also boosts nearby allied tank units."/>
+	<entry name="tzeguard/TankCommanderFlavor" value="A Tank Commander rides to battle in the cupola of a mighty Leman Russ battle tank. These grizzled men are virtually one with their machine, possessing an implicit knowledge of armoured warfare in all its forms. The average Tank Commander is a steely eyed ace, heading up a crew of the very best their regiment has to offer."/> -->
+	<entry name="tzeguard/TechpriestBetrayer" value="Heretek"/>
+	<entry name="tzeguard/TechpriestBetrayerDescription" value="A renegade hero with powerful support and abilities."/>
+	<entry name="tzeguard/TechpriestBetrayerFlavor" value="A Heretek is a member of the Adeptus Mechanicus who has strayed from its strictures and dictates, and betrayed the Cult Mechanicus by, for instance, weakening the Adeptus' stranglehold on the knowledge of the Imperium's technology, or embracing individual experimentation and innovation."/>
+<!--	<entry name="tzeguard/TechpriestEnginseer" value="Heretek"/>
+	<entry name="tzeguard/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles and founds new cities."/>
+	<entry name="tzeguard/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/> -->
+	<entry name="tzeguard/TempestusScion" value="Renegade Scions"/>
+	<entry name="tzeguard/TempestusScionDescription" value="Elite shock infantry unit."/>
+	<entry name="tzeguard/TempestusScionFlavor" value="Renegade Militarum Tempestus Scions."/>
+	<entry name="tzeguard/Thunderbolt" value="Thunderbolt"/>
+	<entry name="tzeguard/ThunderboltDescription" value="Fast and heavy fighter unit."/>
+	<entry name="tzeguard/ThunderboltFlavor" value="A heavy fighter that combines devastating strike potential with graceful speed and manoeuvrability, the Thunderbolt forms the bulk of the Imperial Navy's intra-atmosphere fighter aircraft. The Thunderbolt is a true workhorse, with a rugged and reliable design both venerated by its crews and respected by its enemies."/>
+<!--	<entry name="tzeguard/Umbra" value="Umbra"/>
+	<entry name="tzeguard/UmbraDescription" value="Terrifying flying monstrous creature that is vulnerable to light."/>
+	<entry name="tzeguard/UmbraFlavor" value="The Umbra are an alien species appearing as smooth black spheres that live in the void of space, often observed attracted to areas resonant of the warp such as starship hulls and warp engines or suspected entrances to the Aeldari Webway. They can manipulate and control shadows to form terrifying limbs of hooks, blades, teeth and other nightmarish shapes."/> -->
+	<entry name="tzeguard/Valkyrie" value="Valkyrie"/>
+	<entry name="tzeguard/ValkyrieDescription" value="Versatile airborne transport unit."/>
+	<entry name="tzeguard/ValkyrieFlavor" value="The Valkyrie Assault Carrier is a well-armed, twin-engine attack craft. The durable armour and versatile payload of the Valkyrie chassis combine with the aircraft's powerful engines and stable handling to make it a popular choice for a broad spectrum of battlefield roles."/>
+<!--	<entry name="tzeguard/Venomcrawler" value="Venomcrawler"/>
+	<entry name="tzeguard/VenomcrawlerDescription" value="Terrifying walker unit that consumes the souls of its enemies to restore its hitpoints."/>
+	<entry name="tzeguard/VenomcrawlerFlavor" value="Pounding forwards upon bladed limbs come the horrors known as Venomcrawlers. Grotesque amalgams of metal, flesh and daemonic entities, these monstrosities hiss and snarl as they scuttle towards their prey. Fleshy tongues flap from snarling maws and soulflayer tendrils lash back and forth, all tasting the air for the scent of their enemies' fear. As the Venomcrawlers continue to butcher, their fanged mouths gape ever wider, drawing the souls of those slain into their vast mechanical abdomens."/>
+	<entry name="tzeguard/VoidShieldGenerator" value="Void Shield Generator"/>
+	<entry name="tzeguard/VoidShieldGeneratorDescription" value="Fortification that shields units in range."/>
+	<entry name="tzeguard/VoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/>
+	<entry name="tzeguard/WarpTalon" value="Warp Talons"/>
+	<entry name="tzeguard/WarpTalonDescription" value="Melee infantry unit that can warp across difficult terrain and blind unsuspecting enemies."/>
+	<entry name="tzeguard/WarpTalonFlavor" value="When a pack of Warp Talons emerges from the warp, it appears to those on the battlefield below as if daemonic warriors have burst out from nothingness into fiery, vengeful life. Like the stuff of nightmares, they plummet downwards in an explosion of warp fire, tearing into the foe with murderous intent."/>
+	<entry name="tzeguard/Warpsmith" value="Warpsmith"/>
+	<entry name="tzeguard/WarpsmithDescription" value="Hero unit that supports vehicles and boosts the economy."/>
+	<entry name="tzeguard/WarpsmithFlavor" value="Warpsmiths are the masters of the machine. Most can trace their origins back to the priesthood of Mars, whether through the schisms of the Magi or the rigid doctrine of the Techmarines. However, where the Adeptus Mechanicus regard technology as sacrosanct, the Warpsmiths seek to subjugate and control it."/>
+	<entry name="tzeguard/WyrdvanePsyker" value="Wyrdvane Psykers"/>
+	<entry name="tzeguard/WyrdvanePsykerDescription" value="Psyker unit that specializes in debuffs."/>
+	<entry name="tzeguard/WyrdvanePsykerFlavor" value="Wyrdvane Psykers transform the howling might of the Warp into a deadly weapon of Imperial supremacy. They are formed from those Scholastica Psykana inductees not able to control their burgeoning powers without guidance and aid. As individuals, such psykers are unpredictable and unsafe. Yet working in concert, these deadly mutants can be a valuable asset."/> -->
+</language>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="3" icon="Units/nurgleguard/Chimera" dlc="Supplement6">
+	<requiredUpgrades>
+		<upgrade name="nurgleguard/Vehicles"/>
+	</requiredUpgrades>
+</upgrade>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="4" icon="Actions/ChaosSpaceMarines/IconOfWrath">
+	<requiredUpgrades>
+		<upgrade name="khorneguard/Infantry"/>
+	</requiredUpgrades>
+</upgrade>

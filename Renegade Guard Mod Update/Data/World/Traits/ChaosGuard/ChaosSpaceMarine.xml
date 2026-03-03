@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/ChaosGuard/Possession">
+	<modifiers>
+	<modifier requiredUpgrade="ChaosGuard/ChaosDevotion2">
+			<effects>
+				<influenceUpkeep mul="-0.05"/>
+			</effects>
+		</modifier>
+	<modifier requiredUpgrade="ChaosGuard/ChaosDevotion3">
+			<effects>
+				<influenceUpkeep mul="-0.10"/>
+			</effects>
+		</modifier>
+	<modifier requiredUpgrade="ChaosGuard/ChaosDevotion4">
+			<effects>
+				<influenceUpkeep mul="-0.15"/>
+			</effects>
+		</modifier>
+
+	</modifiers>
+</trait>

@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+
+	<!------------------------------------------------------------------------------------>
+	<!------------------ |       Name Factions      |      S E A R C H     | ------------->
+	<!------------------------------------------------------------------------------------>
+	<!------------------ | Blackbloods of Malice    | Faction_LostGuard    | ------------->
+	<!------------------ | Gathalamor 24th Regiment | Faction_khorneguard  | ------------->
+	<!------------------ | Gladius Renegade Militia | Faction_traitorguard | ------------->
+	<!------------------ | Hazakh Plaguetakers      | Faction_nurgleguard  | ------------->
+	<!------------------ | Kardone Changeseekers    | Faction_tzeguard     | ------------->
+	<!------------------ | Renegade Imperial Guard  | Faction_ChaosGuard   | ------------->
+	<!------------------ | Vanitine Hedonites       | Faction_slaguard     | ------------->
+	<!------------------------------------------------------------------------------------>
+
+	<!---- Faction_ChaosGuard_Error_1     ----->
+	<!---- Faction_ChaosGuard_Error_2     ----->
+	<!---- Faction_ChaosGuard_khorneguard ----->
+	<!---- Faction_khorneguard_Error      ----->
+	<!---- Faction_nurgleguard_Error      ----->
+	<!---- Faction_slaguard_error         ----->
+	<!---- Faction_traitorguard_error     ----->
+	<!---- Faction_tzeguard_error         ----->
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Renegade Imperial Guard (Faction_ChaosGuard) ------------>
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="ChaosGuard/ArcaneOcculum" value="Arcane Occulum"/>
+	<entry name="ChaosGuard/ArcaneOcculumDescription" value="Boon of Chaos that increases the accuracy."/>
+	<entry name="ChaosGuard/ArcaneOcculumFlavor" value="A blood-shot eye pushes through the flesh."/>
+	<entry name="ChaosGuard/BlastDamage" value="Daemonbone Casings"/>
+	<entry name="ChaosGuard/BlastDamage" value="Improved Frag Casings"/>
+	<entry name="ChaosGuard/BlastDamageDescription" value="Increases the armour penetration."/>
+	<entry name="ChaosGuard/BlastDamageFlavor" value="By using a more advanced engraving protocol on the casing, the lethality of explosive is much improved."/>
+	<entry name="ChaosGuard/BlastDamageFlavor" value="The Warpsmiths may have only trapped minor horrors in the casings of these explosive shells, but their rage at the point of impact isn’t minor—as they shatter and return to the warp, they rage and snatch at anything nearby."/>
+	<entry name="ChaosGuard/Bloated" value="Bloated"/>
+	<entry name="ChaosGuard/BloatedDescription" value="Restores hitpoints."/>
+	<entry name="ChaosGuard/BloatedFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+	<entry name="ChaosGuard/BloodForTheBloodGod" value="Blood for the Blood God"/>
+	<entry name="ChaosGuard/BloodForTheBloodGodDescription" value="Increases the attacks."/>
+	<entry name="ChaosGuard/BloodRage" value="Blood Rage"/>
+	<entry name="ChaosGuard/BloodRageDescription" value="Increases the melee attacks and movement."/>
+	<entry name="ChaosGuard/BloodRageFlavor" value="The Helbrute launches itself at nearby enemies, driving its cursed Dreadnought prison past its ancient safety limits into behaviour thoroughly daemonic."/> <!-- Hellbrute Crazed result. -->
+	<entry name="ChaosGuard/BoltDamage" value="Kraken Bolts"/>
+	<entry name="ChaosGuard/BoltDamage" value="Warpborne Bolts"/>
+	<entry name="ChaosGuard/BoltDamageDescription" value="Increases the armour penetration."/>
+	<entry name="ChaosGuard/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+	<entry name="ChaosGuard/BoltDamageFlavor" value="Bridging the promethium-powered Inferno Bolts of the Imperium and the psychically-powered Inferno Bolts of the Thousand Sons Traitor Legion, Warpborne Bolt skip through the Warp to unleash superheated chemical fire upon their targets."/>
+	<entry name="ChaosGuard/ChampionOfChaos" value="Champion of Chaos"/>
+	<entry name="ChaosGuard/ChampionOfChaosDescription" value="Killing an enemy unit may reward this unit with an unlocked Boon of Chaos or transform it into a Chaos Spawn or Daemon Prince."/>
+	<entry name="ChaosGuard/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
+
+	<entry name="ChaosGuard/ChaosDevotion" value="Chaos Devotion"/>
+	<entry name="ChaosGuard/ChaosDevotionDescription" value="Chaos gods devotion units upkeep penalty."/>
+	<entry name="ChaosGuard/ChaosDevotionFlavor" value=""/>
+	<entry name="ChaosGuard/ChaosDevotion2" value="Chaos Devotion II"/>
+	<entry name="ChaosGuard/ChaosDevotion2Description" value="2Increases devotion to Chaos gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="ChaosGuard/ChaosDevotion2Flavor" value=""/>
+	<entry name="ChaosGuard/ChaosDevotion3" value="Chaos Devotion III"/>
+	<entry name="ChaosGuard/ChaosDevotion3Description" value="3Increases devotion to Chaos gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="ChaosGuard/ChaosDevotion3Flavor" value=""/>
+	<entry name="ChaosGuard/ChaosDevotion4" value="Chaos Devotion IV"/>
+	<entry name="ChaosGuard/ChaosDevotion4Description" value="4Increases devotion to Chaos gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="ChaosGuard/ChaosDevotion4Flavor" value=""/>
+	<entry name="ChaosGuard/ChaosSpaceMarine" value="Chaos Devotion"/>
+	<entry name="ChaosGuard/ChaosSpaceMarineDescription" value="1Reduces chaos units upkeep."/>
+	<entry name="ChaosGuard/CityTier2" value="Call of the Dark Gods"/>
+	<entry name="ChaosGuard/CityTier2" value="Substructure Extension"/>
+	<entry name="ChaosGuard/CityTier2Description" value="Increases the tile acquisition radius."/>
+	<entry name="ChaosGuard/CityTier2Flavor" value="One day, this will be a Hive City—a billion people in one structure, towering over a poisoned world—but first, this settlement needs to expand a little, to set the foundations for the galaxies' biggest conurbations."/>
+	<entry name="ChaosGuard/CityTier2Flavor" value="The people of the Imperium will listen to any lies, believe any tale, which tells them that they’re not doomed. That way, sadly, lies perdition, and the gates of Chaos stand wide open to the lost and the damned—at least, on the way in."/>
+	<entry name="ChaosGuard/CityTier3" value="Nexus of Doom"/>
+	<entry name="ChaosGuard/CityTier3" value="Substructure Supply Tunnels"/>
+	<entry name="ChaosGuard/CityTier3Description" value="Increases the tile acquisition radius."/>
+	<entry name="ChaosGuard/CityTier3Flavor" value="The Departmento Munitorum might be inefficient, but they can plan and the Techpriest Explorators and Servitors can build. These bunkered tunnels allow the Astra Militarum commander to oversee a much larger city area, without losing defensive control."/>
+	<entry name="ChaosGuard/CityTier3Flavor" value="The worshippers of Chaos have shed their pretences. Where before they drew souls to them by their weaknesses or by daemon seduction, now they do it by whips and chains. Packs of slavers and warbands hunt their city’s hinterland for lives to sacrifice. Only the strongest can escape their reach; the weak are grist to the mill for Chaos."/>
+	<entry name="ChaosGuard/Corrupted" value="Corrupted by Chaos"/>
+	<entry name="ChaosGuard/CorruptedDescription" value="Kill Chaos Lord to free the unit."/>
+	<entry name="ChaosGuard/Crazed" value="Crazed"/>
+	<entry name="ChaosGuard/CrazedDescription" value="If the unit was damaged in the previous turn, it gains one of the following traits at random for one turn: Fire Frenzy, Rising Fury, Blood Rage."/>
+	<entry name="ChaosGuard/CrazedFlavor" value="All Helbrutes are psychotic and dangerous monstrosities—a veteran of the Long War driven insane by tortured entombment. So attacking a Helbrute might seem rational, but if you fail to destroy it outright, you will only make it angrier and crazier."/> <!-- Hellbrute. -->
+	<entry name="ChaosGuard/CrystallineBody" value="Crystalline Body"/>
+	<entry name="ChaosGuard/CrystallineBodyDescription" value="Boon of Chaos that increases the hitpoints."/>
+	<entry name="ChaosGuard/CrystallineBodyFlavor" value="The champion's flesh changes to diamond."/>
+	<entry name="ChaosGuard/CultistSacrifice" value="<string name='Actions/ChaosGuard/CultistSacrifice'/>"/>
+	<entry name="ChaosGuard/CultistSacrificeDescription" value="Increases the growth rate."/>
+	<entry name="ChaosGuard/CultistSacrificeFlavor" value="<string name='Actions/ChaosGuard/CultistSacrificeFlavor'/>"/>
+	<entry name="ChaosGuard/Daemonforge" value="<string name='Actions/ChaosGuard/Daemonforge'/>"/>
+	<entry name="ChaosGuard/DaemonforgeDescription" value="Increases the damage and armour penetration."/>
+	<entry name="ChaosGuard/DaemonforgeFlavor" value="<string name='Actions/ChaosGuard/DaemonforgeFlavor'/>"/>
+	<entry name="ChaosGuard/DarkGlory" value="<string name='Actions/ChaosGuard/DarkGlory'/>"/>
+	<entry name="ChaosGuard/DarkGloryDescription" value="<string name='Actions/ChaosGuard/DarkGloryDescription'/>"/>
+	<entry name="ChaosGuard/DarkGloryFlavor" value="<string name='Actions/ChaosGuard/DarkGloryFlavor'/>"/>
+	<entry name="ChaosGuard/DevourerOfSouls" value="Devourer of Souls"/>
+	<entry name="ChaosGuard/DevourerOfSoulsDescription" value="Restores hitpoints each turn and each time this unit kills an enemy unit."/>
+	<entry name="ChaosGuard/DevourerOfSoulsFlavor" value="Venomcrawlers are perhaps the most sophisticated works of the Warpsmith, spider-like Daemon Engines that crave empyric energy and will consume other daemonic entities to get it—or even the living."/> <!-- Venomcrawler -->
+	<entry name="ChaosGuard/DirgeCaster" value="<string name='Actions/ChaosGuard/DirgeCaster'/>"/>
+	<entry name="ChaosGuard/DirgeCasterDescription" value="Prevents the unit from doing overwatch attacks."/>
+	<entry name="ChaosGuard/DirgeCasterFlavor" value="<string name='Actions/ChaosGuard/DirgeCasterFlavor'/>"/>
+	<entry name="ChaosGuard/FireFrenzy" value="Fire Frenzy"/>
+	<entry name="ChaosGuard/FireFrenzyDescription" value="Prevents movement and increases the ranged attacks."/>
+	<entry name="ChaosGuard/FireFrenzyFlavor" value="In response to the pitiful fire of mortals, the Hellbrute unloads its weapons relentlessly, blind to anything but the deafening roar of its daemonic ammunition."/> <!-- Hellbrute Crazed result. -->
+	<entry name="ChaosGuard/GiftOfMutation" value="Gift of Mutation"/>
+	<entry name="ChaosGuard/GiftOfMutationDescription" value="At the start of the next turn, the unit gains a new random unlocked Boon of Chaos and this trait ends."/>
+	<entry name="ChaosGuard/GiftOfMutationFlavor" value="The Dark Gods have granted their champion a malign reward, which is as likely to be a razor-sharp appendage as it is to be an inconveniently placed tongue."/>
+	<entry name="ChaosGuard/GraspingPseudopods" value="Grasping Pseudopods"/>
+	<entry name="ChaosGuard/GraspingPseudopodsDescription" value="Increases the melee attacks."/>
+	<entry name="ChaosGuard/GraspingPseudopodsFlavor" value="From the spawn’s twisting form come meaty tentacles, flailing and gibbering at nearby opponents. Come too close and they reflexively wrap themselves around a target, drawing it to whatever maws and teeth the spawn currently has."/> <!-- MutatedBeyondReason result. -->
+	<entry name="ChaosGuard/IchorBlood" value="<string name='Actions/ChaosGuard/IchorBlood'/>"/>
+	<entry name="ChaosGuard/IchorBloodDescription" value="<string name='Actions/ChaosGuard/IchorBloodDescription'/>"/>
+	<entry name="ChaosGuard/IchorBloodFlavor" value="<string name='Actions/ChaosGuard/IchorBloodFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfDespair" value="<string name='Actions/ChaosGuard/IconOfDespair'/>"/>
+	<entry name="ChaosGuard/IconOfDespairDescription" value="Increases the melee damage reduction when attacked by fearful enemies."/>
+	<entry name="ChaosGuard/IconOfDespairFlavor" value="<string name='Actions/ChaosGuard/IconOfDespairFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfExcess" value="<string name='Actions/ChaosGuard/IconOfExcess'/>"/>
+	<entry name="ChaosGuard/IconOfExcessDescription" value="Increases the damage reduction."/>
+	<entry name="ChaosGuard/IconOfExcessFlavor" value="<string name='Actions/ChaosGuard/IconOfExcessFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfWrath" value="<string name='Actions/ChaosGuard/IconOfWrath'/>"/>
+	<entry name="ChaosGuard/IconOfWrathDescription" value="Increases the damage."/>
+	<entry name="ChaosGuard/IconOfWrathFlavor" value="<string name='Actions/ChaosGuard/IconOfWrathFlavor'/>"/>
+	<entry name="ChaosGuard/InfantryUpkeep" value="Hopelessly Devoted"/>
+	<entry name="ChaosGuard/InfantryUpkeepDescription" value="Higher unit upkeep based on devotion to Chaos Gods"/>
+	<entry name="ChaosGuard/InfantryUpkeepFlavor" value=" Imperial Guard betrayed the Emperor. They must now devote themselves entirely to the Chaos Gods."/>
+	<entry name="ChaosGuard/InfernalIndustry" value="<string name='Actions/ChaosGuard/InfernalIndustry'/>"/>
+	<entry name="ChaosGuard/InfernalIndustryDescription" value="<string name='Actions/ChaosGuard/InfernalIndustryDescription'/>"/>
+	<entry name="ChaosGuard/InfernalIndustryFlavor" value="<string name='Actions/ChaosGuard/InfernalIndustryFlavor'/>"/>
+	<entry name="ChaosGuard/InfernalPower" value="<string name='Actions/ChaosGuard/InfernalPower'/>"/>
+	<entry name="ChaosGuard/InfernalPowerDescription" value="Increases the accuracy and damage."/>
+	<entry name="ChaosGuard/InfernalPowerFlavor" value="<string name='Actions/ChaosGuard/InfernalPowerFlavor'/>"/>
+	<entry name="ChaosGuard/Khorne" value="Khorne favor"/>
+	<entry name="ChaosGuard/KhorneDescription" value="Increase Mark of Khorne effect."/>
+	<entry name="ChaosGuard/KhorneFlavor" value="...Skulls for the Skull Throne"/>
+	<entry name="ChaosGuard/LasDamage" value="Forbidden Energies"/>
+	<entry name="ChaosGuard/LasDamage" value="Hotshot Power Packs"/>
+	<entry name="ChaosGuard/LasDamageDescription" value="Increases the armour penetration."/>
+	<entry name="ChaosGuard/LasDamageFlavor" value="Going beyond the Imperium’s proscribed technologies has allowed the Dark Mechanicum to unlock more lethal and more horrifying weapon capabilities."/>
+	<entry name="ChaosGuard/LasDamageFlavor" value="These superior modular packs convert the standard lasgun into a 'Hellgun', with improved range and power, but reduced power pack capacity and degraded reliability, requiring constant maintenance. Even units that already have dedicated Hotshot lasguns benefit from more reliable Hotshot power pack supplies."/>
+	<entry name="ChaosGuard/LasherTendrils" value="<string name='Actions/ChaosGuard/LasherTendrils'/>"/>
+	<entry name="ChaosGuard/LasherTendrilsDescription" value="Decreases the melee attacks."/>
+	<entry name="ChaosGuard/LasherTendrilsFlavor" value="<string name='Actions/ChaosGuard/LasherTendrilsFlavor'/>"/>
+	<entry name="ChaosGuard/Limite2" value="Chaos Devotion"/>
+	<entry name="ChaosGuard/Limite2Description" value="Increase Chaos devotion to recrut more Chaos units."/>
+	<entry name="ChaosGuard/LoathsomeAura" value="<string name='Actions/ChaosGuard/LoathsomeAura'/>"/>
+	<entry name="ChaosGuard/LoathsomeAuraDescription" value="Increases the invulnerable damage reduction."/>
+	<entry name="ChaosGuard/LoathsomeAuraFlavor" value="<string name='Actions/ChaosGuard/LoathsomeAuraFlavor'/>"/>
+	<entry name="ChaosGuard/MalevolentLocus" value="<string name='Actions/ChaosGuard/MalevolentLocus'/>"/>
+	<entry name="ChaosGuard/MalevolentLocusDescription" value="Deals damage each turn."/>
+	<entry name="ChaosGuard/MalevolentLocusFlavor" value="<string name='Actions/ChaosGuard/MalevolentLocusFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfKhorne" value="<string name='Actions/ChaosGuard/MarkOfKhorne'/>"/>
+	<entry name="ChaosGuard/MarkOfKhorneDescription" value="Increases the attacks."/>
+	<entry name="ChaosGuard/MarkOfKhorneFlavor" value="<string name='Actions/ChaosGuard/MarkOfKhorneFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfNurgle" value="<string name='Actions/ChaosGuard/MarkOfNurgle'/>"/>
+	<entry name="ChaosGuard/MarkOfNurgleDescription" value="Increases the hitpoints."/>
+	<entry name="ChaosGuard/MarkOfNurgleFlavor" value="<string name='Actions/ChaosGuard/MarkOfNurgleFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfSlaanesh" value="<string name='Actions/ChaosGuard/MarkOfSlaanesh'/>"/>
+	<entry name="ChaosGuard/MarkOfSlaaneshDescription" value="Increases the movement."/>
+	<entry name="ChaosGuard/MarkOfSlaaneshFlavor" value="<string name='Actions/ChaosGuard/MarkOfSlaaneshFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfTzeentch" value="<string name='Actions/ChaosGuard/MarkOfTzeentch'/>"/>
+	<entry name="ChaosGuard/MarkOfTzeentchDescription" value="Increases the damage reduction."/>
+	<entry name="ChaosGuard/MarkOfTzeentchFlavor" value="<string name='Actions/ChaosGuard/MarkOfTzeentchFlavor'/>"/>
+	<entry name="ChaosGuard/Mechanoid" value="Mechanoid"/>
+	<entry name="ChaosGuard/MechanoidDescription" value="Boon of Chaos that increases the armour."/>
+	<entry name="ChaosGuard/MechanoidFlavor" value="The champion's flesh bonds with his armour."/>
+	<entry name="ChaosGuard/MeleeDamage" value="Conjoined Weaponry"/>
+	<entry name="ChaosGuard/MeleeDamageDescription" value="Increases the armour penetration."/>
+	<entry name="ChaosGuard/MeleeDamageFlavor" value="It’s normal for soldiers to grow close to a trusted weapon—but the marines of the Traitor Legions have gone further. Over the centuries, the troops of the Adeptus Astartes have literally grown into their weaponry, becoming one with their guns and blades, exponentially increasing their effectiveness."/>
+	<entry name="ChaosGuard/MightMakesRight" value="Blood for the blood god"/>
+	<entry name="ChaosGuard/MightMakesRightDescription" value="Grants Dark Gods favor when attacking."/>
+	<entry name="ChaosGuard/MightMakesRightFlavor" value="Fight for the Dark Gods !"/>
+	<entry name="ChaosGuard/MindControl" value="Corrupted by Chaos Lord"/>
+	<entry name="ChaosGuard/MindControlDescription" value="Reduces the morale each turn."/>
+	<entry name="ChaosGuard/MutatedBeyondReason" value="Mutated Beyond Reason"/>
+	<entry name="ChaosGuard/MutatedBeyondReasonDescription" value="At the start of each turn, the unit gains one of the following random mutations for one turn: Grasping Pseudopods, Subcutaneous Armour, Toxic Haemorrhage."/>
+	<entry name="ChaosGuard/MutatedBeyondReasonFlavor" value="When they fall from their god’s favour, Chaos worshippers are blessed and cursed in equal measure, turning into the foul Chaos Spawn—writhing masses of mutation, endlessly sprouting new features at their god’s whim."/>
+	<entry name="ChaosGuard/Nurgle" value="Nurgle favor"/>
+	<entry name="ChaosGuard/NurgleDescription" value="Increase Mark of Nurgle effect."/>
+	<entry name="ChaosGuard/NurgleFlavor" value=""/>
+	<entry name="ChaosGuard/Possession" value="<string name='Actions/ChaosGuard/Possession'/>"/>
+	<entry name="ChaosGuard/PossessionDescription" value="<string name='Actions/ChaosGuard/PossessionDescription'/>"/>
+	<entry name="ChaosGuard/PossessionFlavor" value="<string name='Actions/ChaosGuard/PossessionFlavor'/>"/>
+	<entry name="ChaosGuard/PrinceOfChaos" value="<string name='Actions/ChaosGuard/PrinceOfChaos'/>"/>
+	<entry name="ChaosGuard/PrinceOfChaosDescription" value="Increases the accuracy."/>
+	<entry name="ChaosGuard/PrinceOfChaosFlavor" value="<string name='Actions/ChaosGuard/PrinceOfChaosFlavor'/>"/>
+	<entry name="ChaosGuard/ReservoirOfDaemonicEnergy" value="<string name='Actions/ChaosGuard/ReservoirOfDaemonicEnergy'/>"/>
+	<entry name="ChaosGuard/ReservoirOfDaemonicEnergyDescription" value="Reduces the cooldown of Incursion."/>
+	<entry name="ChaosGuard/ReservoirOfDaemonicEnergyFlavor" value="<string name='Actions/ChaosGuard/ReservoirOfDaemonicEnergyFlavor'/>"/>
+	<entry name="ChaosGuard/RisingFury" value="Rising Fury"/>
+	<entry name="ChaosGuard/RisingFuryDescription" value="Increases the melee attacks."/>
+	<entry name="ChaosGuard/RisingFuryFlavor" value="The Helbrute’s rage overtakes it, throwing it into a frenzy of blows against anything nearby."/> <!-- Hellbrute Crazed result. -->
+	<entry name="ChaosGuard/RiteOfBlood" value="<string name='Actions/ChaosGuard/RiteOfBlood'/>"/>
+	<entry name="ChaosGuard/RiteOfBloodDescription" value="Increases the production output."/>
+	<entry name="ChaosGuard/RiteOfBloodFlavor" value="<string name='Actions/ChaosGuard/RiteOfBloodFlavor'/>"/>
+	<entry name="ChaosGuard/RiteOfChange" value="<string name='Actions/ChaosGuard/RiteOfChange'/>"/>
+	<entry name="ChaosGuard/RiteOfChangeDescription" value="Increases the production and research output."/>
+	<entry name="ChaosGuard/RiteOfChangeFlavor" value="<string name='Actions/ChaosGuard/RiteOfChangeFlavor'/>"/>
+	<entry name="ChaosGuard/RiteOfPestilence" value="<string name='Actions/ChaosGuard/RiteOfPestilence'/>"/>
+	<entry name="ChaosGuard/RiteOfPestilenceDescription" value="Increases the food output and growth rate."/>
+	<entry name="ChaosGuard/RiteOfPestilenceFlavor" value="<string name='Actions/ChaosGuard/RiteOfPestilenceFlavor'/>"/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasure" value="<string name='Actions/ChaosGuard/RiteOfUnholyPleasure'/>"/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasureDescription" value="Increases the influence and loyalty output."/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasureFlavor" value="<string name='Actions/ChaosGuard/RiteOfUnholyPleasureFlavor'/>"/>
+	<entry name="ChaosGuard/Scavenger" value="Soul Harvester"/>
+	<entry name="ChaosGuard/ScavengerDescription" value="Grants ore when killing an enemy."/>
+	<entry name="ChaosGuard/ScavengerFlavor" value="Kill for the dark gods."/>
+	<entry name="ChaosGuard/ShatterDefences" value="<string name='Actions/ChaosGuard/ShatterDefences'/>"/>
+	<entry name="ChaosGuard/ShatterDefencesDescription" value="Reduces the ranged damage reduction."/>
+	<entry name="ChaosGuard/ShatterDefencesFlavor" value="<string name='Actions/ChaosGuard/ShatterDefencesFlavor'/>"/>
+	<entry name="ChaosGuard/SiegeCrawler" value="Siege Crawler"/>
+	<entry name="ChaosGuard/SiegeCrawlerDescription" value="Increases the armour penetration against fortifications."/>
+	<entry name="ChaosGuard/SiegeCrawlerFlavor" value="Maulerfiends lack ranged weapons of any kind, unusual for a vehicle of their size. Yet their agility and their various cutting weapons mean that they are a huge threat to static fortifications, able to explore them, find a weak spot, and exploit it."/> <!-- Maulerfiend. -->
+	<entry name="ChaosGuard/Slaanesh" value="Slaanesh favor"/>
+	<entry name="ChaosGuard/SlaaneshDescription" value="Increase Mark of Slaanesh effect."/>
+	<entry name="ChaosGuard/SlaaneshFlavor" value="More perversion..."/>
+	<entry name="ChaosGuard/SubcutaneousArmour" value="Subcutaneous Armour"/>
+	<entry name="ChaosGuard/SubcutaneousArmourDescription" value="Increases the armour."/>
+	<entry name="ChaosGuard/SubcutaneousArmourFlavor" value="Space Marine armour, even as old as that owned by the Traitor Legions, integrates with the unique Black Carapace interface of an Adeptus Astartes. But over the millenia, many Chaos Space Marines have become one with their armour, with the Black Carapace extending throughout their flesh and bones."/> <!-- MutatedBeyondReason result. -->
+	<entry name="ChaosGuard/TemporalDistortion" value="Temporal Distortion"/>
+	<entry name="ChaosGuard/TemporalDistortionDescription" value="Boon of Chaos that increases the movement."/>
+	<entry name="ChaosGuard/TemporalDistortionFlavor" value="Time is altered around the champion."/>
+	<entry name="ChaosGuard/ToxicHaemorrhage" value="Toxic Haemorrhage"/>
+	<entry name="ChaosGuard/ToxicHaemorrhageDescription" value="Increases the damage against infantry units."/>
+	<entry name="ChaosGuard/ToxicHaemorrhageFlavor" value="Spurting vile vapours and heinous fluids, the Chaos Spawn’s cursed innards could spell the death of a less-blessed creature."/> <!-- MutatedBeyondReason result. -->
+	<entry name="ChaosGuard/Tzeentch" value="Tzeentch favor"/>
+	<entry name="ChaosGuard/TzeentchDescription" value="Increase Mark of Tzeentch effect."/>
+	<entry name="ChaosGuard/TzeentchFlavor" value=""/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar" value="Veterans of the Long War"/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar2" value="Veterans of the Long War II"/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy against units of the Astra Militarum faction."/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar2Flavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="ChaosGuard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy against units of the Space Marines faction."/>
+	<entry name="ChaosGuard/VeteransOfTheLongWarFlavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="ChaosGuard/VoxCaster" value="Vox-Caster"/>
+	<entry name="ChaosGuard/VoxCasterDescription" value="Reduces the morale loss."/>
+	<entry name="ChaosGuard/VoxCasterFlavor" value="A vox-caster is a reliable communications array connected to the tactical command net via tight-beam transmitters."/>
+	<entry name="ChaosGuard/WarpFrenzy" value="Warp Frenzy"/>
+	<entry name="ChaosGuard/WarpFrenzyDescription" value="Boon of Chaos that increases the attacks."/>
+	<entry name="ChaosGuard/WarpFrenzyFlavor" value="The champion is consumed with anger."/>
+	<entry name="ChaosGuard/WorthyOffering" value="<string name='Actions/ChaosGuard/WorthyOffering'/>"/>
+	<entry name="ChaosGuard/WorthyOfferingDescription" value="<string name='Actions/ChaosGuard/WorthyOfferingDescription'/>"/>
+	<entry name="ChaosGuard/WorthyOfferingFlavor" value="<string name='Actions/ChaosGuard/WorthyOfferingFlavor'/>"/>
+
+	<!------------- (Faction_ChaosGuard_Error_1) --------------->
+<!--
+	<entry name="ChaosGuardAircraftProductionEdict" value="<string name='Actions/ChaosGuardAircraftProductionEdict'/>"/>
+	<entry name="ChaosGuardAircraftProductionEdictDescription" value="Increases the production output."/>
+	<entry name="ChaosGuardAircraftProductionEdictFlavor" value="<string name='Actions/ChaosGuardAircraftProductionEdictFlavor'/>"/>
+	<entry name="ChaosGuardDefenseEdict" value="<string name='Actions/ChaosGuardDefenseEdict'/>"/>
+	<entry name="ChaosGuardDefenseEdictDescription" value="Increases the armour."/>
+	<entry name="ChaosGuardDefenseEdictFlavor" value="<string name='Actions/ChaosGuardDefenseEdictFlavor'/>"/>
+	<entry name="ChaosGuardEnergyEdict" value="<string name='Actions/ChaosGuardEnergyEdict'/>"/>
+	<entry name="ChaosGuardEnergyEdictDescription" value="Increases the energy output."/>
+	<entry name="ChaosGuardEnergyEdictFlavor" value="<string name='Actions/ChaosGuardEnergyEdictFlavor'/>"/>
+	<entry name="ChaosGuardFoodEdict" value="<string name='Actions/ChaosGuardFoodEdict'/>"/>
+	<entry name="ChaosGuardFoodEdictDescription" value="Increases the food output."/>
+	<entry name="ChaosGuardFoodEdictFlavor" value="<string name='Actions/ChaosGuardFoodEdictFlavor'/>"/>
+	<entry name="ChaosGuardGrowthEdict" value="<string name='Actions/ChaosGuardGrowthEdict'/>"/>
+	<entry name="ChaosGuardGrowthEdictDescription" value="Increases the growth rate."/>
+	<entry name="ChaosGuardGrowthEdictFlavor" value="<string name='Actions/ChaosGuardGrowthEdictFlavor'/>"/>
+	<entry name="ChaosGuardInfantryProductionEdict" value="<string name='Actions/ChaosGuardInfantryProductionEdict'/>"/>
+	<entry name="ChaosGuardInfantryProductionEdictDescription" value="Increases the production output."/>
+	<entry name="ChaosGuardInfantryProductionEdictFlavor" value="<string name='Actions/ChaosGuardInfantryProductionEdictFlavor'/>"/>
+	<entry name="ChaosGuardInfluenceEdict" value="<string name='Actions/ChaosGuardInfluenceEdict'/>"/>
+	<entry name="ChaosGuardInfluenceEdictDescription" value="Increases the influence output."/>
+	<entry name="ChaosGuardInfluenceEdictFlavor" value="<string name='Actions/ChaosGuardInfluenceEdictFlavor'/>"/>
+	<entry name="ChaosGuardLoyaltyEdict" value="<string name='Actions/ChaosGuardLoyaltyEdict'/>"/>
+	<entry name="ChaosGuardLoyaltyEdictDescription" value="Increases the loyalty output."/>
+	<entry name="ChaosGuardLoyaltyEdictFlavor" value="<string name='Actions/ChaosGuardLoyaltyEdictFlavor'/>"/>
+	<entry name="ChaosGuardOreEdict" value="<string name='Actions/ChaosGuardOreEdict'/>"/>
+	<entry name="ChaosGuardOreEdictDescription" value="Increases the ore output."/>
+	<entry name="ChaosGuardOreEdictFlavor" value="<string name='Actions/ChaosGuardOreEdictFlavor'/>"/>
+	<entry name="ChaosGuardPsykerProductionEdict" value="<string name='Actions/ChaosGuardPsykerProductionEdict'/>"/>
+	<entry name="ChaosGuardPsykerProductionEdictDescription" value="Increases the production output."/>
+	<entry name="ChaosGuardPsykerProductionEdictFlavor" value="<string name='Actions/ChaosGuardPsykerProductionEdictFlavor'/>"/>
+	<entry name="ChaosGuardResearchEdict" value="<string name='Actions/ChaosGuardResearchEdict'/>"/>
+	<entry name="ChaosGuardResearchEdictDescription" value="Increases the research output."/>
+	<entry name="ChaosGuardResearchEdictFlavor" value="<string name='Actions/ChaosGuardResearchEdictFlavor'/>"/>
+	<entry name="ChaosGuardVehicleProductionEdict" value="<string name='Actions/ChaosGuardVehicleProductionEdict'/>"/>
+	<entry name="ChaosGuardVehicleProductionEdictDescription" value="Increases the production output."/>
+	<entry name="ChaosGuardVehicleProductionEdictFlavor" value="<string name='Actions/ChaosGuardVehicleProductionEdictFlavor'/>"/>
+-->
+
+	<!------- (Faction_ChaosGuard_Error_2) -------->
+<!--
+	<entry name="Orks/BlastDamage" value="<string name='Traits/ChaosGuard/BlastDamage'/>"/>
+	<entry name="Orks/BlastDamage" value="<string name='Traits/traitorguard/BlastDamage'/>"/>
+	<entry name="Orks/BlastDamageDescription" value="<string name='Traits/ChaosGuard/BlastDamageDescription'/>"/>
+	<entry name="Orks/BlastDamageDescription" value="<string name='Traits/traitorguard/BlastDamageDescription'/>"/>
+	<entry name="Orks/BlastDamageFlavor" value="<string name='Traits/ChaosGuard/BlastDamageFlavor'/>"/>
+	<entry name="Orks/BlastDamageFlavor" value="<string name='Traits/traitorguard/BlastDamageFlavor'/>"/>
+	<entry name="Orks/BoltDamageDescription" value="<string name='Traits/ChaosGuard/BoltDamageDescription'/>"/>
+	<entry name="Orks/BoltDamageDescription" value="<string name='Traits/traitorguard/BoltDamageDescription'/>"/>
+	<entry name="SpaceMarines/BlastDamage" value="<string name='Traits/ChaosGuard/BlastDamage'/>"/>
+	<entry name="SpaceMarines/BlastDamageDescription" value="<string name='Traits/ChaosGuard/BlastDamageDescription'/>"/>
+	<entry name="SpaceMarines/BlastDamageFlavor" value="<string name='Traits/ChaosGuard/BlastDamageFlavor'/>"/>
+	<entry name="SpaceMarines/BoltDamage" value="<string name='Traits/ChaosGuard/BoltDamage'/>"/>
+	<entry name="SpaceMarines/BoltDamageDescription" value="<string name='Traits/ChaosGuard/BoltDamageDescription'/>"/>
+	<entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/ChaosGuard/BoltDamageFlavor'/>"/>
+	<entry name="SpaceMarines/LasDamage" value="<string name='Traits/ChaosGuard/LasDamage'/>"/>
+	<entry name="SpaceMarines/LasDamageDescription" value="<string name='Traits/ChaosGuard/LasDamageDescription'/>"/>
+	<entry name="SpaceMarines/LasDamageFlavor" value="<string name='Traits/ChaosGuard/LasDamageFlavor'/>"/>
+	<entry name="VoidShieldFlavor" value="<string name='Actions/ChaosGuard/ProjectedVoidShieldFlavor'/>"/>
+	<entry name="VoidShieldFlavor" value="<string name='Actions/traitorguard/ProjectedVoidShieldFlavor'/>"/>
+-->
+	<!--------------------------------------------------------------------------------->
+	<!--------------------- Gathalamor 24th Regiment (Faction_khorneguard) ------------>
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="khorneguard/ArcaneOcculum" value="Arcane Occulum"/>
+	<entry name="khorneguard/ArcaneOcculumDescription" value="Boon of Chaos that increases the accuracy."/>
+	<entry name="khorneguard/ArcaneOcculumFlavor" value="A blood-shot eye pushes through the flesh."/>
+	<entry name="khorneguard/BlastDamage" value="Daemonbone Casings"/>
+	<entry name="khorneguard/BlastDamage" value="Improved Frag Casings"/>
+	<entry name="khorneguard/BlastDamageDescription" value="Increases the armour penetration."/>
+	<entry name="khorneguard/BlastDamageFlavor" value="By using a more advanced engraving protocol on the casing, the lethality of explosive is much improved."/>
+	<entry name="khorneguard/BlastDamageFlavor" value="The Warpsmiths may have only trapped minor horrors in the casings of these explosive shells, but their rage at the point of impact isn’t minor—as they shatter and return to the warp, they rage and snatch at anything nearby."/>
+	<entry name="khorneguard/Bloated" value="Bloated"/>
+	<entry name="khorneguard/BloatedDescription" value="Restores hitpoints."/>
+	<entry name="khorneguard/BloatedFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+	<entry name="khorneguard/Blood" value="Khorne Blood for the Blood "/>
+	<entry name="khorneguard/BloodDescription" value="Khorne description test."/>
+	<entry name="khorneguard/BloodFlavor" value="Khorne favor test."/>
+	<entry name="khorneguard/BloodForTheBloodGod" value="Blood for the Blood God"/>
+	<entry name="khorneguard/BloodForTheBloodGodDescription" value="Increases the attacks."/>
+	<entry name="khorneguard/BloodRage" value="Blood Rage"/>
+	<entry name="khorneguard/BloodRageDescription" value="Increases the melee attacks and movement."/>
+	<entry name="khorneguard/BloodRageFlavor" value="The Helbrute launches itself at nearby enemies, driving its cursed Dreadnought prison past its ancient safety limits into behaviour thoroughly daemonic."/> <!-- Hellbrute Crazed result. -->
+	<entry name="khorneguard/BoltDamage" value="Kraken Bolts"/>
+	<entry name="khorneguard/BoltDamage" value="Warpborne Bolts"/>
+	<entry name="khorneguard/BoltDamageDescription" value="Increases the armour penetration."/>
+	<entry name="khorneguard/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+	<entry name="khorneguard/BoltDamageFlavor" value="Bridging the promethium-powered Inferno Bolts of the Imperium and the psychically-powered Inferno Bolts of the Thousand Sons Traitor Legion, Warpborne Bolt skip through the Warp to unleash superheated chemical fire upon their targets."/>
+	<entry name="khorneguard/ChampionOfChaos" value="Champion of Chaos"/>
+	<entry name="khorneguard/ChampionOfChaosDescription" value="Killing an enemy unit may reward this unit with an unlocked Boon of Chaos or transform it into a Chaos Spawn or Daemon Prince."/>
+	<entry name="khorneguard/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
+	<entry name="khorneguard/ChaosDevotion" value="Chaos Devotion"/>
+	<entry name="khorneguard/ChaosDevotion2" value="Chaos Devotion II"/>
+	<entry name="khorneguard/ChaosDevotion2Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="khorneguard/ChaosDevotion2Flavor" value="."/>
+	<entry name="khorneguard/ChaosDevotion3" value="Chaos Devotion III"/>
+	<entry name="khorneguard/ChaosDevotion3Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="khorneguard/ChaosDevotion3Flavor" value="."/>
+	<entry name="khorneguard/ChaosDevotion4" value="Chaos Devotion IV"/>
+	<entry name="khorneguard/ChaosDevotion4Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="khorneguard/ChaosDevotion4Flavor" value="."/>
+	<entry name="khorneguard/ChaosDevotionDescription" value="Chaos Gods devotion units upkeep penalty."/>
+	<entry name="khorneguard/ChaosDevotionFlavor" value=""/>
+	<entry name="khorneguard/ChaosSpaceMarine" value="Chaos Devotion"/>
+	<entry name="khorneguard/ChaosSpaceMarineDescription" value="2Reduces chaos units upkeep."/>
+	<entry name="khorneguard/CityTier2" value="Call of the Dark Gods"/>
+	<entry name="khorneguard/CityTier2" value="Substructure Extension"/>
+	<entry name="khorneguard/CityTier2Description" value="Increases the tile acquisition radius."/>
+	<entry name="khorneguard/CityTier2Flavor" value="One day, this will be a Hive City—a billion people in one structure, towering over a poisoned world—but first, this settlement needs to expand a little, to set the foundations for the galaxies' biggest conurbations."/>
+	<entry name="khorneguard/CityTier2Flavor" value="The people of the Imperium will listen to any lies, believe any tale, which tells them that they’re not doomed. That way, sadly, lies perdition, and the gates of Chaos stand wide open to the lost and the damned—at least, on the way in."/>
+	<entry name="khorneguard/CityTier3" value="Nexus of Doom"/>
+	<entry name="khorneguard/CityTier3" value="Substructure Supply Tunnels"/>
+	<entry name="khorneguard/CityTier3Description" value="Increases the tile acquisition radius."/>
+	<entry name="khorneguard/CityTier3Flavor" value="The Departmento Munitorum might be inefficient, but they can plan and the Techpriest Explorators and Servitors can build. These bunkered tunnels allow the Astra Militarum commander to oversee a much larger city area, without losing defensive control."/>
+	<entry name="khorneguard/CityTier3Flavor" value="The worshippers of Chaos have shed their pretences. Where before they drew souls to them by their weaknesses or by daemon seduction, now they do it by whips and chains. Packs of slavers and warbands hunt their city’s hinterland for lives to sacrifice. Only the strongest can escape their reach; the weak are grist to the mill for Chaos."/>
+	<entry name="khorneguard/Corrupted" value="Corrupted by Chaos"/>
+	<entry name="khorneguard/CorruptedDescription" value="Kill Chaos Lord to free the unit."/>
+	<entry name="khorneguard/Crazed" value="Crazed"/>
+	<entry name="khorneguard/CrazedDescription" value="If the unit was damaged in the previous turn, it gains one of the following traits at random for one turn: Fire Frenzy, Rising Fury, Blood Rage."/>
+	<entry name="khorneguard/CrazedFlavor" value="All Helbrutes are psychotic and dangerous monstrosities—a veteran of the Long War driven insane by tortured entombment. So attacking a Helbrute might seem rational, but if you fail to destroy it outright, you will only make it angrier and crazier."/> <!-- Hellbrute. -->
+	<entry name="khorneguard/CrystallineBody" value="Crystalline Body"/>
+	<entry name="khorneguard/CrystallineBodyDescription" value="Boon of Chaos that increases the hitpoints."/>
+	<entry name="khorneguard/CrystallineBodyFlavor" value="The champion's flesh changes to diamond."/>
+	<entry name="khorneguard/CultistSacrifice" value="<string name='Actions/khorneguard/CultistSacrifice'/>"/>
+	<entry name="khorneguard/CultistSacrificeDescription" value="Increases the growth rate."/>
+	<entry name="khorneguard/CultistSacrificeFlavor" value="<string name='Actions/khorneguard/CultistSacrificeFlavor'/>"/>
+	<entry name="khorneguard/DevourerOfSouls" value="Devourer of Souls"/>
+	<entry name="khorneguard/DevourerOfSoulsDescription" value="Restores hitpoints each turn and each time this unit kills an enemy unit."/>
+	<entry name="khorneguard/DevourerOfSoulsFlavor" value="Venomcrawlers are perhaps the most sophisticated works of the Warpsmith, spider-like Daemon Engines that crave empyric energy and will consume other daemonic entities to get it—or even the living."/> <!-- Venomcrawler -->
+	<entry name="khorneguard/FireFrenzy" value="Fire Frenzy"/>
+	<entry name="khorneguard/FireFrenzyDescription" value="Prevents movement and increases the ranged attacks."/>
+	<entry name="khorneguard/FireFrenzyFlavor" value="In response to the pitiful fire of mortals, the Hellbrute unloads its weapons relentlessly, blind to anything but the deafening roar of its daemonic ammunition."/> <!-- Hellbrute Crazed result. -->
+	<entry name="khorneguard/GiftOfMutation" value="Gift of Mutation"/>
+	<entry name="khorneguard/GiftOfMutationDescription" value="At the start of the next turn, the unit gains a new random unlocked Boon of Chaos and this trait ends."/>
+	<entry name="khorneguard/GiftOfMutationFlavor" value="The Dark Gods have granted their champion a malign reward, which is as likely to be a razor-sharp appendage as it is to be an inconveniently placed tongue."/>
+	<entry name="khorneguard/GraspingPseudopods" value="Grasping Pseudopods"/>
+	<entry name="khorneguard/GraspingPseudopodsDescription" value="Increases the melee attacks."/>
+	<entry name="khorneguard/GraspingPseudopodsFlavor" value="From the spawn’s twisting form come meaty tentacles, flailing and gibbering at nearby opponents. Come too close and they reflexively wrap themselves around a target, drawing it to whatever maws and teeth the spawn currently has."/> <!-- MutatedBeyondReason result. -->
+	<entry name="khorneguard/IconOfWrath" value="<string name='Actions/khorneguard/IconOfWrath'/>"/>
+	<entry name="khorneguard/IconOfWrathDescription" value="Increases the damage."/>
+	<entry name="khorneguard/IconOfWrathFlavor" value="<string name='Actions/khorneguard/IconOfWrathFlavor'/>"/>
+	<entry name="khorneguard/InfantryUpkeep" value="Hopelessly Devoted"/>
+	<entry name="khorneguard/InfantryUpkeepDescription" value="Higher unit upkeep based on devotion to Chaos Gods"/>
+	<entry name="khorneguard/InfantryUpkeepFlavor" value=" Imperial Guard betrayed the Emperor. They must now devote themselves entirely to the Chaos Gods."/>
+	<entry name="khorneguard/LasDamage" value="Forbidden Energies"/>
+	<entry name="khorneguard/LasDamage" value="Hotshot Power Packs"/>
+	<entry name="khorneguard/LasDamageDescription" value="Increases the armour penetration."/>
+	<entry name="khorneguard/LasDamageFlavor" value="Going beyond the Imperium’s proscribed technologies has allowed the Dark Mechanicum to unlock more lethal and more horrifying weapon capabilities."/>
+	<entry name="khorneguard/LasDamageFlavor" value="These superior modular packs convert the standard lasgun into a 'Hellgun', with improved range and power, but reduced power pack capacity and degraded reliability, requiring constant maintenance. Even units that already have dedicated Hotshot lasguns benefit from more reliable Hotshot power pack supplies."/>
+	<entry name="khorneguard/Limite2" value="Chaos Devotion"/>
+	<entry name="khorneguard/Limite2Description" value="Increase Chaos devotion to recrut more Chaos units."/>
+	<entry name="khorneguard/Mechanoid" value="Mechanoid"/>
+	<entry name="khorneguard/MechanoidDescription" value="Boon of Chaos that increases the armour."/>
+	<entry name="khorneguard/MechanoidFlavor" value="The champion's flesh bonds with his armour."/>
+	<entry name="khorneguard/MeleeDamage" value="Conjoined Weaponry"/>
+	<entry name="khorneguard/MeleeDamageDescription" value="Increases the armour penetration."/>
+	<entry name="khorneguard/MeleeDamageFlavor" value="It’s normal for soldiers to grow close to a trusted weapon—but the marines of the Traitor Legions have gone further. Over the centuries, the troops of the Adeptus Astartes have literally grown into their weaponry, becoming one with their guns and blades, exponentially increasing their effectiveness."/>
+	<entry name="khorneguard/MightMakesRight" value="Blood for the blood god"/>
+	<entry name="khorneguard/MightMakesRightDescription" value="Grants Khorne favor when attacking."/>
+	<entry name="khorneguard/MightMakesRightFlavor" value="Fight for Khorne !"/>
+	<entry name="khorneguard/MindControl" value="Corrupted by Chaos Lord"/>
+	<entry name="khorneguard/MindControlDescription" value="Reduces the morale each turn."/>
+	<entry name="khorneguard/MutatedBeyondReason" value="Mutated Beyond Reason"/>
+	<entry name="khorneguard/MutatedBeyondReasonDescription" value="At the start of each turn, the unit gains one of the following random mutations for one turn: Grasping Pseudopods, Subcutaneous Armour, Toxic Haemorrhage."/>
+	<entry name="khorneguard/MutatedBeyondReasonFlavor" value="When they fall from their god’s favour, Chaos worshippers are blessed and cursed in equal measure, turning into the foul Chaos Spawn—writhing masses of mutation, endlessly sprouting new features at their god’s whim."/>
+	<entry name="khorneguard/RisingFury" value="Rising Fury"/>
+	<entry name="khorneguard/RisingFuryDescription" value="Increases the melee attacks."/>
+	<entry name="khorneguard/RisingFuryFlavor" value="The Helbrute’s rage overtakes it, throwing it into a frenzy of blows against anything nearby."/> <!-- Hellbrute Crazed result. -->
+	<entry name="khorneguard/RiteOfBlood" value="<string name='Actions/khorneguard/RiteOfBlood'/>"/>
+	<entry name="khorneguard/RiteOfBloodDescription" value="Increases the production output."/>
+	<entry name="khorneguard/RiteOfBloodFlavor" value="<string name='Actions/khorneguard/RiteOfBloodFlavor'/>"/>
+	<entry name="khorneguard/Scavenger" value="Soul Harvester"/>
+	<entry name="khorneguard/ScavengerDescription" value="Grants ore when killing an enemy."/>
+	<entry name="khorneguard/ScavengerFlavor" value="Kill for Khorne."/>
+	<entry name="khorneguard/SiegeCrawler" value="Siege Crawler"/>
+	<entry name="khorneguard/SiegeCrawlerDescription" value="Increases the armour penetration against fortifications."/>
+	<entry name="khorneguard/SiegeCrawlerFlavor" value="Maulerfiends lack ranged weapons of any kind, unusual for a vehicle of their size. Yet their agility and their various cutting weapons mean that they are a huge threat to static fortifications, able to explore them, find a weak spot, and exploit it."/> <!-- Maulerfiend. -->
+	<entry name="khorneguard/SubcutaneousArmour" value="Subcutaneous Armour"/>
+	<entry name="khorneguard/SubcutaneousArmourDescription" value="Increases the armour."/>
+	<entry name="khorneguard/SubcutaneousArmourFlavor" value="Space Marine armour, even as old as that owned by the Traitor Legions, integrates with the unique Black Carapace interface of an Adeptus Astartes. But over the millenia, many Chaos Space Marines have become one with their armour, with the Black Carapace extending throughout their flesh and bones."/> <!-- MutatedBeyondReason result. -->
+	<entry name="khorneguard/TemporalDistortion" value="Temporal Distortion"/>
+	<entry name="khorneguard/TemporalDistortionDescription" value="Boon of Chaos that increases the movement."/>
+	<entry name="khorneguard/TemporalDistortionFlavor" value="Time is altered around the champion."/>
+	<entry name="khorneguard/ToxicHaemorrhage" value="Toxic Haemorrhage"/>
+	<entry name="khorneguard/ToxicHaemorrhageDescription" value="Increases the damage against infantry units."/>
+	<entry name="khorneguard/ToxicHaemorrhageFlavor" value="Spurting vile vapours and heinous fluids, the Chaos Spawn’s cursed innards could spell the death of a less-blessed creature."/> <!-- MutatedBeyondReason result. -->
+	<entry name="khorneguard/VeteransOfTheLongWar" value="Veterans of the Long War"/>
+	<entry name="khorneguard/VeteransOfTheLongWar2" value="Veterans of the Long War II"/>
+	<entry name="khorneguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy against units of the Astra Militarum faction."/>
+	<entry name="khorneguard/VeteransOfTheLongWar2Flavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="khorneguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy against units of the Space Marines faction."/>
+	<entry name="khorneguard/VeteransOfTheLongWarFlavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="khorneguard/WarpFrenzy" value="Warp Frenzy"/>
+	<entry name="khorneguard/WarpFrenzyDescription" value="Boon of Chaos that increases the attacks."/>
+	<entry name="khorneguard/WarpFrenzyFlavor" value="The champion is consumed with anger."/>
+
+	<!---- Faction_khorneguard_Error ----->
+<!--
+	<entry name="khorneguardAircraftProductionEdict" value="<string name='Actions/khorneguardAircraftProductionEdict'/>"/>
+	<entry name="khorneguardAircraftProductionEdictDescription" value="Increases the production output."/>
+	<entry name="khorneguardAircraftProductionEdictFlavor" value="<string name='Actions/khorneguardAircraftProductionEdictFlavor'/>"/>
+	<entry name="khorneguardDefenseEdict" value="<string name='Actions/khorneguardDefenseEdict'/>"/>
+	<entry name="khorneguardDefenseEdictDescription" value="Increases the armour."/>
+	<entry name="khorneguardDefenseEdictFlavor" value="<string name='Actions/khorneguardDefenseEdictFlavor'/>"/>
+	<entry name="khorneguardEnergyEdict" value="<string name='Actions/khorneguardEnergyEdict'/>"/>
+	<entry name="khorneguardEnergyEdictDescription" value="Increases the energy output."/>
+	<entry name="khorneguardEnergyEdictFlavor" value="<string name='Actions/khorneguardEnergyEdictFlavor'/>"/>
+	<entry name="khorneguardFoodEdict" value="<string name='Actions/khorneguardFoodEdict'/>"/>
+	<entry name="khorneguardFoodEdictDescription" value="Increases the food output."/>
+	<entry name="khorneguardFoodEdictFlavor" value="<string name='Actions/khorneguardFoodEdictFlavor'/>"/>
+	<entry name="khorneguardGrowthEdict" value="<string name='Actions/khorneguardGrowthEdict'/>"/>
+	<entry name="khorneguardGrowthEdictDescription" value="Increases the growth rate."/>
+	<entry name="khorneguardGrowthEdictFlavor" value="<string name='Actions/khorneguardGrowthEdictFlavor'/>"/>
+	<entry name="khorneguardInfantryProductionEdict" value="<string name='Actions/khorneguardInfantryProductionEdict'/>"/>
+	<entry name="khorneguardInfantryProductionEdictDescription" value="Increases the production output."/>
+	<entry name="khorneguardInfantryProductionEdictFlavor" value="<string name='Actions/khorneguardInfantryProductionEdictFlavor'/>"/>
+	<entry name="khorneguardInfluenceEdict" value="<string name='Actions/khorneguardInfluenceEdict'/>"/>
+	<entry name="khorneguardInfluenceEdictDescription" value="Increases the influence output."/>
+	<entry name="khorneguardInfluenceEdictFlavor" value="<string name='Actions/khorneguardInfluenceEdictFlavor'/>"/>
+	<entry name="khorneguardLoyaltyEdict" value="<string name='Actions/khorneguardLoyaltyEdict'/>"/>
+	<entry name="khorneguardLoyaltyEdictDescription" value="Increases the loyalty output."/>
+	<entry name="khorneguardLoyaltyEdictFlavor" value="<string name='Actions/khorneguardLoyaltyEdictFlavor'/>"/>
+	<entry name="khorneguardOreEdict" value="<string name='Actions/khorneguardOreEdict'/>"/>
+	<entry name="khorneguardOreEdictDescription" value="Increases the ore output."/>
+	<entry name="khorneguardOreEdictFlavor" value="<string name='Actions/khorneguardOreEdictFlavor'/>"/>
+	<entry name="khorneguardPsykerProductionEdict" value="<string name='Actions/khorneguardPsykerProductionEdict'/>"/>
+	<entry name="khorneguardPsykerProductionEdictDescription" value="Increases the production output."/>
+	<entry name="khorneguardPsykerProductionEdictFlavor" value="<string name='Actions/khorneguardPsykerProductionEdictFlavor'/>"/>
+	<entry name="khorneguardResearchEdict" value="<string name='Actions/khorneguardResearchEdict'/>"/>
+	<entry name="khorneguardResearchEdictDescription" value="Increases the research output."/>
+	<entry name="khorneguardResearchEdictFlavor" value="<string name='Actions/khorneguardResearchEdictFlavor'/>"/>
+	<entry name="khorneguardVehicleProductionEdict" value="<string name='Actions/khorneguardVehicleProductionEdict'/>"/>
+	<entry name="khorneguardVehicleProductionEdictDescription" value="Increases the production output."/>
+	<entry name="khorneguardVehicleProductionEdictFlavor" value="<string name='Actions/khorneguardVehicleProductionEdictFlavor'/>"/>
+-->
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Hazakh Plaguetakers (Faction_nurgleguard) --------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="nurgleguard/ArcaneOcculum" value="Arcane Occulum"/>
+	<entry name="nurgleguard/ArcaneOcculumDescription" value="Boon of Chaos that increases the accuracy."/>
+	<entry name="nurgleguard/ArcaneOcculumFlavor" value="A blood-shot eye pushes through the flesh."/>
+	<entry name="nurgleguard/BlastDamage" value="Daemonbone Casings"/>
+	<entry name="nurgleguard/BlastDamage" value="Improved Frag Casings"/>
+	<entry name="nurgleguard/BlastDamageDescription" value="Increases the armour penetration."/>
+	<entry name="nurgleguard/BlastDamageFlavor" value="By using a more advanced engraving protocol on the casing, the lethality of explosive is much improved."/>
+	<entry name="nurgleguard/BlastDamageFlavor" value="The Warpsmiths may have only trapped minor horrors in the casings of these explosive shells, but their rage at the point of impact isn’t minor—as they shatter and return to the warp, they rage and snatch at anything nearby."/>
+	<entry name="nurgleguard/Bloated" value="Bloated"/>
+	<entry name="nurgleguard/BloatedDescription" value="Restores hitpoints."/>
+	<entry name="nurgleguard/BloatedFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+	<entry name="nurgleguard/BloodForTheBloodGod" value="Blood for the Blood God"/>
+	<entry name="nurgleguard/BloodForTheBloodGodDescription" value="Increases the attacks."/>
+	<entry name="nurgleguard/BloodRage" value="Blood Rage"/>
+	<entry name="nurgleguard/BloodRageDescription" value="Increases the melee attacks and movement."/>
+	<entry name="nurgleguard/BloodRageFlavor" value="The Helbrute launches itself at nearby enemies, driving its cursed Dreadnought prison past its ancient safety limits into behaviour thoroughly daemonic."/> <!-- Hellbrute Crazed result. -->
+	<entry name="nurgleguard/BoltDamage" value="Kraken Bolts"/>
+	<entry name="nurgleguard/BoltDamage" value="Warpborne Bolts"/>
+	<entry name="nurgleguard/BoltDamageDescription" value="Increases the armour penetration."/>
+	<entry name="nurgleguard/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+	<entry name="nurgleguard/BoltDamageFlavor" value="Bridging the promethium-powered Inferno Bolts of the Imperium and the psychically-powered Inferno Bolts of the Thousand Sons Traitor Legion, Warpborne Bolt skip through the Warp to unleash superheated chemical fire upon their targets."/>
+	<entry name="nurgleguard/ChampionOfChaos" value="Champion of Chaos"/>
+	<entry name="nurgleguard/ChampionOfChaosDescription" value="Killing an enemy unit may reward this unit with an unlocked Boon of Chaos or transform it into a Chaos Spawn or Daemon Prince."/>
+	<entry name="nurgleguard/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
+	<entry name="nurgleguard/ChaosDevotion" value="Chaos Devotion"/>
+	<entry name="nurgleguard/ChaosDevotion2" value="Chaos Devotion II"/>
+	<entry name="nurgleguard/ChaosDevotion2Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="nurgleguard/ChaosDevotion2Flavor" value="."/>
+	<entry name="nurgleguard/ChaosDevotion3" value="Chaos Devotion III"/>
+	<entry name="nurgleguard/ChaosDevotion3Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="nurgleguard/ChaosDevotion3Flavor" value="."/>
+	<entry name="nurgleguard/ChaosDevotion4" value="Chaos Devotion IV"/>
+	<entry name="nurgleguard/ChaosDevotion4Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="nurgleguard/ChaosDevotion4Flavor" value="."/>
+	<entry name="nurgleguard/ChaosDevotionDescription" value="Chaos Gods devotion units upkeep penalty."/>
+	<entry name="nurgleguard/ChaosDevotionFlavor" value=""/>
+	<entry name="nurgleguard/ChaosSpaceMarine" value="Chaos Devotion"/>
+	<entry name="nurgleguard/ChaosSpaceMarineDescription" value="3Reduces chaos units upkeep."/>
+	<entry name="nurgleguard/CityTier2" value="Call of the Dark Gods"/>
+	<entry name="nurgleguard/CityTier2" value="Substructure Extension"/>
+	<entry name="nurgleguard/CityTier2Description" value="Increases the tile acquisition radius."/>
+	<entry name="nurgleguard/CityTier2Flavor" value="One day, this will be a Hive City—a billion people in one structure, towering over a poisoned world—but first, this settlement needs to expand a little, to set the foundations for the galaxies' biggest conurbations."/>
+	<entry name="nurgleguard/CityTier2Flavor" value="The people of the Imperium will listen to any lies, believe any tale, which tells them that they’re not doomed. That way, sadly, lies perdition, and the gates of Chaos stand wide open to the lost and the damned—at least, on the way in."/>
+	<entry name="nurgleguard/CityTier3" value="Nexus of Doom"/>
+	<entry name="nurgleguard/CityTier3" value="Substructure Supply Tunnels"/>
+	<entry name="nurgleguard/CityTier3Description" value="Increases the tile acquisition radius."/>
+	<entry name="nurgleguard/CityTier3Flavor" value="The Departmento Munitorum might be inefficient, but they can plan and the Techpriest Explorators and Servitors can build. These bunkered tunnels allow the Astra Militarum commander to oversee a much larger city area, without losing defensive control."/>
+	<entry name="nurgleguard/CityTier3Flavor" value="The worshippers of Chaos have shed their pretences. Where before they drew souls to them by their weaknesses or by daemon seduction, now they do it by whips and chains. Packs of slavers and warbands hunt their city’s hinterland for lives to sacrifice. Only the strongest can escape their reach; the weak are grist to the mill for Chaos."/>
+	<entry name="nurgleguard/Corrupted" value="Corrupted by Chaos"/>
+	<entry name="nurgleguard/CorruptedDescription" value="Kill Chaos Lord to free the unit."/>
+	<entry name="nurgleguard/Crazed" value="Crazed"/>
+	<entry name="nurgleguard/CrazedDescription" value="If the unit was damaged in the previous turn, it gains one of the following traits at random for one turn: Fire Frenzy, Rising Fury, Blood Rage."/>
+	<entry name="nurgleguard/CrazedFlavor" value="All Helbrutes are psychotic and dangerous monstrosities—a veteran of the Long War driven insane by tortured entombment. So attacking a Helbrute might seem rational, but if you fail to destroy it outright, you will only make it angrier and crazier."/> <!-- Hellbrute. -->
+	<entry name="nurgleguard/CrystallineBody" value="Crystalline Body"/>
+	<entry name="nurgleguard/CrystallineBodyDescription" value="Boon of Chaos that increases the hitpoints."/>
+	<entry name="nurgleguard/CrystallineBodyFlavor" value="The champion's flesh changes to diamond."/>
+	<entry name="nurgleguard/CultistSacrifice" value="<string name='Actions/nurgleguard/CultistSacrifice'/>"/>
+	<entry name="nurgleguard/CultistSacrificeDescription" value="Increases the growth rate."/>
+	<entry name="nurgleguard/CultistSacrificeFlavor" value="<string name='Actions/nurgleguard/CultistSacrificeFlavor'/>"/>
+	<entry name="nurgleguard/DevourerOfSouls" value="Devourer of Souls"/>
+	<entry name="nurgleguard/DevourerOfSoulsDescription" value="Restores hitpoints each turn and each time this unit kills an enemy unit."/>
+	<entry name="nurgleguard/DevourerOfSoulsFlavor" value="Venomcrawlers are perhaps the most sophisticated works of the Warpsmith, spider-like Daemon Engines that crave empyric energy and will consume other daemonic entities to get it—or even the living."/> <!-- Venomcrawler -->
+	<entry name="nurgleguard/FireFrenzy" value="Fire Frenzy"/>
+	<entry name="nurgleguard/FireFrenzyDescription" value="Prevents movement and increases the ranged attacks."/>
+	<entry name="nurgleguard/FireFrenzyFlavor" value="In response to the pitiful fire of mortals, the Hellbrute unloads its weapons relentlessly, blind to anything but the deafening roar of its daemonic ammunition."/> <!-- Hellbrute Crazed result. -->
+	<entry name="nurgleguard/GiftOfMutation" value="Gift of Mutation"/>
+	<entry name="nurgleguard/GiftOfMutationDescription" value="At the start of the next turn, the unit gains a new random unlocked Boon of Chaos and this trait ends."/>
+	<entry name="nurgleguard/GiftOfMutationFlavor" value="The Dark Gods have granted their champion a malign reward, which is as likely to be a razor-sharp appendage as it is to be an inconveniently placed tongue."/>
+	<entry name="nurgleguard/GraspingPseudopods" value="Grasping Pseudopods"/>
+	<entry name="nurgleguard/GraspingPseudopodsDescription" value="Increases the melee attacks."/>
+	<entry name="nurgleguard/GraspingPseudopodsFlavor" value="From the spawn’s twisting form come meaty tentacles, flailing and gibbering at nearby opponents. Come too close and they reflexively wrap themselves around a target, drawing it to whatever maws and teeth the spawn currently has."/> <!-- MutatedBeyondReason result. -->
+	<entry name="nurgleguard/IconOfDespair" value="<string name='Actions/nurgleguard/IconOfDespair'/>"/>
+	<entry name="nurgleguard/IconOfDespairDescription" value="Increases the melee damage reduction when attacked by fearful enemies."/>
+	<entry name="nurgleguard/IconOfDespairFlavor" value="<string name='Actions/nurgleguard/IconOfDespairFlavor'/>"/>
+	<entry name="nurgleguard/InfantryUpkeep" value="Hopelessly Devoted"/>
+	<entry name="nurgleguard/InfantryUpkeepDescription" value="Higher unit upkeep based on devotion to Chaos Gods"/>
+	<entry name="nurgleguard/InfantryUpkeepFlavor" value=" Imperial Guard betrayed the Emperor. They must now devote themselves entirely to the Chaos Gods."/>
+	<entry name="nurgleguard/InfernalIndustry" value="<string name='Actions/nurgleguard/InfernalIndustry'/>"/>
+	<entry name="nurgleguard/InfernalIndustryDescription" value="<string name='Actions/nurgleguard/InfernalIndustryDescription'/>"/>
+	<entry name="nurgleguard/InfernalIndustryFlavor" value="<string name='Actions/nurgleguard/InfernalIndustryFlavor'/>"/>
+	<entry name="nurgleguard/InfernalPower" value="<string name='Actions/nurgleguard/InfernalPower'/>"/>
+	<entry name="nurgleguard/InfernalPowerDescription" value="Increases the accuracy and damage."/>
+	<entry name="nurgleguard/InfernalPowerFlavor" value="<string name='Actions/nurgleguard/InfernalPowerFlavor'/>"/>
+	<entry name="nurgleguard/LasDamage" value="Forbidden Energies"/>
+	<entry name="nurgleguard/LasDamage" value="Hotshot Power Packs"/>
+	<entry name="nurgleguard/LasDamageDescription" value="Increases the armour penetration."/>
+	<entry name="nurgleguard/LasDamageFlavor" value="Going beyond the Imperium’s proscribed technologies has allowed the Dark Mechanicum to unlock more lethal and more horrifying weapon capabilities."/>
+	<entry name="nurgleguard/LasDamageFlavor" value="These superior modular packs convert the standard lasgun into a 'Hellgun', with improved range and power, but reduced power pack capacity and degraded reliability, requiring constant maintenance. Even units that already have dedicated Hotshot lasguns benefit from more reliable Hotshot power pack supplies."/>
+	<entry name="nurgleguard/Limite2" value="Chaos Devotion"/>
+	<entry name="nurgleguard/Limite2Description" value="Increase Chaos devotion to recrut more Chaos units."/>
+	<entry name="nurgleguard/MarkOfNurgle" value="<string name='Actions/nurgleguard/MarkOfNurgle'/>"/>
+	<entry name="nurgleguard/MarkOfNurgleDescription" value="Increases the hitpoints."/>
+	<entry name="nurgleguard/MarkOfNurgleFlavor" value="<string name='Actions/nurgleguard/MarkOfNurgleFlavor'/>"/>
+	<entry name="nurgleguard/Mechanoid" value="Mechanoid"/>
+	<entry name="nurgleguard/MechanoidDescription" value="Boon of Chaos that increases the armour."/>
+	<entry name="nurgleguard/MechanoidFlavor" value="The champion's flesh bonds with his armour."/>
+	<entry name="nurgleguard/MeleeDamage" value="Conjoined Weaponry"/>
+	<entry name="nurgleguard/MeleeDamageDescription" value="Increases the armour penetration."/>
+	<entry name="nurgleguard/MeleeDamageFlavor" value="It’s normal for soldiers to grow close to a trusted weapon—but the marines of the Traitor Legions have gone further. Over the centuries, the troops of the Adeptus Astartes have literally grown into their weaponry, becoming one with their guns and blades, exponentially increasing their effectiveness."/>
+	<entry name="nurgleguard/MindControl" value="Corrupted by Chaos Lord"/>
+	<entry name="nurgleguard/MindControlDescription" value="Reduces the morale each turn."/>
+	<entry name="nurgleguard/MutatedBeyondReason" value="Mutated Beyond Reason"/>
+	<entry name="nurgleguard/MutatedBeyondReasonDescription" value="At the start of each turn, the unit gains one of the following random mutations for one turn: Grasping Pseudopods, Subcutaneous Armour, Toxic Haemorrhage."/>
+	<entry name="nurgleguard/MutatedBeyondReasonFlavor" value="When they fall from their god’s favour, Chaos worshippers are blessed and cursed in equal measure, turning into the foul Chaos Spawn—writhing masses of mutation, endlessly sprouting new features at their god’s whim."/>
+	<entry name="nurgleguard/Nurgle" value="Nurgle favor"/>
+	<entry name="nurgleguard/NurgleDescription" value="Increase Mark of Nurgle effect."/>
+	<entry name="nurgleguard/NurgleFlavor" value=""/>
+	<entry name="nurgleguard/Peste" value="Peste"/>
+	<entry name="nurgleguard/Peste2" value="Peste"/>
+	<entry name="nurgleguard/Peste2Description" value="Peste."/>
+	<entry name="nurgleguard/PesteDescription" value="Peste."/>
+	<entry name="nurgleguard/PlagueCurse" value="Plague Curse"/>
+	<entry name="nurgleguard/PlagueCurseDescription" value="Converts damage into healing for this unit."/>
+	<entry name="nurgleguard/PlagueCurseFlavor" value="The rictus grin adorning each Nurgle Warriors belies the torment their souls are in, trapped inside their mutated, dead bodies that fight on for Nurgle, infecting more innocents with the Walking Plague as they go."/>
+	<entry name="nurgleguard/PsychneueinInfest" value="Nurgle Rot Flies Infest"/>
+	<entry name="nurgleguard/PsychneueinInfestDescription" value="Causes the target unit to spawn a Nurgle Rot Flies when killed."/>
+	<entry name="nurgleguard/PsychneueinInfestation" value="Nurgle Rot Flies Infestation"/>
+	<entry name="nurgleguard/PsychneueinInfestationDescription" value="Spawns a Nurgle Rot Flies when dying."/>
+	<entry name="nurgleguard/RisingFury" value="Rising Fury"/>
+	<entry name="nurgleguard/RisingFuryDescription" value="Increases the melee attacks."/>
+	<entry name="nurgleguard/RisingFuryFlavor" value="The Helbrute’s rage overtakes it, throwing it into a frenzy of blows against anything nearby."/> <!-- Hellbrute Crazed result. -->
+	<entry name="nurgleguard/Scavenger" value="Soul Harvester"/>
+	<entry name="nurgleguard/ScavengerDescription" value="Grants ore when killing an enemy."/>
+	<entry name="nurgleguard/ScavengerFlavor" value="Kill for Nurgle."/>
+	<entry name="nurgleguard/SiegeCrawler" value="Siege Crawler"/>
+	<entry name="nurgleguard/SiegeCrawlerDescription" value="Increases the armour penetration against fortifications."/>
+	<entry name="nurgleguard/SiegeCrawlerFlavor" value="Maulerfiends lack ranged weapons of any kind, unusual for a vehicle of their size. Yet their agility and their various cutting weapons mean that they are a huge threat to static fortifications, able to explore them, find a weak spot, and exploit it."/> <!-- Maulerfiend. -->
+	<entry name="nurgleguard/SubcutaneousArmour" value="Subcutaneous Armour"/>
+	<entry name="nurgleguard/SubcutaneousArmourDescription" value="Increases the armour."/>
+	<entry name="nurgleguard/SubcutaneousArmourFlavor" value="Space Marine armour, even as old as that owned by the Traitor Legions, integrates with the unique Black Carapace interface of an Adeptus Astartes. But over the millenia, many Chaos Space Marines have become one with their armour, with the Black Carapace extending throughout their flesh and bones."/> <!-- MutatedBeyondReason result. -->
+	<entry name="nurgleguard/TemporalDistortion" value="Temporal Distortion"/>
+	<entry name="nurgleguard/TemporalDistortionDescription" value="Boon of Chaos that increases the movement."/>
+	<entry name="nurgleguard/TemporalDistortionFlavor" value="Time is altered around the champion."/>
+	<entry name="nurgleguard/ToxicHaemorrhage" value="Toxic Haemorrhage"/>
+	<entry name="nurgleguard/ToxicHaemorrhageDescription" value="Increases the damage against infantry units."/>
+	<entry name="nurgleguard/ToxicHaemorrhageFlavor" value="Spurting vile vapours and heinous fluids, the Chaos Spawn’s cursed innards could spell the death of a less-blessed creature."/> <!-- MutatedBeyondReason result. -->
+	<entry name="nurgleguard/VeteransOfTheLongWar" value="Veterans of the Long War"/>
+	<entry name="nurgleguard/VeteransOfTheLongWar2" value="Veterans of the Long War II"/>
+	<entry name="nurgleguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy against units of the Astra Militarum faction."/>
+	<entry name="nurgleguard/VeteransOfTheLongWar2Flavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="nurgleguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy against units of the Space Marines faction."/>
+	<entry name="nurgleguard/VeteransOfTheLongWarFlavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="nurgleguard/VoxCaster" value="Vox-Caster"/>
+	<entry name="nurgleguard/VoxCasterDescription" value="Reduces the morale loss."/>
+	<entry name="nurgleguard/VoxCasterFlavor" value="A vox-caster is a reliable communications array connected to the tactical command net via tight-beam transmitters."/>
+	<entry name="nurgleguard/WarpFrenzy" value="Warp Frenzy"/>
+	<entry name="nurgleguard/WarpFrenzyDescription" value="Boon of Chaos that increases the attacks."/>
+	<entry name="nurgleguard/WarpFrenzyFlavor" value="The champion is consumed with anger."/>
+
+	<!---- Faction_nurgleguard_Error ----->
+<!--
+	<entry name="nurgleguardAircraftProductionEdict" value="<string name='Actions/nurgleguardAircraftProductionEdict'/>"/>
+	<entry name="nurgleguardAircraftProductionEdictDescription" value="Increases the production output."/>
+	<entry name="nurgleguardAircraftProductionEdictFlavor" value="<string name='Actions/nurgleguardAircraftProductionEdictFlavor'/>"/>
+	<entry name="nurgleguardDefenseEdict" value="<string name='Actions/nurgleguardDefenseEdict'/>"/>
+	<entry name="nurgleguardDefenseEdictDescription" value="Increases the armour."/>
+	<entry name="nurgleguardDefenseEdictFlavor" value="<string name='Actions/nurgleguardDefenseEdictFlavor'/>"/>
+	<entry name="nurgleguardEnergyEdict" value="<string name='Actions/nurgleguardEnergyEdict'/>"/>
+	<entry name="nurgleguardEnergyEdictDescription" value="Increases the energy output."/>
+	<entry name="nurgleguardEnergyEdictFlavor" value="<string name='Actions/nurgleguardEnergyEdictFlavor'/>"/>
+	<entry name="nurgleguardFoodEdict" value="<string name='Actions/nurgleguardFoodEdict'/>"/>
+	<entry name="nurgleguardFoodEdictDescription" value="Increases the food output."/>
+	<entry name="nurgleguardFoodEdictFlavor" value="<string name='Actions/nurgleguardFoodEdictFlavor'/>"/>
+	<entry name="nurgleguardGrowthEdict" value="<string name='Actions/nurgleguardGrowthEdict'/>"/>
+	<entry name="nurgleguardGrowthEdictDescription" value="Increases the growth rate."/>
+	<entry name="nurgleguardGrowthEdictFlavor" value="<string name='Actions/nurgleguardGrowthEdictFlavor'/>"/>
+	<entry name="nurgleguardInfantryProductionEdict" value="<string name='Actions/nurgleguardInfantryProductionEdict'/>"/>
+	<entry name="nurgleguardInfantryProductionEdictDescription" value="Increases the production output."/>
+	<entry name="nurgleguardInfantryProductionEdictFlavor" value="<string name='Actions/nurgleguardInfantryProductionEdictFlavor'/>"/>
+	<entry name="nurgleguardInfluenceEdict" value="<string name='Actions/nurgleguardInfluenceEdict'/>"/>
+	<entry name="nurgleguardInfluenceEdictDescription" value="Increases the influence output."/>
+	<entry name="nurgleguardInfluenceEdictFlavor" value="<string name='Actions/nurgleguardInfluenceEdictFlavor'/>"/>
+	<entry name="nurgleguardLoyaltyEdict" value="<string name='Actions/nurgleguardLoyaltyEdict'/>"/>
+	<entry name="nurgleguardLoyaltyEdictDescription" value="Increases the loyalty output."/>
+	<entry name="nurgleguardLoyaltyEdictFlavor" value="<string name='Actions/nurgleguardLoyaltyEdictFlavor'/>"/>
+	<entry name="nurgleguardOreEdict" value="<string name='Actions/nurgleguardOreEdict'/>"/>
+	<entry name="nurgleguardOreEdictDescription" value="Increases the ore output."/>
+	<entry name="nurgleguardOreEdictFlavor" value="<string name='Actions/nurgleguardOreEdictFlavor'/>"/>
+	<entry name="nurgleguardPsykerProductionEdict" value="<string name='Actions/nurgleguardPsykerProductionEdict'/>"/>
+	<entry name="nurgleguardPsykerProductionEdictDescription" value="Increases the production output."/>
+	<entry name="nurgleguardPsykerProductionEdictFlavor" value="<string name='Actions/nurgleguardPsykerProductionEdictFlavor'/>"/>
+	<entry name="nurgleguardResearchEdict" value="<string name='Actions/nurgleguardResearchEdict'/>"/>
+	<entry name="nurgleguardResearchEdictDescription" value="Increases the research output."/>
+	<entry name="nurgleguardResearchEdictFlavor" value="<string name='Actions/nurgleguardResearchEdictFlavor'/>"/>
+	<entry name="nurgleguardVehicleProductionEdict" value="<string name='Actions/nurgleguardVehicleProductionEdict'/>"/>
+	<entry name="nurgleguardVehicleProductionEdictDescription" value="Increases the production output."/>
+	<entry name="nurgleguardVehicleProductionEdictFlavor" value="<string name='Actions/nurgleguardVehicleProductionEdictFlavor'/>"/>
+-->
+	<!--------------------------------------------------------------------------------->
+	<!------------------------ Vanitine Hedonites (Faction_slaguard) ------------------>
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="slaguard/ArcaneOcculum" value="Arcane Occulum"/>
+	<entry name="slaguard/ArcaneOcculumDescription" value="Boon of Chaos that increases the accuracy."/>
+	<entry name="slaguard/ArcaneOcculumFlavor" value="A blood-shot eye pushes through the flesh."/>
+	<entry name="slaguard/BlastDamage" value="Daemonbone Casings"/>
+	<entry name="slaguard/BlastDamage" value="Improved Frag Casings"/>
+	<entry name="slaguard/BlastDamageDescription" value="Increases the armour penetration."/>
+	<entry name="slaguard/BlastDamageFlavor" value="By using a more advanced engraving protocol on the casing, the lethality of explosive is much improved."/>
+	<entry name="slaguard/BlastDamageFlavor" value="The Warpsmiths may have only trapped minor horrors in the casings of these explosive shells, but their rage at the point of impact isn’t minor—as they shatter and return to the warp, they rage and snatch at anything nearby."/>
+	<entry name="slaguard/Bloated" value="Bloated"/>
+	<entry name="slaguard/BloatedDescription" value="Restores hitpoints."/>
+	<entry name="slaguard/BloatedFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+	<entry name="slaguard/BloodForTheBloodGod" value="Blood for the Blood God"/>
+	<entry name="slaguard/BloodForTheBloodGodDescription" value="Increases the attacks."/>
+	<entry name="slaguard/BloodRage" value="Blood Rage"/>
+	<entry name="slaguard/BloodRageDescription" value="Increases the melee attacks and movement."/>
+	<entry name="slaguard/BloodRageFlavor" value="The Helbrute launches itself at nearby enemies, driving its cursed Dreadnought prison past its ancient safety limits into behaviour thoroughly daemonic."/> <!-- Hellbrute Crazed result. -->
+	<entry name="slaguard/BoltDamage" value="Kraken Bolts"/>
+	<entry name="slaguard/BoltDamage" value="Warpborne Bolts"/>
+	<entry name="slaguard/BoltDamageDescription" value="Increases the armour penetration."/>
+	<entry name="slaguard/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+	<entry name="slaguard/BoltDamageFlavor" value="Bridging the promethium-powered Inferno Bolts of the Imperium and the psychically-powered Inferno Bolts of the Thousand Sons Traitor Legion, Warpborne Bolt skip through the Warp to unleash superheated chemical fire upon their targets."/>
+	<entry name="slaguard/ChampionOfChaos" value="Champion of Chaos"/>
+	<entry name="slaguard/ChampionOfChaosDescription" value="Killing an enemy unit may reward this unit with an unlocked Boon of Chaos or transform it into a Chaos Spawn or Daemon Prince."/>
+	<entry name="slaguard/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
+	<entry name="slaguard/ChaosDevotion" value="Chaos Devotion"/>
+	<entry name="slaguard/ChaosDevotion2" value="Chaos Devotion II"/>
+	<entry name="slaguard/ChaosDevotion2Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="slaguard/ChaosDevotion2Flavor" value="."/>
+	<entry name="slaguard/ChaosDevotion3" value="Chaos Devotion III"/>
+	<entry name="slaguard/ChaosDevotion3Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="slaguard/ChaosDevotion3Flavor" value="."/>
+	<entry name="slaguard/ChaosDevotion4" value="Chaos Devotion IV"/>
+	<entry name="slaguard/ChaosDevotion4Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="slaguard/ChaosDevotion4Flavor" value="."/>
+	<entry name="slaguard/ChaosDevotionDescription" value="Chaos Gods devotion units upkeep penalty."/>
+	<entry name="slaguard/ChaosDevotionFlavor" value=""/>
+	<entry name="slaguard/ChaosSpaceMarine" value="Chaos Devotion"/>
+	<entry name="slaguard/ChaosSpaceMarineDescription" value="4Reduces chaos units upkeep."/>
+	<entry name="slaguard/CityTier2" value="Call of the Dark Gods"/>
+	<entry name="slaguard/CityTier2" value="Substructure Extension"/>
+	<entry name="slaguard/CityTier2Description" value="Increases the tile acquisition radius."/>
+	<entry name="slaguard/CityTier2Flavor" value="One day, this will be a Hive City—a billion people in one structure, towering over a poisoned world—but first, this settlement needs to expand a little, to set the foundations for the galaxies' biggest conurbations."/>
+	<entry name="slaguard/CityTier2Flavor" value="The people of the Imperium will listen to any lies, believe any tale, which tells them that they’re not doomed. That way, sadly, lies perdition, and the gates of Chaos stand wide open to the lost and the damned—at least, on the way in."/>
+	<entry name="slaguard/CityTier3" value="Nexus of Doom"/>
+	<entry name="slaguard/CityTier3" value="Substructure Supply Tunnels"/>
+	<entry name="slaguard/CityTier3Description" value="Increases the tile acquisition radius."/>
+	<entry name="slaguard/CityTier3Flavor" value="The Departmento Munitorum might be inefficient, but they can plan and the Techpriest Explorators and Servitors can build. These bunkered tunnels allow the Astra Militarum commander to oversee a much larger city area, without losing defensive control."/>
+	<entry name="slaguard/CityTier3Flavor" value="The worshippers of Chaos have shed their pretences. Where before they drew souls to them by their weaknesses or by daemon seduction, now they do it by whips and chains. Packs of slavers and warbands hunt their city’s hinterland for lives to sacrifice. Only the strongest can escape their reach; the weak are grist to the mill for Chaos."/>
+	<entry name="slaguard/Corrupted" value="Corrupted by Chaos"/>
+	<entry name="slaguard/CorruptedDescription" value="Kill Chaos Lord to free the unit."/>
+	<entry name="slaguard/Crazed" value="Crazed"/>
+	<entry name="slaguard/CrazedDescription" value="If the unit was damaged in the previous turn, it gains one of the following traits at random for one turn: Fire Frenzy, Rising Fury, Blood Rage."/>
+	<entry name="slaguard/CrazedFlavor" value="All Helbrutes are psychotic and dangerous monstrosities—a veteran of the Long War driven insane by tortured entombment. So attacking a Helbrute might seem rational, but if you fail to destroy it outright, you will only make it angrier and crazier."/> <!-- Hellbrute. -->
+	<entry name="slaguard/CrystallineBody" value="Crystalline Body"/>
+	<entry name="slaguard/CrystallineBodyDescription" value="Boon of Chaos that increases the hitpoints."/>
+	<entry name="slaguard/CrystallineBodyFlavor" value="The champion's flesh changes to diamond."/>
+	<entry name="slaguard/CultistSacrifice" value="<string name='Actions/slaguard/CultistSacrifice'/>"/>
+	<entry name="slaguard/CultistSacrificeDescription" value="Increases the growth rate."/>
+	<entry name="slaguard/CultistSacrificeFlavor" value="<string name='Actions/slaguard/CultistSacrificeFlavor'/>"/>
+	<entry name="slaguard/DevourerOfSouls" value="Devourer of Souls"/>
+	<entry name="slaguard/DevourerOfSoulsDescription" value="Restores hitpoints each turn and each time this unit kills an enemy unit."/>
+	<entry name="slaguard/DevourerOfSoulsFlavor" value="Venomcrawlers are perhaps the most sophisticated works of the Warpsmith, spider-like Daemon Engines that crave empyric energy and will consume other daemonic entities to get it—or even the living."/> <!-- Venomcrawler -->
+	<entry name="slaguard/FeelNoPain" value="Feel the Pain"/>
+	<entry name="slaguard/FeelNoPainDescription" value="Increases the damage reduction."/>
+	<entry name="slaguard/FeelNoPainFlavor" value="Whether through force of will, bionic augmentation or foul sorcery, this warrior can fight despite fearsome wounds."/>
+	<entry name="slaguard/FireFrenzy" value="Fire Frenzy"/>
+	<entry name="slaguard/FireFrenzyDescription" value="Prevents movement and increases the ranged attacks."/>
+	<entry name="slaguard/FireFrenzyFlavor" value="In response to the pitiful fire of mortals, the Hellbrute unloads its weapons relentlessly, blind to anything but the deafening roar of its daemonic ammunition."/> <!-- Hellbrute Crazed result. -->
+	<entry name="slaguard/GiftOfMutation" value="Gift of Mutation"/>
+	<entry name="slaguard/GiftOfMutationDescription" value="At the start of the next turn, the unit gains a new random unlocked Boon of Chaos and this trait ends."/>
+	<entry name="slaguard/GiftOfMutationFlavor" value="The Dark Gods have granted their champion a malign reward, which is as likely to be a razor-sharp appendage as it is to be an inconveniently placed tongue."/>
+	<entry name="slaguard/GraspingPseudopods" value="Grasping Pseudopods"/>
+	<entry name="slaguard/GraspingPseudopodsDescription" value="Increases the melee attacks."/>
+	<entry name="slaguard/GraspingPseudopodsFlavor" value="From the spawn’s twisting form come meaty tentacles, flailing and gibbering at nearby opponents. Come too close and they reflexively wrap themselves around a target, drawing it to whatever maws and teeth the spawn currently has."/> <!-- MutatedBeyondReason result. -->
+	<entry name="slaguard/IconOfExcess" value="<string name='Actions/slaguard/IconOfExcess'/>"/>
+	<entry name="slaguard/IconOfExcessDescription" value="Increases the damage reduction."/>
+	<entry name="slaguard/IconOfExcessFlavor" value="<string name='Actions/slaguard/IconOfExcessFlavor'/>"/>
+	<entry name="slaguard/InfantryUpkeep" value="Hopelessly Devoted"/>
+	<entry name="slaguard/InfantryUpkeepDescription" value="Higher unit upkeep based on devotion to Chaos Gods"/>
+	<entry name="slaguard/InfantryUpkeepFlavor" value=" Imperial Guard betrayed the Emperor. They must now devote themselves entirely to the Chaos Gods."/>
+	<entry name="slaguard/LasDamage" value="Forbidden Energies"/>
+	<entry name="slaguard/LasDamage" value="Hotshot Power Packs"/>
+	<entry name="slaguard/LasDamageDescription" value="Increases the armour penetration."/>
+	<entry name="slaguard/LasDamageFlavor" value="Going beyond the Imperium’s proscribed technologies has allowed the Dark Mechanicum to unlock more lethal and more horrifying weapon capabilities."/>
+	<entry name="slaguard/LasDamageFlavor" value="These superior modular packs convert the standard lasgun into a 'Hellgun', with improved range and power, but reduced power pack capacity and degraded reliability, requiring constant maintenance. Even units that already have dedicated Hotshot lasguns benefit from more reliable Hotshot power pack supplies."/>
+	<entry name="slaguard/Limite2" value="Chaos Devotion"/>
+	<entry name="slaguard/Limite2Description" value="Increase Chaos devotion to recrut more Chaos units."/>
+	<entry name="slaguard/Mechanoid" value="Mechanoid"/>
+	<entry name="slaguard/MechanoidDescription" value="Boon of Chaos that increases the armour."/>
+	<entry name="slaguard/MechanoidFlavor" value="The champion's flesh bonds with his armour."/>
+	<entry name="slaguard/MeleeDamage" value="Conjoined Weaponry"/>
+	<entry name="slaguard/MeleeDamageDescription" value="Increases the armour penetration."/>
+	<entry name="slaguard/MeleeDamageFlavor" value="It’s normal for soldiers to grow close to a trusted weapon—but the marines of the Traitor Legions have gone further. Over the centuries, the troops of the Adeptus Astartes have literally grown into their weaponry, becoming one with their guns and blades, exponentially increasing their effectiveness."/>
+	<entry name="slaguard/MindControl" value="Corrupted by Chaos Lord"/>
+	<entry name="slaguard/MindControlDescription" value="Reduces the morale each turn."/>
+	<entry name="slaguard/MutatedBeyondReason" value="Mutated Beyond Reason"/>
+	<entry name="slaguard/MutatedBeyondReasonDescription" value="At the start of each turn, the unit gains one of the following random mutations for one turn: Grasping Pseudopods, Subcutaneous Armour, Toxic Haemorrhage."/>
+	<entry name="slaguard/MutatedBeyondReasonFlavor" value="When they fall from their god’s favour, Chaos worshippers are blessed and cursed in equal measure, turning into the foul Chaos Spawn—writhing masses of mutation, endlessly sprouting new features at their god’s whim."/>
+	<entry name="slaguard/RisingFury" value="Rising Fury"/>
+	<entry name="slaguard/RisingFuryDescription" value="Increases the melee attacks."/>
+	<entry name="slaguard/RisingFuryFlavor" value="The Helbrute’s rage overtakes it, throwing it into a frenzy of blows against anything nearby."/> <!-- Hellbrute Crazed result. -->
+	<entry name="slaguard/RiteOfUnholyPleasure" value="<string name='Actions/slaguard/RiteOfUnholyPleasure'/>"/>
+	<entry name="slaguard/RiteOfUnholyPleasureDescription" value="Increases the influence and loyalty output."/>
+	<entry name="slaguard/RiteOfUnholyPleasureFlavor" value="<string name='Actions/slaguard/RiteOfUnholyPleasureFlavor'/>"/>
+	<entry name="slaguard/Scavenger" value="Soul Harvester"/>
+	<entry name="slaguard/ScavengerDescription" value="Grants ore when killing an enemy."/>
+	<entry name="slaguard/ScavengerFlavor" value="Kill for the dark gods."/>
+	<entry name="slaguard/SiegeCrawler" value="Siege Crawler"/>
+	<entry name="slaguard/SiegeCrawlerDescription" value="Increases the armour penetration against fortifications."/>
+	<entry name="slaguard/SiegeCrawlerFlavor" value="Maulerfiends lack ranged weapons of any kind, unusual for a vehicle of their size. Yet their agility and their various cutting weapons mean that they are a huge threat to static fortifications, able to explore them, find a weak spot, and exploit it."/> <!-- Maulerfiend. -->
+	<entry name="slaguard/SubcutaneousArmour" value="Subcutaneous Armour"/>
+	<entry name="slaguard/SubcutaneousArmourDescription" value="Increases the armour."/>
+	<entry name="slaguard/SubcutaneousArmourFlavor" value="Space Marine armour, even as old as that owned by the Traitor Legions, integrates with the unique Black Carapace interface of an Adeptus Astartes. But over the millenia, many Chaos Space Marines have become one with their armour, with the Black Carapace extending throughout their flesh and bones."/> <!-- MutatedBeyondReason result. -->
+	<entry name="slaguard/TemporalDistortion" value="Temporal Distortion"/>
+	<entry name="slaguard/TemporalDistortionDescription" value="Boon of Chaos that increases the movement."/>
+	<entry name="slaguard/TemporalDistortionFlavor" value="Time is altered around the champion."/>
+	<entry name="slaguard/ToxicHaemorrhage" value="Toxic Haemorrhage"/>
+	<entry name="slaguard/ToxicHaemorrhageDescription" value="Increases the damage against infantry units."/>
+	<entry name="slaguard/ToxicHaemorrhageFlavor" value="Spurting vile vapours and heinous fluids, the Chaos Spawn’s cursed innards could spell the death of a less-blessed creature."/> <!-- MutatedBeyondReason result. -->
+	<entry name="slaguard/VeteransOfTheLongWar" value="Veterans of the Long War"/>
+	<entry name="slaguard/VeteransOfTheLongWar2" value="Veterans of the Long War II"/>
+	<entry name="slaguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy against units of the Astra Militarum faction."/>
+	<entry name="slaguard/VeteransOfTheLongWar2Flavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="slaguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy against units of the Space Marines faction."/>
+	<entry name="slaguard/VeteransOfTheLongWarFlavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="slaguard/WarpFrenzy" value="Warp Frenzy"/>
+	<entry name="slaguard/WarpFrenzyDescription" value="Boon of Chaos that increases the attacks."/>
+	<entry name="slaguard/WarpFrenzyFlavor" value="The champion is consumed with anger."/>
+
+	<!----- Vanitine Hedonites (Faction_slaguard_error) ----->
+<!--
+	<entry name="slaguardAircraftProductionEdict" value="<string name='Actions/slaguardAircraftProductionEdict'/>"/>
+	<entry name="slaguardAircraftProductionEdictDescription" value="Increases the production output."/>
+	<entry name="slaguardAircraftProductionEdictFlavor" value="<string name='Actions/slaguardAircraftProductionEdictFlavor'/>"/>
+	<entry name="slaguardDefenseEdict" value="<string name='Actions/slaguardDefenseEdict'/>"/>
+	<entry name="slaguardDefenseEdictDescription" value="Increases the armour."/>
+	<entry name="slaguardDefenseEdictFlavor" value="<string name='Actions/slaguardDefenseEdictFlavor'/>"/>
+	<entry name="slaguardEnergyEdict" value="<string name='Actions/slaguardEnergyEdict'/>"/>
+	<entry name="slaguardEnergyEdictDescription" value="Increases the energy output."/>
+	<entry name="slaguardEnergyEdictFlavor" value="<string name='Actions/slaguardEnergyEdictFlavor'/>"/>
+	<entry name="slaguardFoodEdict" value="<string name='Actions/slaguardFoodEdict'/>"/>
+	<entry name="slaguardFoodEdictDescription" value="Increases the food output."/>
+	<entry name="slaguardFoodEdictFlavor" value="<string name='Actions/slaguardFoodEdictFlavor'/>"/>
+	<entry name="slaguardGrowthEdict" value="<string name='Actions/slaguardGrowthEdict'/>"/>
+	<entry name="slaguardGrowthEdictDescription" value="Increases the growth rate."/>
+	<entry name="slaguardGrowthEdictFlavor" value="<string name='Actions/slaguardGrowthEdictFlavor'/>"/>
+	<entry name="slaguardInfantryProductionEdict" value="<string name='Actions/slaguardInfantryProductionEdict'/>"/>
+	<entry name="slaguardInfantryProductionEdictDescription" value="Increases the production output."/>
+	<entry name="slaguardInfantryProductionEdictFlavor" value="<string name='Actions/slaguardInfantryProductionEdictFlavor'/>"/>
+	<entry name="slaguardInfluenceEdict" value="<string name='Actions/slaguardInfluenceEdict'/>"/>
+	<entry name="slaguardInfluenceEdictDescription" value="Increases the influence output."/>
+	<entry name="slaguardInfluenceEdictFlavor" value="<string name='Actions/slaguardInfluenceEdictFlavor'/>"/>
+	<entry name="slaguardLoyaltyEdict" value="<string name='Actions/slaguardLoyaltyEdict'/>"/>
+	<entry name="slaguardLoyaltyEdictDescription" value="Increases the loyalty output."/>
+	<entry name="slaguardLoyaltyEdictFlavor" value="<string name='Actions/slaguardLoyaltyEdictFlavor'/>"/>
+	<entry name="slaguardOreEdict" value="<string name='Actions/slaguardOreEdict'/>"/>
+	<entry name="slaguardOreEdictDescription" value="Increases the ore output."/>
+	<entry name="slaguardOreEdictFlavor" value="<string name='Actions/slaguardOreEdictFlavor'/>"/>
+	<entry name="slaguardPsykerProductionEdict" value="<string name='Actions/slaguardPsykerProductionEdict'/>"/>
+	<entry name="slaguardPsykerProductionEdictDescription" value="Increases the production output."/>
+	<entry name="slaguardPsykerProductionEdictFlavor" value="<string name='Actions/slaguardPsykerProductionEdictFlavor'/>"/>
+	<entry name="slaguardResearchEdict" value="<string name='Actions/slaguardResearchEdict'/>"/>
+	<entry name="slaguardResearchEdictDescription" value="Increases the research output."/>
+	<entry name="slaguardResearchEdictFlavor" value="<string name='Actions/slaguardResearchEdictFlavor'/>"/>
+	<entry name="slaguardVehicleProductionEdict" value="<string name='Actions/slaguardVehicleProductionEdict'/>"/>
+	<entry name="slaguardVehicleProductionEdictDescription" value="Increases the production output."/>
+	<entry name="slaguardVehicleProductionEdictFlavor" value="<string name='Actions/slaguardVehicleProductionEdictFlavor'/>"/>
+-->
+	<!--------------------------------------------------------------------------------->
+	<!------------------- Gladius Renegade Militia (Faction_traitorguard) ------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="traitorguard/ArcaneOcculum" value="Arcane Occulum"/>
+	<entry name="traitorguard/ArcaneOcculumDescription" value="Boon of Chaos that increases the accuracy."/>
+	<entry name="traitorguard/ArcaneOcculumFlavor" value="A blood-shot eye pushes through the flesh."/>
+	<entry name="traitorguard/BlastDamage" value="Daemonbone Casings"/>
+	<entry name="traitorguard/BlastDamage" value="Improved Frag Casings"/>
+	<entry name="traitorguard/BlastDamageDescription" value="Increases the armour penetration."/>
+	<entry name="traitorguard/BlastDamageFlavor" value="By using a more advanced engraving protocol on the casing, the lethality of explosive is much improved."/>
+	<entry name="traitorguard/BlastDamageFlavor" value="The Warpsmiths may have only trapped minor horrors in the casings of these explosive shells, but their rage at the point of impact isn’t minor—as they shatter and return to the warp, they rage and snatch at anything nearby."/>
+	<entry name="traitorguard/Bloated" value="Bloated"/>
+	<entry name="traitorguard/BloatedDescription" value="Restores hitpoints."/>
+	<entry name="traitorguard/BloatedFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+	<entry name="traitorguard/BloodForTheBloodGod" value="Blood for the Blood God"/>
+	<entry name="traitorguard/BloodForTheBloodGodDescription" value="Increases the attacks."/>
+	<entry name="traitorguard/BloodRage" value="Blood Rage"/>
+	<entry name="traitorguard/BloodRageDescription" value="Increases the melee attacks and movement."/>
+	<entry name="traitorguard/BloodRageFlavor" value="The Helbrute launches itself at nearby enemies, driving its cursed Dreadnought prison past its ancient safety limits into behaviour thoroughly daemonic."/> <!-- Hellbrute Crazed result. -->
+	<entry name="traitorguard/BoltDamage" value="Kraken Bolts"/>
+	<entry name="traitorguard/BoltDamage" value="Warpborne Bolts"/>
+	<entry name="traitorguard/BoltDamageDescription" value="Increases the armour penetration."/>
+	<entry name="traitorguard/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+	<entry name="traitorguard/BoltDamageFlavor" value="Bridging the promethium-powered Inferno Bolts of the Imperium and the psychically-powered Inferno Bolts of the Thousand Sons Traitor Legion, Warpborne Bolt skip through the Warp to unleash superheated chemical fire upon their targets."/>
+	<entry name="traitorguard/ChampionOfChaos" value="Champion of Chaos"/>
+	<entry name="traitorguard/ChampionOfChaosDescription" value="Killing an enemy unit may reward this unit with an unlocked Boon of Chaos or transform it into a Chaos Spawn or Daemon Prince."/>
+	<entry name="traitorguard/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
+	<entry name="traitorguard/ChaosDevotion" value="Chaos Devotion"/>
+	<entry name="traitorguard/ChaosDevotion2" value="Chaos Devotion II"/>
+	<entry name="traitorguard/ChaosDevotion2Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="traitorguard/ChaosDevotion2Flavor" value="."/>
+	<entry name="traitorguard/ChaosDevotion3" value="Chaos Devotion III"/>
+	<entry name="traitorguard/ChaosDevotion3Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="traitorguard/ChaosDevotion3Flavor" value="."/>
+	<entry name="traitorguard/ChaosDevotion4" value="Chaos Devotion IV"/>
+	<entry name="traitorguard/ChaosDevotion4Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="traitorguard/ChaosDevotion4Flavor" value="."/>
+	<entry name="traitorguard/ChaosDevotionDescription" value="Chaos Gods devotion units upkeep penalty."/>
+	<entry name="traitorguard/ChaosDevotionFlavor" value=""/>
+	<entry name="traitorguard/ChaosSpaceMarine" value="Chaos Devotion"/>
+	<entry name="traitorguard/ChaosSpaceMarineDescription" value="5Reduces chaos units upkeep."/>
+	<entry name="traitorguard/CityTier2" value="Call of the Dark Gods"/>
+	<entry name="traitorguard/CityTier2" value="Substructure Extension"/>
+	<entry name="traitorguard/CityTier2Description" value="Increases the tile acquisition radius."/>
+	<entry name="traitorguard/CityTier2Flavor" value="One day, this will be a Hive City—a billion people in one structure, towering over a poisoned world—but first, this settlement needs to expand a little, to set the foundations for the galaxies' biggest conurbations."/>
+	<entry name="traitorguard/CityTier2Flavor" value="The people of the Imperium will listen to any lies, believe any tale, which tells them that they’re not doomed. That way, sadly, lies perdition, and the gates of Chaos stand wide open to the lost and the damned—at least, on the way in."/>
+	<entry name="traitorguard/CityTier3" value="Nexus of Doom"/>
+	<entry name="traitorguard/CityTier3" value="Substructure Supply Tunnels"/>
+	<entry name="traitorguard/CityTier3Description" value="Increases the tile acquisition radius."/>
+	<entry name="traitorguard/CityTier3Flavor" value="The Departmento Munitorum might be inefficient, but they can plan and the Techpriest Explorators and Servitors can build. These bunkered tunnels allow the Astra Militarum commander to oversee a much larger city area, without losing defensive control."/>
+	<entry name="traitorguard/CityTier3Flavor" value="The worshippers of Chaos have shed their pretences. Where before they drew souls to them by their weaknesses or by daemon seduction, now they do it by whips and chains. Packs of slavers and warbands hunt their city’s hinterland for lives to sacrifice. Only the strongest can escape their reach; the weak are grist to the mill for Chaos."/>
+	<entry name="traitorguard/Corrupted" value="Corrupted by Chaos"/>
+	<entry name="traitorguard/CorruptedDescription" value="Kill Chaos Lord to free the unit."/>
+	<entry name="traitorguard/Crazed" value="Crazed"/>
+	<entry name="traitorguard/CrazedDescription" value="If the unit was damaged in the previous turn, it gains one of the following traits at random for one turn: Fire Frenzy, Rising Fury, Blood Rage."/>
+	<entry name="traitorguard/CrazedFlavor" value="All Helbrutes are psychotic and dangerous monstrosities—a veteran of the Long War driven insane by tortured entombment. So attacking a Helbrute might seem rational, but if you fail to destroy it outright, you will only make it angrier and crazier."/> <!-- Hellbrute. -->
+	<entry name="traitorguard/CrystallineBody" value="Crystalline Body"/>
+	<entry name="traitorguard/CrystallineBodyDescription" value="Boon of Chaos that increases the hitpoints."/>
+	<entry name="traitorguard/CrystallineBodyFlavor" value="The champion's flesh changes to diamond."/>
+	<entry name="traitorguard/CultistSacrifice" value="<string name='Actions/traitorguard/CultistSacrifice'/>"/>
+	<entry name="traitorguard/CultistSacrificeDescription" value="Increases the growth rate."/>
+	<entry name="traitorguard/CultistSacrificeFlavor" value="<string name='Actions/traitorguard/CultistSacrificeFlavor'/>"/>
+	<entry name="traitorguard/Daemonforge" value="<string name='Actions/traitorguard/Daemonforge'/>"/>
+	<entry name="traitorguard/DaemonforgeDescription" value="Increases the damage and armour penetration."/>
+	<entry name="traitorguard/DaemonforgeFlavor" value="<string name='Actions/traitorguard/DaemonforgeFlavor'/>"/>
+	<entry name="traitorguard/DevourerOfSouls" value="Devourer of Souls"/>
+	<entry name="traitorguard/DevourerOfSoulsDescription" value="Restores hitpoints each turn and each time this unit kills an enemy unit."/>
+	<entry name="traitorguard/DevourerOfSoulsFlavor" value="Venomcrawlers are perhaps the most sophisticated works of the Warpsmith, spider-like Daemon Engines that crave empyric energy and will consume other daemonic entities to get it—or even the living."/> <!-- Venomcrawler -->
+	<entry name="traitorguard/FireFrenzy" value="Fire Frenzy"/>
+	<entry name="traitorguard/FireFrenzyDescription" value="Prevents movement and increases the ranged attacks."/>
+	<entry name="traitorguard/FireFrenzyFlavor" value="In response to the pitiful fire of mortals, the Hellbrute unloads its weapons relentlessly, blind to anything but the deafening roar of its daemonic ammunition."/> <!-- Hellbrute Crazed result. -->
+	<entry name="traitorguard/GiftOfMutation" value="Gift of Mutation"/>
+	<entry name="traitorguard/GiftOfMutationDescription" value="At the start of the next turn, the unit gains a new random unlocked Boon of Chaos and this trait ends."/>
+	<entry name="traitorguard/GiftOfMutationFlavor" value="The Dark Gods have granted their champion a malign reward, which is as likely to be a razor-sharp appendage as it is to be an inconveniently placed tongue."/>
+	<entry name="traitorguard/GraspingPseudopods" value="Grasping Pseudopods"/>
+	<entry name="traitorguard/GraspingPseudopodsDescription" value="Increases the melee attacks."/>
+	<entry name="traitorguard/GraspingPseudopodsFlavor" value="From the spawn’s twisting form come meaty tentacles, flailing and gibbering at nearby opponents. Come too close and they reflexively wrap themselves around a target, drawing it to whatever maws and teeth the spawn currently has."/> <!-- MutatedBeyondReason result. -->
+	<entry name="traitorguard/InfantryUpkeep" value="Hopelessly Devoted"/>
+	<entry name="traitorguard/InfantryUpkeepDescription" value="Higher unit upkeep based on devotion to Chaos Gods"/>
+	<entry name="traitorguard/InfantryUpkeepFlavor" value=" Imperial Guard betrayed the Emperor. They must now devote themselves entirely to the Chaos Gods."/>
+	<entry name="traitorguard/Khorne" value="Khorne favor"/>
+	<entry name="traitorguard/KhorneDescription" value="Increase Mark of Khorne effect."/>
+	<entry name="traitorguard/KhorneFlavor" value="...Skulls for the Skull Throne"/>
+	<entry name="traitorguard/LasDamage" value="Forbidden Energies"/>
+	<entry name="traitorguard/LasDamage" value="Hotshot Power Packs"/>
+	<entry name="traitorguard/LasDamageDescription" value="Increases the armour penetration."/>
+	<entry name="traitorguard/LasDamageFlavor" value="Going beyond the Imperium’s proscribed technologies has allowed the Dark Mechanicum to unlock more lethal and more horrifying weapon capabilities."/>
+	<entry name="traitorguard/LasDamageFlavor" value="These superior modular packs convert the standard lasgun into a 'Hellgun', with improved range and power, but reduced power pack capacity and degraded reliability, requiring constant maintenance. Even units that already have dedicated Hotshot lasguns benefit from more reliable Hotshot power pack supplies."/>
+	<entry name="traitorguard/Limite2" value="Chaos Devotion"/>
+	<entry name="traitorguard/Limite2Description" value="Increase Chaos devotion to recrut more Chaos units."/>
+	<entry name="traitorguard/Mechanoid" value="Mechanoid"/>
+	<entry name="traitorguard/MechanoidDescription" value="Boon of Chaos that increases the armour."/>
+	<entry name="traitorguard/MechanoidFlavor" value="The champion's flesh bonds with his armour."/>
+	<entry name="traitorguard/MeleeDamage" value="Conjoined Weaponry"/>
+	<entry name="traitorguard/MeleeDamageDescription" value="Increases the armour penetration."/>
+	<entry name="traitorguard/MeleeDamageFlavor" value="It’s normal for soldiers to grow close to a trusted weapon—but the marines of the Traitor Legions have gone further. Over the centuries, the troops of the Adeptus Astartes have literally grown into their weaponry, becoming one with their guns and blades, exponentially increasing their effectiveness."/>
+	<entry name="traitorguard/MightMakesRight" value="Blood for the blood god"/>
+	<entry name="traitorguard/MightMakesRightDescription" value="Grants Dark Gods favor when attacking."/>
+	<entry name="traitorguard/MightMakesRightFlavor" value="Fight for the Dark Gods !"/>
+	<entry name="traitorguard/MindControl" value="Corrupted by Chaos Lord"/>
+	<entry name="traitorguard/MindControlDescription" value="Reduces the morale each turn."/>
+	<entry name="traitorguard/MutatedBeyondReason" value="Mutated Beyond Reason"/>
+	<entry name="traitorguard/MutatedBeyondReasonDescription" value="At the start of each turn, the unit gains one of the following random mutations for one turn: Grasping Pseudopods, Subcutaneous Armour, Toxic Haemorrhage."/>
+	<entry name="traitorguard/MutatedBeyondReasonFlavor" value="When they fall from their god’s favour, Chaos worshippers are blessed and cursed in equal measure, turning into the foul Chaos Spawn—writhing masses of mutation, endlessly sprouting new features at their god’s whim."/>
+	<entry name="traitorguard/Nurgle" value="Nurgle favor"/>
+	<entry name="traitorguard/NurgleDescription" value="Increase Mark of Nurgle effect."/>
+	<entry name="traitorguard/NurgleFlavor" value=""/>
+	<entry name="traitorguard/RisingFury" value="Rising Fury"/>
+	<entry name="traitorguard/RisingFuryDescription" value="Increases the melee attacks."/>
+	<entry name="traitorguard/RisingFuryFlavor" value="The Helbrute’s rage overtakes it, throwing it into a frenzy of blows against anything nearby."/> <!-- Hellbrute Crazed result. -->
+	<entry name="traitorguard/RiteOfChange" value="<string name='Actions/traitorguard/RiteOfChange'/>"/>
+	<entry name="traitorguard/RiteOfChangeDescription" value="Increases the production and research output."/>
+	<entry name="traitorguard/RiteOfChangeFlavor" value="<string name='Actions/traitorguard/RiteOfChangeFlavor'/>"/>
+	<entry name="traitorguard/Scavenger" value="Soul Harvester"/>
+	<entry name="traitorguard/ScavengerDescription" value="Grants ore when killing an enemy."/>
+	<entry name="traitorguard/ScavengerFlavor" value="Kill for the dark gods."/>
+	<entry name="traitorguard/SiegeCrawler" value="Siege Crawler"/>
+	<entry name="traitorguard/SiegeCrawlerDescription" value="Increases the armour penetration against fortifications."/>
+	<entry name="traitorguard/SiegeCrawlerFlavor" value="Maulerfiends lack ranged weapons of any kind, unusual for a vehicle of their size. Yet their agility and their various cutting weapons mean that they are a huge threat to static fortifications, able to explore them, find a weak spot, and exploit it."/> <!-- Maulerfiend. -->
+	<entry name="traitorguard/Slaanesh" value="Slaanesh favor"/>
+	<entry name="traitorguard/SlaaneshDescription" value="Increase Mark of Slaanesh effect."/>
+	<entry name="traitorguard/SlaaneshFlavor" value="More perversion..."/>
+	<entry name="traitorguard/SubcutaneousArmour" value="Subcutaneous Armour"/>
+	<entry name="traitorguard/SubcutaneousArmourDescription" value="Increases the armour."/>
+	<entry name="traitorguard/SubcutaneousArmourFlavor" value="Space Marine armour, even as old as that owned by the Traitor Legions, integrates with the unique Black Carapace interface of an Adeptus Astartes. But over the millenia, many Chaos Space Marines have become one with their armour, with the Black Carapace extending throughout their flesh and bones."/> <!-- MutatedBeyondReason result. -->
+	<entry name="traitorguard/TemporalDistortion" value="Temporal Distortion"/>
+	<entry name="traitorguard/TemporalDistortionDescription" value="Boon of Chaos that increases the movement."/>
+	<entry name="traitorguard/TemporalDistortionFlavor" value="Time is altered around the champion."/>
+	<entry name="traitorguard/ToxicHaemorrhage" value="Toxic Haemorrhage"/>
+	<entry name="traitorguard/ToxicHaemorrhageDescription" value="Increases the damage against infantry units."/>
+	<entry name="traitorguard/ToxicHaemorrhageFlavor" value="Spurting vile vapours and heinous fluids, the Chaos Spawn’s cursed innards could spell the death of a less-blessed creature."/> <!-- MutatedBeyondReason result. -->
+	<entry name="traitorguard/Tzeentch" value="Tzeentch favor"/>
+	<entry name="traitorguard/TzeentchDescription" value="Increase Mark of Tzeentch effect."/>
+	<entry name="traitorguard/TzeentchFlavor" value=""/>
+	<entry name="traitorguard/VeteransOfTheLongWar" value="Veterans of the Long War"/>
+	<entry name="traitorguard/VeteransOfTheLongWar2" value="Veterans of the Long War II"/>
+	<entry name="traitorguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy against units of the Astra Militarum faction."/>
+	<entry name="traitorguard/VeteransOfTheLongWar2Flavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="traitorguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy against units of the Space Marines faction."/>
+	<entry name="traitorguard/VeteransOfTheLongWarFlavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="traitorguard/WarpFrenzy" value="Warp Frenzy"/>
+	<entry name="traitorguard/WarpFrenzyDescription" value="Boon of Chaos that increases the attacks."/>
+	<entry name="traitorguard/WarpFrenzyFlavor" value="The champion is consumed with anger."/>
+
+	<!------- Gladius Renegade Militia (Faction_traitorguard_error) ------->
+<!--
+	<entry name="traitorguardAircraftProductionEdict" value="<string name='Actions/traitorguardAircraftProductionEdict'/>"/>
+	<entry name="traitorguardAircraftProductionEdictDescription" value="Increases the production output."/>
+	<entry name="traitorguardAircraftProductionEdictFlavor" value="<string name='Actions/traitorguardAircraftProductionEdictFlavor'/>"/>
+	<entry name="traitorguardDefenseEdict" value="<string name='Actions/traitorguardDefenseEdict'/>"/>
+	<entry name="traitorguardDefenseEdictDescription" value="Increases the armour."/>
+	<entry name="traitorguardDefenseEdictFlavor" value="<string name='Actions/traitorguardDefenseEdictFlavor'/>"/>
+	<entry name="traitorguardEnergyEdict" value="<string name='Actions/traitorguardEnergyEdict'/>"/>
+	<entry name="traitorguardEnergyEdictDescription" value="Increases the energy output."/>
+	<entry name="traitorguardEnergyEdictFlavor" value="<string name='Actions/traitorguardEnergyEdictFlavor'/>"/>
+	<entry name="traitorguardFoodEdict" value="<string name='Actions/traitorguardFoodEdict'/>"/>
+	<entry name="traitorguardFoodEdictDescription" value="Increases the food output."/>
+	<entry name="traitorguardFoodEdictFlavor" value="<string name='Actions/traitorguardFoodEdictFlavor'/>"/>
+	<entry name="traitorguardGrowthEdict" value="<string name='Actions/traitorguardGrowthEdict'/>"/>
+	<entry name="traitorguardGrowthEdictDescription" value="Increases the growth rate."/>
+	<entry name="traitorguardGrowthEdictFlavor" value="<string name='Actions/traitorguardGrowthEdictFlavor'/>"/>
+	<entry name="traitorguardInfantryProductionEdict" value="<string name='Actions/traitorguardInfantryProductionEdict'/>"/>
+	<entry name="traitorguardInfantryProductionEdictDescription" value="Increases the production output."/>
+	<entry name="traitorguardInfantryProductionEdictFlavor" value="<string name='Actions/traitorguardInfantryProductionEdictFlavor'/>"/>
+	<entry name="traitorguardInfluenceEdict" value="<string name='Actions/traitorguardInfluenceEdict'/>"/>
+	<entry name="traitorguardInfluenceEdictDescription" value="Increases the influence output."/>
+	<entry name="traitorguardInfluenceEdictFlavor" value="<string name='Actions/traitorguardInfluenceEdictFlavor'/>"/>
+	<entry name="traitorguardLoyaltyEdict" value="<string name='Actions/traitorguardLoyaltyEdict'/>"/>
+	<entry name="traitorguardLoyaltyEdictDescription" value="Increases the loyalty output."/>
+	<entry name="traitorguardLoyaltyEdictFlavor" value="<string name='Actions/traitorguardLoyaltyEdictFlavor'/>"/>
+	<entry name="traitorguardOreEdict" value="<string name='Actions/traitorguardOreEdict'/>"/>
+	<entry name="traitorguardOreEdictDescription" value="Increases the ore output."/>
+	<entry name="traitorguardOreEdictFlavor" value="<string name='Actions/traitorguardOreEdictFlavor'/>"/>
+	<entry name="traitorguardPsykerProductionEdict" value="<string name='Actions/traitorguardPsykerProductionEdict'/>"/>
+	<entry name="traitorguardPsykerProductionEdictDescription" value="Increases the production output."/>
+	<entry name="traitorguardPsykerProductionEdictFlavor" value="<string name='Actions/traitorguardPsykerProductionEdictFlavor'/>"/>
+	<entry name="traitorguardResearchEdict" value="<string name='Actions/traitorguardResearchEdict'/>"/>
+	<entry name="traitorguardResearchEdictDescription" value="Increases the research output."/>
+	<entry name="traitorguardResearchEdictFlavor" value="<string name='Actions/traitorguardResearchEdictFlavor'/>"/>
+	<entry name="traitorguardVehicleProductionEdict" value="<string name='Actions/traitorguardVehicleProductionEdict'/>"/>
+	<entry name="traitorguardVehicleProductionEdictDescription" value="Increases the production output."/>
+	<entry name="traitorguardVehicleProductionEdictFlavor" value="<string name='Actions/traitorguardVehicleProductionEdictFlavor'/>"/>
+-->
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Kardone Changeseekers (Faction_tzeguard) ---------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="tzeguard/ArcaneOcculum" value="Arcane Occulum"/>
+	<entry name="tzeguard/ArcaneOcculumDescription" value="Boon of Chaos that increases the accuracy."/>
+	<entry name="tzeguard/ArcaneOcculumFlavor" value="A blood-shot eye pushes through the flesh."/>
+	<entry name="tzeguard/BlastDamage" value="Daemonbone Casings"/>
+	<entry name="tzeguard/BlastDamage" value="Improved Frag Casings"/>
+	<entry name="tzeguard/BlastDamageDescription" value="Increases the armour penetration."/>
+	<entry name="tzeguard/BlastDamageFlavor" value="By using a more advanced engraving protocol on the casing, the lethality of explosive is much improved."/>
+	<entry name="tzeguard/BlastDamageFlavor" value="The Warpsmiths may have only trapped minor horrors in the casings of these explosive shells, but their rage at the point of impact isn’t minor—as they shatter and return to the warp, they rage and snatch at anything nearby."/>
+	<entry name="tzeguard/Bloated" value="Bloated"/>
+	<entry name="tzeguard/BloatedDescription" value="Restores hitpoints."/>
+	<entry name="tzeguard/BloatedFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+	<entry name="tzeguard/BloodForTheBloodGod" value="Blood for the Blood God"/>
+	<entry name="tzeguard/BloodForTheBloodGodDescription" value="Increases the attacks."/>
+	<entry name="tzeguard/BloodRage" value="Blood Rage"/>
+	<entry name="tzeguard/BloodRageDescription" value="Increases the melee attacks and movement."/>
+	<entry name="tzeguard/BloodRageFlavor" value="The Helbrute launches itself at nearby enemies, driving its cursed Dreadnought prison past its ancient safety limits into behaviour thoroughly daemonic."/> <!-- Hellbrute Crazed result. -->
+	<entry name="tzeguard/BoltDamage" value="Kraken Bolts"/>
+	<entry name="tzeguard/BoltDamage" value="Warpborne Bolts"/>
+	<entry name="tzeguard/BoltDamageDescription" value="Increases the armour penetration."/>
+	<entry name="tzeguard/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+	<entry name="tzeguard/BoltDamageFlavor" value="Bridging the promethium-powered Inferno Bolts of the Imperium and the psychically-powered Inferno Bolts of the Thousand Sons Traitor Legion, Warpborne Bolt skip through the Warp to unleash superheated chemical fire upon their targets."/>
+	<entry name="tzeguard/ChampionOfChaos" value="Champion of Chaos"/>
+	<entry name="tzeguard/ChampionOfChaosDescription" value="Killing an enemy unit may reward this unit with an unlocked Boon of Chaos or transform it into a Chaos Spawn or Daemon Prince."/>
+	<entry name="tzeguard/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
+	<entry name="tzeguard/ChaosDevotion" value="Chaos Devotion"/>
+	<entry name="tzeguard/ChaosDevotion2" value="Chaos Devotion II"/>
+	<entry name="tzeguard/ChaosDevotion2Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="tzeguard/ChaosDevotion2Flavor" value="."/>
+	<entry name="tzeguard/ChaosDevotion3" value="Chaos Devotion III"/>
+	<entry name="tzeguard/ChaosDevotion3Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="tzeguard/ChaosDevotion3Flavor" value="."/>
+	<entry name="tzeguard/ChaosDevotion4" value="Chaos Devotion IV"/>
+	<entry name="tzeguard/ChaosDevotion4Description" value="Increases devotion to Chaos Gods(improves Mark of Chaos effects, reduces upkeep chaos units but increases Renegade Imperial Guard units...)"/>
+	<entry name="tzeguard/ChaosDevotion4Flavor" value="."/>
+	<entry name="tzeguard/ChaosDevotionDescription" value="Chaos Gods devotion units upkeep penalty."/>
+	<entry name="tzeguard/ChaosDevotionFlavor" value=""/>
+	<entry name="tzeguard/ChaosSpaceMarine" value="Chaos Devotion"/>
+	<entry name="tzeguard/ChaosSpaceMarineDescription" value="6Reduces chaos units upkeep."/>
+	<entry name="tzeguard/CityTier2" value="Call of the Dark Gods"/>
+	<entry name="tzeguard/CityTier2" value="Substructure Extension"/>
+	<entry name="tzeguard/CityTier2Description" value="Increases the tile acquisition radius."/>
+	<entry name="tzeguard/CityTier2Flavor" value="One day, this will be a Hive City—a billion people in one structure, towering over a poisoned world—but first, this settlement needs to expand a little, to set the foundations for the galaxies' biggest conurbations."/>
+	<entry name="tzeguard/CityTier2Flavor" value="The people of the Imperium will listen to any lies, believe any tale, which tells them that they’re not doomed. That way, sadly, lies perdition, and the gates of Chaos stand wide open to the lost and the damned—at least, on the way in."/>
+	<entry name="tzeguard/CityTier3" value="Nexus of Doom"/>
+	<entry name="tzeguard/CityTier3" value="Substructure Supply Tunnels"/>
+	<entry name="tzeguard/CityTier3Description" value="Increases the tile acquisition radius."/>
+	<entry name="tzeguard/CityTier3Flavor" value="The Departmento Munitorum might be inefficient, but they can plan and the Techpriest Explorators and Servitors can build. These bunkered tunnels allow the Astra Militarum commander to oversee a much larger city area, without losing defensive control."/>
+	<entry name="tzeguard/CityTier3Flavor" value="The worshippers of Chaos have shed their pretences. Where before they drew souls to them by their weaknesses or by daemon seduction, now they do it by whips and chains. Packs of slavers and warbands hunt their city’s hinterland for lives to sacrifice. Only the strongest can escape their reach; the weak are grist to the mill for Chaos."/>
+	<entry name="tzeguard/Corrupted" value="Corrupted by Chaos"/>
+	<entry name="tzeguard/CorruptedDescription" value="Kill Chaos Lord to free the unit."/>
+	<entry name="tzeguard/Crazed" value="Crazed"/>
+	<entry name="tzeguard/CrazedDescription" value="If the unit was damaged in the previous turn, it gains one of the following traits at random for one turn: Fire Frenzy, Rising Fury, Blood Rage."/>
+	<entry name="tzeguard/CrazedFlavor" value="All Helbrutes are psychotic and dangerous monstrosities—a veteran of the Long War driven insane by tortured entombment. So attacking a Helbrute might seem rational, but if you fail to destroy it outright, you will only make it angrier and crazier."/> <!-- Hellbrute. -->
+	<entry name="tzeguard/CrystallineBody" value="Crystalline Body"/>
+	<entry name="tzeguard/CrystallineBodyDescription" value="Boon of Chaos that increases the hitpoints."/>
+	<entry name="tzeguard/CrystallineBodyFlavor" value="The champion's flesh changes to diamond."/>
+	<entry name="tzeguard/CultistSacrifice" value="<string name='Actions/tzeguard/CultistSacrifice'/>"/>
+	<entry name="tzeguard/CultistSacrificeDescription" value="Increases the growth rate."/>
+	<entry name="tzeguard/CultistSacrificeFlavor" value="<string name='Actions/tzeguard/CultistSacrificeFlavor'/>"/>
+	<entry name="tzeguard/DevourerOfSouls" value="Devourer of Souls"/>
+	<entry name="tzeguard/DevourerOfSoulsDescription" value="Restores hitpoints each turn and each time this unit kills an enemy unit."/>
+	<entry name="tzeguard/DevourerOfSoulsFlavor" value="Venomcrawlers are perhaps the most sophisticated works of the Warpsmith, spider-like Daemon Engines that crave empyric energy and will consume other daemonic entities to get it—or even the living."/> <!-- Venomcrawler -->
+	<entry name="tzeguard/Fear" value="Fear"/>
+	<entry name="tzeguard/FearDescription" value="Reduces the morale each turn."/>
+	<entry name="tzeguard/FearFlavor" value="<string name='Actions/AuraOfFearFlavor'/>"/>
+	<entry name="tzeguard/FireFrenzy" value="Fire Frenzy"/>
+	<entry name="tzeguard/FireFrenzyDescription" value="Prevents movement and increases the ranged attacks."/>
+	<entry name="tzeguard/FireFrenzyFlavor" value="In response to the pitiful fire of mortals, the Hellbrute unloads its weapons relentlessly, blind to anything but the deafening roar of its daemonic ammunition."/> <!-- Hellbrute Crazed result. -->
+	<entry name="tzeguard/GiftOfMutation" value="Gift of Mutation"/>
+	<entry name="tzeguard/GiftOfMutationDescription" value="At the start of the next turn, the unit gains a new random unlocked Boon of Chaos and this trait ends."/>
+	<entry name="tzeguard/GiftOfMutationFlavor" value="The Dark Gods have granted their champion a malign reward, which is as likely to be a razor-sharp appendage as it is to be an inconveniently placed tongue."/>
+	<entry name="tzeguard/GraspingPseudopods" value="Grasping Pseudopods"/>
+	<entry name="tzeguard/GraspingPseudopodsDescription" value="Increases the melee attacks."/>
+	<entry name="tzeguard/GraspingPseudopodsFlavor" value="From the spawn’s twisting form come meaty tentacles, flailing and gibbering at nearby opponents. Come too close and they reflexively wrap themselves around a target, drawing it to whatever maws and teeth the spawn currently has."/> <!-- MutatedBeyondReason result. -->
+	<entry name="tzeguard/InfantryUpkeep" value="Hopelessly Devoted"/>
+	<entry name="tzeguard/InfantryUpkeepDescription" value="Higher unit upkeep based on devotion to Chaos Gods"/>
+	<entry name="tzeguard/InfantryUpkeepFlavor" value=" Imperial Guard betrayed the Emperor. They must now devote themselves entirely to the Chaos Gods."/>
+	<entry name="tzeguard/LasDamage" value="Forbidden Energies"/>
+	<entry name="tzeguard/LasDamage" value="Hotshot Power Packs"/>
+	<entry name="tzeguard/LasDamageDescription" value="Increases the armour penetration."/>
+	<entry name="tzeguard/LasDamageFlavor" value="Going beyond the Imperium’s proscribed technologies has allowed the Dark Mechanicum to unlock more lethal and more horrifying weapon capabilities."/>
+	<entry name="tzeguard/LasDamageFlavor" value="These superior modular packs convert the standard lasgun into a 'Hellgun', with improved range and power, but reduced power pack capacity and degraded reliability, requiring constant maintenance. Even units that already have dedicated Hotshot lasguns benefit from more reliable Hotshot power pack supplies."/>
+	<entry name="tzeguard/Limite2" value="Chaos Devotion"/>
+	<entry name="tzeguard/Limite2Description" value="Increase Chaos devotion to recrut more Chaos units."/>
+	<entry name="tzeguard/Mechanoid" value="Mechanoid"/>
+	<entry name="tzeguard/MechanoidDescription" value="Boon of Chaos that increases the armour."/>
+	<entry name="tzeguard/MechanoidFlavor" value="The champion's flesh bonds with his armour."/>
+	<entry name="tzeguard/MeleeDamage" value="Conjoined Weaponry"/>
+	<entry name="tzeguard/MeleeDamageDescription" value="Increases the armour penetration."/>
+	<entry name="tzeguard/MeleeDamageFlavor" value="It’s normal for soldiers to grow close to a trusted weapon—but the marines of the Traitor Legions have gone further. Over the centuries, the troops of the Adeptus Astartes have literally grown into their weaponry, becoming one with their guns and blades, exponentially increasing their effectiveness."/>
+	<entry name="tzeguard/MightMakesRight" value="Blood for the blood god"/>
+	<entry name="tzeguard/MightMakesRightDescription" value="Grants Khorne favor when attacking."/>
+	<entry name="tzeguard/MightMakesRightFlavor" value="Fight for Khorne !"/>
+	<entry name="tzeguard/MindControl" value="Corrupted by Chaos Lord"/>
+	<entry name="tzeguard/MindControlDescription" value="Reduces the morale each turn."/>
+	<entry name="tzeguard/MutatedBeyondReason" value="Mutated Beyond Reason"/>
+	<entry name="tzeguard/MutatedBeyondReasonDescription" value="At the start of each turn, the unit gains one of the following random mutations for one turn: Grasping Pseudopods, Subcutaneous Armour, Toxic Haemorrhage."/>
+	<entry name="tzeguard/MutatedBeyondReasonFlavor" value="When they fall from their god’s favour, Chaos worshippers are blessed and cursed in equal measure, turning into the foul Chaos Spawn—writhing masses of mutation, endlessly sprouting new features at their god’s whim."/>
+	<entry name="tzeguard/RisingFury" value="Rising Fury"/>
+	<entry name="tzeguard/RisingFuryDescription" value="Increases the melee attacks."/>
+	<entry name="tzeguard/RisingFuryFlavor" value="The Helbrute’s rage overtakes it, throwing it into a frenzy of blows against anything nearby."/> <!-- Hellbrute Crazed result. -->
+	<entry name="tzeguard/RiteOfChange" value="<string name='Actions/tzeguard/RiteOfChange'/>"/>
+	<entry name="tzeguard/RiteOfChangeDescription" value="Increases the production and research output."/>
+	<entry name="tzeguard/RiteOfChangeFlavor" value="<string name='Actions/tzeguard/RiteOfChangeFlavor'/>"/>
+	<entry name="tzeguard/Scavenger" value="Soul Harvester"/>
+	<entry name="tzeguard/ScavengerDescription" value="Grants ore when killing an enemy."/>
+	<entry name="tzeguard/ScavengerFlavor" value="Kill for the dark gods."/>
+	<entry name="tzeguard/SiegeCrawler" value="Siege Crawler"/>
+	<entry name="tzeguard/SiegeCrawlerDescription" value="Increases the armour penetration against fortifications."/>
+	<entry name="tzeguard/SiegeCrawlerFlavor" value="Maulerfiends lack ranged weapons of any kind, unusual for a vehicle of their size. Yet their agility and their various cutting weapons mean that they are a huge threat to static fortifications, able to explore them, find a weak spot, and exploit it."/> <!-- Maulerfiend. -->
+	<entry name="tzeguard/SubcutaneousArmour" value="Subcutaneous Armour"/>
+	<entry name="tzeguard/SubcutaneousArmourDescription" value="Increases the armour."/>
+	<entry name="tzeguard/SubcutaneousArmourFlavor" value="Space Marine armour, even as old as that owned by the Traitor Legions, integrates with the unique Black Carapace interface of an Adeptus Astartes. But over the millenia, many Chaos Space Marines have become one with their armour, with the Black Carapace extending throughout their flesh and bones."/> <!-- MutatedBeyondReason result. -->
+	<entry name="tzeguard/TemporalDistortion" value="Temporal Distortion"/>
+	<entry name="tzeguard/TemporalDistortionDescription" value="Boon of Chaos that increases the movement."/>
+	<entry name="tzeguard/TemporalDistortionFlavor" value="Time is altered around the champion."/>
+	<entry name="tzeguard/ToxicHaemorrhage" value="Toxic Haemorrhage"/>
+	<entry name="tzeguard/ToxicHaemorrhageDescription" value="Increases the damage against infantry units."/>
+	<entry name="tzeguard/ToxicHaemorrhageFlavor" value="Spurting vile vapours and heinous fluids, the Chaos Spawn’s cursed innards could spell the death of a less-blessed creature."/> <!-- MutatedBeyondReason result. -->
+	<entry name="tzeguard/VeteransOfTheLongWar" value="Veterans of the Long War"/>
+	<entry name="tzeguard/VeteransOfTheLongWar2" value="Veterans of the Long War II"/>
+	<entry name="tzeguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy against units of the Astra Militarum faction."/>
+	<entry name="tzeguard/VeteransOfTheLongWar2Flavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="tzeguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy against units of the Space Marines faction."/>
+	<entry name="tzeguard/VeteransOfTheLongWarFlavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+	<entry name="tzeguard/WarpFrenzy" value="Warp Frenzy"/>
+	<entry name="tzeguard/WarpFrenzyDescription" value="Boon of Chaos that increases the attacks."/>
+	<entry name="tzeguard/WarpFrenzyFlavor" value="The champion is consumed with anger."/>
+
+
+	<!------- Kardone Changeseekers (Faction_tzeguard_error) ---------->
+<!--
+	<entry name="tzeguardAircraftProductionEdict" value="<string name='Actions/tzeguardAircraftProductionEdict'/>"/>
+	<entry name="tzeguardAircraftProductionEdictDescription" value="Increases the production output."/>
+	<entry name="tzeguardAircraftProductionEdictFlavor" value="<string name='Actions/tzeguardAircraftProductionEdictFlavor'/>"/>
+	<entry name="tzeguardDefenseEdict" value="<string name='Actions/tzeguardDefenseEdict'/>"/>
+	<entry name="tzeguardDefenseEdictDescription" value="Increases the armour."/>
+	<entry name="tzeguardDefenseEdictFlavor" value="<string name='Actions/tzeguardDefenseEdictFlavor'/>"/>
+	<entry name="tzeguardEnergyEdict" value="<string name='Actions/tzeguardEnergyEdict'/>"/>
+	<entry name="tzeguardEnergyEdictDescription" value="Increases the energy output."/>
+	<entry name="tzeguardEnergyEdictFlavor" value="<string name='Actions/tzeguardEnergyEdictFlavor'/>"/>
+	<entry name="tzeguardFoodEdict" value="<string name='Actions/tzeguardFoodEdict'/>"/>
+	<entry name="tzeguardFoodEdictDescription" value="Increases the food output."/>
+	<entry name="tzeguardFoodEdictFlavor" value="<string name='Actions/tzeguardFoodEdictFlavor'/>"/>
+	<entry name="tzeguardGrowthEdict" value="<string name='Actions/tzeguardGrowthEdict'/>"/>
+	<entry name="tzeguardGrowthEdictDescription" value="Increases the growth rate."/>
+	<entry name="tzeguardGrowthEdictFlavor" value="<string name='Actions/tzeguardGrowthEdictFlavor'/>"/>
+	<entry name="tzeguardInfantryProductionEdict" value="<string name='Actions/tzeguardInfantryProductionEdict'/>"/>
+	<entry name="tzeguardInfantryProductionEdictDescription" value="Increases the production output."/>
+	<entry name="tzeguardInfantryProductionEdictFlavor" value="<string name='Actions/tzeguardInfantryProductionEdictFlavor'/>"/>
+	<entry name="tzeguardInfluenceEdict" value="<string name='Actions/tzeguardInfluenceEdict'/>"/>
+	<entry name="tzeguardInfluenceEdictDescription" value="Increases the influence output."/>
+	<entry name="tzeguardInfluenceEdictFlavor" value="<string name='Actions/tzeguardInfluenceEdictFlavor'/>"/>
+	<entry name="tzeguardLoyaltyEdict" value="<string name='Actions/tzeguardLoyaltyEdict'/>"/>
+	<entry name="tzeguardLoyaltyEdictDescription" value="Increases the loyalty output."/>
+	<entry name="tzeguardLoyaltyEdictFlavor" value="<string name='Actions/tzeguardLoyaltyEdictFlavor'/>"/>
+	<entry name="tzeguardOreEdict" value="<string name='Actions/tzeguardOreEdict'/>"/>
+	<entry name="tzeguardOreEdictDescription" value="Increases the ore output."/>
+	<entry name="tzeguardOreEdictFlavor" value="<string name='Actions/tzeguardOreEdictFlavor'/>"/>
+	<entry name="tzeguardPsykerProductionEdict" value="<string name='Actions/tzeguardPsykerProductionEdict'/>"/>
+	<entry name="tzeguardPsykerProductionEdictDescription" value="Increases the production output."/>
+	<entry name="tzeguardPsykerProductionEdictFlavor" value="<string name='Actions/tzeguardPsykerProductionEdictFlavor'/>"/>
+	<entry name="tzeguardResearchEdict" value="<string name='Actions/tzeguardResearchEdict'/>"/>
+	<entry name="tzeguardResearchEdictDescription" value="Increases the research output."/>
+	<entry name="tzeguardResearchEdictFlavor" value="<string name='Actions/tzeguardResearchEdictFlavor'/>"/>
+	<entry name="tzeguardVehicleProductionEdict" value="<string name='Actions/tzeguardVehicleProductionEdict'/>"/>
+	<entry name="tzeguardVehicleProductionEdictDescription" value="Increases the production output."/>
+	<entry name="tzeguardVehicleProductionEdictFlavor" value="<string name='Actions/tzeguardVehicleProductionEdictFlavor'/>"/>
+-->
+</language>

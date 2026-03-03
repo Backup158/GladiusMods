@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/nurgleguard/TerminatorDiffuse"/>
+		<texture name="Units/nurgleguard/TerminatorNormal"/>
+		<texture name="Units/nurgleguard/TerminatorSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

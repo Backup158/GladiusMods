@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/GuardsmantzeeDiffuse"/>
+		<texture name="Units/ChaosGuard/GuardsmantzeeNormal"/>
+		<texture name="Units/ChaosGuard/GuardsmantzeeSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>
+

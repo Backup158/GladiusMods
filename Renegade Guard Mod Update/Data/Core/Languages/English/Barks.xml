@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosGuard/ChaosLord:Attack#0" value="Feel ten thousand years of rage."/>
+	<entry name="ChaosGuard/ChaosLord:Attack#1" value="In the name of the Dark Gods"/>
+	<entry name="ChaosGuard/ChaosLord:Attack#2" value="Kneel before your lord!"/>
+	<entry name="ChaosGuard/ChaosLord:Attack#3" value="Die weaklings! Die scum!"/>
+	<entry name="ChaosGuard/ChaosLord:Attack#4" value="For the glory of Chaos!"/>
+	<entry name="ChaosGuard/ChaosLord:AttackCount" value="5"/>
+	<entry name="ChaosGuard/ChaosLord:Broken#0" value="I will die not here!"/>
+	<entry name="ChaosGuard/ChaosLord:Broken#1" value="Back to the Eye!"/>
+	<entry name="ChaosGuard/ChaosLord:BrokenCount" value="2"/>
+	<entry name="ChaosGuard/ChaosLord:Hurt#0" value="What, you hurt ME?"/>
+	<entry name="ChaosGuard/ChaosLord:HurtCount" value="1"/>
+	<entry name="ChaosGuard/ChaosLord:Idle#0" value="Whilst we stand idle, Imperials yet live."/>
+	<entry name="ChaosGuard/ChaosLord:Idle#1" value="Do you remember? His blood stained every wall."/>
+	<entry name="ChaosGuard/ChaosLord:Idle#2" value="Such joy, in seeing an angel fallen."/>
+	<entry name="ChaosGuard/ChaosLord:Idle#3" value="Screams or songs, they are one to me."/>
+	<entry name="ChaosGuard/ChaosLord:Idle#4" value="Was it worth it, the damnation?"/>
+	<entry name="ChaosGuard/ChaosLord:IdleCount" value="5"/>
+	<entry name="ChaosGuard/ChaosLord:Shaken#0" value="WHO DARES?"/>
+	<entry name="ChaosGuard/ChaosLord:Shaken#1" value="I will lie to avenge this."/>
+	<entry name="ChaosGuard/ChaosLord:ShakenCount" value="2"/>
+	<entry name="ChaosGuard/ChaosLord:Victory#0" value="I dedicate this death to the gods."/>
+	<entry name="ChaosGuard/ChaosLord:Victory#1" value="Is that all? Dotards!"/>
+	<entry name="ChaosGuard/ChaosLord:Victory#2" value="Victory is ash in my mouth whilst the Imperium stands."/>
+	<entry name="ChaosGuard/ChaosLord:VictoryCount" value="3"/>
+	<entry name="ChaosGuard/ChaosRhino:Attack#0" value="What idiot sends us to war?"/>
+	<entry name="ChaosGuard/ChaosRhino:Attack#1" value="Grind their bones to dust."/>
+	<entry name="ChaosGuard/ChaosRhino:Attack#2" value="Drive faster!"/>
+	<entry name="ChaosGuard/ChaosRhino:AttackCount" value="3"/>
+	<entry name="ChaosGuard/ChaosRhino:Broken#0" value="Flee! We'll kill them another day."/>
+	<entry name="ChaosGuard/ChaosRhino:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosRhino:Hurt#0" value="Who's putting holes in our armour?"/>
+	<entry name="ChaosGuard/ChaosRhino:HurtCount" value="1"/>
+	<entry name="ChaosGuard/ChaosRhino:Idle#0" value="Who'd be a Rhino driver?"/>
+	<entry name="ChaosGuard/ChaosRhino:Idle#1" value="Driving the Lord to war, yawwwn."/>
+	<entry name="ChaosGuard/ChaosRhino:IdleCount" value="2"/>
+	<entry name="ChaosGuard/ChaosRhino:Shaken#0" value="Damnation, for this?"/>
+	<entry name="ChaosGuard/ChaosRhino:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosRhino:Victory#0" value="You couldn't even beat a Rhino?"/>
+	<entry name="ChaosGuard/ChaosRhino:VictoryCount" value="1"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Attack#0" value="Scream! Your doom is come!"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Attack#1" value="I am pure in my hatred. Come test it!"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Attack#2" value="I was the Emperor's son, you cannot stand against me!"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Attack#3" value="Hahahaha! DIE!"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:AttackCount" value="4"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Broken#0" value="We are unbound and undone, we must flee!"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Hurt#0" value="Dark Gods protect us."/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:HurtCount" value="1"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Idle#0" value="Can I stand another ten thousand years of this?"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Idle#1" value="Pass me another civilian. I'm out of ink."/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Idle#2" value="Why do they still shelter their corpse-Emperor?"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Idle#3" value="Endless war, endless joy."/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:IdleCount" value="4"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Shaken#0" value="We are... losing?"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Victory#0" value="So fall all enemies of Abaddon!"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Victory#1" value="Another step towards ruling this galaxy... our birthright."/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:Victory#2" value="Your death is nothing to me."/>
+	<entry name="ChaosGuard/ChaosSpaceMarine:VictoryCount" value="3"/>
+	<entry name="ChaosGuard/ChaosSpawn:Attack#0" value="...The widening gyre..."/>
+	<entry name="ChaosGuard/ChaosSpawn:Attack#1" value="*gibbers*"/>
+	<entry name="ChaosGuard/ChaosSpawn:Attack#2" value="ahhhhaahhhh"/>
+	<entry name="ChaosGuard/ChaosSpawn:AttackCount" value="3"/>
+	<entry name="ChaosGuard/ChaosSpawn:Broken#0" value="..."/>
+	<entry name="ChaosGuard/ChaosSpawn:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosSpawn:Hurt#0" value="..."/>
+	<entry name="ChaosGuard/ChaosSpawn:HurtCount" value="1"/>
+	<entry name="ChaosGuard/ChaosSpawn:Idle#0" value="...an eternity of madness..?"/>
+	<entry name="ChaosGuard/ChaosSpawn:Idle#1" value="ehaahahaahaha"/>
+	<entry name="ChaosGuard/ChaosSpawn:Idle#2" value="mmmm mmmm"/>
+	<entry name="ChaosGuard/ChaosSpawn:Idle#3" value="...slouching to bedlam..."/>
+	<entry name="ChaosGuard/ChaosSpawn:Idle#4" value="nnnhhhrrr."/>
+	<entry name="ChaosGuard/ChaosSpawn:IdleCount" value="5"/>
+	<entry name="ChaosGuard/ChaosSpawn:Shaken#0" value="eh"/>
+	<entry name="ChaosGuard/ChaosSpawn:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosSpawn:Victory#0" value="ach"/>
+	<entry name="ChaosGuard/ChaosSpawn:VictoryCount" value="1"/>
+	<entry name="ChaosGuard/DaemonPrince:Attack#0" value="The warp touches you, little ones."/>
+	<entry name="ChaosGuard/DaemonPrince:Attack#1" value="Feel the power of a god-to-be!"/>
+	<entry name="ChaosGuard/DaemonPrince:Attack#2" value="Playthings, puppets, fall!"/>
+	<entry name="ChaosGuard/DaemonPrince:Attack#3" value="Ahahahahaha."/>
+	<entry name="ChaosGuard/DaemonPrince:AttackCount" value="4"/>
+	<entry name="ChaosGuard/DaemonPrince:Broken#0" value="It can't be, defeated, by-"/>
+	<entry name="ChaosGuard/DaemonPrince:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/DaemonPrince:Hurt#0" value="YOU DARE CONTEND WITH ME"/>
+	<entry name="ChaosGuard/DaemonPrince:HurtCount" value="1"/>
+	<entry name="ChaosGuard/DaemonPrince:Idle#0" value="...what fools these mortals be!"/>
+	<entry name="ChaosGuard/DaemonPrince:Idle#1" value="The physical plane... I have missed it."/>
+	<entry name="ChaosGuard/DaemonPrince:Idle#2" value="Strange, a world that doesn't shift form at whim."/>
+	<entry name="ChaosGuard/DaemonPrince:Idle#3" value="What a strange doom sits on Gladius."/>
+	<entry name="ChaosGuard/DaemonPrince:Idle#4" value="Come, slaves. Entertain your god!"/>
+	<entry name="ChaosGuard/DaemonPrince:Idle#5" value="Odd, to think that these talons were once mortal hands..."/>
+	<entry name="ChaosGuard/DaemonPrince:IdleCount" value="6"/>
+	<entry name="ChaosGuard/DaemonPrince:Shaken#0" value="I tore the hearts from a thousand men... and this is how you thank me?"/>
+	<entry name="ChaosGuard/DaemonPrince:Shaken#1" value="The warp is calling... "/>
+	<entry name="ChaosGuard/DaemonPrince:Shaken#2" value="...madness takes its toll—I must keep control."/>
+	<entry name="ChaosGuard/DaemonPrince:Shaken#3" value="I have my own special hell for those like you!"/>
+	<entry name="ChaosGuard/DaemonPrince:ShakenCount" value="4"/>
+	<entry name="ChaosGuard/DaemonPrince:Victory#0" value="Another skull for my collection... Khorne can beg."/>
+	<entry name="ChaosGuard/DaemonPrince:Victory#1" value="Heads without eyes... pleasing."/>
+	<entry name="ChaosGuard/DaemonPrince:Victory#2" value="Hold still, mortal— I want to enjoy your death."/>
+	<entry name="ChaosGuard/DaemonPrince:VictoryCount" value="3"/>
+	<entry name="ChaosGuard/Defiler:Attack#0" value="Yes, yes, die mortals, die die."/>
+	<entry name="ChaosGuard/Defiler:Attack#1" value="Closer, claws, calling, come!"/>
+	<entry name="ChaosGuard/Defiler:Attack#2" value="Meet our gods, go meet our gods."/>
+	<entry name="ChaosGuard/Defiler:Attack#3" value="For Chaos, blood, skulls, for Chaos."/>
+	<entry name="ChaosGuard/Defiler:Attack#4" value="Tear and rend... mortality is joy."/>
+	<entry name="ChaosGuard/Defiler:Attack#5" value="Flense, cut, smash, joy, shred!"/>
+	<entry name="ChaosGuard/Defiler:AttackCount" value="6"/>
+	<entry name="ChaosGuard/Defiler:Broken#0" value="Dark gods!"/>
+	<entry name="ChaosGuard/Defiler:Broken#1" value="Losing, losing, hahaha, losing!"/>
+	<entry name="ChaosGuard/Defiler:BrokenCount" value="2"/>
+	<entry name="ChaosGuard/Defiler:Hurt#0" value="Yes, back to the warp, yes, free us."/>
+	<entry name="ChaosGuard/Defiler:Hurt#1" value="Smash my cage, free daemon-I"/>
+	<entry name="ChaosGuard/Defiler:HurtCount" value="2"/>
+	<entry name="ChaosGuard/Defiler:Idle#0" value="Warp, where, warp gone!"/>
+	<entry name="ChaosGuard/Defiler:Idle#1" value="Mustn't kill, runebound, sorcery. Mustn't... want to."/>
+	<entry name="ChaosGuard/Defiler:Idle#2" value="Why not kill, kill, kill, where kill?"/>
+	<entry name="ChaosGuard/Defiler:Idle#3" value="Old ones stink here. Stink dead gods, stink."/>
+	<entry name="ChaosGuard/Defiler:IdleCount" value="4"/>
+	<entry name="ChaosGuard/Defiler:Shaken#0" value="Haha, warp is calling, freeeee."/>
+	<entry name="ChaosGuard/Defiler:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/Defiler:Victory#0" value="Break so easily, snap, sad, more?"/>
+	<entry name="ChaosGuard/Defiler:Victory#1" value="Dead so soon."/>
+	<entry name="ChaosGuard/Defiler:Victory#2" value="To the warp, to the masters' glory."/>
+	<entry name="ChaosGuard/Defiler:Victory#3" value="Little soul. Forge is hot, burning, waiting. For you."/>
+	<entry name="ChaosGuard/Defiler:VictoryCount" value="4"/>
+	<entry name="ChaosGuard/Havoc:Attack#0" value="Annihilation!"/>
+	<entry name="ChaosGuard/Havoc:Attack#1" value="SHOOT BACK COWARDS"/>
+	<entry name="ChaosGuard/Havoc:Attack#2" value="One bolt, two bolts, three bolts, four-"/>
+	<entry name="ChaosGuard/Havoc:Attack#3" value="For the glory of Chaos! For the Dark Mechanicum! For the joy of shooting!"/>
+	<entry name="ChaosGuard/Havoc:Attack#4" value="From hell, we fire!"/>
+	<entry name="ChaosGuard/Havoc:AttackCount" value="5"/>
+	<entry name="ChaosGuard/Havoc:Broken#0" value="Backfired..."/>
+	<entry name="ChaosGuard/Havoc:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/Havoc:Hurt#0" value="Not dead, keep shooting."/>
+	<entry name="ChaosGuard/Havoc:HurtCount" value="1"/>
+	<entry name="ChaosGuard/Havoc:Idle#0" value="When you talk with guns, people listen. When you talk to guns, people run."/>
+	<entry name="ChaosGuard/Havoc:Idle#1" value="My blood is plasma."/>
+	<entry name="ChaosGuard/Havoc:Idle#2" value="Bless the Warp, that gives us such plenty."/>
+	<entry name="ChaosGuard/Havoc:IdleCount" value="3"/>
+	<entry name="ChaosGuard/Havoc:Shaken#0" value="Our guns, not yours. From our cold dead fingers..."/>
+	<entry name="ChaosGuard/Havoc:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/Havoc:Victory#0" value="Shot into peace."/>
+	<entry name="ChaosGuard/Havoc:VictoryCount" value="1"/>
+	<entry name="ChaosGuard/Heldrake:Attack#0" value="HhhrrraaaaaHHHH!"/>
+	<entry name="ChaosGuard/Heldrake:Attack#1" value="Graaarh."/>
+	<entry name="ChaosGuard/Heldrake:Attack#2" value="Arrrrrhhhh."/>
+	<entry name="ChaosGuard/Heldrake:AttackCount" value="3"/>
+	<entry name="ChaosGuard/Heldrake:Broken#0" value="Eeeeeeeeeee!"/>
+	<entry name="ChaosGuard/Heldrake:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/Heldrake:Hurt#0" value="Arkh! Arkh!"/>
+	<entry name="ChaosGuard/Heldrake:HurtCount" value="1"/>
+	<entry name="ChaosGuard/Heldrake:Idle#0" value="Man... once."/>
+	<entry name="ChaosGuard/Heldrake:Idle#1" value="Grrrrhhh."/>
+	<entry name="ChaosGuard/Heldrake:Idle#2" value="Rrrrrrr..."/>
+	<entry name="ChaosGuard/Heldrake:IdleCount" value="3"/>
+	<entry name="ChaosGuard/Heldrake:Shaken#0" value="Eeeeeekh."/>
+	<entry name="ChaosGuard/Heldrake:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/Heldrake:Victory#0" value="HhhrrrrrraaaaaaaHHHHHH!"/>
+	<entry name="ChaosGuard/Heldrake:VictoryCount" value="1"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Attack#0" value="Blood for the Blood God!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Attack#1" value="Khorne wants your skull."/>
+	<entry name="ChaosGuard/KhorneBerzerker:Attack#2" value="My axe longs to taste your blood!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Attack#3" value="Stand and fight, cowards!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Attack#4" value="There is no honor in a warrior's death!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:AttackCount" value="5"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Broken#0" value="Khorne will doom us!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Hurt#0" value="My... My blood for the Blood GOD!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:HurtCount" value="1"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Idle#0" value="WHY DO WE NOT FIGHT?"/>
+	<entry name="ChaosGuard/KhorneBerzerker:IdleCount" value="1"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Shaken#0" value="We will not die easily!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Victory#0" value="BLOOD!"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Victory#1" value="KHORNE CALLS YOU"/>
+	<entry name="ChaosGuard/KhorneBerzerker:Victory#2" value="ALL ARE SKULLS"/>
+	<entry name="ChaosGuard/KhorneBerzerker:VictoryCount" value="3"/>
+	<entry name="ChaosGuard/MasterOfPossession:Attack#0" value="By your true name, I compel you."/>
+	<entry name="ChaosGuard/MasterOfPossession:Attack#1" value="Wherefore your fear? A breach is near."/>
+	<entry name="ChaosGuard/MasterOfPossession:Attack#2" value="My stave hungers, your soul lingers."/>
+	<entry name="ChaosGuard/MasterOfPossession:AttackCount" value="3"/>
+	<entry name="ChaosGuard/MasterOfPossession:Broken#0" value="What lives but will not die?"/>
+	<entry name="ChaosGuard/MasterOfPossession:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/MasterOfPossession:Hurt#0" value="Is this my bone? Fie, I see it none."/>
+	<entry name="ChaosGuard/MasterOfPossession:HurtCount" value="1"/>
+	<entry name="ChaosGuard/MasterOfPossession:Idle#0" value="Useless men and ghosts... we need better hosts."/>
+	<entry name="ChaosGuard/MasterOfPossession:Idle#1" value="Soon the athame, then Fatewalker's true name..."/>
+	<entry name="ChaosGuard/MasterOfPossession:Idle#2" value="Possession is nine tenths of the lore..."/>
+	<entry name="ChaosGuard/MasterOfPossession:Idle#3" value="They will taste the planet's heart, before our time is done."/>
+	<entry name="ChaosGuard/MasterOfPossession:IdleCount" value="4"/>
+	<entry name="ChaosGuard/MasterOfPossession:Shaken#0" value="What is fear, the mindkiller?"/>
+	<entry name="ChaosGuard/MasterOfPossession:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/MasterOfPossession:Victory#0" value="My demons whisper, each to each. They will whisper to you."/>
+	<entry name="ChaosGuard/MasterOfPossession:VictoryCount" value="1"/>
+	<entry name="ChaosGuard/Venomcrawler" value="ChaosGuard/Defiler"/>
+	<entry name="ChaosGuard/WarpTalon:Attack#0" value="...prey..."/>
+	<entry name="ChaosGuard/WarpTalon:AttackCount" value="1"/>
+	<entry name="ChaosGuard/WarpTalon:Broken#0" value="...fear..."/>
+	<entry name="ChaosGuard/WarpTalon:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/WarpTalon:Hurt#0" value="...pain..."/>
+	<entry name="ChaosGuard/WarpTalon:HurtCount" value="1"/>
+	<entry name="ChaosGuard/WarpTalon:Idle#0" value="..."/>
+	<entry name="ChaosGuard/WarpTalon:IdleCount" value="1"/>
+	<entry name="ChaosGuard/WarpTalon:Shaken#0" value="...fear..."/>
+	<entry name="ChaosGuard/WarpTalon:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/WarpTalon:Victory#0" value="...death..."/>
+	<entry name="ChaosGuard/WarpTalon:VictoryCount" value="1"/>
+	<entry name="ChaosGuard/Warpsmith:Attack#0" value="Target diagnostic: you... are not perfect."/>
+	<entry name="ChaosGuard/Warpsmith:Attack#1" value="Cogitators, mechatendrils, armaments: deployed."/>
+	<entry name="ChaosGuard/Warpsmith:Attack#2" value="GOTO target elimination. Execute."/>
+	<entry name="ChaosGuard/Warpsmith:AttackCount" value="3"/>
+	<entry name="ChaosGuard/Warpsmith:Broken#0" value="Damage limitation programme initiate."/>
+	<entry name="ChaosGuard/Warpsmith:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/Warpsmith:Hurt#0" value="Diagnostic: organical/mechanic ERROR"/>
+	<entry name="ChaosGuard/Warpsmith:HurtCount" value="1"/>
+	<entry name="ChaosGuard/Warpsmith:Idle#0" value="Ridiculous Warsmiths. Ridiculous!"/>
+	<entry name="ChaosGuard/Warpsmith:Idle#1" value="Man, machine, daemon—together, perfection."/>
+	<entry name="ChaosGuard/Warpsmith:Idle#2" value="Dear mechatendrils..."/>
+	<entry name="ChaosGuard/Warpsmith:Idle#3" value="Error: emotional core recovery. Delete."/>
+	<entry name="ChaosGuard/Warpsmith:Idle#4" value="Soul Forge, gods, we are your weapons. "/>
+	<entry name="ChaosGuard/Warpsmith:IdleCount" value="5"/>
+	<entry name="ChaosGuard/Warpsmith:Shaken#0" value="Reports: damage sustained. "/>
+	<entry name="ChaosGuard/Warpsmith:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/Warpsmith:Victory#0" value="Assessment: opposition deactivated. Predictable."/>
+	<entry name="ChaosGuard/Warpsmith:VictoryCount" value="1"/>
+	<entry name="ChaosGuard/Helbrute" value="ChaosGuard/Defiler"/>
+	<entry name="ChaosGuard/Maulerfiend" value="ChaosGuard/Defiler"/>
+	<entry name="ChaosGuard/Obliterator" value="ChaosGuard/Havoc"/>
+	<entry name="ChaosGuard/ChaosLandRaider:Attack#0" value="They seek death at our hands."/>
+	<entry name="ChaosGuard/ChaosLandRaider:Attack#1" value="Crush their skulls 'neath our treads!"/>
+	<entry name="ChaosGuard/ChaosLandRaider:Attack#2" value="They seek death at our hands."/>
+	<entry name="ChaosGuard/ChaosLandRaider:AttackCount" value="3"/>
+	<entry name="ChaosGuard/ChaosLandRaider:Broken#0" value="The Dark Gods will damn us for this..."/>
+	<entry name="ChaosGuard/ChaosLandRaider:BrokenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosLandRaider:Hurt#0" value="We will not die here, weaklings!"/>
+	<entry name="ChaosGuard/ChaosLandRaider:HurtCount" value="1"/>
+	<entry name="ChaosGuard/ChaosLandRaider:Idle#0" value="Holding up pretty well for ten thousand years without a service."/>
+	<entry name="ChaosGuard/ChaosLandRaider:Idle#1" value="Dark gods preserve us."/>
+	<entry name="ChaosGuard/ChaosLandRaider:IdleCount" value="2"/>
+	<entry name="ChaosGuard/ChaosLandRaider:Shaken#0" value="Save yourselves..."/>
+	<entry name="ChaosGuard/ChaosLandRaider:ShakenCount" value="1"/>
+	<entry name="ChaosGuard/ChaosLandRaider:Victory#0" value="They're dead. Predictable."/>
+	<entry name="ChaosGuard/ChaosLandRaider:VictoryCount" value="1"/>
+
+	<entry name="traitorguard/ChaosLord:Attack#0" value="Feel ten thousand years of rage."/>
+	<entry name="traitorguard/ChaosLord:Attack#1" value="In the name of the Dark Gods"/>
+	<entry name="traitorguard/ChaosLord:Attack#2" value="Kneel before your lord!"/>
+	<entry name="traitorguard/ChaosLord:Attack#3" value="Die weaklings! Die scum!"/>
+	<entry name="traitorguard/ChaosLord:Attack#4" value="For the glory of Chaos!"/>
+	<entry name="traitorguard/ChaosLord:AttackCount" value="5"/>
+	<entry name="traitorguard/ChaosLord:Broken#0" value="I will die not here!"/>
+	<entry name="traitorguard/ChaosLord:Broken#1" value="Back to the Eye!"/>
+	<entry name="traitorguard/ChaosLord:BrokenCount" value="2"/>
+	<entry name="traitorguard/ChaosLord:Hurt#0" value="What, you hurt ME?"/>
+	<entry name="traitorguard/ChaosLord:HurtCount" value="1"/>
+	<entry name="traitorguard/ChaosLord:Idle#0" value="Whilst we stand idle, Imperials yet live."/>
+	<entry name="traitorguard/ChaosLord:Idle#1" value="Do you remember? His blood stained every wall."/>
+	<entry name="traitorguard/ChaosLord:Idle#2" value="Such joy, in seeing an angel fallen."/>
+	<entry name="traitorguard/ChaosLord:Idle#3" value="Screams or songs, they are one to me."/>
+	<entry name="traitorguard/ChaosLord:Idle#4" value="Was it worth it, the damnation?"/>
+	<entry name="traitorguard/ChaosLord:IdleCount" value="5"/>
+	<entry name="traitorguard/ChaosLord:Shaken#0" value="WHO DARES?"/>
+	<entry name="traitorguard/ChaosLord:Shaken#1" value="I will lie to avenge this."/>
+	<entry name="traitorguard/ChaosLord:ShakenCount" value="2"/>
+	<entry name="traitorguard/ChaosLord:Victory#0" value="I dedicate this death to the gods."/>
+	<entry name="traitorguard/ChaosLord:Victory#1" value="Is that all? Dotards!"/>
+	<entry name="traitorguard/ChaosLord:Victory#2" value="Victory is ash in my mouth whilst the Imperium stands."/>
+	<entry name="traitorguard/ChaosLord:VictoryCount" value="3"/>
+	<entry name="traitorguard/ChaosRhino:Attack#0" value="What idiot sends us to war?"/>
+	<entry name="traitorguard/ChaosRhino:Attack#1" value="Grind their bones to dust."/>
+	<entry name="traitorguard/ChaosRhino:Attack#2" value="Drive faster!"/>
+	<entry name="traitorguard/ChaosRhino:AttackCount" value="3"/>
+	<entry name="traitorguard/ChaosRhino:Broken#0" value="Flee! We'll kill them another day."/>
+	<entry name="traitorguard/ChaosRhino:BrokenCount" value="1"/>
+	<entry name="traitorguard/ChaosRhino:Hurt#0" value="Who's putting holes in our armour?"/>
+	<entry name="traitorguard/ChaosRhino:HurtCount" value="1"/>
+	<entry name="traitorguard/ChaosRhino:Idle#0" value="Who'd be a Rhino driver?"/>
+	<entry name="traitorguard/ChaosRhino:Idle#1" value="Driving the Lord to war, yawwwn."/>
+	<entry name="traitorguard/ChaosRhino:IdleCount" value="2"/>
+	<entry name="traitorguard/ChaosRhino:Shaken#0" value="Damnation, for this?"/>
+	<entry name="traitorguard/ChaosRhino:ShakenCount" value="1"/>
+	<entry name="traitorguard/ChaosRhino:Victory#0" value="You couldn't even beat a Rhino?"/>
+	<entry name="traitorguard/ChaosRhino:VictoryCount" value="1"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Attack#0" value="Scream! Your doom is come!"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Attack#1" value="I am pure in my hatred. Come test it!"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Attack#2" value="I was the Emperor's son, you cannot stand against me!"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Attack#3" value="Hahahaha! DIE!"/>
+	<entry name="traitorguard/ChaosSpaceMarine:AttackCount" value="4"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Broken#0" value="We are unbound and undone, we must flee!"/>
+	<entry name="traitorguard/ChaosSpaceMarine:BrokenCount" value="1"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Hurt#0" value="Dark Gods protect us."/>
+	<entry name="traitorguard/ChaosSpaceMarine:HurtCount" value="1"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Idle#0" value="Can I stand another ten thousand years of this?"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Idle#1" value="Pass me another civilian. I'm out of ink."/>
+	<entry name="traitorguard/ChaosSpaceMarine:Idle#2" value="Why do they still shelter their corpse-Emperor?"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Idle#3" value="Endless war, endless joy."/>
+	<entry name="traitorguard/ChaosSpaceMarine:IdleCount" value="4"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Shaken#0" value="We are... losing?"/>
+	<entry name="traitorguard/ChaosSpaceMarine:ShakenCount" value="1"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Victory#0" value="So fall all enemies of Abaddon!"/>
+	<entry name="traitorguard/ChaosSpaceMarine:Victory#1" value="Another step towards ruling this galaxy... our birthright."/>
+	<entry name="traitorguard/ChaosSpaceMarine:Victory#2" value="Your death is nothing to me."/>
+	<entry name="traitorguard/ChaosSpaceMarine:VictoryCount" value="3"/>
+	<entry name="traitorguard/ChaosSpawn:Attack#0" value="...The widening gyre..."/>
+	<entry name="traitorguard/ChaosSpawn:Attack#1" value="*gibbers*"/>
+	<entry name="traitorguard/ChaosSpawn:Attack#2" value="ahhhhaahhhh"/>
+	<entry name="traitorguard/ChaosSpawn:AttackCount" value="3"/>
+	<entry name="traitorguard/ChaosSpawn:Broken#0" value="..."/>
+	<entry name="traitorguard/ChaosSpawn:BrokenCount" value="1"/>
+	<entry name="traitorguard/ChaosSpawn:Hurt#0" value="..."/>
+	<entry name="traitorguard/ChaosSpawn:HurtCount" value="1"/>
+	<entry name="traitorguard/ChaosSpawn:Idle#0" value="...an eternity of madness..?"/>
+	<entry name="traitorguard/ChaosSpawn:Idle#1" value="ehaahahaahaha"/>
+	<entry name="traitorguard/ChaosSpawn:Idle#2" value="mmmm mmmm"/>
+	<entry name="traitorguard/ChaosSpawn:Idle#3" value="...slouching to bedlam..."/>
+	<entry name="traitorguard/ChaosSpawn:Idle#4" value="nnnhhhrrr."/>
+	<entry name="traitorguard/ChaosSpawn:IdleCount" value="5"/>
+	<entry name="traitorguard/ChaosSpawn:Shaken#0" value="eh"/>
+	<entry name="traitorguard/ChaosSpawn:ShakenCount" value="1"/>
+	<entry name="traitorguard/ChaosSpawn:Victory#0" value="ach"/>
+	<entry name="traitorguard/ChaosSpawn:VictoryCount" value="1"/>
+	<entry name="traitorguard/DaemonPrince:Attack#0" value="The warp touches you, little ones."/>
+	<entry name="traitorguard/DaemonPrince:Attack#1" value="Feel the power of a god-to-be!"/>
+	<entry name="traitorguard/DaemonPrince:Attack#2" value="Playthings, puppets, fall!"/>
+	<entry name="traitorguard/DaemonPrince:Attack#3" value="Ahahahahaha."/>
+	<entry name="traitorguard/DaemonPrince:AttackCount" value="4"/>
+	<entry name="traitorguard/DaemonPrince:Broken#0" value="It can't be, defeated, by-"/>
+	<entry name="traitorguard/DaemonPrince:BrokenCount" value="1"/>
+	<entry name="traitorguard/DaemonPrince:Hurt#0" value="YOU DARE CONTEND WITH ME"/>
+	<entry name="traitorguard/DaemonPrince:HurtCount" value="1"/>
+	<entry name="traitorguard/DaemonPrince:Idle#0" value="...what fools these mortals be!"/>
+	<entry name="traitorguard/DaemonPrince:Idle#1" value="The physical plane... I have missed it."/>
+	<entry name="traitorguard/DaemonPrince:Idle#2" value="Strange, a world that doesn't shift form at whim."/>
+	<entry name="traitorguard/DaemonPrince:Idle#3" value="What a strange doom sits on Gladius."/>
+	<entry name="traitorguard/DaemonPrince:Idle#4" value="Come, slaves. Entertain your god!"/>
+	<entry name="traitorguard/DaemonPrince:Idle#5" value="Odd, to think that these talons were once mortal hands..."/>
+	<entry name="traitorguard/DaemonPrince:IdleCount" value="6"/>
+	<entry name="traitorguard/DaemonPrince:Shaken#0" value="I tore the hearts from a thousand men... and this is how you thank me?"/>
+	<entry name="traitorguard/DaemonPrince:Shaken#1" value="The warp is calling... "/>
+	<entry name="traitorguard/DaemonPrince:Shaken#2" value="...madness takes its toll—I must keep control."/>
+	<entry name="traitorguard/DaemonPrince:Shaken#3" value="I have my own special hell for those like you!"/>
+	<entry name="traitorguard/DaemonPrince:ShakenCount" value="4"/>
+	<entry name="traitorguard/DaemonPrince:Victory#0" value="Another skull for my collection... Khorne can beg."/>
+	<entry name="traitorguard/DaemonPrince:Victory#1" value="Heads without eyes... pleasing."/>
+	<entry name="traitorguard/DaemonPrince:Victory#2" value="Hold still, mortal— I want to enjoy your death."/>
+	<entry name="traitorguard/DaemonPrince:VictoryCount" value="3"/>
+	<entry name="traitorguard/Defiler:Attack#0" value="Yes, yes, die mortals, die die."/>
+	<entry name="traitorguard/Defiler:Attack#1" value="Closer, claws, calling, come!"/>
+	<entry name="traitorguard/Defiler:Attack#2" value="Meet our gods, go meet our gods."/>
+	<entry name="traitorguard/Defiler:Attack#3" value="For Chaos, blood, skulls, for Chaos."/>
+	<entry name="traitorguard/Defiler:Attack#4" value="Tear and rend... mortality is joy."/>
+	<entry name="traitorguard/Defiler:Attack#5" value="Flense, cut, smash, joy, shred!"/>
+	<entry name="traitorguard/Defiler:AttackCount" value="6"/>
+	<entry name="traitorguard/Defiler:Broken#0" value="Dark gods!"/>
+	<entry name="traitorguard/Defiler:Broken#1" value="Losing, losing, hahaha, losing!"/>
+	<entry name="traitorguard/Defiler:BrokenCount" value="2"/>
+	<entry name="traitorguard/Defiler:Hurt#0" value="Yes, back to the warp, yes, free us."/>
+	<entry name="traitorguard/Defiler:Hurt#1" value="Smash my cage, free daemon-I"/>
+	<entry name="traitorguard/Defiler:HurtCount" value="2"/>
+	<entry name="traitorguard/Defiler:Idle#0" value="Warp, where, warp gone!"/>
+	<entry name="traitorguard/Defiler:Idle#1" value="Mustn't kill, runebound, sorcery. Mustn't... want to."/>
+	<entry name="traitorguard/Defiler:Idle#2" value="Why not kill, kill, kill, where kill?"/>
+	<entry name="traitorguard/Defiler:Idle#3" value="Old ones stink here. Stink dead gods, stink."/>
+	<entry name="traitorguard/Defiler:IdleCount" value="4"/>
+	<entry name="traitorguard/Defiler:Shaken#0" value="Haha, warp is calling, freeeee."/>
+	<entry name="traitorguard/Defiler:ShakenCount" value="1"/>
+	<entry name="traitorguard/Defiler:Victory#0" value="Break so easily, snap, sad, more?"/>
+	<entry name="traitorguard/Defiler:Victory#1" value="Dead so soon."/>
+	<entry name="traitorguard/Defiler:Victory#2" value="To the warp, to the masters' glory."/>
+	<entry name="traitorguard/Defiler:Victory#3" value="Little soul. Forge is hot, burning, waiting. For you."/>
+	<entry name="traitorguard/Defiler:VictoryCount" value="4"/>
+	<entry name="traitorguard/Havoc:Attack#0" value="Annihilation!"/>
+	<entry name="traitorguard/Havoc:Attack#1" value="SHOOT BACK COWARDS"/>
+	<entry name="traitorguard/Havoc:Attack#2" value="One bolt, two bolts, three bolts, four-"/>
+	<entry name="traitorguard/Havoc:Attack#3" value="For the glory of Chaos! For the Dark Mechanicum! For the joy of shooting!"/>
+	<entry name="traitorguard/Havoc:Attack#4" value="From hell, we fire!"/>
+	<entry name="traitorguard/Havoc:AttackCount" value="5"/>
+	<entry name="traitorguard/Havoc:Broken#0" value="Backfired..."/>
+	<entry name="traitorguard/Havoc:BrokenCount" value="1"/>
+	<entry name="traitorguard/Havoc:Hurt#0" value="Not dead, keep shooting."/>
+	<entry name="traitorguard/Havoc:HurtCount" value="1"/>
+	<entry name="traitorguard/Havoc:Idle#0" value="When you talk with guns, people listen. When you talk to guns, people run."/>
+	<entry name="traitorguard/Havoc:Idle#1" value="My blood is plasma."/>
+	<entry name="traitorguard/Havoc:Idle#2" value="Bless the Warp, that gives us such plenty."/>
+	<entry name="traitorguard/Havoc:IdleCount" value="3"/>
+	<entry name="traitorguard/Havoc:Shaken#0" value="Our guns, not yours. From our cold dead fingers..."/>
+	<entry name="traitorguard/Havoc:ShakenCount" value="1"/>
+	<entry name="traitorguard/Havoc:Victory#0" value="Shot into peace."/>
+	<entry name="traitorguard/Havoc:VictoryCount" value="1"/>
+	<entry name="traitorguard/Heldrake:Attack#0" value="HhhrrraaaaaHHHH!"/>
+	<entry name="traitorguard/Heldrake:Attack#1" value="Graaarh."/>
+	<entry name="traitorguard/Heldrake:Attack#2" value="Arrrrrhhhh."/>
+	<entry name="traitorguard/Heldrake:AttackCount" value="3"/>
+	<entry name="traitorguard/Heldrake:Broken#0" value="Eeeeeeeeeee!"/>
+	<entry name="traitorguard/Heldrake:BrokenCount" value="1"/>
+	<entry name="traitorguard/Heldrake:Hurt#0" value="Arkh! Arkh!"/>
+	<entry name="traitorguard/Heldrake:HurtCount" value="1"/>
+	<entry name="traitorguard/Heldrake:Idle#0" value="Man... once."/>
+	<entry name="traitorguard/Heldrake:Idle#1" value="Grrrrhhh."/>
+	<entry name="traitorguard/Heldrake:Idle#2" value="Rrrrrrr..."/>
+	<entry name="traitorguard/Heldrake:IdleCount" value="3"/>
+	<entry name="traitorguard/Heldrake:Shaken#0" value="Eeeeeekh."/>
+	<entry name="traitorguard/Heldrake:ShakenCount" value="1"/>
+	<entry name="traitorguard/Heldrake:Victory#0" value="HhhrrrrrraaaaaaaHHHHHH!"/>
+	<entry name="traitorguard/Heldrake:VictoryCount" value="1"/>
+	<entry name="traitorguard/KhorneBerzerker:Attack#0" value="Blood for the Blood God!"/>
+	<entry name="traitorguard/KhorneBerzerker:Attack#1" value="Khorne wants your skull."/>
+	<entry name="traitorguard/KhorneBerzerker:Attack#2" value="My axe longs to taste your blood!"/>
+	<entry name="traitorguard/KhorneBerzerker:Attack#3" value="Stand and fight, cowards!"/>
+	<entry name="traitorguard/KhorneBerzerker:Attack#4" value="There is no honor in a warrior's death!"/>
+	<entry name="traitorguard/KhorneBerzerker:AttackCount" value="5"/>
+	<entry name="traitorguard/KhorneBerzerker:Broken#0" value="Khorne will doom us!"/>
+	<entry name="traitorguard/KhorneBerzerker:BrokenCount" value="1"/>
+	<entry name="traitorguard/KhorneBerzerker:Hurt#0" value="My... My blood for the Blood GOD!"/>
+	<entry name="traitorguard/KhorneBerzerker:HurtCount" value="1"/>
+	<entry name="traitorguard/KhorneBerzerker:Idle#0" value="WHY DO WE NOT FIGHT?"/>
+	<entry name="traitorguard/KhorneBerzerker:IdleCount" value="1"/>
+	<entry name="traitorguard/KhorneBerzerker:Shaken#0" value="We will not die easily!"/>
+	<entry name="traitorguard/KhorneBerzerker:ShakenCount" value="1"/>
+	<entry name="traitorguard/KhorneBerzerker:Victory#0" value="BLOOD!"/>
+	<entry name="traitorguard/KhorneBerzerker:Victory#1" value="KHORNE CALLS YOU"/>
+	<entry name="traitorguard/KhorneBerzerker:Victory#2" value="ALL ARE SKULLS"/>
+	<entry name="traitorguard/KhorneBerzerker:VictoryCount" value="3"/>
+	<entry name="traitorguard/MasterOfPossession:Attack#0" value="By your true name, I compel you."/>
+	<entry name="traitorguard/MasterOfPossession:Attack#1" value="Wherefore your fear? A breach is near."/>
+	<entry name="traitorguard/MasterOfPossession:Attack#2" value="My stave hungers, your soul lingers."/>
+	<entry name="traitorguard/MasterOfPossession:AttackCount" value="3"/>
+	<entry name="traitorguard/MasterOfPossession:Broken#0" value="What lives but will not die?"/>
+	<entry name="traitorguard/MasterOfPossession:BrokenCount" value="1"/>
+	<entry name="traitorguard/MasterOfPossession:Hurt#0" value="Is this my bone? Fie, I see it none."/>
+	<entry name="traitorguard/MasterOfPossession:HurtCount" value="1"/>
+	<entry name="traitorguard/MasterOfPossession:Idle#0" value="Useless men and ghosts... we need better hosts."/>
+	<entry name="traitorguard/MasterOfPossession:Idle#1" value="Soon the athame, then Fatewalker's true name..."/>
+	<entry name="traitorguard/MasterOfPossession:Idle#2" value="Possession is nine tenths of the lore..."/>
+	<entry name="traitorguard/MasterOfPossession:Idle#3" value="They will taste the planet's heart, before our time is done."/>
+	<entry name="traitorguard/MasterOfPossession:IdleCount" value="4"/>
+	<entry name="traitorguard/MasterOfPossession:Shaken#0" value="What is fear, the mindkiller?"/>
+	<entry name="traitorguard/MasterOfPossession:ShakenCount" value="1"/>
+	<entry name="traitorguard/MasterOfPossession:Victory#0" value="My demons whisper, each to each. They will whisper to you."/>
+	<entry name="traitorguard/MasterOfPossession:VictoryCount" value="1"/>
+	<entry name="traitorguard/Venomcrawler" value="traitorguard/Defiler"/>
+	<entry name="traitorguard/WarpTalon:Attack#0" value="...prey..."/>
+	<entry name="traitorguard/WarpTalon:AttackCount" value="1"/>
+	<entry name="traitorguard/WarpTalon:Broken#0" value="...fear..."/>
+	<entry name="traitorguard/WarpTalon:BrokenCount" value="1"/>
+	<entry name="traitorguard/WarpTalon:Hurt#0" value="...pain..."/>
+	<entry name="traitorguard/WarpTalon:HurtCount" value="1"/>
+	<entry name="traitorguard/WarpTalon:Idle#0" value="..."/>
+	<entry name="traitorguard/WarpTalon:IdleCount" value="1"/>
+	<entry name="traitorguard/WarpTalon:Shaken#0" value="...fear..."/>
+	<entry name="traitorguard/WarpTalon:ShakenCount" value="1"/>
+	<entry name="traitorguard/WarpTalon:Victory#0" value="...death..."/>
+	<entry name="traitorguard/WarpTalon:VictoryCount" value="1"/>
+	<entry name="traitorguard/Warpsmith:Attack#0" value="Target diagnostic: you... are not perfect."/>
+	<entry name="traitorguard/Warpsmith:Attack#1" value="Cogitators, mechatendrils, armaments: deployed."/>
+	<entry name="traitorguard/Warpsmith:Attack#2" value="GOTO target elimination. Execute."/>
+	<entry name="traitorguard/Warpsmith:AttackCount" value="3"/>
+	<entry name="traitorguard/Warpsmith:Broken#0" value="Damage limitation programme initiate."/>
+	<entry name="traitorguard/Warpsmith:BrokenCount" value="1"/>
+	<entry name="traitorguard/Warpsmith:Hurt#0" value="Diagnostic: organical/mechanic ERROR"/>
+	<entry name="traitorguard/Warpsmith:HurtCount" value="1"/>
+	<entry name="traitorguard/Warpsmith:Idle#0" value="Ridiculous Warsmiths. Ridiculous!"/>
+	<entry name="traitorguard/Warpsmith:Idle#1" value="Man, machine, daemon—together, perfection."/>
+	<entry name="traitorguard/Warpsmith:Idle#2" value="Dear mechatendrils..."/>
+	<entry name="traitorguard/Warpsmith:Idle#3" value="Error: emotional core recovery. Delete."/>
+	<entry name="traitorguard/Warpsmith:Idle#4" value="Soul Forge, gods, we are your weapons. "/>
+	<entry name="traitorguard/Warpsmith:IdleCount" value="5"/>
+	<entry name="traitorguard/Warpsmith:Shaken#0" value="Reports: damage sustained. "/>
+	<entry name="traitorguard/Warpsmith:ShakenCount" value="1"/>
+	<entry name="traitorguard/Warpsmith:Victory#0" value="Assessment: opposition deactivated. Predictable."/>
+	<entry name="traitorguard/Warpsmith:VictoryCount" value="1"/>
+	<entry name="traitorguard/Helbrute" value="traitorguard/Defiler"/>
+	<entry name="traitorguard/Maulerfiend" value="traitorguard/Defiler"/>
+	<entry name="traitorguard/Obliterator" value="traitorguard/Havoc"/>
+	<entry name="traitorguard/ChaosLandRaider:Attack#0" value="They seek death at our hands."/>
+	<entry name="traitorguard/ChaosLandRaider:Attack#1" value="Crush their skulls 'neath our treads!"/>
+	<entry name="traitorguard/ChaosLandRaider:Attack#2" value="They seek death at our hands."/>
+	<entry name="traitorguard/ChaosLandRaider:AttackCount" value="3"/>
+	<entry name="traitorguard/ChaosLandRaider:Broken#0" value="The Dark Gods will damn us for this..."/>
+	<entry name="traitorguard/ChaosLandRaider:BrokenCount" value="1"/>
+	<entry name="traitorguard/ChaosLandRaider:Hurt#0" value="We will not die here, weaklings!"/>
+	<entry name="traitorguard/ChaosLandRaider:HurtCount" value="1"/>
+	<entry name="traitorguard/ChaosLandRaider:Idle#0" value="Holding up pretty well for ten thousand years without a service."/>
+	<entry name="traitorguard/ChaosLandRaider:Idle#1" value="Dark gods preserve us."/>
+	<entry name="traitorguard/ChaosLandRaider:IdleCount" value="2"/>
+	<entry name="traitorguard/ChaosLandRaider:Shaken#0" value="Save yourselves..."/>
+	<entry name="traitorguard/ChaosLandRaider:ShakenCount" value="1"/>
+	<entry name="traitorguard/ChaosLandRaider:Victory#0" value="They're dead. Predictable."/>
+	<entry name="traitorguard/ChaosLandRaider:VictoryCount" value="1"/>
+</language>

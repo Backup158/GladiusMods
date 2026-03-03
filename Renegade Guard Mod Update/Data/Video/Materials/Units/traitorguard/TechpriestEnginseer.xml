@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/TechpriestEnginseerDiffuse"/>
+		<texture name="Units/ChaosGuard/TechpriestEnginseerNormal"/>
+		<texture name="Units/ChaosGuard/TechpriestEnginseerSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

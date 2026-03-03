@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction actionsTitle="GUI/CALL"
+		constructSound="Actions/Construct"
+		dlc="Supplement3"
+		energy="1"
+		energyPooling="0.25"
+		influence="1"
+		food="1"
+		loyalty="1"
+		ore="1"
+		playable="1"
+		production="1"
+		research="1"
+		startingEnergy="25"
+		startingFood="25"
+		startingInfluence="25"
+		startingOre="25"
+		startingRequisitions="75">
+
+	<music>
+		<track name="Music/AstraMilitarumBGM"/>
+		<track name="Music/AstraMilitarumTheme"/>
+		<track name="Music/BGM0"/>
+		<track name="Music/BGM1"/>
+		<track name="Music/ChaosGuardTheme"/>
+		<mainTrack name="Music/ChaosSpaceMarinesBGM" dlc="Supplement3"/>
+		<track name="Music/ChaosSpaceMarinesTheme" dlc="Supplement3"/>
+		<track name="Music/MainBGM"/>
+		<track name="Music/MainTheme"/>
+		<track name="Music/MenuTheme"/>
+		<track name="Music/MenuTheme2"/>
+		<track name="Music/NecronsBGM"/>
+		<track name="Music/NecronsTheme"/>
+		<track name="Music/OrksBGM"/>
+		<track name="Music/OrksTheme"/>
+		<mainTrack name="Music/SistersOfBattleBGM" dlc="Supplement11"/>
+		<track name="Music/SistersOfBattleTheme" dlc="Supplement11"/>
+		<track name="Music/SpaceMarinesBGM"/>
+		<track name="Music/SpaceMarinesTheme"/>
+		<track name="Music/TauBGM" dlc="Supplement5"/>
+		<track name="Music/TauTheme" dlc="Supplement5"/>
+		<track name="Music/TyranidsBGM" dlc="Supplement2"/>
+		<track name="Music/TyranidsTheme" dlc="Supplement2"/>
+		<track name="Music/EldarTheme" dlc="Supplement7"/>
+		</music>
+	<quests>
+		<quest name="ChaosGuard/Story0" icon="Quests/ChaosGuard/Chapter0"
+				firstTurn="2" lastTurn="2">
+			<stages>
+				<stage>
+					<objectives>
+						<produceUnit unitType="ChaosGuard/Guardsman"
+								ignoreExisting="1"/>
+									</objectives>
+					<rewards>
+						<influence amount="500"/>
+					</rewards>
+				</stage>
+				<stage>
+<startRewards>
+						<upgrade name="ChaosGuard/ChaosDevotion"/>
+					</startRewards>			
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<influence amount="50"/>
+					</rewards>					
+				</stage>
+			</stages>
+		</quest>
+		<quest name="ChaosGuard/Story1" icon="Quests/ChaosGuard/Chapter1"
+				firstTurn="2" lastTurn="3">
+			<conditions>
+				<quests>
+					<completed name="ChaosGuard/Story0"/>
+				</quests>
+			</conditions>	
+			<stages>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<item type="ScrollsOfMagnus"/>
+					</rewards>
+				</stage>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<research amount="50"/>
+					</rewards>
+				</stage>
+			</stages>
+		</quest>
+		<quest name="ChaosGuard/Story2" icon="Quests/ChaosGuard/Chapter2"
+				firstTurn="40" lastTurn="50">
+			<conditions>
+				<quests>
+					<completed name="ChaosGuard/Story1"/>
+				</quests>
+			</conditions>	
+			<stages>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<item type="BlightGrenade" amount="2"/>
+					</rewards>
+				</stage>
+				<stage>
+					<objectives>
+						<killCamp strength="4"
+								relativeStrength="0.5"
+								faction="Tyranids">
+							<boss type="Tyranids/Headquarters" name="Units/Tyranids/ChaosQuestCamp"/>
+							<defenders>
+								<unit type="Tyranids/Termagant" count="1" rankMin="2" rankMax="4"/>
+								<unit type="Tyranids/Hormagaunt" count="1" rankMin="2" rankMax="4"/>
+								<unit type="Tyranids/Ravener" count="1" rankMin="2" rankMax="4"/>
+								<unit type="Tyranids/Warrior" count="1" rankMin="2" rankMax="4"/>
+							</defenders>
+						</killCamp>
+					</objectives>
+					<rewards>
+						<food amount="100"/>
+					</rewards>
+				</stage>
+			</stages>
+		</quest>		
+		<quest name="ChaosGuard/Story3" icon="Quests/ChaosGuard/Chapter3"
+				firstTurn="60" lastTurn="70">
+			<conditions>
+				<quests>
+					<completed name="ChaosGuard/Story2"/>
+				</quests>
+			</conditions>				
+			<stages>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<item type="AxeOfBlindFury"/>
+					</rewards>
+				</stage>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<energy amount="50"/>
+					</rewards>
+				</stage>
+				<stage>
+					<objectives>
+						<killCamp strength="4"
+								relativeStrength="0.5"
+								faction="Orks">
+							<boss type="Orks/Headquarters" name="Units/Orks/ChaosQuestCamp"/>
+							<defenders>
+								<unit type="Orks/Boy" count="1" rankMin="3" rankMax="5"/>
+								<unit type="Orks/FlashGitz" count="1" rankMin="3" rankMax="5"/>
+								<unit type="Orks/Tankbusta" count="1" rankMin="3" rankMax="5"/>
+								<unit type="Orks/Warbuggy" count="1" rankMin="3" rankMax="5"/>
+								<unit type="Orks/KillaKan" count="1" rankMin="3" rankMax="5"/>
+								<unit type="Orks/Battlewagon" count="1" rankMin="3" rankMax="5"/>
+							</defenders>
+						</killCamp>
+					</objectives>
+					<rewards>
+						<ore amount="100"/>
+					</rewards>
+				</stage>
+			</stages>
+		</quest>		
+		<quest name="ChaosGuard/Story4" icon="Quests/ChaosGuard/Chapter4"
+				firstTurn="80" lastTurn="90">
+			<conditions>
+				<quests>
+					<completed name="ChaosGuard/Story3"/>
+				</quests>
+			</conditions>				
+			<stages>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<item type="TantalisingIcon"/>
+					</rewards>
+				</stage>
+				<stage>
+					<objectives>
+						<killCamp strength="8"
+								relativeStrength="1"
+								faction="Necrons">
+							<boss type="Necrons/Headquarters" name="Units/Necrons/ChaosQuestCamp"/>
+							<defenders>
+								<unit type="Necrons/Warrior" count="1" rankMin="4" rankMax="6"/>
+								<unit type="Necrons/HeavyDestroyer" count="1" rankMin="4" rankMax="6"/>
+								<unit type="Necrons/TriarchPraetorian" count="1" rankMin="4" rankMax="6"/>
+								<unit type="Necrons/TombBlade" count="1" rankMin="4" rankMax="6"/>
+								<unit type="Necrons/AnnihilationBarge" count="1" rankMin="4" rankMax="6"/>
+								<unit type="Necrons/DoomsdayArk" count="1" rankMin="4" rankMax="6"/>
+							</defenders>
+						</killCamp>
+					</objectives>
+					<rewards>
+						<energy amount="100"/>
+					</rewards>
+				</stage>
+			</stages>
+		</quest>		
+		<quest name="ChaosGuard/Story5" icon="Quests/ChaosGuard/Chapter5"
+				firstTurn="100" lastTurn="110">
+			<conditions>
+				<quests>
+					<completed name="ChaosGuard/Story4"/>
+				</quests>
+			</conditions>	
+			<stages>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<influence amount="200"/>
+					</rewards>
+				</stage>
+				<stage>
+					<objectives>
+						<surviveInvasion waves="10" waveInterval="2" strength="5" relativeStrength="0.125">
+							<attackers>
+								<unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="10"/>
+							</attackers>
+						</surviveInvasion>
+					</objectives>
+					<rewards>
+						<victory/>
+					</rewards>
+				</stage>
+			</stages>
+		</quest>		
+		<quest name="LordOfSkulls" icon="Units/Neutral/LordOfSkulls">
+			<stages>
+				<stage>
+					<objectives>
+						<killLordOfSkulls unitType="Neutral/LordOfSkulls"/>
+					</objectives>
+					<rewards>
+						<playerTrait name="SkullsForTheSkullThrone"/>
+					</rewards>
+				</stage>
+			</stages>
+		</quest>
+	</quests>
+<actions>
+	<markOfNurgle cooldown="1"
+				name="ChaosGuard/MarkOfNurgle">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="nurgleguard"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="Vehicle"/>
+							<noTrait name="ChaosGuard/MarkOfKhorne"/>
+							<noTrait name="ChaosGuard/MarkOfNurgle"/>
+							<noTrait name="ChaosGuard/MarkOfSlaanesh"/>
+							<noTrait name="ChaosGuard/MarkOfTzeentch"/>
+							<noTrait name="khorneguard/MarkOfKhorne"/>
+							<noTrait name="nurgleguard/MarkOfNurgle"/>
+							<noTrait name="slaguard/MarkOfSlaanesh"/>
+							<noTrait name="tzeguard/MarkOfTzeentch"/>
+							<noTrait name="LostGuard/MarkOfMalice"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosGuard/MarkOfNurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfNurgle>
+	<iconOfDespair cooldown="1"
+				name="ChaosGuard/IconOfDespair"
+				requiredUpgrade="nurgleguard/IconOfDespair">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<allied/>
+							<trait name="ChaosGuard/MarkOfNurgle"/>
+							<noTrait name="ChaosGuard/IconOfDespair"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosGuard/IconOfDespair"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</iconOfDespair>
+
+	<subvertCity cooldown="10"
+				name="nurgleguard/Peste">
+			<model>
+				<action sound="Actions/SubvertCity"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<enemy/>
+							<trait name="Headquarters"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="City">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="nurgleguard/Peste" duration="10"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</subvertCity>
+	<convertWildlife cooldown="3"
+				name="ChaosGuard/ConvertWildlife">
+			<model>
+				<action sound="Actions/ConvertWildlife"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<enemy/>
+							<noTrait name="Enslaved"/>
+						</unit>
+						<unit match="Any">
+							<type name="AstraMilitarum/Guardsman"/>
+							<type name="Eldar/Guardian"/>
+							<type name="Necrons/Warrior"/>
+							<type name="Orks/Boy"/>
+							<type name="SpaceMarines/TacticalSpaceMarine"/>
+							<type name="Tau/FireWarrior"/>
+							<type name="Tyranids/Hormagaunt"/>
+							<type name="AdeptusMechanicus/SkitariiVanguard"/>
+							<type name="SistersOfBattle/BattleSister"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<changePlayer/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</convertWildlife>
+<deployFortress cooldown="20"
+				cooldownScalesWithPace="1"
+				icon="Units/ChaosGuard/ImperialStrongpoint"
+				scaleInfluenceCost="1"
+				unit="ChaosGuard/ImperialStrongpoint">
+			<model>
+				<action sound="Actions/DropPod"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+				</target>
+			</beginTargets>
+		</deployFortress>
+	
+		</actions>
+	<startingUnits>
+		<unit type="nurgleguard/Guardsmannurgle" count="1"/>
+	
+		<unit type="nurgleguard/ChaosCultist" count="2"/>
+
+
+
+	</startingUnits>
+</faction>
+

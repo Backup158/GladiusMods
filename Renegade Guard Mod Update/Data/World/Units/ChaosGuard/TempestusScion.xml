@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement1">
+	<model>
+		<unit mesh="Units/AstraMilitarum/TempestusScion"
+				material="Units/ChaosGuard/TempestusScion"
+				idleAnimation="Units/AstraMilitarum/TempestusScionIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.1 1.1 1.1"
+				bloodBone="BloodBone"
+				walker="1"/>
+	</model>
+	<group size="6" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="HotShotLasgun">
+			<model>
+				<beamWeapon muzzleBone=".Muzzle"
+						fireInterval="0.3"/>
+			</model>
+		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="BloodBone"/>
+			</model>
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="BloodBone"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+				<requisitionsUpkeep base="4.0"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
+
+				<requisitionsCost base="20.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
+				<influenceUpkeep base="1"/> <!-- %influenceUpkeep base tier=4 factor=1 -->
+				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="1"/>
+				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionAttack"
+						beginFire="1.0" endFire="2.0"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionDie"
+						animationCount="2"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.6"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="ChaosGuard/FragGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionGrenade"
+						beginFire="0.833333333333"/>
+			</model>
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="ChaosGuard/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="ChaosGuard/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<damaged/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+	</actions>
+	<traits>
+		<trait name="ChaosGuard/MightMakesRight"/>
+		<trait name="ChaosGuard/Scavenger"/>	
+		<trait name="ExtraInfantryArmour" requiredUpgrade="ChaosGuard/ExtraInfantryArmour"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosGuard/VeteransOfTheLongWar"/>
+		<trait name="ChaosGuard/VeteransOfTheLongWar2" requiredUpgrade="ChaosGuard/VeteransOfTheLongWar2"/>
+		<trait name="ChaosGuard/InfantryUpkeep" requiredUpgrade="ChaosGuard/ChaosDevotion"/>
+
+	</traits>
+</unit>

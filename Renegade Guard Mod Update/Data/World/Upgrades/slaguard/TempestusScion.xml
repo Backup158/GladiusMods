@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="3" icon="Units/ChaosGuard/TempestusScion"
+		dlc="Supplement1">
+	<requiredUpgrades>
+		<upgrade name="slaguard/Infantry"/>
+	</requiredUpgrades>
+</upgrade>

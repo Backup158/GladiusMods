@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosGuard/Aircraft" value="Aiport"/>
+	<entry name="ChaosGuard/AircraftDescription" value="Building that produces aircraft as well as generates loyalty and influence."/>
+	<entry name="ChaosGuard/AircraftFlavor" value="<string name='Buildings/AstraMilitarum/AircraftFlavor'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion" value="Chaos Devotion I"/>
+	<entry name="ChaosGuard/ChaosDevotionDescription" value="Building that produces units devolved to the gods of chaos, generates research and chaos god favor as well as increases loyalty."/>
+	<entry name="ChaosGuard/Construction" value="Warp Forge"/>
+	<entry name="ChaosGuard/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="ChaosGuard/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	<entry name="ChaosGuard/Energy" value="Warpbound Generator"/>
+	<entry name="ChaosGuard/EnergyDescription" value="Building that generates energy."/>
+	<entry name="ChaosGuard/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	<entry name="ChaosGuard/Food" value="Nurgle Temple"/>
+	<entry name="ChaosGuard/FoodDescription" value="Building that harvests food."/>
+	<entry name="ChaosGuard/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	<entry name="ChaosGuard/Headquarters" value="Renegade Command Squad "/>
+	<entry name="ChaosGuard/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="ChaosGuard/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Guardmens prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	<entry name="ChaosGuard/Heroes" value="Lord's Quarters"/>
+	<entry name="ChaosGuard/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
+	<entry name="ChaosGuard/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	<entry name="ChaosGuard/Housing" value="Captive Pens"/>
+	<entry name="ChaosGuard/HousingDescription" value="Building that increases population limit."/>
+	<entry name="ChaosGuard/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	<entry name="ChaosGuard/Infantry" value="Heretical Barracks"/>
+	<entry name="ChaosGuard/InfantryDescription" value="Building that produces infantry."/>
+	<entry name="ChaosGuard/InfantryFlavor" value="Imperial Barracks was an old imperial building which is still used to recruit infantry "/>
+	<entry name="ChaosGuard/Influence" value="Slaanesh Temple"/>
+	<entry name="ChaosGuard/InfluenceDescription" value="Building that generates Chaos God Favor."/>
+	<entry name="ChaosGuard/InfluenceFlavor" value="Warshrines attract the attention of the Chaos Gods, along with the mightiest of their mortal servants, for power attracts power."/>
+	<entry name="ChaosGuard/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="ChaosGuard/LoyaltyDescription" value="Building that increases loyalty to dark gods favor."/>
+	<entry name="ChaosGuard/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	<entry name="ChaosGuard/Ore" value="Tzeentch Temple"/>
+	<entry name="ChaosGuard/OreDescription" value="Building that harvests ore."/>
+	<entry name="ChaosGuard/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	<entry name="ChaosGuard/Requisitions" value="Khorne Temple"/>
+	<entry name="ChaosGuard/RequisitionsDescription" value="Building that generates requisitions."/>
+	<entry name="ChaosGuard/RequisitionsFlavor" value="."/>
+	<entry name="ChaosGuard/Research" value="Archive of the Ways"/>
+	<entry name="ChaosGuard/ResearchDescription" value="Building that produces Betrayer Techpriest as well as generates research ."/>
+	<entry name="ChaosGuard/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Eldar’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	<entry name="ChaosGuard/Vehicles" value="Chaos Renegade Armoury"/>
+	<entry name="ChaosGuard/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and influence."/>
+	<entry name="ChaosGuard/VehiclesFlavor" value="<string name='Buildings/ChaosSpaceMarines/VehiclesFlavor'/>"/>
+
+
+
+	<entry name="LostGuard/Aircraft" value="Aiport"/>
+	<entry name="LostGuard/AircraftDescription" value="Building that produces aircraft as well as generates loyalty and influence."/>
+	<entry name="LostGuard/AircraftFlavor" value="<string name='Buildings/AstraMilitarum/AircraftFlavor'/>"/>
+	<entry name="LostGuard/ChaosDevotion" value="Chaos Devotion I"/>
+	<entry name="LostGuard/ChaosDevotionDescription" value="Building that produces units devolved to the gods of chaos, generates research and chaos god favor as well as increases loyalty."/>
+	<entry name="LostGuard/Construction" value="Warp Forge"/>
+	<entry name="LostGuard/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="LostGuard/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	<entry name="LostGuard/Energy" value="Warpbound Generator"/>
+	<entry name="LostGuard/EnergyDescription" value="Building that generates energy."/>
+	<entry name="LostGuard/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	<entry name="LostGuard/Food" value="Renderer"/>
+	<entry name="LostGuard/FoodDescription" value="Building that harvests food."/>
+	<entry name="LostGuard/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	<entry name="LostGuard/Headquarters" value="Renegade Command Squad "/>
+	<entry name="LostGuard/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="LostGuard/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Guardmens prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	<entry name="LostGuard/Heroes" value="Lord's Quarters"/>
+	<entry name="LostGuard/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
+	<entry name="LostGuard/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	<entry name="LostGuard/Housing" value="Captive Pens"/>
+	<entry name="LostGuard/HousingDescription" value="Building that increases population limit."/>
+	<entry name="LostGuard/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	<entry name="LostGuard/Infantry" value="Heretical Barracks"/>
+	<entry name="LostGuard/InfantryDescription" value="Building that produces infantry."/>
+	<entry name="LostGuard/InfantryFlavor" value="Imperial Barracks was an old imperial building which is still used to recruit infantry "/>
+	<entry name="LostGuard/Influence" value="Slaanesh Temple"/>
+	<entry name="LostGuard/InfluenceDescription" value="Building that generates influence."/>
+	<entry name="LostGuard/InfluenceFlavor" value="Warshrines attract the attention of the Chaos Gods, along with the mightiest of their mortal servants, for power attracts power."/>
+	<entry name="LostGuard/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="LostGuard/LoyaltyDescription" value="Building that increases loyalty to dark gods favor."/>
+	<entry name="LostGuard/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	<entry name="LostGuard/Ore" value="Slave Mines"/>
+	<entry name="LostGuard/OreDescription" value="Building that harvests ore."/>
+	<entry name="LostGuard/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	<entry name="LostGuard/Research" value="Archive of the Ways"/>
+	<entry name="LostGuard/ResearchDescription" value="Building that generates research."/>
+	<entry name="LostGuard/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Eldar’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	<entry name="LostGuard/Vehicles" value="Chaos Renegade Armoury"/>
+	<entry name="LostGuard/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and influence."/>
+	<entry name="LostGuard/VehiclesFlavor" value="<string name='Buildings/ChaosSpaceMarines/VehiclesFlavor'/>"/>
+
+
+
+	<entry name="khorneguard/Aircraft" value="Helhaunted Eyrie"/>
+	<entry name="khorneguard/AircraftDescription" value="Building that produces heldrakes as well as generates loyalty and influence."/>
+	<entry name="khorneguard/AircraftFlavor" value="10,000 years ago the Heldrakes were fighter craft, piloted by the cream of the Adeptus Astartes. Now, they are hideous amalgams of man and machine, formed by millennia of war into dragon-like creatures that live to fight. This artificial eyrie allows the Warpsmiths and Master of Possession to monitor the Heldrakes and even attempt to replicate their age-old creation."/>
+	<entry name="khorneguard/ChaosDevotion" value="Chaos Devotion I"/>
+	<entry name="khorneguard/ChaosDevotionDescription" value="Building that produces units devolved to the gods of chaos, generates research and chaos god favor as well as increases loyalty."/>
+	<entry name="khorneguard/Construction" value="Warp Forge"/>
+	<entry name="khorneguard/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="khorneguard/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	<entry name="khorneguard/Cult" value="Cult of Khorne"/>
+	<entry name="khorneguard/CultDescription" value="Building that produces special Chaos units and increases loyalty."/>
+	<entry name="khorneguard/CultFlavor" value="What are gods without followers? Here, Cultists and Dark Apostles alike plot to bring converts to the worship of Chaos—not a hard task on Gladius, once people see the inhuman Xenos, the undoubted effects of Khorne power, and the Daemonic shapes lingering in the chancel."/>
+	<entry name="khorneguard/Energy" value="Warpbound Generator"/>
+	<entry name="khorneguard/EnergyDescription" value="Building that generates energy."/>
+	<entry name="khorneguard/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	<entry name="khorneguard/Food" value="Renderer"/>
+	<entry name="khorneguard/FoodDescription" value="Building that harvests food."/>
+	<entry name="khorneguard/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	<entry name="khorneguard/Headquarters" value="Renegade Command Squad "/>
+	<entry name="khorneguard/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="khorneguard/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Guardmens prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	<entry name="khorneguard/Heroes" value="Lord's Quarters"/>
+	<entry name="khorneguard/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
+	<entry name="khorneguard/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	<entry name="khorneguard/Housing" value="Captive Pens"/>
+	<entry name="khorneguard/HousingDescription" value="Building that increases population limit."/>
+	<entry name="khorneguard/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	<entry name="khorneguard/Infantry" value="Heretical Barracks"/>
+	<entry name="khorneguard/InfantryDescription" value="Building that produces infantry."/>
+	<entry name="khorneguard/InfantryFlavor" value="Imperial Barracks was an old imperial building which is still used to recruit infantry "/>
+	<entry name="khorneguard/Influence" value="Khorne Temple"/>
+	<entry name="khorneguard/InfluenceDescription" value="Building that generates influence."/>
+	<entry name="khorneguard/InfluenceFlavor" value="Warshrines attract the attention of the Chaos Gods, along with the mightiest of their mortal servants, for power attracts power."/>
+	<entry name="khorneguard/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="khorneguard/LoyaltyDescription" value="Building that increases loyalty to dark gods favor."/>
+	<entry name="khorneguard/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	<entry name="khorneguard/Ore" value="Slave Mines"/>
+	<entry name="khorneguard/OreDescription" value="Building that harvests ore."/>
+	<entry name="khorneguard/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	<entry name="khorneguard/Research" value="Archive of the Ways"/>
+	<entry name="khorneguard/ResearchDescription" value="Building that generates research."/>
+	<entry name="khorneguard/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Eldar’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	<entry name="khorneguard/Vehicles" value="Chaos Renegade Armoury"/>
+	<entry name="khorneguard/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and influence."/>
+	<entry name="khorneguard/VehiclesFlavor" value="<string name='Buildings/ChaosSpaceMarines/VehiclesFlavor'/>"/>
+	<entry name="nurgleguard/Aircraft" value="Aiport"/>
+
+
+	<entry name="nurgleguard/AircraftDescription" value="Building that produces aircraft as well as generates loyalty and influence."/>
+	<entry name="nurgleguard/AircraftFlavor" value="<string name='Buildings/AstraMilitarum/AircraftFlavor'/>"/>
+	<entry name="nurgleguard/ChaosDevotion" value="Chaos Devotion I"/>
+	<entry name="nurgleguard/ChaosDevotionDescription" value="Building that produces units devolved to the gods of chaos, generates research and chaos god favor as well as increases loyalty."/>
+	<entry name="nurgleguard/Construction" value="Warp Forge"/>
+	<entry name="nurgleguard/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="nurgleguard/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	<entry name="nurgleguard/Energy" value="Warpbound Generator"/>
+	<entry name="nurgleguard/EnergyDescription" value="Building that generates energy."/>
+	<entry name="nurgleguard/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	<entry name="nurgleguard/Food" value="Renderer"/>
+	<entry name="nurgleguard/FoodDescription" value="Building that harvests food."/>
+	<entry name="nurgleguard/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	<entry name="nurgleguard/Headquarters" value="Renegade Command Squad "/>
+	<entry name="nurgleguard/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="nurgleguard/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Guardmens prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	<entry name="nurgleguard/Heroes" value="Lord's Quarters"/>
+	<entry name="nurgleguard/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
+	<entry name="nurgleguard/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	<entry name="nurgleguard/Housing" value="Captive Pens"/>
+	<entry name="nurgleguard/HousingDescription" value="Building that increases population limit."/>
+	<entry name="nurgleguard/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	<entry name="nurgleguard/Infantry" value="Heretical Barracks"/>
+	<entry name="nurgleguard/InfantryDescription" value="Building that produces infantry."/>
+	<entry name="nurgleguard/InfantryFlavor" value="Imperial Barracks was an old imperial building which is still used to recruit infantry "/>
+	<entry name="nurgleguard/Influence" value="Nurgle Temple"/>
+	<entry name="nurgleguard/InfluenceDescription" value="Building that generates influence."/>
+	<entry name="nurgleguard/InfluenceFlavor" value="Warshrines attract the attention of Nurgle, along with the mightiest of their mortal servants, for power attracts power."/>
+	<entry name="nurgleguard/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="nurgleguard/LoyaltyDescription" value="Building that increases loyalty to dark gods favor."/>
+	<entry name="nurgleguard/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	<entry name="nurgleguard/Ore" value="Slave Mines"/>
+	<entry name="nurgleguard/OreDescription" value="Building that harvests ore."/>
+	<entry name="nurgleguard/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	<entry name="nurgleguard/Research" value="Archive of the Ways"/>
+	<entry name="nurgleguard/ResearchDescription" value="Building that generates research."/>
+	<entry name="nurgleguard/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Eldar’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	<entry name="nurgleguard/Vehicles" value="Chaos Renegade Armoury"/>
+	<entry name="nurgleguard/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and influence."/>
+	<entry name="nurgleguard/VehiclesFlavor" value="<string name='Buildings/ChaosSpaceMarines/VehiclesFlavor'/>"/>
+
+
+
+	<entry name="slaguard/Aircraft" value="Aiport"/>
+	<entry name="slaguard/AircraftDescription" value="Building that produces aircraft as well as generates loyalty and influence."/>
+	<entry name="slaguard/AircraftFlavor" value="<string name='Buildings/AstraMilitarum/AircraftFlavor'/>"/>
+	<entry name="slaguard/ChaosDevotion" value="Chaos Devotion I"/>
+	<entry name="slaguard/ChaosDevotionDescription" value="Building that produces units devolved to the gods of chaos, generates research and chaos god favor as well as increases loyalty."/>
+	<entry name="slaguard/Construction" value="Warp Forge"/>
+	<entry name="slaguard/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="slaguard/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	<entry name="slaguard/Cult" value="Cult of Slaanesh"/>
+	<entry name="slaguard/CultDescription" value="Building that produces special Chaos units and increases loyalty."/>
+	<entry name="slaguard/CultFlavor" value="What are gods without followers? Here, Cultists and Dark Apostles alike plot to bring converts to the worship of Chaos—not a hard task on Gladius, once people see the inhuman Xenos, the undoubted effects of Khorne power, and the Daemonic shapes lingering in the chancel."/>
+	<entry name="slaguard/Energy" value="Warpbound Generator"/>
+	<entry name="slaguard/EnergyDescription" value="Building that generates energy."/>
+	<entry name="slaguard/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	<entry name="slaguard/Food" value="Renderer"/>
+	<entry name="slaguard/FoodDescription" value="Building that harvests food."/>
+	<entry name="slaguard/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	<entry name="slaguard/Headquarters" value="Renegade Command Squad "/>
+	<entry name="slaguard/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="slaguard/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Guardmens prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	<entry name="slaguard/Heroes" value="Lord's Quarters"/>
+	<entry name="slaguard/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
+	<entry name="slaguard/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	<entry name="slaguard/Housing" value="Captive Pens"/>
+	<entry name="slaguard/HousingDescription" value="Building that increases population limit."/>
+	<entry name="slaguard/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	<entry name="slaguard/Infantry" value="Heretical Barracks"/>
+	<entry name="slaguard/InfantryDescription" value="Building that produces infantry."/>
+	<entry name="slaguard/InfantryFlavor" value="Imperial Barracks was an old imperial building which is still used to recruit infantry "/>
+	<entry name="slaguard/Influence" value="Slaanesh Temple"/>
+	<entry name="slaguard/InfluenceDescription" value="Building that generates influence."/>
+	<entry name="slaguard/InfluenceFlavor" value="Warshrines attract the attention of the Chaos Gods, along with the mightiest of their mortal servants, for power attracts power."/>
+	<entry name="slaguard/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="slaguard/LoyaltyDescription" value="Building that increases loyalty to dark gods favor."/>
+	<entry name="slaguard/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	<entry name="slaguard/Ore" value="Slave Mines"/>
+	<entry name="slaguard/OreDescription" value="Building that harvests ore."/>
+	<entry name="slaguard/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	<entry name="slaguard/Research" value="Archive of the Ways"/>
+	<entry name="slaguard/ResearchDescription" value="Building that generates research."/>
+	<entry name="slaguard/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Eldar’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	<entry name="slaguard/Vehicles" value="Chaos Renegade Armoury"/>
+	<entry name="slaguard/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and influence."/>
+	<entry name="slaguard/VehiclesFlavor" value="<string name='Buildings/ChaosSpaceMarines/VehiclesFlavor'/>"/>
+
+
+
+	<entry name="traitorguard/Aircraft" value="Aiport"/>
+	<entry name="traitorguard/AircraftDescription" value="Building that produces aircraft as well as generates loyalty and influence."/>
+	<entry name="traitorguard/AircraftFlavor" value="<string name='Buildings/AstraMilitarum/AircraftFlavor'/>"/>
+	<entry name="traitorguard/ChaosDevotion" value="Chaos Devotion I"/>
+	<entry name="traitorguard/ChaosDevotionDescription" value="Building that produces units devolved to the gods of chaos, generates research and chaos god favor as well as increases loyalty."/>
+	<entry name="traitorguard/Construction" value="Warp Forge"/>
+	<entry name="traitorguard/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="traitorguard/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	<entry name="traitorguard/Energy" value="Warpbound Generator"/>
+	<entry name="traitorguard/EnergyDescription" value="Building that generates energy."/>
+	<entry name="traitorguard/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	<entry name="traitorguard/Food" value="Renderer"/>
+	<entry name="traitorguard/FoodDescription" value="Building that harvests food."/>
+	<entry name="traitorguard/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	<entry name="traitorguard/Headquarters" value="Renegade Command Squad "/>
+	<entry name="traitorguard/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="traitorguard/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Guardmens prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	<entry name="traitorguard/Heroes" value="Lord's Quarters"/>
+	<entry name="traitorguard/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
+	<entry name="traitorguard/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	<entry name="traitorguard/Housing" value="Captive Pens"/>
+	<entry name="traitorguard/HousingDescription" value="Building that increases population limit."/>
+	<entry name="traitorguard/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	<entry name="traitorguard/Infantry" value="Heretical Barracks"/>
+	<entry name="traitorguard/InfantryDescription" value="Building that produces infantry."/>
+	<entry name="traitorguard/InfantryFlavor" value="Imperial Barracks was an old imperial building which is still used to recruit infantry "/>
+	<entry name="traitorguard/Influence" value="Altar to Chaos"/>
+	<entry name="traitorguard/InfluenceDescription" value="Building that generates influence."/>
+	<entry name="traitorguard/InfluenceFlavor" value="Warshrines attract the attention of the Chaos Gods, along with the mightiest of their mortal servants, for power attracts power."/>
+	<entry name="traitorguard/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="traitorguard/LoyaltyDescription" value="Building that increases loyalty to dark gods favor."/>
+	<entry name="traitorguard/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	<entry name="traitorguard/Ore" value="Slave Mines"/>
+	<entry name="traitorguard/OreDescription" value="Building that harvests ore."/>
+	<entry name="traitorguard/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	<entry name="traitorguard/Research" value="Archive of the Ways"/>
+	<entry name="traitorguard/ResearchDescription" value="Building that generates research."/>
+	<entry name="traitorguard/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Eldar’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	<entry name="traitorguard/Vehicles" value="Chaos Renegade Armoury"/>
+	<entry name="traitorguard/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and influence."/>
+	<entry name="traitorguard/VehiclesFlavor" value="<string name='Buildings/ChaosSpaceMarines/VehiclesFlavor'/>"/>
+
+
+
+	<entry name="tzeguard/Aircraft" value="Aiport"/>
+	<entry name="tzeguard/AircraftDescription" value="Building that produces aircraft as well as generates loyalty and influence."/>
+	<entry name="tzeguard/AircraftFlavor" value="<string name='Buildings/AstraMilitarum/AircraftFlavor'/>"/>
+	<entry name="tzeguard/Construction" value="Warp Forge"/>
+	<entry name="tzeguard/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="tzeguard/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	<entry name="tzeguard/Cult" value="Cult of Tzeentch"/>
+	<entry name="tzeguard/CultDescription" value="Building that produces special Chaos units and increases loyalty."/>
+	<entry name="tzeguard/CultFlavor" value="What are gods without followers? Here, Cultists and Dark Apostles alike plot to bring converts to the worship of Chaos—not a hard task on Gladius, once people see the inhuman Xenos, the undoubted effects of Khorne power, and the Daemonic shapes lingering in the chancel."/>
+	<entry name="tzeguard/Energy" value="Warpbound Generator"/>
+	<entry name="tzeguard/EnergyDescription" value="Building that generates energy."/>
+	<entry name="tzeguard/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	<entry name="tzeguard/Food" value="Renderer"/>
+	<entry name="tzeguard/FoodDescription" value="Building that harvests food."/>
+	<entry name="tzeguard/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	<entry name="tzeguard/Headquarters" value="Renegade Command Squad "/>
+	<entry name="tzeguard/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="tzeguard/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Guardmens prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	<entry name="tzeguard/Heroes" value="Lord's Quarters"/>
+	<entry name="tzeguard/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
+	<entry name="tzeguard/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	<entry name="tzeguard/Housing" value="Captive Pens"/>
+	<entry name="tzeguard/HousingDescription" value="Building that increases population limit."/>
+	<entry name="tzeguard/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	<entry name="tzeguard/Infantry" value="Heretical Barracks"/>
+	<entry name="tzeguard/InfantryDescription" value="Building that produces infantry."/>
+	<entry name="tzeguard/InfantryFlavor" value="Imperial Barracks was an old imperial building which is still used to recruit infantry "/>
+	<entry name="tzeguard/Influence" value="Tzeentch Temple"/>
+	<entry name="tzeguard/InfluenceDescription" value="Building that generates influence."/>
+	<entry name="tzeguard/InfluenceFlavor" value="Warshrines attract the attention of the Chaos Gods, along with the mightiest of their mortal servants, for power attracts power."/>
+	<entry name="tzeguard/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="tzeguard/LoyaltyDescription" value="Building that increases loyalty to dark gods favor."/>
+	<entry name="tzeguard/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	<entry name="tzeguard/Ore" value="Slave Mines"/>
+	<entry name="tzeguard/OreDescription" value="Building that harvests ore."/>
+	<entry name="tzeguard/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	<entry name="tzeguard/Research" value="Archive of the Ways"/>
+	<entry name="tzeguard/ResearchDescription" value="Building that generates research."/>
+	<entry name="tzeguard/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Eldar’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	<entry name="tzeguard/Vehicles" value="Chaos Renegade Armoury"/>
+	<entry name="tzeguard/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and influence."/>
+	<entry name="tzeguard/VehiclesFlavor" value="<string name='Buildings/ChaosSpaceMarines/VehiclesFlavor'/>"/>
+</language>

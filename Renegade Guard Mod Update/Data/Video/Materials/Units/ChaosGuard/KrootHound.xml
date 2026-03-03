@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/KrootHoundDiffuse"/>
+		<texture name="Units/ChaosGuard/KrootHoundNormal"/>
+		<texture name="Units/ChaosGuard/KrootHoundSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

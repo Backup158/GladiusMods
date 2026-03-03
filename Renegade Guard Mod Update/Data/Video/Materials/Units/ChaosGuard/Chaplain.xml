@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/ChaosLordDiffuse"/>
+		<texture name="Units/ChaosGuard/ChaosLordNormal"/>
+		<texture name="Units/ChaosGuard/ChaosLordSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

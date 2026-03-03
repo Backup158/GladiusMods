@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="HireChaosSpaceMarine" value="<string name='Units/ChaosSpaceMarines/ChaosSpaceMarine'/>"/>
+	<entry name="HireChaosSpaceMarineDescription" value="<string name='Units/ChaosSpaceMarines/ChaosSpaceMarineDescription'/><br/><br/>Upkeep<br/>Influence 12"/>
+	<entry name="HireChaosSpaceMarineFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosSpaceMarineFlavor'/>"/>
+</language>

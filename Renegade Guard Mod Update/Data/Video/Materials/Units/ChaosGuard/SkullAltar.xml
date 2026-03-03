@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Features/SkullAltarDiffuse"/>
+		<texture name="Features/SkullAltarNormal"/>
+		<texture name="Features/SkullAltarSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

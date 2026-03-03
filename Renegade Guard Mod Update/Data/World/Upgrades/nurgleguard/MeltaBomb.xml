@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="5" icon="Weapons/MeltaBomb">
+	<requiredUpgrades>
+		<upgrade name="nurgleguard/Heroes"/>
+		<upgrade name="nurgleguard/Infantry"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

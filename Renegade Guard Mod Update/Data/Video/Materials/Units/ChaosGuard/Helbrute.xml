@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/HelbruteDiffuse"/>
+		<texture name="Units/ChaosGuard/HelbruteNormal"/>
+		<texture name="Units/ChaosGuard/HelbruteSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

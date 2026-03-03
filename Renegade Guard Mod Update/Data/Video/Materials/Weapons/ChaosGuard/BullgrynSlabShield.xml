@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Weapons/ChaosGuard/BullgrynSlabShieldDiffuse"/>
+		<texture name="Weapons/ChaosGuard/BullgrynSlabShieldNormal"/>
+		<texture name="Weapons/ChaosGuard/BullgrynSlabShieldSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

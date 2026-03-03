@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="9" icon="Weapons/HeavyBolter">
+	<requiredUpgrades>
+		<upgrade name="tzeguard/Baneblade"/>
+		<upgrade name="tzeguard/LemanRussBattleTank"/>
+		<upgrade name="tzeguard/Aircraft"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+				<increaseAircraftScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

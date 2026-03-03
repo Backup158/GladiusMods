@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/HydraDiffuse"/>
+		<texture name="Units/ChaosGuard/HydraNormal"/>
+		<texture name="Units/ChaosGuard/HydraSIC"/>
+		<texture name="ShadowMapColor"/>
+		<texture name="Units/AstraMilitarum/HydraAnimation"/>
+	</textures>
+</material>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/khorneguard/SisterRepentiaDiffuse"/>
+		<texture name="Units/khorneguard/SisterRepentiaNormal"/>
+		<texture name="Units/khorneguard/SisterRepentiaSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/Guardsman"
+				material="Units/ChaosGuard/Guardsmannurgle"
+				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1 1 1"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="Lasgun">
+			<model>
+				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						bone="RightHandBone"
+						muzzleBone="GuardsmanLasgunMuzzle0"
+						fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
+			</model>
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+			<armor base="4"/> <!-- %armor base armor=3+ -->
+				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+				<oreCost base="5.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+				<influenceUpkeep base="1"/> <!-- %influenceUpkeep base tier=4 factor=1 -->
+				<requisitionsUpkeep base="1"/> <!-- %requisitionsUpkeep base tier=4 factor=1 -->
+
+				<hitpointsMax base="1"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+				<meleeAccuracy base="2"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="1"/>
+				<!-- <meleeInitiative base="3"/> -->
+				<oreCost base="5"/> <!-- %oreCost base tier=4 factor=0.5 -->
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="20.0"/> <!-- %productionCost base tier=4 factor=1 -->
+				<rangedAccuracy base="5"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanAttack"
+						beginFire="0.35" endFire="2.5"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanDie"
+						animationCount="3"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.4"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<damaged/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+	<constructImperialStrongpoint icon="Units/AstraMilitarum/ImperialStrongpoint"
+				requiredUpgrade="ChaosGuard/ImperialStrongpoint"
+				cooldown="10">
+			<model>
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerBuild"
+						sound="Actions/Construct"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<oreCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosGuard/ImperialStrongpoint"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructImperialStrongpoint>
+	</actions>
+	<traits>
+		<trait name="ChaosGuard/MarkOfNurgle"/>
+		<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+		<trait name="ChaosGuard/MightMakesRight"/>
+		<trait name="ChaosGuard/Scavenger"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="ChaosGuard/ExtraInfantryArmour"/>
+		<trait name="ChaosGuard/InfantryUpkeep" requiredUpgrade="ChaosGuard/ChaosDevotion"/>
+	 	<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosGuard/VeteransOfTheLongWar"/>
+		<trait name="ChaosGuard/VeteransOfTheLongWar2" requiredUpgrade="ChaosGuard/VeteransOfTheLongWar2"/>
+
+	</traits>
+</unit>

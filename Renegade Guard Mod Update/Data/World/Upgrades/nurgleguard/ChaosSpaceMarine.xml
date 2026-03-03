@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="1" icon="Units/ChaosGuard/ChaosSpaceMarine">
+	<requiredUpgrades>
+		<upgrade name="nurgleguard/Infantry"/>
+	</requiredUpgrades>
+</upgrade>

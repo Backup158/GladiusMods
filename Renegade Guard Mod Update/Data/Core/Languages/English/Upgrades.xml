@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<!-------------------------------------------------------------------------------------->
+	<!------------------ |       Name Factions      |      S E A R C H       | ------------->
+	<!-------------------------------------------------------------------------------------->
+	<!------------------ | Blackbloods of Malice    | Buildings_LostGuard    | ------------->
+	<!------------------ | Gathalamor 24th Regiment | Buildings_khorneguard  | ------------->
+	<!------------------ | Gladius Renegade Militia | Buildings_traitorguard | ------------->
+	<!------------------ | Hazakh Plaguetakers      | Buildings_nurgleguard  | ------------->
+	<!------------------ | Kardone Changeseekers    | Buildings_tzeguard     | ------------->
+	<!------------------ | Renegade Imperial Guard  | Buildings_ChaosGuard   | ------------->
+	<!------------------ | Vanitine Hedonites       | Buildings_slaguard     | ------------->
+	<!-------------------------------------------------------------------------------------->
+	<!------------------ | Blackbloods of Malice    | Units_LostGuard        | ------------->
+	<!------------------ | Gathalamor 24th Regiment | Units_khorneguard      | ------------->
+	<!------------------ | Gladius Renegade Militia | Units_traitorguard     | ------------->
+	<!------------------ | Hazakh Plaguetakers      | Units_nurgleguard      | ------------->
+	<!------------------ | Kardone Changeseekers    | Units_tzeguard         | ------------->
+	<!------------------ | Renegade Imperial Guard  | Units_ChaosGuard       | ------------->
+	<!------------------ | Vanitine Hedonites       | Units_slaguard         | ------------->
+	<!-------------------------------------------------------------------------------------->
+	<!------------------ | Blackbloods of Malice    | Other_LostGuard        | ------------->
+	<!------------------ | Gathalamor 24th Regiment | Other_khorneguard      | ------------->
+	<!------------------ | Gladius Renegade Militia | Other_traitorguard     | ------------->
+	<!------------------ | Hazakh Plaguetakers      | Other_nurgleguard      | ------------->
+	<!------------------ | Kardone Changeseekers    | Other_tzeguard         | ------------->
+	<!------------------ | Renegade Imperial Guard  | Other_ChaosGuard       | ------------->
+	<!------------------ | Vanitine Hedonites       | Other_slaguard         | ------------->
+	<!-------------------------------------------------------------------------------------->
+
+
+	<!--- Other_SpaceMarines_Error --->
+	<!--- tzeguarderror_Error      --->
+
+	<!-- Buildings_ChaosGuard -->
+	<entry name="ChaosGuard/Aircraft" value="<string name='Buildings/ChaosGuard/Aircraft'/>"/>
+	<entry name="ChaosGuard/AircraftDescription" value="<string name='Buildings/ChaosGuard/AircraftDescription'/>"/>
+	<entry name="ChaosGuard/AircraftFlavor" value="<string name='Buildings/ChaosGuard/AircraftFlavor'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion" value="<string name='Traits/ChaosGuard/ChaosDevotion'/>"/>
+	<entry name="ChaosGuard/ChaosDevotionDescription" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="ChaosGuard/ChaosDevotionFlavor" value="<string name='Traits/ChaosGuard/ChaosDevotionFlavor'/>"/>
+	<entry name="ChaosGuard/Construction" value="<string name='Buildings/ChaosGuard/Construction'/>"/>
+	<entry name="ChaosGuard/ConstructionDescription" value="<string name='Buildings/ChaosGuard/ConstructionDescription'/>"/>
+	<entry name="ChaosGuard/ConstructionFlavor" value="<string name='Buildings/ChaosGuard/ConstructionFlavor'/>"/>
+	<entry name="ChaosGuard/Heroes" value="<string name='Buildings/ChaosGuard/Heroes'/>"/>
+	<entry name="ChaosGuard/HeroesDescription" value="<string name='Buildings/ChaosGuard/HeroesDescription'/>"/>
+	<entry name="ChaosGuard/HeroesFlavor" value="<string name='Buildings/ChaosGuard/HeroesFlavor'/>"/>
+	<entry name="ChaosGuard/Housing" value="<string name='Buildings/ChaosGuard/Housing'/>"/>
+	<entry name="ChaosGuard/HousingDescription" value="<string name='Buildings/ChaosGuard/HousingDescription'/>"/>
+	<entry name="ChaosGuard/HousingFlavor" value="<string name='Buildings/ChaosGuard/HousingFlavor'/>"/>
+	<entry name="ChaosGuard/Loyalty" value="<string name='Buildings/ChaosGuard/Loyalty'/>"/>
+	<entry name="ChaosGuard/LoyaltyDescription" value="<string name='Buildings/ChaosGuard/LoyaltyDescription'/>"/>
+	<entry name="ChaosGuard/LoyaltyFlavor" value="<string name='Buildings/ChaosGuard/LoyaltyFlavor'/>"/>
+	<entry name="ChaosGuard/Vehicles" value="<string name='Buildings/ChaosGuard/Vehicles'/>"/>
+	<entry name="ChaosGuard/VehiclesDescription" value="<string name='Buildings/ChaosGuard/VehiclesDescription'/>"/>
+	<entry name="ChaosGuard/VehiclesFlavor" value="<string name='Buildings/ChaosGuard/VehiclesFlavor'/>"/>
+	<entry name="ChaosGuard/TechpriestBetrayer" value="<string name='Units/ChaosGuard/TechpriestBetrayer'/>"/>
+	<entry name="ChaosGuard/TechpriestBetrayerDescription" value="<string name='Units/ChaosGuard/TechpriestBetrayerDescription'/>"/>
+
+	<!-- Buildings_nurgleguard -->
+	<entry name="nurgleguard/Aircraft" value="<string name='Buildings/nurgleguard/Aircraft'/>"/>
+	<entry name="nurgleguard/AircraftDescription" value="<string name='Buildings/nurgleguard/AircraftDescription'/>"/>
+	<entry name="nurgleguard/AircraftFlavor" value="<string name='Buildings/nurgleguard/AircraftFlavor'/>"/>
+	<entry name="nurgleguard/Construction" value="<string name='Buildings/nurgleguard/Construction'/>"/>
+	<entry name="nurgleguard/ConstructionDescription" value="<string name='Buildings/nurgleguard/ConstructionDescription'/>"/>
+	<entry name="nurgleguard/ConstructionFlavor" value="<string name='Buildings/nurgleguard/ConstructionFlavor'/>"/>
+	<entry name="nurgleguard/Heroes" value="<string name='Buildings/nurgleguard/Heroes'/>"/>
+	<entry name="nurgleguard/HeroesDescription" value="<string name='Buildings/nurgleguard/HeroesDescription'/>"/>
+	<entry name="nurgleguard/HeroesFlavor" value="<string name='Buildings/nurgleguard/HeroesFlavor'/>"/>
+	<entry name="nurgleguard/Housing" value="<string name='Buildings/nurgleguard/Housing'/>"/>
+	<entry name="nurgleguard/HousingDescription" value="<string name='Buildings/nurgleguard/HousingDescription'/>"/>
+	<entry name="nurgleguard/HousingFlavor" value="<string name='Buildings/nurgleguard/HousingFlavor'/>"/>
+	<entry name="nurgleguard/Infantry" value="<string name='Buildings/nurgleguard/Infantry'/>"/>
+	<entry name="nurgleguard/InfantryDescription" value="<string name='Buildings/nurgleguard/InfantryDescription'/>"/>
+	<entry name="nurgleguard/InfantryFlavor" value="<string name='Buildings/nurgleguard/InfantryFlavor'/>"/>
+	<entry name="nurgleguard/Loyalty" value="<string name='Buildings/nurgleguard/Loyalty'/>"/>
+	<entry name="nurgleguard/LoyaltyDescription" value="<string name='Buildings/nurgleguard/LoyaltyDescription'/>"/>
+	<entry name="nurgleguard/LoyaltyFlavor" value="<string name='Buildings/nurgleguard/LoyaltyFlavor'/>"/>
+	<entry name="nurgleguard/TechpriestBetrayer" value="<string name='Units/nurgleguard/TechpriestBetrayer'/>"/>
+	<entry name="nurgleguard/TechpriestBetrayerDescription" value="<string name='Units/nurgleguard/TechpriestBetrayerDescription'/>"/>
+	<entry name="nurgleguard/Vehicles" value="<string name='Buildings/nurgleguard/Vehicles'/>"/>
+	<entry name="nurgleguard/VehiclesDescription" value="<string name='Buildings/nurgleguard/VehiclesDescription'/>"/>
+	<entry name="nurgleguard/VehiclesFlavor" value="<string name='Buildings/nurgleguard/VehiclesFlavor'/>"/>
+
+	<!-- Buildings_traitorguard -->
+	<entry name="traitorguard/Aircraft" value="<string name='Buildings/traitorguard/Aircraft'/>"/>
+	<entry name="traitorguard/AircraftDescription" value="<string name='Buildings/traitorguard/AircraftDescription'/>"/>
+	<entry name="traitorguard/AircraftFlavor" value="<string name='Buildings/traitorguard/AircraftFlavor'/>"/>
+	<entry name="traitorguard/Construction" value="<string name='Buildings/traitorguard/Construction'/>"/>
+	<entry name="traitorguard/ConstructionDescription" value="<string name='Buildings/traitorguard/ConstructionDescription'/>"/>
+	<entry name="traitorguard/ConstructionFlavor" value="<string name='Buildings/traitorguard/ConstructionFlavor'/>"/>
+	<entry name="traitorguard/Heroes" value="<string name='Buildings/traitorguard/Heroes'/>"/>
+	<entry name="traitorguard/HeroesDescription" value="<string name='Buildings/traitorguard/HeroesDescription'/>"/>
+	<entry name="traitorguard/HeroesFlavor" value="<string name='Buildings/traitorguard/HeroesFlavor'/>"/>
+	<entry name="traitorguard/Housing" value="<string name='Buildings/traitorguard/Housing'/>"/>
+	<entry name="traitorguard/HousingDescription" value="<string name='Buildings/traitorguard/HousingDescription'/>"/>
+	<entry name="traitorguard/HousingFlavor" value="<string name='Buildings/traitorguard/HousingFlavor'/>"/>
+	<entry name="traitorguard/Infantry" value="<string name='Buildings/traitorguard/Infantry'/>"/>
+	<entry name="traitorguard/InfantryDescription" value="<string name='Buildings/traitorguard/InfantryDescription'/>"/>
+	<entry name="traitorguard/InfantryFlavor" value="<string name='Buildings/traitorguard/InfantryFlavor'/>"/>
+	<entry name="traitorguard/Loyalty" value="<string name='Buildings/traitorguard/Loyalty'/>"/>
+	<entry name="traitorguard/LoyaltyDescription" value="<string name='Buildings/traitorguard/LoyaltyDescription'/>"/>
+	<entry name="traitorguard/LoyaltyFlavor" value="<string name='Buildings/traitorguard/LoyaltyFlavor'/>"/>
+	<entry name="traitorguard/TechpriestBetrayer" value="<string name='Units/traitorguard/TechpriestBetrayer'/>"/>
+	<entry name="traitorguard/TechpriestBetrayerDescription" value="<string name='Units/traitorguard/TechpriestBetrayerDescription'/>"/>
+	<entry name="traitorguard/Vehicles" value="<string name='Buildings/traitorguard/Vehicles'/>"/>
+	<entry name="traitorguard/VehiclesDescription" value="<string name='Buildings/traitorguard/VehiclesDescription'/>"/>
+	<entry name="traitorguard/VehiclesFlavor" value="<string name='Buildings/traitorguard/VehiclesFlavor'/>"/>
+
+	<!-- Buildings_tzeguard -->
+	<entry name="tzeguard/Aircraft" value="<string name='Buildings/tzeguard/Aircraft'/>"/>
+	<entry name="tzeguard/AircraftDescription" value="<string name='Buildings/tzeguard/AircraftDescription'/>"/>
+	<entry name="tzeguard/AircraftFlavor" value="<string name='Buildings/tzeguard/AircraftFlavor'/>"/>
+	<entry name="tzeguard/Construction" value="<string name='Buildings/tzeguard/Construction'/>"/>
+	<entry name="tzeguard/ConstructionDescription" value="<string name='Buildings/tzeguard/ConstructionDescription'/>"/>
+	<entry name="tzeguard/ConstructionFlavor" value="<string name='Buildings/tzeguard/ConstructionFlavor'/>"/>
+	<entry name="tzeguard/Heroes" value="<string name='Buildings/tzeguard/Heroes'/>"/>
+	<entry name="tzeguard/HeroesDescription" value="<string name='Buildings/tzeguard/HeroesDescription'/>"/>
+	<entry name="tzeguard/HeroesFlavor" value="<string name='Buildings/tzeguard/HeroesFlavor'/>"/>
+	<entry name="tzeguard/Housing" value="<string name='Buildings/tzeguard/Housing'/>"/>
+	<entry name="tzeguard/HousingDescription" value="<string name='Buildings/tzeguard/HousingDescription'/>"/>
+	<entry name="tzeguard/HousingFlavor" value="<string name='Buildings/tzeguard/HousingFlavor'/>"/>
+	<entry name="tzeguard/Loyalty" value="<string name='Buildings/tzeguard/Loyalty'/>"/>
+	<entry name="tzeguard/LoyaltyDescription" value="<string name='Buildings/tzeguard/LoyaltyDescription'/>"/>
+	<entry name="tzeguard/LoyaltyFlavor" value="<string name='Buildings/tzeguard/LoyaltyFlavor'/>"/>
+	<entry name="tzeguard/Vehicles" value="<string name='Buildings/tzeguard/Vehicles'/>"/>
+	<entry name="tzeguard/VehiclesDescription" value="<string name='Buildings/tzeguard/VehiclesDescription'/>"/>
+	<entry name="tzeguard/VehiclesFlavor" value="<string name='Buildings/tzeguard/VehiclesFlavor'/>"/>
+	<entry name="tzeguard/ChaosDevotion" value="<string name='Traits/tzeguard/ChaosDevotion'/>"/>
+	<entry name="tzeguard/ChaosDevotionDescription" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="tzeguard/ChaosDevotionFlavor" value="<string name='Traits/tzeguard/ChaosDevotionFlavor'/>"/>
+	<entry name="tzeguard/Infantry" value="<string name='Buildings/tzeguard/Infantry'/>"/>
+	<entry name="tzeguard/TechpriestBetrayer" value="<string name='Units/tzeguard/TechpriestBetrayer'/>"/>
+	<entry name="tzeguard/TechpriestBetrayerDescription" value="<string name='Units/tzeguard/TechpriestBetrayerDescription'/>"/>
+	<entry name="tzeguard/InfantryDescription" value="<string name='Buildings/tzeguard/InfantryDescription'/>"/>
+	<entry name="tzeguard/InfantryFlavor" value="<string name='Buildings/tzeguard/InfantryFlavor'/>"/>
+
+	<!-- Units_ChaosGuard -->
+	<entry name="ChaosGuard/Baneblade" value="<string name='Units/ChaosGuard/Baneblade'/>"/>
+	<entry name="ChaosGuard/BanebladeDescription" value="<string name='Units/ChaosGuard/BanebladeDescription'/>"/>
+	<entry name="ChaosGuard/BanebladeFlavor" value="<string name='Units/ChaosGuard/BanebladeFlavor'/>"/>
+	<entry name="ChaosGuard/Basilisk" value="<string name='Units/ChaosGuard/Basilisk'/>"/>
+	<entry name="ChaosGuard/BasiliskDescription" value="<string name='Units/ChaosGuard/BasiliskDescription'/>"/>
+	<entry name="ChaosGuard/BasiliskFlavor" value="<string name='Units/ChaosGuard/BasiliskFlavor'/>"/>
+	<entry name="ChaosGuard/Bullgryn" value="<string name='Units/ChaosGuard/Bullgryn'/>"/>
+	<entry name="ChaosGuard/BullgrynDescription" value="<string name='Units/ChaosGuard/BullgrynDescription'/>"/>
+	<entry name="ChaosGuard/BullgrynFlavor" value="<string name='Units/ChaosGuard/BullgrynFlavor'/>"/>
+	<entry name="ChaosGuard/ChaosCultist" value="<string name='Units/ChaosGuard/ChaosCultist'/>"/>
+	<entry name="ChaosGuard/ChaosCultistDescription" value="<string name='Units/ChaosGuard/ChaosCultistDescription'/>"/>
+	<entry name="ChaosGuard/ChaosCultistFlavor" value="<string name='Units/ChaosGuard/ChaosCultistFlavor'/>"/>
+	<entry name="ChaosGuard/ChaosSpaceMarine" value="<string name='Units/ChaosGuard/ChaosSpaceMarine'/>"/>
+	<entry name="ChaosGuard/ChaosSpaceMarineDescription" value="<string name='Units/ChaosGuard/ChaosSpaceMarineDescription'/>"/>
+	<entry name="ChaosGuard/ChaosSpaceMarineFlavor" value="<string name='Units/ChaosGuard/ChaosSpaceMarineFlavor'/>"/>
+	<entry name="ChaosGuard/Chaplain" value="<string name='Units/ChaosGuard/Chaplain'/>"/>
+	<entry name="ChaosGuard/ChaplainDescription" value="<string name='Units/ChaosGuard/ChaplainDescription'/>"/>
+	<entry name="ChaosGuard/ChaplainFlavor" value="<string name='Units/ChaosGuard/ChaplainFlavor'/>"/>
+	<entry name="ChaosGuard/DarkDisciple" value="<string name='Units/ChaosGuard/DarkDisciple'/>"/>
+	<entry name="ChaosGuard/DarkDiscipleDescription" value="<string name='Units/ChaosGuard/DarkDiscipleDescription'/>"/>
+	<entry name="ChaosGuard/DarkDiscipleFlavor" value="<string name='Units/ChaosGuard/DarkDiscipleFlavor'/>"/>
+	<entry name="ChaosGuard/Defiler" value="<string name='Units/ChaosGuard/Defiler'/>"/>
+	<entry name="ChaosGuard/DefilerDescription" value="<string name='Units/ChaosGuard/DefilerDescription'/>"/>
+	<entry name="ChaosGuard/DefilerFlavor" value="<string name='Units/ChaosGuard/DefilerFlavor'/>"/>
+	<entry name="ChaosGuard/Havoc" value="<string name='Units/ChaosGuard/Havoc'/>"/>
+	<entry name="ChaosGuard/HavocDescription" value="<string name='Units/ChaosGuard/HavocDescription'/>"/>
+	<entry name="ChaosGuard/HavocFlavor" value="<string name='Units/ChaosGuard/HavocFlavor'/>"/>
+	<entry name="ChaosGuard/HeavyWeaponsSquad" value="<string name='Units/ChaosGuard/HeavyWeaponsSquad'/>"/>
+	<entry name="ChaosGuard/HeavyWeaponsSquadDescription" value="<string name='Units/ChaosGuard/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="ChaosGuard/HeavyWeaponsSquadFlavor" value="<string name='Units/ChaosGuard/HeavyWeaponsSquadFlavor'/>"/>
+	<entry name="ChaosGuard/Helbrute" value="<string name='Units/ChaosGuard/Helbrute'/>"/>
+	<entry name="ChaosGuard/HelbruteDescription" value="<string name='Units/ChaosGuard/HelbruteDescription'/>"/>
+	<entry name="ChaosGuard/HelbruteFlavor" value="<string name='Units/ChaosGuard/HelbruteFlavor'/>"/>
+	<entry name="ChaosGuard/KhorneBerzerker" value="<string name='Units/ChaosGuard/KhorneBerzerker'/>"/>
+	<entry name="ChaosGuard/KhorneBerzerkerDescription" value="<string name='Units/ChaosGuard/KhorneBerzerkerDescription'/>"/>
+	<entry name="ChaosGuard/KhorneBerzerkerFlavor" value="<string name='Units/ChaosGuard/KhorneBerzerkerFlavor'/>"/>
+	<entry name="ChaosGuard/LemanRussBattleTank" value="<string name='Units/ChaosGuard/LemanRussBattleTank'/>"/>
+	<entry name="ChaosGuard/LemanRussBattleTankDescription" value="<string name='Units/ChaosGuard/LemanRussBattleTankDescription'/>"/>
+	<entry name="ChaosGuard/LemanRussBattleTankFlavor" value="<string name='Units/ChaosGuard/LemanRussBattleTankFlavor'/>"/>
+	<entry name="ChaosGuard/Librarian" value="<string name='Units/ChaosGuard/Librarian'/>"/>
+	<entry name="ChaosGuard/LibrarianDescription" value="<string name='Units/ChaosGuard/LibrarianDescription'/>"/>
+	<entry name="ChaosGuard/LibrarianFlavor" value="<string name='Units/ChaosGuard/LibrarianFlavor'/>"/>
+	<entry name="ChaosGuard/LordCommissar" value="<string name='Units/ChaosGuard/LordCommissar'/>"/>
+	<entry name="ChaosGuard/LordCommissarDescription" value="<string name='Units/ChaosGuard/LordCommissarDescription'/>"/>
+	<entry name="ChaosGuard/LordCommissarFlavor" value="<string name='Units/ChaosGuard/LordCommissarFlavor'/>"/>
+	<entry name="ChaosGuard/LordOfSkulls" value="<string name='Units/Neutral/LordOfSkulls'/>"/>
+	<entry name="ChaosGuard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="ChaosGuard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="ChaosGuard/MarauderBomber" value="<string name='Units/ChaosGuard/MarauderBomber'/>"/>
+	<entry name="ChaosGuard/MarauderBomberDescription" value="<string name='Units/ChaosGuard/MarauderBomberDescription'/>"/>
+	<entry name="ChaosGuard/MarauderBomberFlavor" value="<string name='Units/ChaosGuard/MarauderBomberFlavor'/>"/>
+	<entry name="ChaosGuard/NoctilithCrown" value="<string name='Units/ChaosGuard/NoctilithCrown'/>"/>
+	<entry name="ChaosGuard/NoctilithCrownDescription" value="Grants Renegade Guardmens the ability to construct fortifications."/>
+	<entry name="ChaosGuard/NoctilithCrownFlavor" value="<string name='Units/ChaosGuard/NoctilithCrownFlavor'/>"/>
+	<entry name="ChaosGuard/PrimarisPsyker" value="<string name='Units/ChaosGuard/PrimarisPsyker'/>"/>
+	<entry name="ChaosGuard/PrimarisPsykerDescription" value="<string name='Units/ChaosGuard/PrimarisPsykerDescription'/>"/>
+	<entry name="ChaosGuard/PrimarisPsykerFlavor" value="<string name='Units/ChaosGuard/PrimarisPsykerFlavor'/>"/>
+	<entry name="ChaosGuard/Psychneuein" value="<string name='Units/Neutral/Psychneuein'/>"/>
+	<entry name="ChaosGuard/PsychneueinDescription" value="<string name='Units/Neutral/PsychneueinDescription'/>"/>
+	<entry name="ChaosGuard/PsychneueinFlavor" value="<string name='Units/Neutral/PsychneueinFlavor'/>"/>
+	<entry name="ChaosGuard/ScoutSentinel" value="<string name='Units/ChaosGuard/ScoutSentinel'/>"/>
+	<entry name="ChaosGuard/ScoutSentinelDescription" value="<string name='Units/ChaosGuard/ScoutSentinelDescription'/>"/>
+	<entry name="ChaosGuard/ScoutSentinelFlavor" value="<string name='Units/ChaosGuard/ScoutSentinelFlavor'/>"/>
+	<entry name="ChaosGuard/TempestusScion" value="<string name='Units/ChaosGuard/TempestusScion'/>"/>
+	<entry name="ChaosGuard/TempestusScionDescription" value="<string name='Units/ChaosGuard/TempestusScionDescription'/>"/>
+	<entry name="ChaosGuard/TempestusScionFlavor" value="<string name='Units/ChaosGuard/TempestusScionFlavor'/>"/>
+	<entry name="ChaosGuard/Thunderbolt" value="<string name='Units/ChaosGuard/Thunderbolt'/>"/>
+	<entry name="ChaosGuard/ThunderboltDescription" value="<string name='Units/ChaosGuard/ThunderboltDescription'/>"/>
+	<entry name="ChaosGuard/ThunderboltFlavor" value="<string name='Units/ChaosGuard/ThunderboltFlavor'/>"/>
+	<entry name="ChaosGuard/Umbra" value="<string name='Units/Neutral/Umbra'/>"/>
+
+	<!-- Units_khorneguard -->
+	<entry name="khorneguard/Bullgryn" value="<string name='Units/khorneguard/Bullgryn'/>"/>
+	<entry name="khorneguard/BullgrynDescription" value="<string name='Units/khorneguard/BullgrynDescription'/>"/>
+	<entry name="khorneguard/BullgrynFlavor" value="<string name='Units/khorneguard/BullgrynFlavor'/>"/>
+	<entry name="khorneguard/ChaosCultist" value="<string name='Units/khorneguard/ChaosCultist'/>"/>
+	<entry name="khorneguard/ChaosCultistDescription" value="<string name='Units/khorneguard/ChaosCultistDescription'/>"/>
+	<entry name="khorneguard/ChaosCultistFlavor" value="<string name='Units/khorneguard/ChaosCultistFlavor'/>"/>
+	<entry name="khorneguard/ChaosLandRaider" value="<string name='Units/khorneguard/ChaosLandRaider'/>"/>
+	<entry name="khorneguard/ChaosLandRaiderDescription" value="<string name='Units/khorneguard/ChaosLandRaiderDescription'/>"/>
+	<entry name="khorneguard/ChaosLandRaiderFlavor" value="<string name='Units/khorneguard/ChaosLandRaiderFlavor'/>"/>
+	<entry name="khorneguard/ChaosLord" value="<string name='Units/khorneguard/ChaosLord'/>"/>
+	<entry name="khorneguard/ChaosLordDescription" value="<string name='Units/khorneguard/ChaosLordDescription'/>"/>
+	<entry name="khorneguard/ChaosLordFlavor" value="<string name='Units/khorneguard/ChaosLordFlavor'/>"/>
+	<entry name="khorneguard/ChaosSpaceMarine" value="<string name='Units/khorneguard/ChaosSpaceMarine'/>"/>
+	<entry name="khorneguard/ChaosSpaceMarineDescription" value="<string name='Units/khorneguard/ChaosSpaceMarineDescription'/>"/>
+	<entry name="khorneguard/ChaosSpaceMarineFlavor" value="<string name='Units/khorneguard/ChaosSpaceMarineFlavor'/>"/>
+	<entry name="khorneguard/Chaplain" value="<string name='Units/khorneguard/Chaplain'/>"/>
+	<entry name="khorneguard/ChaplainDescription" value="<string name='Units/khorneguard/ChaplainDescription'/>"/>
+	<entry name="khorneguard/ChaplainFlavor" value="<string name='Units/khorneguard/ChaplainFlavor'/>"/>
+	<entry name="khorneguard/DaemonPrince" value="<string name='Units/khorneguard/DaemonPrince'/>"/>
+	<entry name="khorneguard/DaemonPrinceDescription" value="<string name='Units/khorneguard/DaemonPrinceDescription'/>"/>
+	<entry name="khorneguard/DaemonPrinceFlavor" value="<string name='Units/khorneguard/DaemonPrinceFlavor'/>"/>
+	<entry name="khorneguard/DarkDisciple" value="<string name='Units/khorneguard/DarkDisciple'/>"/>
+	<entry name="khorneguard/DarkDiscipleDescription" value="<string name='Units/khorneguard/DarkDiscipleDescription'/>"/>
+	<entry name="khorneguard/DarkDiscipleFlavor" value="<string name='Units/khorneguard/DarkDiscipleFlavor'/>"/>
+	<entry name="khorneguard/GreaterBrassScorpionOfKhorne" value="<string name='Units/ChaosSpaceMarines/GreaterBrassScorpionOfKhorne'/>"/>
+	<entry name="khorneguard/GreaterBrassScorpionOfKhorneDescription" value="<string name='Units/ChaosSpaceMarines/GreaterBrassScorpionOfKhorneDescription'/>"/>
+	<entry name="khorneguard/GreaterBrassScorpionOfKhorneFlavor" value="<string name='Units/ChaosSpaceMarines/GreaterBrassScorpionOfKhorneFlavor'/>"/>
+	<entry name="khorneguard/Havoc" value="<string name='Units/khorneguard/Havoc'/>"/>
+	<entry name="khorneguard/HavocDescription" value="<string name='Units/khorneguard/HavocDescription'/>"/>
+	<entry name="khorneguard/HavocFlavor" value="<string name='Units/khorneguard/HavocFlavor'/>"/>
+	<entry name="khorneguard/HavocLauncher" value="<string name='Weapons/HavocLauncher'/>"/>
+	<entry name="khorneguard/HavocLauncherDescription" value="Grants Chaos Rhino and Chaos Land Raider a mid-range blast weapon."/>
+	<entry name="khorneguard/HavocLauncherFlavor" value="<string name='Weapons/HavocLauncherFlavor'/>"/>
+	<entry name="khorneguard/HeavyWeaponsSquad" value="<string name='Units/khorneguard/HeavyWeaponsSquad'/>"/>
+	<entry name="khorneguard/HeavyWeaponsSquadDescription" value="<string name='Units/khorneguard/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="khorneguard/HeavyWeaponsSquadFlavor" value="<string name='Units/khorneguard/HeavyWeaponsSquadFlavor'/>"/>
+	<entry name="khorneguard/KhorneBerzerker" value="<string name='Units/khorneguard/KhorneBerzerker'/>"/>
+	<entry name="khorneguard/KhorneBerzerkerDescription" value="<string name='Units/khorneguard/KhorneBerzerkerDescription'/>"/>
+	<entry name="khorneguard/KhorneBerzerkerFlavor" value="<string name='Units/khorneguard/KhorneBerzerkerFlavor'/>"/>
+	<entry name="khorneguard/Librarian" value="<string name='Units/khorneguard/Librarian'/>"/>
+	<entry name="khorneguard/LibrarianDescription" value="<string name='Units/khorneguard/LibrarianDescription'/>"/>
+	<entry name="khorneguard/LibrarianFlavor" value="<string name='Units/khorneguard/LibrarianFlavor'/>"/>
+	<entry name="khorneguard/LordOfSkulls" value="<string name='Units/Neutral/LordOfSkulls'/>"/>
+	<entry name="khorneguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="khorneguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="khorneguard/Obliterator" value="<string name='Units/ChaosSpaceMarines/Obliterator'/>"/>
+	<entry name="khorneguard/ObliteratorDescription" value="<string name='Units/ChaosSpaceMarines/ObliteratorDescription'/>"/>
+	<entry name="khorneguard/ObliteratorFlavor" value="<string name='Units/ChaosSpaceMarines/ObliteratorFlavor'/>"/>
+	<entry name="khorneguard/PrimarisPsyker" value="<string name='Units/khorneguard/PrimarisPsyker'/>"/>
+	<entry name="khorneguard/PrimarisPsykerDescription" value="<string name='Units/khorneguard/PrimarisPsykerDescription'/>"/>
+	<entry name="khorneguard/PrimarisPsykerFlavor" value="<string name='Units/khorneguard/PrimarisPsykerFlavor'/>"/>
+	<entry name="khorneguard/Psychneuein" value="<string name='Units/Neutral/Psychneuein'/>"/>
+	<entry name="khorneguard/PsychneueinDescription" value="<string name='Units/Neutral/PsychneueinDescription'/>"/>
+	<entry name="khorneguard/PsychneueinFlavor" value="<string name='Units/Neutral/PsychneueinFlavor'/>"/>
+	<entry name="khorneguard/SisterRepentia" value="<string name='Units/khorneguard/SisterRepentia'/>"/>
+	<entry name="khorneguard/SisterRepentiaDescription" value="<string name='Units/khorneguard/SisterRepentiaDescription'/>"/>
+	<entry name="khorneguard/SisterRepentiaFlavor" value="<string name='Units/khorneguard/SisterRepentiaFlavor'/>"/>
+	<entry name="khorneguard/WarpTalon" value="<string name='Units/khorneguard/WarpTalon'/>"/>
+	<entry name="khorneguard/WarpTalonDescription" value="<string name='Units/khorneguard/WarpTalonDescription'/>"/>
+	<entry name="khorneguard/WarpTalonFlavor" value="<string name='Units/khorneguard/WarpTalonFlavor'/>"/>
+
+	<!-- Units_nurgleguard -->
+	<entry name="nurgleguard/Baneblade" value="<string name='Units/nurgleguard/Baneblade'/>"/>
+	<entry name="nurgleguard/BanebladeDescription" value="<string name='Units/nurgleguard/BanebladeDescription'/>"/>
+	<entry name="nurgleguard/BanebladeFlavor" value="<string name='Units/nurgleguard/BanebladeFlavor'/>"/>
+	<entry name="nurgleguard/Bullgryn" value="<string name='Units/nurgleguard/Bullgryn'/>"/>
+	<entry name="nurgleguard/BullgrynDescription" value="<string name='Units/nurgleguard/BullgrynDescription'/>"/>
+	<entry name="nurgleguard/BullgrynFlavor" value="<string name='Units/nurgleguard/BullgrynFlavor'/>"/>
+	<entry name="nurgleguard/ChaosCultist" value="<string name='Units/nurgleguard/ChaosCultist'/>"/>
+	<entry name="nurgleguard/ChaosCultistDescription" value="<string name='Units/nurgleguard/ChaosCultistDescription'/>"/>
+	<entry name="nurgleguard/ChaosSpaceMarine" value="<string name='Units/nurgleguard/ChaosSpaceMarine'/>"/>
+	<entry name="nurgleguard/ChaosSpaceMarineDescription" value="<string name='Units/nurgleguard/ChaosSpaceMarineDescription'/>"/>
+	<entry name="nurgleguard/ChaosSpaceMarineFlavor" value="<string name='Units/nurgleguard/ChaosSpaceMarineFlavor'/>"/>
+	<entry name="nurgleguard/Chaplain" value="<string name='Units/nurgleguard/Chaplain'/>"/>
+	<entry name="nurgleguard/ChaplainDescription" value="<string name='Units/nurgleguard/ChaplainDescription'/>"/>
+	<entry name="nurgleguard/ChaplainFlavor" value="<string name='Units/nurgleguard/ChaplainFlavor'/>"/>
+	<entry name="nurgleguard/Chimera" value="<string name='Units/nurgleguard/Chimera'/>"/>
+	<entry name="nurgleguard/ChimeraDescription" value="<string name='Units/nurgleguard/ChimeraDescription'/>"/>
+	<entry name="nurgleguard/ChimeraFlavor" value="<string name='Units/nurgleguard/ChimeraFlavor'/>"/>
+	<entry name="nurgleguard/DaemonPrince" value="<string name='Units/ChaosSpaceMarines/DaemonPrince'/>"/>
+	<entry name="nurgleguard/DaemonPrinceDescription" value="<string name='Units/ChaosSpaceMarines/DaemonPrinceDescription'/>"/>
+	<entry name="nurgleguard/DaemonPrinceFlavor" value="<string name='Units/ChaosSpaceMarines/DaemonPrinceFlavor'/>"/>
+	<entry name="nurgleguard/Defiler" value="<string name='Units/nurgleguard/Defiler'/>"/>
+	<entry name="nurgleguard/DefilerDescription" value="<string name='Units/nurgleguard/DefilerDescription'/>"/>
+	<entry name="nurgleguard/DefilerFlavor" value="<string name='Units/nurgleguard/DefilerFlavor'/>"/>
+	<entry name="nurgleguard/DevilDog" value="<string name='Units/nurgleguard/DevilDog'/>"/>
+	<entry name="nurgleguard/DevilDogDescription" value="<string name='Units/nurgleguard/DevilDogDescription'/>"/>
+	<entry name="nurgleguard/DevilDogFlavor" value="<string name='Units/nurgleguard/DevilDogFlavor'/>"/>
+	<entry name="nurgleguard/Havoc" value="<string name='Units/nurgleguard/Havoc'/>"/>
+	<entry name="nurgleguard/HavocDescription" value="<string name='Units/nurgleguard/HavocDescription'/>"/>
+	<entry name="nurgleguard/HavocFlavor" value="<string name='Units/nurgleguard/HavocFlavor'/>"/>
+	<entry name="nurgleguard/HeavyWeaponsSquad" value="<string name='Units/nurgleguard/HeavyWeaponsSquad'/>"/>
+	<entry name="nurgleguard/HeavyWeaponsSquadDescription" value="<string name='Units/nurgleguard/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="nurgleguard/Librarian" value="<string name='Units/nurgleguard/Librarian'/>"/>
+	<entry name="nurgleguard/LibrarianDescription" value="<string name='Units/nurgleguard/LibrarianDescription'/>"/>
+	<entry name="nurgleguard/LibrarianFlavor" value="<string name='Units/nurgleguard/LibrarianFlavor'/>"/>
+	<entry name="nurgleguard/LordCommissar" value="<string name='Units/nurgleguard/LordCommissar'/>"/>
+	<entry name="nurgleguard/LordCommissarDescription" value="<string name='Units/nurgleguard/LordCommissarDescription'/>"/>
+	<entry name="nurgleguard/LordCommissarFlavor" value="<string name='Units/nurgleguard/LordCommissarFlavor'/>"/>
+	<entry name="nurgleguard/LordOfSkulls" value="<string name='Units/Neutral/LordOfSkulls'/>"/>
+	<entry name="nurgleguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="nurgleguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="nurgleguard/MarauderBomber" value="<string name='Units/nurgleguard/MarauderBomber'/>"/>
+	<entry name="nurgleguard/MarauderBomberDescription" value="<string name='Units/nurgleguard/MarauderBomberDescription'/>"/>
+	<entry name="nurgleguard/MarauderBomberFlavor" value="<string name='Units/nurgleguard/MarauderBomberFlavor'/>"/>
+	<entry name="nurgleguard/Poxwalker" value="<string name='Units/nurgleguard/Poxwalker'/>"/>
+	<entry name="nurgleguard/PoxwalkerDescription" value="<string name='Units/nurgleguard/PoxwalkerDescription'/>"/>
+	<entry name="nurgleguard/PoxwalkerFlavor" value="<string name='Units/nurgleguard/PoxwalkerFlavor'/>"/>
+	<entry name="nurgleguard/PrimarisPsyker" value="<string name='Units/nurgleguard/PrimarisPsyker'/>"/>
+	<entry name="nurgleguard/PrimarisPsykerDescription" value="<string name='Units/nurgleguard/PrimarisPsykerDescription'/>"/>
+	<entry name="nurgleguard/PrimarisPsykerFlavor" value="<string name='Units/nurgleguard/PrimarisPsykerFlavor'/>"/>
+	<entry name="nurgleguard/Psychneuein" value="<string name='Units/Neutral/Psychneuein'/>"/>
+	<entry name="nurgleguard/PsychneueinDescription" value="<string name='Units/Neutral/PsychneueinDescription'/>"/>
+	<entry name="nurgleguard/PsychneueinFlavor" value="<string name='Units/Neutral/PsychneueinFlavor'/>"/>
+	<entry name="nurgleguard/ScoutSentinel" value="<string name='Units/nurgleguard/ScoutSentinel'/>"/>
+	<entry name="nurgleguard/ScoutSentinelDescription" value="<string name='Units/nurgleguard/ScoutSentinelDescription'/>"/>
+	<entry name="nurgleguard/ScoutSentinelFlavor" value="<string name='Units/nurgleguard/ScoutSentinelFlavor'/>"/>
+	<entry name="nurgleguard/Thunderbolt" value="<string name='Units/nurgleguard/Thunderbolt'/>"/>
+	<entry name="nurgleguard/ThunderboltDescription" value="<string name='Units/nurgleguard/ThunderboltDescription'/>"/>
+	<entry name="nurgleguard/ThunderboltFlavor" value="<string name='Units/nurgleguard/ThunderboltFlavor'/>"/>
+	<entry name="nurgleguard/Umbra" value="<string name='Units/Neutral/Umbra'/>"/>
+	<entry name="nurgleguard/UmbraDescription" value="<string name='Units/Neutral/UmbraDescription'/>"/>
+	<entry name="nurgleguard/UmbraFlavor" value="<string name='Units/Neutral/UmbraFlavor'/>"/>
+
+	<!-- Units_slaguard -->
+	<entry name="slaguard/Basilisk" value="<string name='Units/slaguard/Basilisk'/>"/>
+	<entry name="slaguard/BasiliskDescription" value="<string name='Units/slaguard/BasiliskDescription'/>"/>
+	<entry name="slaguard/BasiliskFlavor" value="<string name='Units/slaguard/BasiliskFlavor'/>"/>
+	<entry name="slaguard/Bullgryn" value="<string name='Units/slaguard/Bullgryn'/>"/>
+	<entry name="slaguard/BullgrynDescription" value="<string name='Units/slaguard/BullgrynDescription'/>"/>
+	<entry name="slaguard/BullgrynFlavor" value="<string name='Units/slaguard/BullgrynFlavor'/>"/>
+	<entry name="slaguard/ChaosCultist" value="<string name='Units/slaguard/ChaosCultist'/>"/>
+	<entry name="slaguard/ChaosCultistDescription" value="<string name='Units/slaguard/ChaosCultistDescription'/>"/>
+	<entry name="slaguard/ChaosCultistFlavor" value="<string name='Units/slaguard/ChaosCultistFlavor'/>"/>
+	<entry name="slaguard/ChaosLandRaider" value="<string name='Units/slaguard/ChaosLandRaider'/>"/>
+	<entry name="slaguard/ChaosLandRaiderDescription" value="<string name='Units/slaguard/ChaosLandRaiderDescription'/>"/>
+	<entry name="slaguard/ChaosLandRaiderFlavor" value="<string name='Units/slaguard/ChaosLandRaiderFlavor'/>"/>
+	<entry name="slaguard/ChaosLord" value="<string name='Units/slaguard/ChaosLord'/>"/>
+	<entry name="slaguard/ChaosLordDescription" value="<string name='Units/slaguard/ChaosLordDescription'/>"/>
+	<entry name="slaguard/ChaosLordFlavor" value="<string name='Units/slaguard/ChaosLordFlavor'/>"/>
+	<entry name="slaguard/ChaosSpawn" value="<string name='Units/slaguard/ChaosSpawn'/>"/>
+	<entry name="slaguard/ChaosSpawnDescription" value="<string name='Units/slaguard/ChaosSpawnDescription'/>"/>
+	<entry name="slaguard/ChaosSpawnFlavor" value="<string name='Units/slaguard/ChaosSpawnFlavor'/>"/>
+	<entry name="slaguard/Chimera" value="<string name='Units/slaguard/Chimera'/>"/>
+	<entry name="slaguard/ChimeraDescription" value="<string name='Units/slaguard/ChimeraDescription'/>"/>
+	<entry name="slaguard/ChimeraFlavor" value="<string name='Units/slaguard/ChimeraFlavor'/>"/>
+	<entry name="slaguard/DaemonPrince" value="<string name='Units/slaguard/DaemonPrince'/>"/>
+	<entry name="slaguard/DaemonPrinceDescription" value="<string name='Units/slaguard/DaemonPrinceDescription'/>"/>
+	<entry name="slaguard/DaemonPrinceFlavor" value="<string name='Units/slaguard/DaemonPrinceFlavor'/>"/>
+	<entry name="slaguard/Defiler" value="<string name='Units/slaguard/Defiler'/>"/>
+	<entry name="slaguard/DefilerDescription" value="<string name='Units/slaguard/DefilerDescription'/>"/>
+	<entry name="slaguard/DefilerFlavor" value="<string name='Units/slaguard/DefilerFlavor'/>"/>
+	<entry name="slaguard/DevilDog" value="<string name='Units/slaguard/DevilDog'/>"/>
+	<entry name="slaguard/DevilDogDescription" value="<string name='Units/slaguard/DevilDogDescription'/>"/>
+	<entry name="slaguard/DevilDogFlavor" value="<string name='Units/slaguard/DevilDogFlavor'/>"/>
+	<entry name="slaguard/GreaterBrassScorpionOfKhorne" value="<string name='Units/ChaosSpaceMarines/GreaterBrassScorpionOfKhorne'/>"/>
+	<entry name="slaguard/GreaterBrassScorpionOfKhorneDescription" value="<string name='Units/ChaosSpaceMarines/GreaterBrassScorpionOfKhorneDescription'/>"/>
+	<entry name="slaguard/GreaterBrassScorpionOfKhorneFlavor" value="<string name='Units/ChaosSpaceMarines/GreaterBrassScorpionOfKhorneFlavor'/>"/>
+	<entry name="slaguard/HeavyWeaponsSquad" value="<string name='Units/slaguard/HeavyWeaponsSquad'/>"/>
+	<entry name="slaguard/HeavyWeaponsSquadDescription" value="<string name='Units/slaguard/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="slaguard/HeavyWeaponsSquadFlavor" value="<string name='Units/slaguard/HeavyWeaponsSquadFlavor'/>"/>
+	<entry name="slaguard/Helbrute" value="<string name='Units/slaguard/Helbrute'/>"/>
+	<entry name="slaguard/HelbruteDescription" value="<string name='Units/slaguard/HelbruteDescription'/>"/>
+	<entry name="slaguard/HelbruteFlavor" value="<string name='Units/slaguard/HelbruteFlavor'/>"/>
+	<entry name="slaguard/LemanRussBattleTank" value="<string name='Units/slaguard/LemanRussBattleTank'/>"/>
+	<entry name="slaguard/LemanRussBattleTankDescription" value="<string name='Units/slaguard/LemanRussBattleTankDescription'/>"/>
+	<entry name="slaguard/LemanRussBattleTankFlavor" value="<string name='Units/slaguard/LemanRussBattleTankFlavor'/>"/>
+	<entry name="slaguard/LordOfSkulls" value="<string name='Units/Neutral/LordOfSkulls'/>"/>
+	<entry name="slaguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="slaguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="slaguard/MarauderBomber" value="<string name='Units/slaguard/MarauderBomber'/>"/>
+	<entry name="slaguard/MarauderBomberDescription" value="<string name='Units/slaguard/MarauderBomberDescription'/>"/>
+	<entry name="slaguard/MarauderBomberFlavor" value="<string name='Units/slaguard/MarauderBomberFlavor'/>"/>
+	<entry name="slaguard/MasterOfPossession" value="<string name='Units/slaguard/MasterOfPossession'/>"/>
+	<entry name="slaguard/MasterOfPossessionDescription" value="<string name='Units/slaguard/MasterOfPossessionDescription'/>"/>
+	<entry name="slaguard/MasterOfPossessionFlavor" value="<string name='Units/slaguard/MasterOfPossessionFlavor'/>"/>
+	<entry name="slaguard/Psychneuein" value="<string name='Units/Neutral/Psychneuein'/>"/>
+	<entry name="slaguard/PsychneueinDescription" value="<string name='Units/Neutral/PsychneueinDescription'/>"/>
+	<entry name="slaguard/PsychneueinFlavor" value="<string name='Units/Neutral/PsychneueinFlavor'/>"/>
+
+	<entry name="slaguard/ScoutSentinel" value="<string name='Units/slaguard/ScoutSentinel'/>"/>
+	<entry name="slaguard/ScoutSentinelDescription" value="<string name='Units/slaguard/ScoutSentinelDescription'/>"/>
+	<entry name="slaguard/ScoutSentinelFlavor" value="<string name='Units/slaguard/ScoutSentinelFlavor'/>"/>
+	<entry name="slaguard/TempestusScion" value="<string name='Units/slaguard/TempestusScion'/>"/>
+	<entry name="slaguard/TempestusScionDescription" value="<string name='Units/slaguard/TempestusScionDescription'/>"/>
+	<entry name="slaguard/TempestusScionFlavor" value="<string name='Units/slaguard/TempestusScionFlavor'/>"/>
+	<entry name="slaguard/Thunderbolt" value="<string name='Units/slaguard/Thunderbolt'/>"/>
+	<entry name="slaguard/ThunderboltDescription" value="<string name='Units/slaguard/ThunderboltDescription'/>"/>
+	<entry name="slaguard/ThunderboltFlavor" value="<string name='Units/slaguard/ThunderboltFlavor'/>"/>
+	<entry name="slaguard/Umbra" value="<string name='Units/Neutral/Umbra'/>"/>
+	<entry name="slaguard/UmbraDescription" value="<string name='Units/Neutral/UmbraDescription'/>"/>
+	<entry name="slaguard/UmbraFlavor" value="<string name='Units/Neutral/UmbraFlavor'/>"/>
+	<entry name="slaguard/Venomcrawler" value="<string name='Units/slaguard/Venomcrawler'/>"/>
+	<entry name="slaguard/VenomcrawlerDescription" value="<string name='Units/slaguard/VenomcrawlerDescription'/>"/>
+	<entry name="slaguard/VenomcrawlerFlavor" value="<string name='Units/slaguard/VenomcrawlerFlavor'/>"/>
+	<entry name="slaguard/Warpsmith" value="<string name='Units/slaguard/Warpsmith'/>"/>
+	<entry name="slaguard/WarpsmithDescription" value="<string name='Units/slaguard/WarpsmithDescription'/>"/>
+	<entry name="slaguard/WarpsmithFlavor" value="<string name='Units/slaguard/WarpsmithFlavor'/>"/>
+
+	<!-- Units_traitorguard -->
+	<entry name="traitorguard/Baneblade" value="<string name='Units/traitorguard/Baneblade'/>"/>
+	<entry name="traitorguard/BanebladeDescription" value="<string name='Units/traitorguard/BanebladeDescription'/>"/>
+	<entry name="traitorguard/BanebladeFlavor" value="<string name='Units/traitorguard/BanebladeFlavor'/>"/>
+	<entry name="traitorguard/Basilisk" value="<string name='Units/traitorguard/Basilisk'/>"/>
+	<entry name="traitorguard/BasiliskDescription" value="<string name='Units/traitorguard/BasiliskDescription'/>"/>
+	<entry name="traitorguard/BasiliskFlavor" value="<string name='Units/traitorguard/BasiliskFlavor'/>"/>
+	<entry name="traitorguard/Bullgryn" value="<string name='Units/traitorguard/Bullgryn'/>"/>
+	<entry name="traitorguard/BullgrynDescription" value="<string name='Units/traitorguard/BullgrynDescription'/>"/>
+	<entry name="traitorguard/BullgrynFlavor" value="<string name='Units/traitorguard/BullgrynFlavor'/>"/>
+	<entry name="traitorguard/ChaosCultist" value="<string name='Units/traitorguard/ChaosCultist'/>"/>
+	<entry name="traitorguard/ChaosCultistDescription" value="<string name='Units/traitorguard/ChaosCultistDescription'/>"/>
+	<entry name="traitorguard/ChaosCultistFlavor" value="<string name='Units/traitorguard/ChaosCultistFlavor'/>"/>
+
+	<entry name="traitorguard/Chaplain" value="<string name='Units/traitorguard/Chaplain'/>"/>
+	<entry name="traitorguard/ChaplainDescription" value="<string name='Units/traitorguard/ChaplainDescription'/>"/>
+	<entry name="traitorguard/ChaplainFlavor" value="<string name='Units/traitorguard/ChaplainFlavor'/>"/>
+	<entry name="traitorguard/Chimera" value="<string name='Units/traitorguard/Chimera'/>"/>
+	<entry name="traitorguard/ChimeraDescription" value="<string name='Units/traitorguard/ChimeraDescription'/>"/>
+	<entry name="traitorguard/ChimeraFlavor" value="<string name='Units/traitorguard/ChimeraFlavor'/>"/>
+	<entry name="traitorguard/DevilDog" value="<string name='Units/traitorguard/DevilDog'/>"/>
+	<entry name="traitorguard/DevilDogDescription" value="<string name='Units/traitorguard/DevilDogDescription'/>"/>
+	<entry name="traitorguard/DevilDogFlavor" value="<string name='Units/traitorguard/DevilDogFlavor'/>"/>
+	<entry name="traitorguard/HeavyWeaponsSquad" value="<string name='Units/traitorguard/HeavyWeaponsSquad'/>"/>
+	<entry name="traitorguard/HeavyWeaponsSquadDescription" value="<string name='Units/traitorguard/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="traitorguard/HeavyWeaponsSquadFlavor" value="<string name='Units/traitorguard/HeavyWeaponsSquadFlavor'/>"/>
+	<entry name="traitorguard/Hydra" value="<string name='Units/AstraMilitarum/Hydra'/>"/>
+	<entry name="traitorguard/HydraDescription" value="<string name='Units/AstraMilitarum/HydraDescription'/>"/>
+	<entry name="traitorguard/HydraFlavor" value="<string name='Units/AstraMilitarum/HydraFlavor'/>"/>
+	<entry name="traitorguard/LemanRussBattleTank" value="<string name='Units/traitorguard/LemanRussBattleTank'/>"/>
+	<entry name="traitorguard/LemanRussBattleTankDescription" value="<string name='Units/traitorguard/LemanRussBattleTankDescription'/>"/>
+	<entry name="traitorguard/LemanRussBattleTankFlavor" value="<string name='Units/traitorguard/LemanRussBattleTankFlavor'/>"/>
+	<entry name="traitorguard/Librarian" value="<string name='Units/traitorguard/Librarian'/>"/>
+	<entry name="traitorguard/LibrarianDescription" value="<string name='Units/traitorguard/LibrarianDescription'/>"/>
+	<entry name="traitorguard/LibrarianFlavor" value="<string name='Units/traitorguard/LibrarianFlavor'/>"/>
+	<entry name="traitorguard/LordCommissar" value="<string name='Units/traitorguard/LordCommissar'/>"/>
+	<entry name="traitorguard/LordCommissarDescription" value="<string name='Units/traitorguard/LordCommissarDescription'/>"/>
+	<entry name="traitorguard/LordCommissarFlavor" value="<string name='Units/traitorguard/LordCommissarFlavor'/>"/>
+	<entry name="traitorguard/MarauderBomber" value="<string name='Units/traitorguard/MarauderBomber'/>"/>
+	<entry name="traitorguard/MarauderBomberDescription" value="<string name='Units/traitorguard/MarauderBomberDescription'/>"/>
+	<entry name="traitorguard/MarauderBomberFlavor" value="<string name='Units/traitorguard/MarauderBomberFlavor'/>"/>
+	<entry name="traitorguard/NoctilithCrown" value="<string name='Units/traitorguard/NoctilithCrown'/>"/>
+	<entry name="traitorguard/NoctilithCrownDescription" value="Grants Renegade Guardmens the ability to construct fortifications."/>
+	<entry name="traitorguard/NoctilithCrownFlavor" value="<string name='Units/traitorguard/NoctilithCrownFlavor'/>"/>
+	<entry name="traitorguard/PrimarisPsyker" value="<string name='Units/traitorguard/PrimarisPsyker'/>"/>
+	<entry name="traitorguard/PrimarisPsykerDescription" value="<string name='Units/traitorguard/PrimarisPsykerDescription'/>"/>
+	<entry name="traitorguard/PrimarisPsykerFlavor" value="<string name='Units/traitorguard/PrimarisPsykerFlavor'/>"/>
+	<entry name="traitorguard/Psychneuein" value="<string name='Units/Neutral/Psychneuein'/>"/>
+	<entry name="traitorguard/PsychneueinDescription" value="<string name='Units/Neutral/PsychneueinDescription'/>"/>
+	<entry name="traitorguard/PsychneueinFlavor" value="<string name='Units/Neutral/PsychneueinFlavor'/>"/>
+	<entry name="traitorguard/Ratling" value="<string name='Units/traitorguard/Ratling'/>"/>
+	<entry name="traitorguard/RatlingDescription" value="<string name='Units/traitorguard/RatlingDescription'/>"/>
+	<entry name="traitorguard/RatlingFlavor" value="<string name='Units/traitorguard/RatlingFlavor'/>"/>
+	<entry name="traitorguard/ScoutSentinel" value="<string name='Units/traitorguard/ScoutSentinel'/>"/>
+	<entry name="traitorguard/ScoutSentinelDescription" value="<string name='Units/traitorguard/ScoutSentinelDescription'/>"/>
+	<entry name="traitorguard/ScoutSentinelFlavor" value="<string name='Units/traitorguard/ScoutSentinelFlavor'/>"/>
+	<entry name="traitorguard/TempestusScion" value="<string name='Units/traitorguard/TempestusScion'/>"/>
+	<entry name="traitorguard/TempestusScionDescription" value="<string name='Units/traitorguard/TempestusScionDescription'/>"/>
+	<entry name="traitorguard/TempestusScionFlavor" value="<string name='Units/traitorguard/TempestusScionFlavor'/>"/>
+	<entry name="traitorguard/Thunderbolt" value="<string name='Units/traitorguard/Thunderbolt'/>"/>
+	<entry name="traitorguard/ThunderboltDescription" value="<string name='Units/traitorguard/ThunderboltDescription'/>"/>
+	<entry name="traitorguard/ThunderboltFlavor" value="<string name='Units/traitorguard/ThunderboltFlavor'/>"/>
+
+	<!-- Units_tzeguard -->
+	<entry name="tzeguard/Baneblade" value="<string name='Units/tzeguard/Baneblade'/>"/>
+	<entry name="tzeguard/BanebladeDescription" value="<string name='Units/tzeguard/BanebladeDescription'/>"/>
+	<entry name="tzeguard/BanebladeFlavor" value="<string name='Units/tzeguard/BanebladeFlavor'/>"/>
+	<entry name="tzeguard/Basilisk" value="<string name='Units/tzeguard/Basilisk'/>"/>
+	<entry name="tzeguard/BasiliskDescription" value="<string name='Units/tzeguard/BasiliskDescription'/>"/>
+	<entry name="tzeguard/BasiliskFlavor" value="<string name='Units/tzeguard/BasiliskFlavor'/>"/>
+	<entry name="tzeguard/Bullgryn" value="<string name='Units/tzeguard/Bullgryn'/>"/>
+	<entry name="tzeguard/BullgrynDescription" value="<string name='Units/tzeguard/BullgrynDescription'/>"/>
+	<entry name="tzeguard/BullgrynFlavor" value="<string name='Units/tzeguard/BullgrynFlavor'/>"/>
+	<entry name="tzeguard/ChaosCultist" value="<string name='Units/tzeguard/ChaosCultist'/>"/>
+	<entry name="tzeguard/ChaosCultistDescription" value="<string name='Units/tzeguard/ChaosCultistDescription'/>"/>
+	<entry name="tzeguard/ChaosCultistFlavor" value="<string name='Units/tzeguard/ChaosCultistFlavor'/>"/>
+	<entry name="tzeguard/ChaosSpaceMarine" value="<string name='Units/tzeguard/ChaosSpaceMarine'/>"/>
+	<entry name="tzeguard/ChaosSpaceMarineDescription" value="<string name='Units/tzeguard/ChaosSpaceMarineDescription'/>"/>
+	<entry name="tzeguard/ChaosSpaceMarineFlavor" value="<string name='Units/tzeguard/ChaosSpaceMarineFlavor'/>"/>
+	<entry name="tzeguard/Chaplain" value="<string name='Units/tzeguard/Chaplain'/>"/>
+	<entry name="tzeguard/ChaplainDescription" value="<string name='Units/tzeguard/ChaplainDescription'/>"/>
+	<entry name="tzeguard/ChaplainFlavor" value="<string name='Units/tzeguard/ChaplainFlavor'/>"/>
+	<entry name="tzeguard/DaemonPrince" value="<string name='Units/tzeguard/DaemonPrince'/>"/>
+	<entry name="tzeguard/DaemonPrinceDescription" value="<string name='Units/tzeguard/DaemonPrinceDescription'/>"/>
+	<entry name="tzeguard/DaemonPrinceFlavor" value="<string name='Units/tzeguard/DaemonPrinceFlavor'/>"/>
+	<entry name="tzeguard/Defiler" value="<string name='Units/tzeguard/Defiler'/>"/>
+	<entry name="tzeguard/DefilerDescription" value="<string name='Units/tzeguard/DefilerDescription'/>"/>
+	<entry name="tzeguard/DefilerFlavor" value="<string name='Units/tzeguard/DefilerFlavor'/>"/>
+	<entry name="tzeguard/DevilDog" value="<string name='Units/traitorguard/DevilDog'/>"/>
+	<entry name="tzeguard/DevilDogDescription" value="<string name='Units/traitorguard/DevilDogDescription'/>"/>
+	<entry name="tzeguard/DevilDogFlavor" value="<string name='Units/traitorguard/DevilDogFlavor'/>"/>
+	<entry name="tzeguard/HeavyWeaponsSquad" value="<string name='Units/tzeguard/HeavyWeaponsSquad'/>"/>
+	<entry name="tzeguard/HeavyWeaponsSquadDescription" value="<string name='Units/tzeguard/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="tzeguard/HeavyWeaponsSquadFlavor" value="<string name='Units/tzeguard/HeavyWeaponsSquadFlavor'/>"/>
+	<entry name="tzeguard/Hydra" value="<string name='Units/tzeguard/Hydra'/>"/>
+	<entry name="tzeguard/HydraDescription" value="<string name='Units/tzeguard/HydraDescription'/>"/>
+	<entry name="tzeguard/HydraFlavor" value="<string name='Units/tzeguard/HydraFlavor'/>"/>
+	<entry name="tzeguard/LemanRussBattleTank" value="<string name='Units/tzeguard/LemanRussBattleTank'/>"/>
+	<entry name="tzeguard/LemanRussBattleTankDescription" value="<string name='Units/tzeguard/LemanRussBattleTankDescription'/>"/>
+	<entry name="tzeguard/LemanRussBattleTankFlavor" value="<string name='Units/tzeguard/LemanRussBattleTankFlavor'/>"/>
+	<entry name="tzeguard/Librarian" value="<string name='Units/tzeguard/Librarian'/>"/>
+	<entry name="tzeguard/LibrarianDescription" value="<string name='Units/tzeguard/LibrarianDescription'/>"/>
+	<entry name="tzeguard/LibrarianFlavor" value="<string name='Units/tzeguard/LibrarianFlavor'/>"/>
+	<entry name="tzeguard/LordCommissar" value="<string name='Units/tzeguard/LordCommissar'/>"/>
+	<entry name="tzeguard/LordCommissarDescription" value="<string name='Units/tzeguard/LordCommissarDescription'/>"/>
+	<entry name="tzeguard/LordCommissarFlavor" value="<string name='Units/tzeguard/LordCommissarFlavor'/>"/>
+	<entry name="tzeguard/LordOfSkulls" value="<string name='Units/Neutral/LordOfSkulls'/>"/>
+	<entry name="tzeguard/LordOfSkullsDescription" value="<string name='Units/Neutral/LordOfSkullsDescription'/>"/>
+	<entry name="tzeguard/LordOfSkullsFlavor" value="<string name='Units/Neutral/LordOfSkullsFlavor'/>"/>
+	<entry name="tzeguard/MarauderBomber" value="<string name='Units/tzeguard/MarauderBomber'/>"/>
+	<entry name="tzeguard/MarauderBomberDescription" value="<string name='Units/tzeguard/MarauderBomberDescription'/>"/>
+	<entry name="tzeguard/MarauderBomberFlavor" value="<string name='Units/tzeguard/MarauderBomberFlavor'/>"/>
+	<entry name="tzeguard/NoctilithCrown" value="<string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
+	<entry name="tzeguard/NoctilithCrownDescription" value="Grants Renegade Guardmens the ability to construct fortifications."/>
+	<entry name="tzeguard/NoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
+	<entry name="tzeguard/PrimarisPsyker" value="<string name='Units/tzeguard/PrimarisPsyker'/>"/>
+	<entry name="tzeguard/PrimarisPsykerDescription" value="<string name='Units/tzeguard/PrimarisPsykerDescription'/>"/>
+	<entry name="tzeguard/PrimarisPsykerFlavor" value="<string name='Units/tzeguard/PrimarisPsykerFlavor'/>"/>
+	<entry name="tzeguard/Psychneuein" value="<string name='Units/Neutral/Psychneuein'/>"/>
+	<entry name="tzeguard/PsychneueinDescription" value="<string name='Units/Neutral/PsychneueinDescription'/>"/>
+	<entry name="tzeguard/PsychneueinFlavor" value="<string name='Units/Neutral/PsychneueinFlavor'/>"/>
+	<entry name="tzeguard/RogalDornBattleTank" value="<string name='Units/tzeguard/RogalDornBattleTank'/>"/>
+	<entry name="tzeguard/RogalDornBattleTankDescription" value="<string name='Units/tzeguard/RogalDornBattleTankDescription'/>"/>
+	<entry name="tzeguard/RogalDornBattleTankFlavor" value="<string name='Units/tzeguard/RogalDornBattleTankFlavor'/>"/>
+	<entry name="tzeguard/ScoutSentinel" value="<string name='Units/tzeguard/ScoutSentinel'/>"/>
+	<entry name="tzeguard/ScoutSentinelDescription" value="<string name='Units/tzeguard/ScoutSentinelDescription'/>"/>
+	<entry name="tzeguard/ScoutSentinelFlavor" value="<string name='Units/tzeguard/ScoutSentinelFlavor'/>"/>
+	<entry name="tzeguard/TempestusScion" value="<string name='Units/tzeguard/TempestusScion'/>"/>
+	<entry name="tzeguard/TempestusScionDescription" value="<string name='Units/tzeguard/TempestusScionDescription'/>"/>
+	<entry name="tzeguard/TempestusScionFlavor" value="<string name='Units/tzeguard/TempestusScionFlavor'/>"/>
+	<entry name="tzeguard/Thunderbolt" value="<string name='Units/tzeguard/Thunderbolt'/>"/>
+	<entry name="tzeguard/ThunderboltDescription" value="<string name='Units/tzeguard/ThunderboltDescription'/>"/>
+	<entry name="tzeguard/ThunderboltFlavor" value="<string name='Units/tzeguard/ThunderboltFlavor'/>"/>
+	<entry name="tzeguard/Valkyrie" value="<string name='Units/tzeguard/Valkyrie'/>"/>
+	<entry name="tzeguard/ValkyrieDescription" value="<string name='Units/tzeguard/ValkyrieDescription'/>"/>
+	<entry name="tzeguard/ValkyrieFlavor" value="<string name='Units/tzeguard/ValkyrieFlavor'/>"/>
+
+	<!-- Other_ChaosGuard -->
+	<entry name="ChaosGuard/AdditionalHeavyBolters" value="Additional Heavy Bolters"/>
+	<entry name="ChaosGuard/AdditionalHeavyBoltersDescription" value="Grants Baneblades, Leman Russ Battle Tanks and Valkyries extra heavy bolters."/>
+	<entry name="ChaosGuard/AdditionalHeavyBoltersFlavor" value="<string name='Weapons/HeavyBolterFlavor'/>"/>
+	<entry name="ChaosGuard/ArcaneOcculum" value="<string name='Traits/ChaosGuard/ArcaneOcculum'/>"/>
+	<entry name="ChaosGuard/ArcaneOcculumDescription" value="Grants Champions of Chaos the chance to gain permanently increased accuracy when killing an enemy (Boon of Chaos)."/>
+	<entry name="ChaosGuard/ArcaneOcculumFlavor" value="<string name='Traits/ChaosGuard/ArcaneOcculumFlavor'/>"/>
+	<entry name="ChaosGuard/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
+	<entry name="ChaosGuard/AwakenTheMachineDescription" value="Grants Techpriest Enginseers the ability to boost the damage of vehicles."/>
+	<entry name="ChaosGuard/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
+	<entry name="ChaosGuard/BanebladeLascannon" value="Baneblade Lascannons"/>
+	<entry name="ChaosGuard/BanebladeLascannonDescription" value="Grants Baneblades extra lascannons."/>
+	<entry name="ChaosGuard/BanebladeLascannonFlavor" value="<string name='Weapons/LascannonFlavor'/>"/>
+	<entry name="ChaosGuard/BlastDamage" value="<string name='Traits/ChaosGuard/BlastDamage'/>"/>
+	<entry name="ChaosGuard/BlastDamageDescription" value="Increases the armour penetration of grenade, missile and blast weapons."/>
+	<entry name="ChaosGuard/BlastDamageFlavor" value="<string name='Traits/ChaosGuard/BlastDamageFlavor'/>"/>
+	<entry name="ChaosGuard/Bloated" value="<string name='Traits/ChaosGuard/Bloated'/>"/>
+	<entry name="ChaosGuard/BloatedDescription" value="Grants Champions of Chaos the chance to restore their hitpoints when killing an enemy."/>
+	<entry name="ChaosGuard/BloatedFlavor" value="<string name='Traits/ChaosGuard/BloatedFlavor'/>"/>
+	<entry name="ChaosGuard/BoltDamage" value="<string name='Traits/ChaosGuard/BoltDamage'/>"/>
+	<entry name="ChaosGuard/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+	<entry name="ChaosGuard/BoltDamageFlavor" value="<string name='Traits/ChaosGuard/BoltDamageFlavor'/>"/>
+	<entry name="ChaosGuard/BruteShield" value="<string name='Traits/BruteShield'/>"/>
+	<entry name="ChaosGuard/BruteShieldDescription" value="Increases the damage reduction of Renegade Ogryns."/>
+	<entry name="ChaosGuard/BruteShieldFlavor" value="<string name='Traits/BruteShieldFlavor'/>"/>
+	<entry name="ChaosGuard/CamoNetting" value="<string name='Traits/CamoNetting'/>"/>
+	<entry name="ChaosGuard/CamoNettingDescription" value="<string name='Traits/CamoNettingDescription'/>"/>
+	<entry name="ChaosGuard/CamoNettingFlavor" value="<string name='Traits/CamoNettingFlavor'/>"/>
+	<entry name="ChaosGuard/ChaffLauncher" value="Chaff Launcher"/>
+	<entry name="ChaosGuard/ChaffLauncherDescription" value="Grants Thunderbolts and Marauder Bombers the ability to launch chaffs that increase ranged damage reduction."/>
+	<entry name="ChaosGuard/ChaffLauncherFlavor" value="<string name='Actions/DispenseChaffFlavor'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion2" value="<string name='Traits/ChaosGuard/ChaosDevotion2'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion2Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="ChaosGuard/ChaosDevotion2Flavor" value="<string name='Traits/ChaosGuard/ChaosDevotion2Flavor'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion3" value="<string name='Traits/ChaosGuard/ChaosDevotion3'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion3Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="ChaosGuard/ChaosDevotion3Flavor" value="<string name='Traits/ChaosGuard/ChaosDevotion3Flavor'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion4" value="<string name='Traits/ChaosGuard/ChaosDevotion4'/>"/>
+	<entry name="ChaosGuard/ChaosDevotion4Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="ChaosGuard/ChaosDevotion4Flavor" value="<string name='Traits/ChaosGuard/ChaosDevotion4Flavor'/>"/>
+	<entry name="ChaosGuard/CityTier2" value="<string name='Traits/ChaosGuard/CityTier2'/>"/>
+	<entry name="ChaosGuard/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
+	<entry name="ChaosGuard/CityTier2Flavor" value="<string name='Traits/ChaosGuard/CityTier2Flavor'/>"/>
+	<entry name="ChaosGuard/CityTier3" value="<string name='Traits/ChaosGuard/CityTier3'/>"/>
+	<entry name="ChaosGuard/CityTier3Description" value="<string name='Upgrades/ChaosGuard/CityTier2Description'/>"/>
+	<entry name="ChaosGuard/CityTier3Flavor" value="<string name='Traits/ChaosGuard/CityTier3Flavor'/>"/>
+	<entry name="ChaosGuard/CrystallineBody" value="<string name='Traits/ChaosGuard/CrystallineBody'/>"/>
+	<entry name="ChaosGuard/CrystallineBodyDescription" value="Grants Champions of Chaos the chance to gain permanently increased hitpoints when killing an enemy (Boon of Chaos)."/>
+	<entry name="ChaosGuard/CrystallineBodyFlavor" value="<string name='Traits/ChaosGuard/CrystallineBodyFlavor'/>"/>
+	<entry name="ChaosGuard/DirgeCaster" value="<string name='Actions/ChaosGuard/DirgeCaster'/>"/>
+	<entry name="ChaosGuard/DirgeCasterDescription" value="Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to prevent overwatch attacks."/>
+	<entry name="ChaosGuard/DirgeCasterFlavor" value="<string name='Actions/traitorguard/DirgeCasterFlavor'/>"/>
+	<entry name="ChaosGuard/DozerBlade" value="<string name='Traits/DozerBlade'/>"/>
+	<entry name="ChaosGuard/DozerBladeDescription" value="Reduces the movement penalty for tanks in forests and imperial ruins."/>
+	<entry name="ChaosGuard/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+	<entry name="ChaosGuard/ExtraInfantryArmour" value="<string name='Traits/ExtraInfantryArmour'/>"/>
+	<entry name="ChaosGuard/ExtraInfantryArmourDescription" value="Increases the armour of infantry."/>
+	<entry name="ChaosGuard/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with something closer to the Astra Militarum armaplas-derived carapace armour."/>
+	<entry name="ChaosGuard/ExtraVehicleArmour" value="<string name='Traits/ExtraVehicleArmour'/>"/>
+	<entry name="ChaosGuard/ExtraVehicleArmourDescription" value="Increases the armour of vehicles."/>
+	<entry name="ChaosGuard/ExtraVehicleArmourFlavor" value="Adding extra armour plates to tanks might be the height of heresy for Tech-Priests, but for the soldiers of the Astra Militarum it's the norm. Ablative plating or custom armour for dealing with particular weapons isn't unheard of."/>
+	<entry name="ChaosGuard/FragGrenade" value="<string name='Weapons/FragGrenade'/>"/>
+	<entry name="ChaosGuard/FragGrenadeDescription" value="Grants infantry the ability to throw anti-infantry grenades."/>
+	<entry name="ChaosGuard/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+	<entry name="ChaosGuard/GiftOfMutation" value="<string name='Traits/ChaosGuard/GiftOfMutation'/>"/>
+	<entry name="ChaosGuard/GiftOfMutationDescription" value="Grants Chaos Space Marines, Havocs and Khorne Berzerkers one random unlocked Boon of Chaos."/>
+	<entry name="ChaosGuard/GiftOfMutationFlavor" value="<string name='Traits/ChaosGuard/GiftOfMutationFlavor'/>"/>
+	<entry name="ChaosGuard/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosGuard/HammerOfWrathDescription" value="Grants Daemon Princes, Defilers, Helbrutes, Maulerfiends, Venomcrawlers and Warp Talons the ability to perform more devastating attacks."/>
+	<entry name="ChaosGuard/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="ChaosGuard/HavocLauncher" value="<string name='Weapons/HavocLauncher'/>"/>
+	<entry name="ChaosGuard/HavocLauncherDescription" value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
+	<entry name="ChaosGuard/HavocLauncherFlavor" value="<string name='Weapons/HavocLauncherFlavor'/>"/>
+	<entry name="ChaosGuard/HunterKillerMissile" value="<string name='Weapons/HunterKillerMissile'/>"/>
+	<entry name="ChaosGuard/HunterKillerMissileDescription" value="Grants ground vehicles the ability to fire hunter-killer missiles."/>
+	<entry name="ChaosGuard/HunterKillerMissileFlavor" value="<string name='Weapons/HunterKillerMissileFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfDespair" value="<string name='Actions/ChaosGuard/IconOfDespair'/>"/>
+	<entry name="ChaosGuard/IconOfDespairDescription" value="<string name='Actions/ChaosGuard/IconOfDespairDescription'/>"/>
+	<entry name="ChaosGuard/IconOfDespairFlavor" value="<string name='Actions/ChaosGuard/IconOfDespairFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfExcess" value="<string name='Actions/ChaosGuard/IconOfExcess'/>"/>
+	<entry name="ChaosGuard/IconOfExcessDescription" value="<string name='Actions/ChaosGuard/IconOfExcessDescription'/>"/>
+	<entry name="ChaosGuard/IconOfExcessFlavor" value="<string name='Actions/ChaosGuard/IconOfExcessFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfFlame" value="<string name='Actions/ChaosGuard/IconOfFlame'/>"/>
+	<entry name="ChaosGuard/IconOfFlameDescription" value="<string name='Actions/ChaosGuard/IconOfFlameDescription'/>"/>
+	<entry name="ChaosGuard/IconOfFlameFlavor" value="<string name='Actions/ChaosGuard/IconOfFlameFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfVengeance" value="<string name='Actions/ChaosGuard/IconOfVengeance'/>"/>
+	<entry name="ChaosGuard/IconOfVengeanceDescription" value="<string name='Actions/ChaosGuard/IconOfVengeanceDescription'/>"/>
+	<entry name="ChaosGuard/IconOfVengeanceFlavor" value="<string name='Actions/ChaosGuard/IconOfVengeanceFlavor'/>"/>
+	<entry name="ChaosGuard/IconOfWrath" value="<string name='Actions/ChaosGuard/IconOfWrath'/>"/>
+	<entry name="ChaosGuard/IconOfWrathDescription" value="<string name='Actions/ChaosGuard/IconOfWrathDescription'/>"/>
+	<entry name="ChaosGuard/IconOfWrathFlavor" value="<string name='Actions/ChaosGuard/IconOfWrathFlavor'/>"/>
+	<entry name="ChaosGuard/ImperialSplendour" value="<string name='Traits/ImperialSplendour'/>"/>
+	<entry name="ChaosGuard/ImperialSplendourDescription" value="Increases the influence of Astra Militarum cities."/>
+	<entry name="ChaosGuard/ImperialSplendourFlavor" value="<string name='Traits/ImperialSplendourFlavor'/>"/>
+	<entry name="ChaosGuard/ImperialStrongpoint" value="<string name='Units/AstraMilitarum/ImperialStrongpoint'/>"/>
+	<entry name="ChaosGuard/ImperialStrongpointDescription" value="Grants Techpriest Enginseers the ability to construct fortifications with heavy bolters."/>
+	<entry name="ChaosGuard/ImperialStrongpointFlavor" value="<string name='Units/AstraMilitarum/ImperialStrongpointFlavor'/>"/>
+	<entry name="ChaosGuard/Khorne" value="Khorne Favor"/>
+	<entry name="ChaosGuard/KhorneDescription" value="Increase Mark of Khorne effect and unlock Khorne building, Khorne units and and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="ChaosGuard/KhorneFlavor" value=""/>
+	<entry name="ChaosGuard/KrakGrenade" value="<string name='Weapons/KrakGrenade'/>"/>
+	<entry name="ChaosGuard/KrakGrenadeDescription" value="Grants infantry the ability to throw anti-armour grenades."/>
+	<entry name="ChaosGuard/KrakGrenadeFlavor" value="<string name='Weapons/KrakGrenadeFlavor'/>"/>
+	<entry name="ChaosGuard/LasDamage" value="<string name='Traits/ChaosGuard/LasDamage'/>"/>
+	<entry name="ChaosGuard/LasDamageDescription" value="Increases the armour penetration of las weapons."/>
+	<entry name="ChaosGuard/LasDamageFlavor" value="<string name='Traits/ChaosGuard/LasDamageFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfKhorne" value="<string name='Actions/ChaosGuard/MarkOfKhorne'/>"/>
+	<entry name="ChaosGuard/MarkOfKhorneDescription" value="<string name='Actions/ChaosGuard/MarkOfKhorneDescription'/>"/>
+	<entry name="ChaosGuard/MarkOfKhorneFlavor" value="<string name='Actions/ChaosGuard/MarkOfKhorneFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfNurgle" value="<string name='Actions/ChaosGuard/MarkOfNurgle'/>"/>
+	<entry name="ChaosGuard/MarkOfNurgleDescription" value="<string name='Actions/ChaosGuard/MarkOfNurgleDescription'/>"/>
+	<entry name="ChaosGuard/MarkOfNurgleFlavor" value="<string name='Actions/ChaosGuard/MarkOfNurgleFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfSlaanesh" value="<string name='Actions/ChaosGuard/MarkOfSlaanesh'/>"/>
+	<entry name="ChaosGuard/MarkOfSlaaneshDescription" value="<string name='Actions/ChaosGuard/MarkOfSlaaneshDescription'/>"/>
+	<entry name="ChaosGuard/MarkOfSlaaneshFlavor" value="<string name='Actions/ChaosGuard/MarkOfSlaaneshFlavor'/>"/>
+	<entry name="ChaosGuard/MarkOfTzeentch" value="<string name='Actions/ChaosGuard/MarkOfTzeentch'/>"/>
+	<entry name="ChaosGuard/MarkOfTzeentchDescription" value="<string name='Actions/ChaosGuard/MarkOfTzeentchDescription'/>"/>
+	<entry name="ChaosGuard/MarkOfTzeentchFlavor" value="<string name='Actions/ChaosGuard/MarkOfTzeentchFlavor'/>"/>
+	<entry name="ChaosGuard/Mechanoid" value="<string name='Traits/ChaosGuard/Mechanoid'/>"/>
+	<entry name="ChaosGuard/MechanoidDescription" value="Grants Champions of Chaos the chance to gain permanently increased armour when killing an enemy (Boon of Chaos)."/>
+	<entry name="ChaosGuard/MechanoidFlavor" value="<string name='Traits/ChaosGuard/MechanoidFlavor'/>"/>
+	<entry name="ChaosGuard/MediPack" value="<string name='Actions/MediPack'/>"/>
+	<entry name="ChaosGuard/MediPackDescription" value="Grants Renegade Guardsmen and Renegade Militarum Tempestus Scions the ability to heal themselves during combat."/>
+	<entry name="ChaosGuard/MediPackFlavor" value="<string name='Actions/MediPackFlavor'/>"/>
+	<entry name="ChaosGuard/MeleeDamage" value="<string name='Traits/ChaosGuard/MeleeDamage'/>"/>
+	<entry name="ChaosGuard/MeleeDamageDescription" value="Increases the armour penetration of melee weapons."/>
+	<entry name="ChaosGuard/MeleeDamageFlavor" value="<string name='Traits/ChaosGuard/MeleeDamageFlavor'/>"/>
+	<entry name="ChaosGuard/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="ChaosGuard/MeltaBombDescription" value="Grants Chaos Lord, Chaos Space Marines, Havocs and Khorne Berzerkers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="ChaosGuard/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+	<entry name="ChaosGuard/MightMakesRight2" value="Blood for the Blood God "/>
+	<entry name="ChaosGuard/MightMakesRight2Description" value="Increases the influence gain of units dealing damage."/>
+	<entry name="ChaosGuard/MightMakesRight2Flavor" value="Blood for the blood God."/>
+	<entry name="ChaosGuard/Misfortune" value="<string name='Actions/Misfortune'/>"/>
+	<entry name="ChaosGuard/MisfortuneDescription" value="Grants Wyrdvane Psykers the ability to curse enemy units so they take increased damage."/>
+	<entry name="ChaosGuard/MisfortuneFlavor" value="<string name='Actions/MisfortuneFlavor'/>"/>
+	<entry name="ChaosGuard/Nurgle" value="<string name='Traits/ChaosGuard/Nurgle'/>"/>
+	<entry name="ChaosGuard/NurgleDescription" value="Increase Mark of Nurgle effect and unlock Nurgle building, Nurgle units and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="ChaosGuard/NurgleFlavor" value="<string name='Traits/ChaosGuard/MarkOfNurgleFlavor'/>"/>
+	<entry name="ChaosGuard/OurLivesForTheGods" value="Our Lives for the Gods"/>
+	<entry name="ChaosGuard/OurLivesForTheGodsDescription" value="Increases the growth rate of Guardmen Sacrifice."/>
+	<entry name="ChaosGuard/OurLivesForTheGodsFlavor" value="So many now lie dead at cultists’ blades on Gladius that each death is meaningless, empty, shallow. But it also increases the effect of their sacrifice, as they drag this world closer to the Dark Gods’ fallen hell dimension, and it becomes easier for dark boons to breach the barrier with the Immaterium."/>
+	<entry name="ChaosGuard/RecoveryGear" value="<string name='Traits/RecoveryGear'/>"/>
+	<entry name="ChaosGuard/RecoveryGearDescription" value="Increases the healing rate for ground vehicles."/>
+	<entry name="ChaosGuard/RecoveryGearFlavor" value="<string name='Traits/RecoveryGearFlavor'/>"/>
+	<entry name="ChaosGuard/RelicPlating" value="<string name='Traits/RelicPlating'/>"/>
+	<entry name="ChaosGuard/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles."/>
+	<entry name="ChaosGuard/RelicPlatingFlavor" value="<string name='Traits/RelicPlatingFlavor'/>"/>
+	<entry name="ChaosGuard/RiteOfBlood" value="<string name='Actions/ChaosGuard/RiteOfBlood'/>"/>
+	<entry name="ChaosGuard/RiteOfBloodDescription" value="<string name='Actions/ChaosGuard/RiteOfBloodDescription'/>"/>
+	<entry name="ChaosGuard/RiteOfBloodFlavor" value="<string name='Actions/ChaosGuard/RiteOfBloodFlavor'/>"/>
+	<entry name="ChaosGuard/RiteOfChange" value="<string name='Actions/ChaosGuard/RiteOfChange'/>"/>
+	<entry name="ChaosGuard/RiteOfChangeDescription" value="<string name='Actions/ChaosGuard/RiteOfChangeDescription'/>"/>
+	<entry name="ChaosGuard/RiteOfChangeFlavor" value="<string name='Actions/ChaosGuard/RiteOfChangeFlavor'/>"/>
+	<entry name="ChaosGuard/RiteOfPestilence" value="<string name='Actions/ChaosGuard/RiteOfPestilence'/>"/>
+	<entry name="ChaosGuard/RiteOfPestilenceDescription" value="<string name='Actions/ChaosGuard/RiteOfPestilenceDescription'/>"/>
+	<entry name="ChaosGuard/RiteOfPestilenceFlavor" value="<string name='Actions/ChaosGuard/RiteOfPestilenceFlavor'/>"/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasure" value="<string name='Actions/ChaosGuard/RiteOfUnholyPleasure'/>"/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasureDescription" value="<string name='Actions/ChaosGuard/RiteOfUnholyPleasureDescription'/>"/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasureFlavor" value="<string name='Actions/ChaosGuard/RiteOfUnholyPleasureFlavor'/>"/>
+	<entry name="ChaosGuard/Scavenger2" value="Soul Harvester"/>
+	<entry name="ChaosGuard/Scavenger2Description" value="Increases the amount of salvaged ore when killing enemy units."/>
+	<entry name="ChaosGuard/SkystrikeMissile" value="<string name='Weapons/SkystrikeMissile'/>"/>
+	<entry name="ChaosGuard/SkystrikeMissileDescription" value="Grants Thunderbolts anti-air missiles."/>
+	<entry name="ChaosGuard/SkystrikeMissileFlavor" value="<string name='Weapons/SkystrikeMissileFlavor'/>"/>
+	<entry name="ChaosGuard/Slaanesh" value="<string name='Traits/ChaosGuard/Slaanesh'/>"/>
+	<entry name="ChaosGuard/SlaaneshDescription" value="Increase Mark of Slaanesh effect and unlock Slaanesh building, Slaanesh units and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="ChaosGuard/SlaaneshFlavor" value="<string name='Traits/ChaosGuard/SlaaneshFlavor'/>"/>
+	<entry name="ChaosGuard/SmokeLauncher" value="<string name='Upgrades/SmokeLauncher'/>"/>
+	<entry name="ChaosGuard/SmokeLauncherDescription" value="<string name='Upgrades/SmokeLauncherDescription'/>"/>
+	<entry name="ChaosGuard/SmokeLauncherDescription" value="Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="ChaosGuard/SmokeLauncherFlavor" value="<string name='Upgrades/SmokeLauncherFlavor'/>"/>
+	<entry name="ChaosGuard/TemporalDistortion" value="<string name='Traits/ChaosGuard/TemporalDistortion'/>"/>
+	<entry name="ChaosGuard/TemporalDistortionDescription" value="Grants Champions of Chaos the chance to gain permanently increased movement when killing an enemy (Boon of Chaos)."/>
+	<entry name="ChaosGuard/TemporalDistortionFlavor" value="<string name='Traits/ChaosGuard/TemporalDistortionFlavor'/>"/>
+	<entry name="ChaosGuard/TrainedSentinelPilots" value="<string name='Traits/TrainedSentinelPilots'/>"/>
+	<entry name="ChaosGuard/TrainedSentinelPilotsDescription" value="Increases the damage of Scout Sentinels."/>
+	<entry name="ChaosGuard/TrainedSentinelPilotsFlavor" value="<string name='Traits/TrainedSentinelPilotsFlavor'/>"/>
+	<entry name="ChaosGuard/Tzeentch" value="<string name='Traits/ChaosGuard/Tzeentch'/>"/>
+	<entry name="ChaosGuard/TzeentchDescription" value="Increase Mark of Tzeentch effect and unlock Tzeentch building, Tzeentch units andnew unholy rite for Renegade Imperial Guard city"/>
+	<entry name="ChaosGuard/TzeentchFlavor" value="<string name='Traits/ChaosGuard/TzeentchFlavor'/>"/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWar'/>"/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar2" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWar2'/>"/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy of infantry against units of the Astra Militarum faction."/>
+	<entry name="ChaosGuard/VeteransOfTheLongWar2Flavor" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWar2Flavor'/>"/>
+	<entry name="ChaosGuard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy of infantry against units of the Space Marines faction."/>
+	<entry name="ChaosGuard/VeteransOfTheLongWarFlavor" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWarFlavor'/>"/>
+	<entry name="ChaosGuard/VoxCaster" value="<string name='Traits/VoxCaster'/>"/>
+	<entry name="ChaosGuard/VoxCasterDescription" value="Reduces the morale loss for Guardsmen and Tempestus Scions."/>
+	<entry name="ChaosGuard/VoxCasterFlavor" value="<string name='Traits/VoxCasterFlavor'/>"/>
+	<entry name="ChaosGuard/WarpFrenzy" value="<string name='Traits/ChaosGuard/WarpFrenzy'/>"/>
+	<entry name="ChaosGuard/WarpFrenzyDescription" value="Grants Champions of Chaos the chance to gain permanently increased attacks when killing an enemy (Boon of Chaos)."/>
+	<entry name="ChaosGuard/WarpFrenzyFlavor" value="<string name='Traits/ChaosGuard/WarpFrenzyFlavor'/>"/>
+	<entry name="ChaosGuard/WarpflameGargoyles" value="Warpflame Gargoyles"/>
+	<entry name="ChaosGuard/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Defiler and Chaos Land Raider weapons."/>
+	<entry name="ChaosGuard/WarpflameGargoylesFlavor" value="The muzzles of this vehicle's guns flicker with unnatural fire."/>
+	<entry name="ChaosGuard/WebwayGateBonus" value="Fortification Reinforcement"/>
+	<entry name="ChaosGuard/WebwayGateBonusDescription" value="Removes the cost of activating Imperial Strongpoint."/>
+	<entry name="ChaosGuard/WebwayGateBonusFlavor" value=""/>
+	<entry name="ChaosGuard/WebwayRedoubt" value="Renegade Headquarter"/>
+	<entry name="ChaosGuard/WebwayRedoubtDescription" value="Grants the ability to found new cities on claimed Imperial Strongpoint."/>
+	<entry name="ChaosGuard/WebwayRedoubtFlavor" value="<string name='Actions/ChaosGuard/WebwayRedoubtFlavor'/>"/>
+
+	<!-- Other_SpaceMarines_Error -->
+	<entry name="SpaceMarines/HunterKillerMissileDescription" value="<string name='Upgrades/khorneguard/HunterKillerMissileDescription'/>"/>
+	<entry name="SpaceMarines/HunterKillerMissileDescription" value="<string name='Upgrades/nurgleguard/HunterKillerMissileDescription'/>"/>
+	<entry name="SpaceMarines/HunterKillerMissileDescription" value="<string name='Upgrades/slaguard/HunterKillerMissileDescription'/>"/>
+	<entry name="SpaceMarines/HunterKillerMissileDescription" value="<string name='Upgrades/traitorguard/HunterKillerMissileDescription'/>"/>
+
+	<!-- Other_khorneguard -->
+	<entry name="khorneguard/AdditionalHeavyBolters" value="Additional Heavy Bolters"/>
+	<entry name="khorneguard/AdditionalHeavyBoltersDescription" value="Grants Baneblades, Leman Russ Battle Tanks and Valkyries extra heavy bolters."/>
+	<entry name="khorneguard/AdditionalHeavyBoltersFlavor" value="<string name='Weapons/HeavyBolterFlavor'/>"/>
+	<entry name="khorneguard/Aircraft" value="<string name='Buildings/ChaosSpaceMarines/Aircraft'/>"/>
+	<entry name="khorneguard/Aircraft" value="<string name='Buildings/khorneguard/Aircraft'/>"/>
+	<entry name="khorneguard/AircraftDescription" value="<string name='Buildings/ChaosSpaceMarines/AircraftDescription'/>"/>
+	<entry name="khorneguard/AircraftDescription" value="<string name='Buildings/khorneguard/AircraftDescription'/>"/>
+	<entry name="khorneguard/AircraftFlavor" value="<string name='Buildings/ChaosSpaceMarines/AircraftFlavor'/>"/>
+	<entry name="khorneguard/AircraftFlavor" value="<string name='Buildings/khorneguard/AircraftFlavor'/>"/>
+	<entry name="khorneguard/ArcaneOcculum" value="<string name='Traits/khorneguard/ArcaneOcculum'/>"/>
+	<entry name="khorneguard/ArcaneOcculumDescription" value="Grants Champions of Chaos the chance to gain permanently increased accuracy when killing an enemy (Boon of Chaos)."/>
+	<entry name="khorneguard/ArcaneOcculumFlavor" value="<string name='Traits/khorneguard/ArcaneOcculumFlavor'/>"/>
+	<entry name="khorneguard/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
+	<entry name="khorneguard/AwakenTheMachineDescription" value="Grants Heretek the ability to boost the damage of vehicles."/>
+	<entry name="khorneguard/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
+	<entry name="khorneguard/BanebladeLascannon" value="Baneblade Lascannons"/>
+	<entry name="khorneguard/BanebladeLascannonDescription" value="Grants Baneblades extra lascannons."/>
+	<entry name="khorneguard/BanebladeLascannonFlavor" value="<string name='Weapons/LascannonFlavor'/>"/>
+	<entry name="khorneguard/BlastDamage" value="<string name='Traits/khorneguard/BlastDamage'/>"/>
+	<entry name="khorneguard/BlastDamageDescription" value="Increases the armour penetration of grenade, missile and blast weapons."/>
+	<entry name="khorneguard/BlastDamageFlavor" value="<string name='Traits/khorneguard/BlastDamageFlavor'/>"/>
+	<entry name="khorneguard/Bloated" value="<string name='Traits/khorneguard/Bloated'/>"/>
+	<entry name="khorneguard/BloatedDescription" value="Grants Champions of Chaos the chance to restore their hitpoints when killing an enemy."/>
+	<entry name="khorneguard/BloatedFlavor" value="<string name='Traits/khorneguard/BloatedFlavor'/>"/>
+	<entry name="khorneguard/Blood" value="<string name='Traits/khorneguard/Blood'/>"/>
+	<entry name="khorneguard/BloodDescription" value="<string name='Traits/khorneguard/BloodDescription'/>"/>
+	<entry name="khorneguard/BoltDamage" value="<string name='Traits/khorneguard/BoltDamage'/>"/>
+	<entry name="khorneguard/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+	<entry name="khorneguard/BoltDamageFlavor" value="<string name='Traits/khorneguard/BoltDamageFlavor'/>"/>
+	<entry name="khorneguard/BruteShield" value="<string name='Traits/BruteShield'/>"/>
+	<entry name="khorneguard/BruteShieldDescription" value="Increases the damage reduction of Renegade Ogryns."/>
+	<entry name="khorneguard/BruteShieldFlavor" value="<string name='Traits/BruteShieldFlavor'/>"/>
+	<entry name="khorneguard/CamoNetting" value="<string name='Traits/CamoNetting'/>"/>
+	<entry name="khorneguard/CamoNettingDescription" value="<string name='Traits/CamoNettingDescription'/>"/>
+	<entry name="khorneguard/CamoNettingFlavor" value="<string name='Traits/CamoNettingFlavor'/>"/>
+	<entry name="khorneguard/ChaffLauncher" value="Chaff Launcher"/>
+	<entry name="khorneguard/ChaffLauncherDescription" value="Grants Thunderbolts and Marauder Bombers the ability to launch chaffs that increase ranged damage reduction."/>
+	<entry name="khorneguard/ChaffLauncherFlavor" value="<string name='Actions/DispenseChaffFlavor'/>"/>
+	<entry name="khorneguard/ChaosDevotion" value="<string name='Traits/khorneguard/ChaosDevotion'/>"/>
+	<entry name="khorneguard/ChaosDevotion2" value="<string name='Traits/khorneguard/ChaosDevotion2'/>"/>
+	<entry name="khorneguard/ChaosDevotion2Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="khorneguard/ChaosDevotion2Flavor" value="<string name='Traits/khorneguard/ChaosDevotion2Flavor'/>"/>
+	<entry name="khorneguard/ChaosDevotion3" value="<string name='Traits/khorneguard/ChaosDevotion3'/>"/>
+	<entry name="khorneguard/ChaosDevotion3Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="khorneguard/ChaosDevotion3Flavor" value="<string name='Traits/khorneguard/ChaosDevotion3Flavor'/>"/>
+	<entry name="khorneguard/ChaosDevotion4" value="<string name='Traits/khorneguard/ChaosDevotion4'/>"/>
+	<entry name="khorneguard/ChaosDevotion4Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="khorneguard/ChaosDevotion4Flavor" value="<string name='Traits/khorneguard/ChaosDevotion4Flavor'/>"/>
+	<entry name="khorneguard/ChaosDevotionDescription" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="khorneguard/ChaosDevotionFlavor" value="<string name='Traits/khorneguard/ChaosDevotionFlavor'/>"/>
+	<entry name="khorneguard/ChaosRising" value="Chaos Rising"/>
+	<entry name="khorneguard/ChaosRisingDescription" value="Reduces the cost of founding new cities."/>
+	<entry name="khorneguard/ChaosRisingFlavor" value="The Imperial population of Gladius know little of Chaos, but in the hell of the Xenos invasions their faith in the distant Emperor has been shaken. It is easy for your cultists and apostles to turn their minds to the Gods—and to their doom."/>
+	<entry name="khorneguard/CityTier2" value="<string name='Traits/khorneguard/CityTier2'/>"/>
+	<entry name="khorneguard/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
+	<entry name="khorneguard/CityTier2Flavor" value="<string name='Traits/khorneguard/CityTier2Flavor'/>"/>
+	<entry name="khorneguard/CityTier3" value="<string name='Traits/khorneguard/CityTier3'/>"/>
+	<entry name="khorneguard/CityTier3Description" value="<string name='Upgrades/khorneguard/CityTier2Description'/>"/>
+	<entry name="khorneguard/CityTier3Flavor" value="<string name='Traits/khorneguard/CityTier3Flavor'/>"/>
+	<entry name="khorneguard/Construction" value="<string name='Buildings/khorneguard/Construction'/>"/>
+	<entry name="khorneguard/ConstructionDescription" value="<string name='Buildings/khorneguard/ConstructionDescription'/>"/>
+	<entry name="khorneguard/ConstructionFlavor" value="<string name='Buildings/khorneguard/ConstructionFlavor'/>"/>
+	<entry name="khorneguard/CrystallineBody" value="<string name='Traits/khorneguard/CrystallineBody'/>"/>
+	<entry name="khorneguard/CrystallineBodyDescription" value="Grants Champions of Chaos the chance to gain permanently increased hitpoints when killing an enemy (Boon of Chaos)."/>
+	<entry name="khorneguard/CrystallineBodyFlavor" value="<string name='Traits/khorneguard/CrystallineBodyFlavor'/>"/>
+	<entry name="khorneguard/DirgeCaster" value="<string name='Actions/ChaosSpaceMarines/DirgeCaster'/>"/>
+	<entry name="khorneguard/DirgeCaster" value="<string name='Actions/khorneguard/DirgeCaster'/>"/>
+	<entry name="khorneguard/DirgeCasterDescription" value="Grants Chaos Rhinos and Chaos Land Raiders the ability to prevent overwatch attacks."/>
+	<entry name="khorneguard/DirgeCasterFlavor" value="<string name='Actions/traitorguard/DirgeCasterFlavor'/>"/>
+	<entry name="khorneguard/DozerBlade" value="<string name='Traits/DozerBlade'/>"/>
+	<entry name="khorneguard/DozerBladeDescription" value="Reduces the movement penalty for tanks in forests and imperial ruins."/>
+	<entry name="khorneguard/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+	<entry name="khorneguard/ExtraInfantryArmour" value="<string name='Traits/ExtraInfantryArmour'/>"/>
+	<entry name="khorneguard/ExtraInfantryArmourDescription" value="Increases the armour of infantry."/>
+	<entry name="khorneguard/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with something closer to the Astra Militarum armaplas-derived carapace armour."/>
+	<entry name="khorneguard/ExtraVehicleArmour" value="<string name='Traits/ExtraVehicleArmour'/>"/>
+	<entry name="khorneguard/ExtraVehicleArmourDescription" value="Increases the armour of vehicles."/>
+	<entry name="khorneguard/ExtraVehicleArmourFlavor" value="Adding extra armour plates to tanks might be the height of heresy for Tech-Priests, but for the soldiers of the Astra Militarum it's the norm. Ablative plating or custom armour for dealing with particular weapons isn't unheard of."/>
+	<entry name="khorneguard/FragGrenade" value="<string name='Weapons/FragGrenade'/>"/>
+	<entry name="khorneguard/FragGrenadeDescription" value="Grants infantry the ability to throw anti-infantry grenades."/>
+	<entry name="khorneguard/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+	<entry name="khorneguard/GiftOfMutation" value="<string name='Traits/khorneguard/GiftOfMutation'/>"/>
+	<entry name="khorneguard/GiftOfMutationDescription" value="Grants Chaos Space Marines, Havocs and Khorne Berzerkers one random unlocked Boon of Chaos."/>
+	<entry name="khorneguard/GiftOfMutationFlavor" value="<string name='Traits/khorneguard/GiftOfMutationFlavor'/>"/>
+	<entry name="khorneguard/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="khorneguard/HammerOfWrathDescription" value="Grants Daemon Princes, Defilers, Scout Sentinels, Renegade Scout and Renegade Ogryn the ability to perform more devastating attacks."/>
+	<entry name="khorneguard/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="khorneguard/HavocLauncherDescription" value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
+	<entry name="khorneguard/Heroes" value="<string name='Buildings/khorneguard/Heroes'/>"/>
+	<entry name="khorneguard/HeroesDescription" value="<string name='Buildings/khorneguard/HeroesDescription'/>"/>
+	<entry name="khorneguard/HeroesFlavor" value="<string name='Buildings/khorneguard/HeroesFlavor'/>"/>
+	<entry name="khorneguard/Housing" value="<string name='Buildings/khorneguard/Housing'/>"/>
+	<entry name="khorneguard/HousingDescription" value="<string name='Buildings/khorneguard/HousingDescription'/>"/>
+	<entry name="khorneguard/HousingFlavor" value="<string name='Buildings/khorneguard/HousingFlavor'/>"/>
+	<entry name="khorneguard/HunterKillerMissile" value="<string name='Weapons/HunterKillerMissile'/>"/>
+	<entry name="khorneguard/HunterKillerMissileDescription" value="Grants ground vehicles the ability to fire hunter-killer missiles."/>
+	<entry name="khorneguard/HunterKillerMissileFlavor" value="<string name='Weapons/HunterKillerMissileFlavor'/>"/>
+	<entry name="khorneguard/IconOfWrath" value="<string name='Actions/khorneguard/IconOfWrath'/>"/>
+	<entry name="khorneguard/IconOfWrathDescription" value="<string name='Actions/khorneguard/IconOfWrathDescription'/>"/>
+	<entry name="khorneguard/IconOfWrathFlavor" value="<string name='Actions/khorneguard/IconOfWrathFlavor'/>"/>
+	<entry name="khorneguard/ImperialSplendour" value="<string name='Traits/ImperialSplendour'/>"/>
+	<entry name="khorneguard/ImperialSplendourDescription" value="Increases the influence of Astra Militarum cities."/>
+	<entry name="khorneguard/ImperialSplendourFlavor" value="<string name='Traits/ImperialSplendourFlavor'/>"/>
+	<entry name="khorneguard/ImperialStrongpoint" value="<string name='Units/AstraMilitarum/ImperialStrongpoint'/>"/>
+	<entry name="khorneguard/ImperialStrongpointDescription" value="Grants Heretek the ability to construct fortifications with heavy bolters."/>
+	<entry name="khorneguard/ImperialStrongpointFlavor" value="<string name='Units/AstraMilitarum/ImperialStrongpointFlavor'/>"/>
+	<entry name="khorneguard/Infantry" value="<string name='Buildings/khorneguard/Infantry'/>"/>
+	<entry name="khorneguard/InfantryDescription" value="<string name='Buildings/khorneguard/InfantryDescription'/>"/>
+	<entry name="khorneguard/InfantryFlavor" value="<string name='Buildings/khorneguard/InfantryFlavor'/>"/>
+	<entry name="khorneguard/Khorne" value="Khorne Favor"/>
+	<entry name="khorneguard/KhorneDescription" value="Increase Mark of Khorne effect and unlock Khorne building, Khorne units and and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="khorneguard/KhorneFlavor" value=""/>
+	<entry name="khorneguard/KrakGrenade" value="<string name='Weapons/KrakGrenade'/>"/>
+	<entry name="khorneguard/KrakGrenadeDescription" value="Grants infantry the ability to throw anti-armour grenades."/>
+	<entry name="khorneguard/KrakGrenadeFlavor" value="<string name='Weapons/KrakGrenadeFlavor'/>"/>
+	<entry name="khorneguard/LasDamage" value="<string name='Traits/khorneguard/LasDamage'/>"/>
+	<entry name="khorneguard/LasDamageDescription" value="Increases the armour penetration of las weapons."/>
+	<entry name="khorneguard/LasDamageFlavor" value="<string name='Traits/khorneguard/LasDamageFlavor'/>"/>
+	<entry name="khorneguard/Loyalty" value="<string name='Buildings/khorneguard/Loyalty'/>"/>
+	<entry name="khorneguard/LoyaltyDescription" value="<string name='Buildings/khorneguard/LoyaltyDescription'/>"/>
+	<entry name="khorneguard/LoyaltyFlavor" value="<string name='Buildings/khorneguard/LoyaltyFlavor'/>"/>
+	<entry name="khorneguard/Mechanoid" value="<string name='Traits/khorneguard/Mechanoid'/>"/>
+	<entry name="khorneguard/MechanoidDescription" value="Grants Champions of Chaos the chance to gain permanently increased armour when killing an enemy (Boon of Chaos)."/>
+	<entry name="khorneguard/MechanoidFlavor" value="<string name='Traits/khorneguard/MechanoidFlavor'/>"/>
+	<entry name="khorneguard/MediPack" value="<string name='Actions/MediPack'/>"/>
+	<entry name="khorneguard/MediPackDescription" value="Grants Blood Pact Troopers the ability to heal themselves during combat."/>
+	<entry name="khorneguard/MediPackFlavor" value="<string name='Actions/MediPackFlavor'/>"/>
+	<entry name="khorneguard/MeleeDamage" value="<string name='Traits/khorneguard/MeleeDamage'/>"/>
+	<entry name="khorneguard/MeleeDamageDescription" value="Increases the armour penetration of melee weapons."/>
+	<entry name="khorneguard/MeleeDamageFlavor" value="<string name='Traits/khorneguard/MeleeDamageFlavor'/>"/>
+	<entry name="khorneguard/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="khorneguard/MeltaBombDescription" value="Grants Teeth of Khorne Havocs and Khorne Berzerkers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="khorneguard/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+	<entry name="khorneguard/MightMakesRight2" value="Blood for the Blood God "/>
+	<entry name="khorneguard/MightMakesRight2Description" value="Increases the influence gain of units dealing damage."/>
+	<entry name="khorneguard/MightMakesRight2Flavor" value="Blood for the blood God."/>
+	<entry name="khorneguard/Misfortune" value="<string name='Actions/Misfortune'/>"/>
+	<entry name="khorneguard/MisfortuneDescription" value="Grants Rogue Pyscher the ability to curse enemy units so they take increased damage."/>
+	<entry name="khorneguard/MisfortuneFlavor" value="<string name='Actions/MisfortuneFlavor'/>"/>
+	<entry name="khorneguard/OurLivesForTheGods" value="Our Lives for Khorne"/>
+	<entry name="khorneguard/OurLivesForTheGodsDescription" value="Increases the growth rate of Khorne Cultists Sacrifice."/>
+	<entry name="khorneguard/OurLivesForTheGodsFlavor" value="So many now lie dead at cultists’ blades on Gladius that each death is meaningless, empty, shallow. But it also increases the effect of their sacrifice, as they drag this world closer to the Dark Gods’ fallen hell dimension, and it becomes easier for dark boons to breach the barrier with the Immaterium."/>
+	<entry name="khorneguard/Rage" value="<string name='Traits/Rage'/>"/>
+	<entry name="khorneguard/RageDescription" value="Increase the attacks of melee infantry units."/>
+	<entry name="khorneguard/RageFlavor" value="<string name='Traits/RageFlavor'/>"/>
+	<entry name="khorneguard/RapidRiseBonus" value="Imperial Equipment Theft"/>
+	<entry name="khorneguard/RapidRiseBonusDescription" value="Reduces the cost of Imperial Steal."/>
+	<entry name="khorneguard/RapidRiseBonusFlavor" value="."/>
+	<entry name="khorneguard/RecoveryGear" value="<string name='Traits/RecoveryGear'/>"/>
+	<entry name="khorneguard/RecoveryGearDescription" value="Increases the healing rate for ground vehicles."/>
+	<entry name="khorneguard/RecoveryGearFlavor" value="<string name='Traits/RecoveryGearFlavor'/>"/>
+	<entry name="khorneguard/RelicPlating" value="<string name='Traits/RelicPlating'/>"/>
+	<entry name="khorneguard/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles."/>
+	<entry name="khorneguard/RelicPlatingFlavor" value="<string name='Traits/RelicPlatingFlavor'/>"/>
+	<entry name="khorneguard/RiteOfBlood" value="<string name='Actions/khorneguard/RiteOfBlood'/>"/>
+	<entry name="khorneguard/RiteOfBloodDescription" value="<string name='Actions/khorneguard/RiteOfBloodDescription'/>"/>
+	<entry name="khorneguard/RiteOfBloodFlavor" value="<string name='Actions/khorneguard/RiteOfBloodFlavor'/>"/>
+	<entry name="khorneguard/Scavenger2" value="Soul Harvester"/>
+	<entry name="khorneguard/Scavenger2Description" value="Increases the amount of salvaged ore when killing enemy units."/>
+	<entry name="khorneguard/SkystrikeMissile" value="<string name='Weapons/SkystrikeMissile'/>"/>
+	<entry name="khorneguard/SkystrikeMissileDescription" value="Grants Thunderbolts anti-air missiles."/>
+	<entry name="khorneguard/SkystrikeMissileFlavor" value="<string name='Weapons/SkystrikeMissileFlavor'/>"/>
+	<entry name="khorneguard/SmokeLauncher" value="<string name='Upgrades/SmokeLauncher'/>"/>
+	<entry name="khorneguard/SmokeLauncherDescription" value="<string name='Upgrades/SmokeLauncherDescription'/>"/>
+	<entry name="khorneguard/SmokeLauncherDescription" value="Grants Chaos Rhinos and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="khorneguard/SmokeLauncherFlavor" value="<string name='Upgrades/SmokeLauncherFlavor'/>"/>
+	<entry name="khorneguard/TechpriestBetrayer" value="<string name='Units/khorneguard/TechpriestBetrayer'/>"/>
+	<entry name="khorneguard/TechpriestBetrayerDescription" value="<string name='Units/khorneguard/TechpriestBetrayerDescription'/>"/>
+	<entry name="khorneguard/TemporalDistortion" value="<string name='Traits/khorneguard/TemporalDistortion'/>"/>
+	<entry name="khorneguard/TemporalDistortionDescription" value="Grants Champions of Chaos the chance to gain permanently increased movement when killing an enemy (Boon of Chaos)."/>
+	<entry name="khorneguard/TemporalDistortionFlavor" value="<string name='Traits/khorneguard/TemporalDistortionFlavor'/>"/>
+	<entry name="khorneguard/TrainedSentinelPilots" value="<string name='Traits/TrainedSentinelPilots'/>"/>
+	<entry name="khorneguard/TrainedSentinelPilotsDescription" value="Increases the damage of Scout Sentinels."/>
+	<entry name="khorneguard/TrainedSentinelPilotsFlavor" value="<string name='Traits/TrainedSentinelPilotsFlavor'/>"/>
+	<entry name="khorneguard/Vehicles" value="<string name='Buildings/khorneguard/Vehicles'/>"/>
+	<entry name="khorneguard/VehiclesDescription" value="<string name='Buildings/khorneguard/VehiclesDescription'/>"/>
+	<entry name="khorneguard/VehiclesFlavor" value="<string name='Buildings/khorneguard/VehiclesFlavor'/>"/>
+	<entry name="khorneguard/VeteransOfTheLongWar" value="<string name='Traits/khorneguard/VeteransOfTheLongWar'/>"/>
+	<entry name="khorneguard/VeteransOfTheLongWar2" value="<string name='Traits/khorneguard/VeteransOfTheLongWar2'/>"/>
+	<entry name="khorneguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy of infantry against units of the Astra Militarum faction."/>
+	<entry name="khorneguard/VeteransOfTheLongWar2Flavor" value="<string name='Traits/khorneguard/VeteransOfTheLongWar2Flavor'/>"/>
+	<entry name="khorneguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy of infantry against units of the Space Marines faction."/>
+	<entry name="khorneguard/VeteransOfTheLongWarFlavor" value="<string name='Traits/khorneguard/VeteransOfTheLongWarFlavor'/>"/>
+	<entry name="khorneguard/WarpFrenzy" value="<string name='Traits/khorneguard/WarpFrenzy'/>"/>
+	<entry name="khorneguard/WarpFrenzyDescription" value="Grants Champions of Chaos the chance to gain permanently increased attacks when killing an enemy (Boon of Chaos)."/>
+	<entry name="khorneguard/WarpFrenzyFlavor" value="<string name='Traits/khorneguard/WarpFrenzyFlavor'/>"/>
+	<entry name="khorneguard/WarpflameGargoyles" value="Warpflame Gargoyles"/>
+	<entry name="khorneguard/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino and Chaos Land Raider weapons."/>
+	<entry name="khorneguard/WarpflameGargoylesFlavor" value="The muzzles of this vehicle's guns flicker with unnatural fire."/>
+	<entry name="khorneguard/WebwayGateBonus" value="Fortification Reinforcement"/>
+	<entry name="khorneguard/WebwayGateBonusDescription" value="Removes the cost of activating Imperial Strongpoint."/>
+	<entry name="khorneguard/WebwayGateBonusFlavor" value=""/>
+	<entry name="khorneguard/WebwayRedoubt" value="Renegade Headquarter"/>
+	<entry name="khorneguard/WebwayRedoubtDescription" value="Grants the ability to found new cities on claimed Imperial Strongpoint."/>
+	<!-- Other_nurgleguard -->
+	<entry name="nurgleguard/AdditionalHeavyBolters" value="Additional Heavy Bolters"/>
+	<entry name="nurgleguard/AdditionalHeavyBoltersDescription" value="Grants Baneblades, Leman Russ Battle Tanks and Valkyries extra heavy bolters."/>
+	<entry name="nurgleguard/AdditionalHeavyBoltersFlavor" value="<string name='Weapons/HeavyBolterFlavor'/>"/>
+	<entry name="nurgleguard/ArcaneOcculum" value="<string name='Traits/nurgleguard/ArcaneOcculum'/>"/>
+	<entry name="nurgleguard/ArcaneOcculumDescription" value="Grants Champions of Chaos the chance to gain permanently increased accuracy when killing an enemy (Boon of Chaos)."/>
+	<entry name="nurgleguard/ArcaneOcculumFlavor" value="<string name='Traits/nurgleguard/ArcaneOcculumFlavor'/>"/>
+	<entry name="nurgleguard/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
+	<entry name="nurgleguard/AwakenTheMachineDescription" value="Grants Techpriest Enginseers the ability to boost the damage of vehicles."/>
+	<entry name="nurgleguard/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
+	<entry name="nurgleguard/BanebladeLascannon" value="Baneblade Lascannons"/>
+	<entry name="nurgleguard/BanebladeLascannonDescription" value="Grants Baneblades extra lascannons."/>
+	<entry name="nurgleguard/BanebladeLascannonFlavor" value="<string name='Weapons/LascannonFlavor'/>"/>
+	<entry name="nurgleguard/BlastDamage" value="<string name='Traits/nurgleguard/BlastDamage'/>"/>
+	<entry name="nurgleguard/BlastDamageDescription" value="Increases the armour penetration of grenade, missile and blast weapons."/>
+	<entry name="nurgleguard/BlastDamageFlavor" value="<string name='Traits/nurgleguard/BlastDamageFlavor'/>"/>
+	<entry name="nurgleguard/Bloated" value="<string name='Traits/nurgleguard/Bloated'/>"/>
+	<entry name="nurgleguard/BloatedDescription" value="Grants Champions of Chaos the chance to restore their hitpoints when killing an enemy."/>
+	<entry name="nurgleguard/BloatedFlavor" value="<string name='Traits/nurgleguard/BloatedFlavor'/>"/>
+	<entry name="nurgleguard/BoltDamage" value="<string name='Traits/nurgleguard/BoltDamage'/>"/>
+	<entry name="nurgleguard/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+	<entry name="nurgleguard/BoltDamageFlavor" value="<string name='Traits/nurgleguard/BoltDamageFlavor'/>"/>
+	<entry name="nurgleguard/BruteShield" value="<string name='Traits/BruteShield'/>"/>
+	<entry name="nurgleguard/BruteShieldDescription" value="Increases the damage reduction of Renegade Ogryns."/>
+	<entry name="nurgleguard/BruteShieldFlavor" value="<string name='Traits/BruteShieldFlavor'/>"/>
+	<entry name="nurgleguard/CamoNetting" value="<string name='Traits/CamoNetting'/>"/>
+	<entry name="nurgleguard/CamoNettingDescription" value="<string name='Traits/CamoNettingDescription'/>"/>
+	<entry name="nurgleguard/CamoNettingFlavor" value="<string name='Traits/CamoNettingFlavor'/>"/>
+	<entry name="nurgleguard/ChaffLauncher" value="Chaff Launcher"/>
+	<entry name="nurgleguard/ChaffLauncherDescription" value="Grants Thunderbolts and Marauder Bombers the ability to launch chaffs that increase ranged damage reduction."/>
+	<entry name="nurgleguard/ChaffLauncherFlavor" value="<string name='Actions/DispenseChaffFlavor'/>"/>
+	<entry name="nurgleguard/ChaosDevotion2" value="<string name='Traits/nurgleguard/ChaosDevotion2'/>"/>
+	<entry name="nurgleguard/ChaosDevotion2Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="nurgleguard/ChaosDevotion2Flavor" value="<string name='Traits/nurgleguard/ChaosDevotion2Flavor'/>"/>
+	<entry name="nurgleguard/ChaosDevotion3" value="<string name='Traits/nurgleguard/ChaosDevotion3'/>"/>
+	<entry name="nurgleguard/ChaosDevotion3Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="nurgleguard/ChaosDevotion3Flavor" value="<string name='Traits/nurgleguard/ChaosDevotion3Flavor'/>"/>
+	<entry name="nurgleguard/ChaosDevotion4" value="<string name='Traits/nurgleguard/ChaosDevotion4'/>"/>
+	<entry name="nurgleguard/ChaosDevotion4Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="nurgleguard/ChaosDevotion4Flavor" value="<string name='Traits/nurgleguard/ChaosDevotion4Flavor'/>"/>
+	<entry name="nurgleguard/ChaosRising" value="Chaos Rising"/>
+	<entry name="nurgleguard/ChaosRisingDescription" value="Reduces the cost of founding new cities."/>
+	<entry name="nurgleguard/ChaosRisingFlavor" value="The Imperial population of Gladius know little of Chaos, but in the hell of the Xenos invasions their faith in the distant Emperor has been shaken. It is easy for your cultists and apostles to turn their minds to the Gods—and to their doom."/>
+	<entry name="nurgleguard/CityTier2" value="<string name='Traits/nurgleguard/CityTier2'/>"/>
+	<entry name="nurgleguard/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
+	<entry name="nurgleguard/CityTier2Flavor" value="<string name='Traits/nurgleguard/CityTier2Flavor'/>"/>
+	<entry name="nurgleguard/CityTier3" value="<string name='Traits/nurgleguard/CityTier3'/>"/>
+	<entry name="nurgleguard/CityTier3Description" value="<string name='Upgrades/nurgleguard/CityTier2Description'/>"/>
+	<entry name="nurgleguard/CityTier3Flavor" value="<string name='Traits/nurgleguard/CityTier3Flavor'/>"/>
+	<entry name="nurgleguard/CrystallineBody" value="<string name='Traits/nurgleguard/CrystallineBody'/>"/>
+	<entry name="nurgleguard/CrystallineBodyDescription" value="Grants Champions of Chaos the chance to gain permanently increased hitpoints when killing an enemy (Boon of Chaos)."/>
+	<entry name="nurgleguard/CrystallineBodyFlavor" value="<string name='Traits/nurgleguard/CrystallineBodyFlavor'/>"/>
+	<entry name="nurgleguard/DozerBlade" value="<string name='Traits/DozerBlade'/>"/>
+	<entry name="nurgleguard/DozerBladeDescription" value="Reduces the movement penalty for tanks in forests and imperial ruins."/>
+	<entry name="nurgleguard/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+	<entry name="nurgleguard/ExtraInfantryArmour" value="<string name='Traits/ExtraInfantryArmour'/>"/>
+	<entry name="nurgleguard/ExtraInfantryArmourDescription" value="Increases the armour of infantry."/>
+	<entry name="nurgleguard/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with something closer to the Astra Militarum armaplas-derived carapace armour."/>
+	<entry name="nurgleguard/ExtraVehicleArmour" value="<string name='Traits/ExtraVehicleArmour'/>"/>
+	<entry name="nurgleguard/ExtraVehicleArmourDescription" value="Increases the armour of vehicles."/>
+	<entry name="nurgleguard/ExtraVehicleArmourFlavor" value="Adding extra armour plates to tanks might be the height of heresy for Tech-Priests, but for the soldiers of the Astra Militarum it's the norm. Ablative plating or custom armour for dealing with particular weapons isn't unheard of."/>
+	<entry name="nurgleguard/FragGrenade" value="<string name='Weapons/FragGrenade'/>"/>
+	<entry name="nurgleguard/FragGrenadeDescription" value="Grants infantry the ability to throw anti-infantry grenades."/>
+	<entry name="nurgleguard/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+	<entry name="nurgleguard/GiftOfMutation" value="<string name='Traits/nurgleguard/GiftOfMutation'/>"/>
+	<entry name="nurgleguard/GiftOfMutationDescription" value="Grants Chaos Space Marines, Havocs and Khorne Berzerkers one random unlocked Boon of Chaos."/>
+	<entry name="nurgleguard/GiftOfMutationFlavor" value="<string name='Traits/nurgleguard/GiftOfMutationFlavor'/>"/>
+	<entry name="nurgleguard/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="nurgleguard/HammerOfWrathDescription" value="Grants Daemon Princes, Defilers, Scout Sentinels, Renegade Scout and Renegade Ogryn the ability to perform more devastating attacks."/>
+	<entry name="nurgleguard/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="nurgleguard/HavocLauncher" value="<string name='Weapons/HavocLauncher'/>"/>
+	<entry name="nurgleguard/HavocLauncherDescription" value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
+	<entry name="nurgleguard/HavocLauncherFlavor" value="<string name='Weapons/HavocLauncherFlavor'/>"/>
+	<entry name="nurgleguard/HunterKillerMissile" value="<string name='Weapons/HunterKillerMissile'/>"/>
+	<entry name="nurgleguard/HunterKillerMissileDescription" value="Grants ground vehicles the ability to fire hunter-killer missiles."/>
+	<entry name="nurgleguard/HunterKillerMissileFlavor" value="<string name='Weapons/HunterKillerMissileFlavor'/>"/>
+	<entry name="nurgleguard/IconOfDespair" value="<string name='Actions/nurgleguard/IconOfDespair'/>"/>
+	<entry name="nurgleguard/IconOfDespairDescription" value="<string name='Actions/nurgleguard/IconOfDespairDescription'/>"/>
+	<entry name="nurgleguard/IconOfDespairFlavor" value="<string name='Actions/nurgleguard/IconOfDespairFlavor'/>"/>
+	<entry name="nurgleguard/ImperialSplendour" value="<string name='Traits/ImperialSplendour'/>"/>
+	<entry name="nurgleguard/ImperialSplendourDescription" value="Increases the influence of Astra Militarum cities."/>
+	<entry name="nurgleguard/ImperialSplendourFlavor" value="<string name='Traits/ImperialSplendourFlavor'/>"/>
+	<entry name="nurgleguard/ImperialStrongpoint" value="<string name='Units/AstraMilitarum/ImperialStrongpoint'/>"/>
+	<entry name="nurgleguard/ImperialStrongpointDescription" value="Grants Heretek the ability to construct fortifications with heavy bolters."/>
+	<entry name="nurgleguard/ImperialStrongpointFlavor" value="<string name='Units/AstraMilitarum/ImperialStrongpointFlavor'/>"/>
+	<entry name="nurgleguard/KrakGrenade" value="<string name='Weapons/KrakGrenade'/>"/>
+	<entry name="nurgleguard/KrakGrenadeDescription" value="Grants infantry the ability to throw anti-armour grenades."/>
+	<entry name="nurgleguard/KrakGrenadeFlavor" value="<string name='Weapons/KrakGrenadeFlavor'/>"/>
+	<entry name="nurgleguard/LasDamage" value="<string name='Traits/nurgleguard/LasDamage'/>"/>
+	<entry name="nurgleguard/LasDamageDescription" value="Increases the armour penetration of las weapons."/>
+	<entry name="nurgleguard/LasDamageFlavor" value="<string name='Traits/nurgleguard/LasDamageFlavor'/>"/>
+	<entry name="nurgleguard/MarkOfNurgle" value="<string name='Actions/nurgleguard/MarkOfNurgle'/>"/>
+	<entry name="nurgleguard/MarkOfNurgleDescription" value="<string name='Actions/nurgleguard/MarkOfNurgleDescription'/>"/>
+	<entry name="nurgleguard/MarkOfNurgleFlavor" value="<string name='Actions/nurgleguard/MarkOfNurgleFlavor'/>"/>
+	<entry name="nurgleguard/Mechanoid" value="<string name='Traits/nurgleguard/Mechanoid'/>"/>
+	<entry name="nurgleguard/MechanoidDescription" value="Grants Champions of Chaos the chance to gain permanently increased armour when killing an enemy (Boon of Chaos)."/>
+	<entry name="nurgleguard/MechanoidFlavor" value="<string name='Traits/nurgleguard/MechanoidFlavor'/>"/>
+	<entry name="nurgleguard/MediPack" value="<string name='Actions/MediPack'/>"/>
+	<entry name="nurgleguard/MediPackDescription" value="Grants Followers of the Death God and Renegade Scions the ability to heal themselves during combat."/>
+	<entry name="nurgleguard/MediPackFlavor" value="<string name='Actions/MediPackFlavor'/>"/>
+	<entry name="nurgleguard/MeleeDamage" value="<string name='Traits/nurgleguard/MeleeDamage'/>"/>
+	<entry name="nurgleguard/MeleeDamageDescription" value="Increases the armour penetration of melee weapons."/>
+	<entry name="nurgleguard/MeleeDamageFlavor" value="<string name='Traits/nurgleguard/MeleeDamageFlavor'/>"/>
+	<entry name="nurgleguard/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="nurgleguard/MeltaBombDescription" value="Grants Chaos Lord, Chaos Space Marines, Havocs and Khorne Berzerkers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="nurgleguard/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+	<entry name="nurgleguard/MightMakesRight2" value="Blood for the Blood God "/>
+	<entry name="nurgleguard/MightMakesRight2Description" value="Increases the influence gain of units dealing damage."/>
+	<entry name="nurgleguard/MightMakesRight2Flavor" value="Blood for the blood God."/>
+	<entry name="nurgleguard/Misfortune" value="<string name='Actions/Misfortune'/>"/>
+	<entry name="nurgleguard/MisfortuneDescription" value="Grants Wyrdvane Psykers the ability to curse enemy units so they take increased damage."/>
+	<entry name="nurgleguard/MisfortuneFlavor" value="<string name='Actions/MisfortuneFlavor'/>"/>
+	<entry name="nurgleguard/Nurgle" value="<string name='Traits/nurgleguard/Nurgle'/>"/>
+	<entry name="nurgleguard/NurgleDescription" value="Increase Mark of Nurgle effect and unlock Nurgle building, Nurgle units and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="nurgleguard/NurgleFlavor" value="<string name='Traits/nurgleguard/MarkOfNurgleFlavor'/>"/>
+	<entry name="nurgleguard/OurLivesForTheGods" value="Our Lives For Nurgle"/>
+	<entry name="nurgleguard/OurLivesForTheGodsDescription" value="Increases the growth rate of Nurgle Cultists Sacrifice."/>
+	<entry name="nurgleguard/OurLivesForTheGodsFlavor" value="So many now lie dead at cultists’ blades on Gladius that each death is meaningless, empty, shallow. But it also increases the effect of their sacrifice, as they drag this world closer to the Dark Gods’ fallen hell dimension, and it becomes easier for dark boons to breach the barrier with the Immaterium."/>
+	<entry name="nurgleguard/RecoveryGear" value="<string name='Traits/RecoveryGear'/>"/>
+	<entry name="nurgleguard/RecoveryGearDescription" value="Increases the healing rate for ground vehicles."/>
+	<entry name="nurgleguard/RecoveryGearFlavor" value="<string name='Traits/RecoveryGearFlavor'/>"/>
+	<entry name="nurgleguard/RelicPlating" value="<string name='Traits/RelicPlating'/>"/>
+	<entry name="nurgleguard/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles."/>
+	<entry name="nurgleguard/RelicPlatingFlavor" value="<string name='Traits/RelicPlatingFlavor'/>"/>
+	<entry name="nurgleguard/RiteOfPestilence" value="<string name='Actions/ChaosSpaceMarines/RiteOfPestilence'/>"/>
+	<entry name="nurgleguard/RiteOfPestilenceDescription" value="<string name='Actions/ChaosSpaceMarines/RiteOfPestilenceDescription'/>"/>
+	<entry name="nurgleguard/RiteOfPestilenceFlavor" value="<string name='Actions/ChaosSpaceMarines/RiteOfPestilenceFlavor'/>"/>
+	<entry name="nurgleguard/Scavenger2" value="Soul Harvester"/>
+	<entry name="nurgleguard/Scavenger2Description" value="Increases the amount of salvaged ore when killing enemy units."/>
+	<entry name="nurgleguard/SkystrikeMissile" value="<string name='Weapons/SkystrikeMissile'/>"/>
+	<entry name="nurgleguard/SkystrikeMissileDescription" value="Grants Thunderbolts anti-air missiles."/>
+	<entry name="nurgleguard/SkystrikeMissileFlavor" value="<string name='Weapons/SkystrikeMissileFlavor'/>"/>
+	<entry name="nurgleguard/SmokeLauncher" value="<string name='Upgrades/SmokeLauncher'/>"/>
+	<entry name="nurgleguard/SmokeLauncherDescription" value="<string name='Upgrades/SmokeLauncherDescription'/>"/>
+	<entry name="nurgleguard/SmokeLauncherDescription" value="Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="nurgleguard/SmokeLauncherFlavor" value="<string name='Upgrades/SmokeLauncherFlavor'/>"/>
+	<entry name="nurgleguard/TemporalDistortion" value="<string name='Traits/nurgleguard/TemporalDistortion'/>"/>
+	<entry name="nurgleguard/TemporalDistortionDescription" value="Grants Champions of Chaos the chance to gain permanently increased movement when killing an enemy (Boon of Chaos)."/>
+	<entry name="nurgleguard/TemporalDistortionFlavor" value="<string name='Traits/nurgleguard/TemporalDistortionFlavor'/>"/>
+	<entry name="nurgleguard/TrainedSentinelPilots" value="<string name='Traits/TrainedSentinelPilots'/>"/>
+	<entry name="nurgleguard/TrainedSentinelPilotsDescription" value="Increases the damage of Scout Sentinels."/>
+	<entry name="nurgleguard/TrainedSentinelPilotsFlavor" value="<string name='Traits/TrainedSentinelPilotsFlavor'/>"/>
+	<entry name="nurgleguard/VeteransOfTheLongWar" value="<string name='Traits/nurgleguard/VeteransOfTheLongWar'/>"/>
+	<entry name="nurgleguard/VeteransOfTheLongWar2" value="<string name='Traits/nurgleguard/VeteransOfTheLongWar2'/>"/>
+	<entry name="nurgleguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy of infantry against units of the Astra Militarum faction."/>
+	<entry name="nurgleguard/VeteransOfTheLongWar2Flavor" value="<string name='Traits/nurgleguard/VeteransOfTheLongWar2Flavor'/>"/>
+	<entry name="nurgleguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy of infantry against units of the Space Marines faction."/>
+	<entry name="nurgleguard/VeteransOfTheLongWarFlavor" value="<string name='Traits/nurgleguard/VeteransOfTheLongWarFlavor'/>"/>
+	<entry name="nurgleguard/VoxCaster" value="<string name='Traits/VoxCaster'/>"/>
+	<entry name="nurgleguard/VoxCasterDescription" value="Reduces the morale loss for Followers of the Death God."/>
+	<entry name="nurgleguard/VoxCasterFlavor" value="<string name='Traits/VoxCasterFlavor'/>"/>
+	<entry name="nurgleguard/WarpFrenzy" value="<string name='Traits/nurgleguard/WarpFrenzy'/>"/>
+	<entry name="nurgleguard/WarpFrenzyDescription" value="Grants Champions of Chaos the chance to gain permanently increased attacks when killing an enemy (Boon of Chaos)."/>
+	<entry name="nurgleguard/WarpFrenzyFlavor" value="<string name='Traits/nurgleguard/WarpFrenzyFlavor'/>"/>
+	<entry name="nurgleguard/WarpflameGargoyles" value="Warpflame Gargoyles"/>
+	<entry name="nurgleguard/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Defiler and Chaos Land Raider weapons."/>
+	<entry name="nurgleguard/WarpflameGargoylesFlavor" value="The muzzles of this vehicle's guns flicker with unnatural fire."/>
+
+	<!-- Other_slaguard -->
+	<entry name="slaguard/AdditionalHeavyBolters" value="Additional Heavy Bolters"/>
+	<entry name="slaguard/AdditionalHeavyBoltersDescription" value="Grants Baneblades, Leman Russ Battle Tanks and Valkyries extra heavy bolters."/>
+	<entry name="slaguard/AdditionalHeavyBoltersFlavor" value="<string name='Weapons/HeavyBolterFlavor'/>"/>
+	<entry name="slaguard/Aircraft" value="<string name='Buildings/slaguard/Aircraft'/>"/>
+	<entry name="slaguard/AircraftDescription" value="<string name='Buildings/slaguard/AircraftDescription'/>"/>
+	<entry name="slaguard/AircraftFlavor" value="<string name='Buildings/slaguard/AircraftFlavor'/>"/>
+	<entry name="slaguard/ArcaneOcculum" value="<string name='Traits/slaguard/ArcaneOcculum'/>"/>
+	<entry name="slaguard/ArcaneOcculumDescription" value="Grants Champions of Chaos the chance to gain permanently increased accuracy when killing an enemy (Boon of Chaos)."/>
+	<entry name="slaguard/ArcaneOcculumFlavor" value="<string name='Traits/slaguard/ArcaneOcculumFlavor'/>"/>
+	<entry name="slaguard/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
+	<entry name="slaguard/AwakenTheMachineDescription" value="Grants Techpriest Enginseers the ability to boost the damage of vehicles."/>
+	<entry name="slaguard/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
+	<entry name="slaguard/BanebladeLascannon" value="Baneblade Lascannons"/>
+	<entry name="slaguard/BanebladeLascannonDescription" value="Grants Baneblades extra lascannons."/>
+	<entry name="slaguard/BanebladeLascannonFlavor" value="<string name='Weapons/LascannonFlavor'/>"/>
+	<entry name="slaguard/BlastDamage" value="<string name='Traits/slaguard/BlastDamage'/>"/>
+	<entry name="slaguard/BlastDamageDescription" value="Increases the armour penetration of grenade, missile and blast weapons."/>
+	<entry name="slaguard/BlastDamageFlavor" value="<string name='Traits/slaguard/BlastDamageFlavor'/>"/>
+	<entry name="slaguard/Bloated" value="<string name='Traits/slaguard/Bloated'/>"/>
+	<entry name="slaguard/BloatedDescription" value="Grants Champions of Chaos the chance to restore their hitpoints when killing an enemy."/>
+	<entry name="slaguard/BloatedFlavor" value="<string name='Traits/slaguard/BloatedFlavor'/>"/>
+	<entry name="slaguard/BoltDamage" value="<string name='Traits/slaguard/BoltDamage'/>"/>
+	<entry name="slaguard/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+	<entry name="slaguard/BoltDamageFlavor" value="<string name='Traits/slaguard/BoltDamageFlavor'/>"/>
+	<entry name="slaguard/BruteShield" value="<string name='Traits/BruteShield'/>"/>
+	<entry name="slaguard/BruteShieldDescription" value="Increases the damage reduction of Renegade Ogryns."/>
+	<entry name="slaguard/BruteShieldFlavor" value="<string name='Traits/BruteShieldFlavor'/>"/>
+	<entry name="slaguard/CamoNetting" value="<string name='Traits/CamoNetting'/>"/>
+	<entry name="slaguard/CamoNettingDescription" value="<string name='Traits/CamoNettingDescription'/>"/>
+	<entry name="slaguard/CamoNettingFlavor" value="<string name='Traits/CamoNettingFlavor'/>"/>
+	<entry name="slaguard/ChaffLauncher" value="Chaff Launcher"/>
+	<entry name="slaguard/ChaffLauncherDescription" value="Grants Thunderbolts and Marauder Bombers the ability to launch chaffs that increase ranged damage reduction."/>
+	<entry name="slaguard/ChaffLauncherFlavor" value="<string name='Actions/DispenseChaffFlavor'/>"/>
+	<entry name="slaguard/ChaosDevotion" value="<string name='Traits/slaguard/ChaosDevotion'/>"/>
+	<entry name="slaguard/ChaosDevotion2" value="<string name='Traits/slaguard/ChaosDevotion2'/>"/>
+	<entry name="slaguard/ChaosDevotion2Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="slaguard/ChaosDevotion2Flavor" value="<string name='Traits/slaguard/ChaosDevotion2Flavor'/>"/>
+	<entry name="slaguard/ChaosDevotion3" value="<string name='Traits/slaguard/ChaosDevotion3'/>"/>
+	<entry name="slaguard/ChaosDevotion3Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="slaguard/ChaosDevotion3Flavor" value="<string name='Traits/slaguard/ChaosDevotion3Flavor'/>"/>
+	<entry name="slaguard/ChaosDevotion4" value="<string name='Traits/slaguard/ChaosDevotion4'/>"/>
+	<entry name="slaguard/ChaosDevotion4Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="slaguard/ChaosDevotion4Flavor" value="<string name='Traits/slaguard/ChaosDevotion4Flavor'/>"/>
+	<entry name="slaguard/ChaosDevotionDescription" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="slaguard/ChaosDevotionFlavor" value="<string name='Traits/slaguard/ChaosDevotionFlavor'/>"/>
+	<entry name="slaguard/ChaosRising" value="Chaos Rising"/>
+	<entry name="slaguard/ChaosRisingDescription" value="Reduces the cost of founding new cities."/>
+	<entry name="slaguard/ChaosRisingFlavor" value="The Imperial population of Gladius know little of Chaos, but in the hell of the Xenos invasions their faith in the distant Emperor has been shaken. It is easy for your cultists and apostles to turn their minds to the Gods—and to their doom."/>
+	<entry name="slaguard/CityTier2" value="<string name='Traits/slaguard/CityTier2'/>"/>
+	<entry name="slaguard/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
+	<entry name="slaguard/CityTier2Flavor" value="<string name='Traits/slaguard/CityTier2Flavor'/>"/>
+	<entry name="slaguard/CityTier3" value="<string name='Traits/slaguard/CityTier2'/>"/>
+	<entry name="slaguard/CityTier3Description" value="<string name='Upgrades/slaguard/CityTier2Description'/>"/>
+	<entry name="slaguard/CityTier3Flavor" value="<string name='Traits/slaguard/CityTier3Flavor'/>"/>
+	<entry name="slaguard/Construction" value="<string name='Buildings/slaguard/Construction'/>"/>
+	<entry name="slaguard/ConstructionDescription" value="<string name='Buildings/slaguard/ConstructionDescription'/>"/>
+	<entry name="slaguard/ConstructionFlavor" value="<string name='Buildings/slaguard/ConstructionFlavor'/>"/>
+	<entry name="slaguard/CrystallineBody" value="<string name='Traits/slaguard/CrystallineBody'/>"/>
+	<entry name="slaguard/CrystallineBodyDescription" value="Grants Champions of Chaos the chance to gain permanently increased hitpoints when killing an enemy (Boon of Chaos)."/>
+	<entry name="slaguard/CrystallineBodyFlavor" value="<string name='Traits/slaguard/CrystallineBodyFlavor'/>"/>
+	<entry name="slaguard/DozerBlade" value="<string name='Traits/DozerBlade'/>"/>
+	<entry name="slaguard/DozerBladeDescription" value="Reduces the movement penalty for tanks in forests and imperial ruins."/>
+	<entry name="slaguard/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+	<entry name="slaguard/ExtraInfantryArmour" value="<string name='Traits/ExtraInfantryArmour'/>"/>
+	<entry name="slaguard/ExtraInfantryArmourDescription" value="Increases the armour of infantry."/>
+	<entry name="slaguard/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with something closer to the Astra Militarum armaplas-derived carapace armour."/>
+	<entry name="slaguard/ExtraVehicleArmour" value="<string name='Traits/ExtraVehicleArmour'/>"/>
+	<entry name="slaguard/ExtraVehicleArmourDescription" value="Increases the armour of vehicles."/>
+	<entry name="slaguard/ExtraVehicleArmourFlavor" value="Adding extra armour plates to tanks might be the height of heresy for Tech-Priests, but for the soldiers of the Astra Militarum it's the norm. Ablative plating or custom armour for dealing with particular weapons isn't unheard of."/>
+	<entry name="slaguard/FeelNoPain" value="<string name='Traits/slaguard/FeelNoPain'/>"/>
+	<entry name="slaguard/FeelNoPainDescription" value="<string name='Traits/slaguard/FeelNoPainDescription'/>"/>
+	<entry name="slaguard/FeelNoPainFlavor" value="<string name='Traits/slaguard/FeelNoPainFlavor'/>"/>
+	<entry name="slaguard/FragGrenade" value="<string name='Weapons/FragGrenade'/>"/>
+	<entry name="slaguard/FragGrenadeDescription" value="Grants infantry the ability to throw anti-infantry grenades."/>
+	<entry name="slaguard/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+	<entry name="slaguard/GiftOfMutation" value="<string name='Traits/slaguard/GiftOfMutation'/>"/>
+	<entry name="slaguard/GiftOfMutationDescription" value="Grants Chaos Space Marines, Havocs and Khorne Berzerkers one random unlocked Boon of Chaos."/>
+	<entry name="slaguard/GiftOfMutationFlavor" value="<string name='Traits/slaguard/GiftOfMutationFlavor'/>"/>
+	<entry name="slaguard/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="slaguard/HammerOfWrathDescription" value="Grants Daemon Princes, Defilers, Scout Sentinels, Renegade Scout and Renegade Ogryn the ability to perform more devastating attacks."/>
+	<entry name="slaguard/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="slaguard/HavocLauncher" value="<string name='Weapons/HavocLauncher'/>"/>
+	<entry name="slaguard/HavocLauncherDescription" value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
+	<entry name="slaguard/HavocLauncherFlavor" value="<string name='Weapons/HavocLauncherFlavor'/>"/>
+	<entry name="slaguard/Heroes" value="<string name='Buildings/slaguard/Heroes'/>"/>
+	<entry name="slaguard/HeroesDescription" value="<string name='Buildings/slaguard/HeroesDescription'/>"/>
+	<entry name="slaguard/HeroesFlavor" value="<string name='Buildings/slaguard/HeroesFlavor'/>"/>
+	<entry name="slaguard/Housing" value="<string name='Buildings/slaguard/Housing'/>"/>
+	<entry name="slaguard/HousingDescription" value="<string name='Buildings/slaguard/HousingDescription'/>"/>
+	<entry name="slaguard/HousingFlavor" value="<string name='Buildings/slaguard/HousingFlavor'/>"/>
+	<entry name="slaguard/HunterKillerMissile" value="<string name='Weapons/HunterKillerMissile'/>"/>
+	<entry name="slaguard/HunterKillerMissileDescription" value="Grants ground vehicles the ability to fire hunter-killer missiles."/>
+	<entry name="slaguard/HunterKillerMissileFlavor" value="<string name='Weapons/HunterKillerMissileFlavor'/>"/>
+	<entry name="slaguard/IconOfExcess" value="<string name='Actions/slaguard/IconOfExcess'/>"/>
+	<entry name="slaguard/IconOfExcessDescription" value="<string name='Actions/slaguard/IconOfExcessDescription'/>"/>
+	<entry name="slaguard/IconOfExcessFlavor" value="<string name='Actions/slaguard/IconOfExcessFlavor'/>"/>
+	<entry name="slaguard/ImperialSplendour" value="<string name='Traits/ImperialSplendour'/>"/>
+	<entry name="slaguard/ImperialSplendourDescription" value="Increases the influence of Astra Militarum cities."/>
+	<entry name="slaguard/ImperialSplendourFlavor" value="<string name='Traits/ImperialSplendourFlavor'/>"/>
+	<entry name="slaguard/ImperialStrongpoint" value="<string name='Units/AstraMilitarum/ImperialStrongpoint'/>"/>
+	<entry name="slaguard/ImperialStrongpointDescription" value="Grants Heretek the ability to construct fortifications with heavy bolters."/>
+	<entry name="slaguard/ImperialStrongpointFlavor" value="<string name='Units/AstraMilitarum/ImperialStrongpointFlavor'/>"/>
+	<entry name="slaguard/Infantry" value="<string name='Buildings/slaguard/Infantry'/>"/>
+	<entry name="slaguard/InfantryDescription" value="<string name='Buildings/slaguard/InfantryDescription'/>"/>
+	<entry name="slaguard/InfantryFlavor" value="<string name='Buildings/slaguard/InfantryFlavor'/>"/>
+	<entry name="slaguard/Khorne" value="Khorne Favor"/>
+	<entry name="slaguard/KhorneDescription" value="Increase Mark of Khorne effect and unlock Khorne building, Khorne units and and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="slaguard/KhorneFlavor" value=""/>
+	<entry name="slaguard/KrakGrenade" value="<string name='Weapons/KrakGrenade'/>"/>
+	<entry name="slaguard/KrakGrenadeDescription" value="Grants infantry the ability to throw anti-armour grenades."/>
+	<entry name="slaguard/KrakGrenadeFlavor" value="<string name='Weapons/KrakGrenadeFlavor'/>"/>
+	<entry name="slaguard/LasDamage" value="<string name='Traits/slaguard/LasDamage'/>"/>
+	<entry name="slaguard/LasDamageDescription" value="Increases the armour penetration of las weapons."/>
+	<entry name="slaguard/LasDamageFlavor" value="<string name='Traits/slaguard/LasDamageFlavor'/>"/>
+	<entry name="slaguard/Loyalty" value="<string name='Buildings/slaguard/Loyalty'/>"/>
+	<entry name="slaguard/LoyaltyDescription" value="<string name='Buildings/slaguard/LoyaltyDescription'/>"/>
+	<entry name="slaguard/LoyaltyFlavor" value="<string name='Buildings/slaguard/LoyaltyFlavor'/>"/>
+	<entry name="slaguard/Mechanoid" value="<string name='Traits/slaguard/Mechanoid'/>"/>
+	<entry name="slaguard/MechanoidDescription" value="Grants Champions of Chaos the chance to gain permanently increased armour when killing an enemy (Boon of Chaos)."/>
+	<entry name="slaguard/MechanoidFlavor" value="<string name='Traits/slaguard/MechanoidFlavor'/>"/>
+	<entry name="slaguard/MediPack" value="<string name='Actions/MediPack'/>"/>
+	<entry name="slaguard/MediPackDescription" value="Grants Slaanesh Guardsmen and Renegade Scions the ability to heal themselves during combat."/>
+	<entry name="slaguard/MediPackFlavor" value="<string name='Actions/MediPackFlavor'/>"/>
+	<entry name="slaguard/MeleeDamage" value="<string name='Traits/slaguard/MeleeDamage'/>"/>
+	<entry name="slaguard/MeleeDamageDescription" value="Increases the armour penetration of melee weapons."/>
+	<entry name="slaguard/MeleeDamageFlavor" value="<string name='Traits/slaguard/MeleeDamageFlavor'/>"/>
+	<entry name="slaguard/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="slaguard/MeltaBombDescription" value="Grants Chaos Lord, Chaos Space Marines, Havocs and Khorne Berzerkers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="slaguard/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+	<entry name="slaguard/MightMakesRight2" value="Blood for the Blood God "/>
+	<entry name="slaguard/MightMakesRight2Description" value="Increases the influence gain of units dealing damage."/>
+	<entry name="slaguard/MightMakesRight2Flavor" value="Blood for the blood God."/>
+	<entry name="slaguard/Misfortune" value="<string name='Actions/Misfortune'/>"/>
+	<entry name="slaguard/MisfortuneDescription" value="Grants Wyrdvane Psykers the ability to curse enemy units so they take increased damage."/>
+	<entry name="slaguard/MisfortuneFlavor" value="<string name='Actions/MisfortuneFlavor'/>"/>
+	<entry name="slaguard/OurLivesForTheGods" value="Our Lives for Slaanesh"/>
+	<entry name="slaguard/OurLivesForTheGodsDescription" value="Increases the growth rate of Slaanesh Cultists Sacrifice."/>
+	<entry name="slaguard/OurLivesForTheGodsFlavor" value="So many now lie dead at cultists’ blades on Gladius that each death is meaningless, empty, shallow. But it also increases the effect of their sacrifice, as they drag this world closer to the Dark Gods’ fallen hell dimension, and it becomes easier for dark boons to breach the barrier with the Immaterium."/>
+	<entry name="slaguard/RapidRiseBonus" value="Imperial Equipment Theft"/>
+	<entry name="slaguard/RapidRiseBonusDescription" value="Reduces the cost of Imperial Steal."/>
+	<entry name="slaguard/RapidRiseBonusFlavor" value="."/>
+	<entry name="slaguard/RecoveryGear" value="<string name='Traits/RecoveryGear'/>"/>
+	<entry name="slaguard/RecoveryGearDescription" value="Increases the healing rate for ground vehicles."/>
+	<entry name="slaguard/RecoveryGearFlavor" value="<string name='Traits/RecoveryGearFlavor'/>"/>
+	<entry name="slaguard/RelicPlating" value="<string name='Traits/RelicPlating'/>"/>
+	<entry name="slaguard/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles."/>
+	<entry name="slaguard/RelicPlatingFlavor" value="<string name='Traits/RelicPlatingFlavor'/>"/>
+	<entry name="slaguard/RiteOfUnholyPleasure" value="<string name='Actions/slaguard/RiteOfUnholyPleasure'/>"/>
+	<entry name="slaguard/RiteOfUnholyPleasureDescription" value="<string name='Actions/slaguard/RiteOfUnholyPleasureDescription'/>"/>
+	<entry name="slaguard/RiteOfUnholyPleasureFlavor" value="<string name='Actions/slaguard/RiteOfUnholyPleasureFlavor'/>"/>
+	<entry name="slaguard/Scavenger2" value="Soul Harvester"/>
+	<entry name="slaguard/Scavenger2Description" value="Increases the amount of salvaged ore when killing enemy units."/>
+	<entry name="slaguard/SkystrikeMissile" value="<string name='Weapons/SkystrikeMissile'/>"/>
+	<entry name="slaguard/SkystrikeMissileDescription" value="Grants Thunderbolts anti-air missiles."/>
+	<entry name="slaguard/SkystrikeMissileFlavor" value="<string name='Weapons/SkystrikeMissileFlavor'/>"/>
+	<entry name="slaguard/SmokeLauncher" value="<string name='Upgrades/SmokeLauncher'/>"/>
+	<entry name="slaguard/SmokeLauncherDescription" value="<string name='Upgrades/SmokeLauncherDescription'/>"/>
+	<entry name="slaguard/SmokeLauncherDescription" value="Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="slaguard/SmokeLauncherFlavor" value="<string name='Upgrades/SmokeLauncherFlavor'/>"/>
+	<entry name="slaguard/TechpriestBetrayer" value="<string name='Units/slaguard/TechpriestBetrayer'/>"/>
+	<entry name="slaguard/TechpriestBetrayerDescription" value="<string name='Units/slaguard/TechpriestBetrayerDescription'/>"/>
+	<entry name="slaguard/TemporalDistortion" value="<string name='Traits/slaguard/TemporalDistortion'/>"/>
+	<entry name="slaguard/TemporalDistortionDescription" value="Grants Champions of Chaos the chance to gain permanently increased movement when killing an enemy (Boon of Chaos)."/>
+	<entry name="slaguard/TemporalDistortionFlavor" value="<string name='Traits/slaguard/TemporalDistortionFlavor'/>"/>
+	<entry name="slaguard/TrainedSentinelPilots" value="<string name='Traits/TrainedSentinelPilots'/>"/>
+	<entry name="slaguard/TrainedSentinelPilotsDescription" value="Increases the damage of Scout Sentinels."/>
+	<entry name="slaguard/TrainedSentinelPilotsFlavor" value="<string name='Traits/TrainedSentinelPilotsFlavor'/>"/>
+	<entry name="slaguard/Vehicles" value="<string name='Buildings/slaguard/Vehicles'/>"/>
+	<entry name="slaguard/VehiclesDescription" value="<string name='Buildings/slaguard/VehiclesDescription'/>"/>
+	<entry name="slaguard/VehiclesFlavor" value="<string name='Buildings/slaguard/VehiclesFlavor'/>"/>
+	<entry name="slaguard/VeteransOfTheLongWar" value="<string name='Traits/slaguard/VeteransOfTheLongWar'/>"/>
+	<entry name="slaguard/VeteransOfTheLongWar2" value="<string name='Traits/slaguard/VeteransOfTheLongWar2'/>"/>
+	<entry name="slaguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy of infantry against units of the Astra Militarum faction."/>
+	<entry name="slaguard/VeteransOfTheLongWar2Flavor" value="<string name='Traits/slaguard/VeteransOfTheLongWar2Flavor'/>"/>
+	<entry name="slaguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy of infantry against units of the Space Marines faction."/>
+	<entry name="slaguard/VeteransOfTheLongWarFlavor" value="<string name='Traits/slaguard/VeteransOfTheLongWarFlavor'/>"/>
+	<entry name="slaguard/VoxCaster" value="<string name='Traits/VoxCaster'/>"/>
+	<entry name="slaguard/VoxCasterDescription" value="Reduces the morale loss for Slaneesh Guardsmen and Renegade Scions."/>
+	<entry name="slaguard/VoxCasterFlavor" value="<string name='Traits/VoxCasterFlavor'/>"/>
+	<entry name="slaguard/WarpFrenzy" value="<string name='Traits/slaguard/WarpFrenzy'/>"/>
+	<entry name="slaguard/WarpFrenzyDescription" value="Grants Champions of Chaos the chance to gain permanently increased attacks when killing an enemy (Boon of Chaos)."/>
+	<entry name="slaguard/WarpFrenzyFlavor" value="<string name='Traits/slaguard/WarpFrenzyFlavor'/>"/>
+	<entry name="slaguard/WarpflameGargoyles" value="Warpflame Gargoyles"/>
+	<entry name="slaguard/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Defiler and Chaos Land Raider weapons."/>
+	<entry name="slaguard/WarpflameGargoylesFlavor" value="The muzzles of this vehicle's guns flicker with unnatural fire."/>
+	<entry name="slaguard/WebwayGateBonus" value="Fortification Reinforcement"/>
+	<entry name="slaguard/WebwayGateBonusDescription" value="Removes the cost of activating Imperial Strongpoint."/>
+	<entry name="slaguard/WebwayGateBonusFlavor" value=""/>
+
+	<!-- Other_traitorgard -->
+	<entry name="traitorguard/AdditionalHeavyBolters" value="Additional Heavy Bolters"/>
+	<entry name="traitorguard/AdditionalHeavyBoltersDescription" value="Grants Baneblades, Leman Russ Battle Tanks and Valkyries extra heavy bolters."/>
+	<entry name="traitorguard/AdditionalHeavyBoltersFlavor" value="<string name='Weapons/HeavyBolterFlavor'/>"/>
+	<entry name="traitorguard/ArcaneOcculum" value="<string name='Traits/traitorguard/ArcaneOcculum'/>"/>
+	<entry name="traitorguard/ArcaneOcculumDescription" value="Grants Champions of Chaos the chance to gain permanently increased accuracy when killing an enemy (Boon of Chaos)."/>
+	<entry name="traitorguard/ArcaneOcculumFlavor" value="<string name='Traits/traitorguard/ArcaneOcculumFlavor'/>"/>
+	<entry name="traitorguard/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
+	<entry name="traitorguard/AwakenTheMachineDescription" value="Grants Techpriest Enginseers the ability to boost the damage of vehicles."/>
+	<entry name="traitorguard/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
+	<entry name="traitorguard/BanebladeLascannon" value="Baneblade Lascannons"/>
+	<entry name="traitorguard/BanebladeLascannonDescription" value="Grants Baneblades extra lascannons."/>
+	<entry name="traitorguard/BanebladeLascannonFlavor" value="<string name='Weapons/LascannonFlavor'/>"/>
+	<entry name="traitorguard/BlastDamage" value="<string name='Traits/traitorguard/BlastDamage'/>"/>
+	<entry name="traitorguard/BlastDamageDescription" value="Increases the armour penetration of grenade, missile and blast weapons."/>
+	<entry name="traitorguard/BlastDamageFlavor" value="<string name='Traits/traitorguard/BlastDamageFlavor'/>"/>
+	<entry name="traitorguard/Bloated" value="<string name='Traits/traitorguard/Bloated'/>"/>
+	<entry name="traitorguard/BloatedDescription" value="Grants Champions of Chaos the chance to restore their hitpoints when killing an enemy."/>
+	<entry name="traitorguard/BloatedFlavor" value="<string name='Traits/traitorguard/BloatedFlavor'/>"/>
+	<entry name="traitorguard/BoltDamage" value="<string name='Traits/traitorguard/BoltDamage'/>"/>
+	<entry name="traitorguard/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+	<entry name="traitorguard/BoltDamageFlavor" value="<string name='Traits/traitorguard/BoltDamageFlavor'/>"/>
+	<entry name="traitorguard/BruteShield" value="<string name='Traits/BruteShield'/>"/>
+	<entry name="traitorguard/BruteShieldDescription" value="Increases the damage reduction of Renegade Ogryns."/>
+	<entry name="traitorguard/BruteShieldFlavor" value="<string name='Traits/BruteShieldFlavor'/>"/>
+	<entry name="traitorguard/CamoNetting" value="<string name='Traits/CamoNetting'/>"/>
+	<entry name="traitorguard/CamoNettingDescription" value="<string name='Traits/CamoNettingDescription'/>"/>
+	<entry name="traitorguard/CamoNettingFlavor" value="<string name='Traits/CamoNettingFlavor'/>"/>
+	<entry name="traitorguard/ChaffLauncher" value="Chaff Launcher"/>
+	<entry name="traitorguard/ChaffLauncherDescription" value="Grants Thunderbolts and Marauder Bombers the ability to launch chaffs that increase ranged damage reduction."/>
+	<entry name="traitorguard/ChaffLauncherFlavor" value="<string name='Actions/DispenseChaffFlavor'/>"/>
+	<entry name="traitorguard/ChaosDevotion2" value="<string name='Traits/traitorguard/ChaosDevotion2'/>"/>
+	<entry name="traitorguard/ChaosDevotion2Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units)."/>
+	<entry name="traitorguard/ChaosDevotion2Flavor" value="<string name='Traits/traitorguard/ChaosDevotion2Flavor'/>"/>
+	<entry name="traitorguard/ChaosDevotion3" value="<string name='Traits/traitorguard/ChaosDevotion3'/>"/>
+	<entry name="traitorguard/ChaosDevotion3Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="traitorguard/ChaosDevotion3Flavor" value="<string name='Traits/traitorguard/ChaosDevotion3Flavor'/>"/>
+	<entry name="traitorguard/ChaosDevotion4" value="<string name='Traits/traitorguard/ChaosDevotion4'/>"/>
+	<entry name="traitorguard/ChaosDevotion4Description" value="Reduce chaos units upkeep cost and increases Chaos God devotion (malus for Renegade Imperial units.)"/>
+	<entry name="traitorguard/ChaosDevotion4Flavor" value="<string name='Traits/traitorguard/ChaosDevotion4Flavor'/>"/>
+	<entry name="traitorguard/ChaosRising" value="Chaos Rising"/>
+	<entry name="traitorguard/ChaosRisingDescription" value="Reduces the cost of founding new cities."/>
+	<entry name="traitorguard/ChaosRisingFlavor" value="The Imperial population of Gladius know little of Chaos, but in the hell of the Xenos invasions their faith in the distant Emperor has been shaken. It is easy for your cultists and apostles to turn their minds to the Gods—and to their doom."/>
+	<entry name="traitorguard/CityTier2" value="<string name='Traits/traitorguard/CityTier2'/>"/>
+	<entry name="traitorguard/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
+	<entry name="traitorguard/CityTier2Flavor" value="<string name='Traits/traitorguard/CityTier2Flavor'/>"/>
+	<entry name="traitorguard/CityTier3" value="<string name='Traits/traitorguard/CityTier3'/>"/>
+	<entry name="traitorguard/CityTier3Description" value="<string name='Upgrades/traitorguard/CityTier2Description'/>"/>
+	<entry name="traitorguard/CityTier3Flavor" value="<string name='Traits/traitorguard/CityTier3Flavor'/>"/>
+	<entry name="traitorguard/CrystallineBody" value="<string name='Traits/traitorguard/CrystallineBody'/>"/>
+	<entry name="traitorguard/CrystallineBodyDescription" value="Grants Champions of Chaos the chance to gain permanently increased hitpoints when killing an enemy (Boon of Chaos)."/>
+	<entry name="traitorguard/CrystallineBodyFlavor" value="<string name='Traits/traitorguard/CrystallineBodyFlavor'/>"/>
+	<entry name="traitorguard/DirgeCaster" value="<string name='Actions/traitorguard/DirgeCaster'/>"/>
+	<entry name="traitorguard/DirgeCasterDescription" value="Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to prevent overwatch attacks."/>
+	<entry name="traitorguard/DirgeCasterFlavor" value="<string name='Actions/traitorguard/DirgeCasterFlavor'/>"/>
+	<entry name="traitorguard/DozerBlade" value="<string name='Traits/DozerBlade'/>"/>
+	<entry name="traitorguard/DozerBladeDescription" value="Reduces the movement penalty for tanks in forests and imperial ruins."/>
+	<entry name="traitorguard/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+	<entry name="traitorguard/ExtraInfantryArmour" value="<string name='Traits/ExtraInfantryArmour'/>"/>
+	<entry name="traitorguard/ExtraInfantryArmourDescription" value="Increases the armour of infantry."/>
+	<entry name="traitorguard/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with something closer to the Astra Militarum armaplas-derived carapace armour."/>
+	<entry name="traitorguard/ExtraVehicleArmour" value="<string name='Traits/ExtraVehicleArmour'/>"/>
+	<entry name="traitorguard/ExtraVehicleArmourDescription" value="Increases the armour of vehicles."/>
+	<entry name="traitorguard/ExtraVehicleArmourFlavor" value="Adding extra armour plates to tanks might be the height of heresy for Tech-Priests, but for the soldiers of the Astra Militarum it's the norm. Ablative plating or custom armour for dealing with particular weapons isn't unheard of."/>
+	<entry name="traitorguard/FragGrenade" value="<string name='Weapons/FragGrenade'/>"/>
+	<entry name="traitorguard/FragGrenadeDescription" value="Grants infantry the ability to throw anti-infantry grenades."/>
+	<entry name="traitorguard/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+	<entry name="traitorguard/GiftOfMutation" value="<string name='Traits/traitorguard/GiftOfMutation'/>"/>
+	<entry name="traitorguard/GiftOfMutationDescription" value="Grants Chaos Space Marines, Havocs and Khorne Berzerkers one random unlocked Boon of Chaos."/>
+	<entry name="traitorguard/GiftOfMutationFlavor" value="<string name='Traits/traitorguard/GiftOfMutationFlavor'/>"/>
+	<entry name="traitorguard/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="traitorguard/HammerOfWrathDescription" value="Grants Daemon Princes, Defilers, Scout Sentinels, Renegade Scout and Renegade Ogryn the ability to perform more devastating attacks."/>
+	<entry name="traitorguard/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="traitorguard/HavocLauncher" value="<string name='Weapons/HavocLauncher'/>"/>
+	<entry name="traitorguard/HavocLauncherDescription" value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
+	<entry name="traitorguard/HavocLauncherFlavor" value="<string name='Weapons/HavocLauncherFlavor'/>"/>
+	<entry name="traitorguard/HunterKillerMissile" value="<string name='Weapons/HunterKillerMissile'/>"/>
+	<entry name="traitorguard/HunterKillerMissileDescription" value="Grants ground vehicles the ability to fire hunter-killer missiles."/>
+	<entry name="traitorguard/HunterKillerMissileFlavor" value="<string name='Weapons/HunterKillerMissileFlavor'/>"/>
+	<entry name="traitorguard/IconOfDespair" value="<string name='Actions/traitorguard/IconOfDespair'/>"/>
+	<entry name="traitorguard/IconOfDespairDescription" value="<string name='Actions/traitorguard/IconOfDespairDescription'/>"/>
+	<entry name="traitorguard/IconOfDespairFlavor" value="<string name='Actions/traitorguard/IconOfDespairFlavor'/>"/>
+	<entry name="traitorguard/IconOfExcess" value="<string name='Actions/traitorguard/IconOfExcess'/>"/>
+	<entry name="traitorguard/IconOfExcessDescription" value="<string name='Actions/traitorguard/IconOfExcessDescription'/>"/>
+	<entry name="traitorguard/IconOfExcessFlavor" value="<string name='Actions/traitorguard/IconOfExcessFlavor'/>"/>
+	<entry name="traitorguard/IconOfFlame" value="<string name='Actions/traitorguard/IconOfFlame'/>"/>
+	<entry name="traitorguard/IconOfFlameDescription" value="<string name='Actions/traitorguard/IconOfFlameDescription'/>"/>
+	<entry name="traitorguard/IconOfFlameFlavor" value="<string name='Actions/traitorguard/IconOfFlameFlavor'/>"/>
+	<entry name="traitorguard/IconOfVengeance" value="<string name='Actions/traitorguard/IconOfVengeance'/>"/>
+	<entry name="traitorguard/IconOfVengeanceDescription" value="<string name='Actions/traitorguard/IconOfVengeanceDescription'/>"/>
+	<entry name="traitorguard/IconOfVengeanceFlavor" value="<string name='Actions/traitorguard/IconOfVengeanceFlavor'/>"/>
+	<entry name="traitorguard/IconOfWrath" value="<string name='Actions/traitorguard/IconOfWrath'/>"/>
+	<entry name="traitorguard/IconOfWrathDescription" value="<string name='Actions/traitorguard/IconOfWrathDescription'/>"/>
+	<entry name="traitorguard/IconOfWrathFlavor" value="<string name='Actions/traitorguard/IconOfWrathFlavor'/>"/>
+	<entry name="traitorguard/ImperialSplendour" value="<string name='Traits/ImperialSplendour'/>"/>
+	<entry name="traitorguard/ImperialSplendourDescription" value="Increases the influence of Astra Militarum cities."/>
+	<entry name="traitorguard/ImperialSplendourFlavor" value="<string name='Traits/ImperialSplendourFlavor'/>"/>
+	<entry name="traitorguard/ImperialStrongpoint" value="<string name='Units/traitorguard/ImperialStrongpoint'/>"/>
+	<entry name="traitorguard/ImperialStrongpointDescription" value="Grants Heretek the ability to construct fortifications with heavy bolters."/>
+	<entry name="traitorguard/ImperialStrongpointFlavor" value="<string name='Units/traitorguard/ImperialStrongpointFlavor'/>"/>
+	<entry name="traitorguard/Khorne" value="Khorne Favor"/>
+	<entry name="traitorguard/KhorneDescription" value="Increase Mark of Khorne effect and unlock Khorne building, Khorne units and and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="traitorguard/KhorneFlavor" value=""/>
+	<entry name="traitorguard/KrakGrenade" value="<string name='Weapons/KrakGrenade'/>"/>
+	<entry name="traitorguard/KrakGrenadeDescription" value="Grants infantry the ability to throw anti-armour grenades."/>
+	<entry name="traitorguard/KrakGrenadeFlavor" value="<string name='Weapons/KrakGrenadeFlavor'/>"/>
+	<entry name="traitorguard/LasDamage" value="<string name='Traits/traitorguard/LasDamage'/>"/>
+	<entry name="traitorguard/LasDamageDescription" value="Increases the armour penetration of las weapons."/>
+	<entry name="traitorguard/LasDamageFlavor" value="<string name='Traits/traitorguard/LasDamageFlavor'/>"/>
+	<entry name="traitorguard/MarkOfKhorne" value="<string name='Actions/traitorguard/MarkOfKhorne'/>"/>
+	<entry name="traitorguard/MarkOfKhorneDescription" value="<string name='Actions/traitorguard/MarkOfKhorneDescription'/>"/>
+	<entry name="traitorguard/MarkOfKhorneFlavor" value="<string name='Actions/traitorguard/MarkOfKhorneFlavor'/>"/>
+	<entry name="traitorguard/MarkOfNurgle" value="<string name='Actions/traitorguard/MarkOfNurgle'/>"/>
+	<entry name="traitorguard/MarkOfNurgleDescription" value="<string name='Actions/traitorguard/MarkOfNurgleDescription'/>"/>
+	<entry name="traitorguard/MarkOfNurgleFlavor" value="<string name='Actions/traitorguard/MarkOfNurgleFlavor'/>"/>
+	<entry name="traitorguard/MarkOfSlaanesh" value="<string name='Actions/traitorguard/MarkOfSlaanesh'/>"/>
+	<entry name="traitorguard/MarkOfSlaaneshDescription" value="<string name='Actions/traitorguard/MarkOfSlaaneshDescription'/>"/>
+	<entry name="traitorguard/MarkOfSlaaneshFlavor" value="<string name='Actions/traitorguard/MarkOfSlaaneshFlavor'/>"/>
+	<entry name="traitorguard/MarkOfTzeentch" value="<string name='Actions/traitorguard/MarkOfTzeentch'/>"/>
+	<entry name="traitorguard/MarkOfTzeentchDescription" value="<string name='Actions/traitorguard/MarkOfTzeentchDescription'/>"/>
+	<entry name="traitorguard/MarkOfTzeentchFlavor" value="<string name='Actions/traitorguard/MarkOfTzeentchFlavor'/>"/>
+	<entry name="traitorguard/Mechanoid" value="<string name='Traits/traitorguard/Mechanoid'/>"/>
+	<entry name="traitorguard/MechanoidDescription" value="Grants Champions of Chaos the chance to gain permanently increased armour when killing an enemy (Boon of Chaos)."/>
+	<entry name="traitorguard/MechanoidFlavor" value="<string name='Traits/traitorguard/MechanoidFlavor'/>"/>
+	<entry name="traitorguard/MediPack" value="<string name='Actions/MediPack'/>"/>
+	<entry name="traitorguard/MediPackDescription" value="Grants Renegade Guardsmen and Renegade Scions the ability to heal themselves during combat."/>
+	<entry name="traitorguard/MediPackFlavor" value="<string name='Actions/MediPackFlavor'/>"/>
+	<entry name="traitorguard/MeleeDamage" value="<string name='Traits/traitorguard/MeleeDamage'/>"/>
+	<entry name="traitorguard/MeleeDamageDescription" value="Increases the armour penetration of melee weapons."/>
+	<entry name="traitorguard/MeleeDamageFlavor" value="<string name='Traits/traitorguard/MeleeDamageFlavor'/>"/>
+	<entry name="traitorguard/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="traitorguard/MeltaBombDescription" value="Grants Chaos Lord, Chaos Space Marines, Havocs and Khorne Berzerkers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="traitorguard/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+	<entry name="traitorguard/MightMakesRight2" value="Blood for the Blood God "/>
+	<entry name="traitorguard/MightMakesRight2Description" value="Increases the influence gain of units dealing damage."/>
+	<entry name="traitorguard/MightMakesRight2Flavor" value="Blood for the blood God."/>
+	<entry name="traitorguard/Misfortune" value="<string name='Actions/Misfortune'/>"/>
+	<entry name="traitorguard/MisfortuneDescription" value="Grants Wyrdvane Psykers the ability to curse enemy units so they take increased damage."/>
+	<entry name="traitorguard/MisfortuneFlavor" value="<string name='Actions/MisfortuneFlavor'/>"/>
+	<entry name="traitorguard/OurLivesForTheGods" value="Our Lives for Gods"/>
+	<entry name="traitorguard/OurLivesForTheGodsDescription" value="Increases the growth rate of Guardmen Sacrifice."/>
+	<entry name="traitorguard/OurLivesForTheGodsFlavor" value="So many now lie dead at cultists’ blades on Gladius that each death is meaningless, empty, shallow. But it also increases the effect of their sacrifice, as they drag this world closer to the Dark Gods’ fallen hell dimension, and it becomes easier for dark boons to breach the barrier with the Immaterium."/>
+	<entry name="traitorguard/PurchaseEnergy" value="<string name='Actions/traitorguard/PurchaseEnergy'/>"/>
+	<entry name="traitorguard/PurchaseEnergyDescription" value="Grants the ability to purchase energy with influence."/>
+	<entry name="traitorguard/PurchaseEnergyFlavor" value="<string name='Actions/traitorguard/PurchaseEnergyFlavor'/>"/>
+	<entry name="traitorguard/PurchaseFood" value="<string name='Actions/traitorguard/PurchaseFood'/>"/>
+	<entry name="traitorguard/PurchaseFoodDescription" value="Grants the ability to purchase food with influence."/>
+	<entry name="traitorguard/PurchaseFoodFlavor" value="<string name='Actions/traitorguard/PurchaseFoodFlavor'/>"/>
+	<entry name="traitorguard/PurchaseOre" value="<string name='Actions/traitorguard/PurchaseOre'/>"/>
+	<entry name="traitorguard/PurchaseOreDescription" value="Grants the ability to purchase ore with influence."/>
+	<entry name="traitorguard/PurchaseOreFlavor" value="<string name='Actions/traitorguard/PurchaseOreFlavor'/>"/>
+	<entry name="traitorguard/PurchasePopulation" value="<string name='Actions/traitorguard/PurchasePopulation'/>"/>
+	<entry name="traitorguard/PurchasePopulationDescription" value="Grants the ability to purchase population with influence."/>
+	<entry name="traitorguard/PurchasePopulationFlavor" value="<string name='Actions/traitorguard/PurchasePopulationFlavor'/>"/>
+	<entry name="traitorguard/PurchaseResearch" value="<string name='Actions/traitorguard/PurchaseResearch'/>"/>
+	<entry name="traitorguard/PurchaseResearchDescription" value="Grants the ability to purchase research with influence."/>
+	<entry name="traitorguard/PurchaseResearchFlavor" value="<string name='Actions/traitorguard/PurchaseResearchFlavor'/>"/>
+	<entry name="traitorguard/RapidRiseBonus" value="Imperial Equipment Theft"/>
+	<entry name="traitorguard/RapidRiseBonusDescription" value="Reduces the cost of Imperial Steal."/>
+	<entry name="traitorguard/RapidRiseBonusFlavor" value="."/>
+	<entry name="traitorguard/RecoveryGear" value="<string name='Traits/RecoveryGear'/>"/>
+	<entry name="traitorguard/RecoveryGearDescription" value="Increases the healing rate for ground vehicles."/>
+	<entry name="traitorguard/RecoveryGearFlavor" value="<string name='Traits/RecoveryGearFlavor'/>"/>
+	<entry name="traitorguard/RelicPlating" value="<string name='Traits/RelicPlating'/>"/>
+	<entry name="traitorguard/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles."/>
+	<entry name="traitorguard/RelicPlatingFlavor" value="<string name='Traits/RelicPlatingFlavor'/>"/>
+	<entry name="traitorguard/RiteOfBlood" value="<string name='Actions/traitorguard/RiteOfBlood'/>"/>
+	<entry name="traitorguard/RiteOfBloodDescription" value="<string name='Actions/traitorguard/RiteOfBloodDescription'/>"/>
+	<entry name="traitorguard/RiteOfBloodFlavor" value="<string name='Actions/traitorguard/RiteOfBloodFlavor'/>"/>
+	<entry name="traitorguard/RiteOfChange" value="<string name='Actions/traitorguard/RiteOfChange'/>"/>
+	<entry name="traitorguard/RiteOfChangeDescription" value="<string name='Actions/traitorguard/RiteOfChangeDescription'/>"/>
+	<entry name="traitorguard/RiteOfChangeFlavor" value="<string name='Actions/traitorguard/RiteOfChangeFlavor'/>"/>
+	<entry name="traitorguard/RiteOfPestilence" value="<string name='Actions/traitorguard/RiteOfPestilence'/>"/>
+	<entry name="traitorguard/RiteOfPestilenceDescription" value="<string name='Actions/traitorguard/RiteOfPestilenceDescription'/>"/>
+	<entry name="traitorguard/RiteOfPestilenceFlavor" value="<string name='Actions/traitorguard/RiteOfPestilenceFlavor'/>"/>
+	<entry name="traitorguard/RiteOfUnholyPleasure" value="<string name='Actions/traitorguard/RiteOfUnholyPleasure'/>"/>
+	<entry name="traitorguard/RiteOfUnholyPleasureDescription" value="<string name='Actions/traitorguard/RiteOfUnholyPleasureDescription'/>"/>
+	<entry name="traitorguard/RiteOfUnholyPleasureFlavor" value="<string name='Actions/traitorguard/RiteOfUnholyPleasureFlavor'/>"/>
+	<entry name="traitorguard/Scavenger2" value="Soul Harvester"/>
+	<entry name="traitorguard/Scavenger2Description" value="Increases the amount of salvaged ore when killing enemy units."/>
+	<entry name="traitorguard/SkystrikeMissile" value="<string name='Weapons/SkystrikeMissile'/>"/>
+	<entry name="traitorguard/SkystrikeMissileDescription" value="Grants Thunderbolts anti-air missiles."/>
+	<entry name="traitorguard/SkystrikeMissileFlavor" value="<string name='Weapons/SkystrikeMissileFlavor'/>"/>
+	<entry name="traitorguard/Slaanesh" value="<string name='Traits/traitorguard/Slaanesh'/>"/>
+	<entry name="traitorguard/SlaaneshDescription" value="Increase Mark of Slaanesh effect and unlock Slaanesh building, Slaanesh units and new unholy rite for Renegade Imperial Guard city"/>
+	<entry name="traitorguard/SlaaneshFlavor" value="<string name='Traits/traitorguard/SlaaneshFlavor'/>"/>
+	<entry name="traitorguard/SmokeLauncher" value="<string name='Upgrades/SmokeLauncher'/>"/>
+	<entry name="traitorguard/SmokeLauncherDescription" value="<string name='Upgrades/SmokeLauncherDescription'/>"/>
+	<entry name="traitorguard/SmokeLauncherDescription" value="Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="traitorguard/SmokeLauncherFlavor" value="<string name='Upgrades/SmokeLauncherFlavor'/>"/>
+	<entry name="traitorguard/TemporalDistortion" value="<string name='Traits/traitorguard/TemporalDistortion'/>"/>
+	<entry name="traitorguard/TemporalDistortionDescription" value="Grants Champions of Chaos the chance to gain permanently increased movement when killing an enemy (Boon of Chaos)."/>
+	<entry name="traitorguard/TemporalDistortionFlavor" value="<string name='Traits/traitorguard/TemporalDistortionFlavor'/>"/>
+	<entry name="traitorguard/TrainedSentinelPilots" value="<string name='Traits/TrainedSentinelPilots'/>"/>
+	<entry name="traitorguard/TrainedSentinelPilotsDescription" value="Increases the damage of Scout Sentinels."/>
+	<entry name="traitorguard/TrainedSentinelPilotsFlavor" value="<string name='Traits/TrainedSentinelPilotsFlavor'/>"/>
+	<entry name="traitorguard/Tzeentch" value="<string name='Traits/traitorguard/Tzeentch'/>"/>
+	<entry name="traitorguard/TzeentchDescription" value="Increase Mark of Tzeentch effect and unlock Tzeentch building, Tzeentch units andnew unholy rite for Renegade Imperial Guard city"/>
+	<entry name="traitorguard/TzeentchFlavor" value="<string name='Traits/traitorguard/TzeentchFlavor'/>"/>
+	<entry name="traitorguard/VeteransOfTheLongWar" value="<string name='Traits/traitorguard/VeteransOfTheLongWar'/>"/>
+	<entry name="traitorguard/VeteransOfTheLongWar2" value="<string name='Traits/traitorguard/VeteransOfTheLongWar2'/>"/>
+	<entry name="traitorguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy of infantry against units of the Astra Militarum faction."/>
+	<entry name="traitorguard/VeteransOfTheLongWar2Flavor" value="<string name='Traits/traitorguard/VeteransOfTheLongWar2Flavor'/>"/>
+	<entry name="traitorguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy of infantry against units of the Space Marines faction."/>
+	<entry name="traitorguard/VeteransOfTheLongWarFlavor" value="<string name='Traits/traitorguard/VeteransOfTheLongWarFlavor'/>"/>
+	<entry name="traitorguard/VoxCaster" value="<string name='Traits/VoxCaster'/>"/>
+	<entry name="traitorguard/VoxCasterDescription" value="Reduces the morale loss for Traitor Guardsmen and Renegade Scions."/>
+	<entry name="traitorguard/VoxCasterFlavor" value="<string name='Traits/VoxCasterFlavor'/>"/>
+	<entry name="traitorguard/WarpFrenzy" value="<string name='Traits/traitorguard/WarpFrenzy'/>"/>
+	<entry name="traitorguard/WarpFrenzyDescription" value="Grants Champions of Chaos the chance to gain permanently increased attacks when killing an enemy (Boon of Chaos)."/>
+	<entry name="traitorguard/WarpFrenzyFlavor" value="<string name='Traits/traitorguard/WarpFrenzyFlavor'/>"/>
+	<entry name="traitorguard/WarpflameGargoyles" value="Warpflame Gargoyles"/>
+	<entry name="traitorguard/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Defiler and Chaos Land Raider weapons."/>
+	<entry name="traitorguard/WarpflameGargoylesFlavor" value="The muzzles of this vehicle's guns flicker with unnatural fire."/>
+	<entry name="traitorguard/WebwayGateBonus" value="Fortification Reinforcement"/>
+	<entry name="traitorguard/WebwayGateBonusDescription" value="Removes the cost of activating Imperial Strongpoint."/>
+	<entry name="traitorguard/WebwayGateBonusFlavor" value=""/>
+	<entry name="traitorguard/WebwayRedoubt" value="Renegade Headquarter"/>
+	<entry name="traitorguard/WebwayRedoubtDescription" value="Grants the ability to found new cities on claimed Imperial Strongpoint."/>
+	<entry name="traitorguard/WebwayRedoubtFlavor" value="<string name='Actions/traitorguard/WebwayRedoubtFlavor'/>"/>
+
+	<!-- Other_tzeguard -->
+	<entry name="tzeguard/AdditionalHeavyBolters" value="Additional Heavy Bolters"/>
+	<entry name="tzeguard/AdditionalHeavyBoltersDescription" value="Grants Baneblades, Leman Russ Battle Tanks and Valkyries extra heavy bolters."/>
+	<entry name="tzeguard/AdditionalHeavyBoltersFlavor" value="<string name='Weapons/HeavyBolterFlavor'/>"/>
+	<entry name="tzeguard/ArcaneOcculum" value="<string name='Traits/ChaosSpaceMarines/ArcaneOcculum'/>"/>
+	<entry name="tzeguard/ArcaneOcculumDescription" value="Grants Champions of Chaos the chance to gain permanently increased accuracy when killing an enemy (Boon of Chaos)."/>
+	<entry name="tzeguard/ArcaneOcculumFlavor" value="<string name='Traits/slaguard/ArcaneOcculumFlavor'/>"/>
+	<entry name="tzeguard/BanebladeLascannon" value="Baneblade Lascannons"/>
+	<entry name="tzeguard/BanebladeLascannonDescription" value="Grants Baneblades extra lascannons."/>
+	<entry name="tzeguard/BanebladeLascannonFlavor" value="<string name='Weapons/LascannonFlavor'/>"/>
+	<entry name="tzeguard/BlastDamage" value="<string name='Traits/slaguard/BlastDamage'/>"/>
+	<entry name="tzeguard/BlastDamageDescription" value="Increases the armour penetration of grenade, missile and blast weapons."/>
+	<entry name="tzeguard/BlastDamageFlavor" value="<string name='Traits/slaguard/BlastDamageFlavor'/>"/>
+	<entry name="tzeguard/Bloated" value="<string name='Traits/ChaosSpaceMarines/Bloated'/>"/>
+	<entry name="tzeguard/BloatedDescription" value="Grants Champions of Chaos the chance to restore their hitpoints when killing an enemy."/>
+	<entry name="tzeguard/BloatedFlavor" value="<string name='Traits/slaguard/BloatedFlavor'/>"/>
+	<entry name="tzeguard/BoltDamage" value="<string name='Traits/slaguard/BoltDamage'/>"/>
+	<entry name="tzeguard/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+	<entry name="tzeguard/BoltDamageFlavor" value="<string name='Traits/slaguard/BoltDamageFlavor'/>"/>
+	<entry name="tzeguard/BruteShield" value="<string name='Traits/BruteShield'/>"/>
+	<entry name="tzeguard/BruteShieldDescription" value="Increases the damage reduction of Renegade Ogryns."/>
+	<entry name="tzeguard/BruteShieldFlavor" value="<string name='Traits/BruteShieldFlavor'/>"/>
+	<entry name="tzeguard/CamoNetting" value="<string name='Traits/CamoNetting'/>"/>
+	<entry name="tzeguard/CamoNettingDescription" value="<string name='Traits/CamoNettingDescription'/>"/>
+	<entry name="tzeguard/CamoNettingFlavor" value="<string name='Traits/CamoNettingFlavor'/>"/>
+	<entry name="tzeguard/ChaffLauncher" value="Chaff Launcher"/>
+	<entry name="tzeguard/ChaffLauncherDescription" value="Grants Thunderbolts and Marauder Bombers the ability to launch chaffs that increase ranged damage reduction."/>
+	<entry name="tzeguard/ChaffLauncherFlavor" value="<string name='Actions/DispenseChaffFlavor'/>"/>
+	<entry name="tzeguard/ChaosRising" value="Chaos Rising"/>
+	<entry name="tzeguard/ChaosRisingDescription" value="Reduces the cost of founding new cities."/>
+	<entry name="tzeguard/ChaosRisingFlavor" value="The Imperial population of Gladius know little of Chaos, but in the hell of the Xenos invasions their faith in the distant Emperor has been shaken. It is easy for your cultists and apostles to turn their minds to the Gods—and to their doom."/>
+	<entry name="tzeguard/CityTier2" value="<string name='Traits/slaguard/CityTier2'/>"/>
+	<entry name="tzeguard/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
+	<entry name="tzeguard/CityTier2Flavor" value="<string name='Traits/slaguard/CityTier2Flavor'/>"/>
+	<entry name="tzeguard/CityTier3" value="<string name='Traits/slaguard/CityTier3'/>"/>
+	<entry name="tzeguard/CityTier3Description" value="<string name='Upgrades/slaguard/CityTier2Description'/>"/>
+	<entry name="tzeguard/CityTier3Flavor" value="<string name='Traits/slaguard/CityTier3Flavor'/>"/>
+	<entry name="tzeguard/CrystallineBody" value="<string name='Traits/ChaosSpaceMarines/CrystallineBody'/>"/>
+	<entry name="tzeguard/CrystallineBodyDescription" value="Grants Champions of Chaos the chance to gain permanently increased hitpoints when killing an enemy (Boon of Chaos)."/>
+	<entry name="tzeguard/CrystallineBodyFlavor" value="<string name='Traits/slaguard/CrystallineBodyFlavor'/>"/>
+	<entry name="tzeguard/DimensionalCorridor" value="<string name='Actions/tzeguard/DimensionalCorridor'/>"/>
+	<entry name="tzeguard/DimensionalCorridorDescription" value="Grants infantry the ability to teleport to cities."/>
+	<entry name="tzeguard/DimensionalCorridorFlavor" value="<string name='Actions/tzeguard/DimensionalCorridorFlavor'/>"/>
+	<entry name="tzeguard/DirgeCaster" value="<string name='Actions/ChaosSpaceMarines/DirgeCaster'/>"/>
+	<entry name="tzeguard/DirgeCasterDescription" value="Grants Chaos Rhinos and Defilers the ability to prevent overwatch attacks."/>
+	<entry name="tzeguard/DirgeCasterFlavor" value="<string name='Actions/traitorguard/DirgeCasterFlavor'/>"/>
+	<entry name="tzeguard/DozerBlade" value="<string name='Traits/DozerBlade'/>"/>
+	<entry name="tzeguard/DozerBladeDescription" value="Reduces the movement penalty for tanks in forests and imperial ruins."/>
+	<entry name="tzeguard/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+	<entry name="tzeguard/ExtraInfantryArmour" value="<string name='Traits/ExtraInfantryArmour'/>"/>
+	<entry name="tzeguard/ExtraInfantryArmourDescription" value="Increases the armour of infantry."/>
+	<entry name="tzeguard/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with something closer to the Astra Militarum armaplas-derived carapace armour."/>
+	<entry name="tzeguard/ExtraVehicleArmour" value="<string name='Traits/ExtraVehicleArmour'/>"/>
+	<entry name="tzeguard/ExtraVehicleArmourDescription" value="Increases the armour of vehicles."/>
+	<entry name="tzeguard/ExtraVehicleArmourFlavor" value="Adding extra armour plates to tanks might be the height of heresy for Tech-Priests, but for the soldiers of the Astra Militarum it's the norm. Ablative plating or custom armour for dealing with particular weapons isn't unheard of."/>
+	<entry name="tzeguard/FragGrenade" value="<string name='Weapons/FragGrenade'/>"/>
+	<entry name="tzeguard/FragGrenadeDescription" value="Grants infantry the ability to throw anti-infantry grenades."/>
+	<entry name="tzeguard/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+	<entry name="tzeguard/GiftOfMutation" value="<string name='Traits/ChaosSpaceMarines/GiftOfMutation'/>"/>
+	<entry name="tzeguard/GiftOfMutationDescription" value="Grants Chaos Space Marines, Havocs and Khorne Berzerkers one random unlocked Boon of Chaos."/>
+	<entry name="tzeguard/GiftOfMutationFlavor" value="<string name='Traits/ChaosSpaceMarines/GiftOfMutationFlavor'/>"/>
+	<entry name="tzeguard/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="tzeguard/HammerOfWrathDescription" value="Grants Daemon Princes, Defilers, Scout Sentinels, Renegade Scout and Renegade Ogryn the ability to perform more devastating attacks."/>
+	<entry name="tzeguard/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="tzeguard/HavocLauncher" value="<string name='Weapons/HavocLauncher'/>"/>
+	<entry name="tzeguard/HavocLauncherDescription" value="Grants Chaos Rhinos a mid-range blast weapon."/>
+	<entry name="tzeguard/HavocLauncherFlavor" value="<string name='Weapons/HavocLauncherFlavor'/>"/>
+	<entry name="tzeguard/HunterKillerMissile" value="<string name='Weapons/HunterKillerMissile'/>"/>
+	<entry name="tzeguard/HunterKillerMissileDescription" value="Grants ground vehicles the ability to fire hunter-killer missiles."/>
+	<entry name="tzeguard/HunterKillerMissileFlavor" value="<string name='Weapons/HunterKillerMissileFlavor'/>"/>
+	<entry name="tzeguard/IconOfFlame" value="<string name='Actions/tzeguard/IconOfFlame'/>"/>
+	<entry name="tzeguard/IconOfFlameDescription" value="<string name='Actions/tzeguard/IconOfFlameDescription'/>"/>
+	<entry name="tzeguard/IconOfFlameFlavor" value="<string name='Actions/tzeguard/IconOfFlameFlavor'/>"/>
+	<entry name="tzeguard/ImperialSplendour" value="<string name='Traits/ImperialSplendour'/>"/>
+	<entry name="tzeguard/ImperialSplendourDescription" value="Increases the influence of Astra Militarum cities."/>
+	<entry name="tzeguard/ImperialSplendourFlavor" value="<string name='Traits/ImperialSplendourFlavor'/>"/>
+	<entry name="tzeguard/ImperialStrongpoint" value="<string name='Units/AstraMilitarum/ImperialStrongpoint'/>"/>
+	<entry name="tzeguard/ImperialStrongpointDescription" value="Grants Heretek and Benedictian Guardsmen the ability to construct fortifications with heavy bolters."/>
+	<entry name="tzeguard/ImperialStrongpointFlavor" value="<string name='Units/AstraMilitarum/ImperialStrongpointFlavor'/>"/>
+	<entry name="tzeguard/KrakGrenade" value="<string name='Weapons/KrakGrenade'/>"/>
+	<entry name="tzeguard/KrakGrenadeDescription" value="Grants infantry the ability to throw anti-armour grenades."/>
+	<entry name="tzeguard/KrakGrenadeFlavor" value="<string name='Weapons/KrakGrenadeFlavor'/>"/>
+	<entry name="tzeguard/LasDamage" value="<string name='Traits/slaguard/LasDamage'/>"/>
+	<entry name="tzeguard/LasDamageDescription" value="Increases the armour penetration of las weapons."/>
+	<entry name="tzeguard/LasDamageFlavor" value="<string name='Traits/slaguard/LasDamageFlavor'/>"/>
+	<entry name="tzeguard/MechanoidDescription" value="Grants Champions of Chaos the chance to gain permanently increased armour when killing an enemy (Boon of Chaos)."/>
+	<entry name="tzeguard/MechanoidFlavor" value="<string name='Traits/slaguard/MechanoidFlavor'/>"/>
+	<entry name="tzeguard/MediPack" value="<string name='Actions/MediPack'/>"/>
+	<entry name="tzeguard/MediPackDescription" value="Grants Benedictian Guardsmen and Renegade Scions the ability to heal themselves during combat."/>
+	<entry name="tzeguard/MediPackFlavor" value="<string name='Actions/MediPackFlavor'/>"/>
+	<entry name="tzeguard/MeleeDamage" value="<string name='Traits/slaguard/MeleeDamage'/>"/>
+	<entry name="tzeguard/MeleeDamageDescription" value="Increases the armour penetration of melee weapons."/>
+	<entry name="tzeguard/MeleeDamageFlavor" value="<string name='Traits/slaguard/MeleeDamageFlavor'/>"/>
+	<entry name="tzeguard/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="tzeguard/MeltaBombDescription" value="Grants Chaos Lord, Chaos Space Marines, Havocs and Khorne Berzerkers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="tzeguard/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+	<entry name="tzeguard/MightMakesRight2" value="Blood for the Blood God "/>
+	<entry name="tzeguard/MightMakesRight2Description" value="Increases the influence gain of units dealing damage."/>
+	<entry name="tzeguard/MightMakesRight2Flavor" value="Blood for the blood God."/>
+	<entry name="tzeguard/Misfortune" value="<string name='Actions/Misfortune'/>"/>
+	<entry name="tzeguard/MisfortuneDescription" value="Grants Wyrdvane Psykers the ability to curse enemy units so they take increased damage."/>
+	<entry name="tzeguard/MisfortuneFlavor" value="<string name='Actions/MisfortuneFlavor'/>"/>
+	<entry name="tzeguard/OrbitalScan" value="<string name='Actions/tzeguard/OrbitalScan'/>"/>
+	<entry name="tzeguard/OrbitalScanDescription" value="Use influence to reveal all Gladius Prime territory."/>
+	<entry name="tzeguard/OrbitalScanFlavor" value="<string name='Actions/tzeguard/OrbitalScanFlavor'/>"/>
+	<entry name="tzeguard/OurLivesForTheGodsDescription" value="Increases the growth rate of Tzeentch Cultists Sacrifice."/>
+	<entry name="tzeguard/OurLivesForTheGodsFlavor" value="So many now lie dead at cultists’ blades on Gladius that each death is meaningless, empty, shallow. But it also increases the effect of their sacrifice, as they drag this world closer to the Dark Gods’ fallen hell dimension, and it becomes easier for dark boons to breach the barrier with the Immaterium."/>
+	<entry name="tzeguard/RecoveryGear" value="<string name='Traits/RecoveryGear'/>"/>
+	<entry name="tzeguard/RecoveryGearDescription" value="Increases the healing rate for ground vehicles."/>
+	<entry name="tzeguard/RecoveryGearFlavor" value="<string name='Traits/RecoveryGearFlavor'/>"/>
+	<entry name="tzeguard/RelicPlating" value="<string name='Traits/RelicPlating'/>"/>
+	<entry name="tzeguard/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles."/>
+	<entry name="tzeguard/RelicPlatingFlavor" value="<string name='Traits/RelicPlatingFlavor'/>"/>
+	<entry name="tzeguard/RiteOfChange" value="<string name='Actions/tzeguard/RiteOfChange'/>"/>
+	<entry name="tzeguard/RiteOfChangeDescription" value="<string name='Actions/tzeguard/RiteOfChangeDescription'/>"/>
+	<entry name="tzeguard/RiteOfChangeFlavor" value="<string name='Actions/tzeguard/RiteOfChangeFlavor'/>"/>
+	<entry name="tzeguard/Scavenger2" value="Soul Harvester"/>
+	<entry name="tzeguard/Scavenger2Description" value="Increases the amount of salvaged ore when killing enemy units."/>
+	<entry name="tzeguard/SkystrikeMissile" value="<string name='Weapons/SkystrikeMissile'/>"/>
+	<entry name="tzeguard/SkystrikeMissileDescription" value="Grants Thunderbolts anti-air missiles."/>
+	<entry name="tzeguard/SkystrikeMissileFlavor" value="<string name='Weapons/SkystrikeMissileFlavor'/>"/>
+	<entry name="tzeguard/SmokeLauncher" value="<string name='Upgrades/SmokeLauncher'/>"/>
+	<entry name="tzeguard/SmokeLauncherDescription" value="<string name='Upgrades/SmokeLauncherDescription'/>"/>
+	<entry name="tzeguard/SmokeLauncherFlavor" value="<string name='Upgrades/SmokeLauncherFlavor'/>"/>
+	<entry name="tzeguard/TemporalDistortion" value="<string name='Traits/tzeguard/TemporalDistortion'/>"/>
+	<entry name="tzeguard/TemporalDistortionDescription" value="Grants Champions of Chaos the chance to gain permanently increased movement when killing an enemy (Boon of Chaos)."/>
+	<entry name="tzeguard/TemporalDistortionFlavor" value="<string name='Traits/tzeguard/TemporalDistortionFlavor'/>"/>
+	<entry name="tzeguard/TrainedSentinelPilots" value="<string name='Traits/TrainedSentinelPilots'/>"/>
+	<entry name="tzeguard/TrainedSentinelPilotsDescription" value="Increases the damage of Scout Sentinels."/>
+	<entry name="tzeguard/TrainedSentinelPilotsFlavor" value="<string name='Traits/TrainedSentinelPilotsFlavor'/>"/>
+	<entry name="tzeguard/VeteransOfTheLongWar" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWar'/>"/>
+	<entry name="tzeguard/VeteransOfTheLongWar2" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWar2'/>"/>
+	<entry name="tzeguard/VeteransOfTheLongWar2Description" value="Increases the morale, and increases the melee accuracy of infantry against units of the Astra Militarum faction."/>
+	<entry name="tzeguard/VeteransOfTheLongWar2Flavor" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWar2Flavor'/>"/>
+	<entry name="tzeguard/VeteransOfTheLongWarDescription" value="Increases the morale, and increases the melee accuracy of infantry against units of the Space Marines faction."/>
+	<entry name="tzeguard/VeteransOfTheLongWarFlavor" value="<string name='Traits/ChaosGuard/VeteransOfTheLongWarFlavor'/>"/>
+	<entry name="tzeguard/VoidShieldGenerator" value="<string name='Units/AstraMilitarum/VoidShieldGenerator'/>"/>
+	<entry name="tzeguard/VoidShieldGeneratorDescription" value="Grants Techpriest Enginseers the ability to construct shield generators that grant ranged damage reduction to units in range."/>
+	<entry name="tzeguard/VoidShieldGeneratorFlavor" value="<string name='Units/AstraMilitarum/VoidShieldGeneratorFlavor'/>"/>
+	<entry name="tzeguard/VoxCaster" value="<string name='Traits/VoxCaster'/>"/>
+	<entry name="tzeguard/VoxCasterDescription" value="Reduces the morale loss for Benedictian Guardsmen and Renegade Scions."/>
+	<entry name="tzeguard/VoxCasterFlavor" value="<string name='Traits/VoxCasterFlavor'/>"/>
+	<entry name="tzeguard/WarpflameGargoyles" value="Warpflame Gargoyles"/>
+	<entry name="tzeguard/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Defiler and Chaos Land Raider weapons."/>
+	<entry name="tzeguard/WarpflameGargoylesFlavor" value="The muzzles of this vehicle's guns flicker with unnatural fire."/>
+
+	<!-- tzeguarderror_Error ------->
+	
+	<entry name="tzeguard/OurLivesForTheGods" value="Our Lives for Tzeentch"/>
+
+</language>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Weapons/AstraMilitarum/LordCommissarSwordDiffuse"/>
+		<texture name="Weapons/AstraMilitarum/LordCommissarSwordNormal"/>
+		<texture name="Weapons/AstraMilitarum/LordCommissarSwordSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait>
+	<modifiers>
+		<modifier>
+			<effects>
+				<influencePerCombatFromUpkeepFactor add="10.0"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="khorneguard/MightMakesRight2">
+			<effects>
+				<influencePerCombatFromUpkeepFactor mul="0.66"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

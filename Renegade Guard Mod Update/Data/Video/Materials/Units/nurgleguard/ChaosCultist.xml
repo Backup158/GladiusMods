@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/nurgleguard/ChaosCultistDiffuse"/>
+		<texture name="Units/nurgleguard/ChaosCultistNormal"/>
+		<texture name="Units/nurgleguard/ChaosCultistSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

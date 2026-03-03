@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<oreCost base="50"/>
+				<requisitionsCost base="20"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<energyUpkeep add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<requisitions add="2"/>
+				<research add="2"/>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<produceUnit unit="ChaosGuard/Guardsman"/>	
+		<produceUnit unit="ChaosGuard/HeavyWeaponsSquad" requiredUpgrade="ChaosGuard/HeavyWeaponsSquad"/>
+		<produceUnit unit="ChaosGuard/TempestusScion" requiredUpgrade="ChaosGuard/TempestusScion"/>
+		<produceUnit unit="ChaosGuard/Bullgryn" requiredUpgrade="ChaosGuard/Bullgryn"/>	
+	</actions>
+	<traits>
+	</traits>
+</building>

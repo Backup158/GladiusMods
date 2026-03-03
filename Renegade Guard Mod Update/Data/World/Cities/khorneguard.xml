@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city actionsTitle="GUI/UnholyRites">
+<actions>
+		<riteOfBlood cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/UnholyRite"
+				name="ChaosSpaceMarines/RiteOfBlood"
+				requiredUpgrade="khorneguard/RiteOfBlood">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<populationCost base="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="2" name="ChaosSpaceMarines/RiteOfBlood"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+		</riteOfBlood>
+	</actions>
+	<modifiers>
+		<modifier>
+			<effects>
+				<loyaltyPerCity base="-0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</city>

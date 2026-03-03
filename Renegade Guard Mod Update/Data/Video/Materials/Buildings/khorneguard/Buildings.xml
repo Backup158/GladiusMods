@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Buildings/ChaosSpaceMarines/BuildingsDiffuse"/>
+		<texture name="Buildings/ChaosSpaceMarines/BuildingsNormal"/>
+		<texture name="Buildings/ChaosSpaceMarines/BuildingsSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/BullgrynDiffuse"/>
+		<texture name="Units/ChaosGuard/BullgrynNormal"/>
+		<texture name="Units/ChaosGuard/BullgrynSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

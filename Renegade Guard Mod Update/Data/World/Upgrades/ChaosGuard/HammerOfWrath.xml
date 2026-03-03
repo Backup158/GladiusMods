@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="8" icon="Actions/HammerOfWrath">
+	<requiredUpgrades>
+		<upgrade name="ChaosGuard/Heroes"/>
+		<upgrade name="ChaosGuard/Infantry"/>
+		<upgrade name="ChaosGuard/Vehicles"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="0.75"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

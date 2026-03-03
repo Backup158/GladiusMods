@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait>
+	<modifiers>
+		<modifier>
+			<effects>
+				<influenceUpkeep mul="-0.50"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="ChaosGuard/Scavenger2">
+			<effects>
+				<influenceUpkeep mul="-1.50"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

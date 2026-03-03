@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item icon="Units/ChaosSpaceMarines/ChaosSpaceMarine">
+	<actions>
+		<genericUnitAbility charges="1"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				requiredActionPoints="0">
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosSpaceMarines/ChaosSpaceMarine" consumedAction="0" consumedMovement="0"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<modifiers>
+		<modifier>
+			<effects>
+				<influenceCost base="200.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</item>

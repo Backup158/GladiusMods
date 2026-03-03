@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="5" icon="Units/ChaosGuard/Librarian">
+	<requiredUpgrades>
+		<upgrade name="traitorguard/Heroes"/>
+	</requiredUpgrades>
+</upgrade>

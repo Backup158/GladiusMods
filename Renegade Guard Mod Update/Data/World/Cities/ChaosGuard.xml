@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city actionsTitle="GUI/UnholyRites">
+<actions>
+		<riteOfChange cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/UnholyRite"
+				name="ChaosSpaceMarines/RiteOfChange"
+				requiredUpgrade="ChaosGuard/Tzeentch">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+						<populationCost base="2"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="ChaosGuard/RiteOfChange"/>
+					</effects>
+				</modifier>
+			</actorModifiers>		
+		</riteOfChange>
+		<riteOfPestilence cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/UnholyRite"
+				name="ChaosSpaceMarines/RiteOfPestilence"
+				requiredUpgrade="ChaosGuard/Nurgle">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+						<populationCost base="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="ChaosGuard/RiteOfPestilence"/>
+					</effects>
+				</modifier>
+			</actorModifiers>		
+		</riteOfPestilence>
+		<riteOfBlood cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/UnholyRite"
+				name="ChaosSpaceMarines/RiteOfBlood"
+				requiredUpgrade="ChaosGuard/Khorne">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+						<populationCost base="2"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="ChaosGuard/RiteOfBlood"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+		</riteOfBlood>
+		<riteOfUnholyPleasure cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/UnholyRite"
+				name="ChaosSpaceMarines/RiteOfUnholyPleasure"
+				requiredUpgrade="ChaosGuard/Slaanesh">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+						<populationCost base="2"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="ChaosGuard/RiteOfUnholyPleasure"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+		</riteOfUnholyPleasure>
+	</actions>
+
+	<modifiers>
+		<modifier>
+			<effects>
+				<loyaltyPerCity base="-5"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</city>

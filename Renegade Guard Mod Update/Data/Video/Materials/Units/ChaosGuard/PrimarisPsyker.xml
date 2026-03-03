@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/PrimarisPsykerDiffuse"/>
+		<texture name="Units/ChaosGuard/PrimarisPsykerNormal"/>
+		<texture name="Units/ChaosGuard/PrimarisPsykerSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/LemanRussBattleTankDiffuse"/>
+		<texture name="Units/ChaosGuard/LemanRussBattleTankNormal"/>
+		<texture name="Units/ChaosGuard/LemanRussBattleTankSIC"/>
+		<texture name="ShadowMapColor"/>
+		<texture name="Units/AstraMilitarum/LemanRussBattleTankAnimation"/>
+	</textures>
+</material>

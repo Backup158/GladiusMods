@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="LostGuardCity" value="Renegade Guard City"/>
+	<entry name="LostGuardCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="LostGuardCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+
+	<entry name="nurgleguardCity" value="Hazakh Plaguetakers City"/>
+	<entry name="nurgleguardCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="nurgleguardCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+
+	<entry name="traitorguardCity" value="Gladius Renegade Militia City"/>
+	<entry name="traitorguardCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="traitorguardCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+
+	<entry name="khorneguardCity" value="Gathalamor 24th City"/>
+	<entry name="khorneguardCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="khorneguardCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+
+	<entry name="slaguardCity" value="Vanitine Hedonites City "/>
+	<entry name="slaguardCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="slaguardCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+
+	<entry name="ChaosGuardCity" value="Renegade Guard City"/>
+	<entry name="ChaosGuardCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="ChaosGuardCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+
+	<entry name="tzeguardCity" value="Kardone Changeseekers City"/>
+	<entry name="tzeguardCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="tzeguardCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+</language>

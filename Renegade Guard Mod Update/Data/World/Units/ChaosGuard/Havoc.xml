@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement3">
+	<model>
+		<unit mesh="Units/ChaosSpaceMarines/Havoc"
+				material="Units/ChaosGuard/Havoc"
+				idleAnimation="Units/ChaosSpaceMarines/HavocIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.6 0.6 0.6"
+				bloodBone="BloodBone"
+				walker="1"/>
+	</model>
+	<group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80"/>
+	<weapons>
+		<weapon name="Autocannon">
+			<model>
+				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/HavocGun"
+						material="Units/ChaosSpaceMarines/Havoc"
+						bone="Bone008"
+						muzzleBone=".Muzzle"
+						fireInterval="0.23"/>
+			</model>
+		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone008"/>
+			</model>		
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone008"/>
+			</model>		
+		</weapon>
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone008"/>
+			</model>		
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=3+ -->
+				<hitpointsMax base="3.0"/> <!-- %hitpointsMax base toughness=4 wounds=1 -->
+				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+				<meleeAttacks base="1"/>
+				<strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+				<!-- <meleeInitiative base="4"/> -->
+				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+				<movementMax base="3"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<influenceCost base="100.0"/> <!-- %foodCost base tier=4 factor=0.5 -->
+				<influenceUpkeep base="6"/> <!-- %influenceUpkeep base tier=4 factor=1 -->
+				<foodUpkeep base="6"/> <!-- %influenceUpkeep base tier=4 factor=1 -->
+
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/HavocAttack"
+						beginFire="0.83"
+						endFire="2.17"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/HavocDie"
+						animationCount="2"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="0.8"
+						voiceSound="Units/ChaosSpaceMarines/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/HavocMove"
+						sound="Units/SpaceMarines/InfantryMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="ChaosGuard/FragGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/HavocGrenade"
+						beginFire="1.17"/>
+			</model>				
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="ChaosGuard/KrakGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/HavocGrenade"
+						beginFire="1.17"/>
+			</model>				
+		</throwGrenade>
+		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
+				requiredUpgrade="ChaosGuard/MeltaBomb">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/HavocGrenade"
+						beginFire="1.17"/>
+			</model>				
+		</throwGrenade>
+	</actions>
+	<traits>
+		<trait name="ChaosGuard/MightMakesRight"/>
+		<trait name="ChaosGuard/Scavenger"/>	
+		<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+		<trait name="ChaosGuard/MarkOfNurgle"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="ChaosGuard/ExtraInfantryArmour"/>
+		<trait name="ChaosSpaceMarines/GiftOfMutation" requiredUpgrade="ChaosGuard/GiftOfMutation"/>
+		<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosGuard/VeteransOfTheLongWar"/>
+		<trait name="ChaosGuard/VeteransOfTheLongWar2" requiredUpgrade="ChaosGuard/VeteransOfTheLongWar2"/>
+		<trait name="ChaosGuard/ChaosSpaceMarine" requiredUpgrade="ChaosGuard/ChaosDevotion"/>
+		<trait name="ChaosGuard/Limite2"/>
+	</traits>
+</unit>

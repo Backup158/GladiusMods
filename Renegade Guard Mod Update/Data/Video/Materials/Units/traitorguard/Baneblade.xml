@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/BanebladeDiffuse"/>
+		<texture name="Units/ChaosGuard/BanebladeNormal"/>
+		<texture name="Units/ChaosGuard/BanebladeSIC"/>
+		<texture name="ShadowMapColor"/>
+		<texture name="Units/AstraMilitarum/BanebladeAnimation"/>
+	</textures>
+</material>

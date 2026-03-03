@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/MarauderBomberDiffuse"/>
+		<texture name="Units/ChaosGuard/MarauderBomberNormal"/>
+		<texture name="Units/ChaosGuard/MarauderBomberSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

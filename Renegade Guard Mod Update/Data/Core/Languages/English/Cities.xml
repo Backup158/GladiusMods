@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosGuard0" value="Skullbreaker Fortress"/>
+	<entry name="ChaosGuard1" value="Netherbane"/>
+	<entry name="ChaosGuard2" value="Fatebinder Nexus"/>
+	<entry name="ChaosGuard3" value="Locus of Chaos"/>
+	<entry name="ChaosGuard4" value="Plaguepyre"/>
+	<entry name="ChaosGuard5" value="Marshadow"/>
+	<entry name="ChaosGuard6" value="Faith Undivided"/>
+	<entry name="ChaosGuard7" value="Kastel Gore"/>
+	<entry name="ChaosGuard8" value="Crux Heretica"/>
+	<entry name="ChaosGuard9" value="Bittersworn Sanction"/>
+	<entry name="ChaosGuard10" value="Blackheart Core"/>
+	<entry name="ChaosGuard11" value="Lashlick"/>
+	<entry name="ChaosGuard12" value="Dunmournin"/>
+	<entry name="ChaosGuard13" value="The Warmaster's Fist"/>
+	<entry name="ChaosGuard14" value="Foulreaver's Hope"/>
+	<entry name="ChaosGuard15" value="Lost Damnation"/>
+	<entry name="ChaosGuard16" value="Solstript Waste"/>
+	<entry name="ChaosGuard17" value="Ashes of the Imperium"/>
+	<entry name="ChaosGuardCount" value="18"/>
+
+
+	<entry name="traitorguard0" value="Skullbreaker Fortress"/>
+	<entry name="traitorguard1" value="Netherbane"/>
+	<entry name="traitorguard2" value="Fatebinder Nexus"/>
+	<entry name="traitorguard3" value="Locus of Chaos"/>
+	<entry name="traitorguard4" value="Plaguepyre"/>
+	<entry name="traitorguard5" value="Marshadow"/>
+	<entry name="traitorguard6" value="Faith Undivided"/>
+	<entry name="traitorguard7" value="Kastel Gore"/>
+	<entry name="traitorguard8" value="Crux Heretica"/>
+	<entry name="traitorguard9" value="Bittersworn Sanction"/>
+	<entry name="traitorguard10" value="Blackheart Core"/>
+	<entry name="traitorguard11" value="Lashlick"/>
+	<entry name="traitorguard12" value="Dunmournin"/>
+	<entry name="traitorguard13" value="The Warmaster's Fist"/>
+	<entry name="traitorguard14" value="Foulreaver's Hope"/>
+	<entry name="traitorguard15" value="Lost Damnation"/>
+	<entry name="traitorguard16" value="Solstript Waste"/>
+	<entry name="traitorguard17" value="Ashes of the Imperium"/>
+	<entry name="traitorguardCount" value="18"/>
+
+	<entry name="nurgleguard0" value="Skullbreaker Fortress"/>
+	<entry name="nurgleguard1" value="Netherbane"/>
+	<entry name="nurgleguard2" value="Fatebinder Nexus"/>
+	<entry name="nurgleguard3" value="Locus of Chaos"/>
+	<entry name="nurgleguard4" value="Plaguepyre"/>
+	<entry name="nurgleguard5" value="Marshadow"/>
+	<entry name="nurgleguard6" value="Faith Undivided"/>
+	<entry name="nurgleguard7" value="Kastel Gore"/>
+	<entry name="nurgleguard8" value="Crux Heretica"/>
+	<entry name="nurgleguard9" value="Bittersworn Sanction"/>
+	<entry name="nurgleguard10" value="Blackheart Core"/>
+	<entry name="nurgleguard11" value="Lashlick"/>
+	<entry name="nurgleguard12" value="Dunmournin"/>
+	<entry name="nurgleguard13" value="The Warmaster's Fist"/>
+	<entry name="nurgleguard14" value="Foulreaver's Hope"/>
+	<entry name="nurgleguard15" value="Lost Damnation"/>
+	<entry name="nurgleguard16" value="Solstript Waste"/>
+	<entry name="nurgleguard17" value="Ashes of the Imperium"/>
+	<entry name="nurgleguardCount" value="18"/>
+
+	<entry name="khorneguard0" value="Skullbreaker Fortress"/>
+	<entry name="khorneguard1" value="Netherbane"/>
+	<entry name="khorneguard2" value="Fatebinder Nexus"/>
+	<entry name="khorneguard3" value="Locus of Chaos"/>
+	<entry name="khorneguard4" value="Plaguepyre"/>
+	<entry name="khorneguard5" value="Marshadow"/>
+	<entry name="khorneguard6" value="Faith Undivided"/>
+	<entry name="khorneguard7" value="Kastel Gore"/>
+	<entry name="khorneguard8" value="Crux Heretica"/>
+	<entry name="khorneguard9" value="Bittersworn Sanction"/>
+	<entry name="khorneguard10" value="Blackheart Core"/>
+	<entry name="khorneguard11" value="Lashlick"/>
+	<entry name="khorneguard12" value="Dunmournin"/>
+	<entry name="khorneguard13" value="The Warmaster's Fist"/>
+	<entry name="khorneguard14" value="Foulreaver's Hope"/>
+	<entry name="khorneguard15" value="Lost Damnation"/>
+	<entry name="khorneguard16" value="Solstript Waste"/>
+	<entry name="khorneguard17" value="Ashes of the Imperium"/>
+	<entry name="khorneguardCount" value="18"/>
+
+	<entry name="slaguard0" value="Skullbreaker Fortress"/>
+	<entry name="slaguard1" value="Netherbane"/>
+	<entry name="slaguard2" value="Fatebinder Nexus"/>
+	<entry name="slaguard3" value="Locus of Chaos"/>
+	<entry name="slaguard4" value="Plaguepyre"/>
+	<entry name="slaguard5" value="Marshadow"/>
+	<entry name="slaguard6" value="Faith Undivided"/>
+	<entry name="slaguard7" value="Kastel Gore"/>
+	<entry name="slaguard8" value="Crux Heretica"/>
+	<entry name="slaguard9" value="Bittersworn Sanction"/>
+	<entry name="slaguard10" value="Blackheart Core"/>
+	<entry name="slaguard11" value="Lashlick"/>
+	<entry name="slaguard12" value="Dunmournin"/>
+	<entry name="slaguard13" value="The Warmaster's Fist"/>
+	<entry name="slaguard14" value="Foulreaver's Hope"/>
+	<entry name="slaguard15" value="Lost Damnation"/>
+	<entry name="slaguard16" value="Solstript Waste"/>
+	<entry name="slaguard17" value="Ashes of the Imperium"/>
+	<entry name="slaguardCount" value="18"/>
+
+	<entry name="tzeguard0" value="Skullbreaker Fortress"/>
+	<entry name="tzeguard1" value="Netherbane"/>
+	<entry name="tzeguard2" value="Fatebinder Nexus"/>
+	<entry name="tzeguard3" value="Locus of Chaos"/>
+	<entry name="tzeguard4" value="Plaguepyre"/>
+	<entry name="tzeguard5" value="Marshadow"/>
+	<entry name="tzeguard6" value="Faith Undivided"/>
+	<entry name="tzeguard7" value="Kastel Gore"/>
+	<entry name="tzeguard8" value="Crux Heretica"/>
+	<entry name="tzeguard9" value="Bittersworn Sanction"/>
+	<entry name="tzeguard10" value="Blackheart Core"/>
+	<entry name="tzeguard11" value="Lashlick"/>
+	<entry name="tzeguard12" value="Dunmournin"/>
+	<entry name="tzeguard13" value="The Warmaster's Fist"/>
+	<entry name="tzeguard14" value="Foulreaver's Hope"/>
+	<entry name="tzeguard15" value="Lost Damnation"/>
+	<entry name="tzeguard16" value="Solstript Waste"/>
+	<entry name="tzeguard17" value="Ashes of the Imperium"/>
+	<entry name="tzeguardCount" value="18"/>
+</language>

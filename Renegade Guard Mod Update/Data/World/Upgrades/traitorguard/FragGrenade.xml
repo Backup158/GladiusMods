@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="1" icon="Weapons/FragGrenade">
+	<requiredUpgrades>
+		<upgrade name="traitorguard/Heroes"/>
+		<upgrade name="traitorguard/Infantry"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

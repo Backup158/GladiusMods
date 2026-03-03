@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="8" icon="Units/traitorguard/Thunderbolt">
+	<requiredUpgrades>
+		<upgrade name="slaguard/Aircraft"/>
+	</requiredUpgrades>
+</upgrade>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city actionsTitle="GUI/UnholyRites">
+<actions>
+		<riteOfUnholyPleasure cooldown="2"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/UnholyRite"
+				name="ChaosSpaceMarines/RiteOfUnholyPleasure"
+				requiredUpgrade="slaguard/RiteOfUnholyPleasure">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+						<populationCost base="2"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="ChaosSpaceMarines/RiteOfUnholyPleasure"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+		</riteOfUnholyPleasure>
+	</actions>
+
+	<modifiers>
+		<modifier>
+			<effects>
+				<loyaltyPerCity base="-4"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</city>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/RatlingDiffuse"/>
+		<texture name="Units/ChaosGuard/RatlingNormal"/>
+		<texture name="Units/ChaosGuard/RatlingSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

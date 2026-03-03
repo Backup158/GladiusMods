@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<oreCost base="50"/>
+				<influenceCost base="50"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<energyUpkeep add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<research add="2"/>
+				<production add="6"/>
+				<loyalty add="2"/>
+				<influence add="9"/>
+
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<produceUnit unit="ChaosGuard/KrootHound"/>
+		<produceUnit unit="ChaosGuard/ChaosSpaceMarine" requiredUpgrade="ChaosGuard/ChaosSpaceMarine"/>
+		<produceUnit unit="ChaosGuard/KhorneBerzerker" requiredUpgrade="ChaosGuard/KhorneBerzerker"/>
+		<produceUnit unit="ChaosGuard/Havoc" requiredUpgrade="ChaosGuard/Havoc"/>
+		<produceUnit unit="ChaosGuard/Helbrute" requiredUpgrade="ChaosGuard/Helbrute"/>
+		<produceUnit unit="ChaosGuard/Defiler" requiredUpgrade="ChaosGuard/Defiler"/>
+	<produceUnit unit="ChaosGuard/LordOfSkulls" requiredUpgrade="ChaosGuard/LordOfSkulls"/>
+	
+	</actions>
+</building>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosGuard/HavocDiffuse"/>
+		<texture name="Units/ChaosGuard/HavocNormal"/>
+		<texture name="Units/ChaosGuard/HavocSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/nurgleguard/PsychneueinDiffuse"/>
+		<texture name="Units/nurgleguard/PsychneueinNormal"/>
+		<texture name="Units/nurgleguard/PsychneueinSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

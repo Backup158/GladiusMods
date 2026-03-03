@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="9" icon="Weapons/HeavyBolter">
+	<requiredUpgrades>
+		<upgrade name="traitorguard/Baneblade"/>
+		<upgrade name="traitorguard/LemanRussBattleTank"/>
+		<upgrade name="traitorguard/Aircraft"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+				<increaseAircraftScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

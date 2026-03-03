@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city actionsTitle="GUI/UnholyRites">
+<actions>
+		<riteOfChange cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/UnholyRite"
+				name="ChaosSpaceMarines/RiteOfChange"
+				requiredUpgrade="tzeguard/RiteOfChange">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+						<populationCost base="2"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="ChaosSpaceMarines/RiteOfChange"/>
+					</effects>
+				</modifier>
+			</actorModifiers>		
+		</riteOfChange>
+		
+	</actions>
+
+	<modifiers>
+		<modifier>
+			<effects>
+				<loyaltyPerCity base="-4"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</city>

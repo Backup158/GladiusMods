@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<!------------------------------------------------------------------------------------>
+	<!------------------ |       Name Factions      |      S E A R C H     | ------------->
+	<!------------------------------------------------------------------------------------>
+	<!------------------ | Blackbloods of Malice    | Faction_LostGuard    | ------------->
+	<!------------------ | Gathalamor 24th Regiment | Faction_khorneguard  | ------------->
+	<!------------------ | Gladius Renegade Militia | Faction_traitorguard | ------------->
+	<!------------------ | Hazakh Plaguetakers      | Faction_nurgleguard  | ------------->
+	<!------------------ | Kardone Changeseekers    | Faction_tzeguard     | ------------->
+	<!------------------ | Renegade Imperial Guard  | Faction_ChaosGuard   | ------------->
+	<!------------------ | Vanitine Hedonites       | Faction_slaguard     | ------------->
+	<!------------------------------------------------------------------------------------>
+
+	<!--- Other_Error --->
+
+	<!--------------------------------------------------------------------------------->
+	<!----------------------- Renegade Imperial Guard (Faction_ChaosGuard) ------------>
+	<!--------------------------------------------------------------------------------->
+	
+	<entry name="ChaosGuard/ActivateWebwayGate" value="Renegade Imperial Bastion Control"/>
+	<entry name="ChaosGuard/ActivateWebwayGateDescription" value="Take control of Renegade Imperial Bastion."/>
+	<entry name="ChaosGuard/ActivateWebwayGateFlavor" value="The will of betrayal alone is not enough to survive. Any apostate must have a strong leader-patron, such should only be the Really Strong Gods - the Gods of Chaos."/>
+	<entry name="ChaosGuard/BoonOfMutation" value="Boon of Mutation"/>
+	<entry name="ChaosGuard/BoonOfMutationDescription" value="Target adjacent allied Champion of Chaos unit gains a missing, unlocked Boon of Chaos."/>
+	<entry name="ChaosGuard/BoonOfMutationFlavor" value="The psyker lays his hands upon a warrior marked for glory, channeling the warping power of Chaos into his body until his flesh wrenches and flows."/>
+	<entry name="ChaosGuard/ConvertWildlife" value="Chaos Corruption"/>
+	<entry name="ChaosGuard/ConvertWildlife2" value="Chaos Corruption 2"/>
+	<entry name="ChaosGuard/ConvertWildlife2Description" value="Converts Astra Militarum units to your side. Cost scales with target strength."/>
+	<entry name="ChaosGuard/ConvertWildlifeDescription" value="Converts basic infantry unit to your side. Cost scales with target strength."/>
+	<entry name="ChaosGuard/CultistSacrifice" value="Guardmen Sacrifice"/>
+	<entry name="ChaosGuard/CultistSacrificeDescription" value="Increases Chaos Gods favor of target allied Chaos Guard city by sacrificing the unit."/>
+	<entry name="ChaosGuard/CultistSacrificeFlavor" value="So fervent are now the ancients Imperial but so weak their martial prowess, that the gods enjoy their demise as much as their life—more so, perhaps, given the blessings they bestow at their sacrifice."/>
+	<entry name="ChaosGuard/Daemonforge" value="Daemonforge"/>
+	<entry name="ChaosGuard/DaemonforgeDescription" value="Sacrifices hitpoints to increase the damage and armour penetration."/>
+	<entry name="ChaosGuard/DaemonforgeFlavor" value="The Daemon Engines of the Chaos Space Marines are driven by a fathomless hatred born of the warp."/>
+	<entry name="ChaosGuard/DarkGlory" value="Dark Glory"/>
+	<entry name="ChaosGuard/DarkGloryDescription" value="Increases the damage reduction."/>
+	<entry name="ChaosGuard/DarkGloryFlavor" value="Some champions of Chaos are so blessed by their patron deity that they are supernaturally protected from harm. They might be surrounded by a powerful, crackling shield of energy, or else bullets aimed at them may be strangely turned aside just before they strike. In either case, it is clear that the Dark Gods are watching over them."/>
+	<entry name="ChaosGuard/DirgeCaster" value="Dirge Caster"/>
+	<entry name="ChaosGuard/DirgeCasterDescription" value="Prevents adjacent enemy units from doing overwatch attacks."/>
+	<entry name="ChaosGuard/DirgeCasterFlavor" value="This device emits a series of terrifying wails, screams and howls that demoralise and confuse enemies who hear them."/>
+	<entry name="ChaosGuard/ExaltedStrike" value="Exalted Strike"/>
+	<entry name="ChaosGuard/ExaltedStrikeDescription" value="Performs a devastating Thunder Hammer attack against the target enemy unit with less than 50% hitpoints."/>
+	<entry name="ChaosGuard/ExaltedStrikeFlavor" value="To face a Chaos Lord in battle isn’t just to face an elite Adeptus Astartes, or a veteran of ten thousand years of war—it’s to face the best of those few survivors, one also blessed by the gods. After ten millennia, they well know weakness and how to exploit it."/> <!-- Chaos Lord elite ability. -->
+	<entry name="ChaosGuard/GiftOfContagion" value="Gift of Contagion"/>
+	<entry name="ChaosGuard/GiftOfContagionDescription" value="<string name='Items/BlightGrenadeDescription'/>"/>
+	<entry name="ChaosGuard/GiftOfContagionFlavor" value="The psyker gathers clouds of contagion and rot-flies about his enemies, granting them Father Nurgle's blessing."/>
+	<entry name="ChaosGuard/IchorBlood" value="Ichor Blood"/>
+	<entry name="ChaosGuard/IchorBloodDescription" value="Enemies take damage when they cause melee damage."/>
+	<entry name="ChaosGuard/IchorBloodFlavor" value="It is not blood that runs through this champion's veins, but searing ichor, molten brass, psychadelic narcotics, virulent pus or some such vile and deadly substance."/>
+	<entry name="ChaosGuard/IconOfDespair" value="Icon of Despair"/>
+	<entry name="ChaosGuard/IconOfDespairDescription" value="Icon of Chaos that increases the melee damage reduction against fearful enemies to a unit with Mark of Nurgle."/>
+	<entry name="ChaosGuard/IconOfDespairFlavor" value="This icon is surrounded by a miasma of disease and hopelessness, turning the thoughts of any nearby foes to the grisly and inevitable deaths that await them."/>
+	<entry name="ChaosGuard/IconOfExcess" value="Icon of Excess"/>
+	<entry name="ChaosGuard/IconOfExcessDescription" value="Icon of Chaos that increases the damage reduction of a unit with Mark of Slaanesh."/>
+	<entry name="ChaosGuard/IconOfExcessFlavor" value="Depravity hangs about this icon like cloying musk, driving those below it into an orgy of sensation-seeking that can only be halted by the total destruction of their bodies."/>
+	<entry name="ChaosGuard/IconOfFlame" value="Icon of Flame"/>
+	<entry name="ChaosGuard/IconOfFlameDescription" value="Icon of Chaos that grants “attacks deal Soul Blaze damage each turn” to a unit with Mark of Tzeentch."/>
+	<entry name="ChaosGuard/IconOfFlameFlavor" value="Coruscating energies surround the icon, swathing the weapons of the devout with mutagenic flames."/>
+	<entry name="ChaosGuard/IconOfVengeance" value="Icon of Vengeance"/>
+	<entry name="ChaosGuard/IconOfVengeanceDescription" value="Icon of Chaos that grants Fearless to a unit with any Mark of Chaos."/>
+	<entry name="ChaosGuard/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
+	<entry name="ChaosGuard/IconOfWrath" value="Icon of Wrath"/>
+	<entry name="ChaosGuard/IconOfWrathDescription" value="Icon of Chaos that increases the damage of a unit with Mark of Khorne."/>
+	<entry name="ChaosGuard/IconOfWrathFlavor" value="The red-hot curses of the Blood God resound in the minds of those in the shadow of this icon, compelling them to hurl themselves into the fray with wild abandon."/>
+	<entry name="ChaosGuard/IncreaseSpaceMarine" value="Space Marine Ta Maman"/>
+	<entry name="ChaosGuard/IncreaseSpaceMarineDescription" value="a completer."/>
+	<entry name="ChaosGuard/IncreaseSpaceMarineFlavor" value="Yo mec flavor."/>
+	<entry name="ChaosGuard/Incursion" value="Dark Disciple"/>
+	<entry name="ChaosGuard/Incursion" value="Incursion"/>
+	<entry name="ChaosGuard/IncursionDescription" value="Summon Dark Disciples."/>
+	<entry name="ChaosGuard/IncursionDescription" value="Summon a temporary random Daemon."/>
+	<entry name="ChaosGuard/IncursionFlavor" value="In battle, Dark Apostles are often accompanied by their Dark Disciples."/>
+	<entry name="ChaosGuard/IncursionFlavor" value="The psyker opens a portal to the Realm of Chaos, allowing the warp's daemonic denizens to spill forth into reality."/>
+	<entry name="ChaosGuard/InfernalIndustry" value="Infernal Industry"/>
+	<entry name="ChaosGuard/InfernalIndustryDescription" value="Increases the energy and ore output."/>
+	<entry name="ChaosGuard/InfernalIndustryFlavor" value="A Warpsmith is an unparalleled master of technology, without the ethical or historical constraints of their erstwhile peers in the Mechanicum. If they can increase a facility’s functioning at the cost of a few hundred lives, they will."/> <!-- Warpsmith levelable ability. -->
+	<entry name="ChaosGuard/InfernalPower" value="Infernal Power"/>
+	<entry name="ChaosGuard/InfernalPowerDescription" value="Increases the accuracy and damage of adjacent allied Chaos units."/>
+	<entry name="ChaosGuard/InfernalPowerFlavor" value="The fell power of the immaterium flows from the psyker, imbuing the Daemons that reside within his followers' bodies with even greater ferocity."/>
+	<entry name="ChaosGuard/LasherTendrils" value="Lasher Tendrils"/>
+	<entry name="ChaosGuard/LasherTendrilsDescription" value="Decreases the melee attacks of adjacent units."/>
+	<entry name="ChaosGuard/LasherTendrilsFlavor" value="These metallic tendrils entrap their prey in an iron grip."/>
+	<entry name="ChaosGuard/LoathsomeAura" value="Loathsome Aura"/>
+	<entry name="ChaosGuard/LoathsomeAuraDescription" value="Increases the invulnerable damage reduction of adjacent allied Chaos units."/>
+	<entry name="ChaosGuard/LoathsomeAuraFlavor" value="A brutal edifice, raised up to destabilise local reality by the forces of Chaos, the Noctilith Crown brings the Warp closer, empowering those attuned to the Dark Gods."/>
+	<entry name="ChaosGuard/MalevolentLocus" value="Malevolent Locus"/>
+	<entry name="ChaosGuard/MalevolentLocusDescription" value="Damages enemy non-Chaos psykers in range each turn."/>
+	<entry name="ChaosGuard/MalevolentLocusFlavor" value="By this twisted construct, the whispers of the Warp are amplified, assaulting the minds of enemy psykers constantly. Few emerge unscathed from the trial."/>
+	<entry name="ChaosGuard/MarkOfKhorne" value="Mark of Khorne"/>
+	<entry name="ChaosGuard/MarkOfKhorneDescription" value="Mark of Chaos that increases the attacks of an allied Chaos non-psyker infantry unit."/>
+	<entry name="ChaosGuard/MarkOfKhorneFlavor" value="The Mark of Khorne is bestowed only upon those whose relentless rage and boundless ferocity pays due homage to the Blood Good's own. To such disciples, Khorne grants an unholy wrath that burns as hot as the stars."/>
+	<entry name="ChaosGuard/MarkOfNurgle" value="Mark of Nurgle"/>
+	<entry name="ChaosGuard/MarkOfNurgleDescription" value="Mark of Chaos that increases the hitpoints of an allied Chaos infantry unit."/>
+	<entry name="ChaosGuard/MarkOfNurgleFlavor" value="Nurgle's blessing manifests not only as a suite of virulent plagues and diseases, but also as the inhuman constitution needed to survive them."/>
+	<entry name="ChaosGuard/MarkOfSlaanesh" value="Mark of Slaanesh"/>
+	<entry name="ChaosGuard/MarkOfSlaaneshDescription" value="Mark of Chaos that increases the movement of an allied Chaos infantry unit."/>
+	<entry name="ChaosGuard/MarkOfSlaaneshFlavor" value="The devotees of Slaanesh have their senses and reactions heightened to a supernatural degree, all the better to drink in the extreme, multifaceted stimuli of the battlefield. A warrior gifted in this manner will move with uncanny grace and speed, his blade lashing out like the tongue of a serpent as he revels in the ugly spectacle of death."/>
+	<entry name="ChaosGuard/MarkOfTzeentch" value="Mark of Tzeentch"/>
+	<entry name="ChaosGuard/MarkOfTzeentchDescription" value="Mark of Chaos that increases the invulnerable damage reduction of an allied Chaos infantry unit."/>
+	<entry name="ChaosGuard/MarkOfTzeentchFlavor" value="Those dedicated to Tzeentch enjoy the protection and prescience of the Master of Manipulation."/>
+	<entry name="ChaosGuard/MasterOfMechanisms" value="Master of Mechanisms"/>
+	<entry name="ChaosGuard/MasterOfMechanismsDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
+	<entry name="ChaosGuard/MasterOfMechanismsFlavor" value="Despite their array of weaponry, only a Khornate fool would put a Warpsmith directly into battle, when he or she could be better placed repairing and rebinding their Daemon Engine charges."/> <!-- Warpsmith levelable ability. -->
+	<entry name="ChaosGuard/Mechatendrils" value="Mechatendrils"/>
+	<entry name="ChaosGuard/MechatendrilsFlavor" value="Reminiscent of the servo-harness worn by the Techmarines of the Adeptus Astrates, these writhing tentacles are worn by—or even implanted into—Chaos Warpsmiths."/> <!-- Warpsmith levelable ability. -->
+	<entry name="ChaosGuard/Possession" value="Possession"/>
+	<entry name="ChaosGuard/PossessionDescription" value="Killing enemy units transforms them into allied Chaos Spawns."/>
+	<entry name="ChaosGuard/PossessionFlavor" value="The psyker blasts away their enemy's soul so that the spiritless shell left behind can be possessed by a Daemon, who quickly transforms it into a more pleasing form."/>
+	<entry name="ChaosGuard/PrinceOfChaos" value="Prince of Chaos"/>
+	<entry name="ChaosGuard/PrinceOfChaosDescription" value="Increases the accuracy of adjacent allied Chaos units."/>
+	<entry name="ChaosGuard/PrinceOfChaosFlavor" value="Little else could more inspire a warrior of Chaos than to see a Daemon Prince—once a mortal just like them, now nearer to a God—fighting alongside them."/>
+	<entry name="ChaosGuard/PurchaseEnergy" value="Chaos Power"/>
+	<entry name="ChaosGuard/PurchaseEnergyDescription" value="Purchases energy."/>
+	<entry name="ChaosGuard/PurchaseEnergyFlavor" value=""/>
+	<entry name="ChaosGuard/PurchaseFood" value="Too many Mouths"/>
+	<entry name="ChaosGuard/PurchaseFoodDescription" value="Purchases food."/>
+	<entry name="ChaosGuard/PurchaseFoodFlavor" value=""/>
+	<entry name="ChaosGuard/PurchaseOre" value="A Shield For All"/>
+	<entry name="ChaosGuard/PurchaseOreDescription" value="Purchases ore."/>
+	<entry name="ChaosGuard/PurchaseOreFlavor" value=""/>
+	<entry name="ChaosGuard/PurchasePopulation" value="Proselytise"/>
+	<entry name="ChaosGuard/PurchasePopulationDescription" value="Increases the population of target allied Renegade Imperial Guard city."/>
+	<entry name="ChaosGuard/PurchasePopulationFlavor" value=""/>
+	<entry name="ChaosGuard/PurchaseResearch" value="Chaos technology"/>
+	<entry name="ChaosGuard/PurchaseResearchDescription" value="Purchases research."/>
+	<entry name="ChaosGuard/PurchaseResearchFlavor" value=""/>
+	<entry name="ChaosGuard/ReprogramKastelanRobot" value="Dark Disciple"/>
+	<entry name="ChaosGuard/ReprogramKastelanRobotDescription" value="Takes control of lost Dark Disciple."/>
+	<entry name="ChaosGuard/ReprogramKastelanRobotFlavor" value="."/>
+	<entry name="ChaosGuard/ReservoirOfDaemonicEnergy" value="Reservoir of Daemonic Energy"/>
+	<entry name="ChaosGuard/ReservoirOfDaemonicEnergyDescription" value="Reduces the cooldown of Incursion for adjacent allied Masters of Possesion."/>
+	<entry name="ChaosGuard/ReservoirOfDaemonicEnergyFlavor" value="Venomcrawlers are uniquely valued both off and on the battlefield. Not only can their repositories of stored warp energy be siphoned in order to create fresh Daemon Engines, but they can be used in the thick of combat to weaken the fabric of reality. Masters of Possession are particularly adept at drawing upon this reservoir to lure the daemonic servants of the Chaos Gods into existence. At battle's end these Daemons are hastily consumed by the Venomcrawler, their essences used to replenish its depleted warp stores."/>
+	<entry name="ChaosGuard/RiteOfBlood" value="Rite of Blood"/>
+	<entry name="ChaosGuard/RiteOfBloodDescription" value="Sacrifices population to Khorne to increase the production output of units in the city."/>
+	<entry name="ChaosGuard/RiteOfBloodFlavor" value="Khorne may have other, minor, traits—a certain nobility and simplicity of war—but his lust for death and blood outweighs them by far. Rites in his name bring not only his blessing, but also increase the work rate of the slave populace, in their terror that they could be next."/>
+	<entry name="ChaosGuard/RiteOfChange" value="Rite of Change"/>
+	<entry name="ChaosGuard/RiteOfChangeDescription" value="Sacrifices population to Tzeentch to increase the production output of Warp Forges and research output of Archives of the Ways in the city."/>
+	<entry name="ChaosGuard/RiteOfChangeFlavor" value="Invoking the Changer’s name is highly risky—few know what he will do to further his endless plans, or the curses he brings if he is distracted to no purpose. After a Rite of Change, some mutate, some disappear, some are embedded alive into the city walls—but always something is learned."/>
+	<entry name="ChaosGuard/RiteOfPestilence" value="Rite of Pestilence"/>
+	<entry name="ChaosGuard/RiteOfPestilenceDescription" value="Sacrifices population to Nurgle to increase the food output of Renderers and the growth rate in the city."/>
+	<entry name="ChaosGuard/RiteOfPestilenceFlavor" value="A Rite of Pestilence doesn’t explicitly sacrifice to Nurgle—it merely invites his blessing upon your people. Given the virulence of Nurgle’s diseases—the Rot, the Chortling Murrain, the Oozing Pox—many will die of these blessings, in his name. Many others will live with them and burgeon with plague-ridden fecundity."/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasure" value="Rite of Unholy Pleasure"/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasureDescription" value="Sacrifices population to Slaanesh to increase the influence output of Altars of Chaos and loyalty output of Meadows of Sorrow in the city."/>
+	<entry name="ChaosGuard/RiteOfUnholyPleasureFlavor" value="Stop your ears with wax, bind your mouth, stitch up your eyes, and tie yourself down. Only then invoke Slaanesh, so that you may not succumb utterly to the Pleasure God’s irresistible desires."/>
+	<entry name="ChaosGuard/Sacrifice" value="Sacrifice"/>
+	<entry name="ChaosGuard/SacrificeDescription" value="Lose hitpoints to restores the hitpoints of the target allied unit."/>
+	<entry name="ChaosGuard/SacrificeFlavor" value="The psyker uses a sacrificial soul to remould and repair an unholy Daemon-form. The tainted spirits of Warpsmiths are particularly invigorating offerings to those Daemon Engines that are in their charge."/>
+	<entry name="ChaosGuard/SelfRepair" value="Self-Repair"/>
+	<entry name="ChaosGuard/SelfRepairDescription" value="Restores the hitpoints."/>
+	<entry name="ChaosGuard/SelfRepairFlavor" value="The machine spirits of the Traitor Legions’ vehicles have long been driven to despair or corrupted by demons, but the surviving vehicles have gained something for that lost—a crude regeneration that stitches the unholy metal back together, so they can continue the work of the Dark Gods."/> <!-- Chaos Rhino -->
+	<entry name="ChaosGuard/ShatterDefences" value="Shatter Defences"/>
+	<entry name="ChaosGuard/ShatterDefencesDescription" value="Reduces the ranged damage reduction of the target tile."/>
+	<entry name="ChaosGuard/ShatterDefencesFlavor" value="Whatever cover the enemy cowers behind, a Warpsmith can draw upon millennia of siege experience to advise on the best way to bypass or to destroy them."/> <!-- Warpsmith levelable ability. -->
+	<entry name="ChaosGuard/WarpflameStrike" value="Warpflame Strike"/>
+	<entry name="ChaosGuard/WarpflameStrikeDescription" value="Flies across obstacles to the target tile and blinds adjacent enemy infantry and monstrous creatures."/>
+	<entry name="ChaosGuard/WarpflameStrikeFlavor" value="Though the lesion they slice in the fabric of realspace seals over as soon as the hunting pack has passed through, the mind-shattering nature of their attack is usually enough to stun their prey into inactivity. This moment of awestruck hesitation is often fatal, for the hellishly sharp claws of the Warp Talons part heads from necks and limbs from torsos as the hunters hurtle into the ranks of the foe."/>
+	<entry name="ChaosGuard/WebwayRedoubt" value="Reorganization Renegade Guard Fortress"/>
+	<entry name="ChaosGuard/WebwayRedoubtDescription" value="Allows you to found a city on captured Renegade Guard Fortress.<br/><br/>Cities can only be found where there are no other cities within a %1% tile radius. Each city after the first decreases loyalty in all cities by %2%."/>
+	<entry name="ChaosGuard/WebwayRedoubtFlavor" value="Chaos should be everywhere, it is the one who creates harmony in the universe. To achieve this, you need a strong hand with strong followers. Traitor cities must be founded on every planet, in every world."/>
+	<entry name="ChaosGuard/WorthyOffering" value="Worthy Offering"/>
+	<entry name="ChaosGuard/WorthyOfferingDescription" value="Increases the chance that adjacent allied Champions of Chaos receive a Boon of Chaos."/>
+	<entry name="ChaosGuard/WorthyOfferingFlavor" value="Having the eye of the gods upon you means those nearby are also subject to greater scrutiny—whether that turns them to Spawn or Daemon Prince, depends on how well they perform and the inscrutable whim of the Gods."/> <!-- Chaos Lord levelable ability. -->
+	
+	<!--- Other_Error --->
+<!--
+	<entry name="ChaosGuardConvertWildlife2Flavor" value="."/>
+	<entry name="ChaosGuardConvertWildlifeFlavor" value="."/>
+	<entry name="ConstructImperialStrongpoint" value="Construct <string name='Units/ChaosGuard/ImperialStrongpoint'/>"/>
+	<entry name="ConstructImperialStrongpoint" value="Construct <string name='Units/traitorguard/ImperialStrongpoint'/>"/>
+	<entry name="ConstructImperialStrongpointDescription" value="<string name='Units/ChaosGuard/ImperialStrongpointDescription'/>"/>
+	<entry name="ConstructImperialStrongpointDescription" value="<string name='Units/traitorguard/ImperialStrongpointDescription'/>"/>
+	<entry name="ConstructImperialStrongpointFlavor" value="<string name='Units/ChaosGuard/ImperialStrongpointFlavor'/>"/>
+	<entry name="ConstructImperialStrongpointFlavor" value="<string name='Units/traitorguard/ImperialStrongpointFlavor'/>"/>
+	<entry name="ConstructNoctilithCrown" value="Construct <string name='Units/ChaosGuard/NoctilithCrown'/>"/>
+	<entry name="ConstructNoctilithCrown" value="Construct <string name='Units/traitorguard/NoctilithCrown'/>"/>
+	<entry name="ConstructNoctilithCrownDescription" value="<string name='Units/ChaosGuard/NoctilithCrownDescription'/>"/>
+	<entry name="ConstructNoctilithCrownDescription" value="<string name='Units/traitorguard/NoctilithCrownDescription'/>"/>
+	<entry name="ConstructNoctilithCrownFlavor" value="<string name='Units/ChaosGuard/NoctilithCrownFlavor'/>"/>
+	<entry name="ConstructNoctilithCrownFlavor" value="<string name='Units/traitorguard/NoctilithCrownFlavor'/>"/>
+	<entry name="ConstructTidewallGunrig" value="Construct <string name='Units/traitorguard/TidewallGunrig'/>"/>
+	<entry name="ConstructTidewallGunrigDescription" value="<string name='Units/traitorguard/TidewallGunrigDescription'/>"/>
+	<entry name="ConstructTidewallGunrigFlavor" value="<string name='Units/traitorguard/TidewallGunrigFlavor'/>"/>
+	<entry name="ConstructVoidShieldGenerator" value="Construct <string name='Units/ChaosGuard/VoidShieldGenerator'/>"/>
+	<entry name="ConstructVoidShieldGenerator" value="Construct <string name='Units/traitorguard/VoidShieldGenerator'/>"/>
+	<entry name="ConstructVoidShieldGeneratorDescription" value="<string name='Units/ChaosGuard/VoidShieldGeneratorDescription'/>"/>
+	<entry name="ConstructVoidShieldGeneratorDescription" value="<string name='Units/traitorguard/VoidShieldGeneratorDescription'/>"/>
+	<entry name="ConstructVoidShieldGeneratorFlavor" value="<string name='Units/ChaosGuard/VoidShieldGeneratorFlavor'/>"/>
+	<entry name="ConstructVoidShieldGeneratorFlavor" value="<string name='Units/traitorguard/VoidShieldGeneratorFlavor'/>"/>
+->
+
+	<!--------------------------------------------------------------------------------->
+	<!---------------------- Gathalamor 24th Regiment (Faction_khorneguard) ----------->
+	<!--------------------------------------------------------------------------------->
+
+
+	<entry name="khorneguard/Blood" value="Blood for the Blood"/>
+	<entry name="khorneguard/BloodDescription" value="en test."/>
+	<entry name="khorneguard/BloodFlavor" value="Blood for the blood God."/>
+	<entry name="khorneguard/ConsumeTile" value="Build Skull Altar"/>
+	<entry name="khorneguard/ConsumeTileDescription" value="Special feature that provides a recurring reward to units entering the tile and increases the influence output of the city when acquired."/>
+	<entry name="khorneguard/ConsumeTileFlavor" value="Rising from the ground, the Skull Altar is formed out of the violent tributes heaped in offering for Khorne's Throne. From atop the grisly pedestal a priest of Khorne roars out invectives, evoking the judgements of the Blood God to smite down all signs of weakness."/>
+	<entry name="khorneguard/CultistSacrifice" value="Sacrifice to Khorne"/>
+	<entry name="khorneguard/CultistSacrificeDescription" value="Increases Khorne favor of target allied city by sacrificing the unit."/>
+	<entry name="khorneguard/CultistSacrificeFlavor" value="So fervent are now the ancients Imperial but so weak their martial prowess, that the gods enjoy their demise as much as their life—more so, perhaps, given the blessings they bestow at their sacrifice."/>
+	<entry name="khorneguard/IconOfWrath" value="Icon of Wrath"/>
+	<entry name="khorneguard/IconOfWrathDescription" value="Icon of Chaos that increases the damage of a unit with Mark of Khorne."/>
+	<entry name="khorneguard/IconOfWrathFlavor" value="The red-hot curses of the Blood God resound in the minds of those in the shadow of this icon, compelling them to hurl themselves into the fray with wild abandon."/>
+	<entry name="khorneguard/RiteOfBlood" value="Rite of Blood"/>
+	<entry name="khorneguard/RiteOfBloodDescription" value="Sacrifices population to Khorne to increase the production output of units in the city."/>
+	<entry name="khorneguard/RiteOfBloodFlavor" value="Khorne may have other, minor, traits—a certain nobility and simplicity of war—but his lust for death and blood outweighs them by far. Rites in his name bring not only his blessing, but also increase the work rate of the slave populace, in their terror that they could be next."/>
+
+	<!--------------------------------------------------------------------------------->
+	<!------------------------ Hazakh Plaguetakers (Faction_nurgleguard) -------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="nurgleguard/CultistSacrifice" value="Sacrifice to Nurgle"/>
+	<entry name="nurgleguard/CultistSacrificeDescription" value="Increases Nurgle favor of target allied city by sacrificing the unit."/>
+	<entry name="nurgleguard/CultistSacrificeFlavor" value="So fervent are now the ancients Imperial but so weak their martial prowess, that the gods enjoy their demise as much as their life—more so, perhaps, given the blessings they bestow at their sacrifice."/>
+	<entry name="nurgleguard/IconOfDespair" value="Icon of Despair"/>
+	<entry name="nurgleguard/IconOfDespairDescription" value="Icon of Chaos that increases the melee damage reduction against fearful enemies to a unit with Mark of Nurgle."/>
+	<entry name="nurgleguard/IconOfDespairFlavor" value="This icon is surrounded by a miasma of disease and hopelessness, turning the thoughts of any nearby foes to the grisly and inevitable deaths that await them."/>
+	<entry name="nurgleguard/InfernalIndustry" value="Infernal Industry"/>
+	<entry name="nurgleguard/InfernalIndustryDescription" value="Increases the energy and ore output."/>
+	<entry name="nurgleguard/InfernalIndustryFlavor" value="A Warpsmith is an unparalleled master of technology, without the ethical or historical constraints of their erstwhile peers in the Mechanicum. If they can increase a facility’s functioning at the cost of a few hundred lives, they will."/> <!-- Warpsmith levelable ability. -->
+	<entry name="nurgleguard/InfernalPower" value="Infernal Power"/>
+	<entry name="nurgleguard/InfernalPowerDescription" value="Increases the accuracy and damage of adjacent allied Chaos units."/>
+	<entry name="nurgleguard/InfernalPowerFlavor" value="The fell power of the immaterium flows from the psyker, imbuing the Daemons that reside within his followers' bodies with even greater ferocity."/>
+	<entry name="nurgleguard/MarkOfNurgle" value="Mark of Nurgle"/>
+	<entry name="nurgleguard/MarkOfNurgleDescription" value="Mark of Chaos that increases the hitpoints of an allied Chaos infantry unit."/>
+	<entry name="nurgleguard/MarkOfNurgleFlavor" value="Nurgle's blessing manifests not only as a suite of virulent plagues and diseases, but also as the inhuman constitution needed to survive them."/>
+	<entry name="nurgleguard/Peste" value="Spread The Plague"/>
+	<entry name="nurgleguard/Peste2" value="Gift of Contagion"/>
+	<entry name="nurgleguard/Peste2Description" value="Deals damage to the target enemy infantry or monstrous creature unit"/>
+	<entry name="nurgleguard/Peste2Flavor" value="The psyker gathers clouds of contagion and rot-flies about his enemies, granting them Father Nurgle's blessing."/>
+	<entry name="nurgleguard/PesteDescription" value="Spread The Nurgle Plague to an enemy cities to reduce their loyalty"/>
+	<entry name="nurgleguard/PesteFlavor" value="Unholy gifts of the Plague Lord, Nurgle"/>
+
+	<!--------------------------------------------------------------------------------->
+	<!-------------------------- Vanitine Hedonites (Faction_slaguard) ---------------->
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="slaguard/ConvertWildlife" value="Slaanesh Seduction"/>
+	<entry name="slaguard/ConvertWildlifeDescription" value="Converts enemy infantry units to your side. Cost scales with target strength."/>
+	<entry name="slaguard/ConvertWildlifeFlavor" value=""/>
+	<entry name="slaguard/CultistSacrifice" value="Sacrifice to Slaanesh"/>
+	<entry name="slaguard/CultistSacrificeDescription" value="Increases Slaanesh favor of target allied city by sacrificing the unit."/>
+	<entry name="slaguard/CultistSacrificeFlavor" value="So fervent are now the ancients Imperial but so weak their martial prowess, that the gods enjoy their demise as much as their life—more so, perhaps, given the blessings they bestow at their sacrifice."/>
+	<entry name="slaguard/FeelNoPain" value="Feel The Pain"/>
+	<entry name="slaguard/FeelNoPainDescription" value="Increases the damage reduction."/>
+	<entry name="slaguard/FeelNoPainFlavor" value="Whether through force of will, bionic augmentation or foul sorcery, this warrior can fight despite fearsome wounds."/>
+	<entry name="slaguard/IconOfExcess" value="Icon of Excess"/>
+	<entry name="slaguard/IconOfExcessDescription" value="Icon of Chaos that increases the damage reduction of a unit with Mark of Slaanesh."/>
+	<entry name="slaguard/IconOfExcessFlavor" value="Depravity hangs about this icon like cloying musk, driving those below it into an orgy of sensation-seeking that can only be halted by the total destruction of their bodies."/>
+	<entry name="slaguard/RiteOfUnholyPleasure" value="Rite of Unholy Pleasure"/>
+	<entry name="slaguard/RiteOfUnholyPleasureDescription" value="Sacrifices population to Slaanesh to increase the influence output of Altars of Chaos and loyalty output of Meadows of Sorrow in the city."/>
+	<entry name="slaguard/RiteOfUnholyPleasureFlavor" value="Stop your ears with wax, bind your mouth, stitch up your eyes, and tie yourself down. Only then invoke Slaanesh, so that you may not succumb utterly to the Pleasure God’s irresistible desires."/>
+
+	<!--------------------------------------------------------------------------------->
+	<!-------------------- Gladius Renegade Militia (Faction_traitorguard) ------------>
+	<!--------------------------------------------------------------------------------->
+
+	<entry name="traitorguard/ActivateWebwayGate" value="Renegade Imperial Bastion Control"/>
+	<entry name="traitorguard/ActivateWebwayGateDescription" value="Take control of Renegade Imperial Bastion."/>
+	<entry name="traitorguard/ActivateWebwayGateFlavor" value="The will of betrayal alone is not enough to survive. Any apostate must have a strong leader-patron, such should only be the Really Strong Gods - the Gods of Chaos."/>
+	<entry name="traitorguard/ConvertWildlife" value="Chaos Corruption"/>
+	<entry name="traitorguard/ConvertWildlife2" value="Chaos Corruption 2"/>
+	<entry name="traitorguard/ConvertWildlife2Description" value="Converts Astra Militarum units to your side. Cost scales with target strength."/>
+	<entry name="traitorguard/ConvertWildlifeDescription" value="Converts basic infantry unit to your side. Cost scales with target strength."/>
+	<entry name="traitorguard/CultistSacrifice" value="Guardmen Sacrifice"/>
+	<entry name="traitorguard/CultistSacrificeDescription" value="Increases Chaos Gods favor of target allied Chaos Guard city by sacrificing the unit."/>
+	<entry name="traitorguard/CultistSacrificeFlavor" value="So fervent are now the ancients Imperial but so weak their martial prowess, that the gods enjoy their demise as much as their life—more so, perhaps, given the blessings they bestow at their sacrifice."/>
+	<entry name="traitorguard/Daemonforge" value="Daemonforge"/>
+	<entry name="traitorguard/DaemonforgeDescription" value="Sacrifices hitpoints to increase the damage and armour penetration."/>
+	<entry name="traitorguard/DaemonforgeFlavor" value="The Daemon Engines of the Chaos Space Marines are driven by a fathomless hatred born of the warp."/>
+	<entry name="traitorguard/DarkGlory" value="Dark Glory"/>
+	<entry name="traitorguard/DarkGloryDescription" value="Increases the damage reduction."/>
+	<entry name="traitorguard/DarkGloryFlavor" value="Some champions of Chaos are so blessed by their patron deity that they are supernaturally protected from harm. They might be surrounded by a powerful, crackling shield of energy, or else bullets aimed at them may be strangely turned aside just before they strike. In either case, it is clear that the Dark Gods are watching over them."/>
+	<entry name="traitorguard/DirgeCaster" value="Dirge Caster"/>
+	<entry name="traitorguard/DirgeCasterDescription" value="Prevents adjacent enemy units from doing overwatch attacks."/>
+	<entry name="traitorguard/DirgeCasterFlavor" value="This device emits a series of terrifying wails, screams and howls that demoralise and confuse enemies who hear them."/>
+	<entry name="traitorguard/ExaltedStrike" value="Exalted Strike"/>
+	<entry name="traitorguard/ExaltedStrikeDescription" value="Performs a devastating Thunder Hammer attack against the target enemy unit with less than 50% hitpoints."/>
+	<entry name="traitorguard/ExaltedStrikeFlavor" value="To face a Chaos Lord in battle isn’t just to face an elite Adeptus Astartes, or a veteran of ten thousand years of war—it’s to face the best of those few survivors, one also blessed by the gods. After ten millennia, they well know weakness and how to exploit it."/> <!-- Chaos Lord elite ability. -->
+	<entry name="traitorguard/GiftOfContagion" value="Gift of Contagion"/>
+	<entry name="traitorguard/GiftOfContagionDescription" value="<string name='Items/BlightGrenadeDescription'/>"/>
+	<entry name="traitorguard/GiftOfContagionFlavor" value="The psyker gathers clouds of contagion and rot-flies about his enemies, granting them Father Nurgle's blessing."/>
+	<entry name="traitorguard/IchorBlood" value="Ichor Blood"/>
+	<entry name="traitorguard/IchorBloodDescription" value="Enemies take damage when they cause melee damage."/>
+	<entry name="traitorguard/IchorBloodFlavor" value="It is not blood that runs through this champion's veins, but searing ichor, molten brass, psychadelic narcotics, virulent pus or some such vile and deadly substance."/>
+	<entry name="traitorguard/IconOfDespair" value="Icon of Despair"/>
+	<entry name="traitorguard/IconOfDespairDescription" value="Icon of Chaos that increases the melee damage reduction against fearful enemies to a unit with Mark of Nurgle."/>
+	<entry name="traitorguard/IconOfDespairFlavor" value="This icon is surrounded by a miasma of disease and hopelessness, turning the thoughts of any nearby foes to the grisly and inevitable deaths that await them."/>
+	<entry name="traitorguard/IconOfExcess" value="Icon of Excess"/>
+	<entry name="traitorguard/IconOfExcessDescription" value="Icon of Chaos that increases the damage reduction of a unit with Mark of Slaanesh."/>
+	<entry name="traitorguard/IconOfExcessFlavor" value="Depravity hangs about this icon like cloying musk, driving those below it into an orgy of sensation-seeking that can only be halted by the total destruction of their bodies."/>
+	<entry name="traitorguard/IconOfFlame" value="Icon of Flame"/>
+	<entry name="traitorguard/IconOfFlameDescription" value="Icon of Chaos that grants “attacks deal Soul Blaze damage each turn” to a unit with Mark of Tzeentch."/>
+	<entry name="traitorguard/IconOfFlameFlavor" value="Coruscating energies surround the icon, swathing the weapons of the devout with mutagenic flames."/>
+	<entry name="traitorguard/IconOfVengeance" value="Icon of Vengeance"/>
+	<entry name="traitorguard/IconOfVengeanceDescription" value="Icon of Chaos that grants Fearless to a unit with any Mark of Chaos."/>
+	<entry name="traitorguard/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
+	<entry name="traitorguard/IconOfWrath" value="Icon of Wrath"/>
+	<entry name="traitorguard/IconOfWrathDescription" value="Icon of Chaos that increases the damage of a unit with Mark of Khorne."/>
+	<entry name="traitorguard/IconOfWrathFlavor" value="The red-hot curses of the Blood God resound in the minds of those in the shadow of this icon, compelling them to hurl themselves into the fray with wild abandon."/>
+	<entry name="traitorguard/IncreaseSpaceMarine" value="Space Marine Ta Maman"/>
+	<entry name="traitorguard/IncreaseSpaceMarineDescription" value="a completer."/>
+	<entry name="traitorguard/IncreaseSpaceMarineFlavor" value="Yo mec flavor."/>
+	<entry name="traitorguard/Incursion" value="Dark Disciple"/>
+	<entry name="traitorguard/Incursion" value="Incursion"/>
+	<entry name="traitorguard/IncursionDescription" value="Summon Dark Disciples."/>
+	<entry name="traitorguard/IncursionDescription" value="Summon a temporary random Daemon."/>
+	<entry name="traitorguard/IncursionFlavor" value="In battle, Dark Apostles are often accompanied by their Dark Disciples."/>
+	<entry name="traitorguard/IncursionFlavor" value="The psyker opens a portal to the Realm of Chaos, allowing the warp's daemonic denizens to spill forth into reality."/>
+	<entry name="traitorguard/InfernalIndustry" value="Infernal Industry"/>
+	<entry name="traitorguard/InfernalIndustryDescription" value="Increases the energy and ore output."/>
+	<entry name="traitorguard/InfernalIndustryFlavor" value="A Warpsmith is an unparalleled master of technology, without the ethical or historical constraints of their erstwhile peers in the Mechanicum. If they can increase a facility’s functioning at the cost of a few hundred lives, they will."/> <!-- Warpsmith levelable ability. -->
+	<entry name="traitorguard/InfernalPower" value="Infernal Power"/>
+	<entry name="traitorguard/InfernalPowerDescription" value="Increases the accuracy and damage of adjacent allied Chaos units."/>
+	<entry name="traitorguard/InfernalPowerFlavor" value="The fell power of the immaterium flows from the psyker, imbuing the Daemons that reside within his followers' bodies with even greater ferocity."/>
+	<entry name="traitorguard/LasherTendrils" value="Lasher Tendrils"/>
+	<entry name="traitorguard/LasherTendrilsDescription" value="Decreases the melee attacks of adjacent units."/>
+	<entry name="traitorguard/LasherTendrilsFlavor" value="These metallic tendrils entrap their prey in an iron grip."/>
+	<entry name="traitorguard/LoathsomeAura" value="Loathsome Aura"/>
+	<entry name="traitorguard/LoathsomeAuraDescription" value="Increases the invulnerable damage reduction of adjacent allied Chaos units."/>
+	<entry name="traitorguard/LoathsomeAuraFlavor" value="A brutal edifice, raised up to destabilise local reality by the forces of Chaos, the Noctilith Crown brings the Warp closer, empowering those attuned to the Dark Gods."/>
+	<entry name="traitorguard/MalevolentLocus" value="Malevolent Locus"/>
+	<entry name="traitorguard/MalevolentLocusDescription" value="Damages enemy non-Chaos psykers in range each turn."/>
+	<entry name="traitorguard/MalevolentLocusFlavor" value="By this twisted construct, the whispers of the Warp are amplified, assaulting the minds of enemy psykers constantly. Few emerge unscathed from the trial."/>
+	<entry name="traitorguard/MarkOfKhorne" value="Mark of Khorne"/>
+	<entry name="traitorguard/MarkOfKhorneDescription" value="Mark of Chaos that increases the attacks of an allied Chaos non-psyker infantry unit."/>
+	<entry name="traitorguard/MarkOfKhorneFlavor" value="The Mark of Khorne is bestowed only upon those whose relentless rage and boundless ferocity pays due homage to the Blood Good's own. To such disciples, Khorne grants an unholy wrath that burns as hot as the stars."/>
+	<entry name="traitorguard/MarkOfNurgle" value="Mark of Nurgle"/>
+	<entry name="traitorguard/MarkOfNurgleDescription" value="Mark of Chaos that increases the hitpoints of an allied Chaos infantry unit."/>
+	<entry name="traitorguard/MarkOfNurgleFlavor" value="Nurgle's blessing manifests not only as a suite of virulent plagues and diseases, but also as the inhuman constitution needed to survive them."/>
+	<entry name="traitorguard/MarkOfSlaanesh" value="Mark of Slaanesh"/>
+	<entry name="traitorguard/MarkOfSlaaneshDescription" value="Mark of Chaos that increases the movement of an allied Chaos infantry unit."/>
+	<entry name="traitorguard/MarkOfSlaaneshFlavor" value="The devotees of Slaanesh have their senses and reactions heightened to a supernatural degree, all the better to drink in the extreme, multifaceted stimuli of the battlefield. A warrior gifted in this manner will move with uncanny grace and speed, his blade lashing out like the tongue of a serpent as he revels in the ugly spectacle of death."/>
+	<entry name="traitorguard/MarkOfTzeentch" value="Mark of Tzeentch"/>
+	<entry name="traitorguard/MarkOfTzeentchDescription" value="Mark of Chaos that increases the invulnerable damage reduction of an allied Chaos infantry unit."/>
+	<entry name="traitorguard/MarkOfTzeentchFlavor" value="Those dedicated to Tzeentch enjoy the protection and prescience of the Master of Manipulation."/>
+	<entry name="traitorguard/MasterOfMechanisms" value="Master of Mechanisms"/>
+	<entry name="traitorguard/MasterOfMechanismsDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
+	<entry name="traitorguard/MasterOfMechanismsFlavor" value="Despite their array of weaponry, only a Khornate fool would put a Warpsmith directly into battle, when he or she could be better placed repairing and rebinding their Daemon Engine charges."/> <!-- Warpsmith levelable ability. -->
+	<entry name="traitorguard/Mechatendrils" value="Mechatendrils"/>
+	<entry name="traitorguard/MechatendrilsFlavor" value="Reminiscent of the servo-harness worn by the Techmarines of the Adeptus Astrates, these writhing tentacles are worn by—or even implanted into—Chaos Warpsmiths."/> <!-- Warpsmith levelable ability. -->
+	<entry name="traitorguard/Possession" value="Possession"/>
+	<entry name="traitorguard/PossessionDescription" value="Killing enemy units transforms them into allied Chaos Spawns."/>
+	<entry name="traitorguard/PossessionFlavor" value="The psyker blasts away their enemy's soul so that the spiritless shell left behind can be possessed by a Daemon, who quickly transforms it into a more pleasing form."/>
+	<entry name="traitorguard/PrinceOfChaos" value="Prince of Chaos"/>
+	<entry name="traitorguard/PrinceOfChaosDescription" value="Increases the accuracy of adjacent allied Chaos units."/>
+	<entry name="traitorguard/PrinceOfChaosFlavor" value="Little else could more inspire a warrior of Chaos than to see a Daemon Prince—once a mortal just like them, now nearer to a God—fighting alongside them."/>
+	<entry name="traitorguard/ProjectedVoidShield" value="Projected Void Shield"/>
+	<entry name="traitorguard/ProjectedVoidShieldDescription" value="Increases the ranged damage reduction of units in range."/>
+	<entry name="traitorguard/ProjectedVoidShieldFlavor" value="The Void Shield is the peak Imperial ranged-defense technology and is normally only mounted on Titans and Superheavy Tanks because of its immense power needs. This variant uses the technology to defend a wide area, though it is useless against melee attacks."/>
+	<entry name="traitorguard/PurchaseEnergy" value="Equal Under The Sky"/>
+	<entry name="traitorguard/PurchaseEnergyDescription" value="Purchases energy."/>
+	<entry name="traitorguard/PurchaseEnergyFlavor" value="In the ruins of Gladius Prime, a billion people still live. Though war rages about them, though monstrosities erase their towns, they persist—and those who recognize them, understand them and help them, will receive help in return."/>
+	<entry name="traitorguard/PurchaseFood" value="Many Mouths"/>
+	<entry name="traitorguard/PurchaseFoodDescription" value="Purchases food."/>
+	<entry name="traitorguard/PurchaseFoodFlavor" value="The billion survivors of Gladius’ hive cities live hand-to-mouth—but they survive. They dine on scavenged supplies, farmed crops, secret soylent vats, foraged ash clams and hunted canids. Convince them to join the T’au and they will share their feast."/>
+	<entry name="traitorguard/PurchaseOre" value="A Shield For All"/>
+	<entry name="traitorguard/PurchaseOreDescription" value="Purchases ore."/>
+	<entry name="traitorguard/PurchaseOreFlavor" value="Outside of Imperial oversight, the billion survivors of Gladius may be in constant threat of starvation, death or corruption, but they also have their first ever free time. Bring them to the T’au, and they may spend it scavenging ore and scrap from the fallen hives for you."/>
+	<entry name="traitorguard/PurchasePopulation" value="Proselytise"/>
+	<entry name="traitorguard/PurchasePopulationDescription" value="Increases the population of target allied T'au city."/>
+	<entry name="traitorguard/PurchasePopulationFlavor" value="Outside in the wastes, live the billion survivors of Gladius Prime. But the T’au doesn’t discriminate against the gue’la—should you persuade them to join, they will surely contribute to our city and save this world."/>
+	<entry name="traitorguard/PurchaseResearch" value="Wisdom Shared"/>
+	<entry name="traitorguard/PurchaseResearchDescription" value="Purchases research."/>
+	<entry name="traitorguard/PurchaseResearchFlavor" value="The Imperium’s technology may be archaic and strange, but the Earth Caste will never cease learning. If the Water Caste can persuade just a handful of Tech-priests to join our cause, their knowledge could supplement ours—could enable even more rapid advances in our technology."/>
+	<entry name="traitorguard/RapidRise" value="Imperial material steal"/>
+	<entry name="traitorguard/RapidRiseDescription" value="Steal imperial material."/>
+	<entry name="traitorguard/RapidRiseFlavor" value="description."/>
+	<entry name="traitorguard/ReprogramKastelanRobot" value="Dark Disciple"/>
+	<entry name="traitorguard/ReprogramKastelanRobotDescription" value="Takes control of lost Dark Disciple."/>
+	<entry name="traitorguard/ReprogramKastelanRobotFlavor" value="."/>
+	<entry name="traitorguard/ReservoirOfDaemonicEnergy" value="Reservoir of Daemonic Energy"/>
+	<entry name="traitorguard/ReservoirOfDaemonicEnergyDescription" value="Reduces the cooldown of Incursion for adjacent allied Masters of Possesion."/>
+	<entry name="traitorguard/ReservoirOfDaemonicEnergyFlavor" value="Venomcrawlers are uniquely valued both off and on the battlefield. Not only can their repositories of stored warp energy be siphoned in order to create fresh Daemon Engines, but they can be used in the thick of combat to weaken the fabric of reality. Masters of Possession are particularly adept at drawing upon this reservoir to lure the daemonic servants of the Chaos Gods into existence. At battle's end these Daemons are hastily consumed by the Venomcrawler, their essences used to replenish its depleted warp stores."/>
+	<entry name="traitorguard/RiteOfBlood" value="Rite of Blood"/>
+	<entry name="traitorguard/RiteOfBloodDescription" value="Sacrifices population to Khorne to increase the production output of units in the city."/>
+	<entry name="traitorguard/RiteOfBloodFlavor" value="Khorne may have other, minor, traits—a certain nobility and simplicity of war—but his lust for death and blood outweighs them by far. Rites in his name bring not only his blessing, but also increase the work rate of the slave populace, in their terror that they could be next."/>
+	<entry name="traitorguard/RiteOfChange" value="Rite of Change"/>
+	<entry name="traitorguard/RiteOfChangeDescription" value="Sacrifices population to Tzeentch to increase the production output of Warp Forges and research output of Archives of the Ways in the city."/>
+	<entry name="traitorguard/RiteOfChangeFlavor" value="Invoking the Changer’s name is highly risky—few know what he will do to further his endless plans, or the curses he brings if he is distracted to no purpose. After a Rite of Change, some mutate, some disappear, some are embedded alive into the city walls—but always something is learned."/>
+	<entry name="traitorguard/RiteOfPestilence" value="Rite of Pestilence"/>
+	<entry name="traitorguard/RiteOfPestilenceDescription" value="Sacrifices population to Nurgle to increase the food output of Renderers and the growth rate in the city."/>
+	<entry name="traitorguard/RiteOfPestilenceFlavor" value="A Rite of Pestilence doesn’t explicitly sacrifice to Nurgle—it merely invites his blessing upon your people. Given the virulence of Nurgle’s diseases—the Rot, the Chortling Murrain, the Oozing Pox—many will die of these blessings, in his name. Many others will live with them and burgeon with plague-ridden fecundity."/>
+	<entry name="traitorguard/RiteOfUnholyPleasure" value="Rite of Unholy Pleasure"/>
+	<entry name="traitorguard/RiteOfUnholyPleasureDescription" value="Sacrifices population to Slaanesh to increase the influence output of Altars of Chaos and loyalty output of Meadows of Sorrow in the city."/>
+	<entry name="traitorguard/RiteOfUnholyPleasureFlavor" value="Stop your ears with wax, bind your mouth, stitch up your eyes, and tie yourself down. Only then invoke Slaanesh, so that you may not succumb utterly to the Pleasure God’s irresistible desires."/>
+	<entry name="traitorguard/Sacrifice" value="Sacrifice"/>
+	<entry name="traitorguard/SacrificeDescription" value="Lose hitpoints to restores the hitpoints of the target allied unit."/>
+	<entry name="traitorguard/SacrificeFlavor" value="The psyker uses a sacrificial soul to remould and repair an unholy Daemon-form. The tainted spirits of Warpsmiths are particularly invigorating offerings to those Daemon Engines that are in their charge."/>
+	<entry name="traitorguard/SelfRepair" value="Self-Repair"/>
+	<entry name="traitorguard/SelfRepairDescription" value="Restores the hitpoints."/>
+	<entry name="traitorguard/SelfRepairFlavor" value="The machine spirits of the Traitor Legions’ vehicles have long been driven to despair or corrupted by demons, but the surviving vehicles have gained something for that lost—a crude regeneration that stitches the unholy metal back together, so they can continue the work of the Dark Gods."/> <!-- Chaos Rhino -->
+	<entry name="traitorguard/ShatterDefences" value="Shatter Defences"/>
+	<entry name="traitorguard/ShatterDefencesDescription" value="Reduces the ranged damage reduction of the target tile."/>
+	<entry name="traitorguard/ShatterDefencesFlavor" value="Whatever cover the enemy cowers behind, a Warpsmith can draw upon millennia of siege experience to advise on the best way to bypass or to destroy them."/> <!-- Warpsmith levelable ability. -->
+	<entry name="traitorguard/WarpflameStrike" value="Warpflame Strike"/>
+	<entry name="traitorguard/WarpflameStrikeDescription" value="Flies across obstacles to the target tile and blinds adjacent enemy infantry and monstrous creatures."/>
+	<entry name="traitorguard/WarpflameStrikeFlavor" value="Though the lesion they slice in the fabric of realspace seals over as soon as the hunting pack has passed through, the mind-shattering nature of their attack is usually enough to stun their prey into inactivity. This moment of awestruck hesitation is often fatal, for the hellishly sharp claws of the Warp Talons part heads from necks and limbs from torsos as the hunters hurtle into the ranks of the foe."/>
+	<entry name="traitorguard/WebwayRedoubt" value="Reorganization Renegade Guard Fortress"/>
+	<entry name="traitorguard/WebwayRedoubtDescription" value="Allows you to found a city on captured Renegade Guard Fortress.<br/><br/>Cities can only be found where there are no other cities within a %1% tile radius. Each city after the first decreases loyalty in all cities by %2%."/>
+	<entry name="traitorguard/WebwayRedoubtFlavor" value="Chaos should be everywhere, it is the one who creates harmony in the universe. To achieve this, you need a strong hand with strong followers. Traitor cities must be founded on every planet, in every world."/>
+	<entry name="traitorguard/WorthyOffering" value="Worthy Offering"/>
+	<entry name="traitorguard/WorthyOfferingDescription" value="Increases the chance that adjacent allied Champions of Chaos receive a Boon of Chaos."/>
+	<entry name="traitorguard/WorthyOfferingFlavor" value="Having the eye of the gods upon you means those nearby are also subject to greater scrutiny—whether that turns them to Spawn or Daemon Prince, depends on how well they perform and the inscrutable whim of the Gods."/> <!-- Chaos Lord levelable ability. -->
+	<entry name="traitorguardConvertWildlife2Flavor" value=""/>
+	<entry name="traitorguardConvertWildlifeFlavor" value=""/>
+
+	<!--------------------------------------------------------------------------->
+	<!------------------- Kardone Changeseekers (Faction_tzeguard) -------------->
+	<!--------------------------------------------------------------------------->
+
+	<entry name="tzeguard/CultistSacrifice" value="Sacrifice to Tzeentch"/>
+	<entry name="tzeguard/CultistSacrificeDescription" value="Increases Tzeench favor of target allied city by sacrificing the unit."/>
+	<entry name="tzeguard/CultistSacrificeFlavor" value="So fervent are now the ancients Imperial but so weak their martial prowess, that the gods enjoy their demise as much as their life—more so, perhaps, given the blessings they bestow at their sacrifice."/>
+	<entry name="tzeguard/DimensionalCorridor" value="Teleport"/>
+	<entry name="tzeguard/DimensionalCorridorDescription" value="Teleports to a tile adjacent to a city."/>
+	<entry name="tzeguard/DimensionalCorridorFlavor" value=""/>
+	<entry name="tzeguard/IconOfFlame" value="Icon of Flame"/>
+	<entry name="tzeguard/IconOfFlameDescription" value="Icon of Chaos that grants “attacks deal Soul Blaze damage each turn” to a unit with Mark of Tzeentch."/>
+	<entry name="tzeguard/IconOfFlameFlavor" value="Coruscating energies surround the icon, swathing the weapons of the devout with mutagenic flames."/>
+	<entry name="tzeguard/OrbitalScan" value="Reveal Shroud"/>
+	<entry name="tzeguard/OrbitalScanDescription" value="Reveal all Gladius Prime territory."/>
+	<entry name="tzeguard/OrbitalScanFlavor" value="The Chaos Gods can grant their followers various abilities. And the strongest adherents will receive the all-seeing eye of Chaos."/>
+	<entry name="tzeguard/RiteOfChange" value="Rite of Change"/>
+	<entry name="tzeguard/RiteOfChangeDescription" value="Sacrifices population to Tzeentch to increase the production output of Warp Forges and research output of Archives of the Ways in the city."/>
+	<entry name="tzeguard/RiteOfChangeFlavor" value="Invoking the Changer’s name is highly risky—few know what he will do to further his endless plans, or the curses he brings if he is distracted to no purpose. After a Rite of Change, some mutate, some disappear, some are embedded alive into the city walls—but always something is learned."/>
+</language>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="BoonOfChaosChanceIcon" value="<icon height='20' texture='Icons/Traits/ChaosGuard/ChampionOfChaos'/>"/>
+	<entry name="BoonOfChaosChanceIcon" value="<icon height='20' texture='Icons/Traits/traitorguard/ChampionOfChaos'/>"/>
+	<entry name="ChaosGuard/InfluenceHint" value="<style name='Title'/>Influence (Chaos Gods Favor)<br/><style name='Default'/>Used to build new building as well as invoke chaos units."/>
+	<entry name="ChaosGuard/RequisitionsHint" value="<style name='Title'/>Requisitions<br/><style name='Default'/>Used to construct imperial buildings as well as produce and maintain renegade guard units."/>
+	<entry name="khorneguard/InfluenceHint" value="<style name='Title'/>Influence (Khorne Favor)<br/><style name='Default'/>Used to build new building as well as invoke Khorne chaos units."/>
+	<entry name="nurgleguard/FoodHint" value="<style name='Title'/> Plague ingredient<br/><style name='Default'/>Used toproduce and maintain Nurgle Traitor Guard units."/>
+	<entry name="nurgleguard/InfluenceHint" value="<style name='Title'/>Influence (Nurgle Favor)<br/><style name='Default'/>Used to build new building as well as invoke Nurgle chaos units."/>
+	<entry name="slaguard/InfluenceHint" value="<style name='Title'/>Influence (Slaanesh Favor)<br/><style name='Default'/>Used to build new building as well as invoke Slaanesh chaos units."/>
+	<entry name="traitorguard/InfluenceHint" value="<style name='Title'/>Influence (Chaos Gods Favor)<br/><style name='Default'/>Used to build new building as well as increase resources."/>
+	<entry name="tzeguard/InfluenceHint" value="<style name='Title'/>Influence (Tzeentch Favor)<br/><style name='Default'/>Used to build new building as well as invoke Tzeentch chaos units."/>
+</language>

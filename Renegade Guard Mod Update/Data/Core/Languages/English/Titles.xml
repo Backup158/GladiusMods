@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="LostGuard0" value="Children of the Maelstrom"/>
+	<entry name="LostGuard1" value="The Tyrant's Sons"/>
+	<entry name="LostGuard2" value="Doom of the Corpse-Emperor"/>
+	<entry name="LostGuard3" value="The Torment of Isha"/>
+	<entry name="LostGuard4" value="The Iridescent Flaytongues"/>
+	<entry name="LostGuard5" value="Dream of the Tzaangor"/>
+	<entry name="LostGuard6" value="Gorehounds"/>
+	<entry name="LostGuard7" value="The Ways, Changed"/>
+	<entry name="LostGuard8" value="The Tallymen"/>
+	<entry name="LostGuard9" value="Claws of Horus"/>
+	<entry name="LostGuard10" value="The Sweet Agonizers"/>
+	<entry name="LostGuard11" value="The Dispossessed"/>
+	<entry name="LostGuardCount" value="12"/>
+
+	<entry name="ChaosGuard0" value="Children of the Maelstrom"/>
+	<entry name="ChaosGuard1" value="The Tyrant's Sons"/>
+	<entry name="ChaosGuard2" value="Doom of the Corpse-Emperor"/>
+	<entry name="ChaosGuard3" value="The Torment of Isha"/>
+	<entry name="ChaosGuard4" value="The Iridescent Flaytongues"/>
+	<entry name="ChaosGuard5" value="Dream of the Tzaangor"/>
+	<entry name="ChaosGuard6" value="Gorehounds"/>
+	<entry name="ChaosGuard7" value="The Ways, Changed"/>
+	<entry name="ChaosGuard8" value="The Tallymen"/>
+	<entry name="ChaosGuard9" value="Claws of Horus"/>
+	<entry name="ChaosGuard10" value="The Sweet Agonizers"/>
+	<entry name="ChaosGuard11" value="The Dispossessed"/>
+	<entry name="ChaosGuardCount" value="12"/>
+
+	<entry name="nurgleguard0" value="Children of the Maelstrom"/>
+	<entry name="nurgleguard1" value="The Tyrant's Sons"/>
+	<entry name="nurgleguard2" value="Doom of the Corpse-Emperor"/>
+	<entry name="nurgleguard3" value="The Torment of Isha"/>
+	<entry name="nurgleguard4" value="The Iridescent Flaytongues"/>
+	<entry name="nurgleguard5" value="Dream of the Tzaangor"/>
+	<entry name="nurgleguard6" value="Gorehounds"/>
+	<entry name="nurgleguard7" value="The Ways, Changed"/>
+	<entry name="nurgleguard8" value="The Tallymen"/>
+	<entry name="nurgleguard9" value="Claws of Horus"/>
+	<entry name="nurgleguard10" value="The Sweet Agonizers"/>
+	<entry name="nurgleguard11" value="The Dispossessed"/>
+	<entry name="nurgleguardCount" value="12"/>
+
+	<entry name="traitorguard0" value="Children of the Maelstrom"/>
+	<entry name="traitorguard1" value="The Tyrant's Sons"/>
+	<entry name="traitorguard2" value="Doom of the Corpse-Emperor"/>
+	<entry name="traitorguard3" value="The Torment of Isha"/>
+	<entry name="traitorguard4" value="The Iridescent Flaytongues"/>
+	<entry name="traitorguard5" value="Dream of the Tzaangor"/>
+	<entry name="traitorguard6" value="Gorehounds"/>
+	<entry name="traitorguard7" value="The Ways, Changed"/>
+	<entry name="traitorguard8" value="The Tallymen"/>
+	<entry name="traitorguard9" value="Claws of Horus"/>
+	<entry name="traitorguard10" value="The Sweet Agonizers"/>
+	<entry name="traitorguard11" value="The Dispossessed"/>
+	<entry name="traitorguardCount" value="12"/>
+
+	<entry name="khorneguard0" value="Children of the Maelstrom"/>
+	<entry name="khorneguard1" value="The Tyrant's Sons"/>
+	<entry name="khorneguard2" value="Doom of the Corpse-Emperor"/>
+	<entry name="khorneguard3" value="The Torment of Isha"/>
+	<entry name="khorneguard4" value="The Iridescent Flaytongues"/>
+	<entry name="khorneguard5" value="Dream of the Tzaangor"/>
+	<entry name="khorneguard6" value="Gorehounds"/>
+	<entry name="khorneguard7" value="The Ways, Changed"/>
+	<entry name="khorneguard8" value="The Tallymen"/>
+	<entry name="khorneguard9" value="Claws of Horus"/>
+	<entry name="khorneguard10" value="The Sweet Agonizers"/>
+	<entry name="khorneguard11" value="The Dispossessed"/>
+	<entry name="khorneguardCount" value="12"/>
+
+	<entry name="slaguard0" value="Children of the Maelstrom"/>
+	<entry name="slaguard1" value="The Tyrant's Sons"/>
+	<entry name="slaguard2" value="Doom of the Corpse-Emperor"/>
+	<entry name="slaguard3" value="The Torment of Isha"/>
+	<entry name="slaguard4" value="The Iridescent Flaytongues"/>
+	<entry name="slaguard5" value="Dream of the Tzaangor"/>
+	<entry name="slaguard6" value="Gorehounds"/>
+	<entry name="slaguard7" value="The Ways, Changed"/>
+	<entry name="slaguard8" value="The Tallymen"/>
+	<entry name="slaguard9" value="Claws of Horus"/>
+	<entry name="slaguard10" value="The Sweet Agonizers"/>
+	<entry name="slaguard11" value="The Dispossessed"/>
+	<entry name="slaguardCount" value="12"/>
+
+	<entry name="tzeguard0" value="Children of the Maelstrom"/>
+	<entry name="tzeguard1" value="The Tyrant's Sons"/>
+	<entry name="tzeguard2" value="Doom of the Corpse-Emperor"/>
+	<entry name="tzeguard3" value="The Torment of Isha"/>
+	<entry name="tzeguard4" value="The Iridescent Flaytongues"/>
+	<entry name="tzeguard5" value="Dream of the Tzaangor"/>
+	<entry name="tzeguard6" value="Gorehounds"/>
+	<entry name="tzeguard7" value="The Ways, Changed"/>
+	<entry name="tzeguard8" value="The Tallymen"/>
+	<entry name="tzeguard9" value="Claws of Horus"/>
+	<entry name="tzeguard10" value="The Sweet Agonizers"/>
+	<entry name="tzeguard11" value="The Dispossessed"/>
+	<entry name="tzeguardCount" value="12"/>
+</language>

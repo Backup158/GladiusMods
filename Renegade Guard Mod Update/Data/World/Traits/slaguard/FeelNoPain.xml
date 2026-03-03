@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/slaguard/FeelNoPain">
+	<modifiers>
+		<modifier>
+			<conditions>
+					<unit>
+					<type name="slaguard/Guardsmanslaa"/>
+				</unit>	
+			</conditions>
+			<effects>
+				<feelNoPainDamageReduction add="0.50"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

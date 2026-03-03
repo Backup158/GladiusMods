@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade icon="Units/ChaosGuard/LordOfSkulls" position="10">
+	<requiredUpgrades>
+		<upgrade name="khorneguard/Vehicles"/>
+	</requiredUpgrades>
+</upgrade>
