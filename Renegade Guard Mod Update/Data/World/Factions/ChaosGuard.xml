@@ -515,89 +515,89 @@
 				</beginTargets>
 		</convertWildlife>
 		<activateWebwayGate cooldown="1"
-					name="ChaosGuard/ActivateWebwayGate">
-				<model>
-					<action sound="Actions/ActivateWebwayGate"/>
-				</model>
-				<modifiers>
-					<modifier visible="0">
-						<effects>
-							<influenceCost base="10"/>
-						</effects>
-					</modifier>
-					<modifier requiredUpgrade="ChaosGuard/WebwayGateBonus">
-						<effects>
-							<influenceCost mul="-1.0"/>
-						</effects>
-					</modifier>
-				</modifiers>	
-				<beginTargets>
-					<target rangeMax="-1">
-						<conditions>
-							<player>
-								<faction name="Neutral"/>
-							</player>
-							<unit>
-								<type name="ChaosGuard/ImperialStrongpoint"/>
-							</unit>
-						</conditions>
-						<areas>
-							<area affects="Unit">
-								<modifiers>
-									<modifier>
-										<effects>
-											<changePlayer/>
-										</effects>
-									</modifier>
-								</modifiers>
-							</area>
-						</areas>
-					</target>
-				</beginTargets>
-			</activateWebwayGate>
-			<webwayRedoubt cooldown="1"
-					costScalesWithCities="1"
-					name="ChaosGuard/WebwayRedoubt"
-					requiredUpgrade="ChaosGuard/WebwayRedoubt">
-				<modifiers>
-					<modifier visible="0">
-						<effects>
-							<influenceCost base="30"/>
-							<oreCost base="10"/>
-						</effects>
-					</modifier>
-				</modifiers>
-				<beginTargets>
-					<target rangeMax="-1">
-						<conditions>
-							<unit>
-								<affiliate/>
-								<type name="ChaosGuard/ImperialStrongpoint"/>
-							</unit>
-						</conditions>
-						<areas>
-							<area affects="Unit">
-								<modifiers>
-									<modifier>
-										<effects>
-											<removeUnit/>
-										</effects>
-									</modifier>
-								</modifiers>
-							</area>
-							<area affects="Tile">
-								<modifiers>
-									<modifier>
-										<effects>
-											<foundCity/>
-										</effects>
-									</modifier>
-								</modifiers>
-							</area>
-						</areas>
-					</target>
-				</beginTargets>
-			</webwayRedoubt>
+				name="ChaosGuard/ActivateWebwayGate">
+			<model>
+				<action sound="Actions/ActivateWebwayGate"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="10"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="ChaosGuard/WebwayGateBonus">
+					<effects>
+						<influenceCost mul="-1.0"/>
+					</effects>
+				</modifier>
+			</modifiers>	
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<player>
+							<faction name="Neutral"/>
+						</player>
+						<unit>
+							<type name="ChaosGuard/ImperialStrongpoint"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<changePlayer/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</activateWebwayGate>
+		<webwayRedoubt cooldown="1"
+				costScalesWithCities="1"
+				name="ChaosGuard/WebwayRedoubt"
+				requiredUpgrade="ChaosGuard/WebwayRedoubt">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="30"/>
+						<oreCost base="10"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<type name="ChaosGuard/ImperialStrongpoint"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeUnit/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<foundCity/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</webwayRedoubt>
 		<purchaseResearch cooldown="1"
 					costScalesWithPace="0"
 					durationInSeconds="0.1"

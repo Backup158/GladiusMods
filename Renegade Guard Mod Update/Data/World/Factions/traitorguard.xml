@@ -327,47 +327,46 @@
 				</beginTargets>
 			</convertWildlife>
 		<activateWebwayGate cooldown="1"
-					name="ChaosGuard/ActivateWebwayGate">
-				<model>
-					<action sound="Actions/ActivateWebwayGate"/>
-				</model>
-				<modifiers>
-					<modifier visible="0">
-						<effects>
-							<influenceCost base="10"/>
-						</effects>
-					</modifier>
-					<modifier requiredUpgrade="ChaosGuard/WebwayGateBonus">
-						<effects>
-							<influenceCost mul="-1.0"/>
-						</effects>
-					</modifier>
-				</modifiers>	
-				<beginTargets>
-					<target rangeMax="-1">
-						<conditions>
-							<player>
-								<faction name="Neutral"/>
-							</player>
-							<unit>
-								<type name="ChaosGuard/ImperialStrongpoint"/>
-							</unit>
-						</conditions>
-						<areas>
-							<area affects="Unit">
-								<modifiers>
-									<modifier>
-										<effects>
-											<changePlayer/>
-										</effects>
-									</modifier>
-								</modifiers>
-							</area>
-						</areas>
-					</target>
-				</beginTargets>
-			</activateWebwayGate>
-
+				name="ChaosGuard/ActivateWebwayGate">
+			<model>
+				<action sound="Actions/ActivateWebwayGate"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="10"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="ChaosGuard/WebwayGateBonus">
+					<effects>
+						<influenceCost mul="-1.0"/>
+					</effects>
+				</modifier>
+			</modifiers>	
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<player>
+							<faction name="Neutral"/>
+						</player>
+						<unit>
+							<type name="ChaosGuard/ImperialStrongpoint"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<changePlayer/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</activateWebwayGate>
 		<convertWildlife cooldown="5"
 					name="ChaosGuard/ConvertWildlife2"
 					requiredUpgrade="ChaosGuard/ChaosDevotion">
