@@ -287,167 +287,167 @@
 			</stages>
 		</quest>
 	</quests>
-<actions>
-	<convertWildlife cooldown="3"
-				name="ChaosGuard/ConvertWildlife">
-			<model>
-				<action sound="Actions/ConvertWildlife"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="-1">
-					<conditions>
-						<unit>
-							<enemy/>
-							<noTrait name="Enslaved"/>
-						</unit>
-						<unit match="Any">
-							<type name="AstraMilitarum/Guardsman"/>
-							<type name="Eldar/Guardian"/>
-							<type name="Necrons/Warrior"/>
-							<type name="Orks/Boy"/>
-							<type name="SpaceMarines/TacticalSpaceMarine"/>
-							<type name="Tau/FireWarrior"/>
-							<type name="Tyranids/Hormagaunt"/>
-							<type name="AdeptusMechanicus/SkitariiVanguard"/>
-							
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<changePlayer/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</convertWildlife>
-	<activateWebwayGate cooldown="1"
-				name="ChaosGuard/ActivateWebwayGate">
-			<model>
-				<action sound="Actions/ActivateWebwayGate"/>
-			</model>
-			<modifiers>
-				<modifier visible="0">
-					<effects>
-						<influenceCost base="10"/>
-					</effects>
-				</modifier>
-				<modifier requiredUpgrade="ChaosGuard/WebwayGateBonus">
-					<effects>
-						<influenceCost mul="-1.0"/>
-					</effects>
-				</modifier>
-			</modifiers>	
-			<beginTargets>
-				<target rangeMax="-1">
-					<conditions>
-						<player>
-							<faction name="Neutral"/>
-						</player>
-						<unit>
-							<type name="ChaosGuard/ImperialStrongpoint"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<changePlayer/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</activateWebwayGate>
+	<actions>
+		<convertWildlife cooldown="3"
+					name="ChaosGuard/ConvertWildlife">
+				<model>
+					<action sound="Actions/ConvertWildlife"/>
+				</model>
+				<beginTargets>
+					<target rangeMax="-1">
+						<conditions>
+							<unit>
+								<enemy/>
+								<noTrait name="Enslaved"/>
+							</unit>
+							<unit match="Any">
+								<type name="AstraMilitarum/Guardsman"/>
+								<type name="Eldar/Guardian"/>
+								<type name="Necrons/Warrior"/>
+								<type name="Orks/Boy"/>
+								<type name="SpaceMarines/TacticalSpaceMarine"/>
+								<type name="Tau/FireWarrior"/>
+								<type name="Tyranids/Hormagaunt"/>
+								<type name="AdeptusMechanicus/SkitariiVanguard"/>
+								
+							</unit>
+						</conditions>
+						<areas>
+							<area affects="Unit">
+								<modifiers>
+									<modifier>
+										<effects>
+											<changePlayer/>
+										</effects>
+									</modifier>
+								</modifiers>
+							</area>
+						</areas>
+					</target>
+				</beginTargets>
+			</convertWildlife>
+		<activateWebwayGate cooldown="1"
+					name="ChaosGuard/ActivateWebwayGate">
+				<model>
+					<action sound="Actions/ActivateWebwayGate"/>
+				</model>
+				<modifiers>
+					<modifier visible="0">
+						<effects>
+							<influenceCost base="10"/>
+						</effects>
+					</modifier>
+					<modifier requiredUpgrade="ChaosGuard/WebwayGateBonus">
+						<effects>
+							<influenceCost mul="-1.0"/>
+						</effects>
+					</modifier>
+				</modifiers>	
+				<beginTargets>
+					<target rangeMax="-1">
+						<conditions>
+							<player>
+								<faction name="Neutral"/>
+							</player>
+							<unit>
+								<type name="ChaosGuard/ImperialStrongpoint"/>
+							</unit>
+						</conditions>
+						<areas>
+							<area affects="Unit">
+								<modifiers>
+									<modifier>
+										<effects>
+											<changePlayer/>
+										</effects>
+									</modifier>
+								</modifiers>
+							</area>
+						</areas>
+					</target>
+				</beginTargets>
+			</activateWebwayGate>
 
-	<convertWildlife cooldown="5"
-				name="ChaosGuard/ConvertWildlife2"
-				requiredUpgrade="ChaosGuard/ChaosDevotion">
-			<model>
-				<action sound="Actions/ConvertWildlife"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="-1">
-					<conditions>
-						<unit>
-							<enemy/>
-							<noTrait name="Enslaved"/>
-						</unit>
-						<unit match="Any">
-							<type name="AstraMilitarum/Guardsman"/>
-							<type name="AstraMilitarum/Baneblade"/>
-							<type name="AstraMilitarum/Basilisk"/>
-							<type name="AstraMilitarum/Bullgryn"/>
-							<type name="AstraMilitarum/Chimera"/>
-							<type name="AstraMilitarum/DevilDog"/>
-							<type name="AstraMilitarum/Hydra"/>
-							<type name="AstraMilitarum/LemanRussBattleTank"/>
-							<type name="AstraMilitarum/ImperialStrongpoint"/>
-							<type name="AstraMilitarum/MarauderBomber"/>
-							<type name="AstraMilitarum/Ratling"/>
-							<type name="AstraMilitarum/ScoutSentinel"/>
-							<type name="AstraMilitarum/TempestusScion"/>
-							<type name="AstraMilitarum/Thunderbolt"/>
-							<type name="AstraMilitarum/Valkyrie"/>
-							<type name="AstraMilitarum/VoidShieldGenerator"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<changePlayer/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</convertWildlife>
+		<convertWildlife cooldown="5"
+					name="ChaosGuard/ConvertWildlife2"
+					requiredUpgrade="ChaosGuard/ChaosDevotion">
+				<model>
+					<action sound="Actions/ConvertWildlife"/>
+				</model>
+				<beginTargets>
+					<target rangeMax="-1">
+						<conditions>
+							<unit>
+								<enemy/>
+								<noTrait name="Enslaved"/>
+							</unit>
+							<unit match="Any">
+								<type name="AstraMilitarum/Guardsman"/>
+								<type name="AstraMilitarum/Baneblade"/>
+								<type name="AstraMilitarum/Basilisk"/>
+								<type name="AstraMilitarum/Bullgryn"/>
+								<type name="AstraMilitarum/Chimera"/>
+								<type name="AstraMilitarum/DevilDog"/>
+								<type name="AstraMilitarum/Hydra"/>
+								<type name="AstraMilitarum/LemanRussBattleTank"/>
+								<type name="AstraMilitarum/ImperialStrongpoint"/>
+								<type name="AstraMilitarum/MarauderBomber"/>
+								<type name="AstraMilitarum/Ratling"/>
+								<type name="AstraMilitarum/ScoutSentinel"/>
+								<type name="AstraMilitarum/TempestusScion"/>
+								<type name="AstraMilitarum/Thunderbolt"/>
+								<type name="AstraMilitarum/Valkyrie"/>
+								<type name="AstraMilitarum/VoidShieldGenerator"/>
+							</unit>
+						</conditions>
+						<areas>
+							<area affects="Unit">
+								<modifiers>
+									<modifier>
+										<effects>
+											<changePlayer/>
+										</effects>
+									</modifier>
+								</modifiers>
+							</area>
+						</areas>
+					</target>
+				</beginTargets>
+			</convertWildlife>
 
 
 
-	<deployFortress cooldown="20"
-				cooldownScalesWithPace="1"
-				icon="Units/ChaosGuard/ImperialStrongpoint"
-				scaleInfluenceCost="1"
-				unit="ChaosGuard/ImperialStrongpoint">
-			<model>
-				<action sound="Actions/DropPod"/>
-			</model>
-			<modifiers>
-				<modifier visible="0">
-					<effects>
-						<influenceCost base="50"/>
-					</effects>
-				</modifier>
-			</modifiers>
-			<beginTargets>
-				<target rangeMax="-1">
-					<conditions>
-						<tile>
-							<noFeatureCategory name="Resource"/>
-							<noFeatureCategory name="WireWeed"/>
-							<land/>
-							<noEnemyCity/>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-				</target>
-			</beginTargets>
-		</deployFortress>
-	<purchaseResearch cooldown="1"
+		<deployFortress cooldown="20"
+					cooldownScalesWithPace="1"
+					icon="Units/ChaosGuard/ImperialStrongpoint"
+					scaleInfluenceCost="1"
+					unit="ChaosGuard/ImperialStrongpoint">
+				<model>
+					<action sound="Actions/DropPod"/>
+				</model>
+				<modifiers>
+					<modifier visible="0">
+						<effects>
+							<influenceCost base="50"/>
+						</effects>
+					</modifier>
+				</modifiers>
+				<beginTargets>
+					<target rangeMax="-1">
+						<conditions>
+							<tile>
+								<noFeatureCategory name="Resource"/>
+								<noFeatureCategory name="WireWeed"/>
+								<land/>
+								<noEnemyCity/>
+								<noUnit/>
+								<noFeature name="GravityWaves"/>
+							</tile>
+						</conditions>
+					</target>
+				</beginTargets>
+			</deployFortress>
+		<purchaseResearch cooldown="1"
 				costScalesWithPace="0"
 				durationInSeconds="0.1"
 				interfaceSound="Interface/TradeGoods"
@@ -568,8 +568,6 @@
 				</modifier>
 			</playerModifiers>
 		</purchaseEnergy>
-
-
 	</actions>
 	<startingUnits>
 		<unit type="traitorguard/Guardsman2" count="2"/>
