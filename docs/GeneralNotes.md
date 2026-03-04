@@ -54,5 +54,5 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
 
 ## Resetting Weights
 1. Select all vertices
-2. Shift click al bones
-3. Press `Ctrl + X`
+2. Shift click all bones
+3. Press `Shift + X`
