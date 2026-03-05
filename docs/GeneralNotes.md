@@ -40,19 +40,35 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
     2. went into edit mode to delete everything but the stock
     3. moved stock so it looks nice on the flamer
   - Be sure to adjust the bones too
-3. Joined meshes
-  1. Click target mesh
-  2. click source mesh
-  3. right click --> click join
-4. Added weights (make sure you're in edit mode)
-  1. select all vertices
-  2. click the vertex button on the right panel (triangle with dots at corners)
-  3. select the base node
-  4. set weight to like 0.01
-  5. click Assign
+3. Join and Add Weights
+  - Method 1
+    3. Joined meshes
+      1. Click target mesh
+      2. click source mesh
+      3. right click --> click join
+    4. Added weights (make sure you're in edit mode)
+      1. select all vertices
+      2. click the vertex button on the right panel (triangle with dots at corners)
+      3. select the base node
+      4. set weight to like 0.01
+      5. click Assign
+  - Method 2
+    1. Click model
+    2. Click Armature
+    3. Right Click --> Join with Automatic Weights
 5. Export
 
+# General Blender
+As I'm new to Blender, I'm keeping general hotkeys here too, for easy reference. For Blender 4.0.
 ## Resetting Weights
 1. Select all vertices
 2. Shift click all bones
 3. Press `Shift + X`
+
+## Delete/Merge Vertices/Edges/Vertices
+In edit mode
+1. Select the relevant things
+2. Press `X`
+3. Select the action
+  - Delete is on top
+  - Dissolve is at the bottom and is like merging
