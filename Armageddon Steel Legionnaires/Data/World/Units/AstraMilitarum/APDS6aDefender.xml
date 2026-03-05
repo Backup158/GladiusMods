@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
 	<model>
-		<unit mesh="Units/AstraMilitarum/Chimera"
+		<unit mesh="Units/AstraMilitarum/APDS6aDefender"
 				material="Units/AstraMilitarum/Chimera"
 				idleAnimation="Units/AstraMilitarum/ChimeraIdle"
 				idleAnimationCount="3"
