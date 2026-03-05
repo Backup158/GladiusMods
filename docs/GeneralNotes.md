@@ -28,8 +28,9 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
     - click seraphim in object mode
     - go into edit mode and wireframe view (to select the nested vertices in the same spots)
     - select flamer
-    - duplicate (shift + d)
-    - separate (p)
+    - duplicate (`Shift + D`)
+    - Move somewhere then `Left click` to place it down
+    - Separate Selection (`P`)
     - delete its vertex groups
 2. Adjust the target mesh to look close to the source mesh
   - rotate it, move it around, etc
