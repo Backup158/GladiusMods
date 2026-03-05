@@ -4,10 +4,12 @@
 
 # Modifying Meshes
 Use Blender 4.0 to be able to import and export. The import script only works on 4+ and export is best on 2.9, but 4.0 covers both. What the fuck.
-- Import from Gladius: choose one. I use TOFF's script
+- Import from Gladius: choose one. I use TOFF's script.
   - [TOFFster's script](https://discord.com/channels/467032336664494100/478509346326708227/1474500448261243145) linked in the Proxy Studios Discord (Gladius server)
   - [AmorGun's script](https://github.com/amorgun/blender_gladius)
-- Export from Blender to Gladius .xml file: `<Gladius game folder>/Resources/Blender/ProxyStudios.zip`
+- Export from Blender to Gladius .xml file:
+  - Comes with Gladius
+  - Go to `<Gladius game folder>/Resources/Blender/ProxyStudios.zip`
 
 1. Import .msh file from game
 2. do whatever edits idk
@@ -86,3 +88,16 @@ In edit mode
 2. Choose pose view
 3. Select a bone
 4. Wiggle it about
+
+## UV Maps
+### Removing existing
+1. Select mesh
+2. Object data in right panel (triangle with 3 dots)
+3. Click UV Maps tab
+4. Select map and click minus
+
+# Hotkeys
+- Undo: `Ctrl + Z`
+- Redo: `Ctrl + Shift + Z`
+- Hide: `H`
+- Unhide all: `Alt + H`
