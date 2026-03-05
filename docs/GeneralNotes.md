@@ -79,3 +79,9 @@ In edit mode
 2. Entire Wireframe mode (Hold `Z` then select it) to select overlapping vertices
 2. Pull up box select with `B`
 3. `Shift + Left Click` select the vertices to deselect
+
+## Testing Weights
+1. Select the armature
+2. Choose pose view
+3. Select a bone
+4. Wiggle it about
