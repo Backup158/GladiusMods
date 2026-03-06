@@ -12,8 +12,8 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [*] [b]Armageddon Pattern Chimera[/b] (Manufactorum): Has slightly more health, ignores enemy Zone of Control, and Smoke Launchers can target up to 2 tiles away, but it only lasts 1 turn. Has slightly increased Ore cost.
 [*] [b]Steel Legion Commissar[/b] (Shrine of the Aquila): Grant passive buffs, which are increased for members of the Steel Legion.
 [u]Steel Legion Discipline[/u]: Adjacent allied troops gain +[0.7, 2.1] accuracy. Steel Legion troops also gain +[0.3, 0.9] accuracy.
-[u]Armoured Fist[/u]: Adjacent allied vehicles have -[0.15, 0.45]% ore upkeep, only 2 points of movement cost for actions, and +[0, 1] armour. That means a vehicle with 4 movement that has not moved can move 2 tiles after attacking, and the armour is only granted when the ability is maxed out.
-[u]Aura of Command[/u]: Allied troops within 2 tiles have +2 max morale, -[0.11, 0.33]% morale loss, and +[1, 3] morale per turn. [i]Commander's Confidence[/i]: The Commissar and any transport vehicle they're in have +[0.11, 0.33]% RDR. 
+[u]Armoured Fist[/u]: Adjacent allied vehicles have -[15, 45]% ore upkeep, only 2 points of movement cost for actions, and +[0, 1] armour. That means a vehicle with 4 movement that has not moved can move 2 tiles after attacking, and the armour is only granted when the ability is maxed out.
+[u]Aura of Command[/u]: Allied troops within 2 tiles have +2 max morale, -[11, 33]% morale loss, and +[1, 3] morale per turn. [i]Commander's Confidence[/i]: The Commissar and any transport vehicle they're in have +[11, 33]% RDR. 
 [u]Combined Arms[/u]: Elite. Allied troops within 2 tiles gain defences. Infantry have +17% RDR when adjacent to vehicles; vehicles, +33% MDR when adjacent to infantry.
 [/list]
 [/td]
@@ -99,14 +99,14 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] [list]
 [*] [b]The Fortress of Arrogance[/b] (Shrine of the Aquila): Unique, super-heavy tank that rallies allied troops, especially infantry and members of the Steel Legion.
 [u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. 
-> Allied troops 2 tiles away have +[0.33, 1] accuracy and +[1, 3] max morale, with Steel Legion units having -[0.11, 0.33]% morale loss and an additional +[0.5, 1.5] accuracy. Infantry have +[0.07, 0.21]% RDR, with Steel Legion units gaining +[0.7, 2.1] armour.
-> Adjacent allied troops have +[1, 3] accuracy and +[1.5, 4.5] max morale, with Steel Legion units having -[0.22, 0.66]% morale loss and an additional +[0.22, 0.66] accuracy. Infantry have +[0.11, 0.33]% RDR, with Steel Legion units gaining +[1, 3] armour.
-[u]Focus Fire[/u]: Target an enemy troop within 3 tiles to make it +[0.11, 0.33]% damage for 5 turns. Another +[0.06, 0.18]% damage taken if it's a Super-Heavy; another +[0.06, 0.18]% damage taken if it's a a Hero. -[0.11, 0.33]% RDR when being attacked by the Steel Legion.
+> Allied troops 2 tiles away have +[0.33, 1] accuracy and +[1, 3] max morale, with Steel Legion units having -[11, 33]% morale loss and an additional +[0.5, 1.5] accuracy. Infantry have +[7, 21]% RDR, with Steel Legion units gaining +[0.7, 2.1] armour.
+> Adjacent allied troops have +[1, 3] accuracy and +[1.5, 4.5] max morale, with Steel Legion units having -[22, 66]% morale loss and an additional +[22, 66] accuracy. Infantry have +[11, 33]% RDR, with Steel Legion units gaining +[1, 3] armour.
+[u]Focus Fire[/u]: Target an enemy troop within 3 tiles to make it +[11, 33]% damage for 5 turns. Another +[6, 18]% damage taken if it's a Super-Heavy; another +[6, 18]% damage taken if it's a a Hero. -[11, 33]% RDR when being attacked by the Steel Legion.
 [u]Purge the Xenos[/u]: Sends nearby troops into a frenzy. Buffs are further improved for members of the Steel Legion. 
-> Allied troops 2 tiles away have +[0.08, 0.24]% damage and -[0.33, 0.11]% RDR. Steel Legion members also have +[0.03, 0.09]% damage. 
-> Adjacent allied troops have +[0.08, 0.24]% damage and +[0.08, 0.24]% attacks. Steel Legion members also have +[0.03, 0.09]% damage and +[0.03, 0.09]% attacks. 
+> Allied troops 2 tiles away have +[8, 24]% damage and -[33, 11]% RDR. Steel Legion members also have +[3, 9]% damage. 
+> Adjacent allied troops have +[8, 24]% damage and +[8, 24]% attacks. Steel Legion members also have +[3, 9]% damage and +[3, 9]% attacks. 
 > Burns away Orkoid Fungus within 3 tiles.
-[u]Duel of Honour[/u]: Elite. Targets an enemy Super-Heavy or Hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
+[u]Duel of Honour[/u]: Elite. Targets an enemy Super-Heavy or Hero above 80% hitpoints within 2 tiles. Each unit only takes damage from another duelling unit; the duel lasts for 4 turns, and each duelist has -67% movement. When a duelling unit dies, it gives -16 morale to allies within 4 tiles, +8 morale to enemies within 4 tiles, and -12 hitpoints to adjacent allies. Duelling units take less damage from each other for one turn each.
 [/list]
 [/td]
 [/tr]
