@@ -46,7 +46,7 @@
 				<movementMax base="4"/>
 				<oreUpkeep base="6.0"/> <!-- 2, 6 | %oreUpkeep base tier=6 factor=1 -->
 				<oreCost base="140.0"/> <!-- 40, 120 | %oreCost base tier=6 factor=1 -->
-				<productionCost base="56.0"/> <!-- 36, 54 | %productionCost base tier=6 factor=1 -->
+				<productionCost base="54.0"/> <!-- 36, 54 | %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
