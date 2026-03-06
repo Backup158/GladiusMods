@@ -72,17 +72,17 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [/tr]
 [/table]
 
-No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
+Most still don't have custom models, as I'm still learning Blender
 
 [h1]Research Unlocks[/h1]
 In [url=https://steamcommunity.com/workshop/filedetails/discussion/3349331473/686368595766468090/]thread[/url]
 
 [h1]Further details[/h1]
-Assault Pack DLC, [b]Hard Requirement[/b]: Chimera
-Reinforcements DLC: Tempestus Scions
+Assault Pack DLC ([b]Hard Requirement[/b]): Chimera research
+Reinforcements DLC: Tempestus Scions research
 
 These units are based on squad sizes in vanilla Gladius. The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349345480]Extras addon[/url] is based on Extra Militarum and Sneaky Stormtroopers.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386427212]Gladius+ patch[/url].
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386427212]Gladius+ patch[/url]. ([b]Note: Neither of these are updated beyond the Steel Legionnaires and Steel Legion Storm Troopers[/b])
 
 There is a standalone Fortress of Arrogance mod (from the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3104947090]Rogue Trader unit pack[/url]) on the Workshop already. I wanted to have my own implementation for abilities (and looking at the comments, it has some issues), but that one has a custom model, if you prefer that.
 https://steamcommunity.com/sharedfiles/filedetails/?id=3141151458
