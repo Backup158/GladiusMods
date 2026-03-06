@@ -10,10 +10,16 @@
 						<addTrait name="AstraMilitarum/ArmageddonDeploymentDamage" duration="1"/>
 					</effects>
 				</modifier>
-				<!-- Requires Awaken the Machine vehicle boost tech for disembark invul -->
+				<!-- T3: Requires Awaken the Machine vehicle boost tech for disembark invul -->
 				<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine">
 					<effects>
 						<addTrait name="AstraMilitarum/ArmageddonDeploymentDamageReduction" duration="1"/>
+					</effects>	
+				</modifier>
+				<!-- T8 Hammer of Wrath tech:  -->
+				<modifier requiredUpgrade="AstraMilitarum/HammerOfWrath">
+					<effects>
+						<addTrait name="AstraMilitarum/ArmageddonDeploymentAttacks" duration="1"/>
 					</effects>	
 				</modifier>
 			</modifiers>
