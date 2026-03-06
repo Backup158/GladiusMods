@@ -5,12 +5,13 @@
 [/tr]
 [tr]
 [td] T1 Chimera [/td]
-[td] [list]
+[td] 
+The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
+[list]
 [*] [b]Steel Legionnaire[/b] (Imperial Barracks): 
 [*] [b]Armageddon Pattern Chimera[/b] (Manufactorum): Ignores enemy Zone of Control
 [*] [b]Steel Legion Commissar[/b] (Shrine of the Aquila): 
 [/list]
-The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
 [/td]
 [/tr]
 [tr]
