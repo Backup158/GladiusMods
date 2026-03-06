@@ -54,7 +54,7 @@
 	<entry name="AstraMilitarum/BattalionArmageddonChimeraFlavor" value="<string name='Units/AstraMilitarum/ArmageddonChimeraFlavor'/>"/>
 	<entry name="AstraMilitarum/BattalionAPDS6aDefender" value="Battalion of <string name='Units/AstraMilitarum/APDS6aDefender'/>s"/>
 	<entry name="AstraMilitarum/BattalionAPDS6aDefenderDescription" value="<string name='Units/AstraMilitarum/APDS6aDefenderDescription'/>"/>
-	<entry name="AstraMilitarum/BattalionAPDS6aDefenderFlavor" value="<string name='Units/AstraMilitarum/APDS6aDefenderFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionAPDS6aDefenderFlavor" value="<string name='Units/AstraMilitarum/APDS6aDefenderFlavor'/>s"/>
 	<entry name="AstraMilitarum/BattalionArmageddonBasilisk" value="Battalion of <string name='Units/AstraMilitarum/ArmageddonBasilisk'/>s"/>
 	<entry name="AstraMilitarum/BattalionArmageddonBasiliskDescription" value="<string name='Units/AstraMilitarum/ArmageddonBasiliskDescription'/>"/>
 	<entry name="AstraMilitarum/BattalionArmageddonBasiliskFlavor" value="<string name='Units/AstraMilitarum/ArmageddonBasiliskFlavor'/>"/>
