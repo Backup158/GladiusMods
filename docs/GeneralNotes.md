@@ -71,10 +71,16 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
 # General Blender
 As I'm new to Blender, I'm keeping general hotkeys here too, for easy reference. For Blender 4.0.
 
-## Resetting Weights
+## Weights
+### Resetting Weights
 1. Select all vertices
 2. Shift click all bones
 3. Press `Shift + X`
+## Testing Weights
+1. Select the armature
+2. Choose pose view
+3. Select a bone
+4. Wiggle it about
 
 ## Delete/Merge Vertices/Edges/Vertices
 In edit mode
@@ -89,12 +95,6 @@ In edit mode
 2. Entire Wireframe mode (Hold `Z` then select it) to select overlapping vertices
 2. Pull up box select with `B`
 3. `Shift + Left Click` select the vertices to deselect
-
-## Testing Weights
-1. Select the armature
-2. Choose pose view
-3. Select a bone
-4. Wiggle it about
 
 ## UV Maps
 ### Removing existing
