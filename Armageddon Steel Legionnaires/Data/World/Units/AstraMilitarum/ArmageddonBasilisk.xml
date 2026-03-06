@@ -48,7 +48,7 @@
 				<oreCost base="70.0"/> <!-- 60 %oreCost base tier=7 factor=1 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
 				<movementMax base="3"/> <!-- 4 -->
-				<productionCost base="45.0"/> <!-- 42 %productionCost base tier=7 factor=1 -->
+				<productionCost base="42.0"/> <!-- 42 %productionCost base tier=7 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>

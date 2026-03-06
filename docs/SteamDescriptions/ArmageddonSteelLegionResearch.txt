@@ -32,7 +32,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [*] [b]Armageddon Ork Hunters[/b] (Imperial Barracks): Close-ranged infantry trained to fight in forests and kill Orks, but they have started to become the very thing they swore to destroy. Stat-wise, they're a mix between [b]Guardsmen[/b] and [b]Kommandos[/b].
 +17% melee attacks when fighting in Forests, +25% damage against Orks, has [i]Rapid Decomposition[/i]: creates Orkoid Fungus on death, [i]Green Tide[/i] +50% healing when on Orkoid Fungus, [i]Infiltrate[/i], [i]Stealth[/i], [i]Mob Rule[/i]: decreased morale loss based on the amount of nearby allies.
 [u]Place Punji Traps[/u]: Place a trap on land, without consuming movement.
-[b]Punji Traps[/b] can be placed on land. Similar to Cluster Mines, they cannot be triggered by skimming units. Any infantry stepping on it will be [i]Crippled[/i], slowing them down and making them bleed [spoiler](for 2 turns, -67% movement and -3 hitpoints per turn)[/spoiler]. Vehicles can stop on traps to destroy them without taking damage.
+[b]Punji Traps[/b]: Similar to Cluster Mines, they cannot be triggered by skimming units. Any infantry stepping on it will be [i]Crippled[/i]: for 2 turns, -67% movement and -3 hitpoints per turn. Vehicles can trigger traps without taking damage.
 [/list]
 [/td]
 [/tr]
@@ -40,7 +40,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] T3 Awaken the Machine [/td]
 [td] [list]
 [*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Evasive Deployment[/i]: Minimum of 17% IDR on disembark
-[*] [b]APDS-6a Defender[/b] (Manufactorum): 
+[*] [b]APDS-6a Defender[/b] (Manufactorum): Improvised tank hunters with a high-damage cannon that penetrates tanks well. Stat-wise, they're between a [b]Chimera[/b] and a [b]Leman Russ Battle Tank[/b].
 [/list]
 [/td]
 [/tr]
@@ -55,14 +55,14 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T4 Tempestus Scions [/td]
 [td] [list]
-[*] [b]Steel Legion Storm Troopers[/b] (Imperial Barracks): 
+[*] [b]Steel Legion Storm Troopers[/b] (Imperial Barracks): Scions with -1 armour.
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T5 Basilisk [/td]
 [td] [list]
-[*] [b]Armageddon Pattern Basilisk[/b] (Manufactorum): 
+[*] [b]Armageddon Pattern Basilisk[/b] (Manufactorum): Basilisks that are not [i]Open-topped[/i], +1 armour, and only 3 movement.
 [/list]
 [/td]
 [/tr]

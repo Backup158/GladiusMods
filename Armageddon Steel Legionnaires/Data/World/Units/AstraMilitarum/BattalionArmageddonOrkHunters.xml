@@ -70,7 +70,7 @@
 				<!-- <meleeInitiative base="3"/> -->
 				<moraleMax base="6"/> <!-- Guardsman and Scions are 6 %moraleMax base leadership=5 -->
 				<movementMax base="3"/> <!-- Guardsman and Kommando is 3 -->
-				<productionCost base="58.0"/> <!-- Guardsman is 24, Scions are 36; BattGuard is 54 | %productionCost base tier=4 factor=1 -->
+				<productionCost base="54.0"/> <!-- Guardsman is 24, Scions are 36; BattGuard is 54 | %productionCost base tier=4 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 				<foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
 				<foodCost base="60.0"/> <!-- Guardsman is 10 | %foodCost base tier=4 factor=0.5 -->
