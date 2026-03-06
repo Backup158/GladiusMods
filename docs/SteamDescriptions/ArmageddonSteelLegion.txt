@@ -5,7 +5,7 @@ The backbone of Steel Legion doctrine is their usage of mechanised infantry. Arm
 [h1]Unit Descriptions[/h1]
 Some abbreviations are used. They are explained [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488070/]in this thread[/url].
 
-Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: Gain +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree[spoiler](for disembarking, [i]Evasive Deployment[/i], [i]Steady Deployment[/i], and [i]Rapid Assault[/i]; while inside transports, [i]Armageddon Readiness[/i])[/spoiler].
+Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: Gain +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree[spoiler](on disembark, gain [i]Evasive Deployment[/i], [i]Steady Deployment[/i], and [i]Rapid Assault[/i]; while inside transports, [i]Armageddon Readiness[/i] is active)[/spoiler].
 
 [table]
 [tr]

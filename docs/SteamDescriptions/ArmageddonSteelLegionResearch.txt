@@ -1,3 +1,5 @@
+All these units have [i]Member of the Steel Legion[/i]. All these infantry have [i]Armageddon Rapid Deployment[/i] and [i]Armageddon Readiness[/i].
+
 [table]
 [tr]
 [th] Tier and Research [/th]
