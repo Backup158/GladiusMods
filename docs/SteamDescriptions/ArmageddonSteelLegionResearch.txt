@@ -9,7 +9,7 @@
 The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
 [list]
 [*] [b]Steel Legionnaire[/b] (Imperial Barracks): Same stats as [b]Guardsmen[/b], but their weapons are range 1, with +0.1 damage for compensation.
-[*] [b]Armageddon Pattern Chimera[/b] (Manufactorum): Ignores enemy Zone of Control, and Smoke Launchers can target up to 2 tiles away, but it only lasts 1 turn.
+[*] [b]Armageddon Pattern Chimera[/b] (Manufactorum): Has slightly more health, ignores enemy Zone of Control, and Smoke Launchers can target up to 2 tiles away, but it only lasts 1 turn. Has slightly increased Ore cost.
 [*] [b]Steel Legion Commissar[/b] (Shrine of the Aquila): Grant passive buffs, which are increased for members of the Steel Legion.
 [u]Steel Legion Discipline[/u]: Adjacent allied troops gain +[0.7, 2.1] accuracy. Steel Legion troops also gain +[0.3, 0.9] accuracy.
 [u]Armoured Fist[/u]: Adjacent allied vehicles have -[0.15, 0.45]% ore upkeep, only 2 points of movement cost for actions, and +[0, 1] armour. That means a vehicle with 4 movement that has not moved can move 2 tiles after attacking, and the armour is only granted when the ability is maxed out.
