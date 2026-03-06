@@ -10,8 +10,11 @@
     [*] Decreased production costs for Armageddon Pattern Chimera and Armageddon Pattern Basilisk, since taking an extra turn was too much
     [*] The Steel Legion Commissar's [u]Armoured Fist[/u] ability now makes attacks only take 2 movement
     [/list]
-[*] Fixed Steel Legion Commissars giving [i]Yarrick's Inspiration[/i] instead of [i]Steel Legion Discipline[/i]
-[*] Fixed the Steel Legion Commissar's [u]Aura of Command[/u] not restoring morale
+[*] Fixes [list]
+    [*] Fixed Steel Legion Commissars giving [i]Yarrick's Inspiration[/i] instead of [i]Steel Legion Discipline[/i]
+    [*] Fixed the Steel Legion Commissar's [u]Aura of Command[/u] not restoring morale
+    [*] Fixed The Fortress of Arrogance's [u]Yarrick's Inspiration[/u] ability having its values reversed (far away troops had bigger buffs, instead of adjacent troops like I intended)
+    [/list]
 [/list]
 
 # 2026-02-27
