@@ -28,7 +28,7 @@
 		</weapon>
 		<weapon name="LasgunArray" count="1">
 			<model>
-				<beamWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6"
+				<beamWeapon muzzleBone=".LasgunArrayMuzzle5" muzzleCount="1"
 						effectFaceWeight="0"
 						cycleMuzzles="0"/>
 			</model>
