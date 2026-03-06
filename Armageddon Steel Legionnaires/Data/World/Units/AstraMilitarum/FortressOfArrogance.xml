@@ -205,7 +205,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="AstraMilitarum/YarricksInspiration+"/>
+										<addTrait name="AstraMilitarum/YarricksInspirationClose"/>
 									</effects>
 								</modifier>
 							</modifiers>
