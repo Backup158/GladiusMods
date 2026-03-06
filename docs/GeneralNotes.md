@@ -62,7 +62,7 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
 4. Modify UVs
   1. Select only the faces/edges you added
   2. At the top, click UV (or press `U`)
-  3. Select "Smart UV Project"
+  3. Select "Unpack" (if you selected only the relevant faces) or "Smart UV Project" (if working from scratch, which is not recommended)
   4. Click the "UV Editor" at the top to open a new panel
   5. Import the diffuses and shit
   5. On that new panel, move the UV faces around to reuse things smartly
