@@ -100,6 +100,11 @@ In edit mode
 2. Pull up box select with `B`
 3. `Shift + Left Click` select the vertices to deselect
 
+## Flip Normals
+1. Select face
+2. `Alt + N`
+3. Click "Flip"
+
 ## UV Maps
 ### Removing existing
 1. Select mesh
