@@ -13,9 +13,24 @@
 				</unit>
 			</conditions>
 			<effects>
-				<morale addMin="1" addMax="3"/>
 				<moraleLossFactor addMin="-0.11" addMax="-0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<!-- <noTrait name="Vehicle"/> -->
+				</unit>
+			</conditions>
+			<effects>
+				<morale addMin="1" addMax="3"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
 </trait>
