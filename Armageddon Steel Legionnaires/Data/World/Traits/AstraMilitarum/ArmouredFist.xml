@@ -10,8 +10,9 @@
 				</unit>
 			</conditions>
 			<effects>
-				<armor addMin="0" addMax="1"/>
 				<oreUpkeep mulMin="-0.15" mulMax="-0.45"/>
+				<consumedMovement max="2"/> <!-- support vehicles have 4 movement, while tanks have 3 -->
+				<armor addMin="0" addMax="1"/>
 			</effects>
 		</modifier>
 	</modifiers>

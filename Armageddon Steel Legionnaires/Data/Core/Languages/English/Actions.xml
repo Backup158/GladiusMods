@@ -8,13 +8,13 @@
 	<entry name="AstraMilitarum/PurgingFlamesFlavor" value="Merely killing an Ork isn't enough. Their corpses leave behind fungi, which if left unchecked, will sprout Greenskin monstrosities in the future. Enter: holy prometheum."/>
 	<!-- Steel Legion Commissar -->
 	<entry name="AstraMilitarum/SteelLegionAuraOfDiscipline" value="Steel Legion Discipline"/>
-	<entry name="AstraMilitarum/SteelLegionAuraOfDisciplineDescription" value="Increased accuracy for infantry and vehicles. Further increased for members of the Armageddon Steel Legion."/>
+	<entry name="AstraMilitarum/SteelLegionAuraOfDisciplineDescription" value="Adjacent infantry/vehicles gain increased accuracy, with further increases for members of the Armageddon Steel Legion."/>
 	<entry name="AstraMilitarum/SteelLegionAuraOfDisciplineFlavor" value="<string name='Actions/AuraOfDisciplineDescription'/>"/>
 	<entry name="AstraMilitarum/ArmouredFist" value="Armoured Fist"/>
-	<entry name="AstraMilitarum/ArmouredFistDescription" value="Increased armour and reduced upkeep for vehicles."/>
+	<entry name="AstraMilitarum/ArmouredFistDescription" value="Vehicles have reduced upkeep and their actions only consume 2 movement points. Increased armour when the ability is fully levelled."/>
 	<entry name="AstraMilitarum/ArmouredFistFlavor" value="During the Armageddon Wars, battlefields would be scattered with debris, corpses, and shattered vehicle hulls. The Steel Legion has grown adept at scavenging scraps, and some even turn it into makeshift armour."/>
 	<entry name="AstraMilitarum/AuraOfCommand" value="Aura of Command"/>
-	<entry name="AstraMilitarum/AuraOfCommandDescription" value="Boosts morale of allied infantry and vehicles. Increased ranged damage reduction for the Commissar and any transport they are in."/>
+	<entry name="AstraMilitarum/AuraOfCommandDescription" value="Allied infantry/vehicles within 2 tiles have increased max morale, decreased morale loss, and regain additional morale per turn. Increased ranged damage reduction for the Commissar and any transport they are in."/>
 	<entry name="AstraMilitarum/AuraOfCommandFlavor" value="Commissars lead with confidence, with their mere presence inspiring nearby troops. Inexplicably, strutting about the frontlines, exuding a feeling of invicibility, has not lead to a higher casualty rate. It's almost as if they truly are the Emperor's representative."/>
 	<entry name="AstraMilitarum/CombinedArms" value="Combined Arms"/>
 	<entry name="AstraMilitarum/CombinedArmsDescription" value="Grants damage reduction to infantry whom are adjacent to vehicles, and vice-versa. Infantry gain ranged damage reduction; vehicles, melee."/>
