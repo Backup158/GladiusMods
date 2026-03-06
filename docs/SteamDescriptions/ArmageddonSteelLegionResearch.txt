@@ -62,14 +62,14 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T5 Basilisk [/td]
 [td] [list]
-[*] [b]Armageddon Pattern Basilisk[/b] (Manufactorum): Basilisks that are not [i]Open-topped[/i], +1 armour, and only 3 movement.
+[*] [b]Armageddon Pattern Basilisk[/b] (Manufactorum): Basilisks that have +1 armour, +2 hitpoints, and only 3 movement. They are not [i]Open-topped[/i]. Ore cost is increased.
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T5 Extra Infantry Armour [/td]
 [td] [list]
-[*] [b]Armageddon Heavy Assault Chimera[/b] (Manufactorum): 
+[*] [b]Armageddon Heavy Assault Chimera[/b] (Manufactorum): Uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry and provide supporting fire. Its hull-mount Heavy Bolter has been swapped for a Heavy Flamer, with 2 additional Heavy Bolters available with research. The manned Lasgun Arrays are now Hot-Shot Lasguns.
 [/list]
 [/td]
 [/tr]
@@ -97,7 +97,13 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T10 Baneblade [/td]
 [td] [list]
-[*] [b]The Fortress of Arrogance[/b] (Shrine of the Aquila): 
+[*] [b]The Fortress of Arrogance[/b] (Shrine of the Aquila): Unique, super-heavy tank that rallies allied troops, especially infantry and members of the Steel Legion.
+[u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. 
+> Allied troops 2 tiles away have +[0.33, 1] accuracy and +[1, 3] max morale, with Steel Legion units having -[0.11, 0.33]% morale loss and an additional +[0.5, 1.5] accuracy. Infantry have +[0.07, 0.21]% RDR, with Steel Legion units gaining +[0.7, 2.1] armour.
+> Adjacent allied troops have +[1, 3] accuracy and +[1.5, 4.5] max morale, with Steel Legion units having -[0.22, 0.66]% morale loss and an additional +[0.22, 0.66] accuracy. Infantry have +[0.11, 0.33]% RDR, with Steel Legion units gaining +[1, 3] armour.
+[u]Focus Fire[/u]: Target an enemy troop within 3 tiles to make it +[0.11, 0.33]% damage for 5 turns. Another +[0.06, 0.18]% damage taken if it's a Super-Heavy; another +[0.06, 0.18]% damage taken if it's a a Hero. -[0.11, 0.33]% RDR when being attacked by the Steel Legion.
+[u]Purge the Xenos[/u]: Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced RDR. Burns away Orkoid Fungus within 2 tiles.
+[u]Duel of Honour[/u]: Elite. Targets an enemy super-heavy or hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
 [/list]
 [/td]
 [/tr]

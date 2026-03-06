@@ -58,7 +58,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [tr]
 [td] T5 Extra Infantry Armour [/td]
 [td]
-[b]Armageddon Heavy Assault Chimeras[/b] are uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry[spoiler]([i]Assault Vehicle[/i])[/spoiler] and provide supporting fire. Its hull-mount bolter has been swapped for a heavy flamer, with additional heavy bolters available with research. The manned lasgun arrays are now hotshot lasguns, suiting its role as an IFV.
+[b]Armageddon Heavy Assault Chimeras[/b] are uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry and provide supporting fire. Its hull-mount Heavy Bolter has been swapped for a Heavy Flamer, with additional Heavy Bolters available with research. The manned Lasgun Arrays are now Hot-Shot Lasguns.
 [/td]
 [/tr]
 [tr]
