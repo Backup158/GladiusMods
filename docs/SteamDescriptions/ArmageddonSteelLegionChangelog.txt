@@ -15,6 +15,7 @@
     [*] Fixed Steel Legion Commissars giving [i]Yarrick's Inspiration[/i] instead of [i]Steel Legion Discipline[/i]
     [*] Fixed the Steel Legion Commissar's [u]Aura of Command[/u] not restoring morale
     [*] Fixed The Fortress of Arrogance's [u]Yarrick's Inspiration[/u] ability having its values reversed (far away troops had bigger buffs, instead of adjacent troops like I intended)
+    [*] Fixed icons for Reinforcements not showing up
     [/list]
 [/list]
 
