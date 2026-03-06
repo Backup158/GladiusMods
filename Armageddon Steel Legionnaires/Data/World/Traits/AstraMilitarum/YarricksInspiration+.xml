@@ -48,7 +48,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<rangedDamageReduction mulMin="0.07" mulMax="0.21"/>
+				<rangedDamageReduction mulMin="0.11" mulMax="0.33"/>
 			</effects>
 		</modifier>
 		<!-- Steel Legion troops get further buffs -->
@@ -64,7 +64,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<armor addMin="0.33" addMax="1.0"/>
+				<armor addMin="1" addMax="3"/>
 			</effects>
 		</modifier>
 	</modifiers>
