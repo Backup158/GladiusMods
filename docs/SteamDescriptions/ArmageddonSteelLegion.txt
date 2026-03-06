@@ -9,7 +9,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 
 [table]
 [tr]
-[th]Reserach Unlock[/th]
+[th]Research Requirement[/th]
 [th]Units Added[/th]
 [/tr]
 [/tr]
