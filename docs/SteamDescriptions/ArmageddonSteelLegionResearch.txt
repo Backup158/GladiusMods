@@ -106,7 +106,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 > Allied troops 2 tiles away have +[0.08, 0.24]% damage and -[0.33, 0.11]% RDR. Steel Legion members also have +[0.03, 0.09]% damage. 
 > Adjacent allied troops have +[0.08, 0.24]% damage and +[0.08, 0.24]% attacks. Steel Legion members also have +[0.03, 0.09]% damage and +[0.03, 0.09]% attacks. 
 > Burns away Orkoid Fungus within 3 tiles.
-[u]Duel of Honour[/u]: Elite. Targets an enemy super-heavy or hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
+[u]Duel of Honour[/u]: Elite. Targets an enemy Super-Heavy or Hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
 [/list]
 [/td]
 [/tr]

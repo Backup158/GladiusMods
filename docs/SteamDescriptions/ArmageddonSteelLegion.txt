@@ -68,7 +68,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain RDR, with Steel Legion units gaining armour.
 [u]Focus Fire[/u]: Marks an enemy unit which now takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. Has reduced RDR when being attacked by the Steel Legion.
 [u]Purge the Xenos[/u]: Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced RDR. Burns away Orkoid Fungus within 3 tiles.
-[u]Duel of Honour[/u]: Elite. Targets an enemy super-heavy or hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
+[u]Duel of Honour[/u]: Elite. Targets an enemy Super-Heavy or Hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
 [/td]
 [/tr]
 [/table]
