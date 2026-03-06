@@ -17,7 +17,7 @@
 				<damageTaken mulMin="0.06" mulMax="0.18"/>
 			</effects>
 		</modifier>
-		<!-- Further if Ork -->
+		<!-- Further if Hero -->
 		<modifier>
 			<conditions>
 				<unit>
