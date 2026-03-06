@@ -15,6 +15,9 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRate" value="Armageddon Readiness"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Making it into the transport shields you from small arms fire, but it won't stop the bleeding. Having spent so much time cooped up in a Chimera, Steel Legionnaires have learned how to use first aid kits more efficiently in tight spaces."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentAttacks" value="Rapid Assault"/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentAttacksDescription" value="Increases attacks, with further increases depending on weapon type. Melee weapons have an additional bonus, and ranged weapons at range 1 have a large additional bonus."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentAttacksFlavor" value="While Chimeras roll towards enemy positions, adrenaline pumps within its cargo. No matter how many times they deploy, Steel Legionnaires feel the rush every time those doors slam open. Over time, veterans grow even more ferocious, somehow squeezing off even more shots than thought possible."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>

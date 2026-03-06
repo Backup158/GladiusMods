@@ -16,7 +16,8 @@
 						<addTrait name="AstraMilitarum/ArmageddonDeploymentDamageReduction" duration="1"/>
 					</effects>	
 				</modifier>
-				<!-- T8 Hammer of Wrath tech:  -->
+				<!-- T3 Medipack: Heal rate increase while inside. Done in another trait to avoid text bloat. -->
+				<!-- T8 Hammer of Wrath tech: more attacks -->
 				<modifier requiredUpgrade="AstraMilitarum/HammerOfWrath">
 					<effects>
 						<addTrait name="AstraMilitarum/ArmageddonDeploymentAttacks" duration="1"/>
