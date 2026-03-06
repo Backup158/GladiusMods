@@ -13,6 +13,7 @@
 				</unit>
 			</conditions>
 			<effects>
+				<moraleMax add="2"/>
 				<moraleLossFactor addMin="-0.11" addMax="-0.33"/>
 			</effects>
 		</modifier>
