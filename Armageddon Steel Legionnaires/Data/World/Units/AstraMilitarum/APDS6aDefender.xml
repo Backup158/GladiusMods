@@ -28,7 +28,9 @@
 		</weapon>
 		<weapon name="LasgunArray" count="1">
 			<model>
-				<beamWeapon muzzleBone=".LasgunArrayMuzzle5" muzzleCount="1"
+				<!-- Only 2 and 5 are on the muzzle -->
+				<!-- 2 is on the side away from the destroyer -->
+				<beamWeapon muzzleBone=".LasgunArrayMuzzle2" muzzleCount="1"
 						effectFaceWeight="0"
 						cycleMuzzles="0"/>
 			</model>
