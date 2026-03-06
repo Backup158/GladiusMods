@@ -19,8 +19,8 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [b]Steel Legionnaires[/b] are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
 [b]Armageddon Pattern Chimeras[/b] are specially-built to more easily slip behind enemy lines. As such, they cost a bit more to produce but are slightly tougher. It carries a modified smoke launcher that is able to target tiles beyond the Chimera. With this modifications, it has lost the ability to traverse amphibiously.
 [b]Steel Legion Commissars[/b] lead both infantry and vehicles. They grant passive buffs, which lends well to sitting safely inside a Chimera. Buffs are increased for members of the Steel Legion.
-[u]Steel Legion Discipline[/u]: Adjacent troops gain accuracy. Weaker than the typical Aura of Discipline, unless the affected troop is in the Steel Legion.
-[u]Armoured Fist[/u]: Adjacent vehicles gain armour and have less ore upkeep.
+[u]Steel Legion Discipline[/u]: Adjacent allied troops gain accuracy. Weaker than the typical Aura of Discipline, unless the affected troop is in the Steel Legion.
+[u]Armoured Fist[/u]: Adjacent allied vehicles have less ore upkeep. On maxxing out this ability, they also gain armour.
 [u]Aura of Command[/u]: Troops within 2 tiles gain morale and have reduced morale loss. The Commissar and any transport they're in have increased RDR. 
 [u]Combined Arms[/u]: Elite. Infantry and vehicles within 2 tiles gain defences. Infantry gain RDR when adjacent to vehicles; vehicles, MDR when adjacent to infantry.
 [/td]
