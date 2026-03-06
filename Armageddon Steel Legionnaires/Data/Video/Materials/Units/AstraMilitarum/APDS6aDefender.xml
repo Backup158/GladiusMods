@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AstraMilitarum/APDS6aDefenderDiffuse"/>
+		<texture name="Units/AstraMilitarum/ChimeraNormal"/>
+		<texture name="Units/AstraMilitarum/APDS6aDefenderSIC"/>
+		<texture name="ShadowMapColor"/>
+		<texture name="Units/AstraMilitarum/ChimeraAnimation"/>
+	</textures>
+</material>
