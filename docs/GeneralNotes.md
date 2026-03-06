@@ -76,11 +76,15 @@ As I'm new to Blender, I'm keeping general hotkeys here too, for easy reference.
 1. Select all vertices
 2. Shift click all bones
 3. Press `Shift + X`
-## Testing Weights
+### Testing Weights
 1. Select the armature
 2. Choose pose view
 3. Select a bone
 4. Wiggle it about
+### Adhering to the 4 Limit
+1. click weights on top
+2. click limit weights
+this is also where you can normalize all
 
 ## Delete/Merge Vertices/Edges/Vertices
 In edit mode
