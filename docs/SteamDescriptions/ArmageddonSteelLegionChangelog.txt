@@ -1,7 +1,18 @@
 # 2026-03-???
-- Added custom model for flamers for Steel Legion Purgation Squads
-- Fixed Steel Legion Commissars giving Yarrick's Inspiration instead of Steel Legion Discipline
-- Increased The Fortress of Arrogance's Purge the Xenos ability's Orkoid Fungus removal range from 2 to 3
+[list]
+[*] Custom models [list]
+    [*] Added custom model for flamers for Steel Legion Purgation Squads
+    [*] Added custom model for APDS-6a Defender
+    [/list]
+[*] Added [b]Battalion of APDS-6a Defenders[/b]
+[*] Rebalance [list]
+    [*] Increased The Fortress of Arrogance's [u]Purge the Xenos[/u] ability's Orkoid Fungus removal range from 2 to 3
+    [*] Decreased production costs for Armageddon Pattern Chimera and Armageddon Pattern Basilisk, since taking an extra turn was too much
+    [*] The Steel Legion Commissar's [u]Armoured Fist[/u] ability now makes attacks only take 2 movement
+    [/list]
+[*] Fixed Steel Legion Commissars giving [i]Yarrick's Inspiration[/i] instead of [i]Steel Legion Discipline[/i]
+[*] Fixed the Steel Legion Commissar's [u]Aura of Command[/u] not restoring morale
+[/list]
 
 # 2026-02-27
 - Increased Steel Legion Purgation Squad group size by 1 (2 for the battalion)
