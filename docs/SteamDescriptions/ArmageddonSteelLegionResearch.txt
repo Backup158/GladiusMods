@@ -6,9 +6,9 @@
 [tr]
 [td] T1 Chimera [/td]
 [td] [list]
-[*] [b]Steel Legionnaire[/b]: Imperial Barracks
-[*] [b]Armageddon Pattern Chimera[/b]: Manufactorum
-[*] [b]Steel Legion Commissar[/b]: Shrine of the Aquila
+[*] [b]Steel Legionnaire[/b] (Imperial Barracks): 
+[*] [b]Armageddon Pattern Chimera[/b] (Manufactorum): Ignores enemy Zone of Control
+[*] [b]Steel Legion Commissar[/b] (Shrine of the Aquila): 
 [/list]
 The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
 [/td]
@@ -16,14 +16,15 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T2 Hab Blocks [/td]
 [td] [list]
-[*] [b]Steel Legion Purgation Squad[/b]: Imperial Barracks
+[*] [b]Steel Legion Purgation Squad[/b] (Imperial Barracks): 
+[u]Purging Flames[/u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T3 Agronomic Surge [/td]
 [td] [list]
-[*] [b]Armageddon Ork Hunters[/b]: Imperial Barracks
+[*] [b]Armageddon Ork Hunters[/b] (Imperial Barracks): 
 [/list]
 [/td]
 [/tr]
@@ -31,7 +32,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] T3 Awaken the Machine [/td]
 [td] [list]
 [*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Evasive Deployment[/i]: Minimum of 17% IDR on disembark
-[*] [b]APDS-6a Defender[/b]: Manufactorum
+[*] [b]APDS-6a Defender[/b] (Manufactorum): 
 [/list]
 [/td]
 [/tr]
@@ -45,21 +46,21 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T4 Tempestus Scions [/td]
 [td] [list]
-[*] [b]Steel Legion Storm Troopers[/b]: Imperial Barracks
+[*] [b]Steel Legion Storm Troopers[/b] (Imperial Barracks): 
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T5 Basilisk [/td]
 [td] [list]
-[*] [b]Armageddon Pattern Basilisk[/b]: Manufactorum
+[*] [b]Armageddon Pattern Basilisk[/b] (Manufactorum): 
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T5 Extra Infantry Armour [/td]
 [td] [list]
-[*] [b]Armageddon Heavy Assault Chimera[/b]: Manufactorum
+[*] [b]Armageddon Heavy Assault Chimera[/b] (Manufactorum): 
 [/list]
 [/td]
 [/tr]
@@ -87,7 +88,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T10 Baneblade [/td]
 [td] [list]
-[*] [b]The Fortress of Arrogance[/b]: Shrine of the Aquila
+[*] [b]The Fortress of Arrogance[/b] (Shrine of the Aquila): 
 [/list]
 [/td]
 [/tr]
