@@ -15,6 +15,9 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRate" value="Armageddon Readiness"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Making it into the transport shields you from small arms fire, but it won't stop the bleeding. Having spent so much time cooped up in a Chimera, Steel Legionnaires have learned how to use first aid kits more efficiently in tight spaces."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentAccuracy" value="Steady Deployment"/>
+	<!-- <entry name="AstraMilitarum/ArmageddonDeploymentAccuracyDescription" value="Increases ranged accuracy."/> -->
+	<entry name="AstraMilitarum/ArmageddonDeploymentAccuracyFlavor" value="In addition to camouflage netting, improved training for Chimera drivers means they can arrive at enemy lines more intactly, allowing smoother deployments. The infantry have been training too, and they deftly disembark. With steady footing, finding a kill-shot on an enemy gunner is much easier."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentAttacks" value="Rapid Assault"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentAttacksDescription" value="Increases attacks, with further increases depending on weapon type. Melee weapons have an additional bonus, and ranged weapons at range 1 have a large additional bonus."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentAttacksFlavor" value="While Chimeras roll towards enemy positions, adrenaline pumps within its cargo. No matter how many times they deploy, Steel Legionnaires feel the rush every time those doors slam open. Over time, veterans grow even more ferocious, somehow squeezing off even more shots than thought possible."/>

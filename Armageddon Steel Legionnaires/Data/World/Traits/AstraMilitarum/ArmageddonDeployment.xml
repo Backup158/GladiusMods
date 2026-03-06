@@ -26,6 +26,12 @@
 					</effects>	
 				</modifier>
 				<!-- T3 Medipack: Heal rate increase while inside. Done in another trait to avoid text bloat. -->
+				<!-- T6 Camo Netting tech: Accuracy -->
+				<modifier requiredUpgrade="AstraMilitarum/CamoNetting">
+					<effects>
+						<addTrait name="AstraMilitarum/ArmageddonDeploymentAccuracy" duration="1"/>
+					</effects>	
+				</modifier>
 				<!-- T8 Hammer of Wrath tech: more attacks -->
 				<modifier requiredUpgrade="AstraMilitarum/HammerOfWrath">
 					<effects>
