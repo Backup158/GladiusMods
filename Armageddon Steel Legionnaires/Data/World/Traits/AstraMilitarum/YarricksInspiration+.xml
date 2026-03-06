@@ -15,7 +15,7 @@
 			</conditions>
 			<effects>
 				<accuracy addMin="1" addMax="3"/>
-				<morale addMin="1" addMax="3"/>
+				<moraleMax addMin="1.5" addMax="4.5"/>
 			</effects>
 		</modifier>
 		<!-- Steel Legion troops get the full buff -->
@@ -31,6 +31,7 @@
 				</unit>
 			</conditions>
 			<effects>
+				<accuracy addMin="0.22" addMax="0.66"/>
 				<moraleLossFactor addMin="-0.22" addMax="-0.66"/>
 			</effects>
 		</modifier>
