@@ -5,7 +5,8 @@
     [*] Added custom model for APDS-6a Defender
     [/list]
 [*] Added [b]Battalion of APDS-6a Defenders[/b]
-[*] Rebalance [list]
+[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Steady Deployment[/i] and [i]Rapid Assault[/i], to keep the infantry more relevant in the late game. It was too much of a waste to keep them around to T10, so The Fortress of Arrogance got lonely :(
+[*] Balance Changes [list]
     [*] Increased The Fortress of Arrogance's [u]Purge the Xenos[/u] ability's Orkoid Fungus removal range from 2 to 3
     [*] Decreased production costs for Armageddon Pattern Chimera and Armageddon Pattern Basilisk, since taking an extra turn was too much
     [*] The Steel Legion Commissar's [u]Armoured Fist[/u] ability now makes attacks only take 2 movement
