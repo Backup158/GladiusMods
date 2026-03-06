@@ -128,7 +128,7 @@
 		<!-- What makes it better -->
 		<trait name="HitAndRun"/>
 		<trait name="AstraMilitarum/SteelLegion"/>
-
+		<!-- Reinforcements -->
 		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
