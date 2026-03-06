@@ -5,8 +5,17 @@
 			<modifiers>
                 <!-- Extra movement and damage on disembark -->
 				<modifier>
+					<conditions>
+						<unit>
+							<noTrait name="Fleet"/>
+						</unit>
+					</conditions>
 					<effects>
 						<addTrait name="Fleet" duration="2"/>
+					</effects>
+				</modifier>
+				<modifier>
+					<effects>
 						<addTrait name="AstraMilitarum/ArmageddonDeploymentDamage" duration="1"/>
 					</effects>
 				</modifier>
