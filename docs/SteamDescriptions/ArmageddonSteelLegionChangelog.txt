@@ -1,0 +1,51 @@
+# 2026-03-???
+- Added custom model for flamers for Steel Legion Purgation Squads
+- Fixed Steel Legion Commissars giving Yarrick's Inspiration instead of Steel Legion Discipline
+- Increased The Fortress of Arrogance's Purge the Xenos ability's Orkoid Fungus removal range from 2 to 3
+
+# 2026-02-27
+- Increased Steel Legion Purgation Squad group size by 1 (2 for the battalion)
+- Improved spacing for Battalions of infantry
+- Added custom model for Voss Pattern Lasguns. It's just the regular lasgun but shorter. Nothing special but it's the first edit I made with Blender
+
+# 2026-02-03
+Modified check for Member of the Steel Legion for increased compatibility with modded factions (instead of checking for the Orks faction, it checks if the unit has the Green Tide Healing trait)
+
+# 2026-01-22
+Fixed incorrect description for Steel Legion Commissars (using Lord Commissar's name instead of description as the first sentence).
+
+# 2026-01-14 
+Added support for Reinforcements increased group sizes for low cost units
+
+# 2026-01-13
+i did the same thing with heroes...
+
+Both of these updates are not save-safe. Sorry :(
+
+# 2026-01-13
+FIXED ISSUE THAT PREVENTED VEHICLES FROM BEING BUILT
+D:
+
+# 2026-01-12
+- Renamed infantry unit names to be plural for consistency
+- Very primitive custom textures for Steel Legionnaires and for The Fortress of Arrogance
+
+# 2026-01-11
+Added many more units with various abilities
+- Steel Legion Purgation Squad
+- Steel Legion Commissar
+- Armageddon Pattern Chimera
+- Armageddon Ork Hunters
+- APDS-6a Defender
+- Armageddon Heavy Assault Chimera
+- Armageddon Pattern Basilisk
+- The Fortress of Arrogance
+
+# 2025-12-31
+Integrated TMV patch
+
+# 2024-10-25
+Added new icons for the Ork Hunter trait, Steel Legionnaires, and Steel Legion Storm Troopers. Storm Trooper icon uses the skull mask
+
+# 2024-10-15
+Initial upload
