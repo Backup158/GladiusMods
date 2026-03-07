@@ -2,7 +2,7 @@
 <material>
 	<textures>
 		<texture name="Units/AstraMilitarum/ArmageddonBasiliskDiffuse"/>
-		<texture name="Units/AstraMilitarum/BasiliskNormal"/>
+		<texture name="Units/AstraMilitarum/ArmageddonBasiliskNormal"/>
 		<texture name="Units/AstraMilitarum/ArmageddonBasiliskSIC"/>
 		<texture name="ShadowMapColor"/>
 		<texture name="Units/AstraMilitarum/BasiliskAnimation"/>
