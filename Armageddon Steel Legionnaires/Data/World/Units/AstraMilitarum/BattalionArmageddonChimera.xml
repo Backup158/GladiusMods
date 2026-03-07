@@ -2,7 +2,7 @@
 <unit dlc="Supplement6">
 	<model>
 		<unit mesh="Units/AstraMilitarum/Chimera"
-				material="Units/AstraMilitarum/Chimera"
+				material="Units/AstraMilitarum/ArmageddonChimera"
 				idleAnimation="Units/AstraMilitarum/ChimeraIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
