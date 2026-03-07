@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
 	<model>
-		<unit mesh="Units/AstraMilitarum/Chimera"
-				material="Units/AstraMilitarum/Chimera"
+		<unit mesh="Units/AstraMilitarum/ArmageddonHeavyAssaultChimera"
+				material="Units/AstraMilitarum/ArmageddonChimera"
 				idleAnimation="Units/AstraMilitarum/ChimeraIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
@@ -22,14 +22,20 @@
 				<flamerWeapon muzzleBone=".HeavyBolterMuzzle"/> 
 			</model>
 		</weapon>
-		<weapon name="HeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+		<weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
 			<model>
-				<projectileWeapon muzzleBone=".HeavyBolterMuzzle"/>
+				<projectileWeapon muzzleBone=".LasgunArrayMuzzle4"/>
+			</model>
+		</weapon>
+		<weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+			<model>
+				<projectileWeapon muzzleBone=".LasgunArrayMuzzle5"/>
 			</model>
 		</weapon>
 		<weapon name="HotShotLasgunArray" count="3">
 			<model>
-				<beamWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6"
+				<!-- I stole 4 and 5 for the bolters -->
+				<beamWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="4" 
 						effectFaceWeight="0"
 						cycleMuzzles="0"/>
 			</model>
