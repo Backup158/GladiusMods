@@ -1,17 +1,17 @@
-Adds various infantry and vehicles of the Armageddon Steel Legion to the Astra Militarum. 
+Adds the mechanised forces of the Armageddon Steel Legion to the Astra Militarum. 
 
 The backbone of Steel Legion doctrine is their usage of mechanised infantry. Armageddon's numerous factories produce waves of vehicles, which means they can readily equip the Steel Legion with plentiful Chimeras and supporting tanks. Steel Legionnaires sit cooped up in the back of Chimeras, following the main armoured force. Leman Russ main battle tanks pour heavy fire into enemy lines, punching a hole in their defences. Before the enemy can close this wound, APCs and IFVs rush through guns blazing, as the tanks continue laying on fire. Before the dust can settle, Steel Legionnaires pour out of their transports to deepen this wound.
 
 [h1]Unit Descriptions[/h1]
 Some abbreviations are used. They are explained [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488070/]in this thread[/url].
+Due to text limits, specific buff values are listed in [url=https://steamcommunity.com/workshop/filedetails/discussion/3349331473/686368595766468090/]this thread.[/url]
 
-Years of fighting Orks on Armageddon has made them more effective against their nemesis[spoiler]([i]Member of the Steel Legion[/i]: +17% accuracy vs Orks)[/spoiler]. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark[spoiler]([i]Armageddon Rapid Deployment[/i]: Gain +1 Movement for 2 turns, +17% damage for 1 turn)[/spoiler], with further boosts unlocked through the research tree[spoiler](on disembark, gain [i]Evasive Deployment[/i], [i]Steady Deployment[/i], and [i]Rapid Assault[/i]; while inside transports, [i]Armageddon Readiness[/i] is active)[/spoiler].
+Years of fighting Orks on Armageddon has made them more effective against their nemesis. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark, with further boosts unlocked through the research tree.
 
 [table]
 [tr]
 [th]Research Requirement[/th]
 [th]Units Added[/th]
-[/tr]
 [/tr]
 [tr]
 [td] T1 Chimera [/td]
@@ -30,6 +30,7 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [td]
 [b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests. 
 [/td]
+[/tr]
 [tr]
 [td] T3 Agronomic Surge [/td]
 [td]
@@ -74,9 +75,6 @@ Years of fighting Orks on Armageddon has made them more effective against their 
 [/table]
 
 Most still don't have custom models, as I'm still learning Blender
-
-[h2]Further Details[/h2]
-Due to text limits, specific buff values are listed in [url=https://steamcommunity.com/workshop/filedetails/discussion/3349331473/686368595766468090/]this thread[/url]
 
 [h1]Further details[/h1]
 Assault Pack DLC ([b]Hard Requirement[/b]): Chimera research
