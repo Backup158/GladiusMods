@@ -3,6 +3,7 @@
 [*] Custom models [list]
     [*] Added custom model for flamers for Steel Legion Purgation Squads
     [*] Added custom model for APDS-6a Defender (I also redid the icon for it to better reflect its new shape)
+    [*] Added custom model for Armageddon Pattern Basilisk
     [/list]
 [*] Added [b]Battalion of APDS-6a Defenders[/b]
 [*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Steady Deployment[/i] and [i]Rapid Assault[/i], to keep the infantry more relevant in the late game. It was too much of a waste to keep them around to T10, so The Fortress of Arrogance got lonely :(
