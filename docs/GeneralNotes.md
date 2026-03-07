@@ -6,7 +6,7 @@
 Use Blender 4.0 to be able to import and export. The import script only works on 4+ and export is best on 2.9, but 4.0 covers both. What the fuck.
 - Import from Gladius: choose one. I use TOFF's script.
   - [TOFFster's script](https://discord.com/channels/467032336664494100/478509346326708227/1474500448261243145) linked in the Proxy Studios Discord (Gladius server)
-  - [AmorGun's script](https://github.com/amorgun/blender_gladius)
+  - [amorgun's script](https://github.com/amorgun/blender_gladius) (note: requires Blender 4.4)
 - Export from Blender to Gladius .xml file:
   - Comes with Gladius
   - Go to `<Gladius game folder>/Resources/Blender/ProxyStudios.zip`
