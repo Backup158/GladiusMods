@@ -66,6 +66,12 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
   4. Click the "UV Editor" at the top to open a new panel
   5. Import the diffuses and shit
   5. On that new panel, move the UV faces around to reuse things smartly
+5. May need to remove some old data
+  - vertex data bones from old one
+  - Materials
+    1. select object and be in obj mode
+    2. click materials in right panel (circle cut in 4)
+    3. select the unused texture then click the minus on the right bar
 5. Export
 
 # General Blender
