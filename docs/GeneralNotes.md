@@ -74,6 +74,11 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
     3. select the unused texture then click the minus on the right bar
 5. Export
 
+## Normals Export Funny
+When things look fine in material preview, but when you export it's always like `<normal id="0" x="0.000000" y="0.000000" z="0.000000"/>`
+
+This is a bug with Toff's script (noted on 2026-03-07). Use amorgun's script instead
+
 # General Blender
 As I'm new to Blender, I'm keeping general hotkeys here too, for easy reference. For Blender 4.0.
 
@@ -117,6 +122,10 @@ In edit mode
 2. Object data in right panel (triangle with 3 dots)
 3. Click UV Maps tab
 4. Select map and click minus
+
+## Changing the fuckass startup
+1. delete the cube and shit
+2. file --> defaults --> save startup file --> overwrite
 
 # Hotkeys
 - Undo: `Ctrl + Z`
