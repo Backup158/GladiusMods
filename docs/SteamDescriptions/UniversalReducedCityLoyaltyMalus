@@ -1,0 +1,3 @@
+Reduces the loyalty penalty from additional cities for all (including modded) factions.
+
+Note: The text hints for each faction's [u]Found City[/u] action are written dynamically, so the new loyalty values are automatically reflected in the hints. 
