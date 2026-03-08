@@ -77,7 +77,7 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
 ## Normals Export Funny
 When things look fine in material preview, but when you export it's always like `<normal id="0" x="0.000000" y="0.000000" z="0.000000"/>`
 
-This is a bug with Toff's script (noted on 2026-03-07). Use amorgun's script instead
+This is a bug with Toff's script (noted on 2026-03-07). Use amorgun's script instead. Transferring work seems to be not possible, so i cry.
 
 # General Blender
 As I'm new to Blender, I'm keeping general hotkeys here too, for easy reference. For Blender 4.0.
