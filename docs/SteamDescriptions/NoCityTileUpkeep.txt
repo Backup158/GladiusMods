@@ -1,0 +1,8 @@
+Reduces the Influence upkeep from city tiles for all factions, including modded factions.
+
+[h1]Compatibility[/h1]
+The modded factions I tested worked as expected. As I'm not intimately familiar with all modded factions, let me know if one isn't working, and I'll see what I can do.
+
+This mod is in the [b].xml.ext[/b] file format, so it will work with other mods that edit the [b]CityTypeManager.xml[/b] file. If they edit the exact same thing, the one on top will win.
+
+This mod overwrites the text for the [u]Claim Tile[/u] action. If another mods also overwrite these lines, whichever one is on top will win.
