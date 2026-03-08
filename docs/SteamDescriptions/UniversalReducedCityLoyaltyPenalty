@@ -21,4 +21,4 @@ I saw a lot of versions of this concept, where the implementation only affected 
 
 This mod is in the [b].xml.ext[/b] file format, so it will work with other mods that edit the [b]CityTypeManager.xml[/b] file. If they edit the exact same thing (e.g. the other versions of this mod), the one on top will win.
 
-The text hints for each faction's [u]Found City[/u] action are written dynamically, so the new loyalty values are automatically reflected. ...Except for the Necrons, and some number of modded factions. This mod overwrites the text for the Necrons' Found City action and for the Loyalty hint. If any another mods also overwrite these lines, whichever one is on top will win.
+The text hints for each faction's [u]Found City[/u] action are written dynamically, so the new loyalty values are automatically reflected. ...Except for the Necrons, and some number of modded factions. This mod overwrites the text for the Necrons' Found City action and for the Loyalty hint. If another mods also overwrite these lines, whichever one is on top will win.
