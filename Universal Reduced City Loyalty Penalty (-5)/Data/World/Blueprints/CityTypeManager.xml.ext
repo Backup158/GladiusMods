@@ -4,7 +4,7 @@
 		<modifier>
 			<effects>
 				<!-- <influencePerTile base="-1"/> -->
-				<loyaltyPerCity base="-3"/>
+				<loyaltyPerCity base="-5"/>
 			</effects>
 		</modifier>
 	</defaultModifiers>
