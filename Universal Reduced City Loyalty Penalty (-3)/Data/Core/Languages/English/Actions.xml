@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="FoundCityNecronsDescription" value="Consumes the unit to found a new city.<br/><br/>Necron cities can only be found on top of Necron Tombs and if there are no other cities within a %1% tile radius. Each city after the first decreases loyalty in all cities by %2%."/>
+</language>
