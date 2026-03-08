@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- Removed " Each tile has an influence upkeep."-->
+	<entry name="AcquireTileDescription" value="Acquires a new tile for the city. Buildings can only be built on acquired tiles."/> 
+	<entry name="Tyranids/AcquireTileDescription" value="Acquires a new tile for the city, consuming its biomass, removing forests and turning the ground into bedrock. Buildings can only be built on acquired tiles."/>
+</language>

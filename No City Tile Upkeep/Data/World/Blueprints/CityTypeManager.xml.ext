@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cityTypeManager>
+	<defaultModifiers>
+		<modifier>
+			<effects>
+				<influencePerTile base="0"/>
+			</effects>
+		</modifier>
+	</defaultModifiers>
+</cityTypeManager>
