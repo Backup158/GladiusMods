@@ -39,15 +39,15 @@
 				<!-- Reduced armor is offset when in allied cities -->
 				<armor base="3"/> <!-- 4 | %armor base armor=5+ -->
 				<foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=5 factor=1 -->
-				<foodCost base="17.5"/> <!-- 15 %foodCost base tier=5 factor=0.5 -->
+				<foodCost base="14"/> <!-- 15 %foodCost base tier=5 factor=0.5 -->
 				<hitpointsMax base="2.0"/> <!-- 1.5 %hitpointsMax base toughness=2 wounds=1 -->
 				<meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
 				<meleeAttacks base="1"/>
-				<oreCost base="17.5"/> <!-- 15 %oreCost base tier=5 factor=0.5 -->
+				<oreCost base="14"/> <!-- 15 %oreCost base tier=5 factor=0.5 -->
 				<strengthDamage base="1.0"/> <!-- 0.75 %strengthDamage base strength=2 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="32.0"/> <!-- 30 %productionCost base tier=5 factor=1 -->
+				<productionCost base="30.0"/> <!-- 30 %productionCost base tier=5 factor=1 -->
 				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
 			</effects>
 		</modifier>

@@ -49,10 +49,10 @@
 				<meleeAttacks base="2"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<!-- <meleeInitiative base="3"/> -->
-				<oreCost base="20.0"/> <!-- 15 | %oreCost base tier=5 factor=0.5 -->
+				<oreCost base="15.0"/> <!-- 15 | %oreCost base tier=5 factor=0.5 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="2"/> <!-- 3-->
-				<productionCost base="33.0"/> <!-- 30 | %productionCost base tier=5 factor=1 -->
+				<productionCost base="30.0"/> <!-- 30 | %productionCost base tier=5 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
