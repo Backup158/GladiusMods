@@ -5,8 +5,7 @@
 		<modifier>
 			<conditions>
 				<unit>
-					<movement equal="0"/>
-					<movementMax greater="0"/>
+					<movedThisTurn/>
 					<noTrait name="Flyer"/>
 					<noTrait name="Fortification"/>
 					<noTrait name="Relentless"/>
