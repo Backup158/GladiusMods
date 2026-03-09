@@ -164,7 +164,7 @@
 				rank="-1"
 				rankMax="2"
 				name="AstraMilitarum/FlyLow"
-				icon="Traits/Jetpack">
+				icon="Traits/JetPack">
 			<model>
 				<action sound="Units/Neutral/PsychneueinMove"/>
 			</model>
