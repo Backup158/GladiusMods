@@ -36,6 +36,10 @@ Adds Snap-fire abilities to custom factions. See the Snap-fire mod page for more
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3668349871]Reinforcements - Adeptus Custodes[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3682606879]Reinforcements - Skaven[/url]
 [/td][/tr]
+[tr][td]
+[h3]Others[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2162844764]Renegade Guard[/url] (be sure to use the patch from Lord Draconis in the comments)
+[/td][/tr]
 [/table]
 
 You don't have to install all of them; it'll only patch the ones you have installed. It will put some messages in the game log for the missing factions, but you can ignore them.
