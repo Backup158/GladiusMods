@@ -24,10 +24,10 @@ Adds core infantry unit production to headquarters for Reinforcements factions. 
 [/td][/tr]
 [/table]
 
-You don't have to install all of them; it'll only patch the ones you have installed. It will put some messages in the game log for the missing factions, but you can ignore them.
-
 [h1]Load Order[/h1]
-Shouldn't matter but I have these above (visually higher) the faction mods and HQ+. ex:
+You don't have to [b]use[/b] all of them, but you need to [b]install[/b] all of them. Install all of them, then disable the ones you won't use. Then, it'll only patch the ones you have installed; it will also put some messages in the game log for the missing factions, but you can ignore them.
+
+Exact order shouldn't matter, but I have these above (visually higher) the faction mods and HQ+.
 [code]
 HQ+Core Unit for Reinforcements Series Factions
 Reinforcements - World Eaters
