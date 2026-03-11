@@ -1,6 +1,8 @@
 Adds core infantry unit production to headquarters for Reinforcements factions. See the HQ+ Core Units Production mod page for more details. 
 
-[b]Supports:[/b]
+[h1]Supports:[/h1]
+[table]
+[tr][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3423726015]Reinforcements - Death Guard[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434234472]Reinforcements - World Eaters[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3447684780]Reinforcements - Thousand Sons[/url]
@@ -19,10 +21,12 @@ Adds core infantry unit production to headquarters for Reinforcements factions. 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3657645592]Reinforcements - Hive Fleet Tiamat[/url] (Tiamet?)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3668349871]Reinforcements - Adeptus Custodes[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3682606879]Reinforcements - Skaven[/url]
+[/td][/tr]
+[/table]
 
 You don't have to install all of them; it'll only patch the ones you have installed. It will put some messages in the game log for the missing factions, but you can ignore them.
 
-[b]Load Order[/b]
+[h1]Load Order[/h1]
 Shouldn't matter but I have these above (visually higher) the faction mods and HQ+. ex:
 [code]
 HQ+Core Unit for Reinforcements Series Factions

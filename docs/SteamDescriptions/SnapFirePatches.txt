@@ -1,13 +1,22 @@
 Adds Snap-fire abilities to custom factions. See the Snap-fire mod page for more details. No other changes were made.
 
-[b]Supports:[/b]
+[h1]Supports:[/h1]
+[table]
+[tr][td]
+[h3]Brother Severus's Factions[/h3]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2304923577]Children of Asuryan[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2787787030]Heretic Astartes[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230480799]Chapters of the Imperium pt 1[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2567222411]Chapters of the Imperium pt 2[/url]
--- The patches for Chapters of the Imperium should also cover [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2177551285]Blood Angels Faction PvE/PvP Balance[/url]. You won't have both Blood Angels at once, but whichever one you do have should get patched by this.
+-- The patches for Chapters of the Imperium should also cover [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2177551285]Apple's Blood Angels Faction PvE/PvP Balance[/url]. You won't have both Blood Angels at once, but whichever one you do have should get patched by this.
+[/td][/tr]
+[tr][td]
+[h3]DexGattaca's Factions[/h3]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2265699020]Chapter Approved - White Scars[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2353495995]FACTION: Iron Hands[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2825909430]FACTION: Farsight Enclaves[/url]
+[/td][/tr]
+[tr][td]
+[h3]Malaikat's Faction (Reinforcements)[/h3]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3423726015]Reinforcements - Death Guard[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434234472]Reinforcements - World Eaters[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3447684780]Reinforcements - Thousand Sons[/url]
@@ -26,12 +35,14 @@ Adds Snap-fire abilities to custom factions. See the Snap-fire mod page for more
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3657645592]Reinforcements - Hive Fleet Tiamat[/url] (Tiamet?)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3668349871]Reinforcements - Adeptus Custodes[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3682606879]Reinforcements - Skaven[/url]
+[/td][/tr]
+[/table]
 
 You don't have to install all of them; it'll only patch the ones you have installed. It will put some messages in the game log for the missing factions, but you can ignore them.
 
 Feel free to request patches.
 
-[b]Load Order[/b]
+[h1]Load Order[/h1]
 Shouldn't matter but I have these above (visually higher) the faction mods and Snap-fire. ex:
 [code]
 Snap-fire Patches for Custom Factions
