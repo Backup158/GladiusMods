@@ -16,5 +16,19 @@
 				<accuracy mul="0.33"/> <!-- 0.5 will cancel out the -0.5 from heavy trait, so 0.33 leaves it as -0.17 in the end -->
 			</effects>
 		</modifier>
+		<!-- T8: Hammer of Wrath: it will be fully removed. -->
+		<modifier requiredUpgrade="AstraMilitarum/HammerOfWrath">
+			<conditions>
+				<unit>
+					<movedThisTurn/>
+				</unit>
+				<weapon>
+					<trait name="Heavy"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
