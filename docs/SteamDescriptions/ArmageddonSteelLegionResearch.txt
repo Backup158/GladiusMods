@@ -58,7 +58,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T3 Medi-Pack [/td]
 [td] [list]
-[*] [i]Armageddon Readiness[/i]: +50% Healing rate inside transports
+[*] [i]Armageddon Readiness[/i]: +50% Healing rate while inside transports.
 [*] [b]Armageddon Ork Hunters[/b] gain [i]Fungal Forests[/i]: +0.5 hitpoints per turn when on Orkoid Fungus
 [/list]
 [/td]
