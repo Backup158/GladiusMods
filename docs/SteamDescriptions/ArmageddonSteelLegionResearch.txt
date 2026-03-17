@@ -50,7 +50,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T3 Awaken the Machine [/td]
 [td] [list]
-[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Evasive Deployment[/i]: Minimum of 17% IDR on disembark
+[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Evasive Deployment[/i] on disembark: Minimum of 17% IDR
 [*] [b]APDS-6a Defender[/b] (Manufactorum): Improvised tank hunters with a high-damage cannon that penetrates tanks well. Stat-wise, they're between a [b]Chimera[/b] and a [b]Leman Russ Battle Tank[/b].
 [/list]
 [/td]
@@ -67,8 +67,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] T4 Tempestus Scions [/td]
 [td] [list]
 [*] [b]Steel Legion Storm Troopers[/b] (Imperial Barracks): Scions with -1 armour.
-[*] [i]Armageddon Rapid Deployment[/i] now grants [i]Heavy Weapons Dragoon Training[/i].
-[*] [i]Heavy Weapons Dragoon Training[/i]: If the unit has moved, weapons with [i]Heavy[/i] have +33% accuracy.
+[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Heavy Weapons Dragoon Training[/i] on disembark: If the unit has moved, weapons with [i]Heavy[/i] have +33% accuracy.
 [i]Heavy[/i] gives -50% accuracy after moving, so +33% accuracy means it is -17% accuracy in the end.
 [/list]
 [/td]
@@ -97,14 +96,14 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T6 Camo Netting [/td]
 [td] [list]
-[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Steady Deployment[/i]: +17% Accuracy
+[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Steady Deployment[/i] on disembark: +17% Accuracy
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T8 Hammer of Wrath [/td]
 [td] [list]
-[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Rapid Assault[/i]: +10% attacks, with further 7% melee attacks and +15% ranged attacks at range 1
+[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Rapid Assault[/i] on disembark: +10% attacks, with further 7% melee attacks and +15% ranged attacks at range 1
 [/list]
 [/td]
 [/tr]
