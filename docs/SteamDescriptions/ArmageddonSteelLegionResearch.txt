@@ -6,6 +6,15 @@ All these units have [i]Member of the Steel Legion[/i]. All these infantry have 
 [th] What Gets Unlocked [/th]
 [/tr]
 [tr]
+[td] T0 [/td]
+[td] 
+[list]
+[*] [i]Armageddon Rapid Deployment[/i]: Upon disembark, gain [i]Fleet[/i] for two turns and [i]Aggressive Deployment[/i] for one turn.
+[i]Fleet[/i] grants +1 movement. Effectively, it lets the unit move one more tile after the initial disembark.
+[*] [i]Aggressive Deployment[/i]: +17% damage.
+[/td]
+[/tr]
+[tr]
 [td] T1 Chimera [/td]
 [td] 
 The Steel Legion are mechanised infantry and are rarely seen without their Chimeras.
