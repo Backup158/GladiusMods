@@ -67,6 +67,9 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] T4 Tempestus Scions [/td]
 [td] [list]
 [*] [b]Steel Legion Storm Troopers[/b] (Imperial Barracks): Scions with -1 armour.
+[*] [i]Armageddon Rapid Deployment[/i] now grants [i]Heavy Weapons Dragoon Training[/i].
+[*] [i]Heavy Weapons Dragoon Training[/i]: If the unit has moved, weapons with [i]Heavy[/i] have +33% accuracy.
+[i]Heavy[/i] gives -50% accuracy after moving, so +33% accuracy means it is -17% accuracy in the end.
 [/list]
 [/td]
 [/tr]
