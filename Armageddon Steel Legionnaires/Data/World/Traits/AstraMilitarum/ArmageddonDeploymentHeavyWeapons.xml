@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visible="1" icon="Traits/Heavy">
+	<modifiers>
+		<!-- If unit has moved, increase accuracy of heavy weapons -->
+		<!-- Not intending to fully remove the debuff -->
+		<modifier>
+			<conditions>
+				<unit>
+					<movedThisTurn/>
+				</unit>
+				<weapon>
+					<trait name="Heavy"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<accuracy mul="0.33"/> <!-- 0.5 will cancel out the -0.5 from heavy trait, so 0.33 leaves it as -0.17 in the end -->
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
