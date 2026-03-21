@@ -16,6 +16,12 @@
 				</player>
 			</conditions>
 		</produceUnit>
-		<produceUnit unit="AstraMilitarum/ArmageddonOrkHunters" requiredUpgrade="AstraMilitarum/FoodEdict"/>
+		<produceUnit unit="AstraMilitarum/ArmageddonOrkHunters" requiredUpgrade="AstraMilitarum/FoodEdict">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 	</actions>
 </building>

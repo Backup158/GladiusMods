@@ -9,6 +9,12 @@
 				</player>
 			</conditions>
 		</produceUnit>
-		<produceUnit unit="AstraMilitarum/BattalionArmageddonOrkHunters" requiredUpgrade="AstraMilitarum/FoodEdict"/>
+		<produceUnit unit="AstraMilitarum/BattalionArmageddonOrkHunters" requiredUpgrade="AstraMilitarum/FoodEdict">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 	</actions>
 </building>
