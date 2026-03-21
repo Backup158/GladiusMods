@@ -1,3 +1,9 @@
+# 2026-03-
+[list]
+[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Dragoon Heavy Training[/i], which reduces the accuracy penalty from [i]Heavy[/i] after disembarking. This... doesn't actually change anything at the moment lol.
+[*] Made all units (except Ork Hunters) also require [b]Chimera[/b] research, in addition to their main research requirement. I always wanted to do this, but never knew it was possible.
+[/list]
+
 # 2026-03-07
 [list]
 [*] Custom Models and Materials [list]

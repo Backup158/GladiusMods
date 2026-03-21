@@ -8,6 +8,7 @@ Due to text limits, specific buff values are listed in [url=https://steamcommuni
 
 Years of fighting Orks on Armageddon has made them more effective against their nemesis. Steel Legion infantry are experts in rapid deployment from transports, gaining boosts upon disembark, with further boosts unlocked through the research tree.
 
+All units require [b]Chimera[/b] on top of the listed research.
 [table]
 [tr]
 [th]Research Requirement[/th]
@@ -90,3 +91,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3141151458
 [h2]Integrated Mod Support[/h2]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Voices used are listed in the discusion thread.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter.
+
+[h2]Acknowledgements[/h2]
+List is not comprehensive. 
+[table]
+[tr]
+[td]Malaikat[/td]
+[td]
+For pushing the boundaries of Gladius modding and finding out how to make multiple research requirements possible
+[/td]
+[/tr]
+[tr]
+[td]TOFFster and amorgun[/td]
+[td]
+For their respective Blender scripts for Gladius
+[/td]
+[/tr]
+[/table]
