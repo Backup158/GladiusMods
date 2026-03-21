@@ -35,18 +35,18 @@
 			<effects>
 				<armor base="6"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
-				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+				<foodCost base="25.0"/> <!-- 20 for Scions | %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="7.0"/> <!-- 9 | %hitpointsMax base toughness=4 wounds=3 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="2"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<!-- <meleeInitiative base="3"/> -->
 				<!-- <influenceUpkeep base="3.0"/>--> <!-- 4 | %influenceUpkeep base tier=6 factor=2 -->
-				<influenceCost base="50.0"/> <!-- 80 | %influenceCost base tier=6 factor=2 -->
-				<oreCost base="30.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<influenceCost base="15.0"/> <!-- 80 for Commissars | %influenceCost base tier=6 factor=2 -->
+				<oreCost base="25.0"/> <!-- 20 for Scions | %oreCost base tier=6 factor=0.5 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="42.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<productionCost base="40.0"/> <!-- 36 for Scions | %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
