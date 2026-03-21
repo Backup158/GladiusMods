@@ -1,5 +1,7 @@
 All these units have [i]Member of the Steel Legion[/i]. All these infantry have [i]Armageddon Rapid Deployment[/i] and [i]Armageddon Readiness[/i].
-In addition to the listed research, all units require [b]Chimera[/b] to be researched first (e.g. [b]Steel Legion Purgation Squads[/b] require [b]Chimera[/b] and [b]Hab Blocks[/b] resaerched).
+
+In addition to the listed research, all units require [b]Chimera[/b] to be researched first. They will appear in the build menu when the main research is unlocked, but you wouldn't actually be able to build them without researching [b]Chimera[/b]. 
+For example, [b]Steel Legion Purgation Squads[/b] require [b]Chimera[/b] and [b]Hab Blocks[/b]. If you only researched [b]Hab Blocks[/b], the option will appear in the Imperial Barracks but will be grayed out. Once you research [b]Chimera[/b], they will be available. If you research [b]Chimera[/b] first, they won't appear until you research [b]Hab Blocks[/b], and everything will proceed as usual.
 
 [table]
 [tr]
