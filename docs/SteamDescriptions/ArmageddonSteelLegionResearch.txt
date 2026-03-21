@@ -1,4 +1,5 @@
 All these units have [i]Member of the Steel Legion[/i]. All these infantry have [i]Armageddon Rapid Deployment[/i] and [i]Armageddon Readiness[/i].
+In addition to the listed research, all units require [b]Chimera[/b] to be researched first (e.g. [b]Steel Legion Purgation Squads[/b] require [b]Chimera[/b] and [b]Hab Blocks[/b] resaerched).
 
 [table]
 [tr]
