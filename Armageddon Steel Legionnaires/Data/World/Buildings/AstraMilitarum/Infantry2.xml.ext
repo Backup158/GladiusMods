@@ -2,7 +2,13 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/BattalionSteelLegionnaire" requiredUpgrade="AstraMilitarum/Chimera"/>
-		<produceUnit unit="AstraMilitarum/BattalionSteelLegionPurgationSquad" requiredUpgrade="AstraMilitarum/Housing"/>
+		<produceUnit unit="AstraMilitarum/BattalionSteelLegionPurgationSquad" requiredUpgrade="AstraMilitarum/Housing">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 		<produceUnit unit="AstraMilitarum/BattalionArmageddonOrkHunters" requiredUpgrade="AstraMilitarum/FoodEdict"/>
 	</actions>
 </building>

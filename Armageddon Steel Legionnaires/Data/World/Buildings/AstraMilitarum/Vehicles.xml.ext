@@ -2,8 +2,26 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/ArmageddonChimera" requiredUpgrade="AstraMilitarum/Chimera"/>
-		<produceUnit unit="AstraMilitarum/APDS6aDefender" requiredUpgrade="AstraMilitarum/AwakenTheMachine"/>
-		<produceUnit unit="AstraMilitarum/ArmageddonHeavyAssaultChimera" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-		<produceUnit unit="AstraMilitarum/ArmageddonBasilisk" requiredUpgrade="AstraMilitarum/Basilisk"/>
+		<produceUnit unit="AstraMilitarum/APDS6aDefender" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
+		<produceUnit unit="AstraMilitarum/ArmageddonHeavyAssaultChimera" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
+		<produceUnit unit="AstraMilitarum/ArmageddonBasilisk" requiredUpgrade="AstraMilitarum/Basilisk">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 	</actions>
 </building>
