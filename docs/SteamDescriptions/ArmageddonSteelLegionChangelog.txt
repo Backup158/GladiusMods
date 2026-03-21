@@ -1,4 +1,5 @@
-# 2026-03-
+# 2026-03-21
+The research requirement will cancel production for your units if you started production and didn't have [b]Chimera[/b] researched. Sorry about that!
 [list]
 [*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Dragoon Heavy Training[/i], which reduces the accuracy penalty from [i]Heavy[/i] after disembarking. This... doesn't actually change anything at the moment lol.
 [*] Made all units (except Ork Hunters) also require [b]Chimera[/b] research, in addition to their main research requirement. I always wanted to do this, but never knew it was possible.
