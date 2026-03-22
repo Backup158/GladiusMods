@@ -71,3 +71,42 @@ Check for units with traits that are associated with Commissars
         </modifier>
 ```
 The Lord Commissar is the only Guard hero with Stubborn, and modded commissars typically copy that over. There'll likely be some false positives, but I don't care.
+
+# Checking for Enemy Orks
+Checking to see if your enemy is an Ork.
+
+## Simple Solution
+Literally check the faction
+```xml
+        <modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<faction name="Orks"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier>
+```
+Works great, until you run into a modded Ork faction (the only one atm is Malaikat's Dreadheadz). Adding a check for that will cause a crash if user doesn't have that installed. I could make a patch file for each new faction, but... no...
+
+## Broader Solution
+Check for Ork healing trait. All Ork units will use this.
+```xml
+        <modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Orks/GreenTideHealing"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier>
+```
+Could probably make it a match any then add the other Ork green tide traits to be more robust.
