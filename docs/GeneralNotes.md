@@ -111,6 +111,13 @@ In edit mode
 2. Pull up box select with `B`
 3. `Shift + Left Click` select the vertices to deselect
 
+## Decimate
+1. Select mesh in Object Mode
+2. Click Modifiers (Wrench)
+3. Add modifier --> Generate --> Decimate
+4. Set ratio
+5. Click dropdown --> Apply, next to the "Decimate" label
+
 ## Flip Normals
 1. Select face
 2. `Alt + N`
