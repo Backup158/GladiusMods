@@ -1,4 +1,4 @@
-Storing the tips and tricks to make certain ideas work.
+Storing the code snippets to make certain ideas work.
 
 # Multiple Tech Requirements to Build
 Unlocked by the main one, then the one in the condition is also required to actually build it.
@@ -110,3 +110,87 @@ Check for Ork healing trait. All Ork units will use this.
 		</modifier>
 ```
 Could probably make it a match any then add the other Ork green tide traits to be more robust.
+
+# Replicating Bolter Discipline
+```xml
+        <modifier>
+			<conditions>
+				<unit>
+					<notMovedThisTurn/>
+				</unit>
+				<weapon>
+					<trait name="RapidFire"/>
+				</weapon>
+				<encounterRange greater="1"/>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="1"/>
+			</effects>
+		</modifier>
+```
+
+# Checking Cargo Slots Filled
+```xml
+        <modifier>
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="1"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.1"/>
+				<meleeDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<cargoSlotsTaken greater="2"/>
+				</unit>
+			</conditions>
+			<effects>
+				<!-- <rangedAccuracy mul="0.17"/> -->
+				<actionPointsMax add="1"/>
+				<meleeDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+```
+
+# Replicating Ordnance Trait
+0 Accuracy after moving
+```xml
+        <modifier>
+			<conditions>
+				<unit>
+					<movedThisTurn/>
+					<noTrait name="Flyer"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="Relentless"/>
+					<noTrait name="SlowAndPurposeful"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAccuracy min="-999" max="-999"/>
+			</effects>
+		</modifier>
+```
+
+# Changing Movement Cost from Attacking
+```xml
+        <!-- Limited movement after shooting if near allied cities -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="1" range="3">
+						<allied/>
+						<trait name="Headquarters"/>
+                    </unitsInRange>
+				</unit>
+            </conditions>
+			<effects>
+				<consumedMovement max="2"/>
+			</effects>
+		</modifier>
+```
+In this example, it only takes 2 movement points to shoot, so an infantry with 3 move can move 1 tile after shooting, if it didn't move that turn.
