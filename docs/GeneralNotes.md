@@ -6,12 +6,16 @@
 Use Blender 4.0 to be able to import and export. The import script only works on 4+ and export is best on 2.9, but 4.0 covers both. What the fuck.
 - Import from Gladius: choose one. I use TOFF's script.
   - [TOFFster's script](https://discord.com/channels/467032336664494100/478509346326708227/1474500448261243145) linked in the Proxy Studios Discord (Gladius server)
-  - [amorgun's script](https://github.com/amorgun/blender_gladius) (note: requires Blender 4.4)
+  - [amorgun's script](https://github.com/amorgun/blender_gladius)
+    - v1.2 requires Blender 4.4
+    - If you use this, DO NOT DELETE THE DEFAULT BLENDER SETUP! It won't work if you don't have the Collections thing
 - Export from Blender to Gladius .xml file:
   - Comes with Gladius
   - Go to `<Gladius game folder>/Resources/Blender/ProxyStudios.zip`
 
 1. Import .msh file from game
+  - Note for amorgun's script v1.1: click mesh, shift click armature, parent with auto weights
+  - For TOFF's script and amorgun's v1.2 script, you can import the unit's xml right in
 2. do whatever edits idk
 3. Select mesh only
 4. Export as Proxy mesh .xml
@@ -133,6 +137,12 @@ In edit mode
 ## Changing the fuckass startup
 1. delete the cube and shit
 2. file --> defaults --> save startup file --> overwrite
+
+## Getting back the fuckass startup
+1. Go to `~/.config/Blender/4.4/config` or wherever your settings are (I'm on Linux running Blender through Proton)
+2. Delete `startup.blend`
+3. Next time you start up Blender, it'll use the default
+Make sure the config file is for the version the matches the one you'll use
 
 # Hotkeys
 - Undo: `Ctrl + Z`
