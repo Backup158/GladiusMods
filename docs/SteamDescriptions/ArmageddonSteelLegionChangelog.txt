@@ -1,3 +1,8 @@
+# 2026-03-xx
+[list]
+[*] Added custom mesh to [b]Steel Legion Commissar[/b]
+[/list]
+
 # 2026-03-21
 The research requirement will cancel production for your units if you started production and didn't have [b]Chimera[/b] researched. Sorry about that!
 [list]
