@@ -117,10 +117,16 @@ In edit mode
 
 ## Decimate
 1. Select mesh in Object Mode
-2. Click Modifiers (Wrench)
+2. Click Modifiers (Wrench) in right panel
 3. Add modifier --> Generate --> Decimate
 4. Set ratio
 5. Click dropdown --> Apply, next to the "Decimate" label
+
+## Decimate Selection Only
+1. Select vertices in Edit Mode
+2. Click "Mesh" on top bar
+3. "Clean Up" --> "Decimate Geometry"
+4. In the window that pops up, set ratio
 
 ## Flip Normals
 1. Select face
