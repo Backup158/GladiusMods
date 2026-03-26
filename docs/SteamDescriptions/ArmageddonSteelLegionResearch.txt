@@ -70,8 +70,8 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] T4 Tempestus Scions [/td]
 [td] [list]
 [*] [b]Steel Legion Storm Troopers[/b] (Imperial Barracks): Scions with -1 armour.
-[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Dragoon Heavy Training[/i] on disembark: If the unit has moved, weapons with [i]Heavy[/i] have +17% accuracy.
-[i]Heavy[/i] gives -50% accuracy after moving, so +17% accuracy means it is -33% accuracy in the end.
+[*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Dragoon Heavy Training[/i] on disembark: If the unit has moved, weapons with [i]Heavy[/i] have +33% accuracy.
+[i]Heavy[/i] gives -50% accuracy after moving and applies after this buff, so +33% accuracy means it is about -33% accuracy in the end. Gladius math frightens and confuses me :steamhappy:.
 [/list]
 [/td]
 [/tr]
@@ -93,7 +93,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] T6 Improved Frag Casings [/td]
 [td] [list]
 [*] Armageddon Ork Hunters can use Melta Bombs
-[*] [i]Dragoon Heavy Training[/i] now also grants +16% accuracy to [i]Heavy[/i] weapons on disembark, so the debuff is now only -17% accuracy
+[*] [i]Dragoon Heavy Training[/i] now also grants +34% accuracy to [i]Heavy[/i] weapons on disembark, so the debuff is now only about -17% accuracy
 [/list]
 [/td]
 [/tr]
@@ -108,7 +108,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] T8 Hammer of Wrath [/td]
 [td] [list]
 [*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Rapid Assault[/i] on disembark: +10% attacks, with further 7% melee attacks and +15% ranged attacks at range 1
-[*] [i]Dragoon Heavy Training[/i] now also grants +17% accuracy to Heavy weapons on disembark, so the penalty no longer applies.
+[*] [i]Dragoon Heavy Training[/i] now also grants +33% accuracy to Heavy weapons on disembark, so the penalty effectively no longer applies.
 [/list]
 [/td]
 [/tr]
