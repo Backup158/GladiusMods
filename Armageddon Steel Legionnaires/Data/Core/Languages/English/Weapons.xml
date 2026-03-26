@@ -10,5 +10,5 @@
 	<entry name="HotShotLasgunArray" value="Hotshot Lasgun Array"/>
 	<entry name="HotShotLasgunArrayFlavor" value="<string name='Weapons/LasFlavor'/>"/> <!-- lasgun, lasgun array, and hotshot lasgun use this -->
 	<entry name="SteelLegionAutocannon" value="Voss Autocannon"/>
-	<entry name="SteelLegionAutocannonFlavor" value="<string name='Weapons/AutocannonFlavor'/>"/>
+	<entry name="SteelLegionAutocannonFlavor" value="Typically mounted on vehicles, autocannons are large autoguns capable of firing a variety of large munitions. While a sole Space Marine can wield one, it teams a team of Guardsmen to operate even a mounted autocannon. The forces of Armageddon, in their constant battles with the Orks, need weapons capable of taking on massive hordes, tanks, and skimming helicopters. The Adeptus Mechanicus on the Forge World of Voss posseses an STC hidden from their peers, which allows them to produce compact autocannons from scavenged, damaged autocannons."/>
 </language>
