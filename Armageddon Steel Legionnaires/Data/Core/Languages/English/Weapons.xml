@@ -9,6 +9,6 @@
 	<entry name="LaserDestroyerFlavor" value="<string name='Weapons/HeavyLaserDestroyerFlavor'/>"/>
 	<entry name="HotShotLasgunArray" value="Hotshot Lasgun Array"/>
 	<entry name="HotShotLasgunArrayFlavor" value="<string name='Weapons/LasFlavor'/>"/> <!-- lasgun, lasgun array, and hotshot lasgun use this -->
-	<entry name="SteelLegionAutocannon" value="Voss Pattern Autocannon"/>
+	<entry name="SteelLegionAutocannon" value="Voss Autocannon"/>
 	<entry name="SteelLegionAutocannonFlavor" value="<string name='Weapons/AutocannonFlavor'/>"/>
 </language>
