@@ -4,7 +4,9 @@
 	<entry name="AstraMilitarum/SteelLegionnaire" value="Steel Legionnaires"/>
 	<entry name="AstraMilitarum/SteelLegionnaireDescription" value="Light infantry units specialising in close-quarters deployments from transports and in fighting Orks."/>
 	<entry name="AstraMilitarum/SteelLegionnaireFlavor" value="Steel Legionnaires, hailing from Armageddon, are masters of mechanised warfare. Their doctrine revolves around rapid deployments from APCs, namely Chimeras, to disrupt enemy forces before they can muster a defence. Steel Legionnaires wield Voss Pattern Lasguns, which sacrifice range for a smaller profile that leaves more space in a troop transport. Due to their experience in the Third War for Armageddon, Steel Legionnaires are experts at fighting Orks."/>
-	
+	<entry name="AstraMilitarum/SteelLegionAutocannonSquad" value="Steel Legion Autocannon Squad"/>
+	<entry name="AstraMilitarum/SteelLegionAutocannonSquadDescription" value=""/>
+	<entry name="AstraMilitarum/SteelLegionAutocannonSquadFlavor" value=""/>
 	<entry name="AstraMilitarum/SteelLegionPurgationSquad" value="Steel Legion Purgation Squad"/>
 	<entry name="AstraMilitarum/SteelLegionPurgationSquadDescription" value="Small infantry units armed with flamers that can clear Orkoid Fungus and Forests."/>
 	<entry name="AstraMilitarum/SteelLegionPurgationSquadFlavor" value="Clearing an area of Orks is a long, uphill battle, making it all the more important to make sure they can't return. Armageddon has enough Ork-controlled territory; Purgation Squads ensure Imperial lands and cleansed of filthy Xeno spawners."/>

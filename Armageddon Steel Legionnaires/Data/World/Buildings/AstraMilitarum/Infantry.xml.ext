@@ -2,7 +2,7 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/SteelLegionnaire" requiredUpgrade="AstraMilitarum/Chimera"/>
-		<produceUnit unit="AstraMilitarum/SteelLegionStormTrooper" requiredUpgrade="AstraMilitarum/TempestusScion">
+		<produceUnit unit="AstraMilitarum/SteelLegionAutocannonSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad">
 			<conditions>
 				<player>
 					<upgrade name="AstraMilitarum/Chimera"/>
@@ -17,6 +17,13 @@
 			</conditions>
 		</produceUnit>
 		<produceUnit unit="AstraMilitarum/ArmageddonOrkHunters" requiredUpgrade="AstraMilitarum/FoodEdict">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
+		<produceUnit unit="AstraMilitarum/SteelLegionStormTrooper" requiredUpgrade="AstraMilitarum/TempestusScion">
 			<conditions>
 				<player>
 					<upgrade name="AstraMilitarum/Chimera"/>
