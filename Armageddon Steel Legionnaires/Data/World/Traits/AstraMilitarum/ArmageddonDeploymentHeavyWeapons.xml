@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" visible="1" icon="Traits/HeavyWeapon">
+<trait category="Buff" alwaysVisible="1" icon="Traits/HeavyWeapon">
 	<modifiers>
 		<!-- T4: Tempestus Scions -->
 		<!-- If unit has moved, increase accuracy of heavy weapons -->
 		<!-- Not intending to fully remove the debuff -->
 		<modifier>
 			<conditions>
-				<unit>
-					<movedThisTurn/>
-				</unit>
 				<weapon>
-					<trait name="Heavy"/>
+					<trait name="HeavyWeapon"/>
 				</weapon>
 			</conditions>
 			<effects>
@@ -20,11 +17,8 @@
 		<!-- T6: Improved Frag Casings: Remove more -->
 		<modifier requiredUpgrade="AstraMilitarum/BlastDamage">
 			<conditions>
-				<unit>
-					<movedThisTurn/>
-				</unit>
 				<weapon>
-					<trait name="Heavy"/>
+					<trait name="HeavyWeapon"/>
 				</weapon>
 			</conditions>
 			<effects>
@@ -34,11 +28,8 @@
 		<!-- T8: Hammer of Wrath: it will be fully removed. -->
 		<modifier requiredUpgrade="AstraMilitarum/HammerOfWrath">
 			<conditions>
-				<unit>
-					<movedThisTurn/>
-				</unit>
 				<weapon>
-					<trait name="Heavy"/>
+					<trait name="HeavyWeapon"/>
 				</weapon>
 			</conditions>
 			<effects>
