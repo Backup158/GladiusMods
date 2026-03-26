@@ -1,6 +1,8 @@
 # 2026-03-xx
 [list]
-[*] Added custom mesh to [b]Steel Legion Commissar[/b]
+[*] [NEW] Added custom mesh to [b]Steel Legion Commissar[/b]
+[*] [NEW] Added [b]Steel Legion Autocannon Squad[/b], with custom models
+[*] [REBALANCE] [i]Dragoon Heavy Training[/i] is split. Instead of a straight up +33% at first, it's 17% then 16% with [b]Improved Frag Casings[/b]. It still gets cancelled out with [b]Hammer of Wrath[/b]
 [/list]
 
 # 2026-03-21
