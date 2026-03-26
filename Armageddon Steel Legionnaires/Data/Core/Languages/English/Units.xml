@@ -45,6 +45,9 @@
 	<entry name="AstraMilitarum/BattalionSteelLegionnaire" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionnaire'/>"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionnaireDescription" value="<string name='Units/AstraMilitarum/SteelLegionnaireDescription'/>"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionnaireFlavor" value="<string name='Units/AstraMilitarum/SteelLegionnaireFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionAutocannonSquad" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionAutocannonSquad'/>s"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionAutocannonSquadDescription" value="<string name='Units/AstraMilitarum/SteelLegionAutocannonSquadDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionAutocannonSquadFlavor" value="<string name='Units/AstraMilitarum/SteelLegionAutocannonSquadFlavor'/>"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquad" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionPurgationSquad'/>s"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadDescription" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadDescription'/>"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadFlavor" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadFlavor'/>"/>
