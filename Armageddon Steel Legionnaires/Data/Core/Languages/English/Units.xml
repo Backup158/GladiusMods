@@ -7,6 +7,9 @@
 	<entry name="AstraMilitarum/SteelLegionAutocannonSquad" value="Steel Legion Autocannon Squad"/>
 	<entry name="AstraMilitarum/SteelLegionAutocannonSquadDescription" value=""/>
 	<entry name="AstraMilitarum/SteelLegionAutocannonSquadFlavor" value=""/>
+	<entry name="AstraMilitarum/SteelLegionHeavyBolterSquad" value="Steel Legion Heavy Bolter Squad"/>
+	<entry name="AstraMilitarum/SteelLegionHeavyBolterSquadDescription" value=""/>
+	<entry name="AstraMilitarum/SteelLegionHeavyBolterSquadFlavor" value=""/>
 	<entry name="AstraMilitarum/SteelLegionPurgationSquad" value="Steel Legion Purgation Squad"/>
 	<entry name="AstraMilitarum/SteelLegionPurgationSquadDescription" value="Small infantry units armed with flamers that can clear Orkoid Fungus and Forests."/>
 	<entry name="AstraMilitarum/SteelLegionPurgationSquadFlavor" value="Clearing an area of Orks is a long, uphill battle, making it all the more important to make sure they can't return. Armageddon has enough Ork-controlled territory; Purgation Squads ensure Imperial lands and cleansed of filthy Xeno spawners."/>
@@ -48,6 +51,9 @@
 	<entry name="AstraMilitarum/BattalionSteelLegionAutocannonSquad" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionAutocannonSquad'/>s"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionAutocannonSquadDescription" value="<string name='Units/AstraMilitarum/SteelLegionAutocannonSquadDescription'/>"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionAutocannonSquadFlavor" value="<string name='Units/AstraMilitarum/SteelLegionAutocannonSquadFlavor'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionHeavyBolterSquad" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionHeavyBolterSquad'/>s"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionHeavyBolterSquadDescription" value="<string name='Units/AstraMilitarum/SteelLegionHeavyBolterSquadDescription'/>"/>
+	<entry name="AstraMilitarum/BattalionSteelLegionHeavyBolterSquadFlavor" value="<string name='Units/AstraMilitarum/SteelLegionHeavyBolterSquadFlavor'/>"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquad" value="Battalion of <string name='Units/AstraMilitarum/SteelLegionPurgationSquad'/>s"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadDescription" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadDescription'/>"/>
 	<entry name="AstraMilitarum/BattalionSteelLegionPurgationSquadFlavor" value="<string name='Units/AstraMilitarum/SteelLegionPurgationSquadFlavor'/>"/>

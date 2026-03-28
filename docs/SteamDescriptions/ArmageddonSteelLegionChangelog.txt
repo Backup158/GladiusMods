@@ -1,3 +1,9 @@
+# 2026-03-xx
+[list]
+[*] [NEW] Added [b]Steel Legion Heavy Bolter Squad[/b], with custom models and Reinforcements support.
+[*] Added descriptions and fluff for [b]Steel Legion Autocannon Squad[/b].
+[/list]
+
 # 2026-03-28
 [list]
 [*] [NEW] Added custom mesh to [b]Steel Legion Commissar[/b]
