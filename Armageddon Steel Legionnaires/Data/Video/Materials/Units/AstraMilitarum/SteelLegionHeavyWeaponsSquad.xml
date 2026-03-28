@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <material>
 	<textures>
-		<texture name="Units/AstraMilitarum/SteelLegionAutocannonSquadDiffuse"/>
+		<texture name="Units/AstraMilitarum/SteelLegionHeavyWeaponsSquadDiffuse"/>
 		<texture name="Units/AstraMilitarum/HeavyWeaponsSquadNormal"/>
-		<texture name="Units/AstraMilitarum/SteelLegionAutocannonSquadSIC"/>
+		<texture name="Units/AstraMilitarum/SteelLegionHeavyWeaponsSquadSIC"/>
 		<texture name="ShadowMapColor"/>
 	</textures>
 </material>
