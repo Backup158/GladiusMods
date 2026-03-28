@@ -9,13 +9,13 @@
 				</player>
 			</conditions>
 		</produceUnit>
-		<!-- <produceUnit unit="AstraMilitarum/BattalionSteelLegionHeavyBolterSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad">
+		<produceUnit unit="AstraMilitarum/BattalionSteelLegionHeavyBolterSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad">
 			<conditions>
 				<player>
 					<upgrade name="AstraMilitarum/Chimera"/>
 				</player>
 			</conditions>
-		</produceUnit> -->
+		</produceUnit>
 		<produceUnit unit="AstraMilitarum/BattalionSteelLegionPurgationSquad" requiredUpgrade="AstraMilitarum/Housing">
 			<conditions>
 				<player>
