@@ -27,6 +27,13 @@ It skips anything that doesn't have a folder yet, so it makes sure we only do it
 ## Gladius+ Patches
 Only need to overwrite the `<model>` section. Needs to match the models and meshes used so you don't lose things.
 
+Removing extra parts:
+1. Filter search to just ``
+2. Remove regex `<weapons(.|\n)*</traits>`
+2. Remove regex `<responses(.|\n)*</responses>`
+3. Remove regex `<group.*`
+4. Remove `\n\n`
+
 ## Inventory for all Units Patches
 - Can't make extend files for units that already have it (mainly Heroes)
 - Avoid making for units with cargo since the UI will overlap and you need to fix it every time you click off
