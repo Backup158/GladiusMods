@@ -129,6 +129,7 @@
 	<responses>
 		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Attack" soundCount="8"/>
 		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Attack" soundCount="8"/>
+		<action name="UseWeapon/Suppressing" sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Attack" soundCount="8"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Attack" soundCount="8"/>
 		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Move" soundCount="8"/>
 		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Select" soundCount="4"/>
