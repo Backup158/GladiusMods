@@ -2,7 +2,7 @@
 <unit>
 	<model>
 		<unit mesh="Units/AstraMilitarum/SteelLegionAutocannonSquad"
-				material="Units/AstraMilitarum/HeavyWeaponsSquad"
+				material="Units/AstraMilitarum/SteelLegionAutocannonSquad"
 				idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
