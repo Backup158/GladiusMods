@@ -18,6 +18,8 @@ templates_folder='./Inventory for All Units Patches/Backup Units + Inventory for
 slot_amounts=("1" "3" "6")
 destination_a='./Inventory for All Units Patches/Backup Units + Inventory for All Units ('
 destination_b=')/'
+# Gladius+ Patching
+gladiusplus_destination='./Gladius+ Patches/Backup Units Gladius+ Scaling/'
 
 #echo $all_factions
 
@@ -43,6 +45,17 @@ for mod in */ ; do
           file_base_name="$(basename "${file}")"
           echo '      '${file_base_name}
 
+          # ===================================================================
+          # Gladius+ Patch
+          # ===================================================================
+          gladiusplus_final_destination=${gladiusplus_destination}${unit_path_middle}${faction}'/'${file_base_name}'.ext'
+          #echo "${final_destination}"
+          # -n: no clobber, do not overwrite
+          cp -n "$file" "$gladiusplus_final_destination"
+
+          # ===================================================================
+          # Inventory Slots
+          # ===================================================================
           # If the file already contains item slots, do not add more
           # This is where you can also check for if it's a transport, but I already had both in the Fortress of Arrogance
           #     grep -w: match whole word
