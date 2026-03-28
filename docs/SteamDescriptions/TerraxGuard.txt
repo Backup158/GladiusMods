@@ -10,21 +10,20 @@ All units have:
 > [u]Summary Execution[/u]: Members of the Terrax Guard can perform Summary Executions.
 
 [table]
-[tr] 
-[td]T4: [b]Terrax Guardsmen[/b] - Elite infantry geared for close combat. Half the squad is equipped with Meltaguns as special weapons.
+[tr][td]
+T4: [b]Tempestus Scions[/b]
+[/td][td]
+[b]Terrax Guardsmen[/b] - Elite infantry geared for close combat. Half the squad is equipped with Meltaguns as special weapons.
 Like a Commissar but without the Iron Halo ranged damage reduction to keep them in line with Scions.
 [u]Fire Meltaguns[/u]: Fires Meltaguns with a 3 turn cooldown. Has decreased attacks to simulate only half the squad carrying them.
 
-Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[/td]
-[/tr]
-[tr] 
-[td]T4: [b]Terrax Lascannon Squad[/b] - Elite ranged infantry with anti-armour weapons. Can execute troops within 3 tiles, including vehicles. 
+[b]Terrax Lascannon Squad[/b] - Elite ranged infantry with anti-armour weapons. Can execute troops within 3 tiles, including vehicles. 
 [u]Lascannon Execution[/u]: Kills two models instead, but grants the most morale regain of all Terrax infantry squads.
-
-Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b].[/td]
-[/tr]
-[tr] 
-[td]T8: [b]Terrax Storm Troopers[/b] - Elite close combat infantry with volatile anti-armour weapons. Plasma Pistols can be overcharged for further deadly effect. Can inspire and execute adjacent troops, with greater morale gain from executions.
+[/td][/tr]
+[tr][td]
+T8: [b]Hammer of Wrath[/b] and [b]Tempestus Scions[/b]
+[/td][td]
+[b]Terrax Storm Troopers[/b] - Elite close combat infantry with volatile anti-armour weapons. Plasma Pistols can be overcharged for further deadly effect. Can inspire and execute adjacent troops, with greater morale gain from executions.
 Equipped with plasma pistols that are weaker than the Astartes ones[spoiler](-50% damage and -33% attacks, which sounds like a harsh nerf, but remember that you have 8 guys shooting these, compared to the 1 Chaos Lord)[/spoiler].
 [u]Overcharge Plasma Pistol[/u]: Gives [i]Overcharged Weapon[/i] for 1 turn with a 3 turn cooldown.
 [i]Overcharged Weapon[/i]: +33% damage and +2 armour penetration, at the cost of +20% self damage. 
@@ -33,10 +32,7 @@ These exploding pistols do more damage, have more attacks, and have [i]Blast[/i]
 [i]Pistol Thrown[/i]: Makes ranged weapon unavailable to use through accuracy debuffs.
 Has increased ranged damage reduction, but not to the extent of the Iron Halo.
 
-Constructed in the Imperial Barracks after researching [b]Tempestus Scions[/b] and [b]Hammer of Wrath[/b].[/td]
-[/tr]
-[tr] 
-[td]T8: [b]Terrax Colonel[/b] - Elite Hero unit that provides bonuses to nearby allied units, with further effects for members of the Terrax Guard.
+[b]Terrax Colonel[/b] - Elite Hero unit that provides bonuses to nearby allied units, with further effects for members of the Terrax Guard.
 Equipped with a power fist in the left hand. Right hand can swap between a power sword and a 2 range bolt pistol. Has increased ranged damage reduction on top of the Iron Halo.
 By default, can use max rank [u]Summary Execution[/u].
 [u]Colonel's Gaze[/u]: An increased Aura of Discipline. Grants [i]Discipline[/i] to adjacent allied infantry. Grants [i]Colonel's Gaze[/i] to allied infantry within 2 tiles (3 tiles when the ability is fully upgraded).
@@ -46,13 +42,27 @@ By default, can use max rank [u]Summary Execution[/u].
 Gives [i]Marked for Execution[/i] until it is removed by [i]Kill or Be Killed[/i]. -50% health at the start of each turn (so the first tick is after the turn rolls over).
 Gives [i]Kill or Be Killed[/i] for 1 turn. Unit gains gain +[11%, 33%] ranged attacks, +[33%, 100%] melee attacks, and +[1, 3] armour penetration. Members of the Terrax Guard take +50% damage from enemies, since Colonels like to use these orders to get rid of up-and-coming competition. Upon killing an enemy, remove [i]Marked for Execution[/i]. If an enemy is not killed before this effect expires, the health drain will remain. When the ability is fully upgraded, this trait will last for 2 turns.
 [u]Iron Will[/u]: Has a 5 turn cooldown instead.
-
-Constructed in the Shrine of the Aquila after researching [b]Tempestus Scions[/b] and [b]Hammer of Wrath[/b].[/td]
-[/tr]
+[/td][/tr]
 [/table]
 
 No custom models. I'll return when I can export models without fucked up lighting.
 
 [h1]Further details[/h1]
-[h2]Integrated Mod Support[/h2]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it. Uses Lord Commissar lines.
+[h2]Mod Support[/h2]
+[table]
+[tr][th]
+Mod Name
+[/th][th]
+Comments
+[/th][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url] [Integrated]
+[/td][td]
+Load order shouldn't matter but I have this above it. Uses Lord Commissar lines.
+[/td][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851306078]Gladius+[/url]
+[/td][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Patch link[/url]
+[/td][/tr]
+[/table]
