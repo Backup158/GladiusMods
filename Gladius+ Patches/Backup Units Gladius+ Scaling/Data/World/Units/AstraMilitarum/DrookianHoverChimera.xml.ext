@@ -7,10 +7,11 @@
 				idleAnimationCount="2"
 				idleContinuously="1"
 				position="0 0 16"
-				scale="0.69 0.69 0.69" 
+				scale="0.6 0.6 0.6" 
 				explosionsBone="Hull"
 				uvAnimated="0"/>
 	</model> <!-- Scale default is 0.8 0.8 0.8 -->
-	<!-- 
+	<!-- I had set it to 0.69 0.69 0.69 for reuse -->
+	<!-- G+ sets Land Speeder to 0.7 0.7 0.7, so I'll do a bit less -->
 	
 </unit>
