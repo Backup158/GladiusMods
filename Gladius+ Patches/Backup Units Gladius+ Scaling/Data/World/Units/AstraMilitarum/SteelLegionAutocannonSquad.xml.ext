@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/SteelLegionAutocannonSquad"
+				material="Units/AstraMilitarum/SteelLegionAutocannonSquad"
+				idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1 1 1"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+	<group size="4" rowSize="2" memberDeltaX="90" memberDeltaY="100"/>
+	<weapons>
+		<weapon name="SteelLegionAutocannon">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle0"
+						fireInterval="0.67"/>
+			</model>	
+		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHandBone1"/>
+			</model>	
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHandBone1"/>
+			</model>		
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="4"/> <!-- %armor base armor=5+ -->
+				<foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+				<foodCost base="20.0"/> <!-- 15 | %foodCost base tier=5 factor=0.5 -->
+				<hitpointsMax base="4.0"/> <!-- %hitpointsMax base toughness=3 wounds=2 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="2"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<oreCost base="20.0"/> <!-- 15 | %oreCost base tier=5 factor=0.5 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="30.0"/> <!-- 30 | %productionCost base tier=5 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadAttack"
+						beginFire="0.5"
+						endFire="2.4"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadDie"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.55"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
+						beginFire="0.666666666667"/>
+			</model>		
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
+						beginFire="0.666666666667"/>
+			</model>				
+		</throwGrenade>
+	</actions>
+	<traits>
+		<trait name="Bulky"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<trait name="AstraMilitarum/SteelLegion"/>
+		<trait name="AstraMilitarum/ArmageddonDeployment"/>
+		<trait name="AstraMilitarum/ArmageddonDeploymentHealingRate" requiredUpgrade="AstraMilitarum/MediPack"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Attack" soundCount="8"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/HeavyWeapons_Complete" soundCount="1"/>
+	</responses>
+</unit>

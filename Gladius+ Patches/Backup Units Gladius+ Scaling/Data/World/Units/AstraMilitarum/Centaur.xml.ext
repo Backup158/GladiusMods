@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement6">
+	<model>
+		<unit mesh="Units/AstraMilitarum/Chimera"
+				material="Units/AstraMilitarum/Chimera"
+				idleAnimation="Units/AstraMilitarum/ChimeraIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="0.8 0.8 0.8"
+				explosionsBone="Bone"
+				uvAnimated="1"/>
+	</model>
+</unit>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement16">
+	<model>
+		<unit mesh="Units/AstraMilitarum/AttilanRoughRider"
+				material="Units/AstraMilitarum/AttilanRoughRider"
+				scale="0.7 0.7 0.7"
+				idleAnimation="Units/AstraMilitarum/AttilanRoughRiderIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				bloodBone="Rider_Chest"
+				walker="1"/>
+	</model>
+	<group size="5" rowSize="3" memberDeltaX="64" memberDeltaY="64"/>
+	<weapons>
+		<!--
+		<weapon name="HuntingLanceFragTip" slotName="HuntingLanceFragTip">
+			<model>
+				<weapon fireInterval="10"/>
+			</model>	
+		</weapon>
+		<weapon name="HuntingLanceMeltaTip" slotName="HuntingLanceMeltaTip" enabled="0">
+			<model>
+				<weapon fireInterval="10"/>
+			</model>	
+		</weapon>
+		-->
+		<weapon name="AstraMilitarum/PraetorianSabre">
+			<model>
+				<weapon mesh="Weapons/AstraMilitarum/LordCommissarSword"
+						material="Weapons/AstraMilitarum/LordCommissarSword"
+						bone="Rider_Hand_L"
+						fireInterval="1.0"/>
+			</model>
+		</weapon>
+		<weapon name="RollOverThem" slotName="RollOverThem" enabled="0"/>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Rider_Hand_R"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="5"/> <!-- 6 %armor base armor=4+ -->
+				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+				<foodCost base="17.5"/> <!-- 20 %foodCost base tier=6 factor=0.5 -->
+				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
+				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+				<meleeAttacks base="1"/>
+				<strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+				<oreCost base="17.5"/> <!-- 20 %oreCost base tier=6 factor=0.5 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="5"/> <!-- 4 -->
+				<productionCost base="32.0"/> <!-- 36 %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="0.5"/> <!-- Reducing from 1 to discourage AI from using it. I don't think they'll use it properly. -->
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	chargeAnimation="Units/AstraMilitarum/AttilanRoughRiderCharge"
+						meleeAnimation="Units/AstraMilitarum/AttilanRoughRiderMelee"
+						meleeBeginSwing="0.3"
+						meleeEndSwing="0.4"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/AttilanRoughRiderDie"
+						animationCount="2"
+						sound="Units/LargeUnarmoredDie"
+						soundCount="4"
+						soundDelay="1.0"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/AttilanRoughRiderMove"
+						sound="Units/AstraMilitarum/AttilanRoughRiderMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<!--
+		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="HuntingLanceFragTip HuntingLanceMeltaTip"/>
+		-->
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/AttilanRoughRiderGrenade"
+						beginFire="1.4"
+						endFire="1.5"/>
+			</model>				
+		</throwGrenade>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				requiredUpgrade="AstraMilitarum/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="HammerOfWrath" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<!-- Lance Charge -->
+		<!-- Attack then disengage -->
+		<!-- Since I'm using rollOverThem, giving back movement is jank codewise. So I'll just make it free to move after but weaker. -->
+		<!-- Cooldown so it should be stronger than the sabres -->
+		<rollOverThem cooldown="3"
+				consumedMovement="0"
+				name="AstraMilitarum/LanceCharge"
+				icon="Actions/Agile"
+				weaponSlotName="RollOverThem">
+			<model>
+				<action chargeAnimation="Units/AstraMilitarum/AttilanRoughRiderCharge"
+						meleeAnimation="Units/AstraMilitarum/AttilanRoughRiderMelee"
+						meleeBeginSwing="0.3"
+						meleeEndSwing="0.4"
+						bone="Rider_Chest"
+						sound="Units/AstraMilitarum/AttilanRoughRiderMove1"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<damage mul="-0.5"/> <!-- a bunch of horses is like half a tank right (ok really it's just to not have leman russ damage on it) -->
+					</effects>
+				</modifier>
+			</modifiers>
+		</rollOverThem>
+	</actions>
+	<traits>
+		<trait name="Fleet"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="VeryBulky"/>
+		<trait name="AstraMilitarum/Praetorian"/>
+		<trait name="AstraMilitarum/SneeringImperialist"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<!-- <action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/> -->
+		<!-- <action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/> -->
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="RollOverThem" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/> <!-- Copied attack sound -->
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Complete" soundCount="1"/>
+	</responses>
+</unit>

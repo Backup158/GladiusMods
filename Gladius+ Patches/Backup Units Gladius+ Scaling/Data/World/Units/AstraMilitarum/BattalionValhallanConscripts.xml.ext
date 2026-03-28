@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnDistanceMin="6">
+	<model>
+		<unit mesh="Units/ChaosSpaceMarines/ChaosCultist"
+				material="Units/ChaosSpaceMarines/ChaosCultist"
+				idleAnimation="Units/ChaosSpaceMarines/ChaosCultistIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.75 0.75 0.75"
+				bloodBone="Bone001"
+				walker="1"/>
+	</model>
+	<!-- .8 .8 .8 -->
+	<!-- was 10, 12 group -->
+	<group size="24" rowSize="6" memberDeltaX="50" memberDeltaY="40"/>
+	<weapons>
+		<weapon name="Laspistol">
+ 			<model>
+				<beamWeapon mesh="Weapons/ChaosSpaceMarines/Autopistol"
+						material="Units/ChaosSpaceMarines/ChaosCultist"
+						bone="Bone006"
+						muzzleBone=".Muzzle"
+						fireInterval="0.25"/>
+			</model>
+		</weapon>
+		<weapon name="CloseCombatWeapon">
+ 			<model>
+				<weapon fireInterval="0.5"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="1"/> <!-- 2 | %armor base armor=6+ -->
+				<hitpointsMax base="1.5"/> <!-- 2.0 %hitpointsMax base toughness=3 wounds=1 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="1"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<moraleMax base="4"/> <!-- %moraleMax base leadership=5 -->
+				<movementMax base="3"/>
+				<productionCost base="54.0"/> <!-- %productionCost base tier=4 factor=1 -->
+				<rangedAccuracy base="5"/> <!-- 6 | %rangedAccuracy base ballisticSkill=3 -->
+				<foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+				<foodCost base="75"/> <!-- 10, 12.5; 60, 75 | %foodCost base tier=4 factor=0.5 -->
+				<oreCost base="18.0"/> <!-- 10, 3; 60, 18 | %oreCost base tier=4 factor=0.5 -->
+				<influenceUpkeep base="6.0"/> <!-- steals money unless commissar is near (in trait) -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.7"
+						endFire="1.8"
+						chargeAnimation="Units/ChaosSpaceMarines/ChaosCultistCharge"
+						chargeBeginFire="0.7"
+						chargeEndFire="1.2"
+						meleeAnimation="Units/ChaosSpaceMarines/ChaosCultistMelee"
+						meleeBeginSwing="0.2"
+						meleeEndSwing="0.9"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistDie"
+						animationCount="2"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.35"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<!-- nades have higher cd and cost-->
+		<!-- this is to make a price for the higher group size -->
+		<!-- like they're not normally armed with grenades and a special order needs to be made -->
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="15"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<oreCost base="20"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="15"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<oreCost base="20"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+	</actions>
+	<traits>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+
+		<trait name="AstraMilitarum/Valhallan"/>
+		<trait name="AstraMilitarum/Conscripts"/>
+		<!-- Reinforcements -->
+		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
+		<!-- <trait name="AstraMilitarum/BattalionGuardman"/> -->
+		<trait name="Orks/MOAR2Boy"/> <!-- feels more appropriate. doesn't give an hp buff lol -->
+		<trait name="Bulky"/>
+	</traits>
+	<!-- Too Many Voices compatibility -->
+	<responses>
+		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Ability_Med" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Complete" soundCount="1"/>
+	</responses>
+</unit>
