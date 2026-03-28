@@ -1,6 +1,7 @@
 # 2026-03-xx
 [list]
 [*] [NEW] Added [b]Steel Legion Heavy Bolter Squad[/b], with custom models and Reinforcements support.
+[*] [REBALANCE] Reduced costs for [b]Steel Legion Autocannon Squad[/b] to match Heavy Weapons Teams
 [*] Added descriptions and fluff for [b]Steel Legion Autocannon Squad[/b].
 [/list]
 
