@@ -11,4 +11,9 @@
 	<entry name="HotShotLasgunArrayFlavor" value="<string name='Weapons/LasFlavor'/>"/> <!-- lasgun, lasgun array, and hotshot lasgun use this -->
 	<entry name="SteelLegionAutocannon" value="Voss Autocannon"/>
 	<entry name="SteelLegionAutocannonFlavor" value="Typically mounted on vehicles, autocannons are large autoguns capable of firing a variety of large munitions. While a sole Space Marine can wield one, it teams a team of Guardsmen to operate even a mounted autocannon. The forces of Armageddon, in their constant battles with the Orks, need weapons capable of taking on massive hordes, tanks, and skimming helicopters. The Adeptus Mechanicus on the Forge World of Voss posseses an STC hidden from their peers, which allows them to produce compact autocannons from scavenged, damaged autocannons."/>
+	<entry name="SteelLegionHeavyBolter" value="Heavy Bolter"/>
+	<entry name="SteelLegionHeavyBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="SteelLegionHeavyBolterSuppressing" value="Lay Down Suppressing Fire"/>
+	<entry name="SteelLegionHeavyBolterSuppressingDescription" value="Fires Pinning shots at greater range, with greatly reduced damage."/>
+	<entry name="SteelLegionHeavyBolterSuppressingFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
 </language>
