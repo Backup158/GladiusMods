@@ -25,6 +25,8 @@
 				<damage mul="0.17"/>
 			</effects>
 		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
 		<!-- Loses Morale near non-Drookians -->
 		<modifier>
 			<conditions>
@@ -53,5 +55,5 @@
 				<morale add="1"/>
 			</effects>
 		</modifier>
-	</modifiers>
+	</perTurnModifiers>
 </trait>
