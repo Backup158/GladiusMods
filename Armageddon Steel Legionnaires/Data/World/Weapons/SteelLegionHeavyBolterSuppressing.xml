@@ -7,7 +7,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="1"/> <!-- Was 3 bc vehicle mounted -->
+				<attacks add="1.5"/> <!-- Was 3 bc vehicle mounted -->
 				<rangedArmorPenetration add="2"/> <!-- 2, Regular bolter is 1 | %rangedArmorPenetration add armorPiercing=4 -->
 				<rangedDamage add="0.67"/> <!-- 2, Regular bolter is 1.5, point is you just spray to kill OW but do less damage | %rangedDamage add strength=5 -->
 				<strengthDamage base="0"/>
