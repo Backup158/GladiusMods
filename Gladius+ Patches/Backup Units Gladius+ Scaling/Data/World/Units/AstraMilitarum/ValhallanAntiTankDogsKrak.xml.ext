@@ -3,7 +3,7 @@
 	<model>
 		<unit mesh="Units/Neutral/KrootHound"
 				material="Units/Neutral/KrootHound"
-				scale="1.0 1.0 1.0"
+				scale="0.61 0.61 0.61"
 				idleAnimation="Units/Neutral/KrootHoundIdle"
 				idleAnimationCount="4"
 				idleContinuously="1"
