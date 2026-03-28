@@ -19,3 +19,17 @@ Using the Guardsman is an example
     - Strength in numbers
     - Battalion trait (attacks/hp buff)
     - Bulky --> VeryBulky --> SuperBulky
+
+# Scripted Patches
+Done with my `ListUnits_Backup.sh` script.
+
+It skips anything that doesn't have a folder yet, so it makes sure we only do it to custom factions I was just trying to patch.
+## Gladius+ Patches
+Only need to overwrite the `<model>` section. Needs to match the models and meshes used so you don't lose things.
+
+## Inventory for all Units Patches
+- Can't make extend files for units that already have it (mainly Heroes)
+- Avoid making for units with cargo since the UI will overlap and you need to fix it every time you click off
+I don't care about the UI overlap so I do it anyways
+
+I also made a template for Reinforcements that doubles their inventories
