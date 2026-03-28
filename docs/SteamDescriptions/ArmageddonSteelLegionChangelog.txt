@@ -1,8 +1,8 @@
 # 2026-03-xx
 [list]
 [*] [NEW] Added [b]Steel Legion Heavy Bolter Squad[/b], with custom models and Reinforcements support.
-[*] [REBALANCE] Reduced costs for [b]Steel Legion Autocannon Squad[/b] to match Heavy Weapons Teams
-[*] Reworked mesh and textures for [b]Steel Legionnaires[/b] and [b]Steel Legion Purgation Squads[/b]
+[*] [REBALANCE] Reduced costs for [b]Steel Legion Autocannon Squad[/b] to match Heavy Weapons Teams.
+[*] Reworked mesh and textures for [b]Steel Legionnaires[/b] and [b]Steel Legion Purgation Squads[/b].
 [*] Added descriptions and fluff for [b]Steel Legion Autocannon Squad[/b].
 [/list]
 
