@@ -5,7 +5,7 @@
 [*] Renamed [i]Dragoon Heavy Training[/i] to [i]Dragoon Heavies[/i]
 [*] [REBALANCE] [i]Dragoon Heavies[/i] is split. Instead of a straight up +33% at first, it's 17% then 16% with [b]Improved Frag Casings[/b]. It still gets cancelled out with [b]Hammer of Wrath[/b]
 [*] [FIX] [i]Dragoon Heavies[/i] now properly applies to heavy weapons
-[*] Redrew icons for [b]Steel Legionnaires[/b] and [b]Steel Legion Purgation Squad[/b]s. The goggles were a bit ugly before, and they're on the eyes for the purgation squads.
+[*] Redrew icons for [b]Steel Legionnaires[/b] and [b]Steel Legion Purgation Squad[/b]s. The goggles were a bit odd before, and the purgation squads have the goggles on their eyes now.
 [/list]
 
 # 2026-03-21
