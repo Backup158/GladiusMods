@@ -3,7 +3,7 @@
 	<model>
 		<unit mesh="Units/AstraMilitarum/AttilanRoughRider"
 				material="Units/AstraMilitarum/AttilanRoughRider"
-				scale="0.7 0.7 0.7"
+				scale="0.41 0.41 0.41"
 				idleAnimation="Units/AstraMilitarum/AttilanRoughRiderIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
