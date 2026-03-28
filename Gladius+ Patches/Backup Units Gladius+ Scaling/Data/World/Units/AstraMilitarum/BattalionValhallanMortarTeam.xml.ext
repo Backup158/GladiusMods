@@ -7,10 +7,11 @@
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="0.5 0.5 0.5"
+				scale="0.41 0.41 0.41"
 				explosionsBone="Gun"
 				walker="1"/>
 	</model>
-	<!-- was 0.8 0.8 0.8, 0.6 0.6 0.6; 0.7 0.7 0.7 -->
-	<!-- was group size 2, 4-->
+	<!-- was 0.8 0.8 0.8 -->
+	<!-- I set it as 0.5 0.5 0.5 to reuse the FOB model -->
+	<!-- For G+ gonna use the default -->
 </unit>
