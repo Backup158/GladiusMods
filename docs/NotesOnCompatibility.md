@@ -32,7 +32,7 @@ Removing extra parts:
 2. Remove regex `<weapons(.|\n)*</traits>`
 2. Remove regex `<responses(.|\n)*</responses>`
 3. Remove regex `<group.*`
-4. Remove `\n\n`
+4. Remove `\n\s\n\s`
 
 ## Inventory for all Units Patches
 - Can't make extend files for units that already have it (mainly Heroes)
