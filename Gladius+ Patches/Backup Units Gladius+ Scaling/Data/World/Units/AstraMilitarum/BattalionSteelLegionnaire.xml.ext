@@ -11,6 +11,6 @@
 				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
-	<group size="16" rowSize="4" memberDeltaX="50" memberDeltaY="40"/>
+	
 	
 </unit>

@@ -11,6 +11,6 @@
 				explosionsBone="Gun"
 				walker="1"/>
 	</model> <!-- .8 .8 .8-->
-	<group size="3" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
+	
 	
 </unit>

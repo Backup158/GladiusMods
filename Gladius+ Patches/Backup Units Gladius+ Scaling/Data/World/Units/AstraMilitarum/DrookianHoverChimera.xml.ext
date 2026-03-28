@@ -11,6 +11,6 @@
 				explosionsBone="Hull"
 				uvAnimated="0"/>
 	</model> <!-- Scale default is 0.8 0.8 0.8 -->
-	<!-- <group size="2" rowSize="2" memberDeltaX="80" memberDeltaY="110"/> -->
+	<!-- 
 	
 </unit>

@@ -10,7 +10,7 @@
 				explosionsBone="Hull"
 				uvAnimated="1"/>
 	</model>
-	<group size="2" rowSize="2" memberDeltaX="64" memberDeltaY="110"/>
+	
 	<weapons>
 		<weapon name="InfernoCannon">
 			<model>

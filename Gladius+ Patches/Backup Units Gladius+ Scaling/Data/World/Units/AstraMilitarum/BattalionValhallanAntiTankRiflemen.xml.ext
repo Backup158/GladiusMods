@@ -13,6 +13,6 @@
 	</model>
 	<!-- HWT are 4 by default -->
 	<!-- 6 -->
-	<group size="12" rowSize="4" memberDeltaX="50" memberDeltaY="40"/>
+	
 	
 </unit>

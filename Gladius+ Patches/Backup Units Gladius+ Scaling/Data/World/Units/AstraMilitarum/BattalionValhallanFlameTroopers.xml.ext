@@ -12,6 +12,6 @@
                                 walker="1"/>
         </model>
         <!-- Decreased group size from 8 to 6 -->
-        <group size="16" rowSize="4" memberDeltaX="50" memberDeltaY="40"/>
+        
         
 </unit>
