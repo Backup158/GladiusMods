@@ -13,6 +13,26 @@ No custom models. I don't have the time to put into learning Blender at the mome
 [h2]Lore and Inspiration[/h2]
 While I took inspiration from the existing lore, I leaned a lot more into the World War 2 era Red Army aspects. Further details [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488014/]in the thread[/url].
 
-[h2]Integrated Mod Support[/h2]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url]: Load order shouldn't matter but I have this above it.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url]: Load order doesn't matter.
+[h2]Mod Support[/h2]
+[table]
+[tr][th]
+Mod Name
+[/th][th]
+Comments
+[/th][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url] [Integrated]
+[/td][td]
+Load order shouldn't matter but I have this above it.
+[/td][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url] [Integrated]
+[/td][td]
+Load order doesn't matter.
+[/td][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851306078]Gladius+[/url]
+[/td][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Patch link[/url]
+[/td][/tr]
+[/table]
