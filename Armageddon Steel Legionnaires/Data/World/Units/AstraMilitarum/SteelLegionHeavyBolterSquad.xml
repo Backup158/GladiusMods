@@ -108,7 +108,7 @@
 		</throwGrenade>
 		<useWeapon consumedActionPoints="1"
 				weaponSlotName="Suppressing"
-				icon="Weapons/SteelLegionHeavyBolterSuppressing">
+				icon="Traits/Barrage">
 			<model>
 				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadAttack"
 						beginFire="0.5"
