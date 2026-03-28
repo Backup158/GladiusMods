@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon>
+<weapon icon="Weapons/Autocannon">
 	<model>
 		<projectileWeapon fireSound="Weapons/Autocannon"
 				fireSoundCount="5"
@@ -8,7 +8,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="1"/>
+				<attacks add="1.33"/> <!-- Was 2 because vehicles -->
 				<rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
 				<rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
 				<strengthDamage base="0"/>

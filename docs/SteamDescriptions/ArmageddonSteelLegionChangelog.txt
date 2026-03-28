@@ -1,8 +1,11 @@
 # 2026-03-xx
 [list]
 [*] [NEW] Added custom mesh to [b]Steel Legion Commissar[/b]
-[*] [NEW] Added [b]Steel Legion Autocannon Squad[/b], with custom models
-[*] [REBALANCE] [i]Dragoon Heavy Training[/i] is split. Instead of a straight up +33% at first, it's 17% then 16% with [b]Improved Frag Casings[/b]. It still gets cancelled out with [b]Hammer of Wrath[/b]
+[*] [NEW] Added [b]Steel Legion Autocannon Squad[/b], with custom models (plus Reinforcements support)
+[*] Renamed [i]Dragoon Heavy Training[/i] to [i]Dragoon Heavies[/i]
+[*] [REBALANCE] [i]Dragoon Heavies[/i] is split. Instead of a straight up +33% at first, it's 17% then 16% with [b]Improved Frag Casings[/b]. It still gets cancelled out with [b]Hammer of Wrath[/b]
+[*] [FIX] [i]Dragoon Heavies[/i] now properly applies to heavy weapons
+[*] Redrew icons for [b]Steel Legionnaires[/b] and [b]Steel Legion Purgation Squad[/b]s. The goggles were a bit ugly before, and they're on the eyes for the purgation squads.
 [/list]
 
 # 2026-03-21

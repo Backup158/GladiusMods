@@ -15,8 +15,8 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRate" value="Armageddon Readiness"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateDescription" value="Increases the healing rate when this unit is embarked in a vehicle."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHealingRateFlavor" value="Making it into the transport shields you from small arms fire, but it won't stop the bleeding. Having spent so much time cooped up in a Chimera, Steel Legionnaires have learned how to use first aid kits more efficiently in tight spaces."/>
-	<entry name="AstraMilitarum/ArmageddonDeploymentHeavyWeapons" value="Dragoon Heavy Training"/>
-	<entry name="AstraMilitarum/ArmageddonDeploymentHeavyWeaponsDescription" value="Increases accuracy of Heavy weapons after moving. After further research, the debuff is fully counteracted."/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentHeavyWeapons" value="Dragoon Heavies"/>
+	<entry name="AstraMilitarum/ArmageddonDeploymentHeavyWeaponsDescription" value="Increases accuracy of Heavy weapons after moving. After further research, the debuff is reduced, until it eventually fully counteracted."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentHeavyWeaponsFlavor" value="Heavy Weapons Squads need time to set up their emplacements. Time is seldom a luxury the Guard has; in the world of mechanised infantry, it is even scarcer. Novice crews are often cut down by entrenched enemy gunners, while veteran crews have the experience to deploy their weapons rapidly enough to suppress enemy lines."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentAccuracy" value="Steady Deployment"/>
 	<!-- <entry name="AstraMilitarum/ArmageddonDeploymentAccuracyDescription" value="Increases ranged accuracy."/> -->
