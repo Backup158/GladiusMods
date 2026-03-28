@@ -6,17 +6,21 @@ From the Shrine World of Maccabeus Quintus, voidships arrive on Gladius Prime, b
 Some abbreviations are used. They are explained [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488070/]in this thread[/url].
 
 [table]
-[tr]
-[th]Research Requirement[/th]
-[th]Units Added[/th]
-[td]T8 [b]Relic Plating[/b][/td][td][b]Maccabian Janissaries[/b] - Elite infantry equipped with heavy-duty lasguns, with half the squad holstering versatile grenade launchers. Unit needs to pray to remain effective. Specialised against the forces of Chaos.
+[tr][th]
+Research Requirement
+[/th][th]
+Units Added
+[/th][/tr]
+[tr][td]
+T8 [b]Relic Plating[/b]
+[/td][td]
+[b]Maccabian Janissaries[/b] - Elite infantry equipped with heavy-duty lasguns, with half the squad holstering versatile grenade launchers. Unit needs to pray to remain effective. Specialised against the forces of Chaos.
 To be a [i]Maccabian Janissary[/i] is to despise the archenemy. When facing the forces of Chaos, Janissaries have steadied aim, though the enemy retaliates with great ferocity[spoiler](+17% accuracy when shooting them, but +17% damage taken)[/spoiler]. In battle, lines of Janissaries march forward, forming a carapace wall of death[spoiler](When adjacent to one unit with [i]Maccabian Janissary[/i], gain +17% ranged accuracy; when adjacent to two, gain +10% ranged attacks)[/spoiler]. When holding the line, their sacred discipline lets them deliver a flurry of las bolts[spoiler](If unit has not moved, Rapid Fire applies at range 2)[/spoiler].
 On construction, Janissaries are affected by [i]Warp Travel Sickness[/i][spoiler](-67% movement and -50% accuracy)[/spoiler], which is removed upon praying. This is simply to enforce the prayer requirement. It will not return after the first prayer. Speaking of which... 
 [u]Pray[/u]: Spends an action to praise the Emperor. Grants [i]Prayed[/i] for 4 turns, holy protection for one turn[spoiler]([i]Intercession of Saint Drusus[/i]: 67% WDR, 33% RDR, and 17% MDR)[/spoiler], and a small amount of morale. Use this ability to maintain the effects of [i]Prayed[/i], lest you suffer the Emperor's Judgement[spoiler](upon letting [i]Prayed[/i] decay, lose all morale and half the squad)[/spoiler]. There's not much visual feedback on this so right now, you just need to keep an eye on the trait. I'm looking into that.
 While praying is its own reward, the God-Emperor rewards His followers with protection[spoiler]([i]Prayed[/i]: +2 max morale, +17% FNP, and +33% WDR)[/spoiler].
 [u]Use Grenade Launcher[/u]: Fire grenade launchers, using the specified ammo type. Krak for anti-armour, frag for anti-infantry on open ground, and immolation for anti-infantry in cover. Only half the squad carries grenade launchers, but the blessed explosives are more effective than typical[spoiler](halved attacks but doubled damage)[/spoiler]. Each ammo is on a shared cooldown of 3 turns.
-[/td]
-[/tr]
+[/td][/tr]
 [/table]
 
 No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
