@@ -6,7 +6,9 @@ From the Shrine World of Maccabeus Quintus, voidships arrive on Gladius Prime, b
 Some abbreviations are used. They are explained [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287488070/]in this thread[/url].
 
 [table]
-[tr] 
+[tr]
+[th]Research Requirement[/th]
+[th]Units Added[/th]
 [td]T8 [b]Relic Plating[/b][/td][td][b]Maccabian Janissaries[/b] - Elite infantry equipped with heavy-duty lasguns, with half the squad holstering versatile grenade launchers. Unit needs to pray to remain effective. Specialised against the forces of Chaos.
 To be a [i]Maccabian Janissary[/i] is to despise the archenemy. When facing the forces of Chaos, Janissaries have steadied aim, though the enemy retaliates with great ferocity[spoiler](+17% accuracy when shooting them, but +17% damage taken)[/spoiler]. In battle, lines of Janissaries march forward, forming a carapace wall of death[spoiler](When adjacent to one unit with [i]Maccabian Janissary[/i], gain +17% ranged accuracy; when adjacent to two, gain +10% ranged attacks)[/spoiler]. When holding the line, their sacred discipline lets them deliver a flurry of las bolts[spoiler](If unit has not moved, Rapid Fire applies at range 2)[/spoiler].
 On construction, Janissaries are affected by [i]Warp Travel Sickness[/i][spoiler](-67% movement and -50% accuracy)[/spoiler], which is removed upon praying. This is simply to enforce the prayer requirement. It will not return after the first prayer. Speaking of which... 

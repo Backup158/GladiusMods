@@ -10,6 +10,10 @@ All units have:
 > [u]Summary Execution[/u]: Members of the Terrax Guard can perform Summary Executions.
 
 [table]
+[tr]
+[th]Research Requirement[/th]
+[th]Units Added[/th]
+[/tr]
 [tr][td]
 T4: [b]Tempestus Scions[/b]
 [/td][td]
