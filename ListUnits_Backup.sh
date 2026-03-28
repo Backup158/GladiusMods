@@ -50,8 +50,9 @@ for mod in */ ; do
           # ===================================================================
           gladiusplus_final_destination=${gladiusplus_destination}${unit_path_middle}${faction}'/'${file_base_name}'.ext'
           #echo "${final_destination}"
-          # -n: no clobber, do not overwrite
-          cp -n "$file" "$gladiusplus_final_destination"
+          # --update=none: do not overwrite
+          # -n: no clobber, do not overwrite (not portable)
+          cp --update=none "$file" "$gladiusplus_final_destination"
 
           # ===================================================================
           # Inventory Slots
