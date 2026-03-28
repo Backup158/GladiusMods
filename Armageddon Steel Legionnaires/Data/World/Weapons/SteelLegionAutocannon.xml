@@ -8,7 +8,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="1.33"/> <!-- Was 2 because vehicles -->
+				<attacks add="1.5"/> <!-- Was 2 because vehicles -->
 				<rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
 				<rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
 				<strengthDamage base="0"/>
