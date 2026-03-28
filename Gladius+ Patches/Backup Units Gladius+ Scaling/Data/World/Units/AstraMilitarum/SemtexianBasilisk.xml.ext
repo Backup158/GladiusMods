@@ -5,7 +5,7 @@
 				material="Units/AstraMilitarum/Basilisk"
 				idleAnimation="Units/AstraMilitarum/BasiliskIdle"
 				idleAnimationCount="2"
-				scale="1.2 1.2 1.2"
+				scale="1.0 1.0 1.0"
 				explosionsBone="Hull001"
 				uvAnimated="1"/>
 	</model>
