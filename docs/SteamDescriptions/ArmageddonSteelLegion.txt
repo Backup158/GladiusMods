@@ -77,7 +77,7 @@ All units require [b]Chimera[/b] on top of the listed research.
 
 Most still don't have custom models, as I'm still learning Blender. The shadows are gross because of that. I don't know how to fix that without redoing everything and I'd rather die.
 
-[h1]Further details[/h1]
+[h1]Further Details[/h1]
 Assault Pack DLC ([b]Hard Requirement[/b]): Chimera research
 Reinforcements DLC: Tempestus Scions research
 
@@ -102,7 +102,7 @@ Load order shouldn't matter but I have this above it. Voices used are listed in 
 Load order doesn't matter.
 [/td][/tr]
 [tr][td]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Gladius+[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851306078]Gladius+[/url]
 [/td][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Patch link[/url]
 [/td][/tr]
