@@ -1,11 +1,87 @@
-Adds various infantry of the Valhallan Ice Warriors to the Astra Militarum. 
+Adds the infantry hordes of the Valhallan Ice Warriors to the Astra Militarum. 
 
 From the frozen world of Valhalla, the Ice Warriors arrive on Gladius Prime. A wave of men facing the waves of xenos, these troopers are ardent defenders, fighting to the last in the face of insurmountable odds.
 When comets irreversibly shifted the planet climate to an unending winter, Valhallans were forced to adapt. Society moved into mountainous caves, many of which were connected to sprawling underground caverns. However, they had little time to adjust to this new life before the Orks landed, sparking a long, bloody struggle. Valhallans had to fight both the Greenskins and Mother Nature; in the recently emerged harsh winters, they found strength in each other. Fighting shoulder-to-shoulder until the bitter end was their primary strategy against the Orkish hordes, which also happened to be a good strategy for keeping warm.
 From these early struggles, the Valhallan Ice Warriors were born. The backbone of their strategy is drowning the enemy in corpses, after softening them up with artillery. Valhallans are stronger and braver in large numbers.
 
 [h1]Units added[/h1]
-Due to the Steam Workshop text limit, these will be written [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287487843/]in this thread[/url].
+Due to text limits, specific buff values are listed in [url=https://steamcommunity.com/workshop/filedetails/discussion/3670340394/767437030287487843/]in this thread[/url].
+
+Valhallans are experts of Arctic warfare, making them hardier in those environments but weaker in oppressively hot locales. Through tradition, they are more stubborn than typical Guardsmen, and their history lends to increased anti-Ork effectiveness. With tough times and corruption, the Ice Warriors come with brittle armour, but they compensate it by making better usage of urban cover.
+While they rarely retreat, losing comrades significantly reduces their combat effectiveness. Most of these units should not be isolated.
+
+[table]
+[tr]
+[th]Research Requirement[/th]
+[th]Units Added[/th]
+[/tr]
+[tr][td]
+T0
+[/td][td]
+[b]Valhallan Guardsmen[/b] - Light infantry unit that specialises in defending cities and in mass infantry assaults. Has [i]Massed Infantry[/i].
+[/td][/tr]
+[tr][td]
+T1: Ratling
+[/td][td]
+[b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare, armed with high-power longlases.
+[/td][/tr]
+[tr][td]
+T1: Shrine of the Aquila
+[/td][td]
+[b]Valhallan Commissar[/b] - Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade. On top of executing Guardsmen, they can deploy units that maintain morale.
+[/td][/tr]
+[tr][td]
+T1: Vox-Caster
+[/td][td]
+[b]Valhallan Conscripts[/b] - Weak, cheap infantry unit available in great numbers, whose deaths do not affect allied morale. Unit must pay Ore to use grenades and misbehaves when away from Commissars. Has [i]Massed Infantry[/i].
+[/td][/tr]
+[tr][td]
+T2: Heavy Weapons Squad
+[/td][td]
+[b]Valhallan Anti-Tank Rifle Squad[/b] - Infantry unit armed with semi-automatic anti-tank rifles. Has [i]Massed Infantry[/i].
+[b]Valhallan Heavy Stubber Squad[/b] - Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. Has [i]Massed Infantry[/i].
+[/td][/tr]
+[tr][td]
+T2: Hab Block
+[/td][td]
+[b]Valhallan Flame Troopers[/b] - Light infantry unit armed with flamers. Has [i]Massed Infantry[/i].
+[/td][/tr]
+[tr][td]
+T3: Field Ordnance Batteries
+[/td][td]
+[b]Valhallan Mortar Team[/b] - Infantry unit armed with versatile artillery. Has [i]Massed Infantry[/i].
+[/td][/tr]
+[tr][td]
+T3: Agronomic Surge
+[/td][td]
+[b]Valhallan Hound Masters[/b] - Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. Has [i]Massed Infantry[/i].
+[/td][/tr]
+[tr][td]
+T4: Substructure Expansion
+[/td][td]
+[b]Valhallan Marshal[/b] - Hero unit that provides buffs to allied infantry on the defence, with increased bonuses for Valhallans.
+[/td][/tr]
+[tr][td]
+T4: Tempestus Scion
+[/td][td]
+[b]Valhallan Shock Army Troopers[/b] - Elite shock infantry unit armed with bayonets. Effective against enemies in urban environments, especially light infantry.
+[/td][/tr]
+[tr][td]
+T6: Improved Frag Casings
+[/td][td]
+Unlocks Melta Bomb related abilities.
+[/td][/tr]
+[tr][td]
+T7: Voidport
+[/td][td]
+[b]Night Witches[/b] - Light bomber Hero that harasses enemy infantry and bombards Fortifications and Vehicles.
+[/td][/tr]
+[tr][td]
+T8: Hammer of Wrath
+[/td][td]
+[b]Valhallan Veteran Frontoviki[/b] - Elite infantry unit armed with bayonets, melta bombs, and anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving.
+[/td][/tr]
+[/table]
 
 No custom models. I don't have the time to put into learning Blender at the moment.
 
