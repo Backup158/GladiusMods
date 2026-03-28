@@ -35,7 +35,7 @@ Only need to overwrite the `<model>` section. Needs to match the models and mesh
 4. Remove `\n\s\n\s`
 
 ### Shortcuts
-Replacing for humans: swap `scale="1 1 1"` for `scale="0.41 0.41 0.41"`
+Replacing for humans: swap `scale="1 1 1"` for `scale="0.41 0.41 0.41"`. Reinforcements may be `scale="0.75 0.75 0.75"`.
 
 Field Ordnance Batteries and Chaos Cultists are `scale="0.8 0.8 0.8"`, so watch out
 
