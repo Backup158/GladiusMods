@@ -37,6 +37,8 @@ Only need to overwrite the `<model>` section. Needs to match the models and mesh
 ### Shortcuts
 Replacing for humans: swap `scale="1 1 1"` for `scale="0.41 0.41 0.41"`
 
+Field Ordnance Batteries and Chaos Cultists are `scale="0.8 0.8 0.8"`, so watch out
+
 ## Inventory for all Units Patches
 - Can't make extend files for units that already have it (mainly Heroes)
 - Avoid making for units with cargo since the UI will overlap and you need to fix it every time you click off
