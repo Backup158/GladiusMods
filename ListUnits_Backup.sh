@@ -20,6 +20,7 @@ destination_a='./Inventory for All Units Patches/Backup Units + Inventory for Al
 destination_b=')/'
 # Gladius+ Patching
 gladiusplus_destination='./Gladius+ Patches/Backup Units Gladius+ Scaling/'
+gladiusplus_nonmodel_text_regex='<weapons>(.|\s)*<\/responses>'
 
 #echo $all_factions
 
@@ -53,6 +54,9 @@ for mod in */ ; do
           # --update=none: do not overwrite
           # -n: no clobber, do not overwrite (not portable)
           cp --update=none "$file" "$gladiusplus_final_destination"
+          # Removes all the things outside the essentials, and the <model></model> stuff
+          #gladiusplus_sed_arg='s/'${gladiusplus_nonmodel_text_regex}'//g'
+          #sed -i $gladiusplus_sed_arg "$gladiusplus_final_destination"
 
           # ===================================================================
           # Inventory Slots
