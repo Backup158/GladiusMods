@@ -1,0 +1,24 @@
+Scales my custom units to match Gladius+.
+
+[h1]Based on[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851306078]Gladius+[/url]
+
+[h1]Units Scaled[/h1]
+This affects every mod that can be found in my [url=https://steamcommunity.com/workshop/filedetails/?id=3635087368]Backup Units[/url] collection.
+
+[h1]Load Order and Requirements[/h1]
+This patch should work anywhere, but I place it before (i.e. visually higher) than my units. You don't need to use all of my units; it will just patch whichever ones you use. If you don't use all my mods, there will be some errors in the logs and Compendium, but you can ignore those.
+This patch's location in relation to Gladius+ doesn't matter.
+Such as
+[code]
+...
+Backup Units Gladius+ Patch
+...
+Armageddon Steel Legion
+Praetorian Guard
+...
+Gladius+
+...
+[/code]
+
+Technically, this doesn't require Gladius+, but using this without them doesn't make sense lol.
