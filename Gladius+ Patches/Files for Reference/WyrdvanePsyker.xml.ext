@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/WyrdvanePsyker"
+				material="Units/AstraMilitarum/WyrdvanePsyker"
+				scale="0.41 0.41 0.41"
+				position="0 0 -4"
+				idleAnimation="Units/AstraMilitarum/WyrdvanePsykerIdle"
+				idleAnimationCount="2"
+				idleContinuously="1"
+				normalWeight="0.1"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+</unit>

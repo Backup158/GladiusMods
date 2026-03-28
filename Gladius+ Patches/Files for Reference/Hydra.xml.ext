@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/AstraMilitarum/Hydra"
+				material="Units/AstraMilitarum/Hydra"
+				idleAnimation="Units/AstraMilitarum/HydraIdle"
+				idleAnimationCount="2"
+				scale="1 1 1"
+				explosionsBone="Hull"
+				uvAnimated="1"/>
+	</model>
+</unit>

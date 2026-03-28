@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement12">
+	<model>
+		<unit mesh="Units/AstraMilitarum/RogalDornBattleTank"
+				material="Units/AstraMilitarum/RogalDornBattleTank"
+				idleAnimation="Units/AstraMilitarum/RogalDornBattleTankIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="1.37 1.37 1.37"
+				explosionsBone="Hull_Shake"
+				uvAnimated="1"/>
+	</model>
+</unit>
