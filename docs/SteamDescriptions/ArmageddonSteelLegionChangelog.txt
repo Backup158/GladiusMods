@@ -1,4 +1,4 @@
-# 2026-03-xx
+# 2026-03-28
 [list]
 [*] [NEW] Added custom mesh to [b]Steel Legion Commissar[/b]
 [*] [NEW] Added [b]Steel Legion Autocannon Squad[/b], with custom models (plus Reinforcements support)

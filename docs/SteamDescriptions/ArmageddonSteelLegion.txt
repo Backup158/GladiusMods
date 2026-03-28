@@ -75,7 +75,7 @@ All units require [b]Chimera[/b] on top of the listed research.
 [/tr]
 [/table]
 
-Most still don't have custom models, as I'm still learning Blender
+Most still don't have custom models, as I'm still learning Blender. The shadows are gross because of that. I don't know how to fix that without redoing everything and I'd rather die.
 
 [h1]Further details[/h1]
 Assault Pack DLC ([b]Hard Requirement[/b]): Chimera research
