@@ -1,4 +1,20 @@
+[table]
+[tr][td]Malaikat[/td][td]
+For figuring out how to have multiple research requirements (and many other gameplay feature implementations)
+[/td][/tr]
+[tr][td]TOFFster and amorgun[/td][td]
+For their respective Blender import scripts
+[/td][/tr]
+[tr][td]Proxy Studios and Qai[/td][td]
+For the Blender export scripts. Oh, and Proxy made this game too
+[/td][/tr]
+[tr][td][url=https://skfb.ly/pzXLp]Autocannon[/url][/td][td]
+By Septim under CCA
+[/td][/tr]
+[tr][td][url=https://cults3d.com/en/3d-model/game/heavy-bolter]Heavy Bolter[/url][/td][td]
+plevragor under CC BY-NC
+[/td][/tr]
+[/table]
 
-
-"Autocannon" (https://skfb.ly/pzXLp) by Septim is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-"Heavy Bolter" (https://cults3d.com/en/3d-model/game/heavy-bolter) by plevragor under CC BY-NC.
+CCA: Creative Commons Attribution
+CC BY-NC: CCA Non-Commercial
