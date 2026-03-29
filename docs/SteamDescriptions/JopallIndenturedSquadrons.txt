@@ -57,4 +57,9 @@ Load order doesn't matter.
 [/td][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Patch link[/url]
 [/td][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Skirata's Inventory for all Units[/url]
+[/td][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch link[/url] for 1. Links to the others are on that page.
+[/td][/tr]
 [/table]
