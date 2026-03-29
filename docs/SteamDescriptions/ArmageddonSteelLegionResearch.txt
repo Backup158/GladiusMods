@@ -41,6 +41,14 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [/td]
 [/tr]
 [tr]
+[td] T2 Heavy Weapons Team [/td]
+[td] [list]
+[*] [b]Steel Legion Autocannon Squad[/b] (Imperial Barracks): Steel Legion troopers armed with autocannons. Not as powerful and versatile as a traditional Heavy Weapons Team, but they can benefit from [i]Dragoon Heavies[/i] later.
+[*] [b]Steel Legion Heavy Bolter Squad[/b] (Imperial Barracks): Steel Legion troopers armed with a Heavy Bolter with [i]Rapid Fire[/i]. They can use the bolter in suppression mode, increasing the range and pinning enemies (removing their Overwatch), but with greatly reduced damage. Can benefit from [i]Dragoon Heavies[/i] later.
+[/list]
+[/td]
+[/tr]
+[tr]
 [td] T3 Agronomic Surge [/td]
 [td] [list]
 [*] [b]Armageddon Ork Hunters[/b] (Imperial Barracks): Close-ranged infantry trained to fight in forests and kill Orks, but they have started to become the very thing they swore to destroy. Stat-wise, they're a mix between [b]Guardsmen[/b] and [b]Kommandos[/b].
