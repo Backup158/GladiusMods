@@ -71,17 +71,20 @@ Load order doesn't matter.
 [tr][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851306078]Gladius+[/url]
 [/td][td]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Patch link[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Patch[/url]
 [/td][/tr]
 [tr][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Skirata's Inventory for all Units[/url]
 [/td][td]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch link[/url] for 1. Links to the others are on that page.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch[/url] for 1. See page for others.
 [/td][/tr]
 [tr][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2270674114]Extra Militarum[/url]
 [/td][td]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349345480]Patch link[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3349345480]Patch[/url]
 Note: Not updated beyond the Steel Legionnaires and Steel Legion Storm Troopers
 [/td][/tr]
 [/table]
+
+[h1]Acknowledgements[/h1]
+[url=https://steamcommunity.com/workshop/filedetails/discussion/3349331473/803469175294188666/]In thread[/url]
