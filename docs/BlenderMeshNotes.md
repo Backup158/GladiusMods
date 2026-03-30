@@ -1,7 +1,3 @@
-# Icons
-160x160 in general
-36x36 for overlay
-
 # Modifying Meshes
 Use Blender 4.0 to be able to import and export. The import script only works on 4+ and export is best on 2.9, but 4.0 covers both. What the fuck.
 - Import from Gladius: choose one. I use TOFF's script.
