@@ -167,8 +167,16 @@ In edit mode
 3. Next time you start up Blender, it'll use the default
 Make sure the config file is for the version the matches the one you'll use
 
-# Hotkeys
+# Blender Hotkeys
 - Undo: `Ctrl + Z`
 - Redo: `Ctrl + Shift + Z`
 - Hide: `H`
 - Unhide all: `Alt + H`
+- Transformations
+  - Move: `G`
+  - Rotate: `R`
+  - Scale: `S`
+  - These can be locked to one axis by pressing X/Y/Z afterwards
+  - Or type in numbers (mainly relevant for rotate)
+  - Or edit the values in the right bar
+- Hide workspace UI: `Tab` (I hit this accidentally when alt tabbing frequently)
