@@ -43,7 +43,7 @@ Comments
 [tr][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url] [Integrated]
 [/td][td]
-Load order shouldn't matter but I have this above it. Voices used are listed in the discusion thread.
+Load order shouldn't matter but I have this above it. Uses Guardsmen lines.
 [/td][/tr]
 [tr][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url] [Integrated]
