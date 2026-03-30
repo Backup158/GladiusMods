@@ -15,8 +15,7 @@
 	<weapons>
 		<weapon name="TerraxPlasmaPistol" slotName="PlasmaPistol">
 			<model>
-				<!-- Plasma Pistol model appears upside down in commissar-->
-				<projectileWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+				<projectileWeapon mesh="Weapons/AstraMilitarum/uwu_Terrax_CommissarPlasmaPistol"
 						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						bone="RightHandBone"
 						muzzleBone=".Muzzle0"
