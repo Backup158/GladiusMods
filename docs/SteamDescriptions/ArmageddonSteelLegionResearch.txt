@@ -37,7 +37,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] [list]
 [*] [b]Steel Legion Purgation Squad[/b] (Imperial Barracks): [b]Steel Legionnaires[/b] armed with flamers. Costs the same but has -2 group size.
 [u]Purging Flames[/u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests
-[*] [b]Armageddon Pattern Armoured Scout Sentinels[/b]: [b]Scout Sentinels[/b] with lascannons, extra armour, and extra health. [u]Scout[/u] has a 5 turn cooldown instead of 3 turns.
+[*] [b]Armageddon Pattern Armoured Scout Sentinels[/b] (Manufactorum): [b]Scout Sentinels[/b] with lascannons, extra armour, and extra health. [u]Scout[/u] has a 5 turn cooldown instead of 3 turns.
 [/list]
 [/td]
 [/tr]
@@ -94,13 +94,14 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T5 Extra Infantry Armour [/td]
 [td] [list]
-[*] [b]Armageddon Heavy Assault Chimera[/b] (Manufactorum): Uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry and provide supporting fire. Its hull-mount Heavy Bolter has been swapped for a Heavy Flamer, with 2 additional Heavy Bolters available with research. The manned Lasgun Arrays are now Hot-Shot Lasguns.
+[*] [b]Armageddon Heavy Assault Chimera[/b] (Manufactorum): Uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry and provide supporting fire. Its hull-mount Heavy Bolter has been swapped for a Heavy Flamer, with 2 sponson-mounted Heavy Bolters available with research. The manned Lasgun Arrays are now Hot-Shot Lasguns.
 [/list]
 [/td]
 [/tr]
 [tr]
 [td] T6 Improved Frag Casings [/td]
 [td] [list]
+[*] [b]Armageddon Pattern Assault Sentinels[/b] (Manufactorum): Further armoured Sentinels with plasma cannons and in a greater squad size. Their supercharged cannons have [i]Blast[/i], but does extra self damage.
 [*] Armageddon Ork Hunters can use Melta Bombs
 [*] [i]Dragoon Heavies[/i] now also grants +16% accuracy to [i]Heavy[/i] weapons on disembark, so the debuff is now only -17% accuracy
 [/list]
@@ -128,7 +129,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. 
 > Allied troops 2 tiles away have +[0.33, 1] accuracy and +[1, 3] max morale, with Steel Legion units having -[11, 33]% morale loss and an additional +[0.5, 1.5] accuracy. Infantry have +[7, 21]% RDR, with Steel Legion units gaining +[0.7, 2.1] armour.
 > Adjacent allied troops have +[1, 3] accuracy and +[1.5, 4.5] max morale, with Steel Legion units having -[22, 66]% morale loss and an additional +[22, 66] accuracy. Infantry have +[11, 33]% RDR, with Steel Legion units gaining +[1, 3] armour.
-[u]Focus Fire[/u]: Target an enemy troop within 3 tiles to make it +[11, 33]% damage for 5 turns. Another +[6, 18]% damage taken if it's a Super-Heavy; another +[6, 18]% damage taken if it's a a Hero. -[11, 33]% RDR when being attacked by the Steel Legion.
+[u]Focus Fire[/u]: Target an enemy troop within 3 tiles to make it +[11, 33]% damage for 5 turns. Another +[6, 18]% damage taken if it's a Super-Heavy; another +[6, 18]% damage taken if it's a Hero. -[11, 33]% RDR when being attacked by the Steel Legion.
 [u]Purge the Xenos[/u]: Sends nearby troops into a frenzy. Buffs are further improved for members of the Steel Legion. 
 > Allied troops 2 tiles away have +[8, 24]% damage and -[33, 11]% RDR. Steel Legion members also have +[3, 9]% damage. 
 > Adjacent allied troops have +[8, 24]% damage and +[8, 24]% attacks. Steel Legion members also have +[3, 9]% damage and +[3, 9]% attacks. 

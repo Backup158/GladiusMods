@@ -12,16 +12,16 @@ All units require [b]Chimera[/b] on top of the listed research.
 [table]
 [tr][th]Research Requirement[/th][th]Units Added[/th][/tr]
 [tr][td]T1 Chimera[/td][td]
-[b]Steel Legionnaires[/b] are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes then easy to fit inside a Chimera but reduces their range. 
-[b]Armageddon Pattern Chimeras[/b] are specially-built to more easily slip behind enemy lines. As such, they cost a bit more to produce but are slightly tougher. It carries a modified smoke launcher that is able to target tiles beyond the Chimera. With this modifications, it has lost the ability to traverse amphibiously.
+[b]Steel Legionnaires[/b] are the basic infantry. Their Voss Pattern Lasguns have shortened barrels and foldable wire stocks, which makes them easy to fit inside a Chimera but reduces their range. 
+[b]Armageddon Pattern Chimeras[/b] are specially-built to more easily slip behind enemy lines. As such, they cost a bit more to produce but are slightly tougher. Their smoke launchers have been modified to be able to target tiles beyond the Chimera. However, they have lost the ability to traverse amphibiously.
 [b]Steel Legion Commissars[/b] lead both infantry and vehicles. They grant passive buffs, which lends well to sitting safely inside a Chimera. Buffs are increased for members of the Steel Legion.
-[u]Steel Legion Discipline[/u]: Adjacent allied troops gain accuracy. Weaker than the typical Aura of Discipline, unless the affected troop is in the Steel Legion.
+[u]Steel Legion Discipline[/u]: Adjacent allied troops gain accuracy. Weaker than the typical Aura of Discipline, except for the Steel Legion.
 [u]Armoured Fist[/u]: Adjacent allied vehicles have less ore upkeep. On maxxing out this ability, they also gain armour.
 [u]Aura of Command[/u]: Troops within 2 tiles gain morale and have reduced morale loss. The Commissar and any transport they're in have increased RDR. 
-[u]Combined Arms[/u]: Elite. Infantry and vehicles within 2 tiles gain defences. Infantry gain RDR when adjacent to vehicles; vehicles, MDR when adjacent to infantry.
+[u]Combined Arms[/u]: Elite. Infantry and vehicles within 2 tiles gain defence. Infantry gain RDR when adjacent to vehicles; vehicles, MDR when adjacent to infantry.
 [/td][/tr]
 [tr][td]T2 Hab Blocks[/td][td]
-[b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests. 
+[b]Steel Legion Purgation Squads[/b] are armed with flamers; they burn away foes, moving or not. They can clear adjacent Orkoid Fungus and Forests. 
 [b]Armageddon Pattern Armoured Scout Sentinels[/b] have traded scouting proficiency for extra armour and lascannons.
 [/td][/tr]
 [tr][td]T2 Heavy Weapons Team[/td][td]
@@ -29,25 +29,28 @@ All units require [b]Chimera[/b] on top of the listed research.
 [b]Steel Legion Heavy Bolter Squads[/b] have Heavy Bolters, which can shred enemy infantry at close range. They can fire the bolter at great range to suppress the enemy, clearing the path for the incoming assault.
 [/td][/tr]
 [tr][td]T3 Agronomic Surge[/td][td]
-[b]Armageddon Ork Hunters[/b] are close-ranged infantry trained to fight in forests and kill Orks. Years of battling with the Greenskins have made them not so different from their foe, granting them Ork-like traits and the ability to use Ork weapons. After further research, they can plant anti-infantry traps and be armed with Melta Bombs
+[b]Armageddon Ork Hunters[/b] are close-ranged infantry trained to fight in forests and kill Orks. Years of battling with the Greenskins have made them not so different from their foe, granting them Ork-like traits. With research, they can plant anti-infantry traps and be armed with Melta Bombs
 [b]Punji Traps[/b] can be placed on land. Similar to Cluster Mines, they cannot be triggered by skimming units. Any infantry stepping on it will be [i]Crippled[/i], slowing them down and making them bleed. Vehicles can trigger traps without taking damage.
 [/td][/tr]
 [tr][td]T3 Awaken the Machine[/td][td]
 [b]APDS-6a Defenders[/b] are improvised tank hunters. They are Chimeras with ancient Laser Destroyers haphazardly attached, giving them excellent armour piercing power, at the cost of self damage.
 [/td][/tr]
 [tr][td]T4 Tempestus Scions[/td][td]
-[b]Steel Legion Storm Troopers[/b] are more heavily armed and armoured Steel Legionnaires. Their carapace armour is slimmed down compared to those worn by Tempestus Scions, to more comfortably fit into armoured transports.
+[b]Steel Legion Storm Troopers[/b] are the elite spearhead infantry. Their carapace armour is slimmed down compared to those worn by Tempestus Scions, to more comfortably fit into armoured transports.
 [/td][/tr]
 [tr][td]T5 Basilisk[/td][td]
-[b]Armageddon Pattern Basilisks[/b] are tougher but slower than the typical Basilisk. The extra protection means they cost more resources to produce.
+[b]Armageddon Pattern Basilisks[/b] are tougher but slower than the typical Basilisk.
 [/td][/tr]
 [tr][td]T5 Extra Infantry Armour[/td][td]
-[b]Armageddon Heavy Assault Chimeras[/b] are uparmoured Chimera, suiting an IFV role. They are built to rapidly deploy infantry and provide supporting fire. Its hull-mount Heavy Bolter has been swapped for a Heavy Flamer, with additional Heavy Bolters available with research. The manned Lasgun Arrays are now Hot-Shot Lasguns.
+[b]Armageddon Heavy Assault Chimeras[/b] are uparmoured and uparmed Chimeras, suiting an IFV role. They rapidly deploy infantry and provide supporting fire. The hull-mount Heavy Bolter has been swapped for a Heavy Flamer, with additional Heavy Bolters available with research.
+[/td][/tr]
+[tr][td]T6 Improved Frag Casings[/td][td]
+[b]Armageddon Pattern Assault Sentinels[/b] are further armoured Sentinels with plasma cannons.
 [/td][/tr]
 [tr][td]T10 Baneblade[/td][td]
 [b]The Fortress of Arrogance[/b] is a unique, super-heavy tank that rallies the troops, especially infantry and members of the Steel Legion.
 [u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain RDR, with Steel Legion units gaining armour.
-[u]Focus Fire[/u]: Marks an enemy unit which now takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. Has reduced RDR when being attacked by the Steel Legion.
+[u]Focus Fire[/u]: Marks an enemy unit which now takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. It will also have reduced RDR when being attacked by the Steel Legion.
 [u]Purge the Xenos[/u]: Increased damage to allied units within 2 tiles of The Fortress of Arrogance, and increased attacks to adjacent allied units. These increases are further improved for members of the Steel Legion. Allies which are 2 tiles away have reduced RDR. Burns away Orkoid Fungus within 3 tiles.
 [u]Duel of Honour[/u]: Elite. Targets an enemy Super-Heavy or Hero above 80% hitpoints. Each unit only takes damage from another duelling unit. On death, cripples allied morale, damages adjacent allies, and boosts enemy morale. Duelling units take less damage from each other for one turn each.
 [/td][/tr]
