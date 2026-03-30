@@ -16,7 +16,7 @@
 		<weapon name="TerraxPlasmaPistol" slotName="PlasmaPistol">
 			<model>
 				<projectileWeapon mesh="Weapons/AstraMilitarum/uwu_Terrax_CommissarPlasmaPistol"
-						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						material="Weapons/AstraMilitarum/uwu_Terrax_CommissarPlasmaPistol"
 						bone="RightHandBone"
 						muzzleBone=".Muzzle0"
 						fireInterval="0.35"/>

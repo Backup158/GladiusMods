@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Weapons/AstraMilitarum/uwu_Terrax_CommissarPlasmaPistolDiffuse"/>
+		<texture name="Weapons/AstraMilitarum/uwu_Terrax_CommissarPlasmaPistolNormal"/>
+		<texture name="Weapons/AstraMilitarum/uwu_Terrax_CommissarPlasmaPistolSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>
