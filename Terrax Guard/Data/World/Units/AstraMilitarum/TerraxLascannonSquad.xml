@@ -46,7 +46,7 @@
 				<oreCost base="25.0"/> <!-- 20 for Scions | %oreCost base tier=6 factor=0.5 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="40.0"/> <!-- 36 for Scions | %productionCost base tier=6 factor=1 -->
+				<productionCost base="36.0"/> <!-- 36 for Scions | %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
