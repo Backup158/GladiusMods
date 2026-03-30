@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement14">
 	<model>
-		<unit mesh="Units/AstraMilitarum/FieldOrdnanceBattery"
+		<unit mesh="Units/AstraMilitarum/uwu_Terrax_LascannonSquad"
 				material="Units/AstraMilitarum/FieldOrdnanceBattery"
 				idleAnimation="Units/AstraMilitarum/FieldOrdnanceBatteryIdle"
 				idleAnimationCount="3"
