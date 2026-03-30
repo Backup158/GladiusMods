@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AstraMilitarum/JopallIndenturedSquadronDiffuse"/>
+		<texture name="Units/AstraMilitarum/JopallIndenturedSquadronNormal"/>
+		<texture name="Units/AstraMilitarum/JopallIndenturedSquadronSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

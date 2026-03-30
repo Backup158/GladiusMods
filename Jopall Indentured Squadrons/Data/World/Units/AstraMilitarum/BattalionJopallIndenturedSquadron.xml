@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
 	<model>
-		<unit mesh="Units/AstraMilitarum/Guardsman"
-				material="Units/AstraMilitarum/Guardsman"
+		<unit mesh="Units/AstraMilitarum/JopallIndenturedSquadron"
+				material="Units/AstraMilitarum/JopallIndenturedSquadron"
 				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
