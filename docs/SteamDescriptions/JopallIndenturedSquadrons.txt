@@ -33,8 +33,6 @@ Increased influence gain from combat
 [h1]Further Details[/h1]
 Specialist Pack DLC ([b]Hard Requirement[/b]): Ratling research. They're both Sniper units, so I didn't want to make the Jopall Indentured Squadrons available without that research. 
 
-Reuses default Guardsman models.
-
 [h2]Mod Support[/h2]
 [table]
 [tr][th]
@@ -61,5 +59,15 @@ Load order doesn't matter.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Skirata's Inventory for all Units[/url]
 [/td][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch link[/url] for 1. Links to the others are on that page.
+[/td][/tr]
+[/table]
+
+[h2]Acknowledgements[/h2]
+[table]
+[tr][td][url=https://www.printables.com/model/749757-arm4-angled-grip/files]Angled Grip[/url][/td][td]
+By polymera. Even though I had to decimate it by 0.00003 and adjust afterwards, it was useful as a reference.
+[/td][/tr]
+[tr][td][url=www.printables.com/model/625454-bolter-scope/]Bolter Scope[/url][/td][td]
+By El Martonno.
 [/td][/tr]
 [/table]
