@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Steel Legion and Disembark -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
 	<entry name="AstraMilitarum/SteelLegion" value="Member of the Armageddon Steel Legion"/>
 	<entry name="AstraMilitarum/SteelLegionDescription" value="Steel Legionnaires are more accurate against Orks."/>
 	<entry name="AstraMilitarum/SteelLegionFlavor" value="Facing the Greentide on Armageddon taught the Steel Legion the best ways to exterminate Orks."/>
@@ -24,6 +27,9 @@
 	<entry name="AstraMilitarum/ArmageddonDeploymentAttacks" value="Rapid Assault"/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentAttacksDescription" value="Increases attacks, with further increases depending on weapon type. Melee weapons have an additional bonus, and ranged weapons at range 1 have a large additional bonus."/>
 	<entry name="AstraMilitarum/ArmageddonDeploymentAttacksFlavor" value="While Chimeras roll towards enemy positions, adrenaline pumps within its cargo. No matter how many times they deploy, Steel Legionnaires feel the rush every time those doors slam open. Over time, veterans grow even more ferocious, somehow squeezing off even more shots than thought possible."/>
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Infantry -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
