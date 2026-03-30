@@ -15,7 +15,7 @@
 	<weapons>
 		<weapon name="AstraMilitarum/JopallLasgun">
 			<model>
-				<beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+				<beamWeapon mesh="Weapons/AstraMilitarum/JopallLasgun"
 						material="Weapons/AstraMilitarum/GuardsmanLasgun"
 						bone="RightHandBone"
 						muzzleBone="GuardsmanLasgunMuzzle0"
