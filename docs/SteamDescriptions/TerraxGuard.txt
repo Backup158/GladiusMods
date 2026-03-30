@@ -52,6 +52,8 @@ Gives [i]Kill or Be Killed[/i] for 1 turn. Unit gains gain +[11%, 33%] ranged at
 No custom models. I'll return when I can export models without fucked up lighting.
 
 [h1]Further details[/h1]
+Reinforcements Pack DLC [Hard Requirement]: Tempestus Scions research.
+
 [h2]Mod Support[/h2]
 [table]
 [tr][th]
