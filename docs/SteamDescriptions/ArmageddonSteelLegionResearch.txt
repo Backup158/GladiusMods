@@ -37,6 +37,7 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [td] [list]
 [*] [b]Steel Legion Purgation Squad[/b] (Imperial Barracks): [b]Steel Legionnaires[/b] armed with flamers. Costs the same but has -2 group size.
 [u]Purging Flames[/u]: Target an adjacent tile to burn away Orkoid Fungus and/or Forests
+[*] [b]Armageddon Pattern Armoured Scout Sentinels[/b]: [b]Scout Sentinels[/b] with lascannons, extra armour, and extra health. [u]Scout[/u] has a 5 turn cooldown instead of 3 turns.
 [/list]
 [/td]
 [/tr]

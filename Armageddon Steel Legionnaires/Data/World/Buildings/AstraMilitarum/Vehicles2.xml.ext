@@ -2,6 +2,13 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/BattalionArmageddonChimera" requiredUpgrade="AstraMilitarum/Chimera"/>
+		<produceUnit unit="AstraMilitarum/uwu_BattalionArmageddonScoutSentinel" requiredUpgrade="AstraMilitarum/Housing">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 		<produceUnit unit="AstraMilitarum/BattalionArmageddonBasilisk" requiredUpgrade="AstraMilitarum/Basilisk">
 			<conditions>
 				<player>

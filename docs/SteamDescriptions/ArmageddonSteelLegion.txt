@@ -22,6 +22,7 @@ All units require [b]Chimera[/b] on top of the listed research.
 [/td][/tr]
 [tr][td]T2 Hab Blocks[/td][td]
 [b]Steel Legion Purgation Squads[/b] are Steel Legionnaires specialising in clearing out Orks. Armed with flamers, they burn away foes, moving or not. They are able to clear out Orkoid Fungus and Forests. 
+[b]Armageddon Pattern Armoured Scout Sentinels[/b] have traded scouting proficiency for extra armour and lascannons.
 [/td][/tr]
 [tr][td]T2 Heavy Weapons Team[/td][td]
 [b]Steel Legion Autocannon Squads[/b]

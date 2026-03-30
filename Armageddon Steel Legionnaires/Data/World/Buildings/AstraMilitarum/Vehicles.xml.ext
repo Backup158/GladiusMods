@@ -2,6 +2,13 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/ArmageddonChimera" requiredUpgrade="AstraMilitarum/Chimera"/>
+		<produceUnit unit="AstraMilitarum/uwu_ArmageddonScoutSentinel" requiredUpgrade="AstraMilitarum/Housing">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 		<produceUnit unit="AstraMilitarum/APDS6aDefender" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
 			<conditions>
 				<player>
