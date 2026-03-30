@@ -15,8 +15,8 @@
 	<weapons>
 		<weapon name="TerraxHotshotLaspistol">
 			<model>
-				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
-						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+				<beamWeapon mesh="Weapons/AstraMilitarum/uwu_Terrax_CommissarLaspistol"
+						material="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol"
 						bone="RightHandBone"
 						muzzleBone=".Muzzle0"
 						fireInterval="0.35"/>
@@ -32,8 +32,8 @@
 		</weapon>
 		<weapon name="TerraxMeltagun" slotName="Meltagun" enabled="0">
 			<model>
-				<beamWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
-						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+				<beamWeapon mesh="Weapons/AstraMilitarum/uwu_Terrax_CommissarLaspistol"
+						material="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol"
 						bone="RightHandBone"
 						muzzleBone=".Muzzle0" 
 						fireInterval="0.2"/>
