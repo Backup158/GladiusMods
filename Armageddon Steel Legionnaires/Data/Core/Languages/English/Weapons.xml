@@ -16,4 +16,9 @@
 	<entry name="SteelLegionHeavyBolterSuppressing" value="Lay Down Suppressing Fire"/>
 	<entry name="SteelLegionHeavyBolterSuppressingDescription" value="Fires Pinning shots at greater range, with greatly reduced damage."/>
 	<entry name="SteelLegionHeavyBolterSuppressingFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="uwu_SteelLegionPlasmaCannonStandard" value="Ryza Pattern Plasma Cannon"/>
+	<entry name="uwu_SteelLegionPlasmaCannonStandardFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
+	<entry name="uwu_SteelLegionPlasmaCannonSupercharged" value="Ryza Pattern Plasma Cannon (Supercharged)"/>
+	<entry name="uwu_SteelLegionPlasmaCannonSuperchargedDescription" value="Gain increased damage and Blast, at the cost of self damage."/>
+	<entry name="uwu_SteelLegionPlasmaCannonSuperchargedFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
 </language>

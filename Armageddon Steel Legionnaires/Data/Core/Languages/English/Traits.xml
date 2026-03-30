@@ -27,7 +27,9 @@
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
+	<!-- ++++++++++++++++++++ -->
 	<!-- Trap Effects -->
+	<!-- ++++++++++++++++++++ -->
 	<entry name="AstraMilitarum/OrkHuntersTrap" value="Punji Trap"/>
 	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Slows and damages enemy infantry."/>
 	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
@@ -37,7 +39,12 @@
 	<entry name="Crippled" value="Crippled"/>
 	<entry name="CrippledDescription" value="Reduced movement and loses health per turn."/>
 	<entry name="CrippledFlavor" value="MY LEG!"/>
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Heroes -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++++++++++++ -->
 	<!-- Steel Legion Commissar -->
+	<!-- ++++++++++++++++++++ -->
 	<entry name="AstraMilitarum/SteelLegionDiscipline" value="<string name='Actions/AstraMilitarum/SteelLegionAuraOfDiscipline'/>"/>
 	<entry name="AstraMilitarum/SteelLegionDisciplineDescription" value="<string name='Actions/AstraMilitarum/SteelLegionAuraOfDisciplineDescription'/>"/>
 	<entry name="AstraMilitarum/SteelLegionDisciplineFlavor" value="<string name='Actions/AstraMilitarum/SteelLegionAuraOfDisciplineFlavor'/>"/>
@@ -53,7 +60,9 @@
 	<entry name="AstraMilitarum/CombinedArms" value="<string name='Actions/AstraMilitarum/CombinedArms'/>"/>
 	<entry name="AstraMilitarum/CombinedArmsDescription" value="<string name='Actions/AstraMilitarum/CombinedArmsDescription'/>"/>
 	<entry name="AstraMilitarum/CombinedArmsFlavor" value="<string name='Actions/AstraMilitarum/CombinedArmsFlavor'/>"/>
+	<!-- ++++++++++++++++++++ -->
 	<!-- The Fortress of Arrogance -->
+	<!-- ++++++++++++++++++++ -->
 	<entry name="AstraMilitarum/YarricksInspiration" value="<string name='Actions/AstraMilitarum/YarricksInspiration'/>"/>
 	<entry name="AstraMilitarum/YarricksInspirationDescription" value="<string name='Actions/AstraMilitarum/YarricksInspirationDescription'/>"/>
 	<entry name="AstraMilitarum/YarricksInspirationFlavor" value="<string name='Actions/AstraMilitarum/YarricksInspirationFlavor'/>"/>
@@ -75,4 +84,10 @@
 	<entry name="DuelOfHonourShield" value="Duel of Honour Standoff"/>
 	<!-- <entry name="DuelOfHonourShieldDescription" value=""/> -->
 	<entry name="DuelOfHonourShieldFlavor" value="A duel that ends in one blow is no duel; it is an execution. Opponents seldom strike with full force in the opening attack, measuring enemy response."/>
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Weapons -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<entry name="uwu_GetsHotter" value="Gets Hot and Hotter!"/>
+	<entry name="uwu_GetsHotterDescription" value="<string name='Traits/GetsHotDescription'/> The effect is more severe than usual."/>
+	<entry name="uwu_GetsHotterFlavor" value="<string name='Traits/GetsHotFlavor'/>"/>
 </language>

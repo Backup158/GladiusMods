@@ -38,6 +38,9 @@
 	<entry name="AstraMilitarum/ArmageddonBasilisk" value="Armageddon Pattern Basilisk"/>
 	<entry name="AstraMilitarum/ArmageddonBasiliskDescription" value="Slower but tougher Basilisk with a closed top. Better suited for defence."/>
 	<entry name="AstraMilitarum/ArmageddonBasiliskFlavor" value="Armageddon, true to its name, is an inhospitable wasteland. As such, vehicles designed to operate on it and other similar planets are enclosed to protect the crew."/>
+	<entry name="AstraMilitarum/uwu_ArmageddonHeavySentinel" value="Armageddon Pattern Assault Sentinels"/>
+	<entry name="AstraMilitarum/uwu_ArmageddonHeavySentinelDescription" value="Armoured walker units armed with plasma cannons."/>
+	<entry name="AstraMilitarum/uwu_ArmageddonHeavySentinelFlavor" value="The power of a lascannon can punch through most tanks, but the Orkish hordes can be... unpredictable. Most problems can be solved by deploying more Leman Russ main battle tanks, but the hostile terrain of Armageddon can throw a wrench in that strategy. Some terrain is too difficult to traverse with treads, so the Steel Legion have taken to fortifying their already-armoured sentinels and arming them with plasma cannons. While not as robust as a battle cannon, plasma packs similar firepower in a more compact form, which allows the walkers to move without losing balance."/>
 	<!-- Heroes -->
 	<entry name="AstraMilitarum/FortressOfArrogance" value="The Fortress of Arrogance"/>
 	<entry name="AstraMilitarum/FortressOfArroganceDescription" value="Unique super-heavy command tank that inspires nearby allies."/>

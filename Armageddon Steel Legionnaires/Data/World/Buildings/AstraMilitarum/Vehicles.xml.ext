@@ -30,5 +30,12 @@
 				</player>
 			</conditions>
 		</produceUnit>
+		<produceUnit unit="AstraMilitarum/uwu_ArmageddonHeavySentinel" requiredUpgrade="AstraMilitarum/BlastDamage">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 	</actions>
 </building>
