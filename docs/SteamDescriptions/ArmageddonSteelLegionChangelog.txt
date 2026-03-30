@@ -1,3 +1,9 @@
+# 2026-03-30
+[list]
+[*] [NEW] Added [b]Armageddon Pattern Scout Sentinels[/b] with custom models and Reinforcements support.
+[*] [NEW] Added [b]Armageddon Pattern Assault Sentinels[/b] with custom models. I didn't know you could do emissive textures until now.
+[/list]
+
 # 2026-03-28
 [list]
 [*] [NEW] Added [b]Steel Legion Heavy Bolter Squad[/b], with custom models and Reinforcements support.
