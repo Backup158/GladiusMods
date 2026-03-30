@@ -74,7 +74,7 @@ for mod in */ ; do
             final_destination_ending=${destination_b}${unit_path_middle}${faction}'/'${file_base_name}'.ext'
 
             # Is the unit a battalion?
-            if [[ "$file_base_name" == Battalion* ]]; then
+            if [[ "$file_base_name" == *Battalion* ]]; then
               #echo 'battalion'
               template_path_start=${templates_folder}${unit_path_middle}'Battalion_'
             else
