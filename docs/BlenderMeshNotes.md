@@ -174,5 +174,5 @@ Make sure the config file is for the version the matches the one you'll use
   - Scale: `S`
   - These can be locked to one axis by pressing X/Y/Z afterwards
   - Or type in numbers (mainly relevant for rotate)
-  - Or edit the values in the right bar
+  - Or edit the values in the right bar (Object: the orange square icon)
 - Hide workspace UI: `Tab` (I hit this accidentally when alt tabbing frequently)
