@@ -1,4 +1,4 @@
-Adds Jopall Indentured Squadrons (Ratling alternative) to the Astra Militarum.
+Adds the miserly marksmen of the Jopall Indentured Squadrons to the Astra Militarum.
 
 Jopall Indentured Squadrons are marksmen hailing from the agri-world of Jopall, located within the Armageddon Subsector. Every person on Jopall is born into debt, due to the resources used by their birth. Each person's goal is to work until their debt is repaid, which is convenient for Guard recruiters. 
 
