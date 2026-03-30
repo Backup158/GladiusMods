@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visible="1" icon="Units/AstraMilitarum/Chimera">
+	<onUnitDisembarked>
+		<area affects="Unit">
+			<modifiers>
+                <!-- Doubled actions on disembark -->
+				<modifier>
+					<effects>
+						<actionPointsMax add="1"/>
+						<actionPoints add="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</onUnitDisembarked>
+</trait>

@@ -37,5 +37,12 @@
 				</player>
 			</conditions>
 		</produceUnit>
+		<produceUnit unit="AstraMilitarum/uwu_SteelLegion_Veteran" requiredUpgrade="AstraMilitarum/HammerOfWrath">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Chimera"/>
+				</player>
+			</conditions>
+		</produceUnit>
 	</actions>
 </building>

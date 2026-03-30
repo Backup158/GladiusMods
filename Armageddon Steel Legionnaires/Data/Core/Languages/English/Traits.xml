@@ -33,6 +33,9 @@
 	<entry name="AstraMilitarum/ArmageddonOrkHunters" value="Ork Hunter"/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeployment" value="Veteran Deep Strike"/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentFlavor" value=""/>
 	<!-- ++++++++++++++++++++ -->
 	<!-- Trap Effects -->
 	<!-- ++++++++++++++++++++ -->
