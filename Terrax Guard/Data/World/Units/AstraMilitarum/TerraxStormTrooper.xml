@@ -2,7 +2,7 @@
 <unit>
 	<model>
 		<unit mesh="Units/AstraMilitarum/TerraxStormTrooper"
-				material="Units/AstraMilitarum/LordCommissar"
+				material="Units/AstraMilitarum/TerraxStormTrooper"
 				idleAnimation="Units/AstraMilitarum/LordCommissarIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
