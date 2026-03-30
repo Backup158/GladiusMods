@@ -28,7 +28,7 @@ Use Blender 4.0 to be able to import and export. The import script only works on
 
 ## Kitbashing or Replacing with Existing Model
 Adding an existing mesh onto a new one. For this example, I will replace the Guardsman's Lasgun with a flamer.
-1. Import both meshes
+1. [TOFF's script] Import both meshes
   - ex: import `Weapons/AstraMilitarum/GuardsmanLasgun.msh` and `Units/SisterOfBattle/Seraphim.msh`
   - The Seraphim hand flamer is baked into its mesh, so first I split it off
     - click seraphim in object mode
@@ -38,6 +38,11 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
     - Move somewhere then `Left click` to place it down
     - Separate Selection (`P`)
     - delete its vertex groups
+  - [amorgun's script]
+    - The import replaces everything in the current collection
+      - Import your thing and save
+      - In a new project, import the other thing and strip off the things you don't need. Export as gfblt or whatever
+      - Open the first thing. CLICK OFF THE MODEL. Import geflugestugheist. 
 2. Adjust the target mesh to look close to the source mesh
   - rotate it, move it around, etc
   - in this case, i transformed some vertices to make it longer too
@@ -48,6 +53,11 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
     3. moved stock so it looks nice on the flamer
   - Be sure to adjust the bones too
 3. Join and Add Weights
+  - Note, weights are easier to do when the things are joined but not actually put together in the correct place
+    - So I line them up, then move them forwards on the x axis only, so it's like a foot in front
+    - Select the whole item, then assign weight to make sure you don't miss a spot
+    - Weight paint manually as needed
+    - Move the object back onto the guy
   - Method 1
     3. Joined meshes
       1. Click target mesh
@@ -82,6 +92,13 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
 When things look fine in material preview, but when you export it's always like `<normal id="0" x="0.000000" y="0.000000" z="0.000000"/>`
 
 This is a bug with Toff's script (noted on 2026-03-07). Use amorgun's script instead. Transferring work seems to be not possible, so i cry.
+
+## Mesh is there but some things are invisible
+This is from fucking with the UVs, so the normals end up on the wrong side.
+1. Click the affected faces
+2. Click "Mesh" on the top bar
+3. Click "Normals" --> Click "Flip"
+4. Reexport
 
 # General Blender
 As I'm new to Blender, I'm keeping general hotkeys here too, for easy reference. For Blender 4.0.
