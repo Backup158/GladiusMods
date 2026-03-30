@@ -42,6 +42,10 @@
 			</model>
 		</weapon>
 		<weapon name="TerraxExplodingPlasmaPistol" slotName="ExplodingPistol" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="RightHandBone"/>
+				<!-- nothing changes if you add themesh/material here -->
+			</model>
 		</weapon>
 	</weapons>
 	<modifiers>
