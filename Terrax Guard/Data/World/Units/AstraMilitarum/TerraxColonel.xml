@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/LordCommissar"
-				material="Units/AstraMilitarum/LordCommissar"
+		<unit mesh="Units/AstraMilitarum/uwu_Terrax_Colonel"
+				material="Units/AstraMilitarum/uwu_Terrax_Colonel"
 				idleAnimation="Units/AstraMilitarum/LordCommissarIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"

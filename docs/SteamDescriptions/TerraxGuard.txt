@@ -77,3 +77,13 @@ Load order shouldn't matter but I have this above it. Uses Lord Commissar lines.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch link[/url] for 1. Links to the others are on that page.
 [/td][/tr]
 [/table]
+
+[h2]Acknowledgements[/h2]
+[table]
+[tr][td][url=https://www.thingiverse.com/thing:4405305]Iron Halo's for backpacks[/url][/td][td]
+By SariusMonk. Shared with [url=https://creativecommons.org/licenses/by-nc-sa/4.0/]CC BY-NC-SA[/url]. I decimated it a lot before use.
+[/td][/tr]
+[tr][td][url=www.printables.com/model/625454-bolter-scope/]Bolter Scope[/url][/td][td]
+By El Martonno.
+[/td][/tr]
+[/table]
