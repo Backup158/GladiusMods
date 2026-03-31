@@ -21,4 +21,12 @@
 	<entry name="uwu_SteelLegionPlasmaCannonSupercharged" value="Ryza Pattern Plasma Cannon (Supercharged)"/>
 	<entry name="uwu_SteelLegionPlasmaCannonSuperchargedDescription" value="Gain increased damage and Blast, at the cost of self damage."/>
 	<entry name="uwu_SteelLegionPlasmaCannonSuperchargedFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
+	<entry name="uwu_SteelLegion_DiposableMissile_TEMPLATE" value="Disposable Missile Launcher"/>
+	<entry name="uwu_SteelLegion_DiposableMissile_TEMPLATEFlavor" value="Missile launchers have great destructive power, but they are limited by their clunkiness. Firing multiple shots requires setup time, ideally with a loader assisting. However, sometimes a single volley of missiles is all that's needed. The Mechanicus of Armageddon hold the designs for a single-use missile launcher, held in a collapsible tuble. It is unknown what significance the original text &quot;Em 72 Lambda Alpha W&quot; holds, but it has been dubbed the &quot;LOH&quot; after archmagos Lambda-0H."/>
+	<entry name="uwu_SteelLegion_DisposableMissleKrak" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATE'/> (Krak)"/>
+	<entry name="uwu_SteelLegion_DisposableMissleKrakFlavor" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATEFlavor'/>"/>
+	<entry name="uwu_SteelLegion_DisposableMissleFrag" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATE'/> (Frag)"/>
+	<entry name="uwu_SteelLegion_DisposableMissleFragFlavor" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATEFlavor'/>"/>
+	<entry name="uwu_SteelLegion_DisposableMissleFire" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATE'/> (Promethium)"/>
+	<entry name="uwu_SteelLegion_DisposableMissleFireFlavor" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATEFlavor'/>"/>
 </language>

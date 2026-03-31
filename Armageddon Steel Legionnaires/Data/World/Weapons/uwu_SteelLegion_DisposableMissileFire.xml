@@ -8,17 +8,22 @@
 		<modifier>
 			<effects>
 				<attacks add="1"/>
-				<rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=6 -->
-				<rangedDamage add="1.5"/> <!-- %rangedDamage add strength=4 -->
+				<!-- flame breath is 2 2; flamer is 1 1.5 -->
+				<rangedArmorPenetration add="1"/> <!-- %rangedArmorPenetration add armorPiercing=6 -->
+				<rangedDamage add="2"/> <!-- %rangedDamage add strength=4 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
 	</modifiers>
 	<target rangeMax="3"/>
 	<traits>
-		<trait name="Blast"/>
+		<!-- <trait name="Blast"/> -->
 		<trait name="HeavyWeapon"/>
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
 		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+		<trait name="Flame"/>
+		<trait name="IgnoresCover"/>
+		<trait name="NoEscape"/>
+		<trait name="Template"/>
 	</traits>
 </weapon>
