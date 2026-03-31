@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement1">
 	<model>
-		<unit mesh="Units/AstraMilitarum/uwu_SteelLegion_GuardsmanGogglesDown"
-				material="Units/AstraMilitarum/SteelLegionnaire"
+		<unit mesh="Units/AstraMilitarum/uwu_SteelLegion_Veteran"
+				material="Units/AstraMilitarum/uwu_SteelLegion_Veteran"
 				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
