@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" visible="1" icon="Units/AstraMilitarum/Chimera">
+<trait category="Buff" visible="1" icon="Traits/Eldar/Crackshot">
 	<onUnitDisembarked>
 		<area affects="Unit">
 			<modifiers>
