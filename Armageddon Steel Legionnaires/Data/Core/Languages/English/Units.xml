@@ -23,8 +23,8 @@
 	<entry name="AstraMilitarum/SteelLegionStormTrooperDescription" value="Elite shock infantry unit specialising in close-quarters deployments from transports and in fighting Orks. Has less armour than Tempestus Scions."/>
 	<entry name="AstraMilitarum/SteelLegionStormTrooperFlavor" value="Steel Legion Storm Troopers are the Legion's finest soldiers, forged in the Wars for Armageddon. They carry Hellguns and have Carapace Armour underneath their iconic greatcoats. While protective, they aren't as heavily armoured as their counterparts from the Schola Progenium."/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_Veteran" value="Steel Legion Veterans"/>
-	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDescription" value="Elite "/>
-	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDescription" value="Elite shock infantry unit specialised in striking at priority targets deep behind enemy lines.They have missile launchers as a special weapon."/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranFlavor" value="For most, life on Armagedon entails fighting in the streets throughout childhood, followed by conscription into the Steel Legion to be thrown against the Ork hordes. Surviving all that for so long means you are blessed by the God-Emperor, a highly effective killer, or both; any of these will make you desirable. With services in demand, veterans are often granted leeway for choosing their equipment. Sometimes they have makeshift armour which has served them for years, other times they'll have Storm Trooper carapace and plasma guns. Nobody questions it; everyone knows what kind of missions veterans are chosen for."/>
 	<!-- Vehicles -->
 	<entry name="AstraMilitarum/ArmageddonChimera" value="Armageddon Pattern Chimera"/>
 	<entry name="AstraMilitarum/ArmageddonChimeraDescription" value="Chimera that can ignore enemy zone of control. It is more expensive and is slightly tougher. Its smoke launcher is improved and can target beyond the vehicle itself. It is unable to traverse amphibiously."/>

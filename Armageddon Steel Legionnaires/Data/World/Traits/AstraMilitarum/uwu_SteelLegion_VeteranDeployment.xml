@@ -17,4 +17,38 @@
 			</modifiers>
 		</area>
 	</onUnitDisembarked>
+	<modifiers>
+		<!-- Overwatch Soak -->
+		<modifier>
+			<conditions>
+                <unit>
+                    <notAttackedThisTurn/>
+					<movedThisTurn/>
+				</unit>
+            </conditions>
+			<effects>
+				<rangedDamageReduction add="0.33"/>
+			</effects>
+		</modifier>
+		<!-- No Escape -->
+		<modifier>
+			<effects>
+				<rangedDamageReductionBypass add="0.33"/>
+			</effects>
+		</modifier>
+		<!-- Alpha Strike -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<hitpointsFraction greater="0.5"/>
+						<noAttacking/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
 </trait>
