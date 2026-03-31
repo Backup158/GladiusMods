@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement1">
 	<model>
-		<unit mesh="Units/AstraMilitarum/TempestusScion"
-				material="Units/AstraMilitarum/TempestusScion"
-				idleAnimation="Units/AstraMilitarum/TempestusScionIdle"
+		<unit mesh="Units/AstraMilitarum/SteelLegionnaire"
+				material="Units/AstraMilitarum/SteelLegionnaire"
+				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
 				scale="1 1 1"
-				bloodBone="BloodBone"
+				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
 	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="HotShotLasgun">
 			<model>
-				<beamWeapon muzzleBone=".Muzzle"
+				<beamWeapon mesh="Weapons/AstraMilitarum/SteelLegionLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						bone="RightHandBone"
+						muzzleBone="GuardsmanLasgunMuzzle0"
 						fireInterval="0.3"/>
 			</model>
 		</weapon>
 		<weapon name="uwu_SteelLegion_DisposableMissileKrak" slotName="DisposableMissileKrak" enabled="0">
 			<model>
-				<projectileWeapon muzzleBone=".Muzzle"/>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/SteelLegionLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						bone="RightHandBone"
+						muzzleBone="GuardsmanLasgunMuzzle0"/>
 			</model>
 		</weapon>
 		<weapon name="uwu_SteelLegion_DisposableMissileFrag" slotName="DisposableMissileFrag" enabled="0">
 			<model>
-				<projectileWeapon muzzleBone=".Muzzle"/>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/SteelLegionLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						bone="RightHandBone"
+						muzzleBone="GuardsmanLasgunMuzzle0"/>
 			</model>
 		</weapon>
 		<weapon name="uwu_SteelLegion_DisposableMissileFire" slotName="DisposableMissileFire" enabled="0">
 			<model>
-				<projectileWeapon muzzleBone=".Muzzle"/>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/SteelLegionLasgun"
+						material="Weapons/AstraMilitarum/GuardsmanLasgun"
+						bone="RightHandBone"
+						muzzleBone="GuardsmanLasgunMuzzle0"/>
 			</model>
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="BloodBone"/>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
 		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="BloodBone"/>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
 			</model>
 		</weapon>
 	</weapons>
@@ -75,17 +87,17 @@
 	<actions>
 		<attack>
 			<model>
-				<action animation="Units/AstraMilitarum/TempestusScionAttack"
-						beginFire="1.0" endFire="2.0"/>
+				<action animation="Units/AstraMilitarum/GuardsmanAttack"
+						beginFire="0.35" endFire="2.5"/>
 			</model>				
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/AstraMilitarum/TempestusScionDie"
-						animationCount="2"
+				<action animation="Units/AstraMilitarum/GuardsmanDie"
+						animationCount="3"
 						sound="Units/MediumUnarmoredDie"
 						soundCount="4"
-						soundDelay="0.6"
+						soundDelay="0.4"
 						voiceSound="Units/AstraMilitarum/InfantryDie"
 						voiceSoundCount="5"/>
 			</model>		
@@ -97,7 +109,7 @@
 		</idle>
 		<move>
 			<model>
-				<action animation="Units/AstraMilitarum/TempestusScionMove"
+				<action animation="Units/AstraMilitarum/GuardsmanMove"
 						sound="Units/AstraMilitarum/InfantryMove"
 						soundCount="4"/>
 			</model>
@@ -105,14 +117,14 @@
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
-				<action animation="Units/AstraMilitarum/TempestusScionGrenade"
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"/>
 			</model>
 		</throwGrenade>
 		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/KrakGrenade">
 			<model>
-				<action animation="Units/AstraMilitarum/TempestusScionGrenade"
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"/>
 			</model>				
 		</throwGrenade>
@@ -148,7 +160,7 @@
 				weaponSlotName="DisposableMissileKrak"
 				icon="Weapons/uwu_SteelLegion_DisposableMissileKrak">
 			<model>
-				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
+				<action	animation="Units/AstraMilitarum/GuardsmanAttack"
 						beginFire="1.0" endFire="1.5"/>
 			</model>
 			<sharedCooldowns>
@@ -161,7 +173,7 @@
 				weaponSlotName="DisposableMissileFrag"
 				icon="Weapons/uwu_SteelLegion_DisposableMissileFrag">
 			<model>
-				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
+				<action	animation="Units/AstraMilitarum/GuardsmanAttack"
 						beginFire="1.0" endFire="1.5"/>
 			</model>
 			<sharedCooldowns>
@@ -174,7 +186,7 @@
 				weaponSlotName="DisposableMissileFire"
 				icon="Weapons/uwu_SteelLegion_DisposableMissileFire">
 			<model>
-				<action	animation="Units/AstraMilitarum/TempestusScionAttack"
+				<action	animation="Units/AstraMilitarum/GuardsmanAttack"
 						beginFire="1.0" endFire="1.5"/>
 			</model>
 			<sharedCooldowns>
@@ -233,9 +245,9 @@
 		<action name="UseWeapon/FragGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Attack" soundCount="8"/>
 		<action name="UseWeapon/KrakGrenade" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Attack" soundCount="8"/>
 		<action name="MediPack" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Ability_Med" soundCount="1"/>
-		<action name="UseWeapon/DisposableMissileKrak" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
-		<action name="UseWeapon/DisposableMissileFrag" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
-		<action name="UseWeapon/DisposableMissileFire" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Guardsman_Attack" soundCount="8"/>
+		<action name="UseWeapon/DisposableMissileKrak" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Attack" soundCount="8"/>
+		<action name="UseWeapon/DisposableMissileFrag" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Attack" soundCount="8"/>
+		<action name="UseWeapon/DisposableMissileFire" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Attack" soundCount="8"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Attack" soundCount="8"/>
 		<move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Move" soundCount="8"/>
 		<select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Tempestus_Select" soundCount="4"/>
