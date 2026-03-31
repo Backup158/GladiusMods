@@ -102,7 +102,7 @@
 		</throwGrenade>
 	</actions>
 	<traits>
-		<trait name="Bulky"/>
+		<!-- <trait name="Bulky"/> -->
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<trait name="AstraMilitarum/SteelLegion"/>

@@ -103,7 +103,7 @@
 		</throwGrenade>
 	</actions>
 	<traits>
-		<!-- <trait name="Bulky"/> -->
+		<trait name="Bulky"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<trait name="AstraMilitarum/SteelLegion"/>
@@ -112,7 +112,7 @@
 		<!-- Reinforcements -->
 		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
 		<trait name="AstraMilitarum/BattalionHeavyWeaponSquad"/>
-		<trait name="VeryBulky"/>
+		<!-- <trait name="VeryBulky"/> -->
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

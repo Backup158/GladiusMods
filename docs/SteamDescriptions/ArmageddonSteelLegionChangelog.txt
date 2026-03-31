@@ -1,7 +1,9 @@
-# 2026-03-30
+# 2026-xxxxx
 [list]
 [*] [NEW] Added [b]Armageddon Pattern Scout Sentinels[/b] with custom models and Reinforcements support.
 [*] [NEW] Added [b]Armageddon Pattern Assault Sentinels[/b] with custom models. I didn't know you could do emissive textures until now.
+[*] [NEW] Added [b]Steel Legion Veterans[/b] for the late game.
+[*] [REBALANCE] Removed [i]Bulky[/i] from [b]Steel Legion Autocannon Squad[/b]s
 [/list]
 
 # 2026-03-28
