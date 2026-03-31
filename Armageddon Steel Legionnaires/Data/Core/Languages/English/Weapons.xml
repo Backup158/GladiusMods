@@ -27,6 +27,6 @@
 	<entry name="uwu_SteelLegion_DisposableMissileKrakFlavor" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATEFlavor'/>"/>
 	<entry name="uwu_SteelLegion_DisposableMissileFrag" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATE'/> (Cluster Frag)"/>
 	<entry name="uwu_SteelLegion_DisposableMissileFragFlavor" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATEFlavor'/>"/>
-	<entry name="uwu_SteelLegion_DisposableMissileFire" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATE'/> (Promethium)"/>
+	<entry name="uwu_SteelLegion_DisposableMissileFire" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATE'/> (Promethium Cluster)"/>
 	<entry name="uwu_SteelLegion_DisposableMissileFireFlavor" value="<string name='Weapons/uwu_SteelLegion_DiposableMissile_TEMPLATEFlavor'/>"/>
 </language>

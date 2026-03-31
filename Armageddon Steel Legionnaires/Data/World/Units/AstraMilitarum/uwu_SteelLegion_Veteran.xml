@@ -169,7 +169,7 @@
 				<action name="UseWeapon/DisposableMissileFire"/>
 			</sharedCooldowns>
 		</useWeapon>
-		<useWeapon cooldown="5"
+		<useWeapon cooldown="7"
 				consumedActionPoints="1"
 				weaponSlotName="DisposableMissileFire"
 				icon="Weapons/uwu_SteelLegion_DisposableMissileFire">
