@@ -4,6 +4,10 @@
 [*] [NEW] Added [b]Armageddon Pattern Assault Sentinels[/b] with custom models. I didn't know you could do emissive textures until now.
 [*] [NEW] Added [b]Steel Legion Veterans[/b] for the late game.
 [*] [REBALANCE] Removed [i]Bulky[/i] from [b]Steel Legion Autocannon Squad[/b]s
+[*] [MESH] Reworked [b]Steel Legionnaire[/b] mesh. The shoulder armor is slimmed down, the tunic is longer (so it's a bit more coat-like), and the boots are taller now.
+[*] [NEW] Gave [b]Steel Legion Purgation Squad[/b]s their own models with the goggles down
+[*] [MESH] Reworked textures to avoid spillover with goggles
+[*] [FIX] Fixed incorrect colors being used for [b]Steel Legionnaire[/b] breathing tube and stretched texture at the back of the neck
 [/list]
 
 # 2026-03-28
