@@ -86,4 +86,7 @@ By SariusMonk. Shared with [url=https://creativecommons.org/licenses/by-nc-sa/4.
 [tr][td][url=www.printables.com/model/625454-bolter-scope/]Bolter Scope[/url][/td][td]
 By El Martonno.
 [/td][/tr]
+[tr][td][url=https://cults3d.com/en/3d-model/game/posable-power-fist]Posable Power Fist[/url][/td][td]
+By Red-warden-miniatures under [url=https://cults3d.com/en/licenses#cc_by_nc_sa]CC BY-NC-SA[/url]
+[/td][/tr]
 [/table]

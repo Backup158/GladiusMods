@@ -32,7 +32,10 @@
 		</weapon>
 		<weapon name="PowerFist">
 			<model>
-				<weapon bone="LeftHandBone" fireInterval="10"/>
+				<powerWeapon mesh="Weapons/AstraMilitarum/uwu_Terrax_CommissarSwordFist"
+						material="Weapons/AstraMilitarum/LordCommissarSword"
+						bone="LeftHandBone"
+						fireInterval="10"/>
 			</model>
 		</weapon>
 		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
