@@ -8,15 +8,16 @@
 		<modifier>
 			<effects>
 				<attacks add="1"/>
-				<rangedArmorPenetration add="2"/> <!-- 0 | %rangedArmorPenetration add armorPiercing=6 -->
-				<rangedDamage add="2.5"/> <!-- 1.5 | %rangedDamage add strength=4 -->
+				<rangedArmorPenetration add="1"/> <!-- 0 | %rangedArmorPenetration add armorPiercing=6 -->
+				<rangedDamage add="1.75"/> <!-- 1.5 | %rangedDamage add strength=4 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
 	</modifiers>
 	<target rangeMax="3"/>
 	<traits>
-		<trait name="Blast"/>
+		<!-- <trait name="Blast"/> -->
+		<trait name="LargeBlast"/>
 		<trait name="HeavyWeapon"/>
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
 		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
