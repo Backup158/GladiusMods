@@ -36,6 +36,9 @@
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeployment" value="Veteran Deep Strike"/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefresh" value="Steel Legion Sloppy Seconds"/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshDescription" value="double team action on ork warboss"/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshFlavor" value="v-v-v-vetewans ccc ccm t wice >.<"/>
 	<!-- ++++++++++++++++++++ -->
 	<!-- Trap Effects -->
 	<!-- ++++++++++++++++++++ -->

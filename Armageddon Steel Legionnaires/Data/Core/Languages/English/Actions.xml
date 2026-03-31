@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/OrkHuntersTrap" value="Place Punji Trap"/>
-	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Lays a trap that slows and damages enemy infantry."/>
-	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Infantry -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
 	<entry name="AstraMilitarum/PurgingFlames" value="Purging Flames"/>
 	<entry name="AstraMilitarum/PurgingFlamesDescription" value="Burns away Orkoid Fungus and Forests."/>
 	<entry name="AstraMilitarum/PurgingFlamesFlavor" value="Merely killing an Ork isn't enough. Their corpses leave behind fungi, which if left unchecked, will sprout Greenskin monstrosities in the future. Enter: holy prometheum."/>
+	<entry name="AstraMilitarum/OrkHuntersTrap" value="Place Punji Trap"/>
+	<entry name="AstraMilitarum/OrkHuntersTrapDescription" value="Lays a trap that slows and damages enemy infantry."/>
+	<entry name="AstraMilitarum/OrkHuntersTrapFlavor" value="Armageddon Ork Hunters deftly lay pitfall traps to halt any would-be attackers. Da Boyz aren't so tough with broken legs and half of them impaled."/>
+	<!-- Veterans -->
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbility" value="Tempered Resolve"/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbilityDescription" value="Refill an action point after disembarking or if below 50% health."/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbilityFlavor" value=""/>
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Hero -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
 	<!-- Steel Legion Commissar -->
 	<entry name="AstraMilitarum/SteelLegionAuraOfDiscipline" value="Steel Legion Discipline"/>
 	<entry name="AstraMilitarum/SteelLegionAuraOfDisciplineDescription" value="Adjacent infantry/vehicles gain increased accuracy, with further increases for members of the Armageddon Steel Legion."/>

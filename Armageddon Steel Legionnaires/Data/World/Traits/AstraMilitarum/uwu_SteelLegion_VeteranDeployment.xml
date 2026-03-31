@@ -6,8 +6,12 @@
                 <!-- Doubled actions on disembark -->
 				<modifier>
 					<effects>
+						<!-- permanent increase is wild -->
+						<!--
 						<actionPointsMax add="1"/>
 						<actionPoints add="1"/>
+						 -->
+						<addTrait name="AstraMilitarum/uwu_SteelLegion_VeteranRefresh" duration="1"/>
 					</effects>
 				</modifier>
 			</modifiers>
