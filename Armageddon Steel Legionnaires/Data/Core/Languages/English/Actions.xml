@@ -12,7 +12,7 @@
 	<!-- Veterans -->
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbility" value="Tempered Resolve"/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbilityDescription" value="Refill an action point after disembarking or if below 50% health."/>
-	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbilityFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbilityFlavor" value="On its own, steel is strong but brittle, eventually cracking apart over time. However, if extreme heat is applied during forging, just enough to fortify without destroying, the steel shall come out more durable. As such is the fire of battle."/>
 	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
 	<!-- Hero -->
 	<!-- ++++++++++++++++++++++++++++++++++++++++ -->
