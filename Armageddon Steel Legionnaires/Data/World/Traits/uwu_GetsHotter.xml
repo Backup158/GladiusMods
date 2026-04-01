@@ -8,7 +8,7 @@
 				</weapon>
 			</conditions>
 			<effects>
-				<damageSelfFactor add="0.10"/>
+				<damageSelfFactor add="0.75"/>
 			</effects>
 		</modifier>
 	</modifiers>

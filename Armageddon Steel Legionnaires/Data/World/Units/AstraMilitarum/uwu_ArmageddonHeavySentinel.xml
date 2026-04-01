@@ -34,7 +34,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="7"/> <!-- 6 scout sent, 7 armageddon scout sent | %armor base armor=10/10/10 -->
-				<hitpointsMax base="30.0"/> <!-- 16, 20 | %hitpointsMax base armor=10/10/10 wounds=2 -->
+				<hitpointsMax base="20.0"/> <!-- 16, 20; remember this is multiplied by squad size; devil dog is 41 | %hitpointsMax base armor=10/10/10 wounds=2 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<!-- <meleeInitiative base="3"/> -->
