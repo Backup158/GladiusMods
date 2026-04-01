@@ -1,4 +1,11 @@
 # 2026-04-01
+I just realized how dumb the Assault Sentinels are lol.
+[list]
+[*] [REBALANCE] Increased self damage. 10% --> 75%. This sounds like a lot, but it's like -10 hp on a 60 hp unit. Oh yeah
+[*] [REBALANCE] Reduced health from 30 to 20, matching the [b]Armageddon Pattern Scout Sentinels[/b]. I forgot about the squad size increase, and that makes more sense to keep imo.
+[/list]
+
+# 2026-04-01
 [list]
 [*] [NEW] Added [b]Armageddon Pattern Scout Sentinels[/b] with custom models and Reinforcements support.
 [*] [NEW] Added [b]Armageddon Pattern Assault Sentinels[/b] with custom models. I didn't know you could do emissive textures until now.
