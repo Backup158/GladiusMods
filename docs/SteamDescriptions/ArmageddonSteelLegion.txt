@@ -47,7 +47,9 @@ All units require [b]Chimera[/b] on top of the listed research.
 [tr][td]T6 Improved Frag Casings[/td][td]
 [b]Armageddon Pattern Assault Sentinels[/b] are further armoured Sentinels with plasma cannons.
 [/td][/tr]
-[tr][td]T10 Baneblade[/td][td]
+[tr][td]T8 Hammer of Wrath[/td][td]
+[b]Steel Legion Veterans[/b] are elite shock troops trained to strike high-priority targets deep behind enemy lines. They have missile launchers as a special weapon.
+[/td][/tr][tr][td]T10 Baneblade[/td][td]
 [b]The Fortress of Arrogance[/b] is a unique, super-heavy tank that rallies the troops, especially infantry and members of the Steel Legion.
 [u]Yarrick's Inspiration[/u]: Buffs nearby infantry and vehicles within 2 tiles, with greater effect to adjacent units and to members of the Steel Legion. All units gain accuracy and morale, with Steel Legion units having reduced morale loss and further increased accuracy. Infantry gain RDR, with Steel Legion units gaining armour.
 [u]Focus Fire[/u]: Marks an enemy unit which now takes increased damage, moreso if it's a super-heavy or a hero, with the effect stacking. It will also have reduced RDR when being attacked by the Steel Legion.

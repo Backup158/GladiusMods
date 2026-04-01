@@ -117,6 +117,9 @@ The Steel Legion are mechanised infantry and are rarely seen without their Chime
 [tr]
 [td] T8 Hammer of Wrath [/td]
 [td] [list]
+[*] [b]Steel Legion Veterans[/b] (Imperial Barracks): Elite shock infantry unit specialised in striking at priority targets deep behind enemy lines. They have missile launchers as a special weapon.
+[i]Veteran Deep Strike[/i]: +33% RDR after moving but before attacking, to soak Overwatch. Ignores 33% RDR when attacking. +33% damage when attacking enemies that are above 50% hp.
+[u]Tempered Resolve[/u]: Can act twice if below 50% hp or after disembarking.
 [*] [i]Armageddon Rapid Deployment[/i] now also grants [i]Rapid Assault[/i] on disembark: +10% attacks, with further 7% melee attacks and +15% ranged attacks at range 1
 [*] [i]Dragoon Heavies[/i] now also grants +17% accuracy to Heavy weapons on disembark, so the penalty no longer applies.
 [/list]

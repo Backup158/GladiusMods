@@ -1,4 +1,4 @@
-# 2026-xxxxx
+# 2026-04-01
 [list]
 [*] [NEW] Added [b]Armageddon Pattern Scout Sentinels[/b] with custom models and Reinforcements support.
 [*] [NEW] Added [b]Armageddon Pattern Assault Sentinels[/b] with custom models. I didn't know you could do emissive textures until now.
