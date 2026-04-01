@@ -34,8 +34,8 @@
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersDescription" value="Armageddon Ork Hunters deal more Damage against Orks and have increased Melee Attacks while in Forests."/>
 	<entry name="AstraMilitarum/ArmageddonOrkHuntersFlavor" value="Ork Hunters are especially prepared for fighting Orks and will do so with extreme prejudice."/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeployment" value="Veteran Deep Strike"/>
-	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentDescription" value="Take reduced damage after moving, until the unit attacks. Deals increased damage to enemies above 50% health."/>
+	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranDeploymentFlavor" value="Typically, Steel Legionnaires deploy to exploit and hold a gap in enemy lines. Veterans are reserved for higher priority tasks, such as directly striking at critical artillery emplacements behind enemy lines."/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefresh" value="Steel Legion Sloppy Seconds"/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshDescription" value="double team action on ork warboss"/>
 	<entry name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshFlavor" value="v-v-v-vetewans ccc ccm t wice >.<"/>
