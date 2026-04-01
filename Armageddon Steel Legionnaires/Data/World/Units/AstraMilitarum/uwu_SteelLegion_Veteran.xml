@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement1">
+<unit>
 	<model>
 		<unit mesh="Units/AstraMilitarum/uwu_SteelLegion_Veteran"
 				material="Units/AstraMilitarum/uwu_SteelLegion_Veteran"

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement1">
+<unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/TempestusScion"
-				material="Units/AstraMilitarum/TempestusScion"
-				idleAnimation="Units/AstraMilitarum/TempestusScionIdle"
+		<unit mesh="Units/AstraMilitarum/uwu_SteelLegion_Veteran"
+				material="Units/AstraMilitarum/uwu_SteelLegion_Veteran"
+				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
 				scale="0.41 0.41 0.41"
-				bloodBone="BloodBone"
+				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
 </unit>
