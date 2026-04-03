@@ -224,7 +224,9 @@
 		</genericUnitAbility>
 		<!-- Elite: Load Extra Ammo -->
 		<genericUnitAbility levelUpPriority="0.1"
+				rank="-1"
 				elite="1"
+				rankMax="0"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				requiredMovement="1"
