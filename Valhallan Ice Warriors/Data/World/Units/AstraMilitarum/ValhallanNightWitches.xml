@@ -128,7 +128,8 @@
 		</jink>
 		<heavyBombClusters consumedActionPoints="0"
 				requiredActionPoints="0"
-				weaponSlotName="HeavyBombClusters" cooldown="5">
+				weaponSlotName="HeavyBombClusters" cooldown="5"
+            	useConditionsForVisiblity="1">
 			<model>
 				<action beginFire="1.4" endFire="1.9"/>
 			</model>	
@@ -141,7 +142,8 @@
 		<heavyBombClusters consumedActionPoints="0"
 				requiredActionPoints="0"
 				weaponSlotName="HeavyBombClusters"
-				name="AstraMilitarum/uwu_Valhallan_ClusterBukkake">
+				name="AstraMilitarum/uwu_Valhallan_ClusterBukkake"
+            	useConditionsForVisiblity="1">
 			<model>
 				<action beginFire="1.4" endFire="1.9"/>
 			</model>
