@@ -66,7 +66,7 @@
     <entry name="AstraMilitarum/FlyLowDescription" value="Gains accuracy but takes more damage."/>
     <entry name="AstraMilitarum/FlyLowFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
     <entry name="AstraMilitarum/FlyLowSlowdown" value="<string name='Actions/AstraMilitarum/FlyLow'/> Slowdown"/>
-    <entry name="AstraMilitarum/FlyLowSlowdownDescription" value="Reduces movement. Removed after levelling up the action."/>
+    <entry name="AstraMilitarum/FlyLowSlowdownDescription" value="Max movement is reduced; removed after levelling up the action again."/>
     <entry name="AstraMilitarum/FlyLowSlowdownFlavor" value="<string name='Actions/AstraMilitarum/FlyLowFlavor'/>"/>
     <entry name="WitchHarassment" value="Harassed"/>
     <entry name="WitchHarassmentDescription" value="Accuracy is decreased and morale is lost every turn."/>
