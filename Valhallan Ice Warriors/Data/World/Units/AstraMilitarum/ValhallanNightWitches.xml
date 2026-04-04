@@ -232,7 +232,8 @@
 				requiredMovement="1"
 				consumedMovement="0"
 				name="AstraMilitarum/LoadExtraAmmo"
-				icon="Traits/Assault">
+				icon="Traits/Assault"
+				cooldown="3">
 			<beginTargets>
 				<selfTarget>
 					<areas>
