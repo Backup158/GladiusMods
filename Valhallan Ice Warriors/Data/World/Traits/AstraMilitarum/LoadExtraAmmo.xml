@@ -8,6 +8,9 @@
 				<!-- Shooting the bolters twice isn't that crazy -->
 				<actionPointsMax add="1"/>
 				<actionPoints add="1"/>
+				<!-- More ammo means easier to hit -->
+				<rangedDamageReduction add="-0.17"/>
+				<movementMax add="-1"/>
 			</effects>
 		</modifier>
 	</modifiers>

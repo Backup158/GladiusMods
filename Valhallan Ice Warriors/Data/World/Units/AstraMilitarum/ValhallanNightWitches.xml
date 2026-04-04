@@ -248,7 +248,7 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Elite: Load Extra Ammo -->
-		<genericUnitAbility levelUpPriority="0.1"
+		<genericUnitAbility levelUpPriority="1.0"
 				rank="-1"
 				elite="1"
 				rankMax="0"
