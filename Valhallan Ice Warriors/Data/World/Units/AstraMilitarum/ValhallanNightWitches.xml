@@ -229,9 +229,14 @@
 						</unit>
 					</conditions>
 					<areas>
-						<area affects="Tile" radius="1">
+						<area affects="Unit" radius="1">
 							<modifiers>
 								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
 									<effects>
 										<addTrait duration="3" name="WitchHarassment"/>
 									</effects>
