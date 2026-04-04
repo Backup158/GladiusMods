@@ -160,7 +160,7 @@
 				rankMax="2"
 				passive="1"
 				name="AstraMilitarum/NightBomber"
-				icon="Traits/Blind">
+				icon="Traits/Drukhari/Dodge">
 			<beginTargets>
 				<selfTarget>
 					<areas>
