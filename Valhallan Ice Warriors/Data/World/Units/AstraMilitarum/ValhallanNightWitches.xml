@@ -252,7 +252,7 @@
 								<modifier>
 									<conditions>
 										<unit>
-											<cooldownAction name="UseWeapon/HeavyBombClusters"/>
+											<cooldownAction name="HeavyBombClusters"/>
 										</unit>
 									</conditions>
 									<effects>
