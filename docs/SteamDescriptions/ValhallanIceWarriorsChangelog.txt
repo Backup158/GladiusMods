@@ -1,0 +1,56 @@
+# 2026-04-04
+Reworked some heroes
+- [b]Night Witches[/b]
+[list]
+[*] [FIX] [u]Load Additional Ammo[/u] was not resetting the cooldown for Heavy Cluster bombs
+[*] [FIX] [u]Load Additional Ammo[/u] was missing its cooldown (3)
+[*] [BAL] [u]Load Additional Ammo[/u] resets the other cooldowns too
+[*] [BAL] [u]Load Additional Ammo[/u] makes you slower and more vulnerable, since the city damage could get pretty crazy. The vulnerability really doesn't matter since you can use [u]Fly Low[/u]
+[*] Changed icon for [i]Night Bomber[/i] so it doesn't look exactly the same as [i]Infiltrate[/i]
+[*] Clarified ability description of [u]Fly Low[/u] to note that it gives [i]Infiltrate[/i]
+[/list]
+
+# 2026-03-30
+[FIX] Night Witches Elite has only one rank. Before, it had multiple ranks that changed nothing.
+
+# 2026-03-29
+"Fixed" a wack ass crash when researching vox caster.
+- removed vox caster requirement from conscripts
+- removed TMV lines from conscripts because they'd crash when spawning in and being selected???
+
+I said "fixed" because while the crashes won't happen anymore, this is not an ideal solution and it annoys the hell out of me
+
+# 2026-03-21
+Fixed Valhallan Barrier Squad's buff appearing on enemies. Note that it didn't actually buff them.
+
+# 2026-03-09
+Fixed missing descriptions for Valhallan Commissar's Deploy Barrier Squad ability
+Fixed missing icon path for Night Witches' Fly Low and Fly Low
+Reduced costs for units since the Valhallan trait's downsides are enough. They're mostly the same as their equivalents now
+    Valhallan Guardsmen
+    Valhallan Sharpshooters
+    Valhallan Flame Troopers (These are still a bit more expensive)
+    Valhallan Anti-tank Rifle Squad
+    Valhallan Heavy Stubber Squad
+    Valhallan Mortar Team (These are still a bit more expensive)
+
+# 2026-02-26
+Fixed missing flavor/description text for unwieldy, bring it down (flat), deploy anti armor krak dogs, and heavy stubber
+Fixed unwieldy not applying
+
+# 2026-02-25
+fixed typo that broke Hold the Line
+
+# 2026-02-25
+Nerfed some things but minor buffs
+- Valhallans now have upkeep and damage taken debuffs when in Desert, Savannah, and Volcanic tiles. Even with the slightly increased cost, they were too versatile compared to normal Guardsmen when you were going full infantry.
+- Massed Infantry nerfs accuracy harder by default, restoring to neutral with 2 allies. It was too easy to just be better than regular Guardsmen.
+- Hold the Line increases heal rate for Valhallans near cities, instead of giving flat healing. This was a bit much.
+- The Motherland Calls now gives FNP regardless, so only the additional action requires a nearby city.
+
+# 2026-02-20
+Fixed missing names for Battalion of Valhallan Guardsmen.
+Resized Battalion of Valhallan Mortar Teams to fit closer together.
+
+# 2026-02-20
+Initial upload
