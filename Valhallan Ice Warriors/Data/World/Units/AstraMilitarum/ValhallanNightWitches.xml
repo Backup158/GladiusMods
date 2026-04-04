@@ -265,6 +265,7 @@
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
+		<action name="UseWeapon/HeavyBombClusters" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Attack" soundCount="8"/>
 		<action name="Jink" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Ability_Jink" soundCount="1"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Attack" soundCount="8"/>
 		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Valkyrie_Move" soundCount="8"/>
