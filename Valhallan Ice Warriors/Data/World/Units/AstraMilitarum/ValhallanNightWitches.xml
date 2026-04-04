@@ -155,7 +155,7 @@
 		</heavyBombClusters>
 		<!-- Night Bomber -->
 		<!-- RDR. damage against fortifications -->
-		<genericUnitAbility levelUpPriority="0.1"
+		<genericUnitAbility levelUpPriority="1.0"
 				rank="-1"
 				rankMax="2"
 				passive="1"
@@ -180,7 +180,7 @@
 		<!-- Fly Low -->
 		<!-- Like Jink -->
 		<genericUnitAbility consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3"
-				levelUpPriority="0.1"
+				levelUpPriority="0.3"
 				rank="-1"
 				rankMax="2"
 				name="AstraMilitarum/FlyLow"
