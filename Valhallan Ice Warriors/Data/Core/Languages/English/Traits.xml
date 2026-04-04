@@ -72,7 +72,7 @@
     <entry name="WitchHarassmentDescription" value="Accuracy is decreased and morale is lost every turn."/>
     <entry name="WitchHarassmentFlavor" value="Being awoken by bullets and bolt shells tearing apart the men in the next cot changes a man. Vigilence must be maintained through the night, reducing rest and therefore combat effectiveness for the next day."/>
     <entry name="AstraMilitarum/LoadExtraAmmo" value="<string name='Actions/AstraMilitarum/LoadExtraAmmo'/>"/>
-    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="Greatly improves offence. Heavy Bomb Clusters are refilled."/>
+    <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="Greatly improves offence. Resets other cooldowns."/>
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>

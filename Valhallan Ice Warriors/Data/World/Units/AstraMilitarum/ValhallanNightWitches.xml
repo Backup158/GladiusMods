@@ -271,6 +271,21 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<area affects="UnitAction">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit match="Any">
+											<cooldownAction name="Jink"/>
+											<cooldownAction name="AstraMilitarum/HarassEnemies"/>
+										</unit>
+									</conditions>
+									<effects>
+										<cooldown add="-3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</selfTarget>
 			</beginTargets>
