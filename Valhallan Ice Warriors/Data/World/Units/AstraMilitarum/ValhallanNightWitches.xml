@@ -246,6 +246,21 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<!-- Reload Heavy Bombs -->
+						<area affects="UnitAction">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<cooldownAction name="UseWeapon/HeavyBombClusters"/>
+										</unit>
+									</conditions>
+									<effects>
+										<cooldown add="-5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</selfTarget>
 			</beginTargets>
