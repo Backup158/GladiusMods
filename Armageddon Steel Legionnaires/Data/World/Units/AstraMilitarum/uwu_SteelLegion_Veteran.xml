@@ -199,7 +199,8 @@
 				consumedMovement="0"
 				name="AstraMilitarum/uwu_SteelLegion_VeteranRefreshAbility"
 				icon="Actions/AstraMilitarumDefenseEdict"
-				requiredActionPoints="0">
+				requiredActionPoints="0"
+				cooldown="1">
 			<model>
 				<action sound="Actions/DrawSwordAndReload"/>
 			</model>
