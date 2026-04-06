@@ -423,7 +423,7 @@
 				consumedActionPoints="0"
 				consumedMovement="0"
 				name="AstraMilitarum/uwu_Valhallan_DeployConscripts"
-				icon="Units/AstraMilitarum/ValhallanConscripts">
+				icon="Units/AstraMilitarum/uwu_Valhallan_Conscripts">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarShout"
 						bone="ChestBone"
@@ -443,7 +443,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addUnit name="AstraMilitarum/ValhallanConscripts"/>
+										<addUnit name="AstraMilitarum/uwu_Valhallan_Conscripts"/>
 									</effects>
 								</modifier>
 							</modifiers>

@@ -41,9 +41,9 @@
     <entry name="AstraMilitarum/TheMotherlandCalls" value="The Motherland Calls"/>
     <entry name="AstraMilitarum/TheMotherlandCallsDescription" value="Grants bonuses to allied infantry within 4 tiles. <string name='Traits/TheMotherlandCallsDescription'/> Removes <string name='Traits/AstraMilitarum/UraCooldown'/> from allied infantry within 4 tiles."/>
     <entry name="AstraMilitarum/TheMotherlandCallsFlavor" value="Be glorified, our free Motherland, lead us to the triumph of the Imperium! The heretic and xenos wish to put us under their yokes, but the Valhallan Ice Warriors are stronger than all!"/>
-    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscripts" value="Deploy <string name='Units/AstraMilitarum/ValhallanConscripts'/>"/>
-    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsDescription" value="Spawns a temporary, disposable unit to throw into enemy lines. <string name='Units/AstraMilitarum/ValhallanConscriptsDescription'/>"/>
-    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsFlavor" value="<string name='Units/AstraMilitarum/ValhallanConscriptsFlavor'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscripts" value="Deploy <string name='Units/AstraMilitarum/uwu_Valhallan_Conscripts'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsDescription" value="Spawns a temporary, disposable unit to throw into enemy lines. <string name='Units/AstraMilitarum/uwu_Valhallan_ConscriptsDescription'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsFlavor" value="<string name='Units/AstraMilitarum/uwu_Valhallan_ConscriptsFlavor'/>"/>
     <!-- Night Witches -->
     <entry name="AstraMilitarum/NightBomber" value="Night Attack"/>
     <entry name="AstraMilitarum/NightBomberDescription" value="<string name='Traits/AstraMilitarum/NightBomberDescription'/>"/>
