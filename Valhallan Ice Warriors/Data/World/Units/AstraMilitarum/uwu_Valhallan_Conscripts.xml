@@ -27,6 +27,16 @@
 				<weapon fireInterval="0.5"/>
 			</model>
 		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone006"/>
+			</model>
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Bone006"/>
+			</model>
+		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -43,7 +53,7 @@
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
 				<foodCost base="12.5"/> <!-- 10 | %foodCost base tier=4 factor=0.5 -->
-				<oreCost base="3.0"/> <!-- 10 | %oreCost base tier=4 factor=0.5 -->
+				<oreCost base="2.5"/> <!-- 10 | %oreCost base tier=4 factor=0.5 -->
 				<influenceUpkeep base="2.0"/> <!-- steals money unless commissar is near (in trait) -->
 			</effects>
 		</modifier>
@@ -92,6 +102,112 @@
 						soundCount="4"/>
 			</model>
 		</move>
+		<!-- Grenades have higher cd and cost-->
+		<!-- this is to make a price for the higher group size -->
+		<!-- like they're not normally armed with grenades and a special order needs to be made -->
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="15"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.7"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<oreCost base="15"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="15"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+						beginFire="0.7"/>
+			</model>		
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<oreCost base="15"/>
+					</effects>
+				</modifier>
+			</modifiers>		
+		</throwGrenade>
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="Bone001"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<!-- URAAAAAAAAAA -->
+		<genericUnitAbility	cooldown="10"
+				requiredActionPoints="1"
+				consumedActionPoints="0" consumedMovement="0"
+				name="AstraMilitarum/Ura"
+				shoutString="Actions/AstraMilitarum/Ura">
+			<model>
+				<action sound="Actions/ValhallanUra" soundCount="6"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<noTrait name="AstraMilitarum/UraCooldown"/>
+							<!-- 4 Infantry allies, at least 2 of whom are Valhallans -->
+							<unitsInRange count="2" range="3">
+								<allied/>
+								<trait name="AstraMilitarum/Valhallan"/>
+							</unitsInRange>
+							<unitsInRange count="4" range="3">
+								<allied/>
+								<noTrait name="Vehicle"/>
+								<noTrait name="Fortification"/>
+							</unitsInRange>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="AstraMilitarum/Valhallan"/>
+											<noTrait name="AstraMilitarum/Ura"/>
+											<noTrait name="AstraMilitarum/UraCooldown"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="2" name="AstraMilitarum/Ura"/>
+										<addTrait duration="10" name="AstraMilitarum/UraCooldown"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
