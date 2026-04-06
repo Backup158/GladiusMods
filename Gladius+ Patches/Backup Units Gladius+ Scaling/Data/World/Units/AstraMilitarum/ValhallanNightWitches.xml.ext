@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/Valkyrie"
+		<unit mesh="Units/AstraMilitarum/uwu_Valhallan_NightWitches"
 				material="Units/AstraMilitarum/Valkyrie"
 				position="0 0 64"
 				idleAnimation="Units/AstraMilitarum/ValkyrieIdle"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit faction="Tau" spawnDistanceMin="6">
 	<model>
-		<unit mesh="Units/Neutral/KrootHound"
+		<unit mesh="Units/AstraMilitarum/uwu_Valhallan_AntiTankDogs"
 				material="Units/Neutral/KrootHound"
 				scale="0.61 0.61 0.61"
 				idleAnimation="Units/Neutral/KrootHoundIdle"
