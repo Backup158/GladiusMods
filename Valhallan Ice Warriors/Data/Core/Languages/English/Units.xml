@@ -56,9 +56,9 @@
     <entry name="AstraMilitarum/BattalionValhallanGuardsman" value="Battalion of <string name='Units/AstraMilitarum/ValhallanGuardsman'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanGuardsmanDescription" value="<string name='Units/AstraMilitarum/ValhallanGuardsmanDescription'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanGuardsmanFlavor" value="<string name='Units/AstraMilitarum/ValhallanGuardsmanFlavor'/>"/>
-    <entry name="AstraMilitarum/BattalionValhallanConscripts" value="Battalion of <string name='Units/AstraMilitarum/ValhallanConscripts'/>"/>
-    <entry name="AstraMilitarum/BattalionValhallanConscriptsDescription" value="<string name='Units/AstraMilitarum/ValhallanConscriptsDescription'/>"/>
-    <entry name="AstraMilitarum/BattalionValhallanConscriptsFlavor" value="<string name='Units/AstraMilitarum/ValhallanConscriptsFlavor'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_BattalionConscripts" value="Battalion of <string name='Units/AstraMilitarum/uwu_Valhallan_Conscripts'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_BattalionConscriptsDescription" value="<string name='Units/AstraMilitarum/uwu_Valhallan_ConscriptsDescription'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_BattalionConscriptsFlavor" value="<string name='Units/AstraMilitarum/uwu_Valhallan_ConscriptsFlavor'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanSharpshooters" value="Battalion of <string name='Units/AstraMilitarum/ValhallanSharpshooters'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanSharpshootersDescription" value="<string name='Units/AstraMilitarum/ValhallanSharpshootersDescription'/>"/>
     <entry name="AstraMilitarum/BattalionValhallanSharpshootersFlavor" value="<string name='Units/AstraMilitarum/ValhallanSharpshootersFlavor'/>"/>

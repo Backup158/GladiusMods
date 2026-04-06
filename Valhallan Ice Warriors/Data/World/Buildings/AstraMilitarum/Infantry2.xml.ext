@@ -2,6 +2,7 @@
 <building>
 	<actions>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanGuardsman"/>
+		<produceUnit unit="AstraMilitarum/uwu_Valhallan_BattalionConscripts" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanSharpshooters" requiredUpgrade="AstraMilitarum/Ratling"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanAntiTankRiflemen" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad"/>
 		<produceUnit unit="AstraMilitarum/BattalionValhallanHeavyGunnerSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad"/>
