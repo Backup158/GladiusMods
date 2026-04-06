@@ -7,6 +7,7 @@ Reworked some heroes and added some basic models
 [*] [FIX] [u]Load Additional Ammo[/u] was missing its cooldown (3)
 [*] [BAL] [u]Load Additional Ammo[/u] resets the other cooldowns too
 [*] [BAL] [u]Load Additional Ammo[/u] makes you slower and more vulnerable, since the city damage could get pretty crazy. The vulnerability really doesn't matter since you can use [u]Fly Low[/u]
+[*] [BAL] Set priority for AI to level up abilities
 [*] Changed icon for [i]Night Bomber[/i] so it doesn't look exactly the same as [i]Infiltrate[/i]
 [*] Clarified ability description of [u]Fly Low[/u] to note that it gives [i]Infiltrate[/i]
 [/list]
@@ -14,6 +15,11 @@ Reworked some heroes and added some basic models
 [list]
 [*] [NEW] Added ability to summon [b]Valhallan Conscripts[/b], like T'au drones
 [*] [FIX] Typo made the health regen from [i]Hold the Line[/i] not work as well
+[*] [BAL] Set priority for AI to level up abilities
+[/list]
+- [b]Valhallan Commissar[/b]
+[list]
+[*] [BAL] Set priority for AI to level up abilities
 [/list]
 - Dogs
 [list]
