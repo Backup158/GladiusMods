@@ -13,6 +13,9 @@
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMelta" value="Deploy <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMelta'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaDescription" value="Spawns a permanent, mortal unit. <string name='Units/AstraMilitarum/ValhallanAntiTankDogsMeltaDescription'/>"/>
     <entry name="AstraMilitarum/DeployValhallanAntiTankDogsMeltaFlavor" value="<string name='Units/AstraMilitarum/ValhallanAntiTankDogsKrakFlavor'/>"/>
+    <!-- ====================== -->
+    <!-- Heroes -->
+    <!-- ====================== -->
     <!-- Commissar -->
     <entry name="AstraMilitarum/Gulag" value="Send to Gulag"/>
     <entry name="AstraMilitarum/GulagDescription" value="Target an infantry unit with less than 10% health, surrounded by 3 Valhallans. Remove this unit and gain Ore and Influence."/>
@@ -25,7 +28,7 @@
     <entry name="AstraMilitarum/BarrierSquadAura" value="Barrier Squad's Watch"/>
     <entry name="AstraMilitarum/BarrierSquadAuraDescription" value="Improves morale for allied infantry within 3 tiles."/>
     <entry name="AstraMilitarum/BarrierSquadAuraFlavor" value="&quot;Run? Frak that! It'll either be their guns or ours, and I'll be damned if I forfeit my familial compensation!&quot; - Unnamed Valhallan Guardsman"/>
-    <!-- Commander -->
+    <!-- Marshal/Commander -->
     <entry name="AstraMilitarum/HoldTheLine" value="Hold the Line"/>
     <entry name="AstraMilitarum/HoldTheLineDescription" value="Grants bonuses to allied infantry. Radius is increased upon levelling up this ability. <string name='Traits/HoldTheLineDescription'/>"/>
     <entry name="AstraMilitarum/HoldTheLineFlavor" value="&quot;Side by side with the Astra Militarum, the entire Valhallan people is rising in defence of our native land!&quot;"/>
@@ -38,6 +41,9 @@
     <entry name="AstraMilitarum/TheMotherlandCalls" value="The Motherland Calls"/>
     <entry name="AstraMilitarum/TheMotherlandCallsDescription" value="Grants bonuses to allied infantry within 4 tiles. <string name='Traits/TheMotherlandCallsDescription'/> Removes <string name='Traits/AstraMilitarum/UraCooldown'/> from allied infantry within 4 tiles."/>
     <entry name="AstraMilitarum/TheMotherlandCallsFlavor" value="Be glorified, our free Motherland, lead us to the triumph of the Imperium! The heretic and xenos wish to put us under their yokes, but the Valhallan Ice Warriors are stronger than all!"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscripts" value="Deploy <string name='Units/AstraMilitarum/ValhallanConscripts'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsDescription" value="Spawns a temporary, disposable unit to throw into enemy lines. <string name='Units/AstraMilitarum/ValhallanConscriptsDescription'/>"/>
+    <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsFlavor" value="<string name='Units/AstraMilitarum/ValhallanConscriptsFlavor'/>"/>
     <!-- Night Witches -->
     <entry name="AstraMilitarum/NightBomber" value="Night Attack"/>
     <entry name="AstraMilitarum/NightBomberDescription" value="<string name='Traits/AstraMilitarum/NightBomberDescription'/>"/>

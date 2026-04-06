@@ -1,5 +1,5 @@
 # 2026-04-04
-Reworked some units
+Reworked some heroes and added some basic models
 - [b]Night Witches[/b]
 [list]
 [*] [FIX] [u]Load Additional Ammo[/u] was not resetting the cooldown for Heavy Cluster bombs
@@ -8,6 +8,10 @@ Reworked some units
 [*] [BAL] [u]Load Additional Ammo[/u] makes you slower and more vulnerable, since the city damage could get pretty crazy. The vulnerability really doesn't matter since you can use [u]Fly Low[/u]
 [*] Changed icon for [i]Night Bomber[/i] so it doesn't look exactly the same as [i]Infiltrate[/i]
 [*] Clarified ability description of [u]Fly Low[/u] to note that it gives [i]Infiltrate[/i]
+[/list]
+- [b]Valhallan Marshal[/b]
+[list]
+[*] Added ability to summon [b]Valhallan Conscripts[/b], like T'au drones
 [/list]
 - Dogs
 [list]
