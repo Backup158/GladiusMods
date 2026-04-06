@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit faction="Tau" spawnDistanceMin="6">
+<unit spawnDistanceMin="6">
 	<model>
 		<unit mesh="Units/AstraMilitarum/uwu_Valhallan_DogsScout"
 				material="Units/Neutral/KrootHound"
