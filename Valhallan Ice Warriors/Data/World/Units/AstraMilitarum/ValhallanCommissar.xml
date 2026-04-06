@@ -121,7 +121,7 @@
 						beginFire="0.9"/>
 			</model>
 		</throwGrenade>
-		<auraOfDiscipline passive="1" rank="-1" rankMax="2" levelUpPriority="0.1">
+		<auraOfDiscipline passive="1" rank="-1" rankMax="2" levelUpPriority="0.9">
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -138,10 +138,7 @@
 				</selfTarget>
 			</beginTargets>
 		</auraOfDiscipline>
-		<bringItDown cooldown="3"
-				levelUpPriority="0.1"
-				rank="-1"
-				rankMax="2"
+		<bringItDown cooldown="3" rank="-1" rankMax="2" levelUpPriority="0.9"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
