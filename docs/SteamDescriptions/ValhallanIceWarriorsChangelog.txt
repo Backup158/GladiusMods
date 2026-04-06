@@ -11,7 +11,8 @@ Reworked some heroes and added some basic models
 [/list]
 - [b]Valhallan Marshal[/b]
 [list]
-[*] Added ability to summon [b]Valhallan Conscripts[/b], like T'au drones
+[*] [NEW] Added ability to summon [b]Valhallan Conscripts[/b], like T'au drones
+[*] [FIX] Typo made the health regen from [i]Hold the Line[/i] not work as well
 [/list]
 - Dogs
 [list]
