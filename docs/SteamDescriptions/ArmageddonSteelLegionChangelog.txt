@@ -1,7 +1,8 @@
-# 2026-04-04
+# 2026-04-06
 [list]
 [*] [FIX] Added cooldown to Veteran's refresh...
 [*] [FIX] Added icon for [i]Veteran Deep Strike[/i]
+[*] [BAL] Reduced self damage for [i]Armageddon Pattern Assault Sentinels[/i] (75% --> 67%). It was a bit much with the hp decrease
 [/list]
 
 # 2026-04-01
