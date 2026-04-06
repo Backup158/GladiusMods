@@ -2,6 +2,7 @@
 Reworked some heroes and added some basic models
 - [b]Night Witches[/b]
 [list]
+[*] [NEW] Custom model based on the Polikarpov-Po2
 [*] [FIX] [u]Load Additional Ammo[/u] was not resetting the cooldown for Heavy Cluster bombs
 [*] [FIX] [u]Load Additional Ammo[/u] was missing its cooldown (3)
 [*] [BAL] [u]Load Additional Ammo[/u] resets the other cooldowns too

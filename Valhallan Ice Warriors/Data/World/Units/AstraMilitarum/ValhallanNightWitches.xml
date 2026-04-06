@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/Valkyrie"
+		<unit mesh="Units/AstraMilitarum/uwu_Valhallan_NightWitches"
 				material="Units/AstraMilitarum/Valkyrie"
 				position="0 0 64"
 				idleAnimation="Units/AstraMilitarum/ValkyrieIdle"
@@ -45,7 +45,7 @@
 		<weapon name="HeavyBolter" count="2"
 				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
 			<model>
-				<projectileWeapon mesh="Weapons/AstraMilitarum/ValkyrieHeavyBolters"
+				<projectileWeapon mesh="Weapons/AstraMilitarum/uwu_Valhallan_NightWitchesHeavyBolters"
 						material="Weapons/AstraMilitarum/HydraHeavyBolter"
 						bone="Hull"
 						muzzleBone=".Muzzle"
