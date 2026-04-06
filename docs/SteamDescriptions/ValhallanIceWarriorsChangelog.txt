@@ -24,7 +24,7 @@ Reworked some heroes and added some basic models
 - Dogs
 [list]
 [*] [NEW] [b]Valhallan Scout Dogs[/b] have a custom model
-[*] [NEW] [b]Valhallan Anti-Tank Dogs[/b] have a custom model (with grenades on the back)
+[*] [NEW] [b]Valhallan Anti-Tank Dogs[/b] have a custom model (with grenades on the back). Yes the textures are gross
 [/list]
 
 # 2026-03-30
