@@ -83,7 +83,7 @@ T8: Hammer of Wrath
 [/td][/tr]
 [/table]
 
-No custom models. I don't have the time to put into learning Blender at the moment.
+Custom models will come slowly
 
 [h1]Further details[/h1]
 [h2]Lore and Inspiration[/h2]
@@ -117,3 +117,6 @@ Load order doesn't matter.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch link[/url] for 1. Links to the others are on that page.
 [/td][/tr]
 [/table]
+
+[h1]Acknowledgements[/h1]
+[url=https://steamcommunity.com/workshop/filedetails/discussion/3349331473/803469175294188666/]In thread[/url]

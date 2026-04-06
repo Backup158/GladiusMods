@@ -1,3 +1,6 @@
+List is not comprehensive.
+This covers the other mods too, not just the Steel Legion.
+
 [table]
 [tr][td]Malaikat[/td][td]
 For figuring out how to have multiple research requirements (and many other gameplay feature implementations)
@@ -12,11 +15,14 @@ For the Blender export scripts. Oh, and Proxy made this game too
 By Septim under CCA
 [/td][/tr]
 [tr][td][url=https://cults3d.com/en/3d-model/game/heavy-bolter]Heavy Bolter[/url][/td][td]
-plevragor under CC BY-NC
+By plevragor under CC BY-NC
+[/td][/tr]
+[tr][td][url=https://skfb.ly/YXF9]Polikarpov Po-2[/url][/td][td]
+By manilov.ap under CCA
 [/td][/tr]
 [/table]
 
 CCA: Creative Commons Attribution
 CC BY-NC: CCA Non-Commercial
 
-I feel bad hiding these away in here but text limits do NOT mix well my love of yapping
+I'd rather not hide these away in here but text limits do NOT mix well my love of yapping
