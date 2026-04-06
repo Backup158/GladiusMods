@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" alwaysVisible="1" icon="Units/AstraMilitarum/ValhallanConscripts">
+<trait category="Buff" alwaysVisible="1" icon="Actions/AstraMilitarum/Gulag">
 	<modifiers>
 		<modifier>
 			<effects>
@@ -14,7 +14,7 @@
 		<!-- Desertion -->
 		<!-- Disappears (dies) if they are broken -->
 		<!-- I would make this not happen if a Commissar is nearby, but I can't check for if no Commissar nearby, so we'll just say if the commissar is nearby, they get executed -->
-		<modifier>
+		<modifier visible="0">
 			<conditions>
 				<unit>
 					<trait name="Broken"/>
@@ -27,7 +27,7 @@
 			</effects>
 		</modifier>
 		<!-- If Commissar is nearby, no stealing -->
-		<modifier>
+		<modifier visible="0">
 			<conditions>
 				<unit>
 					<unitsInRange count="1" range="2">
