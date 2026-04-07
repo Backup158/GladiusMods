@@ -3,7 +3,7 @@
 	<model>
 		<unit mesh="Units/AstraMilitarum/uwu_PraetorianGuard_HeavyGunnerSquad"
 				material="Units/AstraMilitarum/HeavyWeaponsSquad"
-				idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquad"
+				idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
