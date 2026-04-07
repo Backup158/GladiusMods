@@ -3,8 +3,6 @@ Adds the proud infantry of the Praetorian Guard to the Astra Militarum.
 Praetorians are renowned for their bravery [spoiler](extra base morale and [i]Praetorian[/i]: 10% more resilient to morale loss)[/spoiler] and expertise in exterminating savages [spoiler]([i]Sneering Imperialist[/i]: +17% Accuracy and +17% Ranged Attacks against Neutral units, and +10% Accuracy against Orks)[/spoiler].
 While they are a bit more expensive, Praetorians operate best alongside each other [spoiler]([i]Praetorian[/i]: +1 Accuracy and +1 Morale when adjacent to another Praetorian)[/spoiler], with further benefits for Praetorian Guardsmen and Praetorian Grenadiers near each other.
 
-No custom models. Chances of me making them are slim (because I'm lazy and don't want to learn Blender).
-
 [h1]Units and Unlocks[/h1]
 [table]
 [tr][th]
@@ -68,5 +66,13 @@ Load order doesn't matter.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615628831]Skirata's Inventory for all Units[/url]
 [/td][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch link[/url] for 1. Links to the others are on that page.
+[/td][/tr]
+[/table]
+
+[h1]Acknowledgements[/h1]
+[url=https://steamcommunity.com/workshop/filedetails/discussion/3349331473/803469175294188666/]In thread and[/url]
+[table]
+[tr][td][url=https://skfb.ly/pHyDD]Khaki-Clad Soldier with Pith Helmet[/url][/td][td]
+By ravitejareddy9381 under CCA
 [/td][/tr]
 [/table]
