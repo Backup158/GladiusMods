@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AstraMilitarum/uwu_PraetorianGuard_LordCommissarDiffuse"/>
+		<texture name="Units/AstraMilitarum/LordCommissarNormal"/>
+		<texture name="Units/AstraMilitarum/LordCommissarSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>
