@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/FieldOrdnanceBattery"
-				material="Units/AstraMilitarum/FieldOrdnanceBattery"
-				idleAnimation="Units/AstraMilitarum/FieldOrdnanceBatteryIdle"
+		<unit mesh="Units/AstraMilitarum/uwu_PraetorianGuard_HeavyGunnerSquad"
+				material="Units/AstraMilitarum/HeavyWeaponsSquad"
+				idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquad"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="0.8 0.8 0.8"
-				explosionsBone="Gun"
+				scale="1 1 1"
+				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
 	<group size="4" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
 	<weapons>
 		<weapon name="AstraMilitarum/MaximGun">
 			<model>
-				<projectileWeapon muzzleBone="Muzzle"
+				<projectileWeapon muzzleBone="Muzzle0"
 						fireInterval="0.83"/> <!-- Changing fire interval doesn't change field cannon anims since it's single shot -->
 			</model>	
 		</weapon>
 		<weapon name="FragGrenade" count="2" slotName="FragGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="Spotter_Hand_L"/>
+				<grenadeWeapon muzzleBone="RightHandBone1"/>
 			</model>	
 		</weapon>
 		<weapon name="KrakGrenade" count="2" slotName="KrakGrenade" enabled="0">
 			<model>
-				<grenadeWeapon muzzleBone="Spotter_Hand_L"/>
+				<grenadeWeapon muzzleBone="RightHandBone1"/>
 			</model>		
 		</weapon>
 	</weapons>
@@ -59,17 +59,17 @@
 	<actions>
 		<attack>
 			<model>
-				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
-						beginFire="1.0"
-						endFire="1.1"/>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadAttack"
+						beginFire="0.5"
+						endFire="2.4"/>
 			</model>			
 		</attack>
 		<die>
 			<model>
-				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryDie0"
-						sound="Units/LargeArmoredDie"
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadDie"
+						sound="Units/MediumUnarmoredDie"
 						soundCount="4"
-						soundDelay="0.65"
+						soundDelay="0.55"
 						voiceSound="Units/AstraMilitarum/InfantryDie"
 						voiceSoundCount="5"/>
 			</model>
@@ -81,23 +81,23 @@
 		</idle>
 		<move>
 			<model>
-				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryMove"
-						sound="Units/AstraMilitarum/FieldOrdnanceBatteryMove"
-						soundCount="3"/>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
 			</model>		
 		</move>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
-				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryGrenade"
-						beginFire="0.93"/>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
+						beginFire="0.666666666667"/>
 			</model>		
 		</throwGrenade>
 		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/KrakGrenade">
 			<model>
-				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryGrenade"
-						beginFire="0.93"/>
+				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
+						beginFire="0.666666666667"/>
 			</model>				
 		</throwGrenade>
 	</actions>
@@ -106,7 +106,7 @@
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="AstraMilitarum/Praetorian"/>
 		<trait name="AstraMilitarum/SneeringImperialist"/>
-
+		<!-- Reinforcements -->
 		<trait name="VeryBulky"/>
 		<trait name="AstraMilitarum/BattalionHeavyWeaponSquad"/>
 		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
