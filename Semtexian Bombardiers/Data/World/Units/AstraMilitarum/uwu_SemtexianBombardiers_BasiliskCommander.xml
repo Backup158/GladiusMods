@@ -212,7 +212,7 @@
 		</genericUnitAbility>
 		<!-- Dig In! -->
 		<!-- RDR but less movement -->
-		<fullThrottle cooldown="3" levelUpPriority="0.1"
+		<genericUnitAbility cooldown="3" levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
@@ -245,7 +245,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</fullThrottle>
+		</genericUnitAbility>
 		<!-- Elite: Full Battery -->
 		<gunnersKillOnSight	cooldown="5" levelUpPriority="1"
 				elite="1"
