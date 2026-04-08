@@ -158,6 +158,7 @@
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<trait name="MoveThroughCover"/>
 		<trait name="VeryBulky"/>
+		<!-- Praetorian -->
 		<trait name="AstraMilitarum/Praetorian"/>
 		<trait name="AstraMilitarum/SneeringImperialist"/>
 	</traits>

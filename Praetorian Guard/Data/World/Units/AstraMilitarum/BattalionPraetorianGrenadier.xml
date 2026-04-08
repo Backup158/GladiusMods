@@ -133,13 +133,15 @@
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-		<trait name="MoveThroughCover"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<!-- Praetorian -->
 		<trait name="AstraMilitarum/Praetorian"/>
-		<trait name="AstraMilitarum/PraetorianShockTroop"/>
 		<trait name="AstraMilitarum/PraetorianLineFormation"/>
 		<trait name="AstraMilitarum/SneeringImperialist"/>
 
+		<trait name="AstraMilitarum/PraetorianShockTroop"/>
+		<trait name="MoveThroughCover"/>
+		<!-- Reinforcements -->
 		<trait name="AstraMilitarum/StrengthInNumbers" requiredUpgrade="AstraMilitarum/StrengthInNumbers"/>
 		<trait name="AstraMilitarum/BattalionGuardman"/>
 		<trait name="Bulky"/>
