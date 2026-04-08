@@ -1,11 +1,12 @@
 # Modifying Meshes
-Use Blender 4.0 to be able to import and export. The import script only works on 4+ and export is best on 2.9, but 4.0 covers both. What the fuck.
-- Import from Gladius: choose one. I use TOFF's script.
+- Import Script (Gladius --> Blender): choose one. I use amorgun's script.
   - [TOFFster's script](https://discord.com/channels/467032336664494100/478509346326708227/1474500448261243145) linked in the Proxy Studios Discord (Gladius server)
+    - Use Blender 4.0 to be able to import and export. The import script only works on 4+ and export is best on 2.9, but 4.0 covers both. What the fuck.
+    - Is better with animations iirc, but I had issues where it wouldn't export normals
   - [amorgun's script](https://github.com/amorgun/blender_gladius)
-    - v1.2 requires Blender 4.4
+    - v1.2 requires Blender 4.4. Import and export works fine
     - If you use this, DO NOT DELETE THE DEFAULT BLENDER SETUP! It won't work if you don't have the Collections thing
-- Export from Blender to Gladius .xml file:
+- Export Script (Blender --> Gladius .xml file):
   - Comes with Gladius
   - Go to `<Gladius game folder>/Resources/Blender/ProxyStudios.zip`
 
@@ -148,6 +149,7 @@ In edit mode
 
 ## UV Maps
 ### Removing existing
+This is important for importing 3rd party models, since they usually come in multiple parts, and having multiple UVs colors our guys like soup
 1. Select mesh
 2. Object data in right panel (triangle with 3 dots)
 3. Click UV Maps tab
