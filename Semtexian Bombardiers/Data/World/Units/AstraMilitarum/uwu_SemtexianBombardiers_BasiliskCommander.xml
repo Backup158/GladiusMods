@@ -175,7 +175,9 @@
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
-				consumedActionPoints="0" consumedMovement="0">
+				consumedActionPoints="0" consumedMovement="0"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShell"
+				icon="Actions/SciersGaze">
 			<model>
 				<action	animation="Units/AstraMilitarum/BasiliskAttack"
 						beginFire="0.15"
