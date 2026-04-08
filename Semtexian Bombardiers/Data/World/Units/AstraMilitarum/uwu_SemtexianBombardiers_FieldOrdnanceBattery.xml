@@ -152,7 +152,7 @@
 								<!-- Accuracy Debuff -->
 								<modifier>
 									<effects>
-										<addTrait duration="1" name="Concussion"/>
+										<addTrait duration="1" name="Unwieldy"/>
 									</effects>
 								</modifier>
 								<!-- Swap Mode (Low to High) -->
