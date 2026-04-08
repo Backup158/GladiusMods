@@ -1,7 +1,7 @@
 Adds the proud infantry of the Praetorian Guard to the Astra Militarum. 
 
 Praetorians are renowned for their bravery [spoiler](extra base morale and [i]Praetorian[/i]: 10% more resilient to morale loss)[/spoiler] and expertise in exterminating savages [spoiler]([i]Sneering Imperialist[/i]: +17% Accuracy and +17% Ranged Attacks against Neutral units, and +10% Accuracy against Orks)[/spoiler].
-While they are a bit more expensive, Praetorians operate best alongside each other [spoiler]([i]Praetorian[/i]: +1 Accuracy and +1 Morale when adjacent to another Praetorian)[/spoiler], with further benefits for Praetorian Guardsmen and Praetorian Grenadiers near each other.
+While they are a bit more expensive, Praetorians operate best alongside each other[spoiler]([i]Praetorian[/i]: +1 Accuracy and +1 Morale when adjacent to another Praetorian)[/spoiler], with further benefits for Praetorian Guardsmen and Praetorian Grenadiers near each other[spoiler]([i]Line Infantry[/i]: +17% ranged attacks when adjacent to another unit with this trait)[/spoiler].
 
 [h1]Units and Unlocks[/h1]
 [table]
