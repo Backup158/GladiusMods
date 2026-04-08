@@ -151,6 +151,7 @@
 								<modifier>
 									<effects>
 										<addTrait durationMin="1" durationMax="3" name="Concussion"/>
+										<addTrait duration="1" name="Slowed"/>
 									</effects>
 								</modifier>
 							</modifiers>
