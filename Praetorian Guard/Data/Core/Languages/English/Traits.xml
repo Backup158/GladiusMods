@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/Praetorian" value="Praetorian"/>
-    <entry name="AstraMilitarum/PraetorianDescription" value="Decreased morale loss. Increased accuracy and morale regeneration when adjacent to other Praetorians."/>
+    <entry name="AstraMilitarum/PraetorianDescription" value="Decreased morale loss. Increased accuracy, morale, and morale regeneration when adjacent to other Praetorians."/>
     <entry name="AstraMilitarum/PraetorianFlavor" value="The life of a Praetorian prepared them for facing any situation head-on, especially when linked with their brothers-in-arms."/>
     <entry name="AstraMilitarum/SneeringImperialist" value="Sneering Imperialist"/>
     <entry name="AstraMilitarum/SneeringImperialistDescription" value="Increased accuracy and attacks against Neutral enemies. To a lesser extent, increased accuracy against Orks."/>

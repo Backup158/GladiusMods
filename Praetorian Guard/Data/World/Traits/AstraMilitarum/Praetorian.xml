@@ -22,8 +22,25 @@
             </conditions>
 			<effects>
 				<accuracy add="1"/>
-				<morale add="1"/>
+				<morale add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>
+	<!-- Morale regen when adjacent to other Praetorians -->
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+                <unit>
+                    <unitsInRange count="1" range="1">
+                        <allied/>
+						<trait name="AstraMilitarum/Praetorian"/>
+                    </unitsInRange>
+                    <allied/>
+                </unit>
+            </conditions>
+			<effects>
+				<morale add="1"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
 </trait>
