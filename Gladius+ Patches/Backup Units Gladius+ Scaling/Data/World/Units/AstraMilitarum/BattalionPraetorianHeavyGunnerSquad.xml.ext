@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/FieldOrdnanceBattery"
-				material="Units/AstraMilitarum/FieldOrdnanceBattery"
-				idleAnimation="Units/AstraMilitarum/FieldOrdnanceBatteryIdle"
+		<unit mesh="Units/AstraMilitarum/uwu_PraetorianGuard_HeavyGunnerSquad"
+				material="Units/AstraMilitarum/uwu_PraetorianGuard_HeavyGunnerSquad"
+				idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
 				scale="0.41 0.41 0.41"
-				explosionsBone="Gun"
+				bloodBone="ChestBone"
 				walker="1"/>
 	</model>
 </unit>

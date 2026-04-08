@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AstraMilitarum/uwu_PraetorianGuard_HeavyGunnerSquadDiffuse"/>
+		<texture name="Units/AstraMilitarum/HeavyWeaponsSquadNormal"/>
+		<texture name="Units/AstraMilitarum/HeavyWeaponsSquadSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>
