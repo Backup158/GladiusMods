@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<!-- Template -->
+	<!--
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Description" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Flavor" value=""/>
+	-->
 	<!-- ============= -->
 	<!-- Infantry -->
 	<!-- ============= -->
-
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Fusilier" value="Semtexian Fusiliers"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FusilierDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FusilierFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBattery" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatteryDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatteryFlavor" value=""/>
 	<!-- ============= -->
 	<!-- Vehicles -->
 	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Basilisk" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskFlavor" value=""/>
 
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
+
+	<!-- ========================== -->
+	<!-- Reinforcements -->
+	<!-- ========================== -->
+	<!-- ============= -->
+	<!-- Infantry -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionFusilier" value="Battalion of <string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_Fusilier'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionFusilierDescription" value="<string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_FusilierDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionFusilierFlavor" value="<string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_FusilierFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionFieldOrdnanceBattery" value="Battalion of Semtexian Field Ordnance Batteries"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionFieldOrdnanceBatteryDescription" value="<string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatteryDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionFieldOrdnanceBatteryFlavor" value="<string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatteryFlavor'/>"/>
+	<!-- ============= -->
+	<!-- Vehicles -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionBasilisk" value="Battalion of <string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_Basilisk'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionBasiliskDescription" value="<string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_BasiliskDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BattalionBasiliskFlavor" value="<string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_BasiliskFlavor'/>"/>
 </language>
