@@ -1,18 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff">
-<!--<trait alwaysVisible="1" category="Buff"> -->
+<trait alwaysVisible="1" category="Buff" icon="Traits/LineBreakerBombardment">
 	<modifiers>
+		<!-- Alpha Strike -->
+		<!-- More damage against high HP -->
 		<modifier>
 			<conditions>
 				<encounter>
 					<opponent>
-						<!-- <faction name="Orks"/> -->
-						<trait name="Orks/GreenTideHealing"/>
+						<hitpointsFraction greater="0.8"/>
+						<noTrait name="Flyer"/>
+						<noTrait name="Skimmer"/>
+						<noTrait name="Fortification"/>
 					</opponent>
+					<weapon match="Any">
+						<trait name="Barrage"/>
+						<trait name="Ordnance"/>
+					</weapon>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Kill Pinned Enemies -->
+		<!-- More accuracy if enemy is surrounded -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<enemyMajorityInRange range="1"/>
+						<noTrait name="Flyer"/>
+						<noTrait name="Skimmer"/>
+						<noTrait name="Fortification"/>
+					</opponent>
+					<weapon match="Any">
+						<trait name="Barrage"/>
+						<trait name="Ordnance"/>
+					</weapon>
 				</encounter>
 			</conditions>
 			<effects>
 				<accuracy mul="0.17"/>
+			</effects>
+		</modifier>
+		<!-- Exposed -->
+		<!-- Takes more damage if surrounded -->
+		<modifier>
+			<conditions match="Any">
+				<!-- More enemies within 2 tiles is basically surrounded -->
+				<unit>
+					<enemyMajorityInRange range="2"/>
+				</unit>
+				<!-- OR if there's just someone right next to you, and you're not being guarded -->
+				<unit>
+					<unitsInRange count="1" range="1">
+						<enemy/>
+					</unitsInRange>
+					<!-- if you're not the guard/guarded -->
+					<noTrait name="AstraMilitarum/uwu_SemtexianBombardiers_Guard"/>
+					<noTrait name="AstraMilitarum/uwu_SemtexianBombardiers_Guarded"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mul="0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>

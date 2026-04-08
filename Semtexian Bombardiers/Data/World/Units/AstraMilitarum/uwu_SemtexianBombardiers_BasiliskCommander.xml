@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/AstraMilitarum/Basilisk"
+				material="Units/AstraMilitarum/Basilisk"
+				idleAnimation="Units/AstraMilitarum/BasiliskIdle"
+				idleAnimationCount="2"
+				scale="1.2 1.2 1.2"
+				explosionsBone="Hull001"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="EarthshakerCannon">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle0"
+						fireInterval="1.0"
+						effectFaceWeight="0"/>
+			</model>		
+		</weapon>
+		<weapon name="HeavyBolter">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/HydraHeavyBolter"
+						material="Weapons/AstraMilitarum/HydraHeavyBolter"
+						bone=".Attachment0"
+						muzzleBone=".BolterMuzzle0"/>
+			</model>
+		</weapon>
+		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
+				enabled="0">
+			<model>
+				<missileWeapon muzzleBone=".Attachment0"/>
+			</model>	
+		</weapon>
+		<weapon name="None" enabled="0">
+			<model>
+				<weapon mesh="Weapons/AstraMilitarum/BasiliskLid"
+						material="Weapons/AstraMilitarum/BasiliskLid"
+						bone=".Attachment1"/>
+			</model>
+		</weapon>
+		<weapon name="RollOverThem" slotName="RollOverThem" enabled="0"/>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<!-- Basilisk, Tank Commander -->
+				<armor base="9"/> <!-- 7, 9 | %armor base armor=14/13/10 -->
+				<hitpointsMax base="48.0"/> <!-- 24, 48 | %hitpointsMax base armor=14/13/10 wounds=3 -->
+				<influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=8 factor=1.5 -->
+				<influenceCost base="120.0"/> <!-- %influenceCost base tier=8 factor=1.5 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+				<meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=6 -->
+				<meleeAttacks base="3"/>
+				<strengthDamage base="4"/> <!-- %strengthDamage base strength=7 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<moraleMax base="10"/> <!-- 8, 10 | %moraleMax base leadership=8 -->
+				<movementMax base="3"/> <!-- 3, 4 | -->
+				<oreUpkeep base="3.0"/> <!-- 3, 4 | %oreUpkeep base tier=8 factor=1 -->
+				<oreCost base="60.0"/> <!-- 60, 80 | %oreCost base tier=8 factor=1 -->
+				<productionCost base="48.0"/> <!-- 42, 48 | %productionCost base tier=8 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- 6, 6 | %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseSupportScore base="1.0"/>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/AstraMilitarum/BasiliskAttack"
+						beginFire="0.15"
+						endFire="2.4"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/BasiliskDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.2"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/BasiliskMove"
+						sound="Units/AstraMilitarum/TankMove"
+						soundCount="3"/>
+			</model>				
+		</move>
+		<createSmokeScreen icon="Traits/SmokeScreen"
+				cooldown="10"
+				requiredUpgrade="AstraMilitarum/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<useWeapon weaponSlotName="HunterKillerMissile"
+				cooldown="10"
+				requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+			<model>
+				<action beginFire="0.1" endFire="1.0"/>
+			</model>
+		</useWeapon>
+		<!-- Shake them Awake -->
+		<!-- -->
+		<genericUnitAbility	cooldown="3" levelUpPriority="0.15"
+				rank="-1"
+				rankMax="2"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwake"
+				icon="Traits/Concussive">
+			<model>
+				<action	animation="Units/AstraMilitarum/BasiliskAttack"
+						beginFire="0.15"
+						endFire="2.4"
+						sound="Weapons/EarthshakerCannon"
+						soundCount="3"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="6">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<!-- Concuss unit. And adjacent units at max rank. -->
+						<area affects="Unit" radiusMin="0" radiusMax="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait durationMin="1" durationMax="3" name="Concussion"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<!-- Damages the one guy -->
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<weaponDamage weapon="EarthshakerCannon"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Fire Flare Shell -->
+		<!-- Reveals area. Units there are more vulnerable -->
+		<genericUnitAbility	cooldown="3" levelUpPriority="0.01"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0" consumedMovement="0">
+			<model>
+				<action	animation="Units/AstraMilitarum/BasiliskAttack"
+						beginFire="0.15"
+						endFire="2.4"
+						sound="Actions/ThePassion"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="6">
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="uwu_SemtexianBombardiers_Illuminated"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Dig In! -->
+		<!-- RDR but less movement -->
+		<fullThrottle cooldown="3" levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				requiredMovement="1"
+				consumedMovement="0"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_DigIn"
+				icon="Actions/BolsterDefences">
+			<model>
+				<action sound="Actions/FoundCity"/>
+			</model>			
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="AstraMilitarum/uwu_SemtexianBombardiers_DugIn"/>
+										<addTrait duration="3" name="AstraMilitarum/uwu_SemtexianBombardiers_Guarded"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</fullThrottle>
+		<!-- Elite: Full Battery -->
+		<gunnersKillOnSight	cooldown="5" levelUpPriority="1"
+				elite="1"
+				levelUpPriority="1"
+				rank="-1"
+				rankMax="0"
+				requiredActionPoints="0"
+				consumedActionPoints="0" consumedMovement="0"
+				shoutString="Actions/GunnersKillOnSight"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery"
+				icon="Traits/Salvo">
+			<model>
+				<action sound="Actions/Montka"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</gunnersKillOnSight>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
+		<trait name="DozerBlade" requiredUpgrade="AstraMilitarum/DozerBlade"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+		<trait name="Hero"/>
+		<trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
+		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+		<!-- Semtexian Bombardiers -->
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
+	</traits>
+</unit>

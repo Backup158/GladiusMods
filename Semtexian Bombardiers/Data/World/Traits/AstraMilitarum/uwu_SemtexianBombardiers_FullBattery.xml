@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/Salvo">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<weapon match="Any">
+					<trait name="Barrage"/>
+					<trait name="Ordnance"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="0.67"/>
+				<accuracy mul="-0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

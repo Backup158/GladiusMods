@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian" value="Member of the Semtexian Bombardiers"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SemtexianDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SemtexianFlavor" value=""/>
+	<!-- ============= -->
+	<!-- Infantry -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Guard" value="Guard"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Guarded" value="p p p pwotected ^.^"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedFlavor" value=""/>
+	<!-- ============= -->
+	<!-- Heroes -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Illuminated" value="<string name='Traits/Illuminated'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedFlavor" value="<string name='Traits/IlluminatedFlavor'/>"/>
 </language>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/" value=""/>
-	<entry name="AstraMilitarum/Description" value=""/>
-	<entry name="AstraMilitarum/Flavor" value=""/>
+	<!-- ============= -->
+	<!-- Heroes -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigIn" value="Dig In"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Gunners, Full Batteries!"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value=""/>
 </language>

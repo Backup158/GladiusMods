@@ -128,7 +128,9 @@
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-		<trait name="MoveThroughCover"/>
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<!-- Semtexian Bombardiers -->
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Guard"/>
 	</traits>
 </unit>
