@@ -14,7 +14,7 @@
 					</opponent>
 					<weapon match="Any">
 						<trait name="Barrage"/>
-					<!-- <trait name="Ordnance"/> --> <!-- Ordnance includes battle cannon and such -->
+						<!-- <trait name="Ordnance"/> --> <!-- Ordnance includes battle cannon and such -->
 					</weapon>
 				</encounter>
 			</conditions>
@@ -35,7 +35,7 @@
 					</opponent>
 					<weapon match="Any">
 						<trait name="Barrage"/>
-					<!-- <trait name="Ordnance"/> --> <!-- Ordnance includes battle cannon and such -->
+						<!-- <trait name="Ordnance"/> --> <!-- Ordnance includes battle cannon and such -->
 					</weapon>
 				</encounter>
 			</conditions>
