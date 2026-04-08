@@ -13,6 +13,6 @@
 			</conditions>
 		</produceUnit>
 		<!-- T3: FOB -->
-		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatter" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBattery" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
 	</actions>
 </building>
