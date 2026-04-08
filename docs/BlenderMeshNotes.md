@@ -95,7 +95,7 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
   2. At the top, click UV (or press `U`)
   3. Select "Unpack" (if you selected only the relevant faces) or "Smart UV Project" (when there are gaps that prevent the typical unwrapping from working)
   4. Click the "UV Editor" at the top to open a new panel
-  5. Import the diffuses and shit
+  5. Import the diffuses and shit (If you imported the full unit files, they'll already be there)
   5. On that new panel, move the UV faces around to reuse things smartly
 6. Export
 
@@ -136,6 +136,12 @@ In edit mode
 3. Select the action
   - Delete is on top
   - Dissolve is at the bottom and is like merging
+
+For another merge option
+1. Select relevant things
+2. Press `M`
+3. Press `A` to merge at the center
+Best to do this in wireframe mode to merge overlapping vertices more easily (though that may make UV editing harder)
 
 ## Select All but Some
 1. Select All by pressing `A`
