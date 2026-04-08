@@ -18,7 +18,7 @@ T0
 [tr][td]
 T1: Shrine of the Aquila
 [/td][td]
-[b]Praetorian Commissar[/b] - Alternative Commissar who is more effective around Praetorians [spoiler]([i]Praetorian Inspiration[/i]: +1 Morale regeneration and +17% Ranged Accuracy)[/spoiler], but fails to lead troops with... weaker wills [spoiler]([i]Praetorian Intimidation[/i]: -1 Morale regeneration to non-Praetorians with <6.5 morale)[/spoiler]. Their imposing presence and hubris inspires Praetorians, but makes them more vulnerable to enemy fire [spoiler]([i]Praetorian Officers Don't Duck![/i]: -17% Ranged Damage Reduction)[/spoiler]. [i]Summary Execution[/i] kills an additional squad member.
+[b]Praetorian Commissar[/b] - Alternative Commissar who is more effective around Praetorians [spoiler]([i]Praetorian Inspiration[/i]: +1 Morale regeneration and +17% Ranged Accuracy)[/spoiler], but fails to lead troops with... weaker wills [spoiler]([i]Praetorian Intimidation[/i]: -1 Morale regeneration to non-Praetorians with <6.5 morale)[/spoiler]. Their imposing presence and hubris inspires Praetorians, but makes them more vulnerable to enemy fire [spoiler]([i]Praetorian Officers Don't Duck![/i]: -17% Ranged Damage Reduction)[/spoiler]. [u]Summary Execution[/u] kills an additional squad member, but is more effective[spoiler](+1 morale restored per rank, compared to default, and +1 range of effect)[/spoiler].
 [/td][/tr]
 [tr][td]
 T2: Krak Grenades

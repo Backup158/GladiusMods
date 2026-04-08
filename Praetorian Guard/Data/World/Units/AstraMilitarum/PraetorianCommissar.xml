@@ -223,7 +223,8 @@
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				rankMax="2">
+				rankMax="2"
+				name="AstraMilitarum/uwu_PraetorianGuard_SummaryExecution">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
@@ -253,7 +254,8 @@
 				</target>
 				<selfTarget>
 					<areas>
-						<area affects="Unit" radius="3">
+						<!-- 3 -->
+						<area affects="Unit" radius="4">
 							<modifiers>
 								<modifier>
 									<conditions>
@@ -262,7 +264,8 @@
 										</unit>
 									</conditions>
 									<effects>
-										<morale addMin="3" addMax="9"/>
+										<!-- 3, 9 -->
+										<morale addMin="5" addMax="15"/>
 									</effects>
 								</modifier>
 							</modifiers>
