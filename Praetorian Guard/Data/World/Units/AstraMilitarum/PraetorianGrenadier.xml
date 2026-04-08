@@ -2,8 +2,8 @@
 <unit>
 	<model>
 		<!-- Grenadiers are tradtionally tall -->
-		<unit mesh="Units/AstraMilitarum/Guardsman"
-				material="Units/AstraMilitarum/Guardsman"
+		<unit mesh="Units/AstraMilitarum/uwu_PraetorianGuard_Grenadier"
+				material="Units/AstraMilitarum/uwu_PraetorianGuard_Guardsman"
 				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
