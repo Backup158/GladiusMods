@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" 
 		category="Buff"
-		icon="Units/AstraMilitarum/LordCommissar">
+		icon="Units/AstraMilitarum/PraetorianCommissar">
 	<modifiers>
 		<!-- Buffs Praetorians -->
 		<modifier>

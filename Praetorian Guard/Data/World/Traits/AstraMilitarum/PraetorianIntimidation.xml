@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" 
 		category="Debuff"
-		icon="Units/AstraMilitarum/LordCommissar">
+		icon="Units/AstraMilitarum/PraetorianCommissar">
 	<perTurnModifiers endure="0">
 		<modifier>
 			<!-- Weaker fear and it can affect allies -->
