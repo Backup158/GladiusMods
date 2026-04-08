@@ -43,12 +43,12 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="7"/> <!-- %armor base armor=12/10/10 -->
-				<hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=12/10/10 wounds=3 -->
-				<oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
-				<oreCost base="60.0"/> <!-- %oreCost base tier=7 factor=1 -->
+				<hitpointsMax base="24.0"/> <!-- 24 | %hitpointsMax base armor=12/10/10 wounds=3 -->
+				<oreUpkeep base="3.0"/> <!-- 3 | %oreUpkeep base tier=7 factor=1 -->
+				<oreCost base="69.0"/> <!-- 60 | %oreCost base tier=7 factor=1 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
 				<movementMax base="4"/>
-				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<productionCost base="42.0"/> <!-- 42 | %productionCost base tier=7 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
@@ -114,6 +114,31 @@
 				<action beginFire="0.1" endFire="1.0"/>
 			</model>
 		</useWeapon>
+		<!-- Fire Smoke Shell -->
+		<createSmokeScreen
+				icon="Traits/SmokeScreen"
+				cooldown="10"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShell"
+				icon="Trait/SmokeScreen">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="6" rangeMin="2">
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="2" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</createSmokeScreen>
 	</actions>
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>

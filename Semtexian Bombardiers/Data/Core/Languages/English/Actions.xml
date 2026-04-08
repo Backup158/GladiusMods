@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<!-- ============= -->
+	<!-- Infantry -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShell" value="Fire Remote Anti-Tank Mine Servitor"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellFlavor" value=""/>
+	<!-- ============= -->
+	<!-- Vehicles -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShell" value="Fire Smoke Shell"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellDescription" value="Fires as smoke shell, creating a cloud of smoke on the targetted tile."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireChemicalShell" value="Fire Chemical Payload"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireChemicalShellDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireChemicalShellFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireWhitePhosphorusShell" value="Fire White Prometheum Payload"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireWhitePhosphorusShellDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireWhitePhosphorusShellFlavor" value=""/>
+	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwake" value="Shake Them Awake"/>
