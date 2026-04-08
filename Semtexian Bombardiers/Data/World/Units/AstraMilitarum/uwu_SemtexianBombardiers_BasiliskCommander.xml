@@ -183,7 +183,8 @@
 						sound="Actions/ThePassion"/>
 			</model>
 			<beginTargets>
-				<target rangeMax="6">
+				<!-- Sighted lets you target tiles you can't see -->
+				<target rangeMax="6" sighted="0">
 					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
