@@ -171,7 +171,7 @@
 								<modifier>
 									<conditions>
 										<unit>
-											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HightFire"/>
+											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
 										</unit>
 									</conditions>
 									<effects>
