@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" 
-		category="Debuff"
+<trait category="Debuff"
 		icon="Traits/Killshot">
 	<modifiers>
 		<!-- Increased Ranged Damage from not taking cover -->
