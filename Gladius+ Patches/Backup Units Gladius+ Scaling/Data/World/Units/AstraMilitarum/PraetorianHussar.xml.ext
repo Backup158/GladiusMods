@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement16">
 	<model>
-		<unit mesh="Units/AstraMilitarum/AttilanRoughRider"
+		<unit mesh="Units/AstraMilitarum/uwu_PraetorianGuard_Hussar"
 				material="Units/AstraMilitarum/AttilanRoughRider"
 				scale="0.41 0.41 0.41"
 				idleAnimation="Units/AstraMilitarum/AttilanRoughRiderIdle"
