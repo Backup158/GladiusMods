@@ -22,7 +22,7 @@
             </conditions>
 			<effects>
 				<accuracy add="1"/>
-				<morale add="2"/>
+				<moraleMax add="1"/>
 			</effects>
 		</modifier>
 	</modifiers>
