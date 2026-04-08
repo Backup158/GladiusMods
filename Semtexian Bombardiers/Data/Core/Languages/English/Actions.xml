@@ -3,6 +3,9 @@
 	<!-- ============= -->
 	<!-- Infantry -->
 	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode" value="Raise or Lower Howitzer"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeFlavor" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShell" value="Fire Remote Anti-Tank Mine Servitor"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellFlavor" value=""/>

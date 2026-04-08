@@ -12,6 +12,12 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Guarded" value="p p p pwotected ^.^"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire" value="Mortar Configuration"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_HighFireDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_HighFireFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire" value="Cannon Configuration"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LowFireDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LowFireFlavor" value=""/>
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->

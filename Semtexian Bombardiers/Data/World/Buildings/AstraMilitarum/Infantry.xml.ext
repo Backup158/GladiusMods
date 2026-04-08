@@ -12,5 +12,7 @@
 				</player>
 			</conditions>
 		</produceUnit>
+		<!-- T3: FOB -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatter" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
 	</actions>
 </building>
