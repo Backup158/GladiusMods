@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Traits/Salvo">
+<trait alwaysVisible="1" category="Buff" icon="Traits/SpaceMarines/SuppressiveBombardment">
 	<modifiers>
 		<modifier>
 			<conditions>

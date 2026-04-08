@@ -256,7 +256,7 @@
 				consumedActionPoints="0" consumedMovement="0"
 				shoutString="Actions/GunnersKillOnSight"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery"
-				icon="Traits/Salvo">
+				icon="Traits/SpaceMarines/SuppressiveBombardment">
 			<model>
 				<action sound="Actions/Montka"/>
 			</model>
