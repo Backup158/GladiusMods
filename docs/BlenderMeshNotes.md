@@ -13,14 +13,23 @@
 1. Import .msh file from game
   - Note for amorgun's script v1.1: click mesh, shift click armature, parent with auto weights
   - For TOFF's script and amorgun's v1.2 script, you can import the unit's xml right in
-2. do whatever edits idk
-3. Select mesh only
+2. Do whatever edits
+3. Select mesh only (So don't select the armature, but do make sure it's joined)
 4. Export as Proxy mesh .xml
 5. Put into appropriate mod folder
-6. Open it
-  - If it has `normal id="xxx" x="0.000000" y="0.000000" z="0.000000"` it's fucked
-  - Normal values need to add up to 1
-  - Copy the values if there are any. Temporarily, you can just do x="1.0" and make everyone oily
+6. Open it and check for errors
+  - Normals
+    - If it has `normal id="xxx" x="0.000000" y="0.000000" z="0.000000"` it's fucked
+    - Normal values need to add up to 1
+    - Copy the values if there are any. Temporarily, you can just do x="1.0" and make everyone oily
+  - Too many bone weights
+    - There can only be, at most, 4 references per boneWeight
+    - If there are more, delete the lowest ones
+    - Or go to the Blender file and limit weights
+  - Not enough bone weights
+    - boneWeight needs at least one
+    - If there's an empty one, I usually just copy a nearby value
+    - The better fix is to add the weight in the blend file, but sometimes it's too hard
 7. Start game to convert the xml into a msh
 
 ## Kitbashing or Replacing with Existing Model
@@ -107,12 +116,12 @@ As I'm new to Blender, I'm keeping general hotkeys here too, for easy reference.
 3. Press `Shift + X`
 ### Testing Weights
 1. Select the armature
-2. Choose pose view
+2. Choose "Pose View" (where there's object/edit mode)
 3. Select a bone
 4. Wiggle it about
 ### Adhering to the 4 Limit
-1. click weights on top
-2. click limit weights
+1. click "Weights" on top
+2. click "Limit Weights"
 this is also where you can normalize all
 
 ## Delete/Merge Vertices/Edges/Vertices
