@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
 </language>
