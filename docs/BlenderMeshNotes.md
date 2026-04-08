@@ -50,26 +50,36 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
       - In a new project, import the other thing and strip off the things you don't need. Export as gfblt or whatever
       - Open the first thing. CLICK OFF THE MODEL. Import geflugestugheist. 
 2. Adjust the target mesh to look close to the source mesh
-  - rotate it, move it around, etc
-  - in this case, i transformed some vertices to make it longer too
-  - so it should be overlapping
-  - I also wanted to combine the stock onto it
-    1. I selected the lasgun in obj mode
-    2. went into edit mode to delete everything but the stock
-    3. moved stock so it looks nice on the flamer
-  - Be sure to adjust the bones too
-3. Join and Add Weights
-  - Note, weights are easier to do when the things are joined but not actually put together in the correct place
+  - Rotate it, move it around, etc
+  - Move it so it overlaps the original mesh the way you want it to
+  - In the example, I transformed some vertices to make it longer too
+    - I also wanted to combine the stock onto it
+      1. I selected the lasgun in obj mode
+      2. went into edit mode to delete everything but the stock
+      3. moved stock a bit so it looks nice on the flamer
+    - Do all this now so it's easy to select all
+  - For 3rd party models, this is also a good time to decimate the model, to optimize it for gameplay
+3. Remove extraneous data (mainly when importing 3rd party models)
+  - Vertex data bones from old one
+  - Materials
+    1. select object and be in obj mode
+    2. click materials in right panel (circle cut in 4)
+    3. select the unused texture then click the minus on the right bar
+  - UVs
+    - See UV maps section below
+    - If there are multiple UVs exported, the textures get all muddied in game
+4. Join and Add Weights
+  - **NOTE**: Weights are *much* easier to do when the things are joined but not actually put together in the correct place
     - So I line them up, then move them forwards on the x axis only, so it's like a foot in front
     - Select the whole item, then assign weight to make sure you don't miss a spot
     - Weight paint manually as needed
     - Move the object back onto the guy
   - Method 1
-    3. Joined meshes
+    1. Joined meshes
       1. Click target mesh
       2. click source mesh
       3. right click --> click join
-    4. Added weights (make sure you're in edit mode)
+    2. Added weights (make sure you're in edit mode)
       1. select all vertices
       2. click the vertex button on the right panel (triangle with dots at corners)
       3. select the base node
@@ -79,20 +89,15 @@ Adding an existing mesh onto a new one. For this example, I will replace the Gua
     1. Click model
     2. Click Armature
     3. Right Click --> Join with Automatic Weights
-4. Modify UVs
-  1. Select only the faces/edges you added
+  - Be sure to adjust the bones too, such as lining up muzzles
+5. Modify UVs
+  1. Select only the faces you added
   2. At the top, click UV (or press `U`)
-  3. Select "Unpack" (if you selected only the relevant faces) or "Smart UV Project" (if working from scratch, which is not recommended)
+  3. Select "Unpack" (if you selected only the relevant faces) or "Smart UV Project" (when there are gaps that prevent the typical unwrapping from working)
   4. Click the "UV Editor" at the top to open a new panel
   5. Import the diffuses and shit
   5. On that new panel, move the UV faces around to reuse things smartly
-5. May need to remove some old data
-  - vertex data bones from old one
-  - Materials
-    1. select object and be in obj mode
-    2. click materials in right panel (circle cut in 4)
-    3. select the unused texture then click the minus on the right bar
-5. Export
+6. Export
 
 ## Normals Export Funny
 When things look fine in material preview, but when you export it's always like `<normal id="0" x="0.000000" y="0.000000" z="0.000000"/>`
