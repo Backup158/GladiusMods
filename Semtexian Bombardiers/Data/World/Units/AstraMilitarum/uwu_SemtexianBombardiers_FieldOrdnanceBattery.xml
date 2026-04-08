@@ -13,7 +13,7 @@
 	</model>
 	<group size="2" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
 	<weapons>
-		<weapon name="Laspistol" slotName="LowFire">
+		<weapon name="Laspistol">
 			<model>
 				<beamWeapon muzzleBone="Spotter_Hand_L"
 						fireInterval="0.5"/>
