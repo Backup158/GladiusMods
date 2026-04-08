@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon attributesModifiedByUnit="0" icon="Weapons/ClusterMines">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedAccuracy max="12" min="12"/>
+				<!-- Comparing Cluster Mines and Krak Grenades -->
+				<!-- Ok so turns out regular Cluster Mines are just Krak Grenades with Blast lol -->
+				<rangedArmorPenetration add="2"/> <!-- 2, 2 | %rangedArmorPenetration add armorPiercing=4 -->
+				<rangedDamage add="3"/> <!-- 3, 3 | %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<!-- <trait name="Blast"/> --> <!-- Removing blast but still having the damage increase is ok because krak missiles do the same -->
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="ChaosSpaceMarines/BlastDamage" requiredUpgrade="ChaosSpaceMarines/BlastDamage"/>
+		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+		<trait name="IgnoresCover"/>
+
+		<trait name="TankHunters"/>
+	</traits>
+</weapon>

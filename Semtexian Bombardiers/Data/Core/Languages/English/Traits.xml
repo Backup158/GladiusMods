@@ -18,6 +18,9 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire" value="Cannon Configuration"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LowFireDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LowFireFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMine" value="Anti-Tank Mines"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMineDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMineFlavor" value=""/>
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
