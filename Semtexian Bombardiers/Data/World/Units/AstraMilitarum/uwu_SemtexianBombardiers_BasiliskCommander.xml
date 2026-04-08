@@ -124,7 +124,7 @@
 			</model>
 		</useWeapon>
 		<!-- Shake them Awake -->
-		<!-- -->
+		<!-- Attacks a unit and concusses them -->
 		<genericUnitAbility	cooldown="3" levelUpPriority="0.15"
 				rank="-1"
 				rankMax="2"
