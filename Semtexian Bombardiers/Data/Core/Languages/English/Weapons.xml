@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BombastFieldGun" value="Noble Mk XVI Field Howitzer"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BombastFieldGunDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BombastFieldGunFlavor" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BombastFieldGunLow" value="Noble Mk XVI Field Howitzer (Lowered)"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BombastFieldGunLowDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BombastFieldGunLowFlavor" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGun" value="Noble Mk XVI Field Howitzer"/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGunDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGunFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLow" value="Noble Mk XVI Field Howitzer (Lowered)"/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLowDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLowFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
 </language>
