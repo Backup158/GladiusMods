@@ -4,12 +4,11 @@
 		<!-- T2: Cult Mechanicus = Upgrades -->
 		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_Engineer" requiredUpgrade="AstraMilitarum/Upgrades"/>
 		<!-- T3: Field Ordnance Battery, OR T5: Basilisk -->
-		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_Fusilier" requiredUpgrade="AstraMilitarum/FieldOrdnanceBattery"/>
-		<!--   Unlocks at Basilisk if you don't have Field Ordnance Batteries -->
-		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_Fusilier" requiredUpgrade="AstraMilitarum/Basilisk">
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_Fusilier">
 			<conditions>
-				<player>
-					<noUpgrade name="AstraMilitarum/FieldOrdnanceBattery"/>
+				<player match="Any">
+					<upgrade name="AstraMilitarum/FieldOrdnanceBattery"/>
+					<upgrade name="AstraMilitarum/Basilisk"/>
 				</player>
 			</conditions>
 		</produceUnit>
