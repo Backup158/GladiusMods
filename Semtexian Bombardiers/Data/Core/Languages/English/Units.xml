@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="AstraMilitarum/" value=""/>
-	<entry name="AstraMilitarum/Description" value=""/>
-	<entry name="AstraMilitarum/Flavor" value=""/>
+	<!-- Template -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Description" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Flavor" value=""/>
+	<!-- ============= -->
+	<!-- Infantry -->
+	<!-- ============= -->
+
+	<!-- ============= -->
+	<!-- Vehicles -->
+	<!-- ============= -->
+
+	<!-- ============= -->
+	<!-- Heroes -->
+	<!-- ============= -->
 </language>

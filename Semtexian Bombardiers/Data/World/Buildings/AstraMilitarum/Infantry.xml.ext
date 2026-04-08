@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <building>
 	<actions>
-		<produceUnit unit="AstraMilitarum/JopallIndenturedSquadron" requiredUpgrade="AstraMilitarum/Ratling"/>
+		<!-- T2: Cult Mechanicus = Upgrades -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_Fusilier" requiredUpgrade="AstraMilitarum/Upgrades"/>
 	</actions>
 </building>
