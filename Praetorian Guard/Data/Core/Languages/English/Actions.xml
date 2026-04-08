@@ -6,7 +6,4 @@
     <entry name="AstraMilitarum/PraetorianOfficersDontDuck" value="Praetorian Officers Don't Duck!"/>
     <entry name="AstraMilitarum/PraetorianOfficersDontDuckDescription" value="Inspired by the bravery of their officers, Praetorians gain morale and accuracy. Weaker-willed troops lose morale."/>
     <entry name="AstraMilitarum/PraetorianOfficersDontDuckFlavor" value="&quot;They couldn't hit an elephant at this range.&quot;"/>
-	<entry name="AstraMilitarum/uwu_PraetorianGuard_SummaryExecution" value="<string name='Actions/SummaryExecution'/>"/>
-	<entry name="AstraMilitarum/uwu_PraetorianGuard_SummaryExecutionDescription" value="Executes 2 squad members of an adjacent infantry unit to greatly restore morale of allied units within 4 tiles."/>
-	<entry name="AstraMilitarum/uwu_PraetorianGuard_SummaryExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
 </language>

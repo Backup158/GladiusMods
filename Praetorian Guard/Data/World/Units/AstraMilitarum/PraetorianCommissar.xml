@@ -223,8 +223,7 @@
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				rankMax="2"
-				name="AstraMilitarum/uwu_PraetorianGuard_SummaryExecution">
+				rankMax="2">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"
