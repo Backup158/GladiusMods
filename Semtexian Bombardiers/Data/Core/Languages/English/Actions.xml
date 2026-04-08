@@ -3,6 +3,12 @@
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwake" value="Shake Them Awake"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShell" value="Fire Flare Shell"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellFlavor" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigIn" value="Dig In"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInFlavor" value=""/>
