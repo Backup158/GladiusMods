@@ -104,6 +104,8 @@
 	<traits>
 		<!-- <trait name="Bulky"/> -->
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<!-- Praetorian -->
 		<trait name="AstraMilitarum/Praetorian"/>
 		<trait name="AstraMilitarum/SneeringImperialist"/>
 		<!-- Reinforcements -->
