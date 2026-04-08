@@ -137,7 +137,7 @@
 			</model>				
 		</throwGrenade>
 		<!-- Swap Fire Mode -->
-		<genericUnitAbility requiredActionPointsAction="1"
+		<genericUnitAbility requiredActionPoints="1"
 				consumedActionPoints="0"
 				icon="Actions/Skip"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode">
