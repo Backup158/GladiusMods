@@ -322,8 +322,8 @@
 		<trait name="Stubborn"/>
 		<!-- Praetorian -->
 		<trait name="AstraMilitarum/Praetorian"/>
-		<trait name="AstraMilitarum/PraetorianOfficersDontDuck"/>
 		<trait name="AstraMilitarum/SneeringImperialist"/>
+		<trait name="AstraMilitarum/PraetorianOfficersDontDuck"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>

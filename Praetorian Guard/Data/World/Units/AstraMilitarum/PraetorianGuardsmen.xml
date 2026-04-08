@@ -135,8 +135,8 @@
 		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 		<!-- Praetorian -->
 		<trait name="AstraMilitarum/Praetorian"/>
-		<trait name="AstraMilitarum/PraetorianLineFormation"/>
 		<trait name="AstraMilitarum/SneeringImperialist"/>
+		<trait name="AstraMilitarum/PraetorianLineFormation"/>
 	</traits>
 	<!-- Too Many Voices compatibility -->
 	<responses>
