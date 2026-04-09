@@ -5,7 +5,7 @@
             <modifiers>
                 <modifier>
                     <effects>
-                        <addFeature duration="3" name="uwu_SemtexianBombardiers_DeathstrikeMissileChemical"/>
+                        <addFeature duration="3" name="uwu_SemtexianBombardiers_ChemicalCloud"/>
                     </effects>
                 </modifier>
             </modifiers>

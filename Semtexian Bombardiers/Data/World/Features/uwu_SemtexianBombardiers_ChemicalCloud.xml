@@ -2,7 +2,7 @@
 <feature category="WireWeed"
 		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileChemical">
 	<model>
-		<smokeScreen blueprint="Effects/uwu_SemtexianBombardiers_DeathstrikeMissileChemical"/>
+		<smokeScreen blueprint="Effects/uwu_SemtexianBombardiers_ChemicalCloud"/>
 	</model>
 	<traits>
 		<trait name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect"/>
