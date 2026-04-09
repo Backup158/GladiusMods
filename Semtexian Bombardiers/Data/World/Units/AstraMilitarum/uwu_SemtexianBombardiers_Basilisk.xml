@@ -119,7 +119,7 @@
 				icon="Traits/SmokeScreen"
 				cooldown="10"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShell"
-				icon="Trait/SmokeScreen">
+				icon="Traits/SmokeScreen">
 			<model>
 				<action sound="Actions/SmokeScreen"/>
 			</model>
