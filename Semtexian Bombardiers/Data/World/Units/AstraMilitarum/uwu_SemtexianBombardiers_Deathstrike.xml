@@ -171,6 +171,8 @@
 		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
+		<!-- Semtexian Bombardiers -->
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
 	</traits>
 	<!-- Too Many Voices integration -->
 	<!-- Baneblade lines name themselves sometimes. #3 in movement. #1 in select. This the best we got though -->
