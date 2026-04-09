@@ -24,6 +24,7 @@
 		</modifier>
 	</modifiers>
 	<traits>
+		<trait name="Slowed"/>
 		<trait name="uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffect"/>
 	</traits>
 </feature>
