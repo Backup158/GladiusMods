@@ -26,27 +26,12 @@
 		</weapon>
 		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileChemical" slotName="DeathstrikeMissileChemical"
 				enabled="0">
-			<model>
-				<missileWeapon missileBlueprint="Weapons/AstraMilitarum/DeathstrikeMissile"
-						missileScale="1.0"
-						muzzleBone="Rocket"/>
-			</model>
 		</weapon>
 		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorus" slotName="DeathstrikeMissileWhitePhosphorus"
 				enabled="0">
-			<model>
-				<missileWeapon missileBlueprint="Weapons/AstraMilitarum/DeathstrikeMissile"
-						missileScale="1.0"
-						muzzleBone="Rocket"/>
-			</model>
 		</weapon>
 		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" slotName="DeathstrikeMissileEMS"
 				enabled="0">
-			<model>
-				<missileWeapon missileBlueprint="Weapons/AstraMilitarum/DeathstrikeMissile"
-						missileScale="1.0"
-						muzzleBone="Rocket"/>
-			</model>
 		</weapon>
 		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
 				enabled="0">
@@ -192,8 +177,8 @@
 	<responses>
 		<action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Ability_Smoke" soundCount="1"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
-		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Move" soundCount="3"/>
-		<select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Select" soundCount="1"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Select" soundCount="4"/>
 		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Complete" soundCount="1"/>
 	</responses>
 </unit>
