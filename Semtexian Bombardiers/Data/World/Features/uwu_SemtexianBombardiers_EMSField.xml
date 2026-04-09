@@ -2,7 +2,7 @@
 <feature category="WireWeed"
 		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileEMS">
 	<model>
-		<smokeScreen blueprint="Effects/GravityWaves"/>
+		<smokeScreen blueprint="Effects/uwu_SemtexianBombardiers_EMSCloud"/>
 	</model>
 	<modifiers>
 		<modifier>
