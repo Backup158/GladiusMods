@@ -23,7 +23,7 @@
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
 		<trait name="Ordnance"/>
 		<!-- Flames -->
-		<trait name="uwu_SemtexianBombardiers_DeathstrikeWhitePhosphorus"/>
+		<trait name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorus"/>
 		<trait name="Flame"/>
 		<trait name="NoEscape"/>
 	</traits>
