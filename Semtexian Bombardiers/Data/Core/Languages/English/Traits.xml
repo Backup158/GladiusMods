@@ -27,4 +27,22 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Illuminated" value="<string name='Traits/Illuminated'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedFlavor" value="<string name='Traits/IlluminatedFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect" value="Chemical Cloud"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffect" value="Electro-Stasis Field"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplash" value="Fragstorm Shrapnel Blast"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashDescription" value="Damages adjacent units, friend and foe alike."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashChemical" value="Chemical Blast"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashChemicalDescription" value="Applies a corrosive chemical cloud to tiles on and adjacent to the targetted unit."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashChemicalFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashEMS" value="Electro-Statis Blast"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashEMSDescription" value="Applies a slowing stasis field to tiles on and adjacent to the targetted unit."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashEMSFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorus" value="White Prometheum Blast"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusDescription" value="Applies smoke to tiles on and adjacent to the targetted unit."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusFlavor" value=""/>
 </language>

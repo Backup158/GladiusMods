@@ -3,4 +3,10 @@
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_ChemicalCloud" value="<string name='Traits/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect'/>"/>
+	<entry name="uwu_SemtexianBombardiers_ChemicalCloudDescription" value="<string name='Traits/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_ChemicalCloudFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_EMSField" value="<string name='Traits/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffect'/>"/>
+	<entry name="uwu_SemtexianBombardiers_EMSFieldDescription" value="<string name='Traits/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_EMSFieldFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectFlavor'/>"/>
 </language>
