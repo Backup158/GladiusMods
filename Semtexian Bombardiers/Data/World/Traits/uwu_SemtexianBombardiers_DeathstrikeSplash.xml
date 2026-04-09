@@ -5,7 +5,7 @@
             <modifiers>
                 <modifier>
                     <effects>
-                        <weaponDamage name="uwu_SemtexianBombardiers_DeathstrikeMissileSplash"/>
+                        <weaponDamage weapon="uwu_SemtexianBombardiers_DeathstrikeMissileSplash"/>
                     </effects>
                 </modifier>
             </modifiers>
