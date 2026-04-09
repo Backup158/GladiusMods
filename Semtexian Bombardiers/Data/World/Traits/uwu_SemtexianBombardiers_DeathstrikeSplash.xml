@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Attributes/Damage">
+    <onCombatOpponent>
+        <area affects="Unit" radius="1">
+            <modifiers>
+                <modifier>
+                    <effects>
+                        <weaponDamage name="uwu_SemtexianBombardiers_DeathstrikeMissileSplash"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+        </area>
+    </onCombatOpponent>
+</trait>

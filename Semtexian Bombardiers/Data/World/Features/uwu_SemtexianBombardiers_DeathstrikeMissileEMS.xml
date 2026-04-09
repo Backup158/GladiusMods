@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature
+		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileEMS">
+	<model>
+		<smokeScreen blueprint="Effects/GravityWaves"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="Flyer"/>
+					<noTrait name="Necrons/ImmuneToNaturalLaw"/>
+					<noTrait name="Necrons/Wraithflight"/>
+					<noTrait name="JetPack"/>
+					<noTrait name="Jetbike"/>
+					<noTrait name="Skimmer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementCost min="100"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffect"/>
+	</traits>
+</feature>

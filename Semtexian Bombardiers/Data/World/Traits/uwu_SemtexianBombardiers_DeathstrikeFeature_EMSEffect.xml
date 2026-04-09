@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff"
+		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileEMS">
+	<modifiers>
+		<modifier>
+			<effects>
+				<addTrait duration="1" name="Slowed"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

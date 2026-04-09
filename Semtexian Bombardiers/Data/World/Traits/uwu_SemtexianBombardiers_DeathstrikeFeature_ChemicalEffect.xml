@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff"
+		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileChemical">
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangedDamageReduction add="0.17"/> <!-- Gas is more translucent so less RDR than 33% -->
+			</effects>
+		</modifier>
+	</modifiers>
+    <!-- Rad Saturation from AdMech -->
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<!-- <enemy/> -->
+					<noTrait name="Fortification"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="RadSaturation"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

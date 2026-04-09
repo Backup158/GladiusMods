@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature blockingSight="1"
+		category="None"
+		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileChemical">
+	<model>
+		<smokeScreen blueprint="Effects/uwu_SemtexianBombardiers_DeathstrikeMissileChemical"/>
+	</model>
+	<traits>
+		<trait name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect"/>
+	</traits>
+</feature>

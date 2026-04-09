@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/FieldOrdnanceBattery"
+				material="Units/AstraMilitarum/FieldOrdnanceBattery"
+				idleAnimation="Units/AstraMilitarum/FieldOrdnanceBatteryIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.8 0.8 0.8"
+				explosionsBone="Gun"
+				walker="1"/>
+	</model>
+	<group size="2" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
+	<weapons>
+		<weapon name="Laspistol">
+			<model>
+				<beamWeapon muzzleBone="Spotter_Hand_L"
+						fireInterval="0.5"/>
+			</model>	
+		</weapon>
+		<weapon name="uwu_SemtexianBombardiers_BombastFieldGun" slotName="HighFire" enabled="0">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"
+						fireInterval="0.83"/>
+			</model>	
+		</weapon>
+		<weapon name="uwu_SemtexianBombardiers_BombastFieldGunLow" slotName="LowFire" enabled="0">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"
+						fireInterval="0.83"/>
+			</model>	
+		</weapon>
+		<weapon name="FragGrenade" count="2" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Spotter_Hand_L"/>
+			</model>	
+		</weapon>
+		<weapon name="KrakGrenade" count="2" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="Spotter_Hand_L"/>
+			</model>		
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<foodUpkeep base="2.0"/> <!-- 2 | %foodUpkeep base tier=6 factor=1 -->
+				<foodCost base="25.0"/> <!-- 20 | %foodCost base tier=6 factor=0.5 -->
+				<hitpointsMax base="9.0"/> <!-- 9 | %hitpointsMax base toughness=4 wounds=3 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="2"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<oreCost base="30.0"/> <!-- 20 | %oreCost base tier=6 factor=0.5 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="36.0"/> <!-- 36 | %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
+						beginFire="1.0"
+						endFire="1.1"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryDie0"
+						sound="Units/LargeArmoredDie"
+						soundCount="4"
+						soundDelay="0.65"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryMove"
+						sound="Units/AstraMilitarum/FieldOrdnanceBatteryMove"
+						soundCount="3"/>
+			</model>		
+		</move>
+		<useWeapon weaponSlotName="HighFire">
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
+						beginFire="1.0"
+						endFire="1.1"/>
+			</model>	
+			<conditions>
+				<unit>
+					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+				</unit>
+			</conditions>
+		</useWeapon>
+		<useWeapon weaponSlotName="LowFire">
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
+						beginFire="1.0"
+						endFire="1.1"/>
+			</model>	
+			<conditions>
+				<unit>
+					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+				</unit>
+			</conditions>
+		</useWeapon>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryGrenade"
+						beginFire="0.93"/>
+			</model>		
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryGrenade"
+						beginFire="0.93"/>
+			</model>				
+		</throwGrenade>
+		<!-- Swap Fire Mode -->
+		<genericUnitAbility requiredActionPoints="1"
+				consumedActionPoints="0"
+				icon="Actions/Skip"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode">
+			<model>
+				<action sound="Actions/Reload"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<!-- Accuracy Debuff -->
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Unwieldy"/>
+									</effects>
+								</modifier>
+								<!-- Swap Mode (Low to High) -->
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+									</effects>
+								</modifier>
+								<!-- Swap Mode (High to Low) -->
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Fire Remote Anti-Tank Mine Laying Device -->
+		<genericUnitAbility cooldown="5"
+				icon="Weapons/ClusterMines"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShell">
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
+						beginFire="1.0"
+						endFire="1.1"
+						sound="Weapons/BombastFieldGun"
+						soundCount="3"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="4" rangeMin="2">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyUnit/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="uwu_SemtexianBombardiers_AntiTankMine"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
+		<trait name="DozerBlade" requiredUpgrade="AstraMilitarum/DozerBlade"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+		<trait name="Hero"/>
+		<trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
+		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+		<!-- Semtexian Bombardiers -->
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+	</traits>
+	<!-- Too Many Voices integration -->
+	<!-- Baneblade lines name themselves sometimes. #3 in movement. #1 in select. This the best we got though -->
+	<responses>
+		<action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Ability_Smoke" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Move" soundCount="3"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Select" soundCount="1"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Complete" soundCount="1"/>
+	</responses>
+</unit>
