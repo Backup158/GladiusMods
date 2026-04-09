@@ -24,7 +24,13 @@
 						muzzleBone="Rocket"/>
 			</model>
 		</weapon>
+		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileChemical" slotName="DeathstrikeMissileChemical"
+				enabled="0">
+		</weapon>
 		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorus" slotName="DeathstrikeMissileWhitePhosphorus"
+				enabled="0">
+		</weapon>
+		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" slotName="DeathstrikeMissileEMS"
 				enabled="0">
 		</weapon>
 		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
@@ -38,12 +44,14 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
-				<hitpointsMax base="36.0"/> <!-- 36 | %hitpointsMax base armor=12/12/10 wounds=3 -->
+				<hitpointsMax base="50.0"/> <!-- 36 | %hitpointsMax base armor=12/12/10 wounds=3 -->
 				<oreUpkeep base="4.0"/> <!-- 4 | %oreUpkeep base tier=8 factor=1 -->
-				<oreCost base="90.0"/> <!-- 80 | %oreCost base tier=8 factor=1 -->
+				<oreCost base="100.0"/> <!-- 80 | %oreCost base tier=8 factor=1 -->
+				<influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=8 factor=1.5 -->
+				<influenceCost base="120.0"/> <!-- %influenceCost base tier=8 factor=1.5 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
 				<movementMax base="4"/>
-				<productionCost base="52.0"/> <!-- 48 | %productionCost base tier=8 factor=1 -->
+				<productionCost base="52.0"/> <!-- 48, 52 | %productionCost base tier=8 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
@@ -108,7 +116,21 @@
 						beginFire="1.7" endFire="3.0"/>
 			</model>
 			<sharedCooldowns>
+				<action name="UseWeapon/DeathstrikeMissileChemical"/>
 				<action name="UseWeapon/DeathstrikeMissileWhitePhosphorus"/>
+				<action name="UseWeapon/DeathstrikeMissileEMS"/>
+			</sharedCooldowns>
+		</useWeapon>
+		<useWeapon weaponSlotName="DeathstrikeMissileChemical"
+				cooldown="2">
+			<model>
+				<action animation="Units/AstraMilitarum/DeathstrikeAbility"
+						beginFire="1.7" endFire="3.0"/>
+			</model>
+			<sharedCooldowns>
+				<action name="UseWeapon/DeathstrikeMissile"/>
+				<action name="UseWeapon/DeathstrikeMissileWhitePhosphorus"/>
+				<action name="UseWeapon/DeathstrikeMissileEMS"/>
 			</sharedCooldowns>
 		</useWeapon>
 		<useWeapon weaponSlotName="DeathstrikeMissileWhitePhosphorus"
@@ -119,6 +141,20 @@
 			</model>
 			<sharedCooldowns>
 				<action name="UseWeapon/DeathstrikeMissile"/>
+				<action name="UseWeapon/DeathstrikeMissileChemical"/>
+				<action name="UseWeapon/DeathstrikeMissileEMS"/>
+			</sharedCooldowns>
+		</useWeapon>
+		<useWeapon weaponSlotName="DeathstrikeMissileEMS"
+				cooldown="2">
+			<model>
+				<action animation="Units/AstraMilitarum/DeathstrikeAbility"
+						beginFire="1.7" endFire="3.0"/>
+			</model>
+			<sharedCooldowns>
+				<action name="UseWeapon/DeathstrikeMissile"/>
+				<action name="UseWeapon/DeathstrikeMissileChemical"/>
+				<action name="UseWeapon/DeathstrikeMissileWhitePhosphorus"/>
 			</sharedCooldowns>
 		</useWeapon>
 		<useWeapon weaponSlotName="HunterKillerMissile"
