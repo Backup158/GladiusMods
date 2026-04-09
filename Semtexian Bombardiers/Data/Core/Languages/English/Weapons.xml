@@ -10,16 +10,19 @@
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
 	<!-- Deathstrike -->
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissile" value="Deathstrike"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissile" value="Deathstrike Fragstorm Payload"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplash" value="Deathstrike Fragstorm Shrapnel"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplashDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplashFlavor" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemical" value="Deathstrike Chemical Payload"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemicalDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemicalFlavor" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorus" value="Deathstrike White Prometheum Payload"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusFlavor" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" value="Deathstrike Stasis Payload"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" value="Deathstrike Electro-Stasis Payload"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSFlavor" value=""/>
 </language>
