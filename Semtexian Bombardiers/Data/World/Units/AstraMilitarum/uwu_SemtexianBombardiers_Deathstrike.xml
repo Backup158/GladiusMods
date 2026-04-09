@@ -32,7 +32,7 @@
 						muzzleBone="Rocket"/>
 			</model>
 		</weapon>
-		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosporus" slotName="DeathstrikeMissileWhitePhosphorus"
+		<weapon name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorus" slotName="DeathstrikeMissileWhitePhosphorus"
 				enabled="0">
 			<model>
 				<missileWeapon missileBlueprint="Weapons/AstraMilitarum/DeathstrikeMissile"
