@@ -24,12 +24,21 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Basilisk" value="Semtexian Basilisk"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Deathstrike" value="Semtexian Deathstrike"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFlavor" value=""/>
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommander" value="Semtexian Artillery Staff-Sentinel-Master"/> <!-- Stabswachtmeister -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommanderDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommanderFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha" value="M42 &quot;Big Bertha&quot; Kurze Naval Cannon"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBerthaDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBerthaFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeCommander" value="Semtexian Deathstrike Head-Man"/> <!-- Hauptmann: Captain -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeCommanderDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeCommanderFlavor" value=""/>
 	<!-- ========================== -->
 	<!-- Reinforcements -->
 	<!-- ========================== -->
