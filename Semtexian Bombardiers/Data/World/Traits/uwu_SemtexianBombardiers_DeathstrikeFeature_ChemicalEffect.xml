@@ -8,7 +8,6 @@
 			</effects>
 		</modifier>
 	</modifiers>
-    <!-- Rad Saturation from AdMech -->
 	<perTurnModifiers endure="0">
 		<modifier>
 			<conditions>
@@ -19,7 +18,19 @@
 				</unit>
 			</conditions>
 			<effects>
-				<weaponDamage weapon="RadSaturation"/>
+				<weaponDamage weapon="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect"/>
+			</effects>
+		</modifier>
+		<!-- Reduced effect -->
+    	<!-- Rad Saturation from AdMech -->
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeak"/>
 			</effects>
 		</modifier>
 	</perTurnModifiers>

@@ -25,4 +25,10 @@
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" value="Deathstrike Electro-Stasis Payload"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect" value="Chemical Corrosion"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeak" value="Chemical Corrosion (Resisted)"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeakDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeakFlavor" value=""/>
 </language>
