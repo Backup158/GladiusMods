@@ -171,7 +171,18 @@
 		</useWeapon>
 		<!-- =========== -->
 		<!-- Abilities -->
+		<!-- Filling out a support role -->
 		<!-- =========== -->
+		<!-- Orbital Scan -->
+		<!-- Enemies take more damage from non-barrage -->
+
+		<!-- Orbital Bombardment -->
+
+		<!-- Xenocide -->
+		<!-- More splash damage? -->
+
+		<!-- I am Become Death -->
+		<!-- Massive damage vs Cities -->
 	</actions>
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
