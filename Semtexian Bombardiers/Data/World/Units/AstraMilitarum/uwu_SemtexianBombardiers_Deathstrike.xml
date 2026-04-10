@@ -143,6 +143,8 @@
 	<!-- Too Many Voices integration -->
 	<!-- Baneblade lines name themselves sometimes. #3 in movement. #1 in select. This the best we got though -->
 	<responses>
+		<action name="UseWeapon/DeathstrikeMissile" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
+		<action name="UseWeapon/DeathstrikeMissileWhitePhosphorus" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
 		<action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Ability_Smoke" soundCount="1"/>
 		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
 		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Move" soundCount="4"/>
