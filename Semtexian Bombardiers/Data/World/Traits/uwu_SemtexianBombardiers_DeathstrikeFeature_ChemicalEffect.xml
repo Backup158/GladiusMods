@@ -21,12 +21,24 @@
 				<weaponDamage weapon="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect"/>
 			</effects>
 		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+					<trait name="OpenTopped"/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect"/>
+			</effects>
+		</modifier>
 		<!-- Reduced effect -->
     	<!-- Rad Saturation from AdMech -->
 		<modifier>
 			<conditions>
 				<unit>
 					<trait name="Vehicle"/>
+					<noTrait name="OpenTopped"/>
 				</unit>
 			</conditions>
 			<effects>
