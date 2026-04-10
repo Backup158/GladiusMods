@@ -46,9 +46,11 @@
 				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
 				<hitpointsMax base="50.0"/> <!-- 36 | %hitpointsMax base armor=12/12/10 wounds=3 -->
 				<oreUpkeep base="4.0"/> <!-- 4 | %oreUpkeep base tier=8 factor=1 -->
-				<oreCost base="100.0"/> <!-- 80 | %oreCost base tier=8 factor=1 -->
+				<oreCost base="100.0"/> <!-- 80, 90 | %oreCost base tier=8 factor=1 -->
 				<influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=8 factor=1.5 -->
 				<influenceCost base="120.0"/> <!-- %influenceCost base tier=8 factor=1.5 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
 				<movementMax base="4"/>
 				<productionCost base="52.0"/> <!-- 48, 52 | %productionCost base tier=8 factor=1 -->
@@ -60,7 +62,7 @@
 		<modifier>
 			<effects>
 				<increaseSupportScore base="1.0"/>
-				<increaseVehiclesScore base="1.0"/>
+				<increaseHeroesScore base="1.0"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>
@@ -175,6 +177,7 @@
 		<trait name="Vehicle"/>
 		<!-- Semtexian Bombardiers -->
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
+		<trait name="Hero"/>
 	</traits>
 	<!-- Too Many Voices integration -->
 	<!-- Baneblade lines name themselves sometimes. #3 in movement. #1 in select. This the best we got though -->
