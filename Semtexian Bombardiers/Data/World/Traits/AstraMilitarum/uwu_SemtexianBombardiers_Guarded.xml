@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait visible="0" category="Buff">
+<trait visible="0" category="Buff" icon="Attributes/Armor">
 	<!-- Just for use to check for conditions -->
 </trait>
