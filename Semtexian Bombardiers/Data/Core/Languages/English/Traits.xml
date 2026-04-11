@@ -31,25 +31,30 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugIn" value="Dug In"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Full Batteries!"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value=""/>
 	<!-- Deathstrike Commander -->
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect" value="Chemical Cloud"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffect" value="Electro-Stasis Field"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectFlavor" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplash" value="Fragstorm Shrapnel Blast"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashDescription" value="Damages adjacent units, friend and foe alike."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashFlavor" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashChemical" value="Chemical Blast"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashChemicalDescription" value="Applies a corrosive chemical cloud to tiles on and adjacent to the targetted unit."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashChemicalFlavor" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashEMS" value="Electro-Statis Blast"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashEMSDescription" value="Applies a slowing stasis field to tiles on and adjacent to the targetted unit."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashEMSFlavor" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorus" value="White Prometheum Blast"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusDescription" value="Applies smoke to tiles on and adjacent to the targetted unit."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusFlavor" value=""/>
+	<!-- 	Weapons -->
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect" value="Chemical Cloud"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffect" value="Electro-Stasis Field"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_EMSEffectFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplash" value="Fragstorm Shrapnel Blast"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashDescription" value="Damages adjacent units, friend and foe alike."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashChemical" value="Chemical Blast"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashChemicalDescription" value="Applies a corrosive chemical cloud to tiles on and adjacent to the targetted unit."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashChemicalFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashEMS" value="Electro-Statis Blast"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashEMSDescription" value="Applies a slowing stasis field to tiles on and adjacent to the targetted unit."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashEMSFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorus" value="White Prometheum Blast"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusDescription" value="Applies smoke to tiles on and adjacent to the targetted unit."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusFlavor" value=""/>
+	<!-- 	Abilities -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Target Acquired"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Increases damage taken from the next attack."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value=""/>
