@@ -55,7 +55,10 @@
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusDescription" value="Applies smoke to tiles on and adjacent to the targetted unit."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusFlavor" value=""/>
 	<!-- 	Abilities -->
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Target Acquired"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Increases damage taken from the next attack."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_OrbitalBombardment" value="Target Acquired"/>
+	<entry name="uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Increases damage taken from the next attack."/>
+	<entry name="uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs" value="I am Become Death"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription" value="Greatly increases damage against Cities. Doubles damage against other Fortifications."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsFlavor" value=""/>
 </language>

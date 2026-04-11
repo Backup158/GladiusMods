@@ -38,4 +38,7 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScan" value="Orbital Scan"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanDescription" value="<string name='Actions/SciersGazeDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription'/> At the cost of greatly reduces the morale of allies within 3 tiles."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsFlavor'/>"/>
 </language>

@@ -247,6 +247,54 @@
 
 		<!-- I am Become Death -->
 		<!-- Massive damage vs Cities -->
+		<genericUnitAbility cooldown="10" levelUpPriority="1"
+				rank="-1"
+				rankMax="0"
+				elite="1"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				requiredMovement="1"
+				consumedMovement="0"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs"
+				icon="Actions/RazeBuilding">
+			<model>
+				<action sound="Actions/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs"/>
+			</model>			
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale add="-8"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
