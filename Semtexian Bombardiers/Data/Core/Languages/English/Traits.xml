@@ -25,9 +25,9 @@
 	<!-- Heroes -->
 	<!-- ============= -->
 	<!-- Basilisk Commander -->
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Illuminated" value="<string name='Traits/Illuminated'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedFlavor" value="<string name='Traits/IlluminatedFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Illuminated" value="<string name='Traits/Illuminated'/>"/>
+	<entry name="uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_IlluminatedFlavor" value="<string name='Traits/IlluminatedFlavor'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugIn" value="Dug In"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInFlavor" value=""/>
