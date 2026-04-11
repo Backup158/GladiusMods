@@ -177,6 +177,7 @@
 		<!-- Enemies take more damage from non-barrage -->
 		<sciersGaze cooldownMin="3"
 				cooldownMax="1"
+				levelUpPriority="0.2"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
@@ -207,7 +208,7 @@
 		<!-- Orbital Bombardment -->
 		<orbitalStrike cooldownMin="10"
 				cooldownMax="6"
-				levelUpPriority="1"
+				levelUpPriority="0.8"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
