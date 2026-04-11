@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/Misfortune" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damageTaken mulMin="0.33" mulMax="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<onCombatSelfModifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="uwu_SemtexianBombardiers_OrbitalBombardment"/>
+				</unit>
+			</conditions>
+			<effects>
+				<removeTrait name="uwu_SemtexianBombardiers_OrbitalBombardment"/>
+			</effects>
+		</modifier>
+	</onCombatSelfModifiers>
+</trait>

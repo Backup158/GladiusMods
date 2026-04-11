@@ -24,9 +24,14 @@
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
+	<!-- Basilisk Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Illuminated" value="<string name='Traits/Illuminated'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_IlluminatedFlavor" value="<string name='Traits/IlluminatedFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugIn" value="Dug In"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInFlavor" value=""/>
+	<!-- Deathstrike Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect" value="Chemical Cloud"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor" value=""/>
@@ -45,4 +50,7 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorus" value="White Prometheum Blast"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusDescription" value="Applies smoke to tiles on and adjacent to the targetted unit."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Target Acquired"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Increases damage taken from the next attack."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value=""/>
 </language>
