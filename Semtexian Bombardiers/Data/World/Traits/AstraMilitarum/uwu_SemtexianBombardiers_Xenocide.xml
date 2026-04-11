@@ -16,7 +16,7 @@
 		</modifier>
 		<modifier>
 			<effects>
-				<loyalty add="2"/>
+				<loyalty addMin="0" addMax="2"/>
 			</effects>
 		</modifier>
 	</modifiers>
