@@ -35,4 +35,7 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Orbital Bombardment"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Operation that bombards the target enemy unit. Upon levelup, cooldown is reduced, and damage is increased."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value="<string name='Actions/OrbitalStrikeFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScan" value="Orbital Scan"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanDescription" value="<string name='Actions/SciersGazeDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanFlavor" value=""/>
 </language>

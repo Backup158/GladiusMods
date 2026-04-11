@@ -175,14 +175,45 @@
 		<!-- =========== -->
 		<!-- Orbital Scan -->
 		<!-- Enemies take more damage from non-barrage -->
-
+		<sciersGaze cooldownMin="3"
+				cooldownMax="1"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				requiredMovement="0"
+				consumedMovement="0"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScan"
+				icon="Actions/Scout">
+			<model>
+				<action sound="Actions/Scout"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1" sighted="0">
+					<areas>
+						<area affects="Tile" radiusMin="1" radiusMax="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</sciersGaze>
 		<!-- Orbital Bombardment -->
 		<orbitalStrike cooldownMin="10"
 				cooldownMax="6"
 				levelUpPriority="1"
 				rank="-1"
 				rankMax="2"
+				requiredActionPoints="0"
 				consumedActionPoints="0"
+				requiredMovement="0"
+				consumedMovement="0"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment"
 				icon="Actions/OrbitalBombardment">
 			<model>
