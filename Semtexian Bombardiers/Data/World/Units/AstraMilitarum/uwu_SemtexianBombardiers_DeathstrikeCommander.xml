@@ -318,6 +318,8 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
 	</actions>
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
