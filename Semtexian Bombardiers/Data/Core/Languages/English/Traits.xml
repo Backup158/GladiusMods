@@ -61,4 +61,7 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs" value="I am Become Death"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription" value="Greatly increases damage against Cities. Doubles damage against other Fortifications."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Xenocide" value="Xenocide"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_XenocideDescription" value="Increases Loyalty. Greatly increases damage against Neutral enemies, and gain Influence from attacking them."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_XenocideFlavor" value=""/>
 </language>

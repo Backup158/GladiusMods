@@ -244,21 +244,44 @@
 		</orbitalStrike>
 		<!-- Xenocide -->
 		<!-- More splash damage? -->
-
+		<genericUnitAbility cooldown="10" levelUpPriority="1"
+				rank="-1"
+				rankMax="2"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_Xenocide"
+				icon="Attributes/Loyalty">
+			<model>
+				<action sound="Actions/Doom"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="5" name="AstraMilitarum/uwu_SemtexianBombardiers_Xenocide"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- I am Become Death -->
 		<!-- Massive damage vs Cities -->
 		<genericUnitAbility cooldown="10" levelUpPriority="1"
 				rank="-1"
 				rankMax="0"
 				elite="1"
-				requiredActionPoints="0"
+				requiredActionPoints="1"
 				consumedActionPoints="0"
 				requiredMovement="1"
-				consumedMovement="0"
+				consumedMovement="1"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs"
 				icon="Actions/RazeBuilding">
 			<model>
-				<action sound="Actions/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs"/>
+				<action sound="Actions/uwu_SemtexianBombardiers_LegalizeNuclearBombs"/>
 			</model>			
 			<beginTargets>
 				<selfTarget>
