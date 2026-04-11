@@ -182,7 +182,9 @@
 				levelUpPriority="1"
 				rank="-1"
 				rankMax="2"
-				consumedActionPoints="0">
+				consumedActionPoints="0"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment"
+				icon="Actions/OrbitalBombardment">
 			<model>
 				<action sound="Actions/BombDrop"/>
 			</model>

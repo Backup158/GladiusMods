@@ -18,6 +18,7 @@
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
+	<!-- Basilisk Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwake" value="Shake Them Awake"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeFlavor" value=""/>
@@ -30,4 +31,8 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Gunners, Full Batteries!"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value=""/>
+	<!-- Deathstrike Commander -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Orbital Bombardment"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Operation that bombards the target enemy unit. Upon levelup, cooldown is reduced, and damage is increased."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value="<string name='Actions/OrbitalStrikeFlavor'/>"/>
 </language>
