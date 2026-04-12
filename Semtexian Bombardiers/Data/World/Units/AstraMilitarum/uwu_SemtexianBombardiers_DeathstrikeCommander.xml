@@ -243,7 +243,8 @@
 			</beginTargets>
 		</orbitalStrike>
 		<!-- Xenocide -->
-		<!-- More splash damage? -->
+		<!-- Damage and Influence vs Neutrals, and some Loyalty -->
+		<!-- basically a quest ender -->
 		<genericUnitAbility cooldown="10" levelUpPriority="1"
 				rank="-1"
 				rankMax="2"
