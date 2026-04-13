@@ -4,8 +4,8 @@
     - Use Blender 4.0 to be able to import and export. The import script only works on 4+ and export is best on 2.9, but 4.0 covers both. What the fuck.
     - Is better with animations iirc, but I had issues where it wouldn't export normals
   - [amorgun's script](https://github.com/amorgun/blender_gladius)
-    - v1.2 requires Blender 4.4. Import and export works fine
-    - If you use this, DO NOT DELETE THE DEFAULT BLENDER SETUP! It won't work if you don't have the Collections thing
+    - v1.2 and v1.3 requires Blender 4.4. Import and export works fine
+    - If you using v1.2 for whatever reason, DO NOT DELETE THE DEFAULT BLENDER SETUP! It won't work if you don't have the Collections thing
 - Export Script (Blender --> Gladius .xml file):
   - Comes with Gladius
   - Go to `<Gladius game folder>/Resources/Blender/ProxyStudios.zip`
