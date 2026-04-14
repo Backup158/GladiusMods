@@ -47,13 +47,17 @@
 			<effects>
 				<armor base="6"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- 2 | %foodUpkeep base tier=6 factor=1 -->
-				<foodCost base="25.0"/> <!-- 20 | %foodCost base tier=6 factor=0.5 -->
+				<foodCost base="25.0"/> <!-- 20, 25 | %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="9.0"/> <!-- 9 | %hitpointsMax base toughness=4 wounds=3 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="2"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<!-- <meleeInitiative base="3"/> -->
-				<oreCost base="30.0"/> <!-- 20 | %oreCost base tier=6 factor=0.5 -->
+				<influenceUpkeep base="6.0"/> <!-- 6 %influenceUpkeep base tier=8 factor=1.5 -->
+				<influenceCost base="80.0"/> <!-- 120 %influenceCost base tier=8 factor=1.5 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+				<oreCost base="30.0"/> <!-- 20, 30 | %oreCost base tier=6 factor=0.5 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
 				<productionCost base="36.0"/> <!-- 36 | %productionCost base tier=6 factor=1 -->
@@ -218,6 +222,8 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
 	</actions>
 	<traits>
 		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
@@ -231,6 +237,8 @@
 		<!-- Semtexian Bombardiers -->
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+		<trait name="Unique"/>
+		<trait name="Hero"/>
 	</traits>
 	<!-- Too Many Voices integration -->
 	<!-- Baneblade lines name themselves sometimes. #3 in movement. #1 in select. This the best we got though -->
