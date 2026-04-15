@@ -18,13 +18,13 @@
 						fireInterval="0.5"/>
 			</model>	
 		</weapon>
-		<weapon name="uwu_SemtexianBombardiers_BombastFieldGun" slotName="HighFire" enabled="0">
+		<weapon name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGun" slotName="HighFire" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle"
 						fireInterval="0.83"/>
 			</model>	
 		</weapon>
-		<weapon name="uwu_SemtexianBombardiers_BombastFieldGunLow" slotName="LowFire" enabled="0">
+		<weapon name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLow" slotName="LowFire" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle"
 						fireInterval="0.83"/>
@@ -221,6 +221,17 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
+		<!-- ============== -->
+		<!-- Big Bertha Abilities -->
+		<!-- ============== -->
+		<!-- Rangefinders -->
+		<!-- Increases max range, but attacks at max range have less accuracy -->
+
+		<!-- Siege -->
+		<!-- Damage vs Fortifications -->
+
+		<!-- Batteries, Follow My Lead! -->
+		<!-- Upon killing an enemy, adjacent allies gain attacks -->
 		<levelUp/>
 		<shop/>
 	</actions>
