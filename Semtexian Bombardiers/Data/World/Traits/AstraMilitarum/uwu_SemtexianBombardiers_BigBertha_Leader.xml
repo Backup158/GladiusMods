@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Items/LaurelsOfCommand" rankMax="2">
     <onCombatSelfModifiers>
-        <area affects="Unit" radius="1" excludeRadius="1">
+        <area affects="Unit" radius="1" excludeRadius="0">
             <modifiers>
                 <modifier>
                     <effects>
