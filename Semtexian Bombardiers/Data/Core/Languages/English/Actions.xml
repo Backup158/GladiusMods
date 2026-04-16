@@ -18,6 +18,10 @@
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
+	<!-- Big Bertha -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Move" value="Dragged by Allies"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoveDescription" value="Nearby allies increase Big Bertha's movement by 2. Requires 1 adjacent vehicle or 4 adjacent infantry."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoveFlavor" value="&quot;Hook her up, and we'll move to the next firing position. Quickly boy,s, quickly! Or the commandant will get us faster than the counter-batteries!&quot;"/>
 	<!-- Basilisk Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwake" value="Shake Them Awake"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeDescription" value=""/>
