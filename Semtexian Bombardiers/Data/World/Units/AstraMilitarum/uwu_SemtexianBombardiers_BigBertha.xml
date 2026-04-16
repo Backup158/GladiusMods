@@ -230,7 +230,10 @@
 		<!-- Siege -->
 		<!-- Damage vs Fortifications -->
 
-		<!-- Batteries, Follow My Lead! -->
+		<!-- Break Their Walls, Break Their Spirits -->
+		<!-- Morale damage -->
+
+		<!-- Elite: Batteries, Follow My Lead! -->
 		<!-- Upon killing an enemy, adjacent allies gain attacks -->
 		<levelUp/>
 		<shop/>

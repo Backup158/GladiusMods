@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon>
+<weapon icon="Weapons/DestroyerMissile">
 	<model>
 		<projectileWeapon fireSound="Weapons/BombastFieldGun"
 				fireSoundCount="3"/>
@@ -8,17 +8,19 @@
 		<modifier>
 			<effects>
 				<attacks add="1"/>
-				<rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=-2 -->
-				<rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
+				<rangedArmorPenetration add="4"/> <!-- 4 | %rangedArmorPenetration add armorPiercing=-2 -->
+				<rangedDamage add="6"/> <!-- 4 | %rangedDamage add strength=7 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
 	</modifiers>
-	<target rangeMax="3"/>
+	<target rangeMax="4" rangeMin="2"/>
 	<traits>
 		<trait name="Barrage"/>
 		<trait name="LargeBlast"/>
 		<trait name="HeavyWeapon"/>
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<!-- Big Bertha -->
+		<trait name="Ordnance"/>
 	</traits>
 </weapon>
