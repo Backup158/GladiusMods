@@ -9,6 +9,13 @@
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<!-- Big Bertha -->
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGun" value="Kurze-Gerät Mk XLII Mine Thrower"/> <!-- Minenwerfer-Gerät, 42 centimeter kurze Marinekanone 14 L/12 -->
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLow" value="Kurze-Gerät Mk XLII Mine Thrower (Lowered)"/>
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLowDescription" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLowFlavor" value=""/>
 	<!-- Deathstrike -->
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissile" value="Deathstrike Fragstorm Payload"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileDescription" value=""/>
