@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Items/LaurelsOfCommand" rankMax="2">
     <onCombatSelfModifiers>
-        <area affects="Unit">
-            <modifiers>
-                <modifier>
-                    <effects>
-						<addTrait duration="1" name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderActivate"/>
-                    </effects>
-                </modifier>
-            </modifiers>
-        </area>
+		<modifier>
+			<effects>
+				<addTrait duration="1" name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderActivate"/>
+			</effects>
+		</modifier>
     </onCombatSelfModifiers>
 	<onEnemyKilledSelfModifiers>
 		<modifier>
