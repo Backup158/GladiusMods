@@ -27,13 +27,13 @@
 	<!-- Big Bertha -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" value="Servo-Range-Finder"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription" value="Increases the range."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeFlavor" value="Servo-skulls fan the area, scanning for enemies. Upon contact, the soulless skulls transmit pict and locational data to Big Bertha's servitor calculator, which screams out angles for the crews to adjust fire to."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Siege" value="Siege Until Victory"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeDescription" value="Increases damage against Fortifications, moreso if it is not a Headquarters."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeFlavor" value="&quot;Death was written large everywhere.&quot;"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Morale" value="Break Their Walls; Break Their Spirits"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleDescription" value="Decreases morale of attacked enemy and adjacent enemies. Applies Concussion to the target; at max rank, apply Concussion to enemies adjacent to the target."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleFlavor" value="Facing superior numbers is a frightening prospect, but being behind formidable defences instills confidence. When those walls come crashing down, so does that confidence."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader" value="Batteries, Follow My Lead!"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderDescription" value="Upon attacking an enemy, allies adjacent to Big Bertha gain ranged attacks. Upon killing an enemy Hero or Headquarters, gain Influence."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor" value="The night is quiet. The traitors stir in their trenches, twitching about and jostling their weapons in anticipation. Suddenly, a heretic Leman Russ Demolisher explodes into a ball of flames, followed by an flurry of Basilisk shells striking every square foot."/>
