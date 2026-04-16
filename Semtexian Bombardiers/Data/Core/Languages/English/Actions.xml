@@ -22,6 +22,18 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Move" value="Dragged by Allies"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoveDescription" value="Nearby allies increase Big Bertha's movement by 2. Requires 1 adjacent vehicle or 4 adjacent infantry."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoveFlavor" value="&quot;Hook her up, and we'll move to the next firing position. Quickly boy,s, quickly! Or the commandant will get us faster than the counter-batteries!&quot;"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Siege" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Siege'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Morale" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Morale'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor'/>"/>
 	<!-- Basilisk Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwake" value="Shake Them Awake"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeDescription" value=""/>

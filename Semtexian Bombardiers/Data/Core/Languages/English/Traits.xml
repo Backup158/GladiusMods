@@ -24,6 +24,19 @@
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
+	<!-- Big Bertha -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" value="Servo-Range-Finder"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription" value="Increases the range."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Siege" value="Siege Until Victory"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeDescription" value="Increases damage against Fortifications, moreso if it is not a Headquarters."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Morale" value="Break Their Walls; Break Their Spirits"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleDescription" value="Decreases morale of attacked enemy and adjacent enemies. Applies Concussion to the target; at max rank, apply Concussion to enemies adjacent to the target."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoraleFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader" value="Batteries, Follow My Lead!"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderDescription" value="Upon attacking an enemy, allies adjacent to Big Bertha gain ranged attacks. Upon killing an enemy Hero or Headquarters, gain Influence."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor" value=""/>
 	<!-- Basilisk Commander -->
 	<entry name="uwu_SemtexianBombardiers_Illuminated" value="<string name='Traits/Illuminated'/>"/>
 	<entry name="uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/Broken" rankMax="2">
+    <onCombatOpponent>
+        <area affects="Unit">
+            <modifiers>
+                <modifier>
+                    <effects>
+                        <morale addMin="-2" addMax="-6"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+        </area>
+		<!-- splash effect, including the direct hit -->
+        <area affects="Unit" radius="1">
+            <modifiers>
+                <modifier>
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+                    <effects>
+                        <morale addMin="-1" addMax="-3"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+        </area>
+		<!-- Concussion splash -->
+		<!-- only the direct hit, until max rank -->
+        <area affects="Unit" radiusMin="0" radiusMax="1">
+            <modifiers>
+                <modifier>
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+                    <effects>
+						<addTrait duration="1" name="Concussion"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+        </area>
+    </onCombatOpponent>
+</trait>

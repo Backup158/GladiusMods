@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Actions/RazeBuilding" rankMax="2">
+	<modifiers>
+		<!-- HQ Damage -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Headquarters"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mulMin="0.33" mulMax="1"/>
+			</effects>
+		</modifier>
+		<!-- Other Fortifications -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Fortification"/>
+						<noTrait name="Headquarters"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mulMin="0.5" mulMax="1.5"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Attributes/Range" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangeMax addMin="1" addMax="3"/>
+			</effects>
+		</modifier>
+		<!-- Inaccurate -->
+		<!--
+		<modifier>
+			<conditions>
+				<encounterRange equalMin="5" equalMax="5"/>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="1"/>
+			</effects>
+		</modifier>
+		-->
+	</modifiers>
+</trait>

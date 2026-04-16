@@ -268,15 +268,101 @@
 		</genericUnitAbility>
 		<!-- Rangefinders -->
 		<!-- Increases max range, but attacks at max range have less accuracy -->
-
+		<genericUnitAbility passive="1"
+				levelUpPriority="0.3"
+				rank="-1"
+				rankMax="2"
+				icon="Attributes/Range"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- Siege -->
 		<!-- Damage vs Fortifications -->
-
+		<genericUnitAbility passive="1"
+				levelUpPriority="0.2"
+				rank="-1"
+				rankMax="2"
+				icon="Actions/RazeBuilding"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Siege">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Siege"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- Break Their Walls, Break Their Spirits -->
 		<!-- Morale damage -->
-
+		<genericUnitAbility passive="1"
+				levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				icon="Traits/Broken"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Morale">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Morale"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- Elite: Batteries, Follow My Lead! -->
 		<!-- Upon killing an enemy, adjacent allies gain attacks -->
+		<genericUnitAbility passive="1"
+				levelUpPriority="1"
+				rank="-1"
+				rankMax="2"
+				elite="1"
+				icon="Items/LaurelsOfCommand"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
 	</actions>
