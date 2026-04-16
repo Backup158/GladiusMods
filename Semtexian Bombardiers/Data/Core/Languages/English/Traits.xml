@@ -37,6 +37,12 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader" value="Batteries, Follow My Lead!"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderDescription" value="Upon attacking an enemy, allies adjacent to Big Bertha gain ranged attacks. Upon killing an enemy Hero or Headquarters, gain Influence."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderActivate" value="are you ready boys"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderActivateDescription" value="*unzips your pants*"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderActivateFlavor" value="GRAPEFRUIT NOISES GRAPEFRUIT NOISES GRAPEFRUIT NOISES GR- =][= DATA EXPUNGED BY ORDERS OF THE EMPEROR'S HOLY INQUISITION =][="/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFollower" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFollowerDescription" value="Gains ranged attacks."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFollowerFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor'/>"/>
 	<!-- Basilisk Commander -->
 	<entry name="uwu_SemtexianBombardiers_Illuminated" value="<string name='Traits/Illuminated'/>"/>
 	<entry name="uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>

@@ -340,7 +340,9 @@
 		</genericUnitAbility>
 		<!-- Elite: Batteries, Follow My Lead! -->
 		<!-- Upon killing an enemy, adjacent allies gain attacks -->
-		<genericUnitAbility passive="1"
+		<!-- since onCombat can't use area, this gives the follower trait to adj allies. it does nothing unless adj to leaderactivate -->
+		<!-- the passive leader trait, on combat, gives self leaderactivate -->
+		<auraOfDiscipline passive="1"
 				levelUpPriority="1"
 				rank="-1"
 				rankMax="2"
@@ -359,10 +361,19 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFollower"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</genericUnitAbility>
+		</auraOfDiscipline>
 		<levelUp/>
 		<shop/>
 	</actions>

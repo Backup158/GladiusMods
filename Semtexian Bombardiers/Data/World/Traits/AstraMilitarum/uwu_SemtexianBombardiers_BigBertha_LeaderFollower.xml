@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Items/LaurelsOfCommand" rankMax="2">
+	<modifiers>
+		<!-- +attacks -->
+		<!-- only after bigbertha attacks -->
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderActivate"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
