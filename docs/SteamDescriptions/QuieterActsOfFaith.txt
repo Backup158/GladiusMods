@@ -1,0 +1,6 @@
+Reduces the audio volume from using Acts of Faith for the Sisters of Battle (Adepta Sororitas).
+
+Audio is replaced for all of them. They're still their own sounds, just quieter.
+If anything reuses these sounds, they'll be quieter too.
+
+Load order shouldn't matter, since I don't know of any other mods that replace these sound files. If there are, though, the one that is one top (visually higher) will be the one that takes effect.
