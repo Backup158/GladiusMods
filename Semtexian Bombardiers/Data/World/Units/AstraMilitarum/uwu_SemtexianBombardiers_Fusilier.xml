@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement1">
+<unit>
 	<model>
 		<unit mesh="Units/AstraMilitarum/TempestusScion"
 				material="Units/AstraMilitarum/TempestusScion"
@@ -11,7 +11,9 @@
 				bloodBone="BloodBone"
 				walker="1"/>
 	</model>
-	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<!-- was 8 -->
+	<!-- lower numbers, but trait gives big buffs to OW -->
+	<group size="6" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
 		<weapon name="HotShotLasgun">
 			<model>

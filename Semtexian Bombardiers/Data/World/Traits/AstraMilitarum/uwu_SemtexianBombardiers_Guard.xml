@@ -8,7 +8,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<attacks mul="0.2"/>
+				<attacks mul="0.5"/>
+				<rangedAccuracy add="1"/>
 			</effects>
 		</modifier>
 	</modifiers>
