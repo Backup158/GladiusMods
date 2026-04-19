@@ -23,7 +23,7 @@
 	<!-- ============= -->
 	<!-- Big Bertha -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Move" value="Dragged by Allies"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoveDescription" value="Nearby allies increase Big Bertha's movement by 2. Requires 1 adjacent vehicle or 4 adjacent infantry."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoveDescription" value="Nearby allies increase Big Bertha's movement by 2. Requires 1 adjacent vehicle or 3 adjacent infantry. The allies must have movement points available."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_MoveFlavor" value="&quot;Hook her up, and we'll move to the next firing position. Quickly boys, quickly! Or the commandant will get us faster than the counter-batteries!&quot;"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription'/>"/>
