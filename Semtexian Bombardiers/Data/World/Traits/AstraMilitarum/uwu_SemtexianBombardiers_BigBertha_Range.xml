@@ -2,13 +2,18 @@
 <trait category="Buff" icon="Attributes/Range" rankMax="2">
 	<modifiers>
 		<modifier>
+			<conditions>
+				<weapon>
+					<trait name="Ordnance"/>
+				</weapon>
+			</conditions>
 			<effects>
 				<rangeMax addMin="1" addMax="3"/>
 			</effects>
 		</modifier>
 		<!-- Inaccurate if shooting past max -->
 		<!-- I set base range as 2-4 -->
-		<!-- -33% immediately, -17% after another, then zeroes out -->
+		<!-- -33%, -17%, -0% -->
 		<modifier>
 			<conditions>
 				<encounterRange equal="5"/>
@@ -17,7 +22,7 @@
 				<rangedAccuracy mulMin="-0.33" mulMax="0"/>
 			</effects>
 		</modifier>
-		<!-- No effect bc no range, -33% immediately, zeroes out -->
+		<!-- No effect bc no range, -33%, -0% -->
 		<modifier visible="0">
 			<conditions>
 				<encounterRange equal="6"/>
@@ -26,6 +31,7 @@
 				<rangedAccuracy mulMin="-0.66" mulMax="0"/>
 			</effects>
 		</modifier>
+		<!-- No effect bc no range, No effect bc no range, -33% -->
 		<modifier visible="0">
 			<conditions>
 				<encounterRange equal="7"/>
