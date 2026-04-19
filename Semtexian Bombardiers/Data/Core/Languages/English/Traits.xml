@@ -18,12 +18,12 @@
 	<entry name="uwu_SemtexianBombardiers_LowFire" value="Cannon Configuration"/>
 	<entry name="uwu_SemtexianBombardiers_LowFireDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_LowFireFlavor" value=""/>
-	<entry name="uwu_SemtexianBombardiers_Weapon_HighFire" value="<string name='Traits/uwu_SemtexianBombardiers_Weapon_HighFire'/>"/>
-	<entry name="uwu_SemtexianBombardiers_Weapon_HighFireDescription" value="<string name='Traits/uwu_SemtexianBombardiers_Weapon_HighFireDescription'/>"/>
-	<entry name="uwu_SemtexianBombardiers_Weapon_HighFireFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_Weapon_HighFireFlavor'/>"/>
-	<entry name="uwu_SemtexianBombardiers_Weapon_LowFire" value="<string name='Traits/uwu_SemtexianBombardiers_Weapon_LowFire'/>"/>
-	<entry name="uwu_SemtexianBombardiers_Weapon_LowFireDescription" value="<string name='Traits/uwu_SemtexianBombardiers_Weapon_LowFireDescription'/>"/>
-	<entry name="uwu_SemtexianBombardiers_Weapon_LowFireFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_Weapon_LowFireFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Weapon_HighFire" value="<string name='Traits/uwu_SemtexianBombardiers_HighFire'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Weapon_HighFireDescription" value="<string name='Traits/uwu_SemtexianBombardiers_HighFireDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Weapon_HighFireFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_HighFireFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Weapon_LowFire" value="<string name='Traits/uwu_SemtexianBombardiers_LowFire'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Weapon_LowFireDescription" value="<string name='Traits/uwu_SemtexianBombardiers_LowFireDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Weapon_LowFireFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_LowFireFlavor'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="Anti-Tank Mines"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value=""/>
