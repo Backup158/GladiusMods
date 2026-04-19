@@ -142,7 +142,7 @@
 		<!-- Swap Fire Mode -->
 		<genericUnitAbility requiredActionPoints="1"
 				consumedActionPoints="0"
-				icon="Actions/Skip"
+				icon="Traits/Discipline"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode">
 			<model>
 				<action sound="Actions/Reload"/>
