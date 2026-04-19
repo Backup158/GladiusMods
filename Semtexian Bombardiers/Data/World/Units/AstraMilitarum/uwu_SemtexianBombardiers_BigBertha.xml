@@ -116,48 +116,7 @@
 			</model>				
 		</throwGrenade>
 		<!-- Swap Fire Mode -->
-		<genericUnitAbility requiredActionPoints="1"
-				consumedActionPoints="0"
-				useConditionsForVisiblity="1"
-				icon="Traits/Discipline"
-				name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode">
-			<model>
-				<action sound="Actions/Reload"/>
-			</model>
-			<conditions>
-				<unit>
-					<trait name="uwu_SemtexianBombardiers_LowFire"/>
-				</unit>
-			</conditions>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<!-- Accuracy Debuff -->
-								<modifier>
-									<conditions>
-										<unit>
-											<noTrait name="Unwieldy"/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait duration="1" name="Unwieldy"/>
-									</effects>
-								</modifier>
-								<!-- Swap Mode (Low to High) -->
-								<modifier>
-									<effects>
-										<removeTrait name="uwu_SemtexianBombardiers_LowFire"/>
-										<addTrait name="uwu_SemtexianBombardiers_HighFire"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
+		<!-- 	Swap Mode (High to Low) -->
 		<genericUnitAbility requiredActionPoints="1"
 				consumedActionPoints="0"
 				useConditionsForVisiblity="1"
@@ -187,11 +146,52 @@
 										<addTrait duration="1" name="Unwieldy"/>
 									</effects>
 								</modifier>
-								<!-- Swap Mode (High to Low) -->
 								<modifier>
 									<effects>
 										<removeTrait name="uwu_SemtexianBombardiers_HighFire"/>
 										<addTrait name="uwu_SemtexianBombardiers_LowFire"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- 	Swap Mode (Low to High) -->
+		<genericUnitAbility requiredActionPoints="1"
+				consumedActionPoints="0"
+				useConditionsForVisiblity="1"
+				icon="Traits/Discipline"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode">
+			<model>
+				<action sound="Actions/Reload"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="uwu_SemtexianBombardiers_LowFire"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<!-- Accuracy Debuff -->
+								<modifier>
+									<conditions>
+										<unit>
+											<noTrait name="Unwieldy"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="1" name="Unwieldy"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<effects>
+										<removeTrait name="uwu_SemtexianBombardiers_LowFire"/>
+										<addTrait name="uwu_SemtexianBombardiers_HighFire"/>
 									</effects>
 								</modifier>
 							</modifiers>
