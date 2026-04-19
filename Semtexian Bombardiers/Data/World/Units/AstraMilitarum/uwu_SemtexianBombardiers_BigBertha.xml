@@ -345,7 +345,7 @@
 		<auraOfDiscipline passive="1"
 				levelUpPriority="1"
 				rank="-1"
-				rankMax="2"
+				rankMax="0"
 				elite="1"
 				icon="Items/LaurelsOfCommand"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Leader">
