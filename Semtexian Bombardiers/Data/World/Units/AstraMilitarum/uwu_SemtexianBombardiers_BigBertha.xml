@@ -392,7 +392,6 @@
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha"/>
 		<trait name="Unique"/>
 		<trait name="Hero"/>
-		<trait name="Relentless"/>
 	</traits>
 	<!-- Too Many Voices integration -->
 	<!-- Baneblade lines name themselves sometimes. #3 in movement. #1 in select. This the best we got though -->
