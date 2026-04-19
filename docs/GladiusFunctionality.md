@@ -207,3 +207,25 @@ The other idea is to make each rank a unique trait. I don't know how to make tha
 
 # Making Actions Visible Based on Condition
 Add `useConditionsForVisiblity="1"` to the base info with the name and such. Note the typo.
+
+# Multiple Conditions for inRange
+The key is to have `<conditions match="Any">` then put each inRange in its own unit group, then you'll have an OR statement.
+```xml
+<conditions match="Any">
+	<!-- Dragged by vehicle-->
+	<unit>
+		<unitsInRange count="1" range="1">
+			<allied/>
+			<trait name="Vehicle"/>
+		</unitsInRange>
+	</unit>
+	<!-- Dragged by infantry -->
+	<unit>
+		<unitsInRange count="4" range="1">
+			<allied/>
+			<noTrait name="Fortification"/>
+			<noTrait name="Vehicle"/>
+		</unitsInRange>
+	</unit>
+</conditions>
+```

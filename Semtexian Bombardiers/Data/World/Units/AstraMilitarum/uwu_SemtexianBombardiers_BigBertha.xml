@@ -245,14 +245,16 @@
 				cooldown="1"
 				icon="Actions/Agile"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Move">
-			<conditions>
-				<unit match="Any">
-					<!-- Dragged by vehicle-->
+			<conditions match="Any">
+				<!-- Dragged by vehicle-->
+				<unit>
 					<unitsInRange count="1" range="1">
 						<allied/>
 						<trait name="Vehicle"/>
 					</unitsInRange>
-					<!-- Dragged by infantry -->
+				</unit>
+				<!-- Dragged by infantry -->
+				<unit>
 					<unitsInRange count="4" range="1">
 						<allied/>
 						<noTrait name="Fortification"/>
