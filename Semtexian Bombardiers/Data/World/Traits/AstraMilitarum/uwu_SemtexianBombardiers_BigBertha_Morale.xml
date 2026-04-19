@@ -5,13 +5,13 @@
             <modifiers>
                 <modifier>
                     <effects>
-                        <morale addMin="-2" addMax="-6"/>
+                        <morale addMin="-1" addMax="-3"/>
                     </effects>
                 </modifier>
             </modifiers>
         </area>
-		<!-- splash effect, including the direct hit -->
-        <area affects="Unit" radius="1">
+		<!-- splash effect -->
+        <area affects="Unit" radius="1" excludeRadius="0">
             <modifiers>
                 <modifier>
 					<conditions>
@@ -20,7 +20,7 @@
 						</unit>
 					</conditions>
                     <effects>
-                        <morale addMin="-1" addMax="-3"/>
+                        <morale addMin="-0.5" addMax="-1.5"/>
                     </effects>
                 </modifier>
             </modifiers>
