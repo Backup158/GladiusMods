@@ -27,7 +27,7 @@
         </area>
 		<!-- Concussion splash -->
 		<!-- only the direct hit, until max rank -->
-        <area affects="Unit" radiusMin="0" radiusMax="1">
+        <area affects="Unit" radiusMin="-1" radiusMax="1">
             <modifiers>
                 <modifier>
 					<conditions>
