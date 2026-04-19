@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Weapons/BombastFieldGun">
+<weapon icon="Weapons/EarthshakerCannon">
 	<model>
 		<projectileWeapon fireSound="Weapons/BombastFieldGun"
 				fireSoundCount="3"/>
@@ -22,5 +22,6 @@
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
 		<!-- There has to be some benefit -->
 		<trait name="TankHunters"/>
+		<trait name="uwu_SemtexianBombardiers_Weapon_LowFire"/>
 	</traits>
 </weapon>

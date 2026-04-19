@@ -24,5 +24,6 @@
 		<trait name="TankHunters"/>
 		<!-- Big Bertha -->
 		<trait name="Ordnance"/>
+		<trait name="uwu_SemtexianBombardiers_Weapon_LowFire"/>
 	</traits>
 </weapon>

@@ -20,5 +20,6 @@
 		<trait name="LargeBlast"/>
 		<trait name="HeavyWeapon"/>
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="uwu_SemtexianBombardiers_Weapon_HighFire"/>
 	</traits>
 </weapon>

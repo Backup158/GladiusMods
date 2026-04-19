@@ -18,13 +18,13 @@
 						fireInterval="0.5"/>
 			</model>	
 		</weapon>
-		<weapon name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGun" slotName="HighFire" enabled="0">
+		<weapon name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGun">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle"
 						fireInterval="0.83"/>
 			</model>	
 		</weapon>
-		<weapon name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLow" slotName="LowFire" enabled="0">
+		<weapon name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLow">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle"
 						fireInterval="0.83"/>
@@ -101,30 +101,6 @@
 						soundCount="3"/>
 			</model>		
 		</move>
-		<useWeapon weaponSlotName="HighFire">
-			<model>
-				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
-						beginFire="1.0"
-						endFire="1.1"/>
-			</model>	
-			<conditions>
-				<unit>
-					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
-				</unit>
-			</conditions>
-		</useWeapon>
-		<useWeapon weaponSlotName="LowFire">
-			<model>
-				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
-						beginFire="1.0"
-						endFire="1.1"/>
-			</model>	
-			<conditions>
-				<unit>
-					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
-				</unit>
-			</conditions>
-		</useWeapon>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
 				requiredUpgrade="AstraMilitarum/FragGrenade">
 			<model>
@@ -162,24 +138,24 @@
 								<modifier>
 									<conditions>
 										<unit>
-											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+											<trait name="uwu_SemtexianBombardiers_LowFire"/>
 										</unit>
 									</conditions>
 									<effects>
-										<removeTrait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
-										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+										<removeTrait name="uwu_SemtexianBombardiers_LowFire"/>
+										<addTrait name="uwu_SemtexianBombardiers_HighFire"/>
 									</effects>
 								</modifier>
 								<!-- Swap Mode (High to Low) -->
 								<modifier>
 									<conditions>
 										<unit>
-											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+											<trait name="uwu_SemtexianBombardiers_HighFire"/>
 										</unit>
 									</conditions>
 									<effects>
-										<removeTrait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
-										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+										<removeTrait name="uwu_SemtexianBombardiers_HighFire"/>
+										<addTrait name="uwu_SemtexianBombardiers_LowFire"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -388,7 +364,7 @@
 		<trait name="Vehicle"/>
 		<!-- Semtexian Bombardiers -->
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
-		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+		<trait name="uwu_SemtexianBombardiers_HighFire"/>
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha"/>
 		<trait name="Unique"/>
 		<trait name="Hero"/>

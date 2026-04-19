@@ -22,5 +22,6 @@
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
 		<!-- Big Bertha -->
 		<trait name="Ordnance"/>
+		<trait name="uwu_SemtexianBombardiers_Weapon_HighFire"/>
 	</traits>
 </weapon>

@@ -106,7 +106,7 @@
 			</model>	
 			<conditions>
 				<unit>
-					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+					<trait name="uwu_SemtexianBombardiers_HighFire"/>
 				</unit>
 			</conditions>
 		</useWeapon>
@@ -118,7 +118,7 @@
 			</model>	
 			<conditions>
 				<unit>
-					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+					<trait name="uwu_SemtexianBombardiers_LowFire"/>
 				</unit>
 			</conditions>
 		</useWeapon>
@@ -159,24 +159,24 @@
 								<modifier>
 									<conditions>
 										<unit>
-											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+											<trait name="uwu_SemtexianBombardiers_LowFire"/>
 										</unit>
 									</conditions>
 									<effects>
-										<removeTrait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
-										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+										<removeTrait name="uwu_SemtexianBombardiers_LowFire"/>
+										<addTrait name="uwu_SemtexianBombardiers_HighFire"/>
 									</effects>
 								</modifier>
 								<!-- Swap Mode (High to Low) -->
 								<modifier>
 									<conditions>
 										<unit>
-											<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+											<trait name="uwu_SemtexianBombardiers_HighFire"/>
 										</unit>
 									</conditions>
 									<effects>
-										<removeTrait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
-										<addTrait name="AstraMilitarum/uwu_SemtexianBombardiers_LowFire"/>
+										<removeTrait name="uwu_SemtexianBombardiers_HighFire"/>
+										<addTrait name="uwu_SemtexianBombardiers_LowFire"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -224,7 +224,7 @@
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
 		<!-- Semtexian Bombardiers -->
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
-		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+		<trait name="uwu_SemtexianBombardiers_HighFire"/>
 	</traits>
 	<!-- Too Many Voices Integration -->
 	<responses>
