@@ -194,3 +194,13 @@ Could probably make it a match any then add the other Ork green tide traits to b
 		</modifier>
 ```
 In this example, it only takes 2 movement points to shoot, so an infantry with 3 move can move 1 tile after shooting, if it didn't move that turn.
+
+# Making checks for trait ranks
+Does NOT work:
+```xml
+	<unit>
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" rank="0"/>
+	</unit>
+```
+
+The other idea is to make each rank a unique trait. I don't know how to make that work with the regular thing?
