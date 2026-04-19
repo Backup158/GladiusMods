@@ -35,7 +35,7 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBerthaDescription" value="After attacking, this unit temporarily takes more damage."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBerthaFlavor" value="&quot;The bigger they are, the easier they are to target.&quot;"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" value="Servo-Range-Finder"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription" value="Increases the range."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeDescription" value="Increases the range for Ordnance weapons. Accuracy decreases when firing beyond the previous maximum range."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_RangeFlavor" value="Servo-skulls fan the area, scanning for enemies. Upon contact, the soulless skulls transmit pict and locational data to Big Bertha's servitor calculator, which screams out angles for the crews to adjust fire to."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Siege" value="Siege Until Victory"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_SiegeDescription" value="Increases damage against Fortifications, moreso if it is not a Headquarters."/>
