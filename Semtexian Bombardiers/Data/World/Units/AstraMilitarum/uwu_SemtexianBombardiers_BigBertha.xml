@@ -162,7 +162,7 @@
 				consumedActionPoints="0"
 				useConditionsForVisiblity="1"
 				icon="Traits/Discipline"
-				name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode2">
+				name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeLower">
 			<model>
 				<action sound="Actions/Reload"/>
 			</model>
