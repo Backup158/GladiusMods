@@ -6,14 +6,66 @@
 				<rangeMax addMin="1" addMax="3"/>
 			</effects>
 		</modifier>
-		<!-- Inaccurate -->
+		<!-- Inaccurate if shooting past max -->
+		<!-- I set base range as 2-4 -->
+		<!-- -33% immediately, -17% after another, then zeroes out -->
+		<modifier>
+			<conditions>
+				<encounterRange equal="5"/>
+			</conditions>
+			<effects>
+				<rangedAccuracy mulMin="-0.33" mulMax="0"/>
+			</effects>
+		</modifier>
+		<!-- No effect bc no range, -33% immediately, zeroes out -->
+		<modifier visible="0">
+			<conditions>
+				<encounterRange equal="6"/>
+			</conditions>
+			<effects>
+				<rangedAccuracy mulMin="-0.66" mulMax="0"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<encounterRange equal="7"/>
+			</conditions>
+			<effects>
+				<rangedAccuracy mul="-0.33"/>
+			</effects>
+		</modifier>
 		<!--
 		<modifier>
 			<conditions>
-				<encounterRange equalMin="5" equalMax="5"/>
+				<unit>
+					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" rank="0"/>
+				</unit>
+				<encounterRange greater="4"/>
 			</conditions>
 			<effects>
-				<rangedAttacks mul="1"/>
+				<rangedAccuracy mul="-0.17"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" rank="1"/>
+				</unit>
+				<encounterRange greater="5"/>
+			</conditions>
+			<effects>
+				<rangedAccuracy mul="-0.17"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_Range" rank="2"/>
+				</unit>
+				<encounterRange greater="6"/>
+			</conditions>
+			<effects>
+				<rangedAccuracy mul="-0.17"/>
 			</effects>
 		</modifier>
 		-->
