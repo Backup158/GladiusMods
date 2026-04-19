@@ -35,18 +35,18 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/> <!-- %armor base armor=4+ -->
-				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
-				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+				<armor base="4"/> <!-- 6. offset by trait if not moving | %armor base armor=4+ -->
+				<foodUpkeep base="1.5"/> <!-- 2 | %foodUpkeep base tier=6 factor=1 -->
+				<foodCost base="15.0"/> <!-- 20 | %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
-				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<oreCost base="15.0"/> <!-- 20 | %oreCost base tier=6 factor=0.5 -->
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
-				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
-				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<productionCost base="36.0"/> <!-- 36 | %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- 8 | %rangedAccuracy base ballisticSkill=4 -->
 			</effects>
 		</modifier>
 	</modifiers>

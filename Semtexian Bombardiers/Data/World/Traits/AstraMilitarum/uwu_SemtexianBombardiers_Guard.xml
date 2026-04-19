@@ -9,7 +9,18 @@
 			</conditions>
 			<effects>
 				<attacks mul="0.5"/>
-				<rangedAccuracy add="1"/>
+				<rangedAccuracy add="3"/>
+			</effects>
+		</modifier>
+		<!-- +armor if not moved -->
+		<modifier>
+			<conditions>
+				<unit>
+					<notMovedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<armor add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>
