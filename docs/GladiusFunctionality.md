@@ -204,3 +204,6 @@ Does NOT work:
 ```
 
 The other idea is to make each rank a unique trait. I don't know how to make that work with the regular thing?
+
+# Making Actions Visible Based on Condition
+Add `useConditionsForVisiblity="1"` to the base info with the name and such. Note the typo.
