@@ -389,6 +389,7 @@
 		<!-- Semtexian Bombardiers -->
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
 		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_HighFire"/>
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha"/>
 		<trait name="Unique"/>
 		<trait name="Hero"/>
 		<trait name="Relentless"/>
