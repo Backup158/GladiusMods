@@ -9,6 +9,9 @@
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Pick" value="Fritz Mk IV Pick Mattock"/>
+	<!-- <entry name="uwu_SemtexianBombardiers_PickDescription" value=""/> -->
+	<entry name="uwu_SemtexianBombardiers_PickFlavor" value="The ancient design of the pick mattock is revered among its producers. The simplicity of two connected heads for separate but united purposes. The spiked pick to break and pry stone and dirt, followed by the perpendicular, flat axe head to dig into it."/>
 	<!-- Big Bertha -->
 	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGun" value="Kurze-Gerät Mk XLII Mine Thrower"/> <!-- Minenwerfer-Gerät, 42 centimeter kurze Marinekanone 14 L/12 -->
 	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunDescription" value=""/>

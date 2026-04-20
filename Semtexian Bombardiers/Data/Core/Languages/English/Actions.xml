@@ -12,6 +12,10 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShell" value="Fire Remote Anti-Tank Mine Servitor"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellFlavor" value=""/>
+	<!-- Engineers -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_Heal" value="Fortification Field Repairs"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealDescription" value="Heals an adjacent damaged allied Fortification."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealFlavor" value=""/>
 	<!-- ============= -->
 	<!-- Vehicles -->
 	<!-- ============= -->

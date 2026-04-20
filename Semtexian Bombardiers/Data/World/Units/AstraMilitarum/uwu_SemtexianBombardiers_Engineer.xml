@@ -41,18 +41,19 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="8"/> <!-- %armor base armor=3+ -->
-				<oreUpkeep base="1.5"/> <!-- %oreUpkeep base tier=5 factor=1 -->
-				<energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
-				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+				<armor base="6"/> <!-- 8, Guardsmen are 4 | %armor base armor=3+ -->
+				<oreUpkeep base="1.5"/> <!-- 1.5, 2 | %oreUpkeep base tier=5 factor=1 -->
+				<energyCost base="10.0"/> <!-- 15, 0 | %energyCost base tier=5 factor=0.5 -->
+				<hitpointsMax base="2.0"/> <!-- 2, 2 | %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<!-- <meleeInitiative base="3"/> -->
 				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
 				<movementMax base="3"/>
-				<oreCost base="15.0"/> <!-- %oreCost base tier=5 factor=0.5 -->
-				<productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+				<foodCost base="5.0"/> <!-- 0, 10 -->
+				<oreCost base="17.5"/> <!-- 15, 10 | %oreCost base tier=5 factor=0.5 -->
+				<productionCost base="30.0"/> <!-- 30, 24 | %productionCost base tier=5 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
@@ -121,7 +122,9 @@
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"/>
 			</model>	
 		</useWeapon>
-		<blessingsOfTheOmnissiah cooldown="1">
+		<blessingsOfTheOmnissiah cooldown="1"
+		name="uwu_SemtexianBombardiers_Engineer_Heal"
+		icon="Actions/BlessingsOfTheOmnissiah">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						sound="Actions/Heal"/>
@@ -134,8 +137,9 @@
 							<damaged/>
 						</unit>
 						<unit match="Any">
+							<!-- Only fortifications -->
 							<trait name="Fortification"/>
-							<trait name="Vehicle"/>
+							<!-- <trait name="Vehicle"/> -->
 						</unit>
 					</conditions>
 					<areas>
@@ -143,7 +147,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<!-- Weaker Heal from 8 -->
+										<!-- Weaker heal from 8 -->
 										<hitpoints add="4"/>
 									</effects>
 								</modifier>
