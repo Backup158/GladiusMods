@@ -22,7 +22,7 @@
 						fireInterval="0.3"/>
 			</model>
 		</weapon>
-		<weapon name="uwu_SemtexianBombardiers_Pick" slotName="ServoArm" enabled="0">
+		<weapon name="uwu_SemtexianBombardiers_Pick" slotName="Pick" enabled="0">
 			<model>
 				<weapon fireInterval="1.0"/>
 			</model>
@@ -117,7 +117,9 @@
 				</modifier>
 			</modifiers>
 		</clearTileUnitAbility>
-		<useWeapon cooldown="1" weaponSlotName="ServoArm">
+		<useWeapon cooldown="1" weaponSlotName="Pick"
+			requiredActionPoints="0"
+			consumedActionPoints="0">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"/>
 			</model>	
