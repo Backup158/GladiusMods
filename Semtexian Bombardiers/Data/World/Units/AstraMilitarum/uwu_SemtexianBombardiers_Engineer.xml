@@ -123,7 +123,7 @@
 			</model>	
 		</useWeapon>
 		<blessingsOfTheOmnissiah cooldown="1"
-		name="uwu_SemtexianBombardiers_Engineer_Heal"
+		name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_Heal"
 		icon="Actions/BlessingsOfTheOmnissiah">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"

@@ -4,13 +4,13 @@
 	<!-- Infantry -->
 	<!-- ============= -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireMode" value="Raise Howitzer"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeDescription" value="Switches the currently used weapon."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeFlavor" value="According to the ancient designs, howitzers were designed to fulfil both the direct fire cannon role and the indirect fire mortar role, by allowing the barrel to dynamically raised and lowered. Imperial artillery teams continue this tradition by rubbing blessed oils and reciting the Litany of Verticality, soothing the machine spirit, before finally performing the sacred rite."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeLower" value="Lower Howitzer"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeLowerDescription" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeLowerFlavor" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeFlavor'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShell" value="Fire Remote Anti-Tank Mine Servitor"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellDescription" value="Deploys anti-tank mines on an empty tile."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellFlavor" value=""/>
 	<!-- Engineers -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_Heal" value="Fortification Field Repairs"/>
