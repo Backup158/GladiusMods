@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<!-- T5: Basilisk -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommander" requiredUpgrade="AstraMilitarum/Basilisk"/>
+		<!-- T6: FOB and Improved Frag -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha" requiredUpgrade="AstraMilitarum/BlastDamage">
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/FieldOrdnanceBattery"/>
+				</player>
+			</conditions>
+		</produceUnit>
+		<!-- T7: Deathstrike -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_DeathstrikeCommander" requiredUpgrade="AstraMilitarum/Deathstrike"/>
+	</actions>
+</building>

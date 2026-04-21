@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<!-- T5: Basilisk -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_Basilisk" requiredUpgrade="AstraMilitarum/Basilisk"/>
+		<!-- T7: Deathstrike -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_Deathstrike" requiredUpgrade="AstraMilitarum/Deathstrike"/>
+	</actions>
+</building>
