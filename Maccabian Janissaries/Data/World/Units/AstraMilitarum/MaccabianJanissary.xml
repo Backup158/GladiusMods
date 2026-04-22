@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement1">
 	<model>
-		<unit mesh="Units/AstraMilitarum/TempestusScion"
+		<unit mesh="Units/AstraMilitarum/uwu_MaccabianJanissaries_Guardsman"
 				material="Units/AstraMilitarum/TempestusScion"
 				idleAnimation="Units/AstraMilitarum/TempestusScionIdle"
 				idleAnimationCount="3"
@@ -233,6 +233,11 @@
 										<unit>
 											<trait name="City"/>
 										</unit>
+										<!-- Fudged check for allied city in range -->
+										<unitsInRange count="1" range="3">
+											<allied/>
+											<trait name="Headquarters"/>
+										</unitsInRange>
 									</conditions>
 									<effects>
 										<hitpointsFactorFromMax add="0.1"/> 
