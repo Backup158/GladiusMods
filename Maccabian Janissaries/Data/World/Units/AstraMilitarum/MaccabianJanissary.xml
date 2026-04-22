@@ -213,11 +213,12 @@
 									<effects>
 										<addTrait duration="4" name="AstraMilitarum/Prayed"/>
 										<addTrait duration="1" name="AstraMilitarum/HolyProtection"/>
-										<morale add="3"/> <!-- Not enough to recover after a nuke -->
+										<morale add="2"/> <!-- Not enough to recover after a nuke. Keep after so it fills up the new max -->
 										<!-- Also making it mimic the passive healing, since that's way too tedious -->
 										<hitpointsFactorFromMax add="0.1"/> 
 									</effects>
 								</modifier>
+								<!-- Increased healing in friendly territory -->
 								<modifier>
 									<conditions>
 										<unit>

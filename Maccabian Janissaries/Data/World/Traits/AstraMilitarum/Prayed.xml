@@ -9,6 +9,17 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<!-- Fills up the morale max -->
+	<!-- oh wait this would add every time. I'll handle the logic in the action itself, isntead of making a second trait. -->
+	<!-- 
+	<onTraitAddedModifiers>
+		<modifier>
+			<effects>
+				<morale add="2"/>
+			</effects>
+		</modifier>
+	</onTraitAddedModifiers>
+	-->
     <!-- When not prayed, morale nuke -->
     <onTraitRemovedModifiers>
 		<modifier visible="0">
