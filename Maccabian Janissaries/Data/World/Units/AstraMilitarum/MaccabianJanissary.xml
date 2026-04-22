@@ -232,12 +232,12 @@
 									<conditions>
 										<unit>
 											<trait name="City"/>
+											<!-- Fudged check for allied city in range -->
+											<unitsInRange count="1" range="3">
+												<allied/>
+												<trait name="Headquarters"/>
+											</unitsInRange>
 										</unit>
-										<!-- Fudged check for allied city in range -->
-										<unitsInRange count="1" range="3">
-											<allied/>
-											<trait name="Headquarters"/>
-										</unitsInRange>
 									</conditions>
 									<effects>
 										<hitpointsFactorFromMax add="0.1"/> 
