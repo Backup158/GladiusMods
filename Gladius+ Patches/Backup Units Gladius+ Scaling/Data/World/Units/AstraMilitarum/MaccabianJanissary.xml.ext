@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement1">
+<unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/TempestusScion"
+		<unit mesh="Units/AstraMilitarum/uwu_MaccabianJanissaries_Guardsman"
 				material="Units/AstraMilitarum/TempestusScion"
 				idleAnimation="Units/AstraMilitarum/TempestusScionIdle"
 				idleAnimationCount="3"
