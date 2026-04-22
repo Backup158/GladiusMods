@@ -141,7 +141,7 @@
 		</heavyBombClusters>
 		<heavyBombClusters consumedActionPoints="0"
 				requiredActionPoints="0"
-				weaponSlotName="HeavyBombClusters"
+				weaponSlotName="HeavyBombClusters" cooldown="5"
 				name="AstraMilitarum/uwu_Valhallan_ClusterBukkake"
             	useConditionsForVisiblity="1">
 			<model>
