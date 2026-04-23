@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff" visibilityCategory="Weapon">
 	<modifiers>
+		<!-- Ground Shaking Damage -->
 		<modifier>
 			<conditions>
 				<encounter>
@@ -16,14 +17,26 @@
 			</effects>
 		</modifier>
 		<!-- Certain vehicles can have the damage boost -->
+		<!-- 	Open Topped -->
 		<modifier visible="0">
 			<conditions>
 				<encounter>
 					<opponent>
 						<trait name="Vehicle"/>
-					</opponent>
-					<opponent match="Any">
 						<trait name="OpenTopped"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage add="5"/>
+			</effects>
+		</modifier>
+		<!--	Walker -->
+		<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Vehicle"/>
 						<trait name="Walker"/>
 					</opponent>
 				</encounter>
@@ -100,4 +113,39 @@
 			</effects>
 		</modifier>
 	</onCombatOpponentModifiers>
+	<!-- Slow on Tile -->
+    <onCombatOpponent>
+        <area affects="Tile">
+            <modifiers>
+                <modifier>
+					<conditions>
+						<tile>
+							<land/>
+							<noFeature name="uwu_ValhallanIceWarriors_LiquifiedGround"/>
+						</tile>
+					</conditions>
+                    <effects>
+                        <addFeature name="uwu_ValhallanIceWarriors_LiquifiedGround"/>
+                    </effects>
+                </modifier>
+				<!-- Removes features from ground liquifying -->
+                <modifier>
+					<conditions>
+						<tile>
+							<land/>
+						</tile>
+					</conditions>
+                    <effects>
+						<removeFeature name="Brush"/>
+						<removeFeature name="Forest"/>
+						<removeFeature name="LightBrush"/>
+						<removeFeature name="OrkoidFungus"/>
+						<removeFeature name="ImperialRuin"/>
+						<removeFeature name="HolySite"/>
+						<removeFeature name="WireWeed"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+        </area>
+    </onCombatOpponent>
 </trait>
