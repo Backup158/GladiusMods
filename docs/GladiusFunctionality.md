@@ -229,3 +229,28 @@ The key is to have `<conditions match="Any">` then put each inRange in its own u
 	</unit>
 </conditions>
 ```
+
+# Checking for None in Range
+Example is for enemies.
+
+This first trait is always active
+```xml
+<conditions>
+	<unit>
+		<unitsInRange count="0" range="2">
+			<enemy/>
+		</unitsInRange>
+	</unit>
+</conditions>
+```
+This second one is only active when there's an enemy in 2 tiles.
+```xml
+<conditions>
+	<unit>
+		<unitsInRange count="1" range="2">
+			<enemy/>
+		</unitsInRange>
+	</unit>
+</conditions>
+```
+Could have a hidden aura with the second condition to apply a hidden trait, then only do things when that hidden trait is not found.
