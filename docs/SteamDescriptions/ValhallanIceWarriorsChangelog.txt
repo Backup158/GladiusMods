@@ -1,3 +1,7 @@
+# 2026-04-22
+- [FIX] [b]Night Witches[/b] didn't have a cooldown for the Heavy Bomb Clusters
+- [FIX] [b]Night Witches[/b] [u]Load Extra Ammo[/u] cooldown reset logic now works without behind the scenes shenanigans, which caused doubled up action issues
+
 # 2026-04-06
 Remade [b]Valhallan Conscripts[/b] to fix the crash on selection. I believe the root of the crash was an issue with how I added the grenades.
 
