@@ -102,13 +102,7 @@
                     </effects>
                 </modifier>
 				<!-- Removes features from ground liquifying -->
-				<!--
                 <modifier>
-					<conditions>
-						<tile>
-							<land/>
-						</tile>
-					</conditions>
                     <effects>
 						<removeFeature name="Brush"/>
 						<removeFeature name="Forest"/>
@@ -116,10 +110,10 @@
 						<removeFeature name="OrkoidFungus"/>
 						<removeFeature name="ImperialRuin"/>
 						<removeFeature name="HolySite"/>
+						<removeFeature name="NecronTomb"/>
 						<removeFeature name="WireWeed"/>
                     </effects>
                 </modifier>
-				-->
             </modifiers>
         </area>
         <area affects="Unit">
