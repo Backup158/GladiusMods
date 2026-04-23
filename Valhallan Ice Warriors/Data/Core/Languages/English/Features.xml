@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_LiquifiedGround" value="Liquified Ground"/>
-    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_LiquifiedGroundDescription" value=""/>
-    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_LiquifiedGroundFlavor" value=""/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_LiquifiedGroundDescription" value="Reduces movement of ground units."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_LiquifiedGroundFlavor" value="Subterranean explosions can have such ferocity that the ground above is liquified, leaving deep crevices on the surface."/>
 </language>
