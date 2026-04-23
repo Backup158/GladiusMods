@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon>
+	<model>
+		<projectileWeapon fireSound="Weapons/BanebladeCannon"
+		 		fireSoundCount="3"
+				muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes"
+				explosionsBlueprint="Effects/PlasmaExplosions"
+				explosionsEmitterBlueprint="Effects/uwu_ValhallanIceWarriors_TremorCannonExplosionsEmitter"/>
+	</model>	
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedArmorPenetration add="6"/> <!-- 6 | %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="6"/> <!-- 8 | %rangedDamage add strength=9 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<!-- 3 -->
+	<!-- It's said it only can burrow at long range -->
+	<target rangeMax="3" rangeMin="1"/>
+	<traits>
+		<trait name="ApocalypticBlast"/>
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+		<trait name="PrimaryWeapon"/>
+		<!-- Tremor cannon -->
+		<!-- <trait name="Concussive"/> --> <!-- Removing so it can be given to vehicles too -->
+		<trait name="IgnoresCover"/>
+		<trait name="uwu_ValhallanIceWarriors_FleshbaneGround"/>
+	</traits>
+</weapon>

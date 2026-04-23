@@ -87,4 +87,7 @@
     <entry name="TripodSetup" value="Requires Tripod"/>
     <entry name="TripodSetupDescription" value="When wielded by infantry, this weapon cannot be fired immediately after moving."/>
     <entry name="TripodSetupFlavor" value="Many weapons are meant to be mounted on vehicles, but stubborn infantrymen find a way to make it work. Will the results be cumbersome and painful? Yes. Will that stop them? No."/>
+    <entry name="uwu_ValhallanIceWarriors_FleshbaneGround" value="Burrowed Projectile"/>
+    <entry name="uwu_ValhallanIceWarriors_FleshbaneGroundDescription" value="Reduced effect at range 1. Greatly increased damage against infantry and Open-topped or Walker vehicles. Increased damage agaisnt other vehicles. Cannot hit Flyers nor Skimmers. Reduced accuracy against other types of flying units."/>
+    <entry name="uwu_ValhallanIceWarriors_FleshbaneGroundFlavor" value="The Tremor Cannon's projectile, packed to the brim with super-dense, volatile tectorium ore, can liquify the ground with its shockwave. Each round has a proximity fuse, only arming after a certain distance. While the rounds only explode underground, its blast being able to liquify the ground means any poor soul caught by the waves will suffer a similar fate."/>
 </language>

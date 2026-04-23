@@ -30,4 +30,11 @@
     <!-- Bayonet -->
     <entry name="ValhallanBayonet" value="M40 Bayonet"/>
     <entry name="ValhallanBayonetFlavor" value="The bayonet symbolises the heart of the Imperial Guard. No matter how powerful the enemy is, the spirit of Man will face it with bayonets affixed. While a single stab has little effect, every attack weakens the foe, until one finally finds its mark."/>
+    <!-- Tremor Cannon -->
+    <entry name="uwu_ValhallanIceWarriors_TremorCannon" value="Tremor Cannon"/>
+    <entry name="uwu_ValhallanIceWarriors_TremorCannonDescription" value="Heavy cannon that demolishes ground units, but is ineffective against airborne foes. Does not activate at range 1."/>
+    <entry name="uwu_ValhallanIceWarriors_TremorCannonFlavor" value="Tremor Cannons fire self-burrowing projectiles which set off a ginormous explosion when deep enough, liquifying the dirt, stone, and even steel."/>
+    <entry name="uwu_ValhallanIceWarriors_TremorCannonUnarmed" value="Tremor Cannon (Unarmed Round)"/>
+    <entry name="uwu_ValhallanIceWarriors_TremorCannonUnarmedDescription" value="Fires round that doesn't explode."/>
+    <entry name="uwu_ValhallanIceWarriors_TremorCannonUnarmedFlavor" value="When striking at close range, the proximity fuse fails to trigger. Even when there's no explosion, it turns out that massive hunk of metal travelling at high speeds can still kill a man."/>
 </language>
