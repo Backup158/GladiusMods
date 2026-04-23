@@ -254,3 +254,10 @@ This second one is only active when there's an enemy in 2 tiles.
 </conditions>
 ```
 Could have a hidden aura with the second condition to apply a hidden trait, then only do things when that hidden trait is not found.
+
+# Explosions on the Enemy
+See the T'au R'Varna Battlesuit's Pulse Submunition Cannon
+```xml
+explosionsBlueprint="Effects/PlasmaExplosions"
+				explosionsEmitterBlueprint="Effects/PulseSubmunitionExplosionsEmitter"
+```
