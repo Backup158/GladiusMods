@@ -342,7 +342,7 @@
 				requiredMovement="1"
 				consumedMovement="1"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Guns"
-				icon="Trait/Flame">
+				icon="Traits/Flame">
 			<model>
 				<action sound="Weapons/Flamer" soundCount="3"/>
 			</model>
