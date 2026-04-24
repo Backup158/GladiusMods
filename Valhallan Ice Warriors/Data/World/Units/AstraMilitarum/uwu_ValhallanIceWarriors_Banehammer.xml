@@ -211,33 +211,93 @@
 			</model>
 		</useWeapon>
 		<!-- Custom Hero abilities -->
-		<!--
-		<genericUnitAbility cooldown="3"
+		<!-- Out of the Way -->
+		<!-- Gun down an ally to get more damage -->
+		<genericUnitAbility cooldown="1"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
+				requiredMovement="0"
 				consumedMovement="0"
-				name="AstraMilitarum/uwu_ValhallanIceWarriors_"
+				levelUpPriority="0.1"
+				name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute"
 				icon="Actions/SummaryExecution">
 			<model>
-				<action sound="Actions/AstraMilitarumBuff"/>
-			</model>			
+				<action animation="Units/AstraMilitarum/BanebladeAttack"
+						beginFire="0.2"
+						endFire="2.7"
+						sound="Weapons/HeavyBolter" soundCount="4"/>
+			</model>		
 			<beginTargets>
+				<target rangeMin="1" rangeMax="2">
+					<conditions>
+						<unit>
+							<allied/>
+							<noTrait name="Fortification"/>
+							<noTrait name="Vehicle"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<groupSize add="-4"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
 				<selfTarget>
 					<areas>
-						<area affects="Unit" radius="1">
+						<!-- Damage for Self -->
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<!-- Morale for Allies -->
+						<area affects="Unit" radius="2">
 							<modifiers>
 								<modifier>
 									<conditions>
 										<unit>
 											<allied/>
-											<movement greater="0"/>
-											<trait name="Tank"/>
 										</unit>
 									</conditions>
 									<effects>
-										<addTrait duration="1" name="FullThrottle"/>
+										<morale addMin="2" addMax="6"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>			
+		</genericUnitAbility>
+		<!-- Hammer and Anvil -->
+		<!-- Enemies attacked are more vulnerable to infantry -->
+		<genericUnitAbility rank="-1"
+				rankMax="2"
+				passive="1"
+				levelUpPriority="0.2"
+				name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer"
+				icon="Traits/Outflank">			
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+							<!-- No condition because letting it stack is funny -->
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -246,34 +306,22 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		-->
-		<!-- 
-		<genericUnitAbility cooldown="3"
-				rank="-1"
+		<!-- Until Your Last Dying Breath -->
+		<!-- Increased attacks as health decreases or is outnumbered -->
+		<genericUnitAbility rank="-1"
 				rankMax="2"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				name="AstraMilitarum/uwu_ValhallanIceWarriors_"
-				icon="Actions/SummaryExecution">
-			<model>
-				<action sound="Actions/AstraMilitarumBuff"/>
-			</model>			
+				passive="1"
+				levelUpPriority="0.3"
+				name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Breath"
+				icon="Traits/Rage">		
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Unit" radius="1">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<movement greater="0"/>
-											<trait name="Tank"/>
-										</unit>
-									</conditions>
 									<effects>
-										<addTrait duration="1" name="FullThrottle"/>
+										<addTrait name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Breath"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -281,73 +329,40 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</genericUnitAbility>
-		-->
-		<!-- 
+		</genericUnitAbility>	
+		<!-- Elite: All Guns Blazing -->
+		<!-- Increased attacks. Deal damage to units around. -->
 		<genericUnitAbility cooldown="3"
-				rank="-1"
-				rankMax="2"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				name="AstraMilitarum/uwu_ValhallanIceWarriors_"
-				icon="Actions/SummaryExecution">
-			<model>
-				<action sound="Actions/AstraMilitarumBuff"/>
-			</model>			
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit" radius="1">
-							<modifiers>
-								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<movement greater="0"/>
-											<trait name="Tank"/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait duration="1" name="FullThrottle"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
-		-->
-		<!-- Elite: -->
-		<!--
-		<genericUnitAbility cooldownMin="5"
-				cooldownMax="5"
 				elite="1"
 				levelUpPriority="1"
 				rank="-1"
 				rankMax="0"
-				requiredActionPoints="0"
-				consumedActionPoints="0" consumedMovement="0"
-				name="AstraMilitarum/uwu_ValhallanIceWarriors_"
-				icon="Actions/SummaryExecution">
+				requiredActionPoints="1"
+				consumedActionPoints="0" 
+				requiredMovement="1"
+				consumedMovement="1"
+				name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Guns"
+				icon="Trait/Flame">
 			<model>
-				<action sound="Actions/AstraMilitarumBuff"/>
+				<action sound="Weapons/Flamer" soundCount="3"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1">
+						<area affects="Unit" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<trait name="Tank"/>
-										</unit>
-									</conditions>
 									<effects>
-										<addFeature duration="3" name="SmokeScreen"/>
+										<hitpoints add="-4"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Guns"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -356,7 +371,6 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		-->
 		<levelUp/>
 		<shop/>
 	</actions>

@@ -57,4 +57,17 @@
     <entry name="AstraMilitarum/LoadExtraAmmo" value="Load Additional Ammo"/>
     <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="<string name='Traits/AstraMilitarum/LoadExtraAmmoDescription'/>"/>
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="There are times when killing the enemy is more important than surviving. Even old machines can be equipped with additional weapons and ammo when long-term performance and speed are of little concern."/>
+    <!-- The Red Hammer of the Emperor -->
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute" value="Get Out of the Way"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteDescription" value="Execute members of an allied infantry squad to restore morale of allies and to increase this unit's movement and damage."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteFlavor" value="When The Red Hammer has a target in its sights, nobody can stand in its way, especially not some meager guardsmen. With cracks of the bolter, the super-heavy's engines roar as it speeds towards the foe."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer" value="Hammer and Anvil"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerDescription" value="Enemies attacked by this unit then take extra damage from infantry."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerFlavor" value="The men and women of Valhalla hold the line, stoicly throwing their lives against the green waves. Lasguns crack and flamers roar, batting at the unending hordes. All had accepted their fates, until the sounds of shrill explosions and crumbling ground came closer and closer. The Red Hammer of the Emperor had struck at the enemy's rear, driving them into the steadfast lines until all of the xenos were crushed."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Breath" value="Until Your Last Dying Breath"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_BreathDescription" value="Increased attacks when outnumbered within 2 tiles. Increased attacks when health decreases, with increased effects at increments of 20% hitpoints."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_BreathFlavor" value="&quot;Onwards! Show those xenos dogs what it means to cross the Imperium! Let the Emperor's Hammer crush them!&quot;"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Guns" value="All Guns Blazing"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_GunsDescription" value="Increased attacks. Damages any adjacent unit."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_GunsFlavor" value="Infantry, supported by the super-heavy tank, hold the line. The crew of The Red Hammer spots a massive enemy, threatening to cut through their defences. Without warning, The Red Hammer unleashes its full fusillade, burning Valhallans and xenos alike."/>
 </language>

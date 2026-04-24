@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/Rage" rankMax="2">
+	<modifiers>
+		<!-- Outnumbered -->
+		<modifier>
+			<conditions>
+				<unit>
+					<enemyMajorityInRange range="2"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mulMin="0.05" mulMax="0.15"/>
+			</effects>
+		</modifier>
+		<!-- Low Health -->
+		<modifier>
+			<conditions>
+				<unit>
+					<hitpointsFraction less="0.8"/>
+					<hitpointsFraction greater="0.6"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mulMin="0.05" mulMax="0.1"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<hitpointsFraction less="0.6"/>
+					<hitpointsFraction greater="0.4"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mulMin="0.1" mulMax="0.2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<hitpointsFraction less="0.4"/>
+					<hitpointsFraction greater="0.2"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mulMin="0.2" mulMax="0.3"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<hitpointsFraction less="0.2"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mulMin="0.3" mulMax="0.4"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

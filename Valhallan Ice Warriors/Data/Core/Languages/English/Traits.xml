@@ -74,6 +74,22 @@
     <entry name="AstraMilitarum/LoadExtraAmmo" value="<string name='Actions/AstraMilitarum/LoadExtraAmmo'/>"/>
     <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="Greatly improves offence but becomes more vulnerable and slower. Resets other cooldowns."/>
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
+    <!--    The Red Hammer of the Emperor -->
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute'/>"/>
+    <!-- <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteDescription" value=""/> -->
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteFlavor'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerDescription" value="Enemies attacked by this unit then take extra damage from infantry."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerFlavor'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Banehammer_HammerEnemy" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Banehammer_HammerEnemyDescription" value="Unit takes extra damage from enemy infantry."/>
+    <entry name="uwu_ValhallanIceWarriors_Banehammer_HammerEnemyFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerFlavor'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Breath" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Breath'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_BreathDescription" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_BreathDescription'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_BreathFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_BreathFlavor'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Guns" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Guns'/>"/>
+    <!-- <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_GunsDescription" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_GunsDescription'/>"/> -->
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_GunsFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_GunsFlavor'/>"/>
     <!-- For Weapons -->
     <entry name="ValhallanHotWeapon" value="Hot Weapon"/>
     <entry name="ValhallanHotWeaponDescription" value="Wielder takes damage when firing while on tiles which are neither Arctic nor Tundra tiles. When on Desert, Savannah, or Volcanic tiles, take even more damage."/>
