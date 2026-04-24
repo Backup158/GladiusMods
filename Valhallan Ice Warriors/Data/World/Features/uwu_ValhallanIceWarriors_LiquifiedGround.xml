@@ -26,6 +26,9 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<traits>
+		<trait name="Slowed"/>
+	</traits>
 	<vegetation>
 		<trees clusterSizeMin="10" clusterSizeMax="20"
 				scaleMin="0.1" scaleMax="0.5">
