@@ -151,8 +151,6 @@
 			</beginTargets>
 		</auraOfDiscipline>
 		<genericUnitAbility cooldown="5"
-				requiredMovement="0"
-				consumedMovement="0"
 				useConditionsForVisiblity="1"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsman"
 				icon="Units/AstraMilitarum/ValhallanGuardsman">
@@ -215,13 +213,12 @@
 			</beginTargets>
 		</auraOfDiscipline>
 		<orbitalStrike cooldown="5"
-				requiredMovement="0"
-				consumedMovement="0"
 				useConditionsForVisiblity="1"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage"
-				icon="Traits/LinebreakerBombardment">
+				icon="Weapons/EarthshakerCannon">
 			<model>
-				<action sound="Actions/BombDrop"/>
+				<action sound="Weapons/EarthshakerCannon"
+						soundCount="3"/>
 			</model>
 			<conditions>
 				<unit>
@@ -229,7 +226,7 @@
 				</unit>
 			</conditions>
 			<beginTargets>
-				<target rangeMax="5">
+				<target rangeMax="3">
 					<conditions>
 						<unit>
 							<allied/>
@@ -239,7 +236,13 @@
 					<areas>
 						<area affects="Unit" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
+									<conditions>
+										<unit match="Any">
+											<allied/>
+											<enemy/>
+										</unit>
+									</conditions>
 									<effects>
 										<weaponDamage weapon="EarthshakerCannon"/>
 										<weaponDamage weapon="EarthshakerCannon"/>
@@ -256,7 +259,6 @@
 		<summaryExecution cooldown="1" rank="0" rankMax="3" levelUpPriority="0.3"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
-				requiredMovement="0"
 				consumedMovement="0"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Execute"
 				icon="Actions/SummaryExecution">
@@ -310,8 +312,6 @@
 		</summaryExecution>
 		<!-- Elite: Deploy Sappers -->
 		<genericUnitAbility cooldown="5" elite="1" rank="-1" rankMax="0" levelUpPriority="1"
-				requiredMovement="0"
-				consumedMovement="0"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployThunderWolves"
 				icon="Units/AstraMilitarum/uwu_ValhallanIceWarriors_ThunderWolves">
 			<beginTargets>
