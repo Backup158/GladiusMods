@@ -195,15 +195,6 @@
 						<area affects="Tile" radiusMin="2" radiusMax="3">
 							<modifiers>
 								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<faction name="AstraMilitarum"/>
-											<noTrait name="Fortification"/>
-											<noTrait name="MonstrousCreature"/>
-											<noTrait name="Vehicle"/>
-										</unit>
-									</conditions>
 									<effects>
 										<addTrait duration="1" name="uwu_ValhallanIceWarriors_Chenkov_Stall"/>
 									</effects>
@@ -349,10 +340,7 @@
 		<!-- Default: Iron Will -->
 		<ironWill beginOnDisappear="1"
 				cooldown="10"
-				elite="1"
-				passive="1"
-				rank="0"
-				rankMax="0">
+				passive="1">
 			<model>
 				<action sound="Actions/MysticBuff"
 						soundDelay="0.5"/>

@@ -2,6 +2,15 @@
 <trait category="Buff" icon="Traits/HellstormTemplate" rankMax="2">
 	<modifiers>
 		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
 			<effects>
 				<rangedDamageReduction addMin="0.05" addMax="0.17"/>
 			</effects>
@@ -11,6 +20,14 @@
 		<modifier>
 			<conditions>
 				<encounter>
+					<self>
+						<attacking/>
+						<allied/>
+						<faction name="AstraMilitarum"/>
+						<noTrait name="Fortification"/>
+						<noTrait name="MonstrousCreature"/>
+						<noTrait name="Vehicle"/>
+					</self>
 					<opponent>
 						<noAttacking/>
 						<noTrait name="Fortification"/>
