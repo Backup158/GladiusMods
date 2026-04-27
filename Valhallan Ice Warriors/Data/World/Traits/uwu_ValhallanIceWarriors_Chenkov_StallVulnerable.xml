@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Traits/HellstormTemplate" rankMax="2">
+<trait alwaysVisible="1" category="Debuff" icon="Traits/HellstormTemplate" rankMax="2">
 	<modifiers>
 		<!-- Takes extra damage from enemy artillery -->
 		<modifier>
@@ -7,10 +7,10 @@
 				<encounter>
 					<opponent>
 						<attacking/>
-						<weapon>
-							<trait name="Barrage"/>
-						</weapon>
 					</opponent>
+					<weapon>
+						<trait name="Barrage"/>
+					</weapon>
 				</encounter>
 			</conditions>
 			<effects>
