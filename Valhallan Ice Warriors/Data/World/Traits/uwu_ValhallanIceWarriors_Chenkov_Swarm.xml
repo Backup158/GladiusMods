@@ -13,7 +13,7 @@
 			</conditions>
 			<effects>
 				<rangedDamageReduction addMin="0.05" addMax="0.15"/>
-				<moraleLossFactor addMin="0.17" addMin="0.5"/>
+				<moraleLossFactor addMin="-0.17" addMin="-0.5"/>
 			</effects>
 		</modifier>
 	</modifiers>
