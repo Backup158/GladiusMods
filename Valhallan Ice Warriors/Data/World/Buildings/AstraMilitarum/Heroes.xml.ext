@@ -4,6 +4,7 @@
 		<produceUnit unit="AstraMilitarum/ValhallanCommissar"/>
 		<produceUnit unit="AstraMilitarum/ValhallanCommander" requiredUpgrade="AstraMilitarum/CityTier2"/>
 		<produceUnit unit="AstraMilitarum/ValhallanNightWitches" requiredUpgrade="AstraMilitarum/Aircraft"/>
+		<produceUnit unit="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov" requiredUpgrade="AstraMilitarum/CityTier3"/>
 		<produceUnit unit="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer" requiredUpgrade="AstraMilitarum/Baneblade"/>
 	</actions>
 </building>

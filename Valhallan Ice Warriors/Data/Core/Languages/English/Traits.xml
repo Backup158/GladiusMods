@@ -74,6 +74,28 @@
     <entry name="AstraMilitarum/LoadExtraAmmo" value="<string name='Actions/AstraMilitarum/LoadExtraAmmo'/>"/>
     <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="Greatly improves offence but becomes more vulnerable and slower. Resets other cooldowns."/>
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
+    <!--    Chenkov -->
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_Swarm" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Swarm'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmDescription" value="Unit is more resilient. Upon death, adjacent allied infantry gain <string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_SwarmVengeance'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_SwarmFlavor'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmVengeance" value="Avenge Your Comrades"/>
+    <!-- <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmVengeanceDescription" value="Increases the damage and melee attacks"/> -->
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmVengeanceFlavor" value="&quot;Before you die, make them pay dearly. When they are tearing your comrades apart, strike at their weak points. Hold the line; the Emperor only asks that we die standing!&quot;"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ActivateSwarm" value="activate swarm"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ActivateSwarmDescription" value="i need more bullets poom poom"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ActivateSwarmFlavor" value="gimme gimme more gimme more gimme gimme more"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_Stall" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Stall'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_StallDescription" value="Unit is more resilient and, upon attacking adjacent enemy troops, restrict their movement and make them more vulnerable to artillery."/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_StallFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallFlavor'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_StallVulnerable" value="Locked in Battle"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_StallVulnerableDescription" value="Unit is more vulnerable when being attacked by artillery."/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_StallVulnerableFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallFlavor'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ActivateStall" value="activate stall"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ActivateStallDescription" value="oooo hold me"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ActivateStallFlavor" value="some boys hug me"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_Execute" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Execute'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ExecuteDescription" value="Unit has increased attacks, moreso for melee weapons."/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_ExecuteFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_ExecuteFlavor'/>"/>
     <!--    The Red Hammer of the Emperor -->
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute'/>"/>
     <!-- <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteDescription" value=""/> -->

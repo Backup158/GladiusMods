@@ -1,3 +1,9 @@
+# 2026-04-xx
+[list]
+[*] [NEW] [b]The Red Hammer of the Emperor[/b]: Banehammer hero
+[*] [NEW] [b]Commander Kubrik Chenkov[/b]: Hero who sends waves of infantry at the foe.
+[/list]
+
 # 2026-04-22
 - [FIX] [b]Night Witches[/b] didn't have a cooldown for the Heavy Bomb Clusters
 - [FIX] [b]Night Witches[/b] [u]Load Extra Ammo[/u] cooldown reset logic now works without behind the scenes shenanigans, which caused doubled up action issues

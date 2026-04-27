@@ -44,6 +44,25 @@
     <entry name="AstraMilitarum/uwu_Valhallan_DeployConscripts" value="Deploy <string name='Units/AstraMilitarum/uwu_Valhallan_Conscripts'/>"/>
     <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsDescription" value="Spawns a temporary, disposable unit to throw into enemy lines. <string name='Units/AstraMilitarum/uwu_Valhallan_ConscriptsDescription'/>"/>
     <entry name="AstraMilitarum/uwu_Valhallan_DeployConscriptsFlavor" value="<string name='Units/AstraMilitarum/uwu_Valhallan_ConscriptsFlavor'/>"/>
+    <!-- Kubrik Chenkov -->
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Swarm" value="Drown Them in Blood"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_SwarmDescription" value="Nearby allied infantry fight more fiercely when avenging their comrades. Radius is increased upon upgrade. Allows usage of <string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsman'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_SwarmFlavor" value="Chenkov is infamous for his callous disregard of human life. In the Siege of Kotrax, he sent the entire force directly towards an enemy stronghold. Without any siegeworks nor artillery support, guardsmen were cut down like chaff. Through Valhallan blood, the fortress was taken, and Chenkov was awared the Merit of the High Lords."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsman" value="Deploy Valhallan Guardsmen"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsmanDescription" value="Spawns a unit of Valhallan Guardsmen."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsmanFlavor" value="<string name='Units/AstraMilitarum/ValhallanGuardsmanFlavor'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Stall" value="Hold Them Down"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallDescription" value="Nearby allied infantry become more resilient and, upon attacking adjacent enemy troops, restrict their movement and make them more vulnerable to artillery. Allows usage of <string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallFlavor" value="One of Chenkov's signature tactics is to swarm the enemy with infantry, pinning them until artillery bombards the area, slaughtering all involved parties."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage" value="Earthshaker Bombardment"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrageDescription" value="Target an allied unit with Hold Them Down. It and adjacent units are bombarded by Earthshaker Cannons."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrageFlavor" value="&quot;Incoming fire has the right of way&quot;"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Execute" value="Chenkov's Inspiration"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_ExecuteDescription" value="Executes an ally, granting bonuses to allied infantry. Restores morale. <string name='Traits/uwu_ValhallanIceWarriors_Chenkov_ExecuteDescription'/>"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_ExecuteFlavor" value="Legend has it, Chenkov's bolt pistol has killed more Valhallans than enemies."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployThunderWolves" value="Deploy Sappers"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployThunderWolvesDescription" value="Spawns a unit of <string name='Units/AstraMilitarum/uwu_ValhallanIceWarriors_ThunderWolves'/>."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployThunderWolvesFlavor" value="One of Chenkov's signature tricks is to distract the enemy with a wave of infantry, while sappers infiltrate the flanks and undermine the defences."/>
     <!-- Night Witches -->
     <entry name="AstraMilitarum/NightBomber" value="Night Attack"/>
     <entry name="AstraMilitarum/NightBomberDescription" value="<string name='Traits/AstraMilitarum/NightBomberDescription'/>"/>
