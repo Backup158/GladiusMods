@@ -76,7 +76,7 @@
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="<string name='Actions/AstraMilitarum/LoadExtraAmmoFlavor'/>"/>
     <!--    Chenkov -->
     <entry name="uwu_ValhallanIceWarriors_Chenkov_Swarm" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Swarm'/>"/>
-    <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmDescription" value="Unit is more resilient. Upon death, adjacent allied infantry gain <string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_SwarmVengeance'/>"/>
+    <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmDescription" value="Unit is more resilient. Upon death, adjacent allied infantry gain <string name='Traits/uwu_ValhallanIceWarriors_Chenkov_SwarmVengeance'/>"/>
     <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_SwarmFlavor'/>"/>
     <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmVengeance" value="Avenge Your Comrades"/>
     <!-- <entry name="uwu_ValhallanIceWarriors_Chenkov_SwarmVengeanceDescription" value="Increases the damage and melee attacks"/> -->
