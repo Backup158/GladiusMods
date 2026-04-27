@@ -386,7 +386,7 @@
 			</beginTargets>
 		</ironWill>
 		<!-- Default: GULAG -->
-		<!-- Ranked as 2 upgrades. More generous hp allowance -->
+		<!-- Max rank. More generous hp allowance -->
 		<genericUnitAbility cooldown="10"
 				name="AstraMilitarum/Gulag">
 			<model>
@@ -439,7 +439,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="AstraMilitarum/GulagGains" duration="1" rank="1"/>
+										<addTrait name="AstraMilitarum/GulagGains" duration="1" rank="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
