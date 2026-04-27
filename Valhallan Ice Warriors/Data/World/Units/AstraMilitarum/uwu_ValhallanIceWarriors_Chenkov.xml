@@ -158,7 +158,7 @@
 				icon="Units/AstraMilitarum/ValhallanGuardsman">
 			<conditions>
 				<unit>
-					<trait name="uwu_ValhallanIceWarriors_Chenkov_ActivateDiscipline"/>
+					<trait name="uwu_ValhallanIceWarriors_Chenkov_ActivateSwarm"/>
 				</unit>
 			</conditions>
 			<beginTargets>
