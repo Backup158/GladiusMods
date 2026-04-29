@@ -3,6 +3,7 @@
 [*] [NEW] [b]The Red Hammer of the Emperor[/b]: Banehammer hero
 [*] [NEW] [b]Commander Kubrik Chenkov[/b]: Hero who sends waves of infantry at the foe.
 [*] [NEW] Support for Heroes of Legend. Things that check for Valhallans will also check for Jurgen and Ciaphas Cain. [u]Ura![/u] can be activated with just one of those heroes, because that feels appropriate.
+[*] [BAL] [i]Massed Infantry[/i] checks for any 4 infantry, instead of any 4 Valhallans. Forcing 4 Valhallans was kind of annoying, especially for something as important as movement. 
 [/list]
 
 # 2026-04-22

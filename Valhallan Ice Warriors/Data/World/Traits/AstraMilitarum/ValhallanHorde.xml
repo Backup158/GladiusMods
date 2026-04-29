@@ -15,7 +15,9 @@
                     </unitsInRange>
 					<unitsInRange count="4" range="3">
 						<allied/>
-						<trait name="AstraMilitarum/Valhallan"/>
+						<!-- <trait name="AstraMilitarum/Valhallan"/> -->
+						<noTrait name="Vehicle"/>
+						<noTrait name="Fortification"/>
                     </unitsInRange>
                 </unit>
             </conditions>
