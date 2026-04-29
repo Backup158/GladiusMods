@@ -101,10 +101,11 @@ Comments
 [/td][td]
 Load order shouldn't matter but I have this above it.
 [/td][/tr]
-[tr][td]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url] [Integrated]
-[/td][td]
+[tr][td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for Low Cost Units[/url] [Integrated][/td][td]
 Load order doesn't matter.
+[/td][/tr]
+[tr][td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3386132148]Heroes of Legend - Astra Militarum Heroes Part 3[/url] [Integrated][/td][td]
+Load order doesn't matter. Whenever this mod checks for Valhallans, it also works with Jurgen and Cain.
 [/td][/tr]
 [tr][td]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851306078]Gladius+[/url]
@@ -117,6 +118,5 @@ Load order doesn't matter.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3659663590]Patch link[/url] for 1. Links to the others are on that page.
 [/td][/tr]
 [/table]
-
 [h1]Acknowledgements[/h1]
 [url=https://steamcommunity.com/workshop/filedetails/discussion/3349331473/803469175294188666/]In thread[/url]
