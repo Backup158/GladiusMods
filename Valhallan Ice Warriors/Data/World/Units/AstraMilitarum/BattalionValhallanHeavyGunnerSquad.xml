@@ -190,9 +190,14 @@
 									<conditions>
 										<unit>
 											<allied/>
-											<trait name="AstraMilitarum/Valhallan"/>
 											<noTrait name="AstraMilitarum/Ura"/>
 											<noTrait name="AstraMilitarum/UraCooldown"/>
+										</unit>
+										<!-- Valhallans, including HoL -->
+										<unit match="Any">
+											<trait name="AstraMilitarum/Valhallan"/>
+											<trait name="AstraMilitarum/IceWarrior+"/>
+											<trait name="AstraMilitarum/Goodpair+"/>
 										</unit>
 									</conditions>
 									<effects>
