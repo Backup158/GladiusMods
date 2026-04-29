@@ -149,15 +149,36 @@
 			<beginTargets>
 				<selfTarget>
 					<conditions>
+						<!-- Not having the cooldown -->
+						<!-- 4 Infantry allies, with some being Valhallanss -->
 						<unit>
 							<noTrait name="AstraMilitarum/UraCooldown"/>
-							<!-- 4 Infantry allies, at least 2 of whom are Valhallans -->
+							<unitsInRange count="4" range="3">
+								<allied/>
+								<noTrait name="Vehicle"/>
+								<noTrait name="Fortification"/>
+							</unitsInRange>
+						</unit>
+						<!-- 2 of my Valhallans OR 1 HoL Valhallan -->
+						<unit match="Any">
 							<unitsInRange count="2" range="3">
 								<allied/>
 								<trait name="AstraMilitarum/Valhallan"/>
+								<noTrait name="Vehicle"/>
+								<noTrait name="Fortification"/>
 							</unitsInRange>
-							<unitsInRange count="4" range="3">
+							<!-- Versions for HoL -->
+							<!--   Jurgen's Ice Warrior Trait. The one is covered by Good Pair so I'll leave this as 2 in case Devian adds more Ice Warriors -->
+							<unitsInRange count="2" range="3">
 								<allied/>
+								<trait name="AstraMilitarum/IceWarrior+"/>
+								<noTrait name="Vehicle"/>
+								<noTrait name="Fortification"/>
+							</unitsInRange>
+							<!--  Cain and Jurgen's shared trait -->
+							<unitsInRange count="1" range="3">
+								<allied/>
+								<trait name="AstraMilitarum/Goodpair+"/>
 								<noTrait name="Vehicle"/>
 								<noTrait name="Fortification"/>
 							</unitsInRange>
