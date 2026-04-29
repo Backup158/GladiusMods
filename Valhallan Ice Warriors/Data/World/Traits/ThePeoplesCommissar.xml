@@ -21,7 +21,12 @@
 			<conditions>
 				<unit>
 					<allied/>
+				</unit>
+				<!-- Valhallan check w/ HoL compat -->
+				<unit match="Any">
 					<trait name="AstraMilitarum/Valhallan"/>
+					<trait name="AstraMilitarum/IceWarrior+"/>
+					<trait name="AstraMilitarum/Goodpair+"/>
 				</unit>
 			</conditions>
 			<effects>

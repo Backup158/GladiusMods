@@ -24,12 +24,17 @@
 				<unit>
 					<!-- Allied Valhallan Infantry -->
 					<allied/>
-					<trait name="AstraMilitarum/Valhallan"/>
 					<noTrait name="Fortification"/>
 					<noTrait name="MonstrousCreature"/>
 					<noTrait name="Vehicle"/>
 					<!-- Not Moved -->
 					<notMovedThisTurn/>
+				</unit>
+				<!-- Valhallan check w/ HoL compat -->
+				<unit match="Any">
+					<trait name="AstraMilitarum/Valhallan"/>
+					<trait name="AstraMilitarum/IceWarrior+"/>
+					<trait name="AstraMilitarum/Goodpair+"/>
 				</unit>
 			</conditions>
 			<effects>
@@ -64,7 +69,6 @@
 				<unit>
 					<!-- Allied Valhallan Infantry -->
 					<allied/>
-					<trait name="AstraMilitarum/Valhallan"/>
 					<noTrait name="Fortification"/>
 					<noTrait name="MonstrousCreature"/>
 					<noTrait name="Vehicle"/> 
@@ -73,6 +77,12 @@
 						<allied/>
 						<trait name="Headquarters"/>
                     </unitsInRange>
+				</unit>
+				<!-- Valhallan check w/ HoL compat -->
+				<unit match="Any">
+					<trait name="AstraMilitarum/Valhallan"/>
+					<trait name="AstraMilitarum/IceWarrior+"/>
+					<trait name="AstraMilitarum/Goodpair+"/>
 				</unit>
 			</conditions>
 			<effects>

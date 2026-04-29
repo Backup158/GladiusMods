@@ -16,10 +16,19 @@
 		</modifier>
 		<modifier>
 			<conditions>
-                <unit>
+                <unit match="Any">
                     <unitsInRange count="2" range="1">
 						<allied/>
 						<trait name="AstraMilitarum/Valhallan"/>
+                    </unitsInRange>
+					<!-- HoL compat -->
+                    <unitsInRange count="2" range="1">
+						<allied/>
+						<trait name="AstraMilitarum/IceWarrior+"/>
+                    </unitsInRange>
+                    <unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="AstraMilitarum/Goodpair+"/>
                     </unitsInRange>
                 </unit>
             </conditions>
