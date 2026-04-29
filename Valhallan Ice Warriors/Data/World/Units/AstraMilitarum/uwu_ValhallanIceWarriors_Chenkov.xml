@@ -393,17 +393,29 @@
 				<target rangeMax="3">
 					<conditions>
 						<unit>
-							<!-- Surrounded by Valhallans -->
-							<unitsInRange count="3" range="1">
-								<allied/>
-								<trait name="AstraMilitarum/Valhallan"/>
-							</unitsInRange>
+							<!-- Works on Friend and Foe -->
 							<!-- Low HP -->
 							<hitpointsFraction less="0.15"/> <!-- 15 from 10%-->
 							<!-- Forbidden Units -->
 							<noTrait name="Vehicle"/>
 							<noTrait name="Fortification"/>
 							<noTrait name="MonstrousCreature"/>
+						</unit>
+						<!-- Surrounded by Valhallans -->
+						<unit match="Any">
+							<unitsInRange count="2" range="1">
+								<allied/>
+								<trait name="AstraMilitarum/Valhallan"/>
+							</unitsInRange>
+							<!-- HoL Compat -->
+							<unitsInRange count="2" range="1">
+								<allied/>
+								<trait name="AstraMilitarum/IceWarriors+"/>
+							</unitsInRange>
+							<unitsInRange count="1" range="1">
+								<allied/>
+								<trait name="AstraMilitarum/Goodpair+"/>
+							</unitsInRange>
 						</unit>
 					</conditions>
 					<areas>

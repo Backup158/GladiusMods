@@ -18,7 +18,7 @@
     <!-- ====================== -->
     <!-- Commissar -->
     <entry name="AstraMilitarum/Gulag" value="Send to Gulag"/>
-    <entry name="AstraMilitarum/GulagDescription" value="Target an infantry unit with less than 10% health, surrounded by 3 Valhallans. Remove this unit and gain Ore and Influence."/>
+    <entry name="AstraMilitarum/GulagDescription" value="Target an infantry unit with less than 10% health and is surrounded by 2 Valhallans. Remove this unit and gain Ore and Influence."/>
     <entry name="AstraMilitarum/GulagFlavor" value="Prisoners, whether they be enemies from within or from without, cost resources to maintain. They must be fed, sheltered, and most importantly, monitored. The only way to make this more worthwhile than simply putting a las-bolt through the head is to find a way to extract value. Valhallan planetary governors established forced labour camps to intern enemies of the state, and while there is no shortage of those, certain prisoners of war or seditious Guardsmen may find their way to these camps, where they dig through the icy ground until they themselves are a part of it."/>
     <entry name="AstraMilitarum/DeployValhallanBarrierSquad" value="Deploy <string name='Units/AstraMilitarum/ValhallanBarrierSquad'/>"/>
     <entry name="AstraMilitarum/DeployValhallanBarrierSquadDescription" value="Spawns a permanent, mortal unit that supports nearby allies but cannot move. <string name='Units/AstraMilitarum/ValhallanBarrierSquadDescription'/>"/>

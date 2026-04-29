@@ -17,7 +17,7 @@ All Valhallan infantry can use [u]Ura![/u]: Inspires Valhallans within 3 tiles t
 [td]T1 [b]Shrine of the Aquila[/b][/td][td][b]Valhallan Commissar[/b] - Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade.
 [u]Discipline[/u] and [u]Bring It Down![/u] are the same as the default's first step (+1 accuracy, +2 armor penetration), but the radius increases by 1 every time they are upgraded.
 [u]Summary Execution[/u] is available by default (equivalent to having two upgrades)
-[u]Send to Gulag[/u]: Target an infantry unit with less than 10% health, surrounded by 3 Valhallans. Remove this unit and gain [7, 21] Ore and [5, 15] Influence.
+[u]Send to Gulag[/u]: Target an infantry unit with less than 10% health, surrounded by 2 Valhallans. Remove this unit and gain [7, 21] Ore and [5, 15] Influence.
 [u]Deploy Barrier Squad[/u]: Spawns a permanent, mortal unit that supports nearby allies but cannot move. 
 [b]Valhallan Barrier Squad[/b]: Allies within 3 tiles of this unit have improved morale ([i]Barrier Squad Present[/i]: -33% morale loss and +2 morale per turn). Can execute entire squads.
 [/td]
