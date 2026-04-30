@@ -19,7 +19,7 @@
 	</modifiers>
 	<!-- 3 -->
 	<!-- It's said it only can burrow at long range -->
-	<target rangeMax="3" rangeMin="1"/>
+	<target rangeMax="3" rangeMin="2"/>
 	<traits>
 		<trait name="ApocalypticBlast"/>
 		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
