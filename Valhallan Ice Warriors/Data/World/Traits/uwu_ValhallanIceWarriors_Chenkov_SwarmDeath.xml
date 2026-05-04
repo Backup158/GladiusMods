@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0" category="Buff" icon="Traits/UnendingHorde">
+	<onUnitDisappeared>
+		<area affects="Unit" radius="1">
+			<modifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="AstraMilitarum"/>
+							<trait name="uwu_ValhallanIceWarriors_Chenkov_Swarm"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait name="uwu_ValhallanIceWarriors_Chenkov_SwarmVengeance" duration="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</onUnitDisappeared>
+</trait>

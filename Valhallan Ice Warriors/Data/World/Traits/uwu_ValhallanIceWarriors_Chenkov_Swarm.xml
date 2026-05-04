@@ -17,8 +17,9 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<!-- doesn't work, but I keep it here so it shows up in the UI -->
 	<onUnitDisappeared>
-		<area affects="Unit" radius="1">
+		<area affects="Unit" radius="0">
 			<modifiers>
 				<modifier>
 					<conditions>
