@@ -138,9 +138,14 @@
 							</modifiers>
 						</area>
 						<!-- the tile one doesn't work when they die. this will work in the meantime, even though it only affects the ones who start the turn close to Chenkov -->
-						<area affects="Unit" radiusMin="2" radiusMax="4">
+						<area affects="Unit" radiusMin="1" radiusMax="7">
 							<modifiers>
 								<modifier visible="0">
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
 									<effects>
 										<addTrait duration="1" name="uwu_ValhallanIceWarriors_Chenkov_SwarmDeath"/>
 									</effects>
