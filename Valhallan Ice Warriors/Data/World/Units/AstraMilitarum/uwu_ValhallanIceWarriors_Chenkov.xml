@@ -229,6 +229,9 @@
 		</auraOfDiscipline>
 		<!-- 	Strikes: Don't use with orbitalBarrage -->
 		<!-- 		orbitalStrike has fx and works, but sometimes has unit take no damage -->
+		<!-- 		skyOfFallingStars forces one target and uses the second actual weapon -->
+		<!-- 		genericUnitAbility works, but sometimes has unit take no damage and has no FX -->
+		<!-- 	Targetting Tile doesn't apply damage -->
 		<orbitalStrike cooldown="5"
 				useConditionsForVisiblity="1"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage"
