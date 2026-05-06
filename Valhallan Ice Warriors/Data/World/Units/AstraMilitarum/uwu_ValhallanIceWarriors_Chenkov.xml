@@ -227,6 +227,8 @@
 				</selfTarget>
 			</beginTargets>
 		</auraOfDiscipline>
+		<!-- 	Strikes: Don't use with orbitalBarrage -->
+		<!-- 		orbitalStrike has fx and works, but sometimes has unit take no damage -->
 		<orbitalStrike cooldown="5"
 				useConditionsForVisiblity="1"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage"
