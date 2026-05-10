@@ -237,7 +237,7 @@
 		<orbitalStrike cooldown="5"
 				useConditionsForVisiblity="1"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage"
-				icon="Weapons/EarthshakerCannon">
+				icon="Units/AstraMilitarum/Basilisk">
 			<model>
 				<action sound="Weapons/EarthshakerCannon"
 						soundCount="3"/>
