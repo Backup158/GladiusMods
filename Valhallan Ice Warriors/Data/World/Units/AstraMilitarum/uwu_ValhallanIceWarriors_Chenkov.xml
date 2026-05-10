@@ -258,6 +258,7 @@
 					<areas>
 						<area affects="Unit" radius="1">
 							<modifiers>
+								<!-- Enemy damage comes first. If it kills the targetted ally, it stops the followup damage. -->
 								<modifier>
 									<conditions>
 										<unit>
