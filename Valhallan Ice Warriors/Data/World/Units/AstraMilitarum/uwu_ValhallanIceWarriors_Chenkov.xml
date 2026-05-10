@@ -259,12 +259,38 @@
 						<area affects="Unit" radius="1">
 							<modifiers>
 								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
 									<effects>
 										<weaponDamage weapon="EarthshakerCannon"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
 									<effects>
+										<weaponDamage weapon="EarthshakerCannon"/>
+									</effects>
+								</modifier>
+								<!-- Allied damage -->
+								<!-- Player only -->
+								<modifier visible="0">
+									<conditions>
+										<unit>
+											<affiliate/>
+										</unit>
+										<player>
+											<notAIControlled/>
+										</player>
+									</conditions>
+									<effects>
+										<weaponDamage weapon="EarthshakerCannon"/>
 										<weaponDamage weapon="EarthshakerCannon"/>
 									</effects>
 								</modifier>
