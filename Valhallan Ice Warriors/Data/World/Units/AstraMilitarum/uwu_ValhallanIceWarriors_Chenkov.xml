@@ -232,6 +232,8 @@
 		<!-- 		skyOfFallingStars forces one target and uses the second actual weapon -->
 		<!-- 		genericUnitAbility works, but sometimes has unit take no damage and has no FX -->
 		<!-- 	Targetting Tile doesn't apply damage -->
+		<!--	allied doesn't always work. affiliate doesn't change anything -->
+		<!--    Does not damage units adjacent to Chenkov; worked around by only being 3 range-->
 		<orbitalStrike cooldown="5"
 				useConditionsForVisiblity="1"
 				name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage"
@@ -246,7 +248,7 @@
 				</unit>
 			</conditions>
 			<beginTargets>
-				<target rangeMax="3">
+				<target rangeMin="3" rangeMax="5">
 					<conditions>
 						<unit>
 							<allied/>
@@ -256,15 +258,13 @@
 					<areas>
 						<area affects="Unit" radius="1">
 							<modifiers>
-								<modifier visible="0">
-									<conditions>
-										<unit match="Any">
-											<allied/>
-											<enemy/>
-										</unit>
-									</conditions>
+								<modifier>
 									<effects>
 										<weaponDamage weapon="EarthshakerCannon"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
 										<weaponDamage weapon="EarthshakerCannon"/>
 									</effects>
 								</modifier>
