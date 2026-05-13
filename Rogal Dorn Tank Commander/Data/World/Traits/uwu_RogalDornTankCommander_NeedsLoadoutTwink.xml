@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0" icon="Traits/Assault">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy min="-999" max="-999"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

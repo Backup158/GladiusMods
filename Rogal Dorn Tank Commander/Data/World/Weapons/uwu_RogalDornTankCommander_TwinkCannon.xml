@@ -25,5 +25,7 @@
 		<trait name="Ordnance"/>
 		<!-- Twink -->
 		<trait name="TwinLinked"/>
+		<!-- Need RD Commander trait -->
+		<trait name="uwu_RogalDornTankCommander_NeedsLoadoutTwink"/>
 	</traits>
 </weapon>

@@ -4,4 +4,8 @@
 	<entry name="uwu_RogalDornTankCommander_TwinkCannonFlavor" value="<string name='Weapons/BattleCannonFlavor'/>"/>
 	<entry name="uwu_RogalDornTankCommander_TwinkDummy" value="Twin Battle Cannon (Visual only)"/>
 	<entry name="uwu_RogalDornTankCommander_TwinkDummyFlavor" value="<string name='Weapons/BattleCannonFlavor'/>"/>
+	<entry name="uwu_RogalDornTankCommander_OppressorCannon" value="<string name='Weapons/OppressorCannon'/>"/>
+	<entry name="uwu_RogalDornTankCommander_OppressorCannonFlavor" value="<string name='Weapons/OppressorCannonFlavor'/>"/>
+	<entry name="uwu_RogalDornTankCommander_Autocannon" value="<string name='Weapons/Autocannon'/>"/>
+	<entry name="uwu_RogalDornTankCommander_AutocannonFlavor" value="<string name='Weapons/AutocannonFlavor'/>"/>
 </language>

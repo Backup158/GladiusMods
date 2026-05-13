@@ -6,4 +6,10 @@
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink" value="Equipped Twin Battle Cannon"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkDescription" value="t t t TWO ccannons... oh my......"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkFlavor" value="&quot;When you can't even say... MY NAME!&quot;"/>
+	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutOppressor" value="Requires Oppressor Cannon Loadout"/>
+	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutOppressorDescription" value="You're not supposed to see this"/>
+	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutOppressorFlavor" value="&quot;meow meow meow meow AAACK&quot;"/>
+	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutTwink" value="Requires Twin Battle Cannon Loadout"/>
+	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutTwinkDescription" value="You're not supposed to see this"/>
+	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutTwinkFlavor" value="&quot;meow meow meow meow AAACK&quot;"/>
 </language>

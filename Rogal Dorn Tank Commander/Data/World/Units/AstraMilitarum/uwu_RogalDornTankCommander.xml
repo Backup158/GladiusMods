@@ -13,46 +13,26 @@
 	<weapons>
 		<!-- Main weapon -->
 		<!-- 	Oppressor -->
-		<weapon name="OppressorCannon" enabled="0">
+		<weapon name="uwu_RogalDornTankCommander_OppressorCannon" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle1" fireDelay="1.19"/>
 			</model>
-			<conditions>
-				<unit>
-					<trait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressor"/>
-				</unit>
-			</conditions>
 		</weapon>
-		<weapon name="Autocannon" enabled="0">
+		<weapon name="uwu_RogalDornTankCommander_Autocannon" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle2"/>
 			</model>
-			<conditions>
-				<unit>
-					<trait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressor"/>
-				</unit>
-			</conditions>
 		</weapon>
 		<!-- 	Twink -->
 		<weapon name="uwu_RogalDornTankCommander_TwinkCannon" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle1" fireDelay="1.19"/>
 			</model>
-			<conditions>
-				<unit>
-					<trait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink"/>
-				</unit>
-			</conditions>
 		</weapon>
 		<weapon name="uwu_RogalDornTankCommander_TwinkDummy" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle2"/>
 			</model>
-			<conditions>
-				<unit>
-					<trait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink"/>
-				</unit>
-			</conditions>
 		</weapon>
 		<!-- Secondary -->
 		<weapon name="CastigatorGatlingCannon">
