@@ -1,0 +1,21 @@
+Adds a Rogal Dorn Tank Commander Hero to the Astra Militarum. 
+
+[h1]Overview[/h1]
+It's a Rogal Dorn Battle Tank (RDBT) with Tank Commander abilities.
+Typically, RDBTs in Gladius have 1 Oppressor Cannon, 1 Autocannon, and 1 Castigator Gatling Cannon, with an additional Heavy Bolter after research. The RD Commander can swap out the Oppressor Cannon and Autocannon for a Twin Battle Cannon, which is the typical Battle Cannon from the Leman Russ Battle Tank but [i]Twin-linked[/i].
+
+[h2]Units and Unlocks[/h2]
+[table]
+[tr][th]Research[/th][th]Unlock[/th][/tr]
+[tr] [td]T3 [b]Tank Commander[/b]
+T8 [b]Rogal Dorn Battle Tank[/b][/td]
+[td][b]Rogal Dorn Tank Commander[/b] - Rogal Dorn with Tank Commander abilities. Main weapon must be chosen.[/td]
+[/tr]
+[tr] [td]T8 [b]Additional Heavy Bolters[/b][/td]
+[td][b]Rogal Dorn Tank Commander[/b] gets another Heavy Bolter.[/td]
+[/tr]
+[/table]
+
+[h1]Further details[/h1]
+Firepower Pack DLC, [b]Hard Requirement[/b]: Rogal Dorn Battle Tank research.
+[h2]Lore and Inspiration[/h2]

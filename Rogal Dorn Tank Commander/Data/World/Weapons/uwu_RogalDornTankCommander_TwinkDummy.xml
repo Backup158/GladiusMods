@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon visible="0" icon="Weapons/uwu_RogalDornTankCommander_TwinkCannon">
+	<model>
+		<projectileWeapon fireInterval="1.0"
+				fireSound="Weapons/BattleCannon"
+				fireSoundCount="3"
+				muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="0"/>
+				<rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+				<rangedDamage add="0"/> <!-- %rangedDamage add strength=8 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="3"/>
+	<traits>
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="ChaosSpaceMarines/BlastDamage" requiredUpgrade="ChaosSpaceMarines/BlastDamage"/>
+		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+		<trait name="LargeBlast"/>
+		<trait name="Ordnance"/>
+		<!-- Twink -->
+		<trait name="TwinLinked"/>
+	</traits>
+</weapon>

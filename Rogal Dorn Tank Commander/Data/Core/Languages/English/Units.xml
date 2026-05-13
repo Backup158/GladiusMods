@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander" value="Rogal Dorn Tank Commander"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommanderDescription" value="<string name='Units/AstraMilitarum/TankCommanderDescription'/> Main weapons must be chosen."/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommanderFlavor" value="<string name='Units/AstraMilitarum/TankCommanderFlavor'/>"/>
+</language>

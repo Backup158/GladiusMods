@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressor" value="Equipped Oppressor Cannon"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressorDescription" value="You're not supposed to see this"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressorFlavor" value="&quot;meow meow meow meow AAACK&quot;"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink" value="Equipped Twin Battle Cannon"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkDescription" value="t t t TWO ccannons... oh my......"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkFlavor" value="&quot;When you can't even say... MY NAME!&quot;"/>
+</language>

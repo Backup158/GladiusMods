@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="uwu_RogalDornTankCommander_TwinkCannon" value="Twin Battle Cannon"/>
+	<entry name="uwu_RogalDornTankCommander_TwinkCannonFlavor" value="<string name='Weapons/BattleCannonFlavor'/>"/>
+	<entry name="uwu_RogalDornTankCommander_TwinkDummy" value="Twin Battle Cannon (Visual only)"/>
+	<entry name="uwu_RogalDornTankCommander_TwinkDummyFlavor" value="<string name='Weapons/BattleCannonFlavor'/>"/>
+</language>
