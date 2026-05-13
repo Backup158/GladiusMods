@@ -162,7 +162,7 @@
 				requiredActionPoints="0"
 				consumedActionPoints="0" consumedMovement="0"
 				useConditionsForVisiblity="1"
-				icon="Weapons/uwu_RogalDornTankCommander_TwinkCannon">
+				icon="Weapons/OppressorCannon">
 			<model>
 				<action sound="Actions/Reload"/>
 			</model>
