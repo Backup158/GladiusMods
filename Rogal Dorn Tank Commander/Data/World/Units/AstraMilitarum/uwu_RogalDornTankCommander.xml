@@ -13,23 +13,23 @@
 	<weapons>
 		<!-- Main weapon -->
 		<!-- 	Oppressor -->
-		<weapon name="uwu_RogalDornTankCommander_OppressorCannon" enabled="0">
+		<weapon name="uwu_RogalDornTankCommander_OppressorCannon">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle1" fireDelay="1.19"/>
 			</model>
 		</weapon>
-		<weapon name="uwu_RogalDornTankCommander_Autocannon" enabled="0">
+		<weapon name="uwu_RogalDornTankCommander_Autocannon">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle2"/>
 			</model>
 		</weapon>
 		<!-- 	Twink -->
-		<weapon name="uwu_RogalDornTankCommander_TwinkCannon" enabled="0">
+		<weapon name="uwu_RogalDornTankCommander_TwinkCannon">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle1" fireDelay="1.19"/>
 			</model>
 		</weapon>
-		<weapon name="uwu_RogalDornTankCommander_TwinkDummy" enabled="0">
+		<weapon name="uwu_RogalDornTankCommander_TwinkDummy">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle2"/>
 			</model>
