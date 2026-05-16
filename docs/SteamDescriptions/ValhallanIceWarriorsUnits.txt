@@ -76,4 +76,15 @@ These dogs are not temporary.
 [td]T8 [b]Hammer of Wrath[/b][/td][td][b]Valhallan Veteran Frontoviki[/b] - Elite infantry unit armed with bayonets, melta bombs, and anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving.
 [/td]
 [/tr]
+[tr][td]T9: Substructure Supply Tunnels[/td][td]
+[b]Commander Kubrik Chenkov[/b] - Hero who sends hordes of infantry at the enemy.
+[u]Drown Them in Blood[/u]: Allied infantry in [1, 3] tiles gain [i]Drown Them in Blood[/i] ([5, 15]% RDR, -[17, 50]% morale loss factor). When they die, adjacent troops with [i]Drown Them in Blood[/i] gain [i]Avenge Your Comrades[/i] (+[5, 15]% damage, +[5, 15]% melee attacks). This ability unlocks [u]Deploy Valhallan Guardsmen[/u].
+[u]Tighten the Noose[/u]: Allied infantry within [2, 4] tiles gain [5, 17]% RDR and, upon attacking an enemy, give them [i]Locked in Battle[/i] (+[17, 50]% damage taken from [i]Barrage[/i] weapons). This ability unlocks [u]Earthshaker Bombardment[/u]: Target an allied unit 3 tiles away. It and adjacent units, are struck by two volleys from Earthshaker Cannons.
+[u]Chenkov's Inspiration[/u]: More brutal [u]Summary Execution[/u]. In addition to granting morale, allies gain +[11, 44]% ranged attacks and +[17, 67]% melee attacks, but the execution kills 3 members instead of 1. Unlocked by default but can be upgraded further.
+Elite: [u]Deploy Thunder Wolves[/u]
+[b]Valhallan Thunder Wolves[/b]: Guardsmen with 12 group members and increased damage against Fortifications.
+[/td][/tr][tr][td]T10: Baneblade[/td][td]
+[b]The Red Hammer of the Emperor[/b] - Banehammer hero with devastating firepower and disregard for allied lives.
+[u]Get 
+[/td][/tr]
 [/table]
