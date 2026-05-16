@@ -40,7 +40,7 @@ Unlocks Melta Bomb related abilities.
 [/td][/tr][tr][td]T8: Hammer of Wrath[/td][td]
 [b]Valhallan Veteran Frontoviki[/b] - Elite infantry unit armed with bayonets, melta bombs, and anti-tank rifles. Resists damage when adjacent to allies and can use Rapid Fire at all ranges when not moving.
 [/td][/tr][tr][td]T9: Substructure Supply Tunnels[/td][td]
-[b]Commander Kubrik Chenkov[/b] - Hero who sends hordes of infantry at the enemy.
+[b]Commander Kubrik Chenkov[/b] - Hero who spawns and supports hordes of infantry at the enemy.
 [/td][/tr][tr][td]T10: Baneblade[/td][td]
 [b]The Red Hammer of the Emperor[/b] - Banehammer hero with devastating firepower and disregard for allied lives.
 [/td][/tr]
