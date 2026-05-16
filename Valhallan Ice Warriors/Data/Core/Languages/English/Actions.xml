@@ -77,7 +77,7 @@
     <entry name="AstraMilitarum/LoadExtraAmmoDescription" value="<string name='Traits/AstraMilitarum/LoadExtraAmmoDescription'/>"/>
     <entry name="AstraMilitarum/LoadExtraAmmoFlavor" value="There are times when killing the enemy is more important than surviving. Even old machines can be equipped with additional weapons and ammo when long-term performance and speed are of little concern."/>
     <!-- The Red Hammer of the Emperor -->
-    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute" value="Get Out of the Way"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Execute" value="Break a Few Eggs"/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteDescription" value="Execute members of an allied infantry squad to restore morale of allies and to increase this unit's movement and damage."/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteFlavor" value="When The Red Hammer has a target in its sights, nobody can stand in its way, especially not some meager guardsmen. With cracks of the bolter, the super-heavy's engines roar as it speeds towards the foe."/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer" value="Hammer and Anvil"/>
