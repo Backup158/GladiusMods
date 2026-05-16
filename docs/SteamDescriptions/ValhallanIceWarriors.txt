@@ -13,22 +13,22 @@ While they rarely retreat, losing comrades significantly reduces their combat ef
 [table]
 [tr][th]Research Requirement[/th][th]Units Added[/th][/tr]
 [tr][td]T0[/td][td]
-[b]Valhallan Guardsmen[/b] - Light infantry unit that specialises in defending cities and in mass infantry assaults. Has [i]Massed Infantry[/i].
+[b]Valhallan Guardsmen[/b] - Light infantry unit specialised in defending cities and in mass infantry assaults. Has [i]Massed Infantry[/i] ([i]MI[/i]).
 [/td][/tr][tr][td]T1: Ratling[/td][td]
-[b]Valhallan Sharpshooters[/b] - Sniper infantry unit that specialises in urban warfare, armed with high-power longlases.
+[b]Valhallan Sharpshooters[/b] - Sniper infantry unit specialised in urban warfare, armed with high-power longlases.
 [/td][/tr][tr][td]T1: Shrine of the Aquila[/td][td]
 [b]Valhallan Commissar[/b] - Hero unit that provides passive bonuses to nearby allied units, with increased bonuses for Valhallans. Buff radius is increased on upgrade. On top of executing Guardsmen, they can deploy units that maintain morale.
 [/td][/tr][tr][td]T1: Vox-Caster[/td][td]
-[b]Valhallan Conscripts[/b] - Weak, cheap infantry unit available in great numbers, whose deaths do not affect allied morale. Unit must pay Ore to use grenades and misbehaves when away from Commissars. Has [i]Massed Infantry[/i].
+[b]Valhallan Conscripts[/b] - Weak, cheap infantry unit available in great numbers, whose deaths do not affect allied morale. Unit must pay Ore to use grenades and misbehaves when away from Commissars. [i]MI[/i]
 [/td][/tr][tr][td]T2: Heavy Weapons Squad[/td][td]
-[b]Valhallan Anti-Tank Rifle Squad[/b] - Infantry unit armed with semi-automatic anti-tank rifles. Has [i]Massed Infantry[/i].
-[b]Valhallan Heavy Stubber Squad[/b] - Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. Has [i]Massed Infantry[/i].
+[b]Valhallan Anti-Tank Rifle Squad[/b] - Infantry unit armed with semi-automatic anti-tank rifles. [i]MI[/i]
+[b]Valhallan Heavy Stubber Squad[/b] - Infantry unit armed with heavy machine guns, which can be configured to shoot down airborne foes. [i]MI[/i]
 [/td][/tr][tr][td]T2: Hab Block[/td][td]
-[b]Valhallan Flame Troopers[/b] - Light infantry unit armed with flamers. Has [i]Massed Infantry[/i].
+[b]Valhallan Flame Troopers[/b] - Light infantry unit armed with flamers. [i]MI[/i]
 [/td][/tr][tr][td]T3: Field Ordnance Batteries[/td][td]
-[b]Valhallan Mortar Team[/b] - Infantry unit armed with versatile artillery. Has [i]Massed Infantry[/i].
+[b]Valhallan Mortar Team[/b] - Infantry unit armed with versatile artillery. [i]MI[/i]
 [/td][/tr][tr][td]T3: Agronomic Surge[/td][td]
-[b]Valhallan Hound Masters[/b] - Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. Has [i]Massed Infantry[/i].
+[b]Valhallan Hound Masters[/b] - Light infantry unit that can spawn dogs, which can be specialised as scouts or as anti-armour suicide bombers. [i]MI[/i]
 [/td][/tr][tr][td]T4: Substructure Expansion[/td][td]
 [b]Valhallan Marshal[/b] - Hero unit that provides buffs to allied infantry on the defence, with increased bonuses for Valhallans.
 [/td][/tr][tr][td]T4: Tempestus Scion[/td][td]
