@@ -439,4 +439,15 @@
 		<!-- Commander -->
 		<trait name="Hero"/>
 	</traits>
+	<!-- Too Many Voices integration -->
+	<responses>
+		<action name="FullThrottle" sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Ability_FullThrottle" soundCount="1"/>
+		<action name="RollOverThem" sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Ability_RollOver" soundCount="1"/>
+		<action name="StrikeAndShroud" sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Ability_Smoke" soundCount="1"/>
+		<action name="GunnersKillOnSight" sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Ability_KillOnSight" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Attack" soundCount="8"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Move" soundCount="8"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Select" soundCount="4"/>
+		<productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Heroes/TankCommander_Complete" soundCount="1"/>
+	</responses>
 </unit>
