@@ -389,7 +389,7 @@
 				</modifier>
 			</modifiers>
 		</useWeapon>
-		<strikeAndShroud cooldownMin="5"
+		<genericUnitAbility cooldownMin="5"
 				cooldownMax="5"
 				elite="1"
 				levelUpPriority="1"
@@ -397,6 +397,8 @@
 				rankMax="0"
 				requiredActionPoints="0"
 				consumedActionPoints="0" consumedMovement="0"
+				name="StrikeAndShroud"
+				icon="Actions/StrikeAndShroud"
 				shoutString="Actions/StrikeAndShroud">
 			<model>
 				<!-- animation="Units/AstraMilitarum/TankCommanderAbility"
@@ -425,7 +427,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</strikeAndShroud>
+		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
 	</actions>
