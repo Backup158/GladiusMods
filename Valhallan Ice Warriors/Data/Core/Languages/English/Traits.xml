@@ -101,7 +101,7 @@
     <!-- <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteDescription" value=""/> -->
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_ExecuteFlavor'/>"/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer'/>"/>
-    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerDescription" value="Enemies attacked by this unit then take extra damage from infantry."/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerDescription" value="Enemy troops attacked by this unit then take extra damage from infantry."/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerFlavor" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_HammerFlavor'/>"/>
     <entry name="uwu_ValhallanIceWarriors_Banehammer_HammerEnemy" value="<string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer_Hammer'/>"/>
     <entry name="uwu_ValhallanIceWarriors_Banehammer_HammerEnemyDescription" value="Unit takes extra damage from enemy infantry."/>
