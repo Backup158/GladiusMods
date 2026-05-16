@@ -84,7 +84,10 @@ These dogs are not temporary.
 Elite: [u]Deploy Thunder Wolves[/u]
 [b]Valhallan Thunder Wolves[/b]: Guardsmen with 12 group members and increased damage against Fortifications.
 [/td][/tr][tr][td]T10: Baneblade[/td][td]
-[b]The Red Hammer of the Emperor[/b] - Banehammer hero with devastating firepower and disregard for allied lives.
-[u]Get 
+[b]The Red Hammer of the Emperor[/b] - Banehammer hero with devastating firepower and disregard for allied lives. Armed with a Tremor Cannon, which concusses enemies, destroys cover, and generates a slowdown hazard.
+[u]Break a Few Eggs[/u]: Kills 4 members of an allied infantry squad to gain +1 movement and +[11, 33]% damge. Allies within 3 tiles restore [2, 6] morale.
+[u]Hammer and Anvil[/u]: Enemy troops attacked by this unit take +[11, 33]% damage from infantry for [1, 3] turns.
+[u]Until Your Last Dying Breath[/u]: If outnumbered within 2 tiles, gain +[5, 15]% attacks. For every 20% HP missing, gain more attacks, starting from +[5, 10]% at 80% hp. There's too many numbers to explain this easily; just know hurt = kill more lol.
+Elite: [u]All Guns Blazing[/u]: Adjacent units lose 4 HP. The Banehammer gains +10% attacks. 3 turn CD.
 [/td][/tr]
 [/table]
