@@ -31,7 +31,7 @@
 		</weapon>
 		<weapon name="uwu_RogalDornTankCommander_TwinkDummy">
 			<model>
-				<projectileWeapon muzzleBone="Muzzle2"/>
+				<projectileWeapon muzzleBone="Muzzle2" fireDelay="1.19"/>
 			</model>
 		</weapon>
 		<!-- Secondary -->

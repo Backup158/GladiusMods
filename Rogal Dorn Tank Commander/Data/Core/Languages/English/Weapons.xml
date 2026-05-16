@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="uwu_RogalDornTankCommander_TwinkCannon" value="Twin Battle Cannon"/>
+	<entry name="uwu_RogalDornTankCommander_TwinkCannon" value="Twin Battle Cannon (Right)"/>
 	<entry name="uwu_RogalDornTankCommander_TwinkCannonFlavor" value="<string name='Weapons/BattleCannonFlavor'/>"/>
-	<entry name="uwu_RogalDornTankCommander_TwinkDummy" value="Twin Battle Cannon (Visual only)"/>
+	<entry name="uwu_RogalDornTankCommander_TwinkDummy" value="Twin Battle Cannon (Left)"/>
 	<entry name="uwu_RogalDornTankCommander_TwinkDummyFlavor" value="<string name='Weapons/BattleCannonFlavor'/>"/>
 	<entry name="uwu_RogalDornTankCommander_OppressorCannon" value="<string name='Weapons/OppressorCannon'/>"/>
 	<entry name="uwu_RogalDornTankCommander_OppressorCannonFlavor" value="<string name='Weapons/OppressorCannonFlavor'/>"/>
