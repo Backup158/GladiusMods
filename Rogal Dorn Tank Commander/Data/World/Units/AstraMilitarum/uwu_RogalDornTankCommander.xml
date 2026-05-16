@@ -289,6 +289,7 @@
 		</genericUnitAbility>
 		<!-- Upgradables -->
 		<fullThrottle cooldown="3"
+				levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
@@ -324,12 +325,14 @@
 				</selfTarget>
 			</beginTargets>
 		</fullThrottle>
-		<gunnersKillOnSight	cooldown="3"
+		<genericUnitAbility	cooldown="3"
 				levelUpPriority="0.15"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
 				consumedActionPoints="0" consumedMovement="0"
+				name="GunnersKillOnSight"
+				icon="Actions/GunnersKillOnSight"
 				shoutString="Actions/GunnersKillOnSight">
 			<model>
 				<!-- animation="Units/AstraMilitarum/TankCommanderAbility"
@@ -358,9 +361,9 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</gunnersKillOnSight>
+		</genericUnitAbility>
 		<rollOverThem cooldown="3"
-				levelUpPriority="0.1"
+				levelUpPriority="0.05"
 				rank="-1"
 				rankMax="2"
 				shoutString="Actions/RollOverThem"
