@@ -51,7 +51,7 @@
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsman" value="Deploy Valhallan Guardsmen"/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsmanDescription" value="Spawns a unit of Valhallan Guardsmen."/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_DeployGuardsmanFlavor" value="<string name='Units/AstraMilitarum/ValhallanGuardsmanFlavor'/>"/>
-    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Stall" value="Hold Them Down"/>
+    <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_Stall" value="Tighten the Noose"/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallDescription" value="Nearby allied infantry become more resilient and, upon attacking adjacent enemy troops, restrict their movement and make them more vulnerable to artillery. Allows usage of <string name='Actions/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage'/>"/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallFlavor" value="One of Chenkov's signature tactics is to swarm the enemy with infantry, pinning them until artillery bombards the area, slaughtering all involved parties."/>
     <entry name="AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov_StallBarrage" value="Earthshaker Bombardment"/>
