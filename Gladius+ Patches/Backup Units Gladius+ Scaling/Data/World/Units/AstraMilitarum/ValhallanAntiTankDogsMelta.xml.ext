@@ -3,7 +3,7 @@
 	<model>
 		<unit mesh="Units/AstraMilitarum/uwu_Valhallan_AntiTankDogs"
 				material="Units/Neutral/KrootHound"
-				scale="0.61 0.61 0.61"
+				scale="0.9150 0.9150 0.9150"
 				idleAnimation="Units/Neutral/KrootHoundIdle"
 				idleAnimationCount="4"
 				idleContinuously="1"

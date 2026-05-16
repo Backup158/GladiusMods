@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/AstraMilitarum/Deathstrike"
+				material="Units/AstraMilitarum/Deathstrike"
+				idleAnimation="Units/AstraMilitarum/DeathstrikeIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="0.6675 0.6675 0.6675"
+				explosionsBone="Hull_Shake"
+				uvAnimated="1"/>
+	</model>
+</unit>

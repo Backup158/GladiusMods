@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/Baneblade"
-				material="Units/AstraMilitarum/FortressOfArrogance"
+		<unit mesh="Units/AstraMilitarum/uwu_ValhallanIceWarriors_Banehammer"
+				material="Units/AstraMilitarum/Baneblade"
 				idleAnimation="Units/AstraMilitarum/BanebladeIdle"
 				idleAnimationCount="3"
 				scale="1.9338 1.9338 1.9338"
 				explosionsBone="Hull"
 				uvAnimated="1"/>
 	</model>
-	
 </unit>

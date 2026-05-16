@@ -6,7 +6,7 @@
 				idleAnimation="Units/AstraMilitarum/ChimeraIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
-				scale="1.2 1.2 1.1"
+				scale="2.1500 2.1500 2.1500"
 				explosionsBone="Bone"
 				uvAnimated="1"/>
 	</model>

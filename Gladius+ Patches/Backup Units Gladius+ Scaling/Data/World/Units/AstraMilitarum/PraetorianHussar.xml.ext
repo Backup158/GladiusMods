@@ -3,7 +3,7 @@
 	<model>
 		<unit mesh="Units/AstraMilitarum/uwu_PraetorianGuard_Hussar"
 				material="Units/AstraMilitarum/AttilanRoughRider"
-				scale="0.41 0.41 0.41"
+				scale="0.6150 0.6150 0.6150"
 				idleAnimation="Units/AstraMilitarum/AttilanRoughRiderIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"

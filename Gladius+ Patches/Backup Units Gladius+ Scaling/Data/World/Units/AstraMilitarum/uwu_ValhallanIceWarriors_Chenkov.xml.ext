@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/AstraMilitarum/Guardsman"
-				material="Units/AstraMilitarum/Guardsman"
-				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
+		<unit mesh="Units/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov"
+				material="Units/AstraMilitarum/uwu_ValhallanIceWarriors_Chenkov"
+				idleAnimation="Units/AstraMilitarum/LordCommissarIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>		
-		<unit mesh="Units/AstraMilitarum/ArmageddonBasilisk"
-				material="Units/AstraMilitarum/ArmageddonBasilisk"
+		<unit mesh="Units/AstraMilitarum/Basilisk"
+				material="Units/AstraMilitarum/Basilisk"
 				idleAnimation="Units/AstraMilitarum/BasiliskIdle"
 				idleAnimationCount="2"
 				scale="1.1821 1.1821 1.1821"

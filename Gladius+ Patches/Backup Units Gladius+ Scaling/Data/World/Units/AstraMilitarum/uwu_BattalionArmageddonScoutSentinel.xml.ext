@@ -6,7 +6,7 @@
 				idleAnimation="Units/AstraMilitarum/ScoutSentinelIdle"
 				idleAnimationCount="2"
 				normalWeight="0.1"
-				scale="0.52 0.52 0.52"
+				scale="0.7800 0.7800 0.7800"
 				syncMovementSounds="1"
 				explosionsBone="HullBone"
 				walker="1"/>
