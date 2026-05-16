@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon>
+	<model>
+		<projectileWeapon fireInterval="1.0"
+				fireSound="Weapons/DemolisherCannon"
+				fireSoundCount="3"
+				muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes"/>
+	</model>	
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/> <!-- D6 vs D6+3 of Demolisher. Demolisher is 1x attacks. I don't care -->
+				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="8"/> <!-- Demolisher is 12, with 14 S, D6 D; Pulveriser is 9 S, 3 D | %rangedDamage add strength=10 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="2"/>
+	<traits>
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+		<trait name="LargeBlast"/>
+		<trait name="Ordnance"/>
+		<!-- Need RD Commander trait -->
+		<trait name="uwu_RogalDornTankCommander_RequireLoadout_SecondaryPulveriser"/>
+	</traits>
+</weapon>

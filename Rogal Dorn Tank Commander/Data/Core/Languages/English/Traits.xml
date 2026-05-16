@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+	<!-- Primary Weapon -->
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressor" value="Equipped Oppressor Cannon"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressorDescription" value="You're not supposed to see this"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressorFlavor" value="&quot;meow meow meow meow AAACK&quot;"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink" value="Equipped Twin Battle Cannon"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkDescription" value="t t t TWO ccannons... oh my......"/>
-	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkFlavor" value="&quot;When you can't even say... MY NAME!&quot;"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkFlavor" value="&quot;need a two in a hole heretic&quot;"/>
 	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutOppressor" value="Requires Oppressor Cannon Loadout"/>
 	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutOppressorDescription" value="You're not supposed to see this"/>
 	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutOppressorFlavor" value="&quot;meow meow meow meow AAACK&quot;"/>
 	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutTwink" value="Requires Twin Battle Cannon Loadout"/>
 	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutTwinkDescription" value="You're not supposed to see this"/>
 	<entry name="uwu_RogalDornTankCommander_NeedsLoadoutTwinkFlavor" value="&quot;meow meow meow meow AAACK&quot;"/>
+	<!-- Secondary Weapon -->
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateCastigator" value="Equipped Castigator Gatling Cannon"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateCastigatorDescription" value="You're not supposed to see this"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateCastigatorFlavor" value="&quot;brrt brrrt BRRRTT AAAAAAAH ONE MAN BUKKAKE&quot;"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivatePulveriser" value="Equipped Pulveriser Cannon"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivatePulveriserDescription" value="size matters not"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivatePulveriserFlavor" value="&quot;cold day eh&quot;"/>
+	<entry name="uwu_RogalDornTankCommander_RequireLoadout_SecondaryCastigator" value="Requires Castigator Gatling Cannon Loadout"/>
+	<entry name="uwu_RogalDornTankCommander_RequireLoadout_SecondaryCastigatorDescription" value="You're not supposed to see this"/>
+	<entry name="uwu_RogalDornTankCommander_RequireLoadout_SecondaryCastigatorFlavor" value="&quot;splishsplashsplishsplash&quot;"/>
+	<entry name="uwu_RogalDornTankCommander_RequireLoadout_SecondaryPulveriser" value="Requires Pulveriser Cannon Loadout"/>
+	<entry name="uwu_RogalDornTankCommander_RequireLoadout_SecondaryPulveriserDescription" value="You're not supposed to see this"/>
+	<entry name="uwu_RogalDornTankCommander_RequireLoadout_SecondaryPulveriserFlavor" value="&quot;oh pulverise me lord commander&quot;"/>
 </language>

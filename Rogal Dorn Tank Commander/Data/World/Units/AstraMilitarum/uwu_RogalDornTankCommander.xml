@@ -35,7 +35,14 @@
 			</model>
 		</weapon>
 		<!-- Secondary -->
-		<weapon name="CastigatorGatlingCannon">
+		<!-- 	Castigator Gatling -->
+		<weapon name="uwu_RogalDornTankCommander_CastigatorGatlingCannon">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle0"/>
+			</model>
+		</weapon>
+		<!-- 	Pulveriser Cannon -->
+		<weapon name="uwu_RogalDornTankCommander_PulveriserCannon">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle0"/>
 			</model>
@@ -158,6 +165,7 @@
 		</useWeapon>
 		<!-- Commander abilities -->
 		<!-- Choose weapon loadout -->
+		<!-- 	Primary -->
 		<genericUnitAbility name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressor"
 				requiredActionPoints="0"
 				consumedActionPoints="0" consumedMovement="0"
@@ -210,6 +218,67 @@
 								<modifier>
 									<effects>
 										<addTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- 	Secondary -->
+		<genericUnitAbility name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryCastigator"
+				requiredActionPoints="0"
+				consumedActionPoints="0" consumedMovement="0"
+				useConditionsForVisiblity="1"
+				icon="Weapons/CastigatorGatlingCannon">
+			<model>
+				<action sound="Actions/Reload"/>
+			</model>
+			<conditions>
+				<unit>
+					<noTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryCastigator"/>
+					<noTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryPulveriser"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryCastigator"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryPulveriser"
+				requiredActionPoints="0"
+				consumedActionPoints="0" consumedMovement="0"
+				useConditionsForVisiblity="1"
+				icon="Weapons/uwu_RogalDornTankCommander_PulveriserCannon">
+			<model>
+				<action sound="Actions/Reload"/>
+			</model>
+			<conditions>
+				<unit>
+					<noTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryCastigator"/>
+					<noTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryPulveriser"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateSecondaryPulveriser"/>
 									</effects>
 								</modifier>
 							</modifiers>

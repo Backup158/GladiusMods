@@ -8,4 +8,8 @@
 	<entry name="uwu_RogalDornTankCommander_OppressorCannonFlavor" value="<string name='Weapons/OppressorCannonFlavor'/>"/>
 	<entry name="uwu_RogalDornTankCommander_Autocannon" value="<string name='Weapons/Autocannon'/>"/>
 	<entry name="uwu_RogalDornTankCommander_AutocannonFlavor" value="<string name='Weapons/AutocannonFlavor'/>"/>
+	<entry name="uwu_RogalDornTankCommander_CastigatorGatlingCannon" value="<string name='Weapons/CastigatorGatlingCannon'/>"/>
+	<entry name="uwu_RogalDornTankCommander_CastigatorGatlingCannonFlavor" value="<string name='Weapons/CastigatorGatlingCannonFlavor'/>"/>
+	<entry name="uwu_RogalDornTankCommander_PulveriserCannon" value="Pulveriser Cannon"/>
+	<entry name="uwu_RogalDornTankCommander_PulveriserCannonFlavor" value="Short ranged but deadly, the pulveriser cannon trades reach for power. While smaller than the demolisher siege cannon, its reduced firepower is more than enough to punch through typical tanks."/>
 </language>
