@@ -96,6 +96,9 @@
 				<influenceCost base="120.0"/> <!-- TC is 120 | %influenceCost base tier=8 factor=1.5 -->
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
+				<meleeAccuracy base="12"/> <!-- melee stats are for roll over them | %meleeAccuracy base weaponSkill=6 -->
+				<meleeAttacks base="3"/>
+				<strengthDamage base="5"/> <!-- leman russ tank commander is 4 | %strengthDamage base strength=7 -->
 				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
 				<movementMax base="3"/>
 				<oreUpkeep base="8.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
@@ -364,10 +367,12 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<rollOverThem cooldown="3"
+		<useWeapon cooldown="3"
 				levelUpPriority="0.05"
 				rank="-1"
 				rankMax="2"
+				name="RollOverThem"
+				icon="Weapons/RollOverThem"
 				shoutString="Actions/RollOverThem"
 				weaponSlotName="RollOverThem">
 			<model>
@@ -383,7 +388,7 @@
 					</effects>
 				</modifier>
 			</modifiers>
-		</rollOverThem>
+		</useWeapon>
 		<strikeAndShroud cooldownMin="5"
 				cooldownMax="5"
 				elite="1"
