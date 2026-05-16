@@ -2,20 +2,40 @@ Adds a Rogal Dorn Tank Commander Hero to the Astra Militarum.
 
 [h1]Overview[/h1]
 It's a Rogal Dorn Battle Tank (RDBT) with Tank Commander abilities.
-Typically, RDBTs in Gladius have 1 Oppressor Cannon, 1 Autocannon, and 1 Castigator Gatling Cannon, with an additional Heavy Bolter after research. The RD Commander can swap out the Oppressor Cannon and Autocannon for a Twin Battle Cannon, which is the typical Battle Cannon from the Leman Russ Battle Tank but [i]Twin-linked[/i].
+Typically, RDBTs in Gladius have 1 Oppressor Cannon, 1 Autocannon, and 1 Castigator Gatling Cannon, with an additional Heavy Bolter after research. The RD Commander can choose to equip alternative weapons. 
+> For the primary weapon, the Oppressor Cannon and Autocannon can be swapped for a Twin Battle Cannon, which is the typical Battle Cannon from the Leman Russ Battle Tank but [i]Twin-linked[/i], which is more effective against infantry.
+> For the secondary weapon, the Castigator Gatling Cannon can be swapped for a Pulveriser Cannon, which is like a weaker Demolisher Cannon from the Baneblade, giving it greater anti-armour capabilities.
 
 [h2]Units and Unlocks[/h2]
 [table]
 [tr][th]Research[/th][th]Unlock[/th][/tr]
-[tr] [td]T3 [b]Tank Commander[/b]
+[tr] [td]T3 [b]Tank Commander[/b] AND
 T8 [b]Rogal Dorn Battle Tank[/b][/td]
 [td][b]Rogal Dorn Tank Commander[/b] - Rogal Dorn with Tank Commander abilities. Main weapon must be chosen.[/td]
 [/tr]
 [tr] [td]T8 [b]Additional Heavy Bolters[/b][/td]
-[td][b]Rogal Dorn Tank Commander[/b] gets another Heavy Bolter.[/td]
+[td][b]Rogal Dorn Tank Commander[/b] gets 2 additional Heavy Bolter, similar to the RDBT.[/td]
 [/tr]
 [/table]
 
 [h1]Further details[/h1]
 Firepower Pack DLC, [b]Hard Requirement[/b]: Rogal Dorn Battle Tank research.
-[h2]Lore and Inspiration[/h2]
+
+[h2]Mod Support[/h2]
+[table]
+[tr][th]
+Mod Name
+[/th][th]
+Comments
+[/th][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1918454158]Too Many Voices[/url] [Integrated]
+[/td][td]
+Load order shouldn't matter but I have this above it.
+[/td][/tr]
+[tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851306078]Gladius+[/url]
+[/td][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693804213]Patch link[/url]
+[/td][/tr]
+[/table]
