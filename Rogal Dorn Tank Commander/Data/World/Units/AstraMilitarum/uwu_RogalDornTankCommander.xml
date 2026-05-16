@@ -288,13 +288,15 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Upgradables -->
-		<fullThrottle cooldown="3"
+		<genericUnitAbility cooldown="3"
 				levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
+				name="FullThrottle"
+				icon="Actions/FullThrottle"
 				shoutString="Actions/FullThrottle">
 			<model>
 				<!-- animation="Units/AstraMilitarum/TankCommanderAbility"
@@ -324,7 +326,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</fullThrottle>
+		</genericUnitAbility>
 		<genericUnitAbility	cooldown="3"
 				levelUpPriority="0.15"
 				rank="-1"
