@@ -343,7 +343,7 @@
 				<!-- animation="Units/AstraMilitarum/TankCommanderAbility"
 						bone="Bone016"
 						-->
-				<action sound="Actions/AstraMilitarumBuff"/>
+				<action sound="Actions/DrawSwordAndReload"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
@@ -404,7 +404,7 @@
 				<!-- animation="Units/AstraMilitarum/TankCommanderAbility"
 						bone="Bone016"
 						-->
-				<action sound="Actions/AstraMilitarumBuff"/>
+				<action sound="Actions/Smokescreen"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
