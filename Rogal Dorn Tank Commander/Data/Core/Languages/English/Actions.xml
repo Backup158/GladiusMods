@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<!-- Primary Weapon -->
-	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressor" value="Equip Oppressor Cannon"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressor" value="Equip Primary Armament: Oppressor Cannon"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressorDescription" value="The Tank Commander equips an Oppressor Cannon with a coaxial Autocannon as its primary weapons."/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateOppressorFlavor" value="&quot;We will crush them with Imperial steel!&quot;"/>
-	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink" value="Equip Twin Battle Cannon"/>
+	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwink" value="Equip Primary Armament: Twin Battle Cannon"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkDescription" value="The Tank Commander equips a Twin Battle Cannon as its primary weapons"/>
 	<entry name="AstraMilitarum/uwu_RogalDornTankCommander_ActivateTwinkFlavor" value="&quot;When one Battle Cannon isn't enough, use more gun.&quot;"/>
 	<!-- Secondary Weapon -->
