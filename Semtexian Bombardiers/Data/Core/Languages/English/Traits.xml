@@ -13,11 +13,11 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedFlavor" value=""/>
 	<entry name="uwu_SemtexianBombardiers_HighFire" value="Mortar Configuration"/>
-	<entry name="uwu_SemtexianBombardiers_HighFireDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_HighFireFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_HighFireDescription" value="The Howitzer fires indirectly."/>
+	<entry name="uwu_SemtexianBombardiers_HighFireFlavor" value="Howitzers are typically pointed upwards, bombarding the enemy from afar."/>
 	<entry name="uwu_SemtexianBombardiers_LowFire" value="Cannon Configuration"/>
-	<entry name="uwu_SemtexianBombardiers_LowFireDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_LowFireFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_LowFireDescription" value="The Howitzer fires directly, allowing Overwatch but reducing range and requiring line of sight."/>
+	<entry name="uwu_SemtexianBombardiers_LowFireFlavor" value="Howitzers have a secret weapon: versatility. The gun can be lowered to fire directly, as the guns of old."/>
 	<entry name="uwu_SemtexianBombardiers_Weapon_HighFire" value="<string name='Traits/uwu_SemtexianBombardiers_HighFire'/>"/>
 	<entry name="uwu_SemtexianBombardiers_Weapon_HighFireDescription" value="<string name='Traits/uwu_SemtexianBombardiers_HighFireDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_Weapon_HighFireFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_HighFireFlavor'/>"/>
