@@ -10,7 +10,7 @@
 			<effects>
 				<attacks add="1"/>
 				<rangedArmorPenetration add="4"/> <!-- 8 | %rangedArmorPenetration add armorPiercing=1 -->
-				<rangedDamage add="3"/> <!-- 12 | %rangedDamage add strength=10 -->
+				<rangedDamage add="5"/> <!-- 12, 3 dmg is is like 0.5-1 in the late game, because of armor | %rangedDamage add strength=10 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
