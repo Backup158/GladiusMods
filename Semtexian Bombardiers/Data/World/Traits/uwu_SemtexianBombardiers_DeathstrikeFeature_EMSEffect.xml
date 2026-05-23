@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait visible="0"
 		category="Debuff"
-		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileEMS">
+		icon="Actions/Necrons/GravityPulse">
 	<onTraitRemovedModifiers>
 		<modifier>
 			<conditions>
