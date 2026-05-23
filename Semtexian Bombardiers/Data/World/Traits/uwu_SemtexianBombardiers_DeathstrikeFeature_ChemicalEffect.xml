@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Debuff"
-		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileChemical">
+		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeSplashChemical">
 	<modifiers>
 		<modifier>
 			<effects>
