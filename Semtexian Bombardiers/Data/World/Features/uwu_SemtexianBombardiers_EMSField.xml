@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="WireWeed"
-		icon="Traits/uwu_SemtexianBombardiers_DeathstrikeMissileEMS">
+		icon="Actions/Tau/GravityWaveProjector">
 	<model>
 		<smokeScreen blueprint="Effects/uwu_SemtexianBombardiers_EMSCloud"/>
 	</model>
