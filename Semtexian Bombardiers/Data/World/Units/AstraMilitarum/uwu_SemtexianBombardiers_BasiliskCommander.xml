@@ -248,7 +248,7 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Elite: Full Battery -->
-		<gunnersKillOnSight	cooldown="5" levelUpPriority="1"
+		<genericUnitAbility	cooldown="5" levelUpPriority="1"
 				elite="1"
 				levelUpPriority="1"
 				rank="-1"
@@ -281,7 +281,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</gunnersKillOnSight>
+		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
 	</actions>
