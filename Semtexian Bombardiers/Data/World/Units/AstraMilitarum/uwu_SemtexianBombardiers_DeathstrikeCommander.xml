@@ -89,28 +89,6 @@
 						soundCount="3"/>
 			</model>
 		</move>
-		<createSmokeScreen icon="Traits/SmokeScreen"
-				cooldown="10"
-				requiredUpgrade="AstraMilitarum/SmokeLauncher">
-			<model>
-				<action sound="Actions/SmokeScreen"/>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addFeature duration="3" name="SmokeScreen"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</createSmokeScreen>
 		<!-- =========== -->
 		<!-- Weapons -->
 		<!-- =========== -->
@@ -169,6 +147,28 @@
 				<action beginFire="0.1" endFire="1.0"/>
 			</model>
 		</useWeapon>
+		<createSmokeScreen icon="Traits/SmokeScreen"
+				cooldown="10"
+				requiredUpgrade="AstraMilitarum/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
 		<!-- =========== -->
 		<!-- Abilities -->
 		<!-- Filling out a support role -->
