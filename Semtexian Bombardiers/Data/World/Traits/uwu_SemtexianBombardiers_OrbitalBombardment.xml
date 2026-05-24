@@ -13,6 +13,11 @@
 				<unit>
 					<trait name="uwu_SemtexianBombardiers_OrbitalBombardment"/>
 				</unit>
+				<encounter>
+					<opponent>
+						<attacking/>
+					</opponent>
+				</encounter>
 			</conditions>
 			<effects>
 				<removeTrait name="uwu_SemtexianBombardiers_OrbitalBombardment"/>
