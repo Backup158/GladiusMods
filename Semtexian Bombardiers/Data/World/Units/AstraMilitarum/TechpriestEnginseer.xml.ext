@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnCountMax="1" productionWeight="0.01">
+	<actions>
+		<!-- Flak Tower -->
+		<constructImperialStrongpoint name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructFlakTower"
+				icon="Units/AstraMilitarum/uwu_SemtexianBombardiers_FlakTower"
+				requiredUpgrade="AstraMilitarum/ImperialStrongpoint"
+				cooldown="10">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						sound="Actions/Construct"/>
+			</model>
+			<conditions>
+				<player>
+					<upgrade name="AstraMilitarum/Hydra"/>
+				</player>
+			</conditions>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<!-- 40 from Hydra, 40 from Bastion. But it loses the Bolters, and trades min range for max range -->
+						<!-- Costs 50 from Semtexians proper -->
+						<oreCost base="70"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="AstraMilitarum/uwu_SemtexianBombardiers_FlakTower"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructImperialStrongpoint>
+	</actions>
+</unit>
