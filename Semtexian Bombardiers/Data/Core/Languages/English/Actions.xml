@@ -23,7 +23,7 @@
 	<!-- Vehicles -->
 	<!-- ============= -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShell" value="Fire Smoke Shell"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellDescription" value="Fires as smoke shell, creating a cloud of smoke on the targetted tile."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellDescription" value="Fires a smoke shell, creating a cloud of smoke on the targetted tile."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellFlavor" value=""/>
 	<!-- ============= -->
 	<!-- Heroes -->
