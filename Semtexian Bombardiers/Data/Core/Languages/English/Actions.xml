@@ -15,7 +15,7 @@
 	<!-- Engineers -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_Heal" value="Fortification Field Repairs"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealDescription" value="Heals an adjacent damaged allied Fortification."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealFlavor" value="While not as proficient as tech-priests of the Mechanicus, combat engineers have the knowledge to jury-rig repairs for their fortifications, hopefully buying enough time for reinforcements to swoop in."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructFlakTower" value="Construct <string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlakTower'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructFlakTowerDescription" value="Cost of construction is reduced when done by Semtexians. <string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructFlakTowerFlavor" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerFlavor'/>"/>
@@ -24,7 +24,7 @@
 	<!-- ============= -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShell" value="Fire Smoke Shell"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellDescription" value="Fires a smoke shell, creating a cloud of smoke on the targetted tile."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireSmokeShellFlavor" value="Sometimes, simply blowing things up isn't the answer. Sometimes, the most appropriate action is to cover the battlefield in smoke, allowing movement to go undetected. Whether your allies choose to close the gap or make it larger is up to them. Of course, the smoke goes both ways..."/>
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
