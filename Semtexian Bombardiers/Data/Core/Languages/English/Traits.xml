@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian" value="Member of the Semtexian Bombardiers"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SemtexianDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SemtexianFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SemtexianDescription" value="Barrage weapons do increased damage against grounded enemies above 80% HP. Barrage weapons do less damage against grounded enemies below 33% HP. Barrage weapons have increased accuracy agains grounded enemies that are outnumbered within a 1 tile radius. Semtexians take more damage when outnumbered within 2 tiles, or when an enemy is adjacent and the Semtexian is not Guarded."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SemtexianFlavor" value="In the Armageddon System, the mine world of Semtexia was called to produce Guardsmen for the tithe, on top of their mining quotas. Adept with using explosives to blast rocks, the newly-formed Semtexian Bombardiers naturally gravitated to slinging explosives at their foe. Their mastery of artillery is rivalled by few, though specialisation begets vulnerability. The Bombardiers are prone to being overrun and can struggle with finishing off scattered enemies, so they must rely on allied regiments to clean up. Cordiality and professionalism are the hallmarks of their conduct, for souring relations means their distress calls often go unanswered."/>
 	<!-- ============= -->
 	<!-- Infantry -->
 	<!-- ============= -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Guard" value="Guard"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardDescription" value="Greatly increased effectiveness when Overwatching. Increased armor when this unit has not moved."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardFlavor" value="Traditionally, PDF units assigned to escort large amounts of explosives were armed with fused autoguns. The fuses allowed the guards to have their weapons ready, while reducing the risk of lighting the cargo when firing, in contrast with the typically available autoguns. After the Munitorum directed shipments of M36 Lasguns to Semtexia, the naming is only reflective of their history."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Guarded" value="p p p pwotected ^.^"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedDescription" value="oh you soft little artillery boy. you need a big strong tank to protect you from the bad men"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_GuardedFlavor" value="load my gun dont load my belly"/>
 	<entry name="uwu_SemtexianBombardiers_HighFire" value="Mortar Configuration"/>
 	<entry name="uwu_SemtexianBombardiers_HighFireDescription" value="The Howitzer fires indirectly."/>
 	<entry name="uwu_SemtexianBombardiers_HighFireFlavor" value="Howitzers are typically pointed upwards, bombarding the enemy from afar."/>
