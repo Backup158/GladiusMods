@@ -10,7 +10,7 @@
 				</encounter>
 			</conditions>
 			<effects>
-				<damage mul="1"/>
+				<damage mul="3"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -23,7 +23,7 @@
 				</encounter>
 			</conditions>
 			<effects>
-				<damage mul="1"/>
+				<damage mul="5"/>
 			</effects>
 		</modifier>
 	</modifiers>
