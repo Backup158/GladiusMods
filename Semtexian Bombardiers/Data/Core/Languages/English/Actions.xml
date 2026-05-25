@@ -16,6 +16,9 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_Heal" value="Fortification Field Repairs"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealDescription" value="Heals an adjacent damaged allied Fortification."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_ConstructFlakTower" value="Construct <string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlakTower'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_ConstructFlakTowerDescription" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_ConstructFlakTowerFlavor" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerFlavor'/>"/>
 	<!-- ============= -->
 	<!-- Vehicles -->
 	<!-- ============= -->

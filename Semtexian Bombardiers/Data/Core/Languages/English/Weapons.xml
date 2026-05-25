@@ -12,6 +12,8 @@
 	<entry name="uwu_SemtexianBombardiers_Pick" value="Fritz Mk IV Pick Mattock"/>
 	<!-- <entry name="uwu_SemtexianBombardiers_PickDescription" value=""/> -->
 	<entry name="uwu_SemtexianBombardiers_PickFlavor" value="The ancient design of the pick mattock is revered among its producers. The simplicity of two connected heads for separate but united purposes. The spiked pick to break and pry stone and dirt, followed by the perpendicular, flat axe head to dig into it."/>
+	<entry name="uwu_SemtexianBombardiers_TwinLinkedHydraAutocannon" value="Krupp Mk XVI Flak Autocannon"/> <!-- 8.8 cm Flak 16 -->
+	<entry name="uwu_SemtexianBombardiers_TwinLinkedHydraAutocannonFlavor" value=""/>
 	<!-- Big Bertha -->
 	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGun" value="Kurze-Gerät Mk XLII Mine Thrower"/> <!-- Minenwerfer-Gerät, 42 centimeter kurze Marinekanone 14 L/12 -->
 	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunDescription" value=""/>

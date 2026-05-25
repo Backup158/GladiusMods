@@ -19,6 +19,12 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatteryDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FieldOrdnanceBatteryFlavor" value=""/>
 	<!-- ============= -->
+	<!-- Fortifications -->
+	<!-- ============= -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlakTower" value="AAA Semtexian Flak Tower"/> <!-- Flaktürme -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerDescription" value="Fortification with Skyfire defences."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerFlavor" value="While many commanders focus on creating an impenetrable ground-level defence, it becomes useless when enemy aircraft can fly past unmolested. Many commanders learn this the hard way, after four lost battles with reports detailing their demolished supply lines and artillery positions. Famously, Flak Tower I, situated in the Semtexian Zoo, shot down 5 Dakkajets before they could cause catastrophic damage the planetary governor's favourite exhibits."/>
+	<!-- ============= -->
 	<!-- Vehicles -->
 	<!-- ============= -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Basilisk" value="AAA Semtexian Basilisk"/>
