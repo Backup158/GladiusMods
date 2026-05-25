@@ -22,6 +22,26 @@
 				<damage mul="0.17"/>
 			</effects>
 		</modifier>
+		<!-- 	Less damage for low hp -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<hitpointsFraction less="0.33"/>
+						<noTrait name="Flyer"/>
+						<noTrait name="Skimmer"/>
+						<noTrait name="Fortification"/>
+					</opponent>
+					<weapon match="Any">
+						<trait name="Barrage"/>
+						<!-- <trait name="Ordnance"/> --> <!-- Ordnance includes battle cannon and such -->
+					</weapon>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="-0.17"/>
+			</effects>
+		</modifier>
 		<!-- Kill Pinned Enemies -->
 		<!-- More accuracy if enemy is surrounded -->
 		<modifier>
