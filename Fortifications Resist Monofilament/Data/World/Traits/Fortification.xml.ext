@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff">
+	<modifiers>
+		<!-- Resist Monofilament -->
+		<!-- Monofilament is (x5 acc, divided by movement), +1 AP-->
+		<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<attacking/>
+					</opponent>
+					<weapon>
+						<trait name="Monofilament"/>
+					</weapon>
+				</encounter>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.85"/>
+				<!-- <accuracy mul="-5"/> -->
+				<!-- I think the AP is fair to keep -->
+				<!-- <armorPenetration add="-1"/> -->
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
