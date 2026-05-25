@@ -9,9 +9,9 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeLower" value="Lower Howitzer"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeLowerDescription" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeLowerFlavor" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_SwapFireModeFlavor'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShell" value="Fire Remote Anti-Tank Mine Servitor"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShell" value="Fire Remote Anti-Tank Mine Servitor"/> <!-- Remote Anti-Armor Mine System (RAAMS) -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellDescription" value="Deploys anti-tank mines on an empty tile."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FireAntiTankMineShellFlavor" value="The Adeptus Mechanicus uncovered an STL for an ancient artillery shell. The shell contains anti-tank mines, held together until the shell explodes mid-air, scattering the mines. Naturally, these STLs already were designed to have calculations handled by servitors."/>
 	<!-- Engineers -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_Heal" value="Fortification Field Repairs"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Engineer_HealDescription" value="Heals an adjacent damaged allied Fortification."/>
