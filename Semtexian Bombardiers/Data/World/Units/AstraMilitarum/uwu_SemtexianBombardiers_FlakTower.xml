@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit spawnCountMax="1">
 	<model>
-		<structureUnit mesh="Units/AstraMilitarum/ImperialStrongpoint"
+		<structureUnit mesh="Units/AstraMilitarum/uwu_SemtexianBombardiers_FlakTower"
 				material="Buildings/AstraMilitarum/Buildings"
 				groundMaterial="Units/AstraMilitarum/ImperialStrongpointGround"
 				idleAnimation=""
