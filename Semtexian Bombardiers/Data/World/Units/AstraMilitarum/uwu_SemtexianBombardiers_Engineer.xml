@@ -267,6 +267,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
+						<!-- 40 from Hydra, 40 from Bastion. But it loses the Bolters, and trades min range for max range -->
 						<oreCost base="50"/>
 					</effects>
 				</modifier>
