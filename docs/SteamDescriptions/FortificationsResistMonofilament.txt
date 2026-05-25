@@ -1,6 +1,6 @@
-Monofilament weapons do less damage against Fortifications
+Monofilament weapons do less damage against Fortifications.
 
-In Gladius, the [i]Monofilament[/i] trait gives +1 armour penetration and an accuracy increase, calculated by (accuracy * 5)/(max movement of target). Since Fortifications have 0 max movement, this makes the damage increase (from the accuracy boost) massive, which was highlighted by the [b]Warp Spiders[/b] in the Eradication Pack.
+In Gladius, the [i]Monofilament[/i] trait gives +1 armour penetration and an accuracy increase, calculated by (accuracy * 5)/(max movement of target). This was found through community testing and is mentioned in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3026310290]Golden Tooltips[/url]. Since Fortifications have 0 max movement (equivalent to 1 for the formula), Monofilament gives a +400% accuracy buff. Ultimately, this is a massive damage boost, which is highlighted by the [b]Warp Spiders[/b] in the Eradication Pack.
 Killing a city in 2 attacks is wild, so this gives Fortifications -85% damage taken from Monofilament weapons, which also protects units such as the [b]Imperial Bastion[/b].
 
 [h1]Versions of This Mod[/h1]
