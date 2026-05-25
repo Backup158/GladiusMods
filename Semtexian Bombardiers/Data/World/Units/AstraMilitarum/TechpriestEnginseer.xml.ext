@@ -7,7 +7,7 @@
 				requiredUpgrade="AstraMilitarum/ImperialStrongpoint"
 				cooldown="10">
 			<model>
-				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+				<action animation="Units/AstraMilitarum/TechpriestEnginseerBuild"
 						sound="Actions/Construct"/>
 			</model>
 			<conditions>
