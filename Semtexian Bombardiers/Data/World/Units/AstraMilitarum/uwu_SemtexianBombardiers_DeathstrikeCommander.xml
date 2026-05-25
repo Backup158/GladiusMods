@@ -283,7 +283,16 @@
 				icon="Actions/RazeBuilding">
 			<model>
 				<action sound="Actions/uwu_SemtexianBombardiers_LegalizeNuclearBombs"/>
-			</model>			
+			</model>		
+			<!-- Using super weapons should have a cost. using this only to have a Commissar wipe the downside is kind of silly. -->
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<oreCost base="80"/>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+			</modifiers>	
 			<beginTargets>
 				<selfTarget>
 					<areas>
