@@ -1,0 +1,14 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="UseWeapon/FragGrenade" sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Attack" soundCount="8"/>
+    <action name="UseWeapon/KrakGrenade" sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Attack" soundCount="8"/>
+    <action name="PowerStrike" sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Attack" soundCount="8"/>
+    <action name="HealingSurge" sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Ability_HealingSurge" soundCount="1"/>
+    <action name="OrbitalStrike" sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Ability_OrbitalStrike" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Heroes/Captain_Complete" soundCount="1"/>
+  </responses>
+</unit>

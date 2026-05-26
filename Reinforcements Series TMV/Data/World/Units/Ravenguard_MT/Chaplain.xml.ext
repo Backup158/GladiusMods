@@ -1,0 +1,12 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="RitesOfWar" sound="Units/SpaceMarines/TooManyVoices/Heroes/Chaplain_Ability_Rites" soundCount="1"/>
+    <action name="CanticlesOfWrath" sound="Units/SpaceMarines/TooManyVoices/Heroes/Chaplain_Ability_Canticles" soundCount="1"/>
+    <action name="OrationOfRestoration" sound="Units/SpaceMarines/TooManyVoices/Heroes/Chaplain_Ability_Oration" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Heroes/Chaplain_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Heroes/Chaplain_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Heroes/Chaplain_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Heroes/Chaplain_Complete" soundCount="1"/>
+  </responses>
+</unit>

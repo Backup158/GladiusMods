@@ -135,3 +135,10 @@
 >> Small: ---
 >> Medium: Felltalon, Wrecker
 >> Large: Barbed Hierodule, Broodsac, Carnifex, Cerebore, Dominatrix, Exocrine, Nautiloid, Norn Queen, Ravener Prime, Stone Crusher, Thornback, Tremor Scythe, Venom Spitter
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3732769331]Reinforcements - Raven Guard[/url]
+> Reused Lines
+>> Dreadnought: All types of Dreadnoughts
+>> Stormraven Gunship: Thunderhawk Gunship
+>> Stormtalon Gunship: Xiphon Interceptor
+> Not Included: Scouts, Whirlwind

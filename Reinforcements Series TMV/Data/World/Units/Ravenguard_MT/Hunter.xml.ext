@@ -1,0 +1,11 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <action name="UseWeapon/HunterKillerMissile" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Hunter_Attack" soundCount="8"/>
+    <action name="CreateSmokeScreen" sound="Units/SpaceMarines/TooManyVoices/Vehicles/Hunter_Ability_Smoke" soundCount="1"/>
+    <attack sound="Units/SpaceMarines/TooManyVoices/Vehicles/Hunter_Attack" soundCount="8"/>
+    <move sound="Units/SpaceMarines/TooManyVoices/Vehicles/Hunter_Move" soundCount="8"/>
+    <select sound="Units/SpaceMarines/TooManyVoices/Vehicles/Hunter_Select" soundCount="4"/>
+    <productionCompleted sound="Units/SpaceMarines/TooManyVoices/Vehicles/Hunter_Complete" soundCount="1"/>
+  </responses>
+</unit>
