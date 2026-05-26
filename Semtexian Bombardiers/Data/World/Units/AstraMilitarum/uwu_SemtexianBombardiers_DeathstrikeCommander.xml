@@ -289,7 +289,7 @@
 				requiredMovement="1"
 				consumedMovement="1"
 				name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs"
-				icon="Actions/RazeBuilding">
+				icon="Traits/AdeptusMechanicus/RadPoisoning">
 			<model>
 				<action sound="Actions/uwu_SemtexianBombardiers_LegalizeNuclearBombs"/>
 			</model>		
