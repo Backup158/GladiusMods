@@ -297,8 +297,9 @@
 			<modifiers>
 				<modifier visible="1">
 					<effects>
-						<oreCost base="80"/>
-						<influenceCost base="60"/>
+						<oreCost base="100"/>
+						<energyCost base="50"/>
+						<influenceCost base="75"/>
 					</effects>
 				</modifier>
 			</modifiers>	
