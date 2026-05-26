@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/Scout" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangedDamageReduction mulMin="-0.11" mulMax="-0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

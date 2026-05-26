@@ -190,13 +190,22 @@
 				<action sound="Actions/Scout"/>
 			</model>
 			<beginTargets>
-				<target rangeMax="-1" sighted="0">
+				<target rangeMax="10" sighted="0">
 					<areas>
 						<area affects="Tile" radiusMin="1" radiusMax="2">
 							<modifiers>
 								<modifier>
 									<effects>
 										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="uwu_SemtexianBombardiers_OrbitalScanVulnerable"/>
 									</effects>
 								</modifier>
 							</modifiers>

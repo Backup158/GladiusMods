@@ -59,15 +59,15 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value=""/>
 	<!-- Deathstrike Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Orbital Bombardment"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Operation that bombards the target enemy unit. Upon levelup, cooldown is reduced, and damage is increased."/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value="<string name='Actions/OrbitalStrikeFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Operation that bombards the target enemy unit. This enemy is more vulnerable to the next attack. Upon levelup, cooldown is reduced, and damage is increased."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentFlavor" value="<string name='Actions/OrbitalStrikeFlavor'/> Upon levelup, cooldown is reduced. At max level, the radius is increased."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScan" value="Orbital Scan"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanDescription" value="<string name='Actions/SciersGazeDescription'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanDescription" value="<string name='Actions/SciersGazeDescription'/> Target at the centre of the scan has reduced ranged damage reduction."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalScanFlavor" value="Despite the warp storm raging above, there remain methods for observing enemy positions. Servo skulls slink about, transmitting precise positions to command. What will happen next? A massive payload of death rains from the skies? An armoured column cuts through the lines, delivering precise rounds upon key positions? Whatever it is, the enemy won't know until it's too late."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Xenocide" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_Xenocide'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_XenocideDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_XenocideDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_XenocideFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_XenocideFlavor'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombs'/>"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription'/> At the cost of greatly reduces the morale of allies within 3 tiles."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsDescription'/> At the cost of greatly reducing the morale of allies within 3 tiles."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_LegalizeNuclearBombsFlavor'/>"/>
 </language>
