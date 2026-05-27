@@ -55,7 +55,7 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellDescription" value="Fire a flare, revealing tiles and reducing ranged damage reduction. Ranged damage reduction is further reduced upon levelup. At max level, reduce the cooldown."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellFlavor" value="Under the cover of the night, the enemy won't see you until it's too late. With flares in the sky, everyone is exposed. Of course, troops quickly learn that this cuts both ways."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigIn" value="Dig In"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value="Adjacent troops gain <string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_DugIn'/>, and adjacent Semtexians are guarded."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value="Adjacent troops gain <string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_DugIn'/>, and adjacent Semtexians are guarded. If possible, also construct <string name='Traits/uwu_SemtexianBombardiers_HullDown'/>s on the tiles."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInFlavor" value="Artillery guns are typically best kept further behind allied lines, but that doesn't mean they need to be left undefended. Besides posting guards, small trenches can be dug to reduce their profiles. If the troops have time to rest, they have time to dig."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Gunners, Full Batteries!"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value=""/>
