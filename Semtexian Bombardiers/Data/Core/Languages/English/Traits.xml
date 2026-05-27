@@ -27,6 +27,9 @@
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="Anti-Tank Mines"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_HullDown" value="Hull Down Position"/>
+	<entry name="uwu_SemtexianBombardiers_HullDownDescription" value="Increases ranged damage reduction for vehicles, with a lesser effect for infantry."/>
+	<entry name="uwu_SemtexianBombardiers_HullDownFlavor" value="Tanks are not known for the ability to dodge incoming fire, so the best course of action is to avoid being detected. Unfortunately, the sheer size of a tank makes that difficult. One method to aid this is to dig a space with a mound in front, so only the top of the vehicle is exposed. This makes the tank harder to see, with the additional benefit of presenting a smaller target once the shooting starts."/>
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->

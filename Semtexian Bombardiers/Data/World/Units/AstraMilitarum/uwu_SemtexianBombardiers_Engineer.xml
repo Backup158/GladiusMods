@@ -344,15 +344,27 @@
 		</constructVoidShieldGenerator>
 		-->
 		<!-- Tank Camo pit -->
-		<constructVoidShieldGenerator icon="Units/AstraMilitarum/VoidShieldGenerator"
-				name="uwu_SemtexianBombardiers_Construct"
-				cooldown="10">
+		<constructVoidShieldGenerator icon="Features/uwu_SemtexianBombardiers_HullDown"
+				name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructHullDown"
+				cooldown="1">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						sound="Actions/Construct"/>
 			</model>
+			<!-- Disable trait, so AI won't spam it -->
+			<conditions>
+				<unit>
+					<noTrait name="uwu_SemtexianBombardiers_AI_DisableHullDown"/>
+				</unit>
+			</conditions>
 			<modifiers>
+				<!-- Cost is only for human players -->
 				<modifier visible="0">
+					<conditions>
+						<player>
+							<notAIControlled/>
+						</player>
+					</conditions>
 					<effects>
 						<oreCost base="30"/>
 					</effects>
@@ -374,13 +386,32 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addUnit name="AstraMilitarum/VoidShieldGenerator"/>
+										<addFeature name="uwu_SemtexianBombardiers_HullDown"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
 				</target>
+				<!-- Target Self: Disable ability for AI -->
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<aiControlled/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="10" name="uwu_SemtexianBombardiers_AI_DisableHullDown"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
 			</beginTargets>
 		</constructVoidShieldGenerator>
 	</actions>

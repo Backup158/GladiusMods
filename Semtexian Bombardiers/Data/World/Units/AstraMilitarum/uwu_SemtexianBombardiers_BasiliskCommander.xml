@@ -230,15 +230,37 @@
 					<areas>
 						<area affects="Unit" radius="1">
 							<modifiers>
+								<!-- Infantry and Vehicles so the Howitzers can work too -->
 								<modifier>
 									<conditions>
 										<unit>
+											<noTrait name="Fortification"/>
 											<allied/>
 										</unit>
 									</conditions>
 									<effects>
 										<addTrait duration="3" name="AstraMilitarum/uwu_SemtexianBombardiers_DugIn"/>
 										<addTrait duration="3" name="AstraMilitarum/uwu_SemtexianBombardiers_Guarded"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<!-- Adds Hull Down features -->
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<tile>
+											<noFeatureCategory name="Resource"/>
+											<noFeatureCategory name="WireWeed"/>
+											<land/>
+											<noEnemyCity/>
+											<!-- <noUnit/> --> <!-- Having a unit there is precisely the point -->
+											<noFeature name="GravityWaves"/>
+										</tile>
+									</conditions>
+									<effects>
+										<addFeature duration="3" name="uwu_SemtexianBombardiers_HullDown"/>
 									</effects>
 								</modifier>
 							</modifiers>

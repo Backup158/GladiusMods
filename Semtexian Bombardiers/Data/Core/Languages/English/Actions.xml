@@ -19,6 +19,9 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructFlakTower" value="Construct <string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_FlakTower'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructFlakTowerDescription" value="Cost of construction is reduced when done by Semtexians. <string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerDescription'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructFlakTowerFlavor" value="<string name='Units/AstraMilitarum/uwu_SemtexianBombardiers_FlakTowerFlavor'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructHullDown" value="Construct <string name='Traits/uwu_SemtexianBombardiers_HullDown'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructHullDownDescription" value="Cost of construction is reduced when done by Semtexians. <string name='Traits/uwu_SemtexianBombardiers_HullDownDescription'/>"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ConstructHullDownFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_HullDownFlavor'/>"/>
 	<!-- ============= -->
 	<!-- Vehicles -->
 	<!-- ============= -->

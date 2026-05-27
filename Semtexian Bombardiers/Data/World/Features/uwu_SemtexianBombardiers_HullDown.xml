@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature visible="1">
+	<model>
+		<outpost/>
+	</model>
+	<traits>
+		<trait name="uwu_SemtexianBombardiers_HullDown"/>
+	</traits>
+</feature>
