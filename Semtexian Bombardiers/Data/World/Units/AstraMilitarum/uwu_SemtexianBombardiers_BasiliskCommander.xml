@@ -172,7 +172,7 @@
 		</genericUnitAbility>
 		<!-- Fire Flare Shell -->
 		<!-- Reveals area. Units there are more vulnerable -->
-		<genericUnitAbility	cooldown="3" levelUpPriority="0.01"
+		<genericUnitAbility	cooldownMax="3" cooldownMin="2" levelUpPriority="0.01"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
