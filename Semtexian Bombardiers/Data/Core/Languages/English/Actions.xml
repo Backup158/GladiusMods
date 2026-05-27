@@ -46,14 +46,14 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_BigBertha_LeaderFlavor'/>"/>
 	<!-- Basilisk Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwake" value="Shake Them Awake"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeDescription" value="Fire the Earthshaker Cannon and gives the target Concussion and Slowed. Duration of Concussion is increased with levelup. At max rank, Concussion and Slowed are applied in a radius of 1."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ShakeThemAwakeFlavor" value="Sentry duty is often marked by long spans of boredom. &quot;Exciting&quot; is certainly one way to describe artillery shells raining on your position, disrupting lines and troops. Before everyone can recover, enemy forces are already descending on their position."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShell" value="Fire Flare Shell"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellDescription" value="Fire a flare, revealing tiles and reducing ranged damage reduction. Ranged damage reduction is further reduced upon levelup. At max level, reduce the cooldown."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FlareShellFlavor" value="Under the cover of the night, the enemy won't see you until it's too late. With flares in the sky, everyone is exposed. Of course, troops quickly learn that this cuts both ways."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigIn" value="Dig In"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value="Adjacent troops gain <string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_DugIn'/>, and adjacent Semtexians are guarded."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInFlavor" value="Artillery guns are typically best kept further behind allied lines, but that doesn't mean they need to be left undefended. Besides posting guards, small trenches can be dug to reduce their profiles. If the troops have time to rest, they have time to dig."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Gunners, Full Batteries!"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value=""/>
