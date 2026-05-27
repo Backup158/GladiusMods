@@ -60,7 +60,7 @@
 	<entry name="uwu_SemtexianBombardiers_IlluminatedDescription" value="<string name='Traits/IlluminatedDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_IlluminatedFlavor" value="<string name='Traits/IlluminatedFlavor'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugIn" value="Dug In"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInDescription" value="Reduced movement. If the unit has moved, gain ranged damage reduction and accuracy."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInDescription" value="Reduced movement. If the unit has not moved, gain ranged damage reduction and accuracy."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInFlavor" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Full Batteries!"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value=""/>
