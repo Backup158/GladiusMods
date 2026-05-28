@@ -25,7 +25,7 @@
 	<entry name="uwu_SemtexianBombardiers_Weapon_LowFireDescription" value="<string name='Traits/uwu_SemtexianBombardiers_LowFireDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_Weapon_LowFireFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_LowFireFlavor'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="Anti-Tank Mines"/>
-	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="Deals damage to ground troops entering the tile, moreso against vehicles."/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="Deals damage to ground troops entering the tile. Damage and armour penetration is increased against Vehicles, moreso for Tanks."/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="Certain explosives can be designed so the ensuing blast is especially effective against armoured vehicles, but they may suffer in other areas that reduce effectiveness against infantry. These questions do not need to be answered, for humanity has already answered them before."/>
 	<entry name="uwu_SemtexianBombardiers_HullDown" value="Hull Down Position"/>
 	<entry name="uwu_SemtexianBombardiers_HullDownDescription" value="Increases ranged damage reduction for vehicles, with a lesser effect for infantry."/>
@@ -85,9 +85,6 @@
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorus" value="White Prometheum Blast"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusDescription" value="Applies smoke to tiles on and adjacent to the targetted unit."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusFlavor" value=""/>
-	<entry name="uwu_SemtexianBombardiers_Mine_TankHunters" value="<string name='Traits/TankHunters'/>"/>
-	<entry name="uwu_SemtexianBombardiers_Mine_TankHuntersDescription" value="Improved damage and armour penetration against vehicles. Tanks take additional damage."/>
-	<entry name="uwu_SemtexianBombardiers_Mine_TankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
 	<!-- 	Abilities -->
 	<entry name="uwu_SemtexianBombardiers_OrbitalScanVulnerable" value="Position Compromised"/>
 	<!-- <entry name="uwu_SemtexianBombardiers_OrbitalScanVulnerableDescription" value=""/> -->

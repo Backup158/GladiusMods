@@ -6,9 +6,15 @@
 	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLow" value="Noble Mk XVI Field Howitzer (Lowered)"/>
 	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLowDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLowFlavor" value=""/>
-	<entry name="uwu_SemtexianBombardiers_AntiTankMine" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
-	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
-	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_Infantry" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_InfantryDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_InfantryFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_Vehicle" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_VehicleDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_VehicleFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_Tank" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_TankDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
+	<entry name="uwu_SemtexianBombardiers_AntiTankMine_TankFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
 	<entry name="uwu_SemtexianBombardiers_Pick" value="Fritz Mk IV Pick Mattock"/>
 	<!-- <entry name="uwu_SemtexianBombardiers_PickDescription" value=""/> -->
 	<entry name="uwu_SemtexianBombardiers_PickFlavor" value="The ancient design of the pick mattock is revered among its producers. The simplicity of two connected heads for separate but united purposes. The spiked pick to break and pry stone and dirt, followed by the perpendicular, flat axe head to dig into it."/>

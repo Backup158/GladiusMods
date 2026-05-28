@@ -18,14 +18,43 @@
 		</modifier>
 	</modifiers>
 	<onTileEnteredModifiers>
+		<!-- Normal damage -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<enemy/>
+					<noTrait name="Vehicle"/>
+					<noTrait name="Tank"/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="uwu_SemtexianBombardiers_AntiTankMine_Infantry"/>
+				<removeFeature name="uwu_SemtexianBombardiers_AntiTankMine"/>
+			</effects>
+		</modifier>
+		<!-- More damage for vehicles and especially tanks -->
 		<modifier>
 			<conditions>
 				<unit>
 					<enemy/>
+					<trait name="Vehicle"/>
+					<noTrait name="Tank"/>
 				</unit>
 			</conditions>
 			<effects>
-				<weaponDamage weapon="uwu_SemtexianBombardiers_AntiTankMine"/>
+				<weaponDamage weapon="uwu_SemtexianBombardiers_AntiTankMine_Vehicle"/>
+				<removeFeature name="uwu_SemtexianBombardiers_AntiTankMine"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<enemy/>
+					<trait name="Tank"/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="uwu_SemtexianBombardiers_AntiTankMine_Tank"/>
 				<removeFeature name="uwu_SemtexianBombardiers_AntiTankMine"/>
 			</effects>
 		</modifier>
