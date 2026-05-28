@@ -85,6 +85,9 @@
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorus" value="White Prometheum Blast"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusDescription" value="Applies smoke to tiles on and adjacent to the targetted unit."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeSplashWhitePhosphorusFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_Mine_TankHunters" value="<string name='Traits/TankHunters'/>"/>
+	<entry name="uwu_SemtexianBombardiers_Mine_TankHuntersDescription" value="Improved damage and armour penetration against vehicles. Tanks take additional damage."/>
+	<entry name="uwu_SemtexianBombardiers_Mine_TankHuntersFlavor" value="<string name='Traits/TankHuntersFlavor'/>"/>
 	<!-- 	Abilities -->
 	<entry name="uwu_SemtexianBombardiers_OrbitalScanVulnerable" value="Position Compromised"/>
 	<!-- <entry name="uwu_SemtexianBombardiers_OrbitalScanVulnerableDescription" value=""/> -->

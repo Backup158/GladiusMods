@@ -20,6 +20,6 @@
 		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
 		<trait name="IgnoresCover"/>
 
-		<trait name="TankHunters"/>
+		<trait name="uwu_SemtexianBombardiers_Mine_TankHunters"/>
 	</traits>
 </weapon>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" icon="Traits/TankHunters">
+	<modifiers>
+		<!-- +2 ap only did like 2 damage -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Vehicle"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<armorPenetration add="4"/>
+				<damage mul="0.75"/>
+			</effects>
+		</modifier>
+		<!-- tanks are slow so we can say it does more -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Tank"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.5"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
