@@ -400,9 +400,9 @@
 							<modifiers>
 								<modifier>
 									<conditions>
-										<unit>
+										<player>
 											<aiControlled/>
-										</unit>
+										</player>
 									</conditions>
 									<effects>
 										<addTrait duration="10" name="uwu_SemtexianBombardiers_AI_DisableHullDown"/>
