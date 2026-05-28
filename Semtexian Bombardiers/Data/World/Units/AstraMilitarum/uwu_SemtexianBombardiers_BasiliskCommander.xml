@@ -257,6 +257,7 @@
 											<noEnemyCity/>
 											<!-- <noUnit/> --> <!-- Having a unit there is precisely the point -->
 											<noFeature name="GravityWaves"/>
+											<!-- Allow it to apply on tiles already with. If permanent, nothing happens; if temporary (from another hero), refresh length -->
 										</tile>
 									</conditions>
 									<effects>
