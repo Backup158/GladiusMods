@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="AI">
+<trait icon="AI" visible="0">
 	<!-- Just for use to check for conditions -->
 </trait>
