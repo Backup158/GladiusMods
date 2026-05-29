@@ -11,6 +11,7 @@
 			<effects>
 				<rangedAttacks mul="1.2"/>
 				<accuracy mul="-0.5"/>
+				<additionalMembersHit add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>

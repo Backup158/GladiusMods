@@ -63,7 +63,7 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInDescription" value="Reduced movement. If the unit has not moved, gain ranged damage reduction and accuracy with Barrage weapons."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DugInFlavor" value="Staying in a dug-in position protects even artillery crews, giving extra breathing room to take aim and even absorbing recoil more efficiently. However, one must take care to have the flanks watched, for these crews are in no position to escape."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Full Batteries!"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value="For barrage weapons, increases attacks but decreases accuracy."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value="For barrage weapons, increases attacks and targets hit but decreases accuracy."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value="One would hardly call artillery bombardments &quot;precise,&quot; but well-trained crews do actually aim their shots. However, there are times when precision must defer to sheer saturation. Sometimes, abominations need to die RIGHT NOW, accuracy be damned."/>
 	<!-- Deathstrike Commander -->
 	<!-- 	Weapons -->
