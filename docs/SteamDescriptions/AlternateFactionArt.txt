@@ -1,0 +1,39 @@
+Changes the generic Astra Militarum faction art to Armageddon Steel Legion art.
+
+This replaces the faction selection art, the quest art, the research completion art, and the victory screen art.
+
+[h2]Compatibility[/h2]
+This mod can go anywhere in the load order.
+
+This mod overwrites the following files in [code]Data/Video/Textures/Images/AstraMilitarum[/code]
+[table][tr][td]
+Faction.dds
+[/td][/tr][tr][td]
+FactionSmall.dds
+[/td][/tr][tr][td]
+Quest.dds
+[/td][/tr][tr][td]
+Research.dds
+[/td][/tr][tr][td]
+Won.dds
+[/td][/tr][/table]
+If another mods also overwrite these files, whichever one is on top will win.
+
+[h2]Other Versions[/h2]
+[table][tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3734986251]Armageddon Steel Legion[/url]
+[/td][/tr][tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3734986313]Death Korps of Krieg[/url]
+[/td][/tr][/table]
+
+[h2]Other Mods Shown[/h2]
+There were a few other mods used in the screenshots. In no particular order:
+[table][tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693646757]Death Korps of Krieg vs Orks Kill Team Trailer Main Menu[/url]
+[/td][/tr][tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2056204230]Locknot's Extended Setup[/url]
+[/td][/tr][tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3026310290]Golden Tooltips[/url]
+[/td][/tr][tr][td]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3275096488]Research Tooltips Redesigned[/url]
+[/td][/tr][/table]
