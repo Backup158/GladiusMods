@@ -9,8 +9,8 @@
 				</weapon>
 			</conditions>
 			<effects>
-				<rangedAttacks mul="0.67"/>
-				<accuracy mul="-0.33"/>
+				<rangedAttacks mul="1.2"/>
+				<accuracy mul="-0.5"/>
 			</effects>
 		</modifier>
 	</modifiers>
