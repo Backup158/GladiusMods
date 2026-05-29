@@ -58,8 +58,8 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value="Adjacent troops gain <string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_DugIn'/>, and adjacent Semtexians are guarded. If possible, also construct <string name='Traits/uwu_SemtexianBombardiers_HullDown'/>s on the tiles temporarily."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInFlavor" value="Artillery guns are typically best kept further behind allied lines, but that doesn't mean they need to be left undefended. Besides posting guards, small trenches can be dug to reduce their profiles. If the troops have time to rest, they have time to dig."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Gunners, Full Batteries!"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value=""/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription'/> For allies within 1 tile, reload Hunter-Killer Missiles."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor'/>"/>
 	<!-- Deathstrike Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Orbital Bombardment"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardmentDescription" value="Operation that bombards the target enemy unit. This enemy is more vulnerable to the next attack. Upon levelup, cooldown is reduced, and damage is increased."/>
