@@ -15,7 +15,21 @@
 			</conditions>
 			<effects>
 				<rangedDamageReduction addMin="0.05" addMax="0.17"/>
-				<rangedAccuracy mulMin="0.04" mulMax="0.11"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<notMovedThisTurn/>
+				</unit>
+				<encounter>
+					<weapon>
+						<trait name="Barrage"/>
+					</weapon>
+				</encounter>
+			</conditions>
+			<effects>
+				<rangedAccuracy mulMin="0.06" mulMax="0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
