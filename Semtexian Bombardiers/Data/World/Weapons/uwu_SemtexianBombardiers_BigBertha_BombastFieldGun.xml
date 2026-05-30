@@ -6,7 +6,8 @@
 	</model>
 	<modifiers>
 		<modifier>
-			<!-- Remember, Deathstrike is A=1, AP 8, DMG 12, and ignores cover with apocalyptic blast-->
+			<!-- Remember, Deathstrike is A=1, AP 8, DMG 12, and ignores cover with apocalyptic blast -->
+			<!-- Cities have 6 armor. 4 AP +2 from Ordnance is fair -->
 			<effects>
 				<attacks add="3"/>
 				<rangedArmorPenetration add="4"/> <!-- 4 | %rangedArmorPenetration add armorPiercing=-2 -->
