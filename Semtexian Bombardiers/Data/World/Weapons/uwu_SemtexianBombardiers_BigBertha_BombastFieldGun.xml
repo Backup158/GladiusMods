@@ -7,7 +7,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="1.5"/>
+				<attacks add="3"/>
 				<rangedArmorPenetration add="4"/> <!-- 4 | %rangedArmorPenetration add armorPiercing=-2 -->
 				<rangedDamage add="10"/> <!-- 4 | %rangedDamage add strength=7 -->
 				<strengthDamage base="0"/>
