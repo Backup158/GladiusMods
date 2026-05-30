@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff">
+<trait alwaysVisible="1" category="Buff" icon="Features/uwu_SemtexianBombardiers_HullDown">
 	<modifiers>
 		<modifier visible="0">
 			<conditions>
