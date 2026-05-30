@@ -47,7 +47,7 @@
 				<armor base="6"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- 2 | %foodUpkeep base tier=6 factor=1 -->
 				<foodCost base="25.0"/> <!-- 20, 25 | %foodCost base tier=6 factor=0.5 -->
-				<hitpointsMax base="9.0"/> <!-- 9 | %hitpointsMax base toughness=4 wounds=3 -->
+				<hitpointsMax base="30.0"/> <!-- 9. Normal ones have 2 models | %hitpointsMax base toughness=4 wounds=3 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="2"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
