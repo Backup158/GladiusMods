@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon attributesModifiedByUnit="0" icon="Weapons/ClusterMines">
+<weapon attributesModifiedByUnit="0" icon="Features/uwu_SemtexianBombardiers_AntiTankMine">
 	<modifiers>
 		<modifier>
 			<effects>
