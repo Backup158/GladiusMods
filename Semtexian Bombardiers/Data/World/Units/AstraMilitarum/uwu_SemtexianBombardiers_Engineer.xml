@@ -366,7 +366,7 @@
 						</player>
 					</conditions>
 					<effects>
-						<oreCost base="30"/>
+						<oreCost base="20"/>
 					</effects>
 				</modifier>
 			</modifiers>
