@@ -61,6 +61,9 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription'/> For allies within 1 tile, reload Hunter-Killer Missiles."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor'/>"/>
 	<!-- 	Copy for Manticore Commander -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FlareShell" value="Send Flare Skull"/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FlareShellDescription" value="Sends a servo-skull which illuminates the area, revealing tiles and reducing ranged damage reduction. Ranged damage reduction is further reduced upon levelup. At max level, reduce the cooldown."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FlareShellFlavor" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlareShellFlavor'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FullBattery" value="Gunners, Full Batteries!"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FullBatteryDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription'/> For allies within 1 tile, reload Hunter-Killer Missiles and Manticore salvos."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FullBatteryFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor'/>"/>
