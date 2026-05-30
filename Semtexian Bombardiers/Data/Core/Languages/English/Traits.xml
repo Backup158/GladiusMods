@@ -28,7 +28,7 @@
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineDescription" value="Deals damage to ground troops entering the tile. Damage and armour penetration is increased against Vehicles, moreso for Tanks."/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMineFlavor" value="Certain explosives can be designed so the ensuing blast is especially effective against armoured vehicles, but they may suffer in other areas that reduce effectiveness against infantry. These questions do not need to be answered, for humanity has already answered them before."/>
 	<entry name="uwu_SemtexianBombardiers_HullDown" value="Hull Down Position"/>
-	<entry name="uwu_SemtexianBombardiers_HullDownDescription" value="Increases ranged damage reduction for vehicles, with a lesser effect for infantry."/>
+	<entry name="uwu_SemtexianBombardiers_HullDownDescription" value="Increases ranged damage reduction for vehicles, which increases in effectiveness when researching Camo Netting. Effects are halved for infantry."/>
 	<entry name="uwu_SemtexianBombardiers_HullDownFlavor" value="Tanks are not known for the ability to dodge incoming fire, so the best course of action is to avoid being detected. Unfortunately, the sheer size of a tank makes that difficult. One method to aid this is to dig a space with a mound in front, so only the top of the vehicle is exposed. This makes the tank harder to see, with the additional benefit of presenting a smaller target once the shooting starts."/>
 	<!-- ============= -->
 	<!-- Heroes -->

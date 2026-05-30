@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff">
 	<modifiers>
-		<modifier>
+		<modifier visible="0">
 			<conditions>
 				<unit>
 					<noTrait name="Vehicle"/>
@@ -20,6 +20,28 @@
 			</conditions>
 			<effects>
 				<rangedDamageReduction add="0.22"/>
+			</effects>
+		</modifier>
+		<!-- Increased when research camo netting -->
+		<modifier visible="0" requiredUpgrade="AstraMilitarum/CamoNetting">
+			<conditions>
+				<unit>
+					<noTrait name="Vehicle"/>
+					<noTrait name="Fortification"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.06"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/CamoNetting">
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.11"/>
 			</effects>
 		</modifier>
 	</modifiers>
