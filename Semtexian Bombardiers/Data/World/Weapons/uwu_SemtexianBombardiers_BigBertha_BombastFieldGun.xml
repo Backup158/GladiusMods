@@ -6,6 +6,7 @@
 	</model>
 	<modifiers>
 		<modifier>
+			<!-- Remember, Deathstrike is A=1, AP 8, DMG 12, and ignores cover with apocalyptic blast-->
 			<effects>
 				<attacks add="3"/>
 				<rangedArmorPenetration add="4"/> <!-- 4 | %rangedArmorPenetration add armorPiercing=-2 -->
