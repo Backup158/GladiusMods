@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="uwu_SemtexianBombardiers_BombastFieldGun" value="Noble Mk XVI Field Howitzer"/>
-	<entry name="uwu_SemtexianBombardiers_BombastFieldGunDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_BombastFieldGunFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGunFlavor" value="Artillery guns fire with great force, throwing the weapon back. Most platforms include recoil-dampening measures, but Noble pattern howitzers are known to be especially stable, making them effective but relatively rare. Its other strength lies in its versatility; the firing arc can be adjusted to allow for indirect or direct fire."/>
 	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLow" value="Noble Mk XVI Field Howitzer (Lowered)"/>
-	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLowDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLowFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BombastFieldGunLowFlavor" value="<string name='Weapons/uwu_SemtexianBombardiers_BombastFieldGunFlavor'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine_Infantry" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMine'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine_InfantryDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine_InfantryFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
@@ -16,31 +14,28 @@
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine_TankDescription" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineDescription'/>"/>
 	<entry name="uwu_SemtexianBombardiers_AntiTankMine_TankFlavor" value="<string name='Traits/uwu_SemtexianBombardiers_AntiTankMineFlavor'/>"/>
 	<entry name="uwu_SemtexianBombardiers_Pick" value="Fritz Mk IV Pick Mattock"/>
-	<!-- <entry name="uwu_SemtexianBombardiers_PickDescription" value=""/> -->
 	<entry name="uwu_SemtexianBombardiers_PickFlavor" value="The ancient design of the pick mattock is revered among its producers. The simplicity of two connected heads for separate but united purposes. The spiked pick to break and pry stone and dirt, followed by the perpendicular, flat axe head to dig into it."/>
 	<entry name="uwu_SemtexianBombardiers_TwinLinkedHydraAutocannon" value="Krupp Mk XVI Flak Autocannon"/> <!-- 8.8 cm Flak 16 -->
-	<entry name="uwu_SemtexianBombardiers_TwinLinkedHydraAutocannonFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_TwinLinkedHydraAutocannonFlavor" value="When enemy aircraft is zipping through the skies, spitting heavy loads of shrapnel into the air is often a good answer. These massive autocannons are often placed on towers, overwatching critical strategic points."/>
 	<!-- Big Bertha -->
 	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGun" value="Kurze-Gerät Mk XLII Mine Thrower"/> <!-- Minenwerfer-Gerät, 42 centimeter kurze Marinekanone 14 L/12 -->
-	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunFlavor" value="Enginseers found STLs for a monstrous howitzer, with designs similar to previous plans for naval cannons. The massive gun was difficult to maneuver, but it found its place in breaking down city walls. Nobody truly knows the origin of its original; some troops speculate it launched naval mines far into oceans, while others believe the gun is so powerful that it could collapse a mine just from the recoil."/>
 	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLow" value="Kurze-Gerät Mk XLII Mine Thrower (Lowered)"/>
-	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLowDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLowFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_BigBertha_BombastFieldGunLowFlavor" value="<string name='Weapons/uwu_SemtexianBombardiers_BigBertha_BombastFieldGunFlavor'/>"/>
 	<!-- Deathstrike -->
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissile" value="Deathstrike Fragstorm Payload"/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissile" value="Deathstrike Missile (Fragstorm Payload)"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileDescription" value="Deadly long-range missile that also damages units within 1 tile of the target."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileFlavor" value="While a typical Deathstrike missile deals massive damage in one large area, Fragstorm missiles sacrifice some direct damage for a greater blast radius, where shrapnel cuts through the flesh of anyone unfortunate enough to be caught in the blast."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplash" value="Deathstrike Fragstorm Shrapnel"/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplashDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplashFlavor" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemical" value="Deathstrike Chemical Payload"/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemicalDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemicalFlavor" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorus" value="Deathstrike White Prometheum Payload"/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusFlavor" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" value="Deathstrike Electro-Stasis Payload"/>
+	<!-- <entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplashDescription" value=""/> -->
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileSplashFlavor" value="Those who are caught in a Deathstrike's blast are typically lucky enough to die instantly. With the Fragstorm's greater radius, many victims find themselves alive but covered in lacerations."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemical" value="Deathstrike Missile (Chemical Payload)"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemicalDescription" value="Deadly long-range missile that leaves deadly gas clouds within 1 tile of the target."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileChemicalFlavor" value="Gas. The classic weapon of cruelty. While not as bombastic as a virus bomb, loading a missile with these toxic concoctions is more than enough to wreak havoc among enemy positions. The exact formula varies across battlefields, but all we need to know is that it will cause great suffering."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorus" value="Deathstrike Missile (White Prometheum Payload)"/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusDescription" value="Deadly long-range flame missile that leaves smoke clouds within 1 tile of the target."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusFlavor" value="Tests found that this chemical creates a strong, dense smoke that forms quickly, making it perfect for quickly cutting off enemy sight. Creating this smoke generates intense heat, hot enough to melt flesh; after countless Guardsmen died screaming while fusing with their armour (if they were not already blown to bits), commanders realised these missiles could be deployed on top of enemy positions for similar effect."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" value="Deathstrike Missile (Electro-Stasis Payload)"/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSDescription" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSFlavor" value=""/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect" value="Chemical Corrosion"/>
