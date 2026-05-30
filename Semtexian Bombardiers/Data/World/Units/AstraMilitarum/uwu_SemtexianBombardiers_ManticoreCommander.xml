@@ -330,13 +330,10 @@
 								</modifier>
 							</modifiers>
 						</area>
-						<area affects="UnitAction" radius="1">
+						<area affects="UnitAction">
 							<modifiers>
 								<modifier>
 									<conditions>
-										<unit>
-											<allied/>
-										</unit>
 										<unit match="Any">
 											<cooldownAction name="UseWeapon/HunterKillerMissile"/>
 											<cooldownAction name="AstraMilitarum/StormEagleRocketSalvo"/>

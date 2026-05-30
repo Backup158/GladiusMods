@@ -58,14 +58,14 @@
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInDescription" value="Adjacent troops gain <string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_DugIn'/>, and adjacent Semtexians are guarded. If possible, also construct <string name='Traits/uwu_SemtexianBombardiers_HullDown'/>s on the tiles temporarily."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_DigInFlavor" value="Artillery guns are typically best kept further behind allied lines, but that doesn't mean they need to be left undefended. Besides posting guards, small trenches can be dug to reduce their profiles. If the troops have time to rest, they have time to dig."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBattery" value="Gunners, Full Batteries!"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription'/> For allies within 1 tile, reload Hunter-Killer Missiles."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription'/> Reloads Hunter-Killer Missile."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor'/>"/>
 	<!-- 	Copy for Manticore Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FlareShell" value="Send Flare Skull"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FlareShellDescription" value="Sends a servo-skull which illuminates the area, revealing tiles and reducing ranged damage reduction. Ranged damage reduction is further reduced upon levelup. At max level, reduce the cooldown."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FlareShellFlavor" value="<string name='Actions/AstraMilitarum/uwu_SemtexianBombardiers_FlareShellFlavor'/>"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FullBattery" value="Gunners, Full Batteries!"/>
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FullBatteryDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription'/> For allies within 1 tile, reload Hunter-Killer Missiles and Manticore salvos."/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FullBatteryDescription" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryDescription'/> For allied Manticores within 1 tile, remove the Reload trait. Reload Hunter-Killer Missile and Manticore Full Payload."/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_Manticore_FullBatteryFlavor" value="<string name='Traits/AstraMilitarum/uwu_SemtexianBombardiers_FullBatteryFlavor'/>"/>
 	<!-- Deathstrike Commander -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_OrbitalBombardment" value="Orbital Bombardment"/>

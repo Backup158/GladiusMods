@@ -301,12 +301,11 @@
 								</modifier>
 							</modifiers>
 						</area>
-						<area affects="UnitAction" radius="1">
+						<area affects="UnitAction">
 							<modifiers>
 								<modifier>
 									<conditions>
 										<unit>
-											<allied/>
 											<cooldownAction name="UseWeapon/HunterKillerMissile"/>
 										</unit>
 									</conditions>
