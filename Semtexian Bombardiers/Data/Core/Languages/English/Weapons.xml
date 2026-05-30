@@ -36,12 +36,12 @@
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusDescription" value="Deadly long-range flame missile that leaves smoke clouds within 1 tile of the target."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileWhitePhosphorusFlavor" value="Tests found that this chemical creates a strong, dense smoke that forms quickly, making it perfect for quickly cutting off enemy sight. Creating this smoke generates intense heat, hot enough to melt flesh; after countless Guardsmen died screaming while fusing with their armour (if they were not already blown to bits), commanders realised these missiles could be deployed on top of enemy positions for similar effect."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMS" value="Deathstrike Missile (Electro-Stasis Payload)"/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSFlavor" value=""/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSDescription" value="Deadly long-range missile that shocks vehicles and leaves slowing stasis waves within 1 tile of the target."/>
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeMissileEMSFlavor" value="Tech-priests found that with an electric payload, machines that survived the intial blast would be slowed down. Though it requires over a dozen more servitors to be embedded into the missile, the cost is well worth the disruptive effect."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffect" value="Chemical Corrosion"/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor" value=""/>
+	<!-- <entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectDescription" value=""/> -->
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor" value="Weaker chemicals are reduced in effectiveness by mere masks, but the brews poured into Deathstrikes can penetrate even armour. Of course, it's still more effective against bare flesh."/>
 	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeak" value="Chemical Corrosion (Resisted)"/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeakDescription" value=""/>
-	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeakFlavor" value=""/>
+	<!-- <entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeakDescription" value=""/> -->
+	<entry name="uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectWeakFlavor" value="<string name='Weapons/uwu_SemtexianBombardiers_DeathstrikeFeature_ChemicalEffectFlavor'/>"/>
 </language>
