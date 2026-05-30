@@ -3,6 +3,8 @@
 	<actions>
 		<!-- T5: Basilisk -->
 		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommander" requiredUpgrade="AstraMilitarum/Basilisk"/>
+		<!-- T5: Manticore from Dex's Unit Pack -->
+		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_ManticoreCommander" requiredUpgrade="AstraMilitarum/Manticore"/>
 		<!-- T6: FOB and Improved Frag -->
 		<produceUnit unit="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha" requiredUpgrade="AstraMilitarum/BlastDamage">
 			<conditions>

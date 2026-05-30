@@ -36,9 +36,12 @@
 	<!-- ============= -->
 	<!-- Heroes -->
 	<!-- ============= -->
-	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommander" value="AAA Semtexian Artillery Staff-Sentinel-Master"/> <!-- Stabswachtmeister -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommander" value="AAA Semtexian Basilisk Staff-Sentinel-Master"/> <!-- Stabswachtmeister -->
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommanderDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BasiliskCommanderFlavor" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ManticoreCommander" value="AAA Semtexian Manticore Staff-Sentinel-Master"/> <!-- Stabswachtmeister -->
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ManticoreCommanderDescription" value=""/>
+	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_ManticoreCommanderFlavor" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBertha" value="AAA M42 &quot;Big Bertha&quot; Kurze Naval Cannon"/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBerthaDescription" value=""/>
 	<entry name="AstraMilitarum/uwu_SemtexianBombardiers_BigBerthaFlavor" value=""/>
