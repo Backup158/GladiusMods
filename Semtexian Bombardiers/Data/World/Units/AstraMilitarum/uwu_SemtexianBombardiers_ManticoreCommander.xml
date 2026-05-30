@@ -360,5 +360,17 @@
 		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
+		<!-- Semtexian Bombardiers -->
+		<trait name="AstraMilitarum/uwu_SemtexianBombardiers_Semtexian"/>
+		<trait name="Hero"/>
 	</traits>
+	<!-- Too Many Voices Integration -->
+	<responses>
+		<action name="AstraMilitarum/StormEagleRocketSalvo" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Attack" soundCount="7"/>
+		<action name="UseWeapon/HunterKillerMissile" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Attack" soundCount="7"/>
+		<action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Ability_Smoke" soundCount="1"/>
+		<attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Attack" soundCount="7"/>
+		<move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Move" soundCount="6"/>
+		<select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Basilisk_Select1" soundCount="1"/>
+	</responses>
 </unit>
