@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AstraMilitarum/uwu_SemtexianBombardiers_GuardsmanDiffuse"/>
+		<texture name="Units/AstraMilitarum/uwu_SemtexianBombardiers_GuardsmanNormal"/>
+		<texture name="Units/AstraMilitarum/uwu_SemtexianBombardiers_GuardsmanSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

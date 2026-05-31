@@ -2,7 +2,7 @@
 <unit>
 	<model>
 		<unit mesh="Units/AstraMilitarum/uwu_SemtexianBombardiers_Guardsman"
-				material="Units/AstraMilitarum/Guardsman"
+				material="Units/AstraMilitarum/uwu_SemtexianBombardiers_Guardsman"
 				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
