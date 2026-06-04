@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature visible="1">
+<feature visible="1" category="WireWeed">
 	<model>
+		<!-- 
 		<outpost/>
+		-->
+		<!--
+		<simpleModel mesh="Features/uwu_SemtexianBombardiers_HullDown"
+				material="Buildings/AstraMilitarum/Buildings"
+				groundMaterial="Features/ShardGround"/>
+		-->
+		<animals blueprint="Features/uwu_SemtexianBombardiers_HullDown"
+				mesh="Features/uwu_SemtexianBombardiers_HullDown"
+				material="Features/Grox"
+				groundMaterial="Features/ShardGround"/>
+		<!-- 
+		-->
 	</model>
 	<traits>
 		<trait name="uwu_SemtexianBombardiers_HullDown"/>
