@@ -4,6 +4,7 @@
 		<modifier>
 			<conditions>
 				<weapon>
+					<!-- Checks for Ordnance so the Howitzer gets range when lowered too, but not the laspistol -->
 					<trait name="Ordnance"/>
 				</weapon>
 			</conditions>
