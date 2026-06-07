@@ -144,7 +144,8 @@
 > Not Included: Scouts, Whirlwind
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739866867]Reinforcements - Word Bearers[/url]
-> Not Covered: Apothecary
+> Not Covered: Apothecary, Hunter, Possessed, Predator, Raptor, Stormraven Gunship, Stormtalon Gunship, Vindicator, Whirlwind
+>> I'll see if I can fudge something from the Rhino/Land Raider at a later date
 > Reused Lines
 >> Chaos Terminator: Accursed Terminator
 >> Dark Disciple: Dark Apostle, Dark Commune (Not attack since that already uses the HORRIFYING SCREAMING SOUND)
