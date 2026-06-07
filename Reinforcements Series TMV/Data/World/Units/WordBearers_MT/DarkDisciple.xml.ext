@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/DarkDisciple_Attack" soundCount="9"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/DarkDisciple_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/DarkDisciple_Select" soundCount="8"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/DarkDisciple_Complete" soundCount="1"/>
+  </responses>
+</unit>

@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement6">
+  <responses>
+    <action name="CreateSmokeScreen" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Ability_Smoke" soundCount="1"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Complete" soundCount="1"/>
+  </responses>
+</unit>

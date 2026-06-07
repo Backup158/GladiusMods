@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement3">
+  <responses>
+    <action name="CycleWeapon" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Obliterator_Ability_Cycle" soundCount="1"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Obliterator_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Obliterator_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Obliterator_Select" soundCount="4"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/Obliterator_Complete" soundCount="1"/>
+  </responses>
+</unit>

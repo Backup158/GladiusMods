@@ -17,6 +17,8 @@ Adds Snap-fire abilities to custom factions. See the Snap-fire mod page for more
 [/td][/tr]
 [tr][td]
 [h3]Malaikat's Faction (Reinforcements)[/h3]
+All of these are contained in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3718652092]Reinforcements AIO[/url]
+--------------------------------------
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3423726015]Reinforcements - Death Guard[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434234472]Reinforcements - World Eaters[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3447684780]Reinforcements - Thousand Sons[/url]
@@ -36,6 +38,7 @@ Adds Snap-fire abilities to custom factions. See the Snap-fire mod page for more
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3668349871]Reinforcements - Adeptus Custodes[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3682606879]Reinforcements - Skaven[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3732769331]Reinforcements - Raven Guard[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739866867]Reinforcements - Word Bearers[/url]
 [/td][/tr]
 [tr][td]
 [h3]Others[/h3]
@@ -48,7 +51,7 @@ You don't have to install all of them; it'll only patch the ones you have instal
 Feel free to request patches.
 
 [h1]Load Order[/h1]
-Shouldn't matter but I have these above (visually higher) the faction mods and Snap-fire. ex:
+Shouldn't matter but I have these above (visually higher) the faction mods and Snap-fire. E.g.
 [code]
 Snap-fire Patches for Custom Factions
 ADDON: Iron Hands

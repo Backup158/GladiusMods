@@ -142,3 +142,11 @@
 >> Stormraven Gunship: Thunderhawk Gunship
 >> Stormtalon Gunship: Xiphon Interceptor
 > Not Included: Scouts, Whirlwind
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739866867]Reinforcements - Word Bearers[/url]
+> Not Covered: Apothecary
+> Reused Lines
+>> Chaos Terminator: Accursed Terminator
+>> Dark Disciple: Dark Apostle, Dark Commune (Not attack since that already uses the HORRIFYING SCREAMING SOUND)
+>> Warpsmith: Diabolist
+>> Defiler: Dreadnought
