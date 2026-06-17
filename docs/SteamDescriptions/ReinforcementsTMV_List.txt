@@ -170,7 +170,7 @@ Diabolist
 [tr][td]Noctilith Crown[/td][td]
 Warp Portal
 [/td][/tr]
-[tr][td]Rhino, with Defiler selection sounds[/td][td]
+[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
 Hunter, Whirlwind
 [/td][/tr]
 [tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
@@ -182,7 +182,25 @@ Predator, Stormraven Gunship, Stormtalon Gunship, Vindicator
 Reused Lines
 [table]
 [tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Chaos Space Marines[/td][td]
+Raptors, Scout Biker, Terror Squad
+[/td][/tr]
+[tr][td]Chaos Lord[/td][td]
+Huntmaster
+[/td][/tr]
 [tr][td]Chaos Terminator[/td][td]
-Atramentar Flay Clade
+Atramentar Flay Clade, Contekar Terminator
+[/td][/tr]
+[tr][td]Havocs[/td][td]
+Destroyer Squad
+[/td][/tr]
+[tr][td]Warpsmith[/td][td]
+Chaos Sorcerer
+[/td][/tr]
+[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
+Xiphon Interceptor
+[/td][/tr]
+[tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
+Caestus Assault Ram, Sicaran
 [/td][/tr]
 [/table]
