@@ -182,11 +182,11 @@ Predator, Stormraven Gunship, Stormtalon Gunship, Vindicator
 Reused Lines
 [table]
 [tr][th]TMV Lines[/th][th]Unit[/th][/tr]
-[tr][td]Chaos Space Marines[/td][td]
-Raptors, Scout Biker, Terror Squad
-[/td][/tr]
 [tr][td]Chaos Lord[/td][td]
 Huntmaster
+[/td][/tr]
+[tr][td]Chaos Space Marines[/td][td]
+Raptors, Scout Biker, Terror Squad
 [/td][/tr]
 [tr][td]Chaos Terminator[/td][td]
 Atramentar Flay Clade, Contekar Terminator
