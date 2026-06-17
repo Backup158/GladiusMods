@@ -1,2 +1,13 @@
 <?xml version=1.0 encoding=utf-8?>
-<!-- TMV does have Baneblade lines, but that feels inappropriate to reuse -->
+<!-- Baneblade lines name themselves sometimes. #3 in movement. #1 in select. This the best we got though -->
+<responses>
+    <action name="UseWeapon/DeathstrikeMissile" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
+    <action name="UseWeapon/DeathstrikeMissileChemical" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
+    <action name="UseWeapon/DeathstrikeMissileWhitePhosphorus" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
+    <action name="UseWeapon/DeathstrikeMissileEMS" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
+    <action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Ability_Smoke" soundCount="1"/>
+    <attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Attack" soundCount="8"/>
+    <move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Move" soundCount="3"/>
+    <select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Select" soundCount="1"/>
+    <productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Baneblade_Complete" soundCount="1"/>
+</responses>

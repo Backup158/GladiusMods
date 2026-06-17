@@ -1,2 +1,12 @@
 <?xml version=1.0 encoding=utf-8?>
-<!-- TMV does have Rogal Dorn lines, but that feels inappropriate to reuse -->
+<!-- No Rogal Dorn Tank lines -->
+<!-- Leman Russ Tank can work. Names self in Attack6, Move7, and Select0 -->
+<unit>
+  <responses>
+    <action name="CreateSmokeScreen" sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Leman_Ability_Smoke" soundCount="1"/>
+    <attack sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Leman_Attack" soundCount="6"/>
+    <move sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Leman_Move" soundCount="7"/>
+    <!-- <select sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Leman_Select" soundCount="4"/> -->
+    <productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Vehicles/Leman_Complete" soundCount="1"/>
+  </responses>
+</unit>

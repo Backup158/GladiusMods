@@ -15,9 +15,21 @@
 >> TMV doesn't have additional sounds for Lictors
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3418952408]Reinforcements - Astra Militarum - New Units[/url]
-> Not covered: Earthshaker Carriage Battery, Hellhound, Malcador Infernus, Stormlord 
+> Not covered: Earthshaker Carriage Battery, Hellhound, [strike]Malcador Infernus, Stormlord[/strike]
 >> TMV doesn't have lines for Field Ordnance Batteries and Devil Dogs
->> There are lines for Rogal Dorns and Baneblades, but they mention the vehicle by name and felt inappropriate to copy over
+>> [strike] There are lines for Rogal Dorns and Baneblades, but they mention the vehicle by name and felt inappropriate to copy over[/strike]
+
+There aren't any Rogal Dorn Tank lines. I don't know why I thought that. Anyways, I found a workaround that lets me avoid some lines, if I was lucky enough that it was set up conveniently for that.
+
+[table]
+[tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Baneblade, with some variants removed[/td][td]
+Stormlord
+[/td][/tr]
+[tr][td]Leman Russ Battle Tank, with some variants removed[/td][td]
+Malcador Infernus
+[/td][/tr]
+[/table]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3419109732]Reinforcements - Increased Group Sizes for lowcost Units[/url]
 > Not covered; Drukhari, Sisters of Battle, Battalion of Field Ordnance Batteries, Battalion of Ratlings, Squad of Primaris Aggressors, Squad of Primaris Intercessors, Squad of Primaris Invader ATVs, Squad of Scouts, Squad of Storm Speeder Thunderstrikes, Squad of Whirlwinds
@@ -140,6 +152,7 @@ Fortress of Iron, Hammer of Olympia
 [tr][td]Noctilith Crown[/td][td]
 Bastion of Lyssatra, Bastion of Apolokron, Bastion of Dodekathon, Bastion of Kheledakos
 [/td][/tr]
+These could be Headquarters too, but I used the Noctilith Crown sounds for variety.
 [/table]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3596189688]Reinforcements - Chaos Knights[/url]
