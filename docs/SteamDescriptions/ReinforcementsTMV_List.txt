@@ -179,7 +179,6 @@ Predator, Stormraven Gunship, Stormtalon Gunship, Vindicator
 [/table]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3744551184]Reinforcements - Night Lords[/url]
-Reused Lines
 [table]
 [tr][th]TMV Lines[/th][th]Unit[/th][/tr]
 [tr][td]Chaos Lord[/td][td]
