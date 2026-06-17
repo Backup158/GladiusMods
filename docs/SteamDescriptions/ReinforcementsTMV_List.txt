@@ -147,8 +147,30 @@
 > Not Covered: Apothecary, Hunter, Possessed, Predator, Raptor, Stormraven Gunship, Stormtalon Gunship, Vindicator, Whirlwind
 >> I'll see if I can fudge something from the Rhino/Land Raider at a later date
 > Reused Lines
->> Chaos Terminator: Accursed Terminator
->> Dark Disciple: Dark Apostle, Dark Commune (Not attack since that already uses the HORRIFYING SCREAMING SOUND)
->> Warpsmith: Diabolist
->> Defiler: Dreadnought
->> Noctilith Crown: Warp Portal
+[table]
+[tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Chaos Terminator[/td][td]
+Accursed Terminator
+[/td][/tr]
+[tr][td]Dark Disciple[/td][td]
+Dark Apostle, Dark Commune (Not attack since that already uses the HORRIFYING SCREAMING SOUND)
+[/td][/tr]
+[tr][td]Warpsmith[/td][td]
+Diabolist
+[/td][/tr]
+[tr][td]Defiler[/td][td]
+Dreadnought
+[/td][/tr]
+[tr][td]Noctilith Crown[/td][td]
+Warp Portal
+[/td][/tr]
+[/table]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3744551184]Reinforcements - Night Lords[/url]
+Reused Lines
+[table]
+[tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Chaos Terminator[/td][td]
+Atramentar Flay Clade
+[/td][/tr]
+[/table]
