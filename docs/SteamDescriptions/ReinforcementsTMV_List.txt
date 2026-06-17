@@ -144,9 +144,6 @@
 > Not Included: Scouts, Whirlwind
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739866867]Reinforcements - Word Bearers[/url]
-> Not Covered: Apothecary, Raptor, 
->> I'll see if I can fudge something from the Rhino/Land Raider at a later date
-> Reused Lines
 [table]
 [tr][th]TMV Lines[/th][th]Unit[/th][/tr]
 [tr][td]Chaos Terminator[/td][td]
@@ -168,7 +165,7 @@ Dreadnought
 Warp Portal
 [/td][/tr]
 [tr][td]Chaos Space Marines[/td][td]
-Raptors
+Apothecary, Raptors
 [/td][/tr]
 [tr][td]Chaos Spawn[/td][td]
 Possessed
