@@ -153,7 +153,10 @@
 Accursed Terminator
 [/td][/tr]
 [tr][td]Dark Disciple[/td][td]
-Dark Apostle, Dark Commune (Not attack since that already uses the HORRIFYING SCREAMING SOUND)
+Dark Commune (Not attack since that already uses the HORRIFYING SCREAMING SOUND)
+[/td][/tr]
+[tr][td]Master of Possession[/td][td]
+Dark Apostle
 [/td][/tr]
 [tr][td]Warpsmith[/td][td]
 Diabolist
