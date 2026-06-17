@@ -1,2 +1,11 @@
 <?xml version=1.0 encoding=utf-8?>
-<!-- No appropriate lines -->
+<!-- Land Raider, with Defiler completed. Landraider select3 says name -->
+<unit>
+  <responses>
+    <action name="CreateSmokeScreen" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Ability_Smoke" soundCount="1"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/ChaosLandraider_Select" soundCount="3"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Defiler_Neutral" soundCount="3"/>
+  </responses>
+</unit>

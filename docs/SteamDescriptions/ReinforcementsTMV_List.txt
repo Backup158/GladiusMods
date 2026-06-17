@@ -108,7 +108,6 @@
 >> Trygon (Heavy): Patriarch
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3589429762]Reinforcements - Iron Warriors[/url]
-> Not Covered: Arquitor, Artillery, Basilisk, Hunter, Medusa, Predator, Thunderfire Cannon, Vindicator, Warhound TItan. So many loyalist lines.
 [table]
 [tr][th]TMV Lines[/th][th]Unit[/th][/tr]
 [tr][td]Chaos Cultist[/td][td]
@@ -123,17 +122,20 @@ Assault Terminator, Siege Terminator
 [tr][td]Havoc[/td][td]
 Legion Destroyer Squad, Legion Despoiler Squad
 [/td][/tr]
-[tr][td]Warp Talon[/td][td]
-Hell Talon
+[tr][td]Greater Brass Scorpion[/td][td]
+Reaver Titan, Warhound Titan
 [/td][/tr]
-[tr][td]Chaos Rhino[/td][td]
-
+[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
+Basilisk, Hunter, Medusa, Thunderfire Cannon
+[/td][/tr]
+[tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
+Arquitor, Hell Talon, Predator, Vindicator
 [/td][/tr]
 [tr][td]Warpsmith[/td][td]
 Warsmith
 [/td][/tr]
 [tr][td]Headquarters[/td][td]
-Fortress
+Fortress of Iron, Hammer of Olympia
 [/td][/tr]
 [tr][td]Noctilith Crown[/td][td]
 Bastion of Lyssatra, Bastion of Apolokron, Bastion of Dodekathon, Bastion of Kheledakos
