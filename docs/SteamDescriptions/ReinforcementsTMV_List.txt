@@ -144,7 +144,7 @@
 > Not Included: Scouts, Whirlwind
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739866867]Reinforcements - Word Bearers[/url]
-> Not Covered: Apothecary, Hunter, Possessed, Predator, Raptor, Stormraven Gunship, Stormtalon Gunship, Vindicator, Whirlwind
+> Not Covered: Apothecary, Possessed, Predator, Raptor, Stormraven Gunship, Stormtalon Gunship, Vindicator
 >> I'll see if I can fudge something from the Rhino/Land Raider at a later date
 > Reused Lines
 [table]
@@ -166,6 +166,12 @@ Dreadnought
 [/td][/tr]
 [tr][td]Noctilith Crown[/td][td]
 Warp Portal
+[/td][/tr]
+[tr][td]Chaos Spawn[/td][td]
+Possessed
+[/td][/tr]
+[tr][td]Rhino, with Defiler selection sounds[/td][td]
+Hunter, Whirlwind
 [/td][/tr]
 [/table]
 
