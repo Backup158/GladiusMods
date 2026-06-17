@@ -146,11 +146,20 @@
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739866867]Reinforcements - Word Bearers[/url]
 [table]
 [tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Chaos Space Marines[/td][td]
+Apothecary, Raptors
+[/td][/tr]
+[tr][td]Chaos Spawn[/td][td]
+Possessed
+[/td][/tr]
 [tr][td]Chaos Terminator[/td][td]
 Accursed Terminator
 [/td][/tr]
 [tr][td]Dark Disciple[/td][td]
 Dark Commune (Not attack since that already uses the HORRIFYING SCREAMING SOUND)
+[/td][/tr]
+[tr][td]Defiler[/td][td]
+Dreadnought
 [/td][/tr]
 [tr][td]Master of Possession[/td][td]
 Dark Apostle
@@ -158,17 +167,8 @@ Dark Apostle
 [tr][td]Warpsmith[/td][td]
 Diabolist
 [/td][/tr]
-[tr][td]Defiler[/td][td]
-Dreadnought
-[/td][/tr]
 [tr][td]Noctilith Crown[/td][td]
 Warp Portal
-[/td][/tr]
-[tr][td]Chaos Space Marines[/td][td]
-Apothecary, Raptors
-[/td][/tr]
-[tr][td]Chaos Spawn[/td][td]
-Possessed
 [/td][/tr]
 [tr][td]Rhino, with Defiler selection sounds[/td][td]
 Hunter, Whirlwind
