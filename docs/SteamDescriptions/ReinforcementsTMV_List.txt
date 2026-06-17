@@ -108,16 +108,37 @@
 >> Trygon (Heavy): Patriarch
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3589429762]Reinforcements - Iron Warriors[/url]
-> Not Covered: Arquitor, Artillery, Basilisk, Chaos Land Raider, Chaos Rhino, Hunter, Medusa, Predator, Thunderfire Cannon, Vindicator, Warhound TItan. So many loyalist lines.
-> Reused Lines
->> Chaos Cultist: Techpriest Enginseer
->> Chaos Space Marine: Chaos Space Marine Flamer
->> Chaos Terminator: Assault Terminator, Siege Terminator
->> Havoc: Havoc Multi Melta, Havoc Shrapnel Cannon
->> Headquarters: Fortress
->> Noctilith Crown: BastionEnergy, BastionFood, BastionOre, BastionResearch
->> Warp Talon: Hell Talon
->> Warpsmith: Warsmith
+> Not Covered: Arquitor, Artillery, Basilisk, Hunter, Medusa, Predator, Thunderfire Cannon, Vindicator, Warhound TItan. So many loyalist lines.
+[table]
+[tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Chaos Cultist[/td][td]
+Techpriest Enginseer
+[/td][/tr]
+[tr][td]Chaos Space Marine[/td][td]
+Legion Tactical Squad, Legion Breach Squad
+[/td][/tr]
+[tr][td]Chaos Terminator[/td][td]
+Assault Terminator, Siege Terminator
+[/td][/tr]
+[tr][td]Havoc[/td][td]
+Legion Destroyer Squad, Legion Despoiler Squad
+[/td][/tr]
+[tr][td]Warp Talon[/td][td]
+Hell Talon
+[/td][/tr]
+[tr][td]Chaos Rhino[/td][td]
+
+[/td][/tr]
+[tr][td]Warpsmith[/td][td]
+Warsmith
+[/td][/tr]
+[tr][td]Headquarters[/td][td]
+Fortress
+[/td][/tr]
+[tr][td]Noctilith Crown[/td][td]
+Bastion of Lyssatra, Bastion of Apolokron, Bastion of Dodekathon, Bastion of Kheledakos
+[/td][/tr]
+[/table]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3596189688]Reinforcements - Chaos Knights[/url]
 > Not Covered: Knight Abominant, Knight Desecrator, Knight Tyrant, War Dog Brigand, War Dog Karnivore, and War Dog Stalker
