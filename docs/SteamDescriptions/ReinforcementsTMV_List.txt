@@ -44,9 +44,39 @@ Malcador Infernus
 >> Existing Chaos hero lines don't really match the vibes of each unit
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3447684780]Reinforcements - Thousand Sons[/url]
+[strike]
 > Not covered: Aspiring Sorcerer, Cult Guard, Cult Sorcerer, Rubric Devastator, Rubric Havoc, Rubric Marine, Rubric Sorcerer, Predator Destructor, Vindicator, Whirlwind Scorpius
 >> Most don't have appropriate Chaos lines (most lines are explicitly loyalist)
 >> Kept Rubric units silent on purpose because I don't see why the sorcerers would command them to talk
+[/strike]
+
+I still kept the Rubric units silent.
+
+Not covered: Rubric Devastator, Rubric Havoc, Rubric Marine, Rubric Rhino
+[table]
+[tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Bullgryns[/td][td]
+Cult Guard
+[/td][/tr]
+[tr][td]Chaos Land Raider[/td][td]
+Land Raider Proteus
+[/td][/tr]
+[tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
+Predator Destructor, Vindicator
+[/td][/tr]
+[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
+Whirlwind Scorpius
+[/td][/tr]
+[tr][td]Heldrake[/td][td]
+Hell Talon
+[/td][/tr]
+[tr][td]Master of Possession[/td][td]
+Aspiring Sorcerer, Infernal Master, Rubric Sorcerer
+[/td][/tr]
+[tr][td]Warpsmith[/td][td]
+Exalted Sorcerer
+[/td][/tr]
+[/table]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3460070932]Reinforcements - Collegia Titanica[/url]
 > Not covered: Field Ordnance Batteries, Imperator Titan, Reaver Titan, Warhound Titan, Warlord Titan, Princeps, Princeps Seniores, Ordo Sinster Princeps

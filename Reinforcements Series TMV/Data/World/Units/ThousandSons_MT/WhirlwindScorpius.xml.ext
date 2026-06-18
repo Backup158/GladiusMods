@@ -1,0 +1,13 @@
+<?xml version=1.0 encoding=utf-8?>
+<!-- Rhino, with Defiler selection -->
+<unit>
+  <responses>
+    <action name="CreateSmokeScreen" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Rhino_Ability_Smoke" soundCount="1"/>
+    <action name="ChaosSpaceMarines/SelfRepair" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Rhino_Ability_Heal" soundCount="1"/>
+    <action name="UseWeapon/DestroyerBlades" sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Rhino_Ability_Attack" soundCount="8"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Rhino_Attack" soundCount="8"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Rhino_Move" soundCount="8"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Defiler_Neutral" soundCount="3"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Vehicles/Rhino_Complete" soundCount="1"/>
+  </responses>
+</unit>
