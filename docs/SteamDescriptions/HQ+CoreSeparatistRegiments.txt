@@ -1,0 +1,12 @@
+
+Adds core infantry unit production to headquarters for the Separatist Regiments faction. See the HQ+ Core Units Production mod page for more details. 
+
+[h1]Load Order[/h1]
+Exact order shouldn't matter, but I have these above (visually higher) the faction mod and HQ+.
+[code]
+HQ+Core Unit for Separatist Regiments Faction
+Separatist Regiments
+HQ+Core Unit Production
+[/code]
+
+Technically this doesn't require HQ+ but it'd be weird to use this without it.
