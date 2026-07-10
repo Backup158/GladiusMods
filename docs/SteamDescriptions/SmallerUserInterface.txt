@@ -10,17 +10,9 @@ Reduces size of notifications list and hides player name in the top bar.
 [/list]
 [/td][/tr]
 [tr][td]
-[h3]Top Left Actions[/h3]
-This includes the player actions (edicts, Chaos marks, etc.) and unclaimed items.
-[list]
-[*] Reduces size to 75%
-[/list]
-[/td][/tr]
-[tr][td]
 [h3]Bottom Right UI[/h3]
 This includes the notifications log, end turn button, and minimap
 [list]
-[*] Reduces size to ~80%
 [*] Reduces the size of the notifications log to 50%
 [*] Reduces the size of the End Turn button to 75%. I have Next Action bound to a convenient key, so I don't click this often.
 [/list]

@@ -38,6 +38,7 @@
 				<world:itemsPanel name="itemsPanel" preferredSize="156 WrapContent"/>
 				<world:cargoPanel name="cargoPanel" preferredSize="180 WrapContent"/>
 			</container>
+			<!-- Chat -->
 			<container layout="Relative" layout.alignment="BottomRight" 
 				layout.collapseInvisible="1" preferredSize="FillParent FillParent" weights="1 FillAll">
 				<chatContainer name="chatContainer" preferredSize="356 210"/>
