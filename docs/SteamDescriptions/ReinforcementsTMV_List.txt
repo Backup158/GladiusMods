@@ -269,3 +269,18 @@ Xiphon Interceptor
 Caestus Assault Ram, Sicaran
 [/td][/tr]
 [/table]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3754807015]Reinforcements - Alpha Legion[/url]
+[table]
+[tr][th]TMV Lines[/th][th]Unit[/th][/tr]
+[tr][td]Chaos Lord[/td][td]
+Huntmaster
+[/td][/tr]
+
+[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
+Xiphon Interceptor
+[/td][/tr]
+[tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
+Caestus Assault Ram, Sicaran
+[/td][/tr]
+[/table]
