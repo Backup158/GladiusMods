@@ -11,6 +11,15 @@ Reduces size of notifications list and hides player name in the top bar.
 [/list]
 
 [h2]Compatibility[/h2]
-Completely replaces [b]NotificationListItem.xml[/b] and [b]TopBar.xml[/b], so it's not compatible with other mods which do so.
+Completely replaces these files:
+[table]
+[tr][td]
+[u]Located at [b]GUI/Blueprints/World/[/b][/u]
+NotificationListItem.xml
+TopBar.xml
+WorldHUD.xml
+[/td][/tr]
+[/table]
+So this is not compatible with mods which edit these mods. Only one of the mods will win; usually the one on top (visually higher in the load order).
 
 I use this with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3395268149]Nameless[/url] to hide unit and region names.
