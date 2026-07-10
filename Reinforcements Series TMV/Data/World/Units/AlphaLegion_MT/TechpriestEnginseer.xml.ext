@@ -1,1 +1,14 @@
 <?xml version=1.0 encoding=utf-8?>
+<unit spawnCountMax="1" productionWeight="0.01">
+  <responses>
+    <action name="FoundCity" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Ability_FoundCity" soundCount="1"/>
+    <action name="ClearTile" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Ability_ClearTile" soundCount="1"/>
+    <action name="BlessingsOfTheOmnissiah" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Ability_Heal" soundCount="1"/>
+    <action name="AwakenTheMachine" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Ability_Buff" soundCount="1"/>
+    <action name="ConstructImperialStrongpoint" sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Ability_Fort" soundCount="1"/>
+    <attack sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Attack" soundCount="8"/>
+    <move sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Move" soundCount="8"/>
+    <select sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Select" soundCount="4"/>
+    <productionCompleted sound="Units/AstraMilitarum/TooManyVoices/Infantry/Enginseer_Complete" soundCount="1"/>
+  </responses>
+</unit>

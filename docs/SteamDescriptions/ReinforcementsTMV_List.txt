@@ -272,13 +272,22 @@ Caestus Assault Ram, Sicaran
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3754807015]Reinforcements - Alpha Legion[/url]
 [table]
+> Not included
+>> Devestator Centurion: No TMV lines
+>> Exodus: I didn't know what to use for him lol. Strong silent mysterious man with a big package.
+>> Mortifactor: I was going to mix lines but got lazy.
 [tr][th]TMV Lines[/th][th]Unit[/th][/tr]
-[tr][td]Chaos Lord[/td][td]
-Huntmaster
+[tr][td]Tactical Space Marines[/td][td]
+Headhunter Kill Team (Loyalist)
 [/td][/tr]
-
+[tr][td]Terminator[/td][td]
+Assault Terminator
+[/td][/tr]
+[tr][td]Chaos Space Marines[/td][td]
+Headhunter Kill Team (Traitor), Raptors
+[/td][/tr]
 [tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
-Xiphon Interceptor
+Land Speeder Chaos
 [/td][/tr]
 [tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
 Caestus Assault Ram, Sicaran
