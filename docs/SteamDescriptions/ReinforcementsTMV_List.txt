@@ -286,10 +286,10 @@ Assault Terminator
 [tr][td]Chaos Space Marines[/td][td]
 Headhunter Kill Team (Traitor), Raptors
 [/td][/tr]
-[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
-Land Speeder Chaos
+[tr][td]Chaos Terminator[/td][td]
+Lernaean Terminator
 [/td][/tr]
-[tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
-Caestus Assault Ram, Sicaran
+[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
+Land Speeder (Traitor)
 [/td][/tr]
 [/table]
