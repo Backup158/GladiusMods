@@ -12,7 +12,8 @@
 					<world:cityBuildingsPanel name="cityBuildingsPanel"
 						preferredSize="FillParent FillParent" weights="FillAll 1"/>
 				</container>
-				<container layout.alignment="TopLeft" layout.collapseInvisible="1" preferredSize="444 FillParent">
+				<!-- Top Left. Edicts, Items, etc. From 444 -->
+				<container layout.alignment="TopLeft" layout.collapseInvisible="1" preferredSize="333 FillParent">
 					<world:playerActionsPanel name="playerActionsPanel"
 						preferredSize="FillParent WrapContent"/>
 						<!-- preferredSize="WrapContent WrapContent" minSize="222 0" maxSize="444 0"/> -->
