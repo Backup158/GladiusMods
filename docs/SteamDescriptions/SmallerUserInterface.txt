@@ -1,5 +1,6 @@
 Reduces size of notifications list and hides player name in the top bar.
 
+[h2]UI Changes Made[/h2]
 [list]
 [*] Reduces size of bottom right UI to ~80%
 [list]
