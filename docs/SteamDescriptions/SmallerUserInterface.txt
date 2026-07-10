@@ -1,7 +1,11 @@
 Reduces size of notifications list and hides player name in the top bar.
 
 [list]
-[*] Halves the size of the notifications on the right-hand side
+[*] Reduces size of bottom right UI to ~80%
+[list]
+[*] Reduces the size of the notifications log to 50%
+[*] Reduces the size of the End Turn button to 75%. I have Next Action bound to a convenient key, so I don't click this often.
+[/list]
 [*] Hides the player name in the top bar (including the "Achievements disabled" message after opening the Debug menu)
 [*] Reduces the size of the "Menu" button. This should still fit most languages, but I suspect the text may get cut off when the game is in German.
 [/list]
