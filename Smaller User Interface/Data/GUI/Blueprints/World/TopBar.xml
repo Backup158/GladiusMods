@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:topBar extends="ContentContainer" surface.texture="GUI/TopBar" content.margin="4 4">
+	<container layout.alignment="MiddleLeft" preferredSize="FillParent FillParent" weights="2 FillAll">
+		<label name="resourcesLabel" alignment="MiddleLeft" preferredSize="WrapContent FillParent" style="<style name='Heading'/>"/>
+	</container>
+	<container layout.alignment="MiddleCenter" preferredSize="FillParent FillParent" weights="1 FillAll">
+		<label name="turnLabel" alignment="MiddleCenter" preferredSize="FillParent FillParent" style="<style name='Heading'/>"/>
+	</container>
+	<!-- Hides Player Label with visible=0 -->
+	<!-- Menu button made smaller. From 148. Just enough for "Menu" -->
+	<container layout.alignment="MiddleRight" layout.gap="8 8" preferredSize="FillParent FillParent" weights="2 FillAll">
+		<label name="playerLabel" alignment="MiddleRight" preferredSize="FillParent FillParent" weights="1 FillAll" style="<style name='Heading'/>" visible="0"/>
+		<button name="menuButton" preferredSize="80 FillParent" label.caption="<string name='GUI/Menu'/>" control="Controls/Cancel"/>
+	</container>
+</world:topBar>
