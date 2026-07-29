@@ -293,3 +293,22 @@ Lernaean Terminator
 Land Speeder (Traitor)
 [/td][/tr]
 [/table]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3773456041]Reinforcements - Chaos Daemons[/url]
+[table]
+[tr][td]Chaos Space Marines[/td][td]
+
+[/td][/tr]
+[tr][td]Chaos Land Raider[/td][td]
+
+[/td][/tr]
+[tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
+
+[/td][/tr]
+[tr][td]Chaos Spawn[/td][td]
+
+[/td][/tr]
+[tr][td]Noctilith Crown[/td][td]
+Warp Rift
+[/td][/tr]
+[/table]

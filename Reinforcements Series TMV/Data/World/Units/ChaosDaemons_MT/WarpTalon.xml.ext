@@ -1,0 +1,10 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit dlc="Supplement3">
+  <responses>
+    <action name="ChaosSpaceMarines/WarpflameStrike" sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/WarpTalon_Aggressive" soundCount="3"/>
+    <attack sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/WarpTalon_Aggressive" soundCount="3"/>
+    <move sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/WarpTalon_Neutral" soundCount="3"/>
+    <select sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/WarpTalon_Neutral" soundCount="3"/>
+    <productionCompleted sound="Units/ChaosSpaceMarines/TooManyVoices/Infantry/WarpTalon_Neutral" soundCount="3"/>
+  </responses>
+</unit>
