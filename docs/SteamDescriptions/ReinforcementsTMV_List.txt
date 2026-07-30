@@ -300,19 +300,25 @@ Land Speeder (Traitor)
 Heavy Weapons Team
 [/td][/tr]
 [tr][td]Chaos Spawn[/td][td]
-Bloodletter, Blue Horror, Daemonette, Plaguebearer, Sloppity Bilepiper
+Bloodletter, Blue Horror, Changecaster, Daemonette, Infernal Rapturess, Plaguebearer, Sloppity Bilepiper
 [/td][/tr]
 [tr][td]Khorne Berzerker[/td][td]
 Lord Commissar (a bit weird but the Hero lines are too strong for this)
 [/td][/tr]
 [tr][td]Maulerfiend[/td][td]
-Bloodcrusher, Bullgryns, Burning Chariot
+Bloodcrusher, Bullgryns, Burning Chariot, Seeker
 [/td][/tr]
 [tr][td]Greater Brass Scorpion of Khorne[/td][td]
 Knight Desecrator, War Dog Stalker
 [/td][/tr]
 [tr][td]Helbrute[/td][td]
 All Soul Grinders
+[/td][/tr]
+[tr][td]Heldrake[/td][td]
+Flamer, Screamer
+[/td][/tr]
+[tr][td]Venomcrawler[/td][td]
+Bloodmaster
 [/td][/tr]
 [tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
 Hydra, Scout Sentinel
