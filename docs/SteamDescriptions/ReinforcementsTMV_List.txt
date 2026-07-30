@@ -312,7 +312,7 @@ Knight Desecrator, War Dog Stalker
 Hydra, Scout Sentinel
 [/td][/tr]
 [tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
-
+Leman Russ Battle Tank
 [/td][/tr]
 [tr][td]Chaos Spawn[/td][td]
 
