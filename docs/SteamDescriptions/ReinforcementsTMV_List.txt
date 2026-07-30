@@ -308,6 +308,9 @@ Bullgryns
 [tr][td]Greater Brass Scorpion of Khorne[/td][td]
 Knight Desecrator, War Dog Stalker
 [/td][/tr]
+[tr][td]Helbrute[/td][td]
+All Soul Grinders
+[/td][/tr]
 [tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
 Hydra, Scout Sentinel
 [/td][/tr]
