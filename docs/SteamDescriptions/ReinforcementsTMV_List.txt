@@ -296,13 +296,22 @@ Land Speeder (Traitor)
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3773456041]Reinforcements - Chaos Daemons[/url]
 [table]
+[tr][td]Chaos Cultist[/td][td]
+Heavy Weapons Team, 
+[/td][/tr]
 [tr][td]Chaos Space Marines[/td][td]
 
 [/td][/tr]
-[tr][td]Chaos Land Raider[/td][td]
-
+[tr][td]Maulerfiend[/td][td]
+Bullgryns
+[/td][/tr]
+[tr][td]Greater Brass Scorpion of Khorne[/td][td]
+Knight Desecrator, War Dog Stalker
 [/td][/tr]
 [tr][td]Chaos Rhino, with Defiler selection sounds[/td][td]
+Hydra, Scout Sentinel
+[/td][/tr]
+[tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
 
 [/td][/tr]
 [tr][td]Chaos Spawn[/td][td]
