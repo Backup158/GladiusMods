@@ -296,6 +296,8 @@ Land Speeder (Traitor)
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3773456041]Reinforcements - Chaos Daemons[/url]
 [table]
+> Not included
+>> Beast of Nurgle, Belakor, Bloodthirster, Great Unclean One, Keeper of Secrets, Lord of Change
 [tr][td]Chaos Cultist[/td][td]
 Heavy Weapons Team
 [/td][/tr]
@@ -307,6 +309,9 @@ Lord Commissar (a bit weird but the Hero lines are too strong for this)
 [/td][/tr]
 [tr][td]Vespid Stingwings[/td][td]
 Plague Drone
+[/td][/tr]
+[tr][td]Forgefiend[/td][td]
+Skullcannons
 [/td][/tr]
 [tr][td]Greater Brass Scorpion of Khorne[/td][td]
 Knight Desecrator, War Dog Stalker
