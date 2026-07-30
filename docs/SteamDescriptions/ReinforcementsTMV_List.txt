@@ -299,8 +299,8 @@ Land Speeder (Traitor)
 [tr][td]Chaos Cultist[/td][td]
 Heavy Weapons Team, 
 [/td][/tr]
-[tr][td]Chaos Space Marines[/td][td]
-
+[tr][td]Khorne Berzerker[/td][td]
+Lord Commissar (a bit weird but the Hero lines are too strong for this)
 [/td][/tr]
 [tr][td]Maulerfiend[/td][td]
 Bullgryns
