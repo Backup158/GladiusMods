@@ -1,0 +1,8 @@
+<?xml version=1.0 encoding=utf-8?>
+<unit>
+  <responses>
+    <attack sound="Units/Neutral/TooManyVoices/Infantry/VespidStingwing_Aggressive" soundCount="3"/>
+    <move sound="Units/Neutral/TooManyVoices/Infantry/VespidStingwing_Neutral" soundCount="3"/>
+    <select sound="Units/Neutral/TooManyVoices/Infantry/VespidStingwing_Neutral" soundCount="3"/>
+  </responses>
+</unit>

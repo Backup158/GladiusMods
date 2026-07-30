@@ -305,8 +305,8 @@ Bloodletter, Blue Horror, Changecaster, Daemonette, Infernal Rapturess, Plaguebe
 [tr][td]Khorne Berzerker[/td][td]
 Lord Commissar (a bit weird but the Hero lines are too strong for this)
 [/td][/tr]
-[tr][td]Maulerfiend[/td][td]
-Bloodcrusher, Bullgryns, Burning Chariot, Seeker
+[tr][td]Vespid Stingwings[/td][td]
+Plague Drone
 [/td][/tr]
 [tr][td]Greater Brass Scorpion of Khorne[/td][td]
 Knight Desecrator, War Dog Stalker
@@ -316,6 +316,9 @@ All Soul Grinders
 [/td][/tr]
 [tr][td]Heldrake[/td][td]
 Flamer, Screamer
+[/td][/tr]
+[tr][td]Maulerfiend[/td][td]
+Bloodcrusher, Bullgryns, Burning Chariot, Seeker
 [/td][/tr]
 [tr][td]Venomcrawler[/td][td]
 Bloodmaster
