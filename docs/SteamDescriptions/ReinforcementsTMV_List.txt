@@ -297,13 +297,16 @@ Land Speeder (Traitor)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3773456041]Reinforcements - Chaos Daemons[/url]
 [table]
 [tr][td]Chaos Cultist[/td][td]
-Heavy Weapons Team, 
+Heavy Weapons Team
+[/td][/tr]
+[tr][td]Chaos Spawn[/td][td]
+Bloodletter, Blue Horror, Daemonette, Plaguebearer, Sloppity Bilepiper
 [/td][/tr]
 [tr][td]Khorne Berzerker[/td][td]
 Lord Commissar (a bit weird but the Hero lines are too strong for this)
 [/td][/tr]
 [tr][td]Maulerfiend[/td][td]
-Bullgryns
+Bloodcrusher, Bullgryns, Burning Chariot
 [/td][/tr]
 [tr][td]Greater Brass Scorpion of Khorne[/td][td]
 Knight Desecrator, War Dog Stalker
@@ -316,9 +319,6 @@ Hydra, Scout Sentinel
 [/td][/tr]
 [tr][td]Chaos Land Raider, with Defiler production completed sounds[/td][td]
 Leman Russ Battle Tank
-[/td][/tr]
-[tr][td]Chaos Spawn[/td][td]
-
 [/td][/tr]
 [tr][td]Noctilith Crown[/td][td]
 Warp Rift
