@@ -689,6 +689,21 @@
 	<!-- ============================= -->
 	<!-- Others -->
 	<!-- ============================= -->
+	<!-- Vlka Fenryka -->
+	<entry name="Difficulty0VlkaFenryka" value="Tribesman"/>
+	<entry name="Difficulty1VlkaFenryka" value="Blood Claw"/>
+	<entry name="Difficulty2VlkaFenryka" value="Grey Hunter"/>
+	<entry name="Difficulty3VlkaFenryka" value="Wolf Guard-"/>
+	<entry name="Difficulty4VlkaFenryka" value="Wolf Guard"/>
+	<entry name="Difficulty5VlkaFenryka" value="Wolf Guard+"/>
+	<entry name="Difficulty6VlkaFenryka" value="Wolf Lord-"/>
+	<entry name="Difficulty7VlkaFenryka" value="Wolf Lord"/>
+	<entry name="Difficulty8VlkaFenryka" value="The Great Wolf-"/>
+	<entry name="Difficulty9VlkaFenryka" value="The Great Wolf"/>
+	<entry name="Difficulty10VlkaFenryka" value="Leman Russ-"/>
+	<entry name="Difficulty11VlkaFenryka" value="Leman Russ"/>
+	<entry name="Difficulty12VlkaFenryka" value="Leman Russ+"/>
+	
 	<!-- Separatist Regiments -->
 	<entry name="Difficulty0SeparatistRegiments" value="Conscript"/>
 	<entry name="Difficulty1SeparatistRegiments" value="Guardsman"/>
