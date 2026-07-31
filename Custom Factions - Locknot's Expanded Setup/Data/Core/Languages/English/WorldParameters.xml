@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- ============================= -->
+	<!-- Chapters of the Imperium -->
+	<!-- ============================= -->
+    <!-- Imperial Fists -->
+	<entry name="Difficulty0ImperialFists" value="Neophyte"/>
+	<entry name="Difficulty1ImperialFists" value="Battle-Brother"/>
+	<entry name="Difficulty2ImperialFists" value="Sergeant"/>
+	<entry name="Difficulty3ImperialFists" value="Captain-"/>
+	<entry name="Difficulty4ImperialFists" value="Captain"/>
+	<entry name="Difficulty5ImperialFists" value="Captain+"/>
+	<entry name="Difficulty6ImperialFists" value="Chapter-Master-"/>
+	<entry name="Difficulty7ImperialFists" value="Chapter-Master"/>
+	<entry name="Difficulty8ImperialFists" value="Primarch-"/>
+	<entry name="Difficulty9ImperialFists" value="Primarch"/>
+	<entry name="Difficulty10ImperialFists" value="Emperor-"/>
+	<entry name="Difficulty11ImperialFists" value="Emperor"/>
+	<entry name="Difficulty12ImperialFists" value="Emperor+"/>
+    <!-- White Scars -->
+	<entry name="Difficulty0WhiteScars" value="Neophyte"/>
+	<entry name="Difficulty1WhiteScars" value="Battle-Brother"/>
+	<entry name="Difficulty2WhiteScars" value="Sergeant"/>
+	<entry name="Difficulty3WhiteScars" value="Captain-"/>
+	<entry name="Difficulty4WhiteScars" value="Captain"/>
+	<entry name="Difficulty5WhiteScars" value="Captain+"/>
+	<entry name="Difficulty6WhiteScars" value="Chapter-Master-"/>
+	<entry name="Difficulty7WhiteScars" value="Chapter-Master"/>
+	<entry name="Difficulty8WhiteScars" value="Primarch-"/>
+	<entry name="Difficulty9WhiteScars" value="Primarch"/>
+	<entry name="Difficulty10WhiteScars" value="Emperor-"/>
+	<entry name="Difficulty11WhiteScars" value="Emperor"/>
+	<entry name="Difficulty12WhiteScars" value="Emperor+"/>
+    <!-- Salamanders -->
+	<entry name="Difficulty0Salamanders" value="Neophyte"/>
+	<entry name="Difficulty1Salamanders" value="Battle-Brother"/>
+	<entry name="Difficulty2Salamanders" value="Sergeant"/>
+	<entry name="Difficulty3Salamanders" value="Captain-"/>
+	<entry name="Difficulty4Salamanders" value="Captain"/>
+	<entry name="Difficulty5Salamanders" value="Captain+"/>
+	<entry name="Difficulty6Salamanders" value="Chapter-Master-"/>
+	<entry name="Difficulty7Salamanders" value="Chapter-Master"/>
+	<entry name="Difficulty8Salamanders" value="Primarch-"/>
+	<entry name="Difficulty9Salamanders" value="Primarch"/>
+	<entry name="Difficulty10Salamanders" value="Emperor-"/>
+	<entry name="Difficulty11Salamanders" value="Emperor"/>
+	<entry name="Difficulty12Salamanders" value="Emperor+"/>
+    <!-- Ultramarines -->
+	<entry name="Difficulty0Ultramarines" value="Neophyte"/>
+	<entry name="Difficulty1Ultramarines" value="Battle-Brother"/>
+	<entry name="Difficulty2Ultramarines" value="Sergeant"/>
+	<entry name="Difficulty3Ultramarines" value="Captain-"/>
+	<entry name="Difficulty4Ultramarines" value="Captain"/>
+	<entry name="Difficulty5Ultramarines" value="Captain+"/>
+	<entry name="Difficulty6Ultramarines" value="Chapter-Master-"/>
+	<entry name="Difficulty7Ultramarines" value="Chapter-Master"/>
+	<entry name="Difficulty8Ultramarines" value="Primarch-"/>
+	<entry name="Difficulty9Ultramarines" value="Primarch"/>
+	<entry name="Difficulty10Ultramarines" value="Emperor-"/>
+	<entry name="Difficulty11Ultramarines" value="Emperor"/>
+	<entry name="Difficulty12Ultramarines" value="Emperor+"/>
+    <!-- Black Templars -->
+	<entry name="Difficulty0BlackTemplars" value="Neophyte"/>
+	<entry name="Difficulty1BlackTemplars" value="Battle-Brother"/>
+	<entry name="Difficulty2BlackTemplars" value="Sergeant"/>
+	<entry name="Difficulty3BlackTemplars" value="Captain-"/>
+	<entry name="Difficulty4BlackTemplars" value="Captain"/>
+	<entry name="Difficulty5BlackTemplars" value="Captain+"/>
+	<entry name="Difficulty6BlackTemplars" value="Chapter-Master-"/>
+	<entry name="Difficulty7BlackTemplars" value="Chapter-Master"/>
+	<entry name="Difficulty8BlackTemplars" value="Primarch-"/>
+	<entry name="Difficulty9BlackTemplars" value="Primarch"/>
+	<entry name="Difficulty10BlackTemplars" value="Emperor-"/>
+	<entry name="Difficulty11BlackTemplars" value="Emperor"/>
+	<entry name="Difficulty12BlackTemplars" value="Emperor+"/>
+    <!-- Novamarines -->
+	<entry name="Difficulty0Novamarines" value="Neophyte"/>
+	<entry name="Difficulty1Novamarines" value="Battle-Brother"/>
+	<entry name="Difficulty2Novamarines" value="Sergeant"/>
+	<entry name="Difficulty3Novamarines" value="Captain-"/>
+	<entry name="Difficulty4Novamarines" value="Captain"/>
+	<entry name="Difficulty5Novamarines" value="Captain+"/>
+	<entry name="Difficulty6Novamarines" value="Chapter-Master-"/>
+	<entry name="Difficulty7Novamarines" value="Chapter-Master"/>
+	<entry name="Difficulty8Novamarines" value="Primarch-"/>
+	<entry name="Difficulty9Novamarines" value="Primarch"/>
+	<entry name="Difficulty10Novamarines" value="Emperor-"/>
+	<entry name="Difficulty11Novamarines" value="Emperor"/>
+	<entry name="Difficulty12Novamarines" value="Emperor+"/>
+    <!-- Exorcists -->
+	<entry name="Difficulty0Exorcists" value="Neophyte"/>
+	<entry name="Difficulty1Exorcists" value="Battle-Brother"/>
+	<entry name="Difficulty2Exorcists" value="Sergeant"/>
+	<entry name="Difficulty3Exorcists" value="Captain-"/>
+	<entry name="Difficulty4Exorcists" value="Captain"/>
+	<entry name="Difficulty5Exorcists" value="Captain+"/>
+	<entry name="Difficulty6Exorcists" value="Chapter-Master-"/>
+	<entry name="Difficulty7Exorcists" value="Chapter-Master"/>
+	<entry name="Difficulty8Exorcists" value="Primarch-"/>
+	<entry name="Difficulty9Exorcists" value="Primarch"/>
+	<entry name="Difficulty10Exorcists" value="Emperor-"/>
+	<entry name="Difficulty11Exorcists" value="Emperor"/>
+	<entry name="Difficulty12Exorcists" value="Emperor+"/>
+    <!-- Crimson Fists -->
+	<entry name="Difficulty0CrimsonFists" value="Neophyte"/>
+	<entry name="Difficulty1CrimsonFists" value="Battle-Brother"/>
+	<entry name="Difficulty2CrimsonFists" value="Sergeant"/>
+	<entry name="Difficulty3CrimsonFists" value="Captain-"/>
+	<entry name="Difficulty4CrimsonFists" value="Captain"/>
+	<entry name="Difficulty5CrimsonFists" value="Captain+"/>
+	<entry name="Difficulty6CrimsonFists" value="Chapter-Master-"/>
+	<entry name="Difficulty7CrimsonFists" value="Chapter-Master"/>
+	<entry name="Difficulty8CrimsonFists" value="Primarch-"/>
+	<entry name="Difficulty9CrimsonFists" value="Primarch"/>
+	<entry name="Difficulty10CrimsonFists" value="Emperor-"/>
+	<entry name="Difficulty11CrimsonFists" value="Emperor"/>
+	<entry name="Difficulty12CrimsonFists" value="Emperor+"/>
+    <!-- Space Wolves -->
+	<entry name="Difficulty0SpaceWolves" value="Neophyte"/>
+	<entry name="Difficulty1SpaceWolves" value="Battle-Brother"/>
+	<entry name="Difficulty2SpaceWolves" value="Sergeant"/>
+	<entry name="Difficulty3SpaceWolves" value="Captain-"/>
+	<entry name="Difficulty4SpaceWolves" value="Captain"/>
+	<entry name="Difficulty5SpaceWolves" value="Captain+"/>
+	<entry name="Difficulty6SpaceWolves" value="Chapter-Master-"/>
+	<entry name="Difficulty7SpaceWolves" value="Chapter-Master"/>
+	<entry name="Difficulty8SpaceWolves" value="Primarch-"/>
+	<entry name="Difficulty9SpaceWolves" value="Primarch"/>
+	<entry name="Difficulty10SpaceWolves" value="Emperor-"/>
+	<entry name="Difficulty11SpaceWolves" value="Emperor"/>
+	<entry name="Difficulty12SpaceWolves" value="Emperor+"/>
+    <!-- Dark Angels -->
+	<entry name="Difficulty0DarkAngels" value="Neophyte"/>
+	<entry name="Difficulty1DarkAngels" value="Battle-Brother"/>
+	<entry name="Difficulty2DarkAngels" value="Sergeant"/>
+	<entry name="Difficulty3DarkAngels" value="Captain-"/>
+	<entry name="Difficulty4DarkAngels" value="Captain"/>
+	<entry name="Difficulty5DarkAngels" value="Captain+"/>
+	<entry name="Difficulty6DarkAngels" value="Chapter-Master-"/>
+	<entry name="Difficulty7DarkAngels" value="Chapter-Master"/>
+	<entry name="Difficulty8DarkAngels" value="Primarch-"/>
+	<entry name="Difficulty9DarkAngels" value="Primarch"/>
+	<entry name="Difficulty10DarkAngels" value="Emperor-"/>
+	<entry name="Difficulty11DarkAngels" value="Emperor"/>
+	<entry name="Difficulty12DarkAngels" value="Emperor+"/>
+    <!-- Blood Angels -->
+	<entry name="Difficulty0BloodAngels" value="Neophyte"/>
+	<entry name="Difficulty1BloodAngels" value="Battle-Brother"/>
+	<entry name="Difficulty2BloodAngels" value="Sergeant"/>
+	<entry name="Difficulty3BloodAngels" value="Captain-"/>
+	<entry name="Difficulty4BloodAngels" value="Captain"/>
+	<entry name="Difficulty5BloodAngels" value="Captain+"/>
+	<entry name="Difficulty6BloodAngels" value="Chapter-Master-"/>
+	<entry name="Difficulty7BloodAngels" value="Chapter-Master"/>
+	<entry name="Difficulty8BloodAngels" value="Primarch-"/>
+	<entry name="Difficulty9BloodAngels" value="Primarch"/>
+	<entry name="Difficulty10BloodAngels" value="Emperor-"/>
+	<entry name="Difficulty11BloodAngels" value="Emperor"/>
+	<entry name="Difficulty12BloodAngels" value="Emperor+"/>
+    <!-- Deathwatch -->
+	<entry name="Difficulty0Deathwatch" value="Neophyte"/>
+	<entry name="Difficulty1Deathwatch" value="Battle-Brother"/>
+	<entry name="Difficulty2Deathwatch" value="Sergeant"/>
+	<entry name="Difficulty3Deathwatch" value="Captain-"/>
+	<entry name="Difficulty4Deathwatch" value="Captain"/>
+	<entry name="Difficulty5Deathwatch" value="Captain+"/>
+	<entry name="Difficulty6Deathwatch" value="Chapter-Master-"/>
+	<entry name="Difficulty7Deathwatch" value="Chapter-Master"/>
+	<entry name="Difficulty8Deathwatch" value="Primarch-"/>
+	<entry name="Difficulty9Deathwatch" value="Primarch"/>
+	<entry name="Difficulty10Deathwatch" value="Emperor-"/>
+	<entry name="Difficulty11Deathwatch" value="Emperor"/>
+	<entry name="Difficulty12Deathwatch" value="Emperor+"/>
+
+	<!-- ============================= -->
+	<!-- DexGattaca -->
+	<!-- ============================= -->
+    <!-- Iron Hands -->
+	<entry name="Difficulty0IronHands" value="Neophyte"/>
+	<entry name="Difficulty1IronHands" value="Battle-Brother"/>
+	<entry name="Difficulty2IronHands" value="Sergeant"/>
+	<entry name="Difficulty3IronHands" value="Captain-"/>
+	<entry name="Difficulty4IronHands" value="Captain"/>
+	<entry name="Difficulty5IronHands" value="Captain+"/>
+	<entry name="Difficulty6IronHands" value="Chapter-Master-"/>
+	<entry name="Difficulty7IronHands" value="Chapter-Master"/>
+	<entry name="Difficulty8IronHands" value="Primarch-"/>
+	<entry name="Difficulty9IronHands" value="Primarch"/>
+	<entry name="Difficulty10IronHands" value="Emperor-"/>
+	<entry name="Difficulty11IronHands" value="Emperor"/>
+	<entry name="Difficulty12IronHands" value="Emperor+"/>
+
+	<!-- Farsight Enclaves -->
+	<entry name="Difficulty0FarsightEnclaves" value="Gue’vesa"/>
+	<entry name="Difficulty1FarsightEnclaves" value="Shas‘saal"/>
+	<entry name="Difficulty2FarsightEnclaves" value="Shas‘la"/>
+	<entry name="Difficulty3FarsightEnclaves" value="Shas‘ui-"/>
+	<entry name="Difficulty4FarsightEnclaves" value="Shas‘ui"/>
+	<entry name="Difficulty5FarsightEnclaves" value="Shas‘ui+"/>
+	<entry name="Difficulty6FarsightEnclaves" value="Shas‘vre-"/>
+	<entry name="Difficulty7FarsightEnclaves" value="Shas‘vre"/>
+	<entry name="Difficulty8FarsightEnclaves" value="Shas‘el-"/>
+	<entry name="Difficulty9FarsightEnclaves" value="Shas‘el"/>
+	<entry name="Difficulty10FarsightEnclaves" value="Commander Farsight-"/>
+	<entry name="Difficulty11FarsightEnclaves" value="Commander Farsight"/>
+	<entry name="Difficulty12FarsightEnclaves" value="Commander Farsight+"/>
+
+	<!-- Chapter Approved: White Scars -->
+	<entry name="Difficulty0CA_WhiteScars" value="Neophyte"/>
+	<entry name="Difficulty1CA_WhiteScars" value="Battle-Brother"/>
+	<entry name="Difficulty2CA_WhiteScars" value="Sergeant"/>
+	<entry name="Difficulty3CA_WhiteScars" value="Captain-"/>
+	<entry name="Difficulty4CA_WhiteScars" value="Captain"/>
+	<entry name="Difficulty5CA_WhiteScars" value="Captain+"/>
+	<entry name="Difficulty6CA_WhiteScars" value="Chapter Master-"/>
+	<entry name="Difficulty7CA_WhiteScars" value="Chapter Master"/>
+	<entry name="Difficulty8CA_WhiteScars" value="Primarch-"/>
+	<entry name="Difficulty9CA_WhiteScars" value="Primarch"/>
+	<entry name="Difficulty10CA_WhiteScars" value="Emperor-"/>
+	<entry name="Difficulty11CA_WhiteScars" value="Emperor"/>
+	<entry name="Difficulty12CA_WhiteScars" value="Emperor+"/>
+
+	<!-- ============================= -->
+	<!-- Reinforcements -->
+	<!-- ============================= -->
+	<!-- Traitor Legions -->
+	<entry name="Difficulty0ChaosDaemons_MT" value="Cultist"/>
+	<entry name="Difficulty1ChaosDaemons_MT" value="Spawn"/>
+	<entry name="Difficulty2ChaosDaemons_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3ChaosDaemons_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4ChaosDaemons_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5ChaosDaemons_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6ChaosDaemons_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7ChaosDaemons_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8ChaosDaemons_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9ChaosDaemons_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10ChaosDaemons_MT" value="Dark God-"/>
+	<entry name="Difficulty11ChaosDaemons_MT" value="Dark God"/>
+	<entry name="Difficulty12ChaosDaemons_MT" value="Dark God+"/>
+	<entry name="Difficulty0AlphaLegion_MT" value="Cultist"/>
+	<entry name="Difficulty1AlphaLegion_MT" value="Spawn"/>
+	<entry name="Difficulty2AlphaLegion_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3AlphaLegion_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4AlphaLegion_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5AlphaLegion_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6AlphaLegion_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7AlphaLegion_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8AlphaLegion_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9AlphaLegion_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10AlphaLegion_MT" value="Dark God-"/>
+	<entry name="Difficulty11AlphaLegion_MT" value="Dark God"/>
+	<entry name="Difficulty12AlphaLegion_MT" value="Dark God+"/>
+	<entry name="Difficulty0NightLords_MT" value="Cultist"/>
+	<entry name="Difficulty1NightLords_MT" value="Spawn"/>
+	<entry name="Difficulty2NightLords_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3NightLords_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4NightLords_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5NightLords_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6NightLords_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7NightLords_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8NightLords_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9NightLords_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10NightLords_MT" value="Dark God-"/>
+	<entry name="Difficulty11NightLords_MT" value="Dark God"/>
+	<entry name="Difficulty12NightLords_MT" value="Dark God+"/>
+	<entry name="Difficulty0WordBearers_MT" value="Cultist"/>
+	<entry name="Difficulty1WordBearers_MT" value="Spawn"/>
+	<entry name="Difficulty2WordBearers_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3WordBearers_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4WordBearers_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5WordBearers_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6WordBearers_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7WordBearers_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8WordBearers_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9WordBearers_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10WordBearers_MT" value="Dark God-"/>
+	<entry name="Difficulty11WordBearers_MT" value="Dark God"/>
+	<entry name="Difficulty12WordBearers_MT" value="Dark God+"/>
+	<entry name="Difficulty0EmperorsChildren_MT" value="Cultist"/>
+	<entry name="Difficulty1EmperorsChildren_MT" value="Spawn"/>
+	<entry name="Difficulty2EmperorsChildren_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3EmperorsChildren_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4EmperorsChildren_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5EmperorsChildren_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6EmperorsChildren_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7EmperorsChildren_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8EmperorsChildren_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9EmperorsChildren_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10EmperorsChildren_MT" value="Dark God-"/>
+	<entry name="Difficulty11EmperorsChildren_MT" value="Dark God"/>
+	<entry name="Difficulty12EmperorsChildren_MT" value="Dark God+"/>
+	<entry name="Difficulty0Deathguard" value="Cultist"/>
+	<entry name="Difficulty1Deathguard" value="Spawn"/>
+	<entry name="Difficulty2Deathguard" value="Fallen Brother"/>
+	<entry name="Difficulty3Deathguard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4Deathguard" value="Champion of Chaos"/>
+	<entry name="Difficulty5Deathguard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6Deathguard" value="Chaos Lord-"/>
+	<entry name="Difficulty7Deathguard" value="Chaos Lord"/>
+	<entry name="Difficulty8Deathguard" value="Daemon Prince-"/>
+	<entry name="Difficulty9Deathguard" value="Daemon Prince"/>
+	<entry name="Difficulty10Deathguard" value="Dark God-"/>
+	<entry name="Difficulty11Deathguard" value="Dark God"/>
+	<entry name="Difficulty12Deathguard" value="Dark God+"/>
+	<entry name="Difficulty0IronWarriors_MT" value="Cultist"/>
+	<entry name="Difficulty1IronWarriors_MT" value="Spawn"/>
+	<entry name="Difficulty2IronWarriors_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3IronWarriors_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4IronWarriors_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5IronWarriors_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6IronWarriors_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7IronWarriors_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8IronWarriors_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9IronWarriors_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10IronWarriors_MT" value="Dark God-"/>
+	<entry name="Difficulty11IronWarriors_MT" value="Dark God"/>
+	<entry name="Difficulty12IronWarriors_MT" value="Dark God+"/>
+	<entry name="Difficulty0WorldEaters_MT" value="Cultist"/>
+	<entry name="Difficulty1WorldEaters_MT" value="Spawn"/>
+	<entry name="Difficulty2WorldEaters_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3WorldEaters_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4WorldEaters_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5WorldEaters_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6WorldEaters_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7WorldEaters_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8WorldEaters_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9WorldEaters_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10WorldEaters_MT" value="Dark God-"/>
+	<entry name="Difficulty11WorldEaters_MT" value="Dark God"/>
+	<entry name="Difficulty12WorldEaters_MT" value="Dark God+"/>
+	<entry name="Difficulty0ThousandSons_MT" value="Cultist"/>
+	<entry name="Difficulty1ThousandSons_MT" value="Spawn"/>
+	<entry name="Difficulty2ThousandSons_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3ThousandSons_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4ThousandSons_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5ThousandSons_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6ThousandSons_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7ThousandSons_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8ThousandSons_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9ThousandSons_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10ThousandSons_MT" value="Dark God-"/>
+	<entry name="Difficulty11ThousandSons_MT" value="Dark God"/>
+	<entry name="Difficulty12ThousandSons_MT" value="Dark God+"/>
+	<!-- Loyalist Astartes -->
+	<entry name="Difficulty0Ravenguard_MT" value="Neophyte"/>
+	<entry name="Difficulty1Ravenguard_MT" value="Battle-Brother"/>
+	<entry name="Difficulty2Ravenguard_MT" value="Sergeant"/>
+	<entry name="Difficulty3Ravenguard_MT" value="Captain-"/>
+	<entry name="Difficulty4Ravenguard_MT" value="Captain"/>
+	<entry name="Difficulty5Ravenguard_MT" value="Captain+"/>
+	<entry name="Difficulty6Ravenguard_MT" value="Chapter-Master-"/>
+	<entry name="Difficulty7Ravenguard_MT" value="Chapter-Master"/>
+	<entry name="Difficulty8Ravenguard_MT" value="Primarch-"/>
+	<entry name="Difficulty9Ravenguard_MT" value="Primarch"/>
+	<entry name="Difficulty10Ravenguard_MT" value="Emperor-"/>
+	<entry name="Difficulty11Ravenguard_MT" value="Emperor"/>
+	<entry name="Difficulty12Ravenguard_MT" value="Emperor+"/>
+	<entry name="Difficulty0GreyKnights_MT" value="Neophyte"/>
+	<entry name="Difficulty1GreyKnights_MT" value="Battle-Brother"/>
+	<entry name="Difficulty2GreyKnights_MT" value="Sergeant"/>
+	<entry name="Difficulty3GreyKnights_MT" value="Captain-"/>
+	<entry name="Difficulty4GreyKnights_MT" value="Captain"/>
+	<entry name="Difficulty5GreyKnights_MT" value="Captain+"/>
+	<entry name="Difficulty6GreyKnights_MT" value="Chapter-Master-"/>
+	<entry name="Difficulty7GreyKnights_MT" value="Chapter-Master"/>
+	<entry name="Difficulty8GreyKnights_MT" value="Primarch-"/>
+	<entry name="Difficulty9GreyKnights_MT" value="Primarch"/>
+	<entry name="Difficulty10GreyKnights_MT" value="Emperor-"/>
+	<entry name="Difficulty11GreyKnights_MT" value="Emperor"/>
+	<entry name="Difficulty12GreyKnights_MT" value="Emperor+"/>
+	<entry name="Difficulty0ImperialFists_MT" value="Neophyte"/>
+	<entry name="Difficulty1ImperialFists_MT" value="Battle-Brother"/>
+	<entry name="Difficulty2ImperialFists_MT" value="Sergeant"/>
+	<entry name="Difficulty3ImperialFists_MT" value="Captain-"/>
+	<entry name="Difficulty4ImperialFists_MT" value="Captain"/>
+	<entry name="Difficulty5ImperialFists_MT" value="Captain+"/>
+	<entry name="Difficulty6ImperialFists_MT" value="Chapter-Master-"/>
+	<entry name="Difficulty7ImperialFists_MT" value="Chapter-Master"/>
+	<entry name="Difficulty8ImperialFists_MT" value="Primarch-"/>
+	<entry name="Difficulty9ImperialFists_MT" value="Primarch"/>
+	<entry name="Difficulty10ImperialFists_MT" value="Emperor-"/>
+	<entry name="Difficulty11ImperialFists_MT" value="Emperor"/>
+	<entry name="Difficulty12ImperialFists_MT" value="Emperor+"/>
+	<!-- The rest i guess xdd -->
+	<entry name="Difficulty0AdeptusCustodes_MT" value="Neophyte"/>
+	<entry name="Difficulty1AdeptusCustodes_MT" value="Battle-Brother"/>
+	<entry name="Difficulty2AdeptusCustodes_MT" value="Sergeant"/>
+	<entry name="Difficulty3AdeptusCustodes_MT" value="Captain-"/>
+	<entry name="Difficulty4AdeptusCustodes_MT" value="Captain"/>
+	<entry name="Difficulty5AdeptusCustodes_MT" value="Captain+"/>
+	<entry name="Difficulty6AdeptusCustodes_MT" value="Chapter-Master-"/>
+	<entry name="Difficulty7AdeptusCustodes_MT" value="Chapter-Master"/>
+	<entry name="Difficulty8AdeptusCustodes_MT" value="Primarch-"/>
+	<entry name="Difficulty9AdeptusCustodes_MT" value="Primarch"/>
+	<entry name="Difficulty10AdeptusCustodes_MT" value="Emperor-"/>
+	<entry name="Difficulty11AdeptusCustodes_MT" value="Emperor"/>
+	<entry name="Difficulty12AdeptusCustodes_MT" value="Emperor+"/>
+	<entry name="Difficulty0AdeptusTitanicus" value="Adsecularis"/>
+	<entry name="Difficulty1AdeptusTitanicus" value="Servitor"/>
+	<entry name="Difficulty2AdeptusTitanicus" value="Enginseer"/>
+	<entry name="Difficulty3AdeptusTitanicus" value="Magos-"/>
+	<entry name="Difficulty4AdeptusTitanicus" value="Magos"/>
+	<entry name="Difficulty5AdeptusTitanicus" value="Magos+"/>
+	<entry name="Difficulty6AdeptusTitanicus" value="Fabricator Locum-"/>
+	<entry name="Difficulty7AdeptusTitanicus" value="Fabricator Locum"/>
+	<entry name="Difficulty8AdeptusTitanicus" value="Fabricator General-"/>
+	<entry name="Difficulty9AdeptusTitanicus" value="Fabricator General"/>
+	<entry name="Difficulty10AdeptusTitanicus" value="Omnissiah-"/>
+	<entry name="Difficulty11AdeptusTitanicus" value="Omnissiah"/>
+	<entry name="Difficulty12AdeptusTitanicus" value="Omnissiah+"/>
+	<entry name="Difficulty0ChaosKnights_MT" value="Cultist"/>
+	<entry name="Difficulty1ChaosKnights_MT" value="Spawn"/>
+	<entry name="Difficulty2ChaosKnights_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3ChaosKnights_MT" value="Champion of Chaos-"/>
+	<entry name="Difficulty4ChaosKnights_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty5ChaosKnights_MT" value="Champion of Chaos+"/>
+	<entry name="Difficulty6ChaosKnights_MT" value="Chaos Lord-"/>
+	<entry name="Difficulty7ChaosKnights_MT" value="Chaos Lord"/>
+	<entry name="Difficulty8ChaosKnights_MT" value="Daemon Prince-"/>
+	<entry name="Difficulty9ChaosKnights_MT" value="Daemon Prince"/>
+	<entry name="Difficulty10ChaosKnights_MT" value="Dark God-"/>
+	<entry name="Difficulty11ChaosKnights_MT" value="Dark God"/>
+	<entry name="Difficulty12ChaosKnights_MT" value="Dark God+"/>
+	<entry name="Difficulty0DarkMechanicum" value="Adsecularis"/>
+	<entry name="Difficulty1DarkMechanicum" value="Servitor"/>
+	<entry name="Difficulty2DarkMechanicum" value="Enginseer"/>
+	<entry name="Difficulty3DarkMechanicum" value="Magos-"/>
+	<entry name="Difficulty4DarkMechanicum" value="Magos"/>
+	<entry name="Difficulty5DarkMechanicum" value="Magos+"/>
+	<entry name="Difficulty6DarkMechanicum" value="Fabricator Locum-"/>
+	<entry name="Difficulty7DarkMechanicum" value="Fabricator Locum"/>
+	<entry name="Difficulty8DarkMechanicum" value="Fabricator General-"/>
+	<entry name="Difficulty9DarkMechanicum" value="Fabricator General"/>
+	<entry name="Difficulty10DarkMechanicum" value="Omnissiah-"/>
+	<entry name="Difficulty11DarkMechanicum" value="Omnissiah"/>
+	<entry name="Difficulty12DarkMechanicum" value="Omnissiah+"/>
+	<entry name="Difficulty0Dreadheadz_MT" value="Squig"/>
+	<entry name="Difficulty1Dreadheadz_MT" value="Grot"/>
+	<entry name="Difficulty2Dreadheadz_MT" value="Boy"/>
+	<entry name="Difficulty3Dreadheadz_MT" value="Nob-"/>
+	<entry name="Difficulty4Dreadheadz_MT" value="Nob"/>
+	<entry name="Difficulty5Dreadheadz_MT" value="Nob+"/>
+	<entry name="Difficulty6Dreadheadz_MT" value="Boss-"/>
+	<entry name="Difficulty7Dreadheadz_MT" value="Boss"/>
+	<entry name="Difficulty8Dreadheadz_MT" value="Warboss-"/>
+	<entry name="Difficulty9Dreadheadz_MT" value="Warboss"/>
+	<entry name="Difficulty10Dreadheadz_MT" value="Prophet of Gork and Mork-"/>
+	<entry name="Difficulty11Dreadheadz_MT" value="Prophet of Gork and Mork"/>
+	<entry name="Difficulty12Dreadheadz_MT" value="Prophet of Gork and Mork+"/>
+	<entry name="Difficulty0Genestealers_MT" value="Conscript"/>
+	<entry name="Difficulty1Genestealers_MT" value="Guardsman"/>
+	<entry name="Difficulty2Genestealers_MT" value="Sergeant"/>
+	<entry name="Difficulty3Genestealers_MT" value="Commissar-"/>
+	<entry name="Difficulty4Genestealers_MT" value="Commissar"/>
+	<entry name="Difficulty5Genestealers_MT" value="Commissar+"/>
+	<entry name="Difficulty6Genestealers_MT" value="General-"/>
+	<entry name="Difficulty7Genestealers_MT" value="General"/>
+	<entry name="Difficulty8Genestealers_MT" value="Lord Commander-"/>
+	<entry name="Difficulty9Genestealers_MT" value="Lord Commander"/>
+	<entry name="Difficulty10Genestealers_MT" value="Warmaster-"/>
+	<entry name="Difficulty11Genestealers_MT" value="Warmaster"/>
+	<entry name="Difficulty12Genestealers_MT" value="Warmaster+"/>
+	<entry name="Difficulty0Tyranids_MT" value="Scarab"/>
+	<entry name="Difficulty1Tyranids_MT" value="Termagant"/>
+	<entry name="Difficulty2Tyranids_MT" value="Warrior"/>
+	<entry name="Difficulty3Tyranids_MT" value="Lictor-"/>
+	<entry name="Difficulty4Tyranids_MT" value="Lictor"/>
+	<entry name="Difficulty5Tyranids_MT" value="Lictor+"/>
+	<entry name="Difficulty6Tyranids_MT" value="Hive Tyrant-"/>
+	<entry name="Difficulty7Tyranids_MT" value="Hive Tyrant"/>
+	<entry name="Difficulty8Tyranids_MT" value="Dominatrix-"/>
+	<entry name="Difficulty9Tyranids_MT" value="Dominatrix"/>
+	<entry name="Difficulty10Tyranids_MT" value="Norn Queen-"/>
+	<entry name="Difficulty11Tyranids_MT" value="Norn Queen"/>
+	<entry name="Difficulty12Tyranids_MT" value="Norn Queen+"/>
+	<entry name="Difficulty0Locust_MT" value="Scarab"/>
+	<entry name="Difficulty1Locust_MT" value="Termagant"/>
+	<entry name="Difficulty2Locust_MT" value="Warrior"/>
+	<entry name="Difficulty3Locust_MT" value="Lictor-"/>
+	<entry name="Difficulty4Locust_MT" value="Lictor"/>
+	<entry name="Difficulty5Locust_MT" value="Lictor+"/>
+	<entry name="Difficulty6Locust_MT" value="Hive Tyrant-"/>
+	<entry name="Difficulty7Locust_MT" value="Hive Tyrant"/>
+	<entry name="Difficulty8Locust_MT" value="Dominatrix-"/>
+	<entry name="Difficulty9Locust_MT" value="Dominatrix"/>
+	<entry name="Difficulty10Locust_MT" value="Norn Queen-"/>
+	<entry name="Difficulty11Locust_MT" value="Norn Queen"/>
+	<entry name="Difficulty12Locust_MT" value="Norn Queen+"/>
+	<entry name="Difficulty0Tiamat_MT" value="Scarab"/>
+	<entry name="Difficulty1Tiamat_MT" value="Termagant"/>
+	<entry name="Difficulty2Tiamat_MT" value="Warrior"/>
+	<entry name="Difficulty3Tiamat_MT" value="Lictor-"/>
+	<entry name="Difficulty4Tiamat_MT" value="Lictor"/>
+	<entry name="Difficulty5Tiamat_MT" value="Lictor+"/>
+	<entry name="Difficulty6Tiamat_MT" value="Hive Tyrant-"/>
+	<entry name="Difficulty7Tiamat_MT" value="Hive Tyrant"/>
+	<entry name="Difficulty8Tiamat_MT" value="Dominatrix-"/>
+	<entry name="Difficulty9Tiamat_MT" value="Dominatrix"/>
+	<entry name="Difficulty10Tiamat_MT" value="Norn Queen-"/>
+	<entry name="Difficulty11Tiamat_MT" value="Norn Queen"/>
+	<entry name="Difficulty12Tiamat_MT" value="Norn Queen+"/>
+	<entry name="Difficulty0Skaven_MT" value="Slave Rat"/>
+	<entry name="Difficulty1Skaven_MT" value="Clanrat"/>
+	<entry name="Difficulty2Skaven_MT" value="Warrior"/>
+	<entry name="Difficulty3Skaven_MT" value="Grey Seer-"/>
+	<entry name="Difficulty4Skaven_MT" value="Grey Seer"/>
+	<entry name="Difficulty5Skaven_MT" value="Grey Seer+"/>
+	<entry name="Difficulty6Skaven_MT" value="Packlord-"/>
+	<entry name="Difficulty7Skaven_MT" value="Packlord"/>
+	<entry name="Difficulty8Skaven_MT" value="Warlord-"/>
+	<entry name="Difficulty9Skaven_MT" value="Warlord"/>
+	<entry name="Difficulty10Skaven_MT" value="Lord of Decay-"/>
+	<entry name="Difficulty11Skaven_MT" value="Lord of Decay"/>
+	<entry name="Difficulty12Skaven_MT" value="Lord of Decay+"/>
+	<entry name="Difficulty0ImperialKnights_MT" value="Adsecularis"/>
+	<entry name="Difficulty1ImperialKnights_MT" value="Servitor"/>
+	<entry name="Difficulty2ImperialKnights_MT" value="Enginseer"/>
+	<entry name="Difficulty3ImperialKnights_MT" value="Magos-"/>
+	<entry name="Difficulty4ImperialKnights_MT" value="Magos"/>
+	<entry name="Difficulty5ImperialKnights_MT" value="Magos+"/>
+	<entry name="Difficulty6ImperialKnights_MT" value="Fabricator Locum-"/>
+	<entry name="Difficulty7ImperialKnights_MT" value="Fabricator Locum"/>
+	<entry name="Difficulty8ImperialKnights_MT" value="Fabricator General-"/>
+	<entry name="Difficulty9ImperialKnights_MT" value="Fabricator General"/>
+	<entry name="Difficulty10ImperialKnights_MT" value="Omnissiah-"/>
+	<entry name="Difficulty11ImperialKnights_MT" value="Omnissiah"/>
+	<entry name="Difficulty12ImperialKnights_MT" value="Omnissiah+"/>
+
+	<!-- ============================= -->
+	<!-- Others -->
+	<!-- ============================= -->
+	<!-- Separatist Regiments -->
+	<entry name="Difficulty0SeparatistRegiments" value="Conscript"/>
+	<entry name="Difficulty1SeparatistRegiments" value="Guardsman"/>
+	<entry name="Difficulty2SeparatistRegiments" value="Sergeant"/>
+	<entry name="Difficulty3SeparatistRegiments" value="Commissar-"/>
+	<entry name="Difficulty4SeparatistRegiments" value="Commissar"/>
+	<entry name="Difficulty5SeparatistRegiments" value="Commissar+"/>
+	<entry name="Difficulty6SeparatistRegiments" value="General-"/>
+	<entry name="Difficulty7SeparatistRegiments" value="General"/>
+	<entry name="Difficulty8SeparatistRegiments" value="Lord Commander-"/>
+	<entry name="Difficulty9SeparatistRegiments" value="Lord Commander"/>
+	<entry name="Difficulty10SeparatistRegiments" value="Warmaster-"/>
+	<entry name="Difficulty11SeparatistRegiments" value="Warmaster"/>
+	<entry name="Difficulty12SeparatistRegiments" value="Warmaster+"/>
+	
+	<!-- Renegade Guard -->
+	<entry name="Difficulty0LostGuard" value="Traitor Guard"/>
+	<entry name="Difficulty1LostGuard" value="Spawn"/>
+	<entry name="Difficulty2LostGuard" value="Fallen Brother"/>
+	<entry name="Difficulty3LostGuard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4LostGuard" value="Champion of Chaos"/>
+	<entry name="Difficulty5LostGuard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6LostGuard" value="Chaos Lord-"/>
+	<entry name="Difficulty7LostGuard" value="Chaos Lord"/>
+	<entry name="Difficulty8LostGuard" value="Daemon Prince-"/>
+	<entry name="Difficulty9LostGuard" value="Daemon Prince"/>
+	<entry name="Difficulty10LostGuard" value="Dark God-"/>
+	<entry name="Difficulty11LostGuard" value="Dark God"/>
+	<entry name="Difficulty12LostGuard" value="Dark God+"/>
+
+	<entry name="Difficulty0ChaosGuard" value="Traitor Guard"/>
+	<entry name="Difficulty1ChaosGuard" value="Spawn"/>
+	<entry name="Difficulty2ChaosGuard" value="Fallen Brother"/>
+	<entry name="Difficulty3ChaosGuard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4ChaosGuard" value="Champion of Chaos"/>
+	<entry name="Difficulty5ChaosGuard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6ChaosGuard" value="Chaos Lord-"/>
+	<entry name="Difficulty7ChaosGuard" value="Chaos Lord"/>
+	<entry name="Difficulty8ChaosGuard" value="Daemon Prince-"/>
+	<entry name="Difficulty9ChaosGuard" value="Daemon Prince"/>
+	<entry name="Difficulty10ChaosGuard" value="Dark God-"/>
+	<entry name="Difficulty11ChaosGuard" value="Dark God"/>
+	<entry name="Difficulty12ChaosGuard" value="Dark God+"/>
+
+	<entry name="Difficulty0nurgleguard" value="Traitor Guard"/>
+	<entry name="Difficulty1nurgleguard" value="Spawn"/>
+	<entry name="Difficulty2nurgleguard" value="Fallen Brother"/>
+	<entry name="Difficulty3nurgleguard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4nurgleguard" value="Champion of Chaos"/>
+	<entry name="Difficulty5nurgleguard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6nurgleguard" value="Chaos Lord-"/>
+	<entry name="Difficulty7nurgleguard" value="Chaos Lord"/>
+	<entry name="Difficulty8nurgleguard" value="Daemon Prince-"/>
+	<entry name="Difficulty9nurgleguard" value="Daemon Prince"/>
+	<entry name="Difficulty10nurgleguard" value="Dark God-"/>
+	<entry name="Difficulty11nurgleguard" value="Dark God"/>
+	<entry name="Difficulty12nurgleguard" value="Dark God+"/>
+
+	<entry name="Difficulty0traitorguard" value="Traitor Guard"/>
+	<entry name="Difficulty1traitorguard" value="Spawn"/>
+	<entry name="Difficulty2traitorguard" value="Fallen Brother"/>
+	<entry name="Difficulty3traitorguard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4traitorguard" value="Champion of Chaos"/>
+	<entry name="Difficulty5traitorguard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6traitorguard" value="Chaos Lord-"/>
+	<entry name="Difficulty7traitorguard" value="Chaos Lord"/>
+	<entry name="Difficulty8traitorguard" value="Daemon Prince-"/>
+	<entry name="Difficulty9traitorguard" value="Daemon Prince"/>
+	<entry name="Difficulty10traitorguard" value="Dark God-"/>
+	<entry name="Difficulty11traitorguard" value="Dark God"/>
+	<entry name="Difficulty12traitorguard" value="Dark God+"/>
+
+	<entry name="Difficulty0khorneguard" value="Traitor Guard"/>
+	<entry name="Difficulty1khorneguard" value="Spawn"/>
+	<entry name="Difficulty2khorneguard" value="Fallen Brother"/>
+	<entry name="Difficulty3khorneguard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4khorneguard" value="Champion of Chaos"/>
+	<entry name="Difficulty5khorneguard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6khorneguard" value="Chaos Lord-"/>
+	<entry name="Difficulty7khorneguard" value="Chaos Lord"/>
+	<entry name="Difficulty8khorneguard" value="Daemon Prince-"/>
+	<entry name="Difficulty9khorneguard" value="Daemon Prince"/>
+	<entry name="Difficulty10khorneguard" value="Dark God-"/>
+	<entry name="Difficulty11khorneguard" value="Dark God"/>
+	<entry name="Difficulty12khorneguard" value="Dark God+"/>
+
+	<entry name="Difficulty0slaguard" value="Traitor Guard"/>
+	<entry name="Difficulty1slaguard" value="Spawn"/>
+	<entry name="Difficulty2slaguard" value="Fallen Brother"/>
+	<entry name="Difficulty3slaguard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4slaguard" value="Champion of Chaos"/>
+	<entry name="Difficulty5slaguard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6slaguard" value="Chaos Lord-"/>
+	<entry name="Difficulty7slaguard" value="Chaos Lord"/>
+	<entry name="Difficulty8slaguard" value="Daemon Prince-"/>
+	<entry name="Difficulty9slaguard" value="Daemon Prince"/>
+	<entry name="Difficulty10slaguard" value="Dark God-"/>
+	<entry name="Difficulty11slaguard" value="Dark God"/>
+	<entry name="Difficulty12slaguard" value="Dark God+"/>
+
+	<entry name="Difficulty0tzeguard" value="Traitor Guard"/>
+	<entry name="Difficulty1tzeguard" value="Spawn"/>
+	<entry name="Difficulty2tzeguard" value="Fallen Brother"/>
+	<entry name="Difficulty3tzeguard" value="Champion of Chaos-"/>
+	<entry name="Difficulty4tzeguard" value="Champion of Chaos"/>
+	<entry name="Difficulty5tzeguard" value="Champion of Chaos+"/>
+	<entry name="Difficulty6tzeguard" value="Chaos Lord-"/>
+	<entry name="Difficulty7tzeguard" value="Chaos Lord"/>
+	<entry name="Difficulty8tzeguard" value="Daemon Prince-"/>
+	<entry name="Difficulty9tzeguard" value="Daemon Prince"/>
+	<entry name="Difficulty10tzeguard" value="Dark God-"/>
+	<entry name="Difficulty11tzeguard" value="Dark God"/>
+	<entry name="Difficulty12tzeguard" value="Dark God+"/>
+</language>
