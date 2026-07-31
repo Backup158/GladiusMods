@@ -175,7 +175,89 @@
 	<!-- ============================= -->
 	<!-- Heretic Astartes -->
 	<!-- ============================= -->
+	<entry name="Difficulty0ThousandSons" value="Cultist"/>
+	<entry name="Difficulty1ThousandSons" value="Spawn"/>
+	<entry name="Difficulty2ThousandSons" value="Fallen Brother"/>
+	<entry name="Difficulty3ThousandSons" value="Champion of Chaos-"/>
+	<entry name="Difficulty4ThousandSons" value="Champion of Chaos"/>
+	<entry name="Difficulty5ThousandSons" value="Champion of Chaos+"/>
+	<entry name="Difficulty6ThousandSons" value="Chaos Lord-"/>
+	<entry name="Difficulty7ThousandSons" value="Chaos Lord"/>
+	<entry name="Difficulty8ThousandSons" value="Daemon Prince-"/>
+	<entry name="Difficulty9ThousandSons" value="Daemon Prince"/>
+	<entry name="Difficulty10ThousandSons" value="Dark God-"/>
+	<entry name="Difficulty11ThousandSons" value="Dark God"/>
+	<entry name="Difficulty12ThousandSons" value="Dark God+"/>
 
+	<entry name="Difficulty0IronWarriors" value="Cultist"/>
+	<entry name="Difficulty1IronWarriors" value="Spawn"/>
+	<entry name="Difficulty2IronWarriors" value="Fallen Brother"/>
+	<entry name="Difficulty3IronWarriors" value="Champion of Chaos-"/>
+	<entry name="Difficulty4IronWarriors" value="Champion of Chaos"/>
+	<entry name="Difficulty5IronWarriors" value="Champion of Chaos+"/>
+	<entry name="Difficulty6IronWarriors" value="Chaos Lord-"/>
+	<entry name="Difficulty7IronWarriors" value="Chaos Lord"/>
+	<entry name="Difficulty8IronWarriors" value="Daemon Prince-"/>
+	<entry name="Difficulty9IronWarriors" value="Daemon Prince"/>
+	<entry name="Difficulty10IronWarriors" value="Dark God-"/>
+	<entry name="Difficulty11IronWarriors" value="Dark God"/>
+	<entry name="Difficulty12IronWarriors" value="Dark God+"/>
+
+	<entry name="Difficulty0EmperorsChildren" value="Cultist"/>
+	<entry name="Difficulty1EmperorsChildren" value="Spawn"/>
+	<entry name="Difficulty2EmperorsChildren" value="Fallen Brother"/>
+	<entry name="Difficulty3EmperorsChildren" value="Champion of Chaos-"/>
+	<entry name="Difficulty4EmperorsChildren" value="Champion of Chaos"/>
+	<entry name="Difficulty5EmperorsChildren" value="Champion of Chaos+"/>
+	<entry name="Difficulty6EmperorsChildren" value="Chaos Lord-"/>
+	<entry name="Difficulty7EmperorsChildren" value="Chaos Lord"/>
+	<entry name="Difficulty8EmperorsChildren" value="Daemon Prince-"/>
+	<entry name="Difficulty9EmperorsChildren" value="Daemon Prince"/>
+	<entry name="Difficulty10EmperorsChildren" value="Dark God-"/>
+	<entry name="Difficulty11EmperorsChildren" value="Dark God"/>
+	<entry name="Difficulty12EmperorsChildren" value="Dark God+"/>
+
+	<entry name="Difficulty0BlackLegion" value="Cultist"/>
+	<entry name="Difficulty1BlackLegion" value="Spawn"/>
+	<entry name="Difficulty2BlackLegion" value="Fallen Brother"/>
+	<entry name="Difficulty3BlackLegion" value="Champion of Chaos-"/>
+	<entry name="Difficulty4BlackLegion" value="Champion of Chaos"/>
+	<entry name="Difficulty5BlackLegion" value="Champion of Chaos+"/>
+	<entry name="Difficulty6BlackLegion" value="Chaos Lord-"/>
+	<entry name="Difficulty7BlackLegion" value="Chaos Lord"/>
+	<entry name="Difficulty8BlackLegion" value="Daemon Prince-"/>
+	<entry name="Difficulty9BlackLegion" value="Daemon Prince"/>
+	<entry name="Difficulty10BlackLegion" value="Dark God-"/>
+	<entry name="Difficulty11BlackLegion" value="Dark God"/>
+	<entry name="Difficulty12BlackLegion" value="Dark God+"/>
+
+	<entry name="Difficulty0WorldEaters" value="Cultist"/>
+	<entry name="Difficulty1WorldEaters" value="Spawn"/>
+	<entry name="Difficulty2WorldEaters" value="Fallen Brother"/>
+	<entry name="Difficulty3WorldEaters" value="Champion of Chaos-"/>
+	<entry name="Difficulty4WorldEaters" value="Champion of Chaos"/>
+	<entry name="Difficulty5WorldEaters" value="Champion of Chaos+"/>
+	<entry name="Difficulty6WorldEaters" value="Chaos Lord-"/>
+	<entry name="Difficulty7WorldEaters" value="Chaos Lord"/>
+	<entry name="Difficulty8WorldEaters" value="Daemon Prince-"/>
+	<entry name="Difficulty9WorldEaters" value="Daemon Prince"/>
+	<entry name="Difficulty10WorldEaters" value="Dark God-"/>
+	<entry name="Difficulty11WorldEaters" value="Dark God"/>
+	<entry name="Difficulty12WorldEaters" value="Dark God+"/>
+
+	<entry name="Difficulty0AlphaLegion" value="Cultist"/>
+	<entry name="Difficulty1AlphaLegion" value="Spawn"/>
+	<entry name="Difficulty2AlphaLegion" value="Fallen Brother"/>
+	<entry name="Difficulty3AlphaLegion" value="Champion of Chaos-"/>
+	<entry name="Difficulty4AlphaLegion" value="Champion of Chaos"/>
+	<entry name="Difficulty5AlphaLegion" value="Champion of Chaos+"/>
+	<entry name="Difficulty6AlphaLegion" value="Chaos Lord-"/>
+	<entry name="Difficulty7AlphaLegion" value="Chaos Lord"/>
+	<entry name="Difficulty8AlphaLegion" value="Daemon Prince-"/>
+	<entry name="Difficulty9AlphaLegion" value="Daemon Prince"/>
+	<entry name="Difficulty10AlphaLegion" value="Dark God-"/>
+	<entry name="Difficulty11AlphaLegion" value="Dark God"/>
+	<entry name="Difficulty12AlphaLegion" value="Dark God+"/>
 
 	<!-- ============================= -->
 	<!-- Children of Asuryan -->
