@@ -173,6 +173,84 @@
 	<entry name="Difficulty12Deathwatch" value="Emperor+"/>
 
 	<!-- ============================= -->
+	<!-- Heretic Astartes -->
+	<!-- ============================= -->
+
+
+	<!-- ============================= -->
+	<!-- Children of Asuryan -->
+	<!-- ============================= -->
+	<entry name="Difficulty0Alaitoc" value="Guardian"/>
+	<entry name="Difficulty1Alaitoc" value="Aspect Warrior"/>
+	<entry name="Difficulty2Alaitoc" value="Ranger"/>
+	<entry name="Difficulty3Alaitoc" value="Exarch-"/>
+	<entry name="Difficulty4Alaitoc" value="Exarch"/>
+	<entry name="Difficulty5Alaitoc" value="Exarch+"/>
+	<entry name="Difficulty6Alaitoc" value="Autarch-"/>
+	<entry name="Difficulty7Alaitoc" value="Autarch"/>
+	<entry name="Difficulty8Alaitoc" value="Farseer-"/>
+	<entry name="Difficulty9Alaitoc" value="Farseer"/>
+	<entry name="Difficulty10Alaitoc" value="Avatar-"/>
+	<entry name="Difficulty11Alaitoc" value="Avatar"/>
+	<entry name="Difficulty12Alaitoc" value="Avatar+"/>
+
+	<entry name="Difficulty0Biel-Tan" value="Guardian"/>
+	<entry name="Difficulty1Biel-Tan" value="Aspect Warrior"/>
+	<entry name="Difficulty2Biel-Tan" value="Ranger"/>
+	<entry name="Difficulty3Biel-Tan" value="Exarch-"/>
+	<entry name="Difficulty4Biel-Tan" value="Exarch"/>
+	<entry name="Difficulty5Biel-Tan" value="Exarch+"/>
+	<entry name="Difficulty6Biel-Tan" value="Autarch-"/>
+	<entry name="Difficulty7Biel-Tan" value="Autarch"/>
+	<entry name="Difficulty8Biel-Tan" value="Farseer-"/>
+	<entry name="Difficulty9Biel-Tan" value="Farseer"/>
+	<entry name="Difficulty10Biel-Tan" value="Avatar-"/>
+	<entry name="Difficulty11Biel-Tan" value="Avatar"/>
+	<entry name="Difficulty12Biel-Tan" value="Avatar+"/>
+	
+	<entry name="Difficulty0Iyanden" value="Guardian"/>
+	<entry name="Difficulty1Iyanden" value="Aspect Warrior"/>
+	<entry name="Difficulty2Iyanden" value="Ranger"/>
+	<entry name="Difficulty3Iyanden" value="Exarch-"/>
+	<entry name="Difficulty4Iyanden" value="Exarch"/>
+	<entry name="Difficulty5Iyanden" value="Exarch+"/>
+	<entry name="Difficulty6Iyanden" value="Autarch-"/>
+	<entry name="Difficulty7Iyanden" value="Autarch"/>
+	<entry name="Difficulty8Iyanden" value="Farseer-"/>
+	<entry name="Difficulty9Iyanden" value="Farseer"/>
+	<entry name="Difficulty10Iyanden" value="Avatar-"/>
+	<entry name="Difficulty11Iyanden" value="Avatar"/>
+	<entry name="Difficulty12Iyanden" value="Avatar+"/>
+	
+	<entry name="Difficulty0Yme-Loc" value="Guardian"/>
+	<entry name="Difficulty1Yme-Loc" value="Aspect Warrior"/>
+	<entry name="Difficulty2Yme-Loc" value="Ranger"/>
+	<entry name="Difficulty3Yme-Loc" value="Exarch-"/>
+	<entry name="Difficulty4Yme-Loc" value="Exarch"/>
+	<entry name="Difficulty5Yme-Loc" value="Exarch+"/>
+	<entry name="Difficulty6Yme-Loc" value="Autarch-"/>
+	<entry name="Difficulty7Yme-Loc" value="Autarch"/>
+	<entry name="Difficulty8Yme-Loc" value="Farseer-"/>
+	<entry name="Difficulty9Yme-Loc" value="Farseer"/>
+	<entry name="Difficulty10Yme-Loc" value="Avatar-"/>
+	<entry name="Difficulty11Yme-Loc" value="Avatar"/>
+	<entry name="Difficulty12Yme-Loc" value="Avatar+"/>
+	
+	<entry name="Difficulty0Ulthwé" value="Guardian"/>
+	<entry name="Difficulty1Ulthwé" value="Aspect Warrior"/>
+	<entry name="Difficulty2Ulthwé" value="Ranger"/>
+	<entry name="Difficulty3Ulthwé" value="Exarch-"/>
+	<entry name="Difficulty4Ulthwé" value="Exarch"/>
+	<entry name="Difficulty5Ulthwé" value="Exarch+"/>
+	<entry name="Difficulty6Ulthwé" value="Autarch-"/>
+	<entry name="Difficulty7Ulthwé" value="Autarch"/>
+	<entry name="Difficulty8Ulthwé" value="Farseer-"/>
+	<entry name="Difficulty9Ulthwé" value="Farseer"/>
+	<entry name="Difficulty10Ulthwé" value="Avatar-"/>
+	<entry name="Difficulty11Ulthwé" value="Avatar"/>
+	<entry name="Difficulty12Ulthwé" value="Avatar+"/>
+
+	<!-- ============================= -->
 	<!-- DexGattaca -->
 	<!-- ============================= -->
     <!-- Iron Hands -->
